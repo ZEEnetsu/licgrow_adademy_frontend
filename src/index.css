@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background-color: #ffffff;
+  color: #4a4a68;
+  font-family: "DM Sans", "Google Sans", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: rgba(46, 191, 138, 0.25);
+  color: #1a1a2e;
+}
+
+.grain-overlay {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.mesh-green {
+  background-image:
+    radial-gradient(ellipse 80% 60% at 10% 20%, rgba(46, 191, 138, 0.14), transparent 55%),
+    radial-gradient(ellipse 70% 50% at 90% 80%, rgba(86, 207, 225, 0.12), transparent 50%),
+    radial-gradient(ellipse 50% 40% at 50% 100%, rgba(46, 191, 138, 0.08), transparent 45%);
+}
+
+/* Mentor section — diagonal stripe texture + achievement strip dividers */
+.mentor-block1-stripes {
+  background-color: #f0fbf7;
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 14px,
+    rgba(13, 158, 115, 0.04) 14px,
+    rgba(13, 158, 115, 0.04) 16px
+  );
+}
+
+.mentor-ach-strip {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.mentor-ach-strip > * {
+  border-right: 1px solid #0d9e73;
+  border-bottom: 1px solid #0d9e73;
+}
+
+.mentor-ach-strip > *:nth-child(2n) {
+  border-right: none;
+}
+
+@media (min-width: 1024px) {
+  .mentor-ach-strip {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .mentor-ach-strip > * {
+    border-bottom: none;
+    border-right: 1px solid #0d9e73;
+  }
+
+  .mentor-ach-strip > *:nth-child(2n) {
+    border-right: 1px solid #0d9e73;
+  }
+
+  .mentor-ach-strip > *:last-child {
+    border-right: none;
+  }
+}
+
+.mentor-quote-mesh {
+  background-color: #0d9e73;
+  background-image:
+    radial-gradient(ellipse 90% 70% at 15% 25%, rgba(168, 240, 220, 0.22), transparent 55%),
+    radial-gradient(ellipse 65% 55% at 88% 75%, rgba(86, 207, 225, 0.14), transparent 50%),
+    radial-gradient(ellipse 50% 45% at 50% 100%, rgba(13, 122, 90, 0.35), transparent 52%);
+}
+
+.mentor-ach-hover-fill::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  transform: scaleY(0);
+  transform-origin: bottom center;
+  transition: transform 0.38s cubic-bezier(0.4, 0, 0.2, 1);
+  background: linear-gradient(to top, #0d9e73, #0d9e73);
+}
+
+.mentor-ach-hover-fill:hover::after {
+  transform: scaleY(1);
+}
