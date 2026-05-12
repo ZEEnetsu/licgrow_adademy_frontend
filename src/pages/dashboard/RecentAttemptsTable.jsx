@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 import { formatDateLong } from './formatters.js';
 import { shadow, EASE, transitionHover } from './styles.js';
@@ -12,12 +13,12 @@ export default function RecentAttemptsTable({ attempts }) {
         <h2 className="text-[0.65rem] font-semibold uppercase tracking-[0.16em] text-[#64748B]">
           Recent Mock Tests
         </h2>
-        <button
-          type="button"
+        <Link
+          to="/mock-tests"
           className={`text-[0.75rem] font-semibold text-[#2EBF8A] ${transitionHover} hover:text-[#56CFE1] hover:underline`}
         >
           View All →
-        </button>
+        </Link>
       </div>
 
       <div className="hidden overflow-x-auto md:block">
@@ -69,7 +70,7 @@ export default function RecentAttemptsTable({ attempts }) {
                         : 'border-[#F43F5E]/20 bg-[#F43F5E]/10 text-[#F43F5E]'
                     }`}
                   >
-                    {row.percentage.toFixed(1)}%
+                    {Number(row.percentage ?? 0).toFixed(1)}%
                   </span>
                 </td>
                 <td className="px-4 py-3">
@@ -85,12 +86,12 @@ export default function RecentAttemptsTable({ attempts }) {
                 </td>
                 <td className="px-4 py-3 text-[#64748B]">{formatDateLong(row.submittedAt)}</td>
                 <td className="px-4 py-3">
-                  <button
-                    type="button"
+                  <Link
+                    to={`/mock-tests/${encodeURIComponent(row.testId)}/result?attempt=${encodeURIComponent(row.attemptId)}`}
                     className={`font-semibold text-[#2EBF8A] underline-offset-4 ${transitionHover} hover:text-[#56CFE1] hover:underline`}
                   >
                     View Result
-                  </button>
+                  </Link>
                 </td>
               </motion.tr>
             ))}
@@ -120,15 +121,15 @@ export default function RecentAttemptsTable({ attempts }) {
                     : 'border-[#F43F5E]/20 bg-[#F43F5E]/10 text-[#F43F5E]'
                 }`}
               >
-                {row.percentage.toFixed(1)}%
+                {Number(row.percentage ?? 0).toFixed(1)}%
               </span>
             </p>
-            <button
-              type="button"
-              className={`mt-3 font-semibold text-[#2EBF8A] ${transitionHover} hover:text-[#56CFE1] hover:underline`}
+            <Link
+              to={`/mock-tests/${encodeURIComponent(row.testId)}/result?attempt=${encodeURIComponent(row.attemptId)}`}
+              className={`mt-3 inline-flex font-semibold text-[#2EBF8A] ${transitionHover} hover:text-[#56CFE1] hover:underline`}
             >
               View Result
-            </button>
+            </Link>
           </motion.li>
         ))}
       </ul>

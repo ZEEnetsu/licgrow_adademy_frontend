@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import { useCheckEnrollmentStatusQuery } from '../store/apiSlice.js';
+import { useCheckEnrollmentStatusQuery } from '../store/api/index.js';
 import { Card } from '../components/shared';
 
 const PendingApproval = () => {

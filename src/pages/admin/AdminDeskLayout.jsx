@@ -1,45 +1,53 @@
 import { useCallback, useMemo, useState } from 'react';
-import { Outlet } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 
-import Sidebar from '../../pages/dashboard/Sidebar.jsx';
-import TopBar from '../../pages/dashboard/TopBar.jsx';
-import NotificationsDrawer from '../../pages/dashboard/NotificationsDrawer.jsx';
+import Sidebar from '../dashboard/Sidebar.jsx';
+import TopBar from '../dashboard/TopBar.jsx';
+import NotificationsDrawer from '../dashboard/NotificationsDrawer.jsx';
 import {
   useGetNotificationsQuery,
   useGetUnreadNotificationCountQuery,
   useMarkAllNotificationsReadMutation,
   useMarkNotificationReadMutation,
 } from '../../store/api/index.js';
-import { logout, selectDeskUser, selectEnrollmentStatus, selectRole } from '../../store/authSlice.js';
+import {
+  logout,
+  selectDeskUser,
+  selectEnrollmentStatus,
+  selectIsAuthenticated,
+  selectRole,
+} from '../../store/authSlice.js';
 
 /**
- * Dashboard-class shell for mock test module — uses the same API-backed profile + notifications as the main desk.
+ * Shell for mentor-admin routes: same sidebar + top bar vocabulary as learner desk,
+ * scoped to `/dashboard/admin/**`.
  */
-export default function MockTestShell() {
+export default function AdminDeskLayout({
+  children,
+  welcomeTitle = 'Admin console',
+  tagline = 'Courses, mocks, and publish flows — all in one place.',
+  primaryCta = {
+    href: '/dashboard/admin/courses/new',
+    label: 'Create course',
+  },
+}) {
   const dispatch = useDispatch();
+  const deskUser = useSelector(selectDeskUser);
+  const role = useSelector(selectRole);
+  const enrollmentStatus = useSelector(selectEnrollmentStatus);
+  const isAuthenticated = useSelector(selectIsAuthenticated);
+
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [drawerOpen, setDrawerOpen] = useState(false);
 
-  const deskUser = useSelector(selectDeskUser);
-  const role = useSelector(selectRole);
-  const enrollmentLabel = useSelector(selectEnrollmentStatus);
-
-  const deskBadge =
-    role === 'ADMIN'
-      ? 'Admin'
-      : role === 'ADMINISTRATOR'
-        ? 'Ops'
-        : enrollmentLabel === 'APPROVED'
-          ? 'Approved'
-          : enrollmentLabel;
-
-  const { data: notifEnvelope, refetch } = useGetNotificationsQuery(
-    { page: 1, limit: 30 },
-    { skip: false },
+  const { data: notifEnvelope, refetch: refetchNotifications } = useGetNotificationsQuery(
+    { page: 1, limit: 40 },
+    { skip: !isAuthenticated },
   );
 
-  const { data: unreadWrap } = useGetUnreadNotificationCountQuery();
+  const { data: unreadWrap } = useGetUnreadNotificationCountQuery(undefined, {
+    skip: !isAuthenticated,
+  });
 
   const [markReadMutation] = useMarkNotificationReadMutation();
   const [markAllMutation] = useMarkAllNotificationsReadMutation();
@@ -53,32 +61,40 @@ export default function MockTestShell() {
     const u = unreadWrap?.unreadCount;
     if (typeof u === 'number') return u;
     if (typeof notifications.unreadCount === 'number') return notifications.unreadCount;
-    const rows = Array.isArray(notifications.data) ? notifications.data : [];
-    return rows.filter((n) => !n.isRead).length;
+    const list = Array.isArray(notifications.data) ? notifications.data : [];
+    return list.filter((n) => !n.isRead).length;
   }, [notifications, unreadWrap]);
 
-  const signOut = useCallback(() => dispatch(logout()), [dispatch]);
+  const drawerPayload = notifications;
+
+  const openDrawer = useCallback(() => setDrawerOpen(true), []);
+  const closeDrawer = useCallback(() => setDrawerOpen(false), []);
 
   const markRead = useCallback(
     async (id) => {
       try {
         await markReadMutation(id).unwrap();
-        await refetch();
+        await refetchNotifications();
       } catch {
-        /* non-fatal */
+        /* drawer tolerates stale */
       }
     },
-    [markReadMutation, refetch],
+    [markReadMutation, refetchNotifications],
   );
 
   const markAllRead = useCallback(async () => {
     try {
       await markAllMutation().unwrap();
-      await refetch();
+      await refetchNotifications();
     } catch {
       /* ignore */
     }
-  }, [markAllMutation, refetch]);
+  }, [markAllMutation, refetchNotifications]);
+
+  const signOut = useCallback(() => dispatch(logout()), [dispatch]);
+
+  const badge =
+    role === 'ADMIN' ? 'Admin' : enrollmentStatus === 'APPROVED' ? 'Approved' : enrollmentStatus;
 
   return (
     <div
@@ -90,10 +106,10 @@ export default function MockTestShell() {
       <Sidebar
         user={deskUser}
         role={role}
-        enrollmentLabel={deskBadge}
+        enrollmentLabel={badge}
         unreadCount={unreadBell}
         onNotificationsClick={() => {
-          setDrawerOpen(true);
+          openDrawer();
           setSidebarOpen(false);
         }}
         onSignOut={signOut}
@@ -105,22 +121,22 @@ export default function MockTestShell() {
         <TopBar
           user={deskUser}
           unreadCount={unreadBell}
-          welcomeTitle="Practice desk"
-          tagline="Focused attempt flow — your saved answers sync to the LMS as you go."
-          primaryCta={{ href: '/dashboard', label: 'Back to overview' }}
-          onBellClick={() => setDrawerOpen(true)}
+          welcomeTitle={welcomeTitle}
+          tagline={tagline}
+          primaryCta={primaryCta}
+          onBellClick={openDrawer}
           onMenuClick={() => setSidebarOpen(true)}
         />
 
         <main className="flex-1 overflow-x-hidden px-4 py-6 sm:px-6 lg:px-8 lg:py-8 [&::-webkit-scrollbar]:w-1.5 [&::-webkit-scrollbar-track]:rounded-full [&::-webkit-scrollbar-track]:bg-[#1C2A3E] [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-[#475569]">
-          <Outlet />
+          {children}
         </main>
       </div>
 
       <NotificationsDrawer
         open={drawerOpen}
-        onClose={() => setDrawerOpen(false)}
-        notifications={notifications}
+        onClose={closeDrawer}
+        notifications={drawerPayload}
         onMarkRead={markRead}
         onMarkAllRead={markAllRead}
       />

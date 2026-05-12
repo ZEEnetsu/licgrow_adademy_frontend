@@ -16,7 +16,8 @@ export default function PerformanceBarChart({ attempts }) {
   const innerW = 560;
   const plotW = innerW - PAD_L - PAD_R;
   const plotH = CHART_H - PAD_T - PAD_B;
-  const n = attempts.length;
+  const safeAttempts = Array.isArray(attempts) ? attempts : [];
+  const n = safeAttempts.length;
   const gap = 8;
   const barW = Math.max(28, (plotW - gap * Math.max(n - 1, 0)) / Math.max(n, 1));
 
@@ -25,15 +26,30 @@ export default function PerformanceBarChart({ attempts }) {
 
   const bars = useMemo(
     () =>
-      attempts.map((a, i) => ({
+      safeAttempts.map((a, i) => ({
         ...a,
         x: PAD_L + i * (barW + gap),
         color: a.passed ? '#2EBF8A' : '#F43F5E',
       })),
-    [attempts, barW, gap],
+    [safeAttempts, barW, gap],
   );
 
   const panel = `rounded-[16px] border border-white/[0.05] bg-[#111827] ${shadow.card} ${shadow.cardHover} ${transitionHover} hover:border-white/[0.08] hover:bg-[#161F2E]`;
+
+  if (n === 0) {
+    return (
+      <section className={`${panel} p-5 lg:p-6`}>
+        <div className="mb-4 flex flex-wrap items-end justify-between gap-2 border-b border-white/[0.04] pb-4">
+          <h2 className="text-[0.65rem] font-semibold uppercase tracking-[0.16em] text-[#64748B]">
+            Performance Overview
+          </h2>
+        </div>
+        <p className="py-12 text-center text-sm text-[#64748B]">
+          Submit a timed mock test to light up your performance chart.
+        </p>
+      </section>
+    );
+  }
 
   return (
     <section className={`${panel} relative p-5 lg:p-6`}>
@@ -97,7 +113,7 @@ export default function PerformanceBarChart({ attempts }) {
           </text>
 
           {bars.map((b, i) => {
-            const barH = (b.percentage / 100) * plotH;
+            const barH = ((Number(b.percentage) || 0) / 100) * plotH;
             const bx = b.x;
             const by = PAD_T + plotH - barH;
             return (
@@ -143,7 +159,7 @@ export default function PerformanceBarChart({ attempts }) {
             <p className="font-medium text-[#F1F5F9]">{bars[hovered].testTitle}</p>
             <p className="mt-1 text-[#94A3B8]">
               Score {bars[hovered].score}/{bars[hovered].totalMarks} ·{' '}
-              {bars[hovered].percentage.toFixed(1)}%
+              {Number(bars[hovered].percentage ?? 0).toFixed(1)}%
             </p>
             <p
               className={`mt-1 font-semibold ${bars[hovered].passed ? 'text-[#2EBF8A]' : 'text-[#F43F5E]'}`}

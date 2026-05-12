@@ -19,9 +19,17 @@ import MockTestModule from './modules/mockTest/MockTestModule.jsx';
 import {
   selectIsAuthenticated,
   selectBootstrapped,
+  selectRole,
   markBootstrapped,
 } from './store/authSlice.js';
-import { useGetCurrentUserQuery } from './store/apiSlice.js';
+import { useGetCurrentUserQuery } from './store/api/index.js';
+import AdminRoute from './routes/AdminRoute.jsx';
+import AdminDashboardPage from './pages/admin/AdminDashboardPage.jsx';
+import AdminCoursesListPage from './pages/admin/AdminCoursesListPage.jsx';
+import AdminCourseCreatePage from './pages/admin/AdminCourseCreatePage.jsx';
+import AdminTestsListPage from './pages/admin/AdminTestsListPage.jsx';
+import AdminTestCreatePage from './pages/admin/AdminTestCreatePage.jsx';
+import AdminTestBuilderPage from './pages/admin/AdminTestBuilderPage.jsx';
 
 /**
  * App
@@ -44,10 +52,22 @@ const App = () => {
   const dispatch = useDispatch();
   const isAuthenticated = useSelector(selectIsAuthenticated);
   const bootstrapped = useSelector(selectBootstrapped);
+  const role = useSelector(selectRole);
 
   // Only fire `/users/me` when we actually have a token. `skip` keeps the
   // request from running anonymously.
-  useGetCurrentUserQuery(undefined, { skip: !isAuthenticated });
+  useGetCurrentUserQuery(undefined, {
+    skip:
+      !isAuthenticated ||
+      role === 'ADMIN' ||
+      role === 'ADMINISTRATOR',
+  });
+
+  useEffect(() => {
+    if (isAuthenticated && (role === 'ADMIN' || role === 'ADMINISTRATOR')) {
+      dispatch(markBootstrapped());
+    }
+  }, [isAuthenticated, role, dispatch]);
 
   useEffect(() => {
     if (!isAuthenticated && !bootstrapped) {
@@ -87,6 +107,47 @@ const App = () => {
         <Route element={<ProtectedRoute stage="dashboard" />}>
           <Route element={<DashboardLayout />}>
             <Route path="dashboard" element={<Dashboard />} />
+            <Route path="dashboard/admin" element={<AdminRoute><AdminDashboardPage /></AdminRoute>} />
+            <Route
+              path="dashboard/admin/courses"
+              element={
+                <AdminRoute>
+                  <AdminCoursesListPage />
+                </AdminRoute>
+              }
+            />
+            <Route
+              path="dashboard/admin/courses/new"
+              element={
+                <AdminRoute>
+                  <AdminCourseCreatePage />
+                </AdminRoute>
+              }
+            />
+            <Route
+              path="dashboard/admin/tests"
+              element={
+                <AdminRoute>
+                  <AdminTestsListPage />
+                </AdminRoute>
+              }
+            />
+            <Route
+              path="dashboard/admin/tests/new"
+              element={
+                <AdminRoute>
+                  <AdminTestCreatePage />
+                </AdminRoute>
+              }
+            />
+            <Route
+              path="dashboard/admin/tests/:testId/build"
+              element={
+                <AdminRoute>
+                  <AdminTestBuilderPage />
+                </AdminRoute>
+              }
+            />
             <Route path="mock-tests/*" element={<MockTestModule />} />
           </Route>
         </Route>

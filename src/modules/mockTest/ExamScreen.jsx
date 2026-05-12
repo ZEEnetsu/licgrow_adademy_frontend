@@ -15,13 +15,12 @@ import WarningToast from './WarningToast.jsx';
 import FinalWarningModal from './FinalWarningModal.jsx';
 
 import {
-  createDummyAttemptForTest,
-  dummyTests,
-} from './mockTestDummyData.js';
+  useLazyGetAttemptResultQuery,
+  useSaveAttemptAnswerMutation,
+  useSubmitAttemptMutation,
+} from '../../store/api/index.js';
 import { buildResultPayload, shuffleArray } from './mockTestUtils.js';
 import { clearExamSession, saveExamSession } from './mockTestSession.js';
-
-/** @typedef {{ attemptId:string,attemptNumber:number,durationMinutes:number,startedAt:string,expiresAt:string,questions: Array<{questionId:string,questionText:string,optionA:string,optionB:string,optionC:string,optionD:string}> }} DummyAttemptPayload */
 
 /** Starts from Navigate state seeded by POST /attempts flows. */
 export default function ExamScreen() {
@@ -29,37 +28,36 @@ export default function ExamScreen() {
   const navigate = useNavigate();
   const location = useLocation();
 
-  const routeTest = useMemo(
-    () => dummyTests.find((t) => t.testId === testId),
-    [testId],
-  );
+  const [submitAttempt] = useSubmitAttemptMutation();
+  const [saveAnswer] = useSaveAttemptAnswerMutation();
+  const [fetchResult] = useLazyGetAttemptResultQuery();
 
-  const test = location.state?.test ?? routeTest ?? null;
-  /** @type {DummyAttemptPayload | undefined} */
-  const attemptFromState = location.state?.attempt;
+  const attemptFromApi = location.state?.attemptFromApi === true;
+  const test = location.state?.test ?? null;
+  const attemptBootstrap = location.state?.attempt ?? null;
 
-  const [attemptBootstrap] = useState(() => {
-    if (!test) return null;
-    return attemptFromState ?? createDummyAttemptForTest(test);
-  });
+  const debounceTimers = useRef({});
 
   const examQuestions = useMemo(() => {
     if (!test || !attemptBootstrap) return [];
-    let qs = [...attemptBootstrap.questions];
-    if (test.shuffleQuestions) qs = shuffleArray(qs);
+    let qs = [...(attemptBootstrap.questions ?? [])];
+    const serverPrepared = Boolean(attemptFromApi);
+    if (test.shuffleQuestions && !serverPrepared) qs = shuffleArray(qs);
     return qs;
-  }, [attemptBootstrap, test]);
+  }, [attemptBootstrap, attemptFromApi, test]);
 
-  const durationSeconds = Math.max(
-    60,
-    (attemptBootstrap?.durationMinutes ?? 30) * 60,
+  const durationSeconds = useMemo(
+    () => Math.max(60, (attemptBootstrap?.durationMinutes ?? 30) * 60),
+    [attemptBootstrap?.durationMinutes],
   );
 
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState({});
   const [markedForReview, setMarkedForReview] = useState(() => new Set());
   const [visitedQuestions, setVisitedQuestions] = useState(() => new Set([0]));
-  const [timeRemaining, setTimeRemaining] = useState(durationSeconds);
+  const [timeRemaining, setTimeRemaining] = useState(() =>
+    Math.max(60, (attemptBootstrap?.durationMinutes ?? 30) * 60),
+  );
   const [tabSwitchCount, setTabSwitchCount] = useState(0);
   const [showSubmitModal, setShowSubmitModal] = useState(false);
   const [showTimeUpModal, setShowTimeUpModal] = useState(false);
@@ -79,12 +77,25 @@ export default function ExamScreen() {
   const timeUpScheduledRef = useRef(false);
 
   useEffect(() => {
-    answersRef.current = answers;
-  }, [answers]);
+    setTimeRemaining(durationSeconds);
+  }, [durationSeconds]);
 
   useEffect(() => {
     examFinishedRef.current = examFinished;
   }, [examFinished]);
+
+  useEffect(() => {
+    answersRef.current = answers;
+  }, [answers]);
+
+  useEffect(
+    () => () => {
+      Object.values(debounceTimers.current).forEach((tid) =>
+        window.clearTimeout(tid),
+      );
+    },
+    [],
+  );
 
   const dismissToast = useCallback(() => {
     setToast((t) => ({ ...t, visible: false }));
@@ -127,9 +138,9 @@ export default function ExamScreen() {
 
   /** @typedef {{ result:ReturnType<typeof buildResultPayload>, test:typeof test }} ResultNavState */
 
-  const navigateWithResult = useCallback(() => {
-    if (!test || !attemptBootstrap) return undefined;
-    if (finalizedRef.current) return undefined;
+  const navigateWithResult = useCallback(async () => {
+    if (!test || !attemptBootstrap) return;
+    if (finalizedRef.current) return;
 
     finalizedRef.current = true;
     examFinishedRef.current = true;
@@ -145,6 +156,36 @@ export default function ExamScreen() {
       const map = timePerQuestionSecondsRef.current;
       map[activeQId] = (map[activeQId] ?? 0) + inc;
       dwellStartMsRef.current = Date.now();
+    }
+
+    if (attemptFromApi && attemptBootstrap.attemptId) {
+      try {
+        await submitAttempt(attemptBootstrap.attemptId).unwrap();
+      } catch {
+        setToast({
+          visible: true,
+          message: 'Could not submit this attempt. Try again.',
+        });
+        finalizedRef.current = false;
+        examFinishedRef.current = false;
+        setExamFinished(false);
+        return;
+      }
+
+      try {
+        const resultPayload = await fetchResult(attemptBootstrap.attemptId).unwrap();
+        clearExamSession();
+        navigate(`/mock-tests/${test.testId}/result`, {
+          replace: true,
+          state: { result: resultPayload, test, attemptFromApi: true },
+        });
+      } catch {
+        setToast({
+          visible: true,
+          message: 'Submitted — open results from Recent attempts shortly.',
+        });
+      }
+      return;
     }
 
     const timeTakenSeconds = Math.max(
@@ -169,9 +210,15 @@ export default function ExamScreen() {
       replace: true,
       state: { result: resultPayload, test },
     });
-
-    return undefined;
-  }, [attemptBootstrap, examQuestions, navigate, test]);
+  }, [
+    attemptBootstrap,
+    attemptFromApi,
+    examQuestions,
+    fetchResult,
+    navigate,
+    submitAttempt,
+    test,
+  ]);
 
   useEffect(() => {
     if (examFinishedRef.current || timeRemaining > 0) return undefined;
@@ -275,9 +322,7 @@ export default function ExamScreen() {
   }, [examFinished, tabSwitchCount]);
 
   if (!test || !attemptBootstrap) {
-    const dest = routeTest?.testId
-      ? `/mock-tests/${routeTest.testId}`
-      : '/mock-tests';
+    const dest = testId ? `/mock-tests/${testId}` : '/mock-tests';
     return <Navigate to={dest} replace />;
   }
 
@@ -302,11 +347,24 @@ export default function ExamScreen() {
       if (!qId) return;
       setAnswers((prev) => ({ ...prev, [qId]: letter }));
 
-      /*
-       * TODO: PATCH /api/v1/attempts/:attemptId/answers
-       */
+      if (!attemptFromApi || !attemptBootstrap?.attemptId) return;
+      const timers = debounceTimers.current;
+      window.clearTimeout(timers[qId]);
+      timers[qId] = window.setTimeout(() => {
+        saveAnswer({
+          attemptId: attemptBootstrap.attemptId,
+          questionId: qId,
+          selectedOption: letter,
+        });
+      }, 950);
     },
-    [currentQuestionIndex, examQuestions],
+    [
+      attemptBootstrap?.attemptId,
+      attemptFromApi,
+      currentQuestionIndex,
+      examQuestions,
+      saveAnswer,
+    ],
   );
 
   const toggleMarkForReview = useCallback(() => {
@@ -425,7 +483,7 @@ export default function ExamScreen() {
         onClose={() => setShowSubmitModal(false)}
         onConfirmSubmit={() => {
           setShowSubmitModal(false);
-          navigateWithResult();
+          void navigateWithResult();
         }}
       />
 
@@ -433,7 +491,7 @@ export default function ExamScreen() {
         open={showTimeUpModal}
         onViewResult={() => {
           setShowTimeUpModal(false);
-          navigateWithResult();
+          void navigateWithResult();
         }}
       />
 

@@ -1,31 +1,65 @@
-import { useMemo, useState } from 'react';
+import { useState } from 'react';
 import { Link, Navigate, useNavigate, useParams } from 'react-router-dom';
 
+import {
+  formatMutationError,
+  useGetTestByIdQuery,
+  useStartAttemptMutation,
+} from '../../store/api/index.js';
 import { shadow, transitionHover } from '../../pages/dashboard/styles.js';
-import { createDummyAttemptForTest, dummyTests } from './mockTestDummyData.js';
 import { formatAvailabilityRange } from './mockTestUtils.js';
 
 export default function TestDetailScreen() {
   const { testId } = useParams();
   const navigate = useNavigate();
-  const test = useMemo(() => dummyTests.find((t) => t.testId === testId), [testId]);
+
+  const { data: test, isLoading, error } = useGetTestByIdQuery(testId, {
+    skip: !testId,
+  });
+  const [startAttempt, { isLoading: starting }] = useStartAttemptMutation();
 
   const [ackRead, setAckRead] = useState(false);
   const [ackEnvironment, setAckEnvironment] = useState(false);
   const [ackNavigate, setAckNavigate] = useState(false);
   const allAck = ackRead && ackEnvironment && ackNavigate;
+  const [startError, setStartError] = useState(null);
 
-  if (!test) return <Navigate to="/mock-tests" replace />;
+  if (!testId) return <Navigate to="/mock-tests" replace />;
+
+  if (isLoading) {
+    return <p className="py-16 text-[#64748B]">Loading briefing…</p>;
+  }
+
+  if (error || !test) {
+    return (
+      <div className="space-y-4">
+        <p className="rounded-xl border border-rose-500/30 bg-rose-950/20 px-4 py-3 text-sm text-rose-100">
+          {formatMutationError(error)}
+        </p>
+        <Link to="/mock-tests" className="text-sm text-[#2EBF8A]">
+          ← Back to list
+        </Link>
+      </div>
+    );
+  }
 
   const availability = formatAvailabilityRange(test.availableFrom, test.availableUntil);
 
-  const begin = () => {
+  const begin = async () => {
+    setStartError(null);
     if (!allAck || !test.canAttempt) return;
-    const attempt = createDummyAttemptForTest(test);
-    navigate(`/mock-tests/${test.testId}/exam`, {
-      state: { test, attempt },
-      replace: false,
-    });
+    try {
+      const attempt = await startAttempt(testId).unwrap();
+      navigate(`/mock-tests/${test.testId}/exam`, {
+        state: {
+          test,
+          attempt,
+          attemptFromApi: true,
+        },
+      });
+    } catch (e) {
+      setStartError(formatMutationError(e));
+    }
   };
 
   return (
@@ -41,29 +75,41 @@ export default function TestDetailScreen() {
         <section
           className={`rounded-[20px] border border-white/[0.05] bg-[#111827]/40 p-6 sm:p-8 ${shadow.card}`}
         >
-          <h1 className="text-[clamp(1.25rem,4vw,1.75rem)] font-bold leading-tight text-[#F1F5F9]">{test.title}</h1>
+          <h1 className="text-[clamp(1.25rem,4vw,1.75rem)] font-bold leading-tight text-[#F1F5F9]">
+            {test.title}
+          </h1>
 
-          <span
-            className={`mt-4 inline-flex rounded-[10px] border border-[rgba(46,191,138,0.25)] bg-[#161F2E] px-3 py-1.5 text-[0.8125rem] font-medium text-[#2EBF8A]`}
-          >
-            {test.courseTitle}
-          </span>
+          {test.courseTitle ? (
+            <span
+              className={`mt-4 inline-flex rounded-[10px] border border-[rgba(46,191,138,0.25)] bg-[#161F2E] px-3 py-1.5 text-[0.8125rem] font-medium text-[#2EBF8A]`}
+            >
+              {test.courseTitle}
+            </span>
+          ) : null}
 
           <dl className="mt-8 grid grid-cols-2 gap-4 rounded-[14px] border border-white/[0.05] bg-[#080C14]/40 p-4">
             <div>
-              <dt className="text-[0.7rem] font-semibold uppercase tracking-wide text-[#64748B]">Questions</dt>
+              <dt className="text-[0.7rem] font-semibold uppercase tracking-wide text-[#64748B]">
+                Questions
+              </dt>
               <dd className="mt-1 text-lg font-semibold text-[#F1F5F9]">{test.questionCount}</dd>
             </div>
             <div>
-              <dt className="text-[0.7rem] font-semibold uppercase tracking-wide text-[#64748B]">Duration</dt>
+              <dt className="text-[0.7rem] font-semibold uppercase tracking-wide text-[#64748B]">
+                Duration
+              </dt>
               <dd className="mt-1 text-lg font-semibold text-[#F1F5F9]">{test.durationMinutes} min</dd>
             </div>
             <div>
-              <dt className="text-[0.7rem] font-semibold uppercase tracking-wide text-[#64748B]">Total marks</dt>
+              <dt className="text-[0.7rem] font-semibold uppercase tracking-wide text-[#64748B]">
+                Total marks
+              </dt>
               <dd className="mt-1 text-lg font-semibold text-[#F1F5F9]">{test.totalMarks}</dd>
             </div>
             <div>
-              <dt className="text-[0.7rem] font-semibold uppercase tracking-wide text-[#64748B]">Passing marks</dt>
+              <dt className="text-[0.7rem] font-semibold uppercase tracking-wide text-[#64748B]">
+                Passing marks
+              </dt>
               <dd className="mt-1 text-lg font-semibold text-[#F1F5F9]">{test.passingMarks}</dd>
             </div>
           </dl>
@@ -75,7 +121,9 @@ export default function TestDetailScreen() {
 
           {test.attemptsUsed > 0 && (
             <div className="mt-6 rounded-[14px] border border-white/[0.06] bg-[#161F2E]/50 p-4">
-              <p className="text-[0.7rem] font-semibold uppercase tracking-wide text-[#64748B]">Attempt summary</p>
+              <p className="text-[0.7rem] font-semibold uppercase tracking-wide text-[#64748B]">
+                Attempt summary
+              </p>
               <p className="mt-2 text-[#CBD5E1]">Attempts used: {test.attemptsUsed}</p>
               {test.lastAttemptResult && (
                 <p className="mt-1 text-[#94A3B8]">
@@ -86,19 +134,25 @@ export default function TestDetailScreen() {
             </div>
           )}
 
+          {startError ? (
+            <p className="mt-4 rounded-md border border-rose-500/30 bg-rose-950/20 px-3 py-2 text-sm text-rose-100">
+              {startError}
+            </p>
+          ) : null}
+
           <div className="mt-8">
             <button
               type="button"
-              disabled={!allAck || !test.canAttempt}
+              disabled={!allAck || !test.canAttempt || starting}
               onClick={begin}
               className={[
                 'flex min-h-[48px] w-full items-center justify-center rounded-[12px] border px-5 py-3 text-[0.9375rem] font-semibold transition-[box-shadow,background-color,border-color,color,opacity] duration-200',
-                allAck && test.canAttempt
+                allAck && test.canAttempt && !starting
                   ? 'border-[rgba(46,191,138,0.45)] bg-[#161F2E] text-[#2EBF8A] hover:border-[rgba(46,191,138,0.55)]'
                   : 'cursor-not-allowed border-white/[0.06] bg-[#111827] text-[#475569] opacity-80',
               ].join(' ')}
             >
-              Begin Exam
+              {starting ? 'Starting…' : 'Begin Exam'}
             </button>
             {!test.canAttempt && test.canAttemptReason && (
               <p className="mt-3 text-center text-[0.8125rem] text-amber-200/90">{test.canAttemptReason}</p>
@@ -119,17 +173,14 @@ export default function TestDetailScreen() {
             <li>
               The passing score is {test.passingMarks} out of {test.totalMarks} marks.
             </li>
-            <li>Questions are shuffled — your order may differ from others.</li>
-            <li>Each question has exactly one correct answer. Select the best option.</li>
-            <li>You can navigate between questions freely using the question navigator.</li>
-            <li>Your answers are saved automatically as you select them.</li>
-            <li>You can mark questions for review and return to them before submitting.</li>
-            <li>Do NOT close this tab or navigate away — doing so may auto-submit your exam.</li>
-            <li>Do NOT refresh the page during the exam.</li>
-            <li>Once you submit, you cannot change your answers.</li>
-            <li>Your result and detailed explanation will be available immediately after submission.</li>
-            <li>If time runs out, your exam will be auto-submitted with all answered questions recorded.</li>
-            <li>Ensure a stable internet connection before starting.</li>
+            <li>Questions may be shuffled — your order can differ.</li>
+            <li>Each question has exactly one correct answer.</li>
+            <li>You can navigate between questions freely.</li>
+            <li>Selections sync to the server when you tap an option.</li>
+            <li>You can mark questions for review.</li>
+            <li>Avoid closing the tab — it may finalize your submission.</li>
+            <li>Refreshing during the timer is not supported.</li>
+            <li>Once you submit, answers are locked.</li>
           </ol>
 
           <div className="mt-8 border-t border-white/[0.06] pt-6">
@@ -148,7 +199,7 @@ export default function TestDetailScreen() {
               <CheckRow
                 checked={ackNavigate}
                 onChange={() => setAckNavigate((v) => !v)}
-                label="I understand that navigating away may auto-submit my exam"
+                label="I understand navigating away while the timer runs is risky"
               />
             </ul>
           </div>

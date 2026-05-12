@@ -5,7 +5,9 @@ import { motion } from 'framer-motion';
 import {
   useLoginMutation,
   useRegisterMutation,
-} from '../store/apiSlice.js';
+  useAdminLoginMutation,
+  formatMutationError,
+} from '../store/api/index.js';
 import { Button, Card, Input } from '../components/shared';
 import { stagger, fadeUp } from './landing/motion.js';
 
@@ -22,12 +24,23 @@ const Auth = () => {
     phone: '',
   });
   const [regSuccess, setRegSuccess] = useState(null);
+  const [adminLogin, setAdminLogin] = useState({ username: '', password: '' });
 
   const [login, { isLoading: loggingIn, error: loginError }] = useLoginMutation();
   const [register, { isLoading: registering, error: registerError }] =
     useRegisterMutation();
+  const [
+    adminSignIn,
+    { isLoading: adminLoggingIn, error: adminLoginError },
+  ] = useAdminLoginMutation();
 
-  const error = loginError || registerError;
+  const studentAuthError =
+    loginError ?? registerError
+      ? formatMutationError(loginError ?? registerError)
+      : null;
+  const formattedAdminError = adminLoginError
+    ? formatMutationError(adminLoginError)
+    : null;
   const isSubmitting = loggingIn || registering;
 
   useEffect(() => {
@@ -51,12 +64,33 @@ const Auth = () => {
         /* surfaced via registerError */
       }
     } else {
-      await login({ username: form.username, password: form.password });
+      try {
+        await login({ username: form.username, password: form.password }).unwrap();
+        navigate('/dashboard', { replace: true });
+      } catch {
+        /* loginError */
+      }
+    }
+  };
+
+  const handleAdminSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      await adminSignIn({
+        username: adminLogin.username.trim(),
+        password: adminLogin.password,
+      }).unwrap();
+      navigate('/dashboard/admin', { replace: true });
+    } catch {
+      /* adminLoginError */
     }
   };
 
   const update = (key) => (e) =>
     setForm((prev) => ({ ...prev, [key]: e.target.value }));
+
+  const updateAdmin = (key) => (e) =>
+    setAdminLogin((prev) => ({ ...prev, [key]: e.target.value }));
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-white via-lic-offwhite to-lic-mint/40 pt-[4.5rem]">
@@ -180,9 +214,9 @@ const Auth = () => {
                   </>
                 )}
 
-                {error && (
+                {(loginError ?? registerError) && (
                   <p className="rounded-card border border-red-200 bg-red-50 px-3 py-2 text-xs font-medium text-red-700">
-                    {error?.data?.message || 'Something went wrong. Try again.'}
+                    {studentAuthError || 'Something went wrong. Try again.'}
                   </p>
                 )}
 
@@ -227,6 +261,59 @@ const Auth = () => {
               )}
             </p>
           </Card>
+
+          {!isRegister && (
+            <motion.div variants={fadeUp} className="mt-6">
+              <Card
+                variant="surface"
+                padding="lg"
+                className="border border-lic-charcoal/10 shadow-card shadow-black/[0.03]"
+              >
+                <h2 className="text-lg font-semibold text-lic-charcoal">
+                  Mentor admin sign-in
+                </h2>
+                <p className="mt-1 text-sm text-lic-body">
+                  Use mentor credentials — you’ll land on the admin desk to manage courses and host
+                  mocks.
+                </p>
+
+                <form onSubmit={handleAdminSubmit} className="mt-6 space-y-4">
+                  <Input
+                    label="Admin username"
+                    type="text"
+                    value={adminLogin.username}
+                    onChange={updateAdmin('username')}
+                    required
+                    autoComplete="username"
+                    spellCheck={false}
+                  />
+                  <Input
+                    label="Password"
+                    type="password"
+                    value={adminLogin.password}
+                    onChange={updateAdmin('password')}
+                    required
+                    autoComplete="current-password"
+                  />
+                  {adminLoginError && (
+                    <p className="rounded-card border border-red-200 bg-red-50 px-3 py-2 text-xs font-medium text-red-700">
+                      {formattedAdminError || 'Unable to sign in. Check credentials.'}
+                    </p>
+                  )}
+                  <Button
+                    type="submit"
+                    variant="outline"
+                    size="lg"
+                    fullWidth
+                    disabled={adminLoggingIn}
+                    className="border-lic-charcoal/20 font-semibold text-lic-charcoal hover:bg-lic-offwhite"
+                  >
+                    {adminLoggingIn ? 'Signing in…' : 'Continue as admin'}
+                  </Button>
+                </form>
+              </Card>
+            </motion.div>
+          )}
         </motion.div>
       </motion.div>
     </div>

@@ -2,7 +2,19 @@ import { Link } from 'react-router-dom';
 
 import { transitionHover } from './styles.js';
 
-export default function TopBar({ user, unreadCount, onBellClick, onMenuClick }) {
+export default function TopBar({
+  user,
+  unreadCount,
+  onBellClick,
+  onMenuClick,
+  welcomeTitle = 'Your Desk',
+  tagline,
+  primaryCta = { href: '/mock-tests', label: 'Start mock test' },
+}) {
+  const subtitle =
+    tagline ??
+    "Jump into your next mock or join today's live session when you're ready.";
+
   return (
     <header className="sticky top-0 z-30 border-b border-white/[0.04] bg-[#080C14]/95 px-4 py-4 backdrop-blur-md sm:px-6 lg:px-8">
       <div className="flex flex-wrap items-start gap-4">
@@ -16,12 +28,14 @@ export default function TopBar({ user, unreadCount, onBellClick, onMenuClick }) 
         </button>
 
         <div className="min-w-0 flex-1">
-          <p className="text-[0.65rem] font-bold uppercase tracking-[0.22em] text-[#2EBF8A]">Your Desk</p>
+          <p className="text-[0.65rem] font-bold uppercase tracking-[0.22em] text-[#2EBF8A]">
+            {welcomeTitle}
+          </p>
           <h1 className="mt-1 text-[clamp(1.25rem,3vw,1.5rem)] font-bold leading-tight tracking-tight text-[#F1F5F9]">
             Welcome back, {user.fullName}
           </h1>
           <p className="mt-2 max-w-2xl text-[clamp(0.8125rem,2vw,0.875rem)] font-normal leading-relaxed text-[#64748B]">
-            Jump into your next mock or join today&apos;s live session.
+            {subtitle}
           </p>
         </div>
 
@@ -40,10 +54,10 @@ export default function TopBar({ user, unreadCount, onBellClick, onMenuClick }) 
             )}
           </button>
           <Link
-            to="/mock-tests"
+            to={primaryCta.href}
             className={`flex min-h-[48px] items-center justify-center rounded-[12px] border border-[rgba(46,191,138,0.3)] bg-[#111827] px-5 py-2.5 text-[0.875rem] font-medium text-[#2EBF8A] ${transitionHover} hover:border-[rgba(46,191,138,0.5)] hover:bg-[#161F2E]`}
           >
-            Start Mock Test
+            {primaryCta.label}
           </Link>
         </div>
       </div>

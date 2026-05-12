@@ -2,9 +2,10 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 import {
+  formatMutationError,
   useGetAvailableCoursesQuery,
   useSubmitEnrollmentMutation,
-} from "../store/apiSlice.js";
+} from "../store/api/index.js";
 import { Button, Card, Input, SectionHeading } from "../components/shared";
 
 const CourseRegister = () => {
@@ -27,8 +28,8 @@ const CourseRegister = () => {
     if (!selectedCourseId || !licAgentCode.trim()) return;
 
     const result = await submitEnrollment({
-      course_id: selectedCourseId,
-      lic_agent_code: licAgentCode.trim(),
+      courseId: selectedCourseId,
+      licAgentCode: licAgentCode.trim(),
     });
 
     if (!result.error) {
@@ -77,13 +78,14 @@ const CourseRegister = () => {
         {!isLoading && courses.length > 0 && (
           <div className="grid gap-4 sm:grid-cols-2">
             {courses.map((course) => {
-              const selected = selectedCourseId === course.course_id;
+              const courseId = course.courseId ?? course.course_id;
+              const selected = selectedCourseId === courseId;
               return (
                 <Card
                   as="button"
                   type="button"
-                  key={course.course_id}
-                  onClick={() => setSelectedCourseId(course.course_id)}
+                  key={courseId}
+                  onClick={() => setSelectedCourseId(courseId)}
                   variant="surface"
                   interactive
                   className={[
@@ -139,7 +141,7 @@ const CourseRegister = () => {
 
         {submitError && (
           <p className="mt-4 rounded-sm border border-rose-500/35 bg-rose-500/10 px-3 py-2 text-xs font-medium text-rose-200">
-            {submitError?.data?.message ||
+            {formatMutationError(submitError) ||
               "Submission rejected — validate formatting or contact desk."}
           </p>
         )}

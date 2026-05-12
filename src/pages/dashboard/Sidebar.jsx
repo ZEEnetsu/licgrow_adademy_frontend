@@ -6,13 +6,15 @@ import { shadow, EASE, transitionHover } from './styles.js';
 
 export default function Sidebar({
   user,
+  role,
+  enrollmentLabel,
   unreadCount,
   onNotificationsClick,
   onSignOut,
   sidebarOpen,
   onCloseMobile,
 }) {
-  const initials = user.fullName
+  const initials = (user.fullName || 'LG')
     .split(/\s+/)
     .filter(Boolean)
     .map((s) => s[0])
@@ -66,7 +68,7 @@ export default function Sidebar({
               <p className="truncate text-[0.875rem] font-medium text-[#F1F5F9]">{user.fullName}</p>
               <p className="truncate text-[0.75rem] font-normal text-[#64748B]">{user.username}</p>
               <span className="mt-1.5 inline-block rounded-full border border-[#2EBF8A]/25 bg-[#2EBF8A]/10 px-2 py-0.5 text-[10px] font-medium uppercase tracking-wide text-[#2EBF8A]">
-                Approved
+                {enrollmentLabel ?? '—'}
               </span>
             </div>
           </div>
@@ -76,11 +78,40 @@ export default function Sidebar({
           className="flex flex-1 flex-col gap-0.5 overflow-y-auto px-2 py-3 lg:px-3 [&::-webkit-scrollbar]:w-1.5 [&::-webkit-scrollbar-track]:rounded-full [&::-webkit-scrollbar-track]:bg-[#1C2A3E] [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-[#475569]"
           aria-label="Dashboard navigation"
         >
-          <NavRow icon="📊" label="Overview" active />
-          <NavRow icon="📚" label="My Course" />
-          <NavRow icon="🧪" label="Mock Tests" to="/mock-tests" onNavigate={onCloseMobile} />
-          <NavRow icon="📹" label="Webinars" />
-          <NavRow icon="📣" label="Announcements" />
+          {role === 'ADMIN' ? (
+            <>
+              <NavRow
+                icon="📊"
+                label="Admin overview"
+                to="/dashboard/admin"
+                onNavigate={onCloseMobile}
+              />
+              <NavRow
+                icon="📚"
+                label="Courses"
+                to="/dashboard/admin/courses"
+                onNavigate={onCloseMobile}
+              />
+              <NavRow
+                icon="🧪"
+                label="Mock tests"
+                to="/dashboard/admin/tests"
+                onNavigate={onCloseMobile}
+              />
+            </>
+          ) : (
+            <>
+              <NavRow icon="📊" label="Overview" to="/dashboard" onNavigate={onCloseMobile} />
+              <NavRow icon="📚" label="My Course" to="/dashboard" onNavigate={onCloseMobile} />
+              <NavRow icon="🧪" label="Mock Tests" to="/mock-tests" onNavigate={onCloseMobile} />
+            </>
+          )}
+          {role === 'ADMIN' ? null : (
+            <NavRow icon="📹" label="Webinars" />
+          )}
+          {role === 'ADMIN' ? null : (
+            <NavRow icon="📣" label="Announcements" />
+          )}
           <NavRow
             icon="🔔"
             label="Notifications"
@@ -134,11 +165,7 @@ function NavRow({ icon, label, active, badge, onClick, to, onNavigate }) {
 
   if (to) {
     return (
-      <Link
-        to={to}
-        onClick={onNavigate}
-        className={`${base} ${inactive}`}
-      >
+      <Link to={to} onClick={onNavigate} className={`${base} ${inactive}`}>
         {inner}
       </Link>
     );

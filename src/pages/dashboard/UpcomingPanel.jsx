@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { formatDateTime, relativeTime } from "./formatters.js";
 import { shadow, EASE, transitionHover } from "./styles.js";
 
-export function WebinarItem({ webinar }) {
+export function WebinarItem({ webinar, onRegister, registeringId }) {
   const isLive = webinar.status === "live";
   return (
     <li
@@ -42,9 +42,11 @@ export function WebinarItem({ webinar }) {
           {!webinar.isRegistered && !isLive && (
             <button
               type="button"
-              className={`text-[0.75rem] font-medium text-[#64748B] underline-offset-4 ${transitionHover} hover:text-[#94A3B8] hover:underline`}
+              disabled={Boolean(registeringId)}
+              onClick={() => onRegister?.(webinar.webinarId)}
+              className={`text-[0.75rem] font-medium text-[#2EBF8A] underline-offset-4 ${transitionHover} hover:text-[#94A3B8] hover:underline disabled:opacity-40`}
             >
-              Register
+              {registeringId === webinar.webinarId ? "Registering…" : "Register"}
             </button>
           )}
         </div>
@@ -73,7 +75,12 @@ export function AnnouncementItem({ announcement }) {
   );
 }
 
-export default function UpcomingPanel({ webinars, announcements }) {
+export default function UpcomingPanel({
+  webinars,
+  announcements,
+  onRegisterWebinar,
+  registeringWebinarId,
+}) {
   const panel = `rounded-[16px] border border-white/[0.05] bg-[#111827] ${shadow.card} ${shadow.cardHover} ${transitionHover} hover:border-white/[0.08] hover:bg-[#161F2E]`;
 
   return (
@@ -83,7 +90,12 @@ export default function UpcomingPanel({ webinars, announcements }) {
       </h2>
       <ul className="mt-4 space-y-3">
         {webinars.map((w) => (
-          <WebinarItem key={w.webinarId} webinar={w} />
+          <WebinarItem
+            key={w.webinarId}
+            webinar={w}
+            onRegister={onRegisterWebinar}
+            registeringId={registeringWebinarId}
+          />
         ))}
       </ul>
 

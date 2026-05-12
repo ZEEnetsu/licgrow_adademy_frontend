@@ -166,7 +166,7 @@ function LaptopMock() {
       <div className="mt-3 grid gap-3 rounded-card bg-lic-offwhite p-4">
         <div className="flex flex-wrap items-center justify-between gap-2">
           <div>
-            <p className="text-lg font-bold text-lic-charcoal">Welcome back, Rajesh</p>
+            <p className="text-lg font-bold text-lic-charcoal">Welcome back, learner</p>
             <p className="text-sm text-lic-body">You’re ahead of 82% of this week’s cohort</p>
           </div>
           <span className="rounded-full bg-lic-teal/15 px-3 py-1 text-xs font-semibold text-lic-teal">

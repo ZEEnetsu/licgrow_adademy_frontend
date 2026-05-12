@@ -5,6 +5,7 @@ import {
   selectIsAuthenticated,
   selectEnrollmentStatus,
   selectBootstrapped,
+  selectRole,
 } from '../store/authSlice.js';
 
 /**
@@ -20,27 +21,31 @@ import {
  * Decision matrix
  * ────────────────────────────────────────────────────────────────────────────
  * stage = 'public'
- *   - authenticated + APPROVED  → /dashboard
- *   - authenticated + PENDING   → /pending-approval
- *   - authenticated + NONE      → /register-course
- *   - unauthenticated           → render <Outlet />
+ *   - authenticated + ADMIN        → /dashboard/admin
+ *   - authenticated + APPROVED     → /dashboard
+ *   - authenticated + PENDING      → /pending-approval
+ *   - authenticated + NONE         → /register-course
+ *   - unauthenticated              → render <Outlet />
  *
  * stage = 'intermediary'
- *   - unauthenticated           → /login
- *   - APPROVED                  → /dashboard
- *   - else                      → render <Outlet />
+ *   - unauthenticated               → /login
+ *   - ADMIN                         → /dashboard/admin
+ *   - APPROVED                      → /dashboard
+ *   - else                          → render <Outlet />
  *     (the route itself decides whether NONE shows the form or PENDING shows
  *      the waiting screen — see the page components.)
  *
  * stage = 'dashboard'
- *   - unauthenticated           → /login
- *   - PENDING                   → /pending-approval
- *   - NONE                      → /register-course
- *   - APPROVED                  → render <Outlet />
+ *   - unauthenticated              → /login
+ *   - ADMIN                         → render <Outlet /> (enrollment exempt)
+ *   - else + PENDING                → /pending-approval
+ *   - else + not APPROVED           → /register-course
+ *   - APPROVED                      → render <Outlet />
  */
 const ProtectedRoute = ({ stage }) => {
   const isAuthenticated = useSelector(selectIsAuthenticated);
   const enrollmentStatus = useSelector(selectEnrollmentStatus);
+  const role = useSelector(selectRole);
   const bootstrapped = useSelector(selectBootstrapped);
   const location = useLocation();
 
@@ -51,6 +56,8 @@ const ProtectedRoute = ({ stage }) => {
 
   if (stage === 'public') {
     if (!isAuthenticated) return <Outlet />;
+    if (role === 'ADMIN')
+      return <Navigate to="/dashboard/admin" replace />;
     if (enrollmentStatus === 'APPROVED') return <Navigate to="/dashboard" replace />;
     if (enrollmentStatus === 'PENDING')
       return <Navigate to="/pending-approval" replace />;
@@ -60,6 +67,8 @@ const ProtectedRoute = ({ stage }) => {
   if (stage === 'intermediary') {
     if (!isAuthenticated)
       return <Navigate to="/login" replace state={{ from: location }} />;
+    if (role === 'ADMIN')
+      return <Navigate to="/dashboard/admin" replace />;
     if (enrollmentStatus === 'APPROVED')
       return <Navigate to="/dashboard" replace />;
     return <Outlet />;
@@ -68,6 +77,7 @@ const ProtectedRoute = ({ stage }) => {
   if (stage === 'dashboard') {
     if (!isAuthenticated)
       return <Navigate to="/login" replace state={{ from: location }} />;
+    if (role === 'ADMIN') return <Outlet />;
     if (enrollmentStatus === 'PENDING')
       return <Navigate to="/pending-approval" replace />;
     if (enrollmentStatus !== 'APPROVED')
