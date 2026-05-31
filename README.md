@@ -1,81 +1,21 @@
-# LIC Grow — Frontend
+# LICPro Academy — Landing
 
-Educational and testing platform for LIC agents and students.
-React (plain JS) · TailwindCSS · React Router v6 · Redux Toolkit + RTK Query · Vite.
+Marketing landing page for LICPro Academy. React · Tailwind CSS · Framer Motion · Vite.
 
 ## Quick start
 
 ```bash
 npm install
-cp .env.example .env.local   # set VITE_API_TARGET to your backend URL
 npm run dev
 ```
 
-The dev server runs on `http://localhost:5173`. RTK Query uses **`/api/v1`**
-by default; Vite proxies that prefix to `VITE_API_TARGET` **without** stripping,
-so the backend receives paths like **`/api/v1/auth/register`** (see `vite.config.js`).
-If your API is mounted at the host root (`/auth/register`), set in `.env.local`:
-`VITE_API_PATH_PREFIX=/api` and `VITE_PROXY_STRIP_PREFIX=true`.
+Open `http://localhost:5173`.
 
-## Architecture
+## What's included
 
-The onboarding pipeline maps directly to four DB tables:
+- `src/pages/landing/` — all landing sections
+- `src/components/AcademyNav.jsx` — public header
+- `src/layouts/PublicLayout.jsx` — shell around the landing page
+- `src/hooks/useCountUp.js` — animated stats in social proof & mentor sections
 
-| Table                  | Touch points in the app                                                                   |
-| ---------------------- | ----------------------------------------------------------------------------------------- |
-| `USERS`                | `/auth/login`, `/auth/register`, `/users/me` — backs `authSlice`                          |
-| `COURSES`              | `getAvailableCourses` query rendered on `/register-course`                                |
-| `ENROLLMENT_REQUESTS`  | `submitEnrollment` mutation; row created when student submits LIC agent code              |
-| `COURSE_ASSIGNMENTS`   | Surfaces as `enrollment_status === 'APPROVED'` via `checkEnrollmentStatus` polling query  |
-
-`enrollment_status` is the single field that drives the entire routing pipeline:
-
-- `'NONE'`     — authenticated, no enrollment row → `/register-course`
-- `'PENDING'`  — enrollment row exists, no assignment → `/pending-approval`
-- `'APPROVED'` — assignment row exists → `/dashboard`
-
-`ProtectedRoute` (`src/routes/ProtectedRoute.jsx`) is the only guard
-component. It accepts `stage="public" | "intermediary" | "dashboard"` and
-encodes the full decision matrix.
-
-### Theming
-
-Tailwind runs in `darkMode: 'class'`. Only `DashboardLayout` adds the `dark`
-class to the document root — public and intermediary layouts always render
-light. The transition between `/pending-approval` (light) and `/dashboard`
-(dark) is masked by `ThemeTransitionOverlay`, which fades a full-screen panel
-in/out for ~450ms whenever the route crosses the light↔dark boundary.
-
-## File structure
-
-```
-licgrow/
-├── index.html
-├── package.json
-├── vite.config.js
-├── tailwind.config.js
-├── postcss.config.js
-├── .env.example
-└── src/
-    ├── main.jsx
-    ├── App.jsx
-    ├── index.css
-    ├── components/
-    │   └── ThemeTransitionOverlay.jsx
-    ├── layouts/
-    │   ├── PublicLayout.jsx          # Layout A — light, Dribbble-inspired
-    │   ├── IntermediaryLayout.jsx    # Layout B — light, focused chrome
-    │   └── DashboardLayout.jsx       # Layout C — dark, code-editor aesthetic
-    ├── pages/
-    │   ├── Landing.jsx               # /
-    │   ├── Auth.jsx                  # /login + /register
-    │   ├── CourseRegister.jsx        # /register-course
-    │   ├── PendingApproval.jsx       # /pending-approval
-    │   └── Dashboard.jsx             # /dashboard
-    ├── routes/
-    │   └── ProtectedRoute.jsx
-    └── store/
-        ├── store.js
-        ├── authSlice.js
-        └── apiSlice.js
-```
+Auth, dashboard, admin, mock tests, and API layers were removed so you can rebuild from this baseline.
