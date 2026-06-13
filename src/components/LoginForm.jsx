@@ -24,7 +24,6 @@ const LoginForm = ({ isSignUp }) => {
      if(pass.value.lenght < 8){
        setError(signupError.minLenght);
      }
-
   }
 
   return (

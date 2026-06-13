@@ -23,7 +23,7 @@ ChartJS.register(
   Title
 );
 
-export default function AreaChart({ xAxisLabel = '', yAxisLabel = '', coordinates = [], height = 220 }) {
+export default function AreaChart({ xAxisLabel = '', yAxisLabel = '', coordinates = [{}], height = 250 }) {
   const labels = [];
   const dataPoints = [];
 
@@ -68,26 +68,26 @@ export default function AreaChart({ xAxisLabel = '', yAxisLabel = '', coordinate
     responsive: true,
     maintainAspectRatio: false,
     plugins: {
-      legend: { display: false },
+      legend: { display: false},
       tooltip: { mode: 'index', intersect: false },
       title: { display: false },
     },
     scales: {
       x: {
-        title: { display: !!xAxisLabel, text: xAxisLabel, color: '#4A4A68' },
-        ticks: { color: '#4A4A68' },
+        title: { display: !!xAxisLabel, text: xAxisLabel, color: '#d4d4d8' },
+        ticks: { color: '#d4d4d8' },
         grid: { display: false },
       },
       y: {
-        title: { display: !!yAxisLabel, text: yAxisLabel, color: '#4A4A68' },
-        ticks: { color: '#4A4A68' },
+        title: { display: !!yAxisLabel, text: yAxisLabel, color: '#d4d4d8' },
+        ticks: { color: '#d4d4d8' },
         grid: { color: 'rgba(74,74,104,0.08)' },
       },
     },
   };
 
   return (
-    <div className="bg-white rounded-card shadow-soft p-4">
+    <div className="bg-zinc-900 rounded-md shadow-md p-4">
       <div style={{ height }}>
         <Line data={data} options={options} />
       </div>

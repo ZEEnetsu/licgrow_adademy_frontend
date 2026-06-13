@@ -4,13 +4,16 @@ import Dashboard from "./pages/Dashboard";
 import AdminMenu from "./AdminMenu";
 import { Outlet } from "react-router-dom";
 import AdminHeader from "./AdminHeader";
+import DashboardLayout from "../../layouts/DashboardLayout";
 
 const Admin = () => {
   return (
     <AdminLayout>
       <AdminMenu />
       <AdminHeader />
-      <Outlet/>
+      <DashboardLayout>
+        <Outlet />
+      </DashboardLayout>
     </AdminLayout>
   );
 };

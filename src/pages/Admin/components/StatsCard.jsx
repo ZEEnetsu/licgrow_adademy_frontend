@@ -14,7 +14,7 @@ const StatsCard = ({ iconPath, title, value }) => {
   return (
     <div
       className="transition-colors hover:transition-colors duration-300 hover:duration-300 bg-zinc-900/80
-    hover:bg-gradient-to-br from-green-400 via-zinc-950 to-transparent
+    hover:bg-zinc-800
     border border-zinc-100/5 rounded-lg p-3 min-h-40 flex flex-col justify-between relative shadow-sm shadow-zinc-100/15"
     >
       <div className="flex justify-between items-center">
