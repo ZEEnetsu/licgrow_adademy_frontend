@@ -13,27 +13,26 @@ const StatsCard = ({ iconPath, title, value }) => {
 
   return (
     <div
-      className="transition-colors hover:transition-colors duration-300 hover:duration-300 bg-zinc-900/80
-    hover:bg-zinc-800
-    border border-zinc-100/5 rounded-lg p-3 min-h-40 flex flex-col justify-between relative shadow-sm shadow-zinc-100/15"
+      className="transition-colors hover:transition-colors duration-300 hover:duration-300 hover:bg-surface-elevated-hover bg-surface-elevated
+    border border-surface-elevated rounded-lg p-3 min-h-40 flex flex-col justify-between relative shadow-sm shadow-zinc-100/15"
     >
       <div className="flex justify-between items-center">
         <img
           src={iconPath}
           alt={iconPath}
-          className="bg-zinc-700/50 h-8 p-2 rounded-full"
+          className="bg-surface h-8 p-2 rounded-full"
         />
         <img
           src={more}
           alt=""
-          className="h-6 w-6 hover:bg-zinc-800 p-1 rounded-full transition-all duration-300 cursor-pointer"
+          className="h-6 w-6 hover:bg-surface-elevated-hover p-1 rounded-full transition-all duration-300 cursor-pointer"
           onClick={() => {
             setToggleMenu(!toggleMenu);
           }}
         />
         <div
           className={`absolute bottom-0 right-0 border
-            rounded-lg border-zinc-800 bg-zinc-900 text-xs flex-col
+            rounded-lg border-surface-elevated bg-surface text-xs flex-col
             ${toggleMenu ? "flex" : "hidden"}
             `}
         >
@@ -42,7 +41,7 @@ const StatsCard = ({ iconPath, title, value }) => {
               return (
                 <div
                   key={data.id}
-                  className="px-2 py-1 hover:bg-zinc-800 cursor-pointer transition-all duration-200"
+                  className="px-2 py-1 hover:bg-surface-elevated cursor-pointer transition-all duration-200"
                   onClick={() => {
                     setcompare(data.title);
                     setToggleMenu(!toggleMenu);
@@ -56,9 +55,9 @@ const StatsCard = ({ iconPath, title, value }) => {
         </div>
       </div>
       <div className="flex flex-col gap-1">
-        <p className="">{title}</p>
-        <p className="text-3xl text-green-400 font-bold">{value}</p>
-        <p className="text-xs text-zinc-500">{compare}</p>
+        <p className="text-text-primary font-semibold">{title}</p>
+        <p className="text-3xl text-accent font-bold">{value}</p>
+        <p className="text-xs text-text-secondary">{compare}</p>
       </div>
     </div>
   );

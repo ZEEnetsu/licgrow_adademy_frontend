@@ -1,25 +1,20 @@
-import Btn from "../pages/Admin/components/Btn";
-import api from "../hooks/request";
 import { useState } from "react";
+import { useDraftTestMutation } from "../app/apis/tests.api";
 
 const DraftTestFrom = ({ onClose }) => {
   const [draftData, setDraftData] = useState({
     description: "",
     title: "",
   });
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(null);
+
+  // FIX 1: Call the hook at the TOP LEVEL. 
+  // Grab the trigger function (we'll call it 'draftTest') and the status object.
+  const [draftTest, { isLoading, error, isSuccess }] = useDraftTestMutation();
 
   const fields = [
     { id: "title", label: "Test Name", type: "text", placeholder: "Physics" },
-    {
-      id: "description",
-      label: "Description",
-      type: "text",
-      placeholder: "Description",
-    },
+    { id: "description", label: "Description", type: "text", placeholder: "Description" },
   ];
-  console.log("Draft Data Res : ", draftData);
 
   const handleChange = (e) => {
     setDraftData((prev) => ({ ...prev, [e.target.id]: e.target.value }));
@@ -27,18 +22,17 @@ const DraftTestFrom = ({ onClose }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setLoading(true);
-    setError(null);
+    
     try {
-      const res = await api.post("/admin/tests", draftData);
-      console.log("Draft test Responce : " ,res);
+      const responseData = await draftTest(draftData).unwrap();
+      
+      console.log("Successfully created draft:", responseData);
+      
     } catch (err) {
-      setError(err.message);
-    } finally {
-      setLoading(false);
+      console.error("Failed to create draft test:", err);
     }
   };
-  
+
   return (
     <form onSubmit={handleSubmit} className="">
       <div className="grid grid-cols-1 gap-3">
@@ -63,12 +57,14 @@ const DraftTestFrom = ({ onClose }) => {
         ))}
       </div>
 
-      {error && <p className="text-red-400 text-xs mt-2">{error}</p>}
+      {/* FIX 3: You had this commented out. Now that we extracted 'error' from the hook, it will work perfectly! */}
+      {error && <p className="text-red-400 text-xs mt-2">Error creating test</p>}
+      {isSuccess && <p className="text-green-400 text-xs mt-2 font-semibold">draft created Successfully</p>}
 
       <input
         type="submit"
-        value={loading ? "Creating..." : "Submit"}
-        disabled={loading}
+        value={isLoading ? "Creating..." : "Create draft test"}
+        disabled={isLoading}
         className="mt-4 px-4 py-2 bg-green-400 text-zinc-900 rounded-md font-semibold cursor-pointer disabled:opacity-50"
       />
     </form>

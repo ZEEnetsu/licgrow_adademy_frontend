@@ -74,21 +74,21 @@ export default function AreaChart({ xAxisLabel = '', yAxisLabel = '', coordinate
     },
     scales: {
       x: {
-        title: { display: !!xAxisLabel, text: xAxisLabel, color: '#d4d4d8' },
-        ticks: { color: '#d4d4d8' },
+        title: { display: !!xAxisLabel, text: xAxisLabel, },
+        // ticks: { color: '#d4d4d8' },
         grid: { display: false },
       },
       y: {
-        title: { display: !!yAxisLabel, text: yAxisLabel, color: '#d4d4d8' },
-        ticks: { color: '#d4d4d8' },
-        grid: { color: 'rgba(74,74,104,0.08)' },
+        title: { display: !!yAxisLabel, text: yAxisLabel, },
+        // ticks: { color: '#d4d4d8' },
+        // grid: { color: 'rgba(74,74,104,0.08)' },
       },
     },
   };
 
   return (
-    <div className="bg-zinc-900 rounded-md shadow-md p-4">
-      <div style={{ height }}>
+    <div className="bg-surface-elevated rounded-md p-4">
+      <div style={{ height }} className='text-text-primary'>
         <Line data={data} options={options} />
       </div>
     </div>

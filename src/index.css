@@ -1,7 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&display=swap');
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  color-scheme: light;
+}
+.dark {
+  color-scheme: dark;
+}
+
+@theme {
+  --color-surface: #e4edf3;
+  --color-surface-elevated: #dfe7ec; 
+  --color-surface-elevated-hover: #f1f5f9;
+  --color-text-primary: #0f172a;
+  --color-text-secondary: #475569;
+  --color-accent: #44e978;
+  --color-border: #e2e8f0;
+}
+.light{
+  --color-surface: #e4edf3;
+  --color-surface-elevated: #dfe7ec; 
+  --color-surface-elevated-hover: #f1f5f9;
+  --color-text-primary: #0f172a;
+  --color-text-secondary: #5e6c80;
+  --color-accent: #44e978;
+  --color-border: #e2e8f0;
+}
+.dark {
+  --color-surface: #202020;
+  --color-surface-elevated: #2e2e2e;
+  --color-surface-elevated-hover: #2f2f2f;
+  --color-text-primary: #d2d2d2;
+  --color-text-secondary: #a0a1a3;
+  --color-accent: #44e978;
+  --color-accent-hover: #8bdea5;
+  --color-border: #474747;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -12,9 +49,10 @@ body,
   height: 100%;
 }
 
+
 body {
-  background-color: #ffffff;
-  color: #4a4a68;
+  /* background-color: #ffffff;
+  color: #4a4a68; */
   font-family: "DM Sans", "Google Sans", system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
@@ -42,13 +80,11 @@ body {
 /* Mentor section — diagonal stripe texture + achievement strip dividers */
 .mentor-block1-stripes {
   background-color: #f0fbf7;
-  background-image: repeating-linear-gradient(
-    45deg,
-    transparent,
-    transparent 14px,
-    rgba(13, 158, 115, 0.04) 14px,
-    rgba(13, 158, 115, 0.04) 16px
-  );
+  background-image: repeating-linear-gradient(45deg,
+      transparent,
+      transparent 14px,
+      rgba(13, 158, 115, 0.04) 14px,
+      rgba(13, 158, 115, 0.04) 16px);
 }
 
 .mentor-ach-strip {
@@ -56,12 +92,12 @@ body {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.mentor-ach-strip > * {
+.mentor-ach-strip>* {
   border-right: 1px solid #0d9e73;
   border-bottom: 1px solid #0d9e73;
 }
 
-.mentor-ach-strip > *:nth-child(2n) {
+.mentor-ach-strip>*:nth-child(2n) {
   border-right: none;
 }
 
@@ -70,16 +106,16 @@ body {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
-  .mentor-ach-strip > * {
+  .mentor-ach-strip>* {
     border-bottom: none;
     border-right: 1px solid #0d9e73;
   }
 
-  .mentor-ach-strip > *:nth-child(2n) {
+  .mentor-ach-strip>*:nth-child(2n) {
     border-right: 1px solid #0d9e73;
   }
 
-  .mentor-ach-strip > *:last-child {
+  .mentor-ach-strip>*:last-child {
     border-right: none;
   }
 }
@@ -105,4 +141,102 @@ body {
 
 .mentor-ach-hover-fill:hover::after {
   transform: scaleY(1);
+}
+
+/* CourseDropdown.css */
+
+/* ── Wrapper ── */
+.course-dropdown {
+  max-width: 100rem;
+  margin-top: 25px;
+}
+
+.modules-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* ── Accordion ── */
+.module-accordion {
+  margin-bottom: 0.5rem;
+}
+
+/* ── Header ── */
+.module-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.module-title {
+  display: flex;
+  gap: 0.75rem;
+  font-weight: 600;
+}
+
+/* ── Arrow ── */
+.arrow-icon {
+  transition: transform 0.3s ease-in-out;
+}
+
+.arrow-icon.rotated {
+  transform: rotate(180deg);
+}
+
+/* ── Collapsible (grid trick) ── */
+.chapters-wrapper {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.3s ease;
+  /* zinc-800 */
+  border-radius: 0 0 0.375rem 0.375rem;
+}
+
+.chapters-wrapper.open {
+  grid-template-rows: 1fr;
+}
+
+.chapters-inner {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0 1rem;
+  /* horizontal always present */
+  /* vertical padding animates with a small delay so it doesn't clip */
+  max-height: 0;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.chapters-wrapper.open .chapters-inner {
+  max-height: 1000px;
+  padding: 1rem;
+}
+
+/* ── Chapter Row ── */
+.chapter-row {
+  display: flex;
+  gap: 1rem;
+  padding: 0.25rem 0;
+  font-size: 0.875rem;
+  /* zinc-700 */
+}
+
+.chapter-row:last-child {
+  border-bottom: none;
+}
+
+.chapter-title {
+  font-weight: 500;
+}
+
+/* ── No data ── */
+.no-data {
+  text-align: center;
+  padding: 1.25rem;
 }

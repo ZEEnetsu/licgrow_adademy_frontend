@@ -1,6 +1,6 @@
 const Btn = ({
   title,
-  icon,
+  icon = null,
   type,
   variant = 'primary',
   className = "",
@@ -9,9 +9,9 @@ const Btn = ({
 }) => {
   const variants = {
     primary: "bg-green-400 text-zinc-950 hover:bg-green-500",
-    secondary: "bg-zinc-800 text-zinc-200 hover:text-zinc-950 hover:bg-green-400",
+    secondary: "bg-zinc-800 text-zinc-200 hover:text-zinc-200 hover:bg-zinc-700 text-sm cursor-pointer ",
     outline:
-      "border-2 border-zinc-200 bg-transparent hover:bg-zinc-50 text-zinc-900",
+      "border-1 border-zinc-700 bg-transparent hover:bg-zinc-300 hover:text-zinc-800 text-zinc-400",
     ghost: "bg-transparent text-zinc-500 hover:bg-zinc-100/20 ",
     danger: "bg-red-600 text-white hover:bg-red-700",
   };
@@ -22,8 +22,10 @@ const Btn = ({
   };
 
   return (
-    <button type={type} className={`rounded-md flex w-full text-center items-center gap-2 transition-colors duration-200 ${sizes[size]} ${variants[variant]} ${className}`} {...props}>
-      <img src={icon} alt={icon} className="h-6" />
+    <button type={type} className={` cursor-pointer rounded-md flex w-full text-center items-center gap-2 transition-colors duration-200 ${sizes[size]} ${variants[variant]} ${className}`} {...props}>
+      {
+         icon === null ? "" : <img src={icon} alt={icon} className="h-6" />
+      }
       <p className="mx-auto">{title}</p>
     </button>
   );

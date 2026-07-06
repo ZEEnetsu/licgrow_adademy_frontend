@@ -89,9 +89,9 @@ const PieChart = ({
   }
 
   return (
-    <div className="bg-zinc-900 border border-zinc-800 rounded-xl p-4">
+    <div className="bg-surface-elevated border border-surface-elevated rounded-xl p-4">
       {title && (
-        <p className="text-zinc-300 font-semibold text-sm mb-3">{title}</p>
+        <p className="text-primary font-semibold text-sm mb-3">{title}</p>
       )}
       <div style={{ height }}>
         <canvas ref={canvasRef} />

@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react";
-import DashboardCompLayout from "../../../layouts/DashboardCompLayout";
-import DataTable from "../components/dataTable/DataTable";
-import Btn from "../components/Btn";
-import TestCard from "../components/TestCard";
-import draftIcon from "../../../assets/testIcons/draft.svg";
-import publishedIcon from "../../../assets/testIcons//published.svg";
+import DashboardCompLayout from "../../../../layouts/DashboardCompLayout";
+import DataTable from "../../components/dataTable/DataTable";
+import Btn from "../../components/Btn";
+import TestCard from "../../components/TestCard";
+import draftIcon from "../../../../assets/testIcons/draft.svg";
+import publishedIcon from "../../../../assets/testIcons/published.svg";
 import { NavLink } from "react-router-dom";
-import useApiCall from "../../../hooks/useApiCall";
+import useApiCall from "../../../../hooks/useApiCall";
+import { useGetTestsQuery } from "../../../../app/apis/tests.api";
 const TestOverview = () => {
   const testData = [
     {
@@ -153,26 +154,42 @@ const TestOverview = () => {
     },
   ];
 
-  const [test, setTest] = useState(null);
-  const { data, loading, error } = useApiCall("/admin/tests");
+  // const [test, setTest] = useState(null);
+  // const { data, loading, error } = useApiCall("/tests");
+  //  console.log(data);
+  // if (loading) {
+  //   return (
+  //     <DashboardCompLayout>
+  //       <div className="text-zinc-400 p-6">Loading tests...</div>
+  //     </DashboardCompLayout>
+  //   );
+  // }
 
-  if (loading) {
-    return (
-      <DashboardCompLayout>
-        <div className="text-zinc-400 p-6">Loading tests...</div>
-      </DashboardCompLayout>
-    );
-  }
+  // if (error) {
+  //   return (
+  //     <DashboardCompLayout>
+  //       <div className="text-red-400 p-6">Failed to load tests.</div>
+  //     </DashboardCompLayout>
+  //   );
+  // }
 
-  if (error) {
-    return (
-      <DashboardCompLayout>
-        <div className="text-red-400 p-6">Failed to load tests.</div>
-      </DashboardCompLayout>
-    );
-  }
+  // const testsArray = data?.tests || [];
 
-  const testsArray = data?.tests || [];
+  const { data, isLoading, isError, error } = useGetTestsQuery();
+    console.log("Raw RTK query data -> ", data);
+  
+    if (isLoading) {
+      return <div>Loading Data ...</div>;
+    }
+  
+    if (isError) {
+      console.error("RTK Query Fetch Error:", error);
+      return (
+        <div className="text-red-400 font-semibold">Error Loading Data X </div>
+      );
+    };
+    const testList = data?.data?.tests || [];
+
 
   return (
     <div>
@@ -180,7 +197,7 @@ const TestOverview = () => {
         <div>
           <h1 className="font-semibold">Draft Test</h1>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5 mt-3 items-center">
-            {testsArray.map((test) => {
+            {testList.map((test) => {
               return (
                 <NavLink key={test.testId} to={`tests/${test.testId}`}>
                   <TestCard

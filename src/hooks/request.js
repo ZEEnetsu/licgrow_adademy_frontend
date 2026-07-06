@@ -1,4 +1,4 @@
-const BASE_URL = "/api/v1";  
+const BASE_URL = "https://fca3-2409-40d1-88-6142-d88-2ee9-383f-bc77.ngrok-free.app/api/v1";  
 
 const request = async (endpoint, options = {}) => {
   const config = {

@@ -82,17 +82,17 @@ const Dashboard = () => {
       highestScore: 38,
     },
   ];
-
   const scores = [
-  { label: "Math",    value: 40 },
-  { label: "Science", value: 25 },
-  { label: "English", value: 20 },
-  { label: "History", value: 15 },
-];
+    { label: "Math", value: 40 },
+    { label: "Science", value: 25 },
+    { label: "English", value: 20 },
+    { label: "History", value: 15 },
+  ];
+
   return (
     <div>
       <DashboardCompLayout>
-        <div className="grid grid-cols-4 gap-3">
+        <div className="grid grid-cols-4 gap-5">
           {statsData.map((stat) => {
             return (
               <StatsCard
@@ -104,7 +104,7 @@ const Dashboard = () => {
             );
           })}
         </div>
-        <div className="grid grid-cols-2 gap-3 mt-4">
+        <div className="grid grid-cols-2 gap-5 mt-5">
           <AreaChart
             xAxisLabel="courses"
             yAxisLabel="students"
@@ -118,9 +118,9 @@ const Dashboard = () => {
               { x: "System Design", y: 30 },
             ]}
           />
-          <p className="rounded-md grid grid-cols-2 gap-3">
-            <PieChart data={scores} title="student"/>
-            <PieChart data={scores} title="student"/>
+          <p className="rounded-md grid grid-cols-2 gap-5">
+            <PieChart data={scores} title="student" />
+            <PieChart data={scores} title="student" />
           </p>
         </div>
       </DashboardCompLayout>

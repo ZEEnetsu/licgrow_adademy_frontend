@@ -9,7 +9,7 @@ import calendar_month from "../../assets/calendar_month.svg";
 import { useEffect, useState } from "react";
 import avatarPlaceholder from "../../assets/dashboardIcons/avatarPlaceholder.svg";
 import adminAvatar from '../../assets/avatar/adminAvatar.jpg'
-const AdminHeader = ({ classname = "" }) => {
+const AdminHeader = ({ activeLink }) => {
   const navData = [
     { id: 1, to: "/admin/overview", name: "Overview" },
     { id: 2, to: "/admin/notifications", name: "Notifications" },
@@ -26,10 +26,10 @@ const AdminHeader = ({ classname = "" }) => {
   });
 
   return (
-    <header className="px-3 border-b border-1 border-green-100/10 col-span-7 row-span-1 flex flex-col justify-center">
+    <header className="px-3 border-b border-surface-elevated col-span-7 row-span-1 flex flex-col justify-center">
       <div className="flex items-center justify-between px-2">
         <div className="font-semibold text-3xl">
-          <div className="">{'ROHIT LAL'}</div>
+          <div className="">{activeLink}</div>
         </div>
         <div className="flex items-center gap-2">
            <div className="mt-2 mr-4 text-zinc-400 text-xs">{currentDate}</div>

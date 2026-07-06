@@ -3,11 +3,11 @@ import close from '../assets/close.svg';
 const ProtalLayout = ({ onClose , children , heading }) => {
   return createPortal(
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-black/70"
+      className="fixed inset-0 z-50 flex items-center justify-center bg-surface/80"
       onClick={onClose}  // click backdrop to close
     >
       <div
-        className="relative p-2 min-w-100 border border-zinc-800 bg-zinc-900 rounded-md"
+        className="relative p-2 min-w-100 border rounded-md"
         onClick={(e) => e.stopPropagation()}  // don't close when clicking inside
       >
         <div className="sticky top-0 w-full border-b border-zinc-800 flex justify-between">
