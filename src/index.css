@@ -1,46 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&display=swap');
 @import "tailwindcss";
 
+/*
+ * Every colour in the application. One file, two blocks — light and dark —
+ * so retuning the palette is editing hexes there and nothing else.
+ */
+@import "./styles/theme.css";
+
 @custom-variant dark (&:where(.dark, .dark *));
 
-:root {
-  color-scheme: light;
-}
-.dark {
-  color-scheme: dark;
-}
+/*
+ * Token → utility mapping. `inline` matters: without it Tailwind emits
+ * `--color-bg: var(--bg)` once on :root and utilities reference *that*, so the
+ * value is frozen at the root element. Inlined, `bg-bg` compiles to
+ * `background-color: var(--bg)` and resolves per element — which is what lets
+ * `.dark` (and any future scoped theme) actually take effect.
+ *
+ * This block is the only place a token name is bound to a class name.
+ */
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-muted: var(--surface-muted);
+  --color-surface-hover: var(--surface-hover);
+  --color-surface-elevated: var(--surface-elevated);
+  --color-surface-elevated-hover: var(--surface-elevated-hover);
+  --color-surface-elevated-muted: var(--surface-elevated-muted);
 
-@theme {
-  --color-surface: #e4edf3;
-  --color-surface-elevated: #dfe7ec; 
-  --color-surface-elevated-hover: #f1f5f9;
-  --color-text-primary: #0f172a;
-  --color-text-secondary: #475569;
-  --color-accent: #44e978;
-  --color-border: #e2e8f0;
-}
-.light{
-  --color-surface: #e4edf3;
-  --color-surface-elevated: #dfe7ec; 
-  --color-surface-elevated-hover: #f1f5f9;
-  --color-text-primary: #0f172a;
-  --color-text-secondary: #5e6c80;
-  --color-accent: #44e978;
-  --color-border: #e2e8f0;
-}
-.dark {
-  --color-surface: #202020;
-  --color-surface-elevated: #2e2e2e;
-  --color-surface-elevated-hover: #2f2f2f;
-  --color-text-primary: #d2d2d2;
-  --color-text-secondary: #a0a1a3;
-  --color-accent: #44e978;
-  --color-accent-hover: #8bdea5;
-  --color-border: #474747;
+  --color-border: var(--border);
+  --color-border-muted: var(--border-muted);
+
+  --color-text-primary: var(--text-primary);
+  --color-text-muted: var(--text-muted);
+
+  --color-success: var(--success);
+  --color-success-muted: var(--success-muted);
+  --color-warning: var(--warning);
+  --color-warning-muted: var(--warning-muted);
+  --color-danger: var(--danger);
+  --color-danger-muted: var(--danger-muted);
+
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-muted: var(--accent-muted);
+  --color-accent-contrast: var(--accent-contrast);
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+/*
+  The admin drawer animates its width and transform. For anyone who has asked
+  the OS for less motion, that is exactly the kind of movement to drop — the
+  drawer still opens and closes, it just arrives instantly.
+*/
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 html,
@@ -57,9 +84,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* selection follows the accent, so it changes with the theme like everything else */
 ::selection {
-  background-color: rgba(46, 191, 138, 0.25);
-  color: #1a1a2e;
+  background-color: color-mix(in srgb, var(--accent) 25%, transparent);
+  color: var(--text-primary);
 }
 
 .grain-overlay {

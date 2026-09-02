@@ -8,12 +8,12 @@ const Btn = ({
   ...props
 }) => {
   const variants = {
-    primary: "bg-green-400 text-zinc-950 hover:bg-green-500",
-    secondary: "bg-zinc-800 text-zinc-200 hover:text-zinc-200 hover:bg-zinc-700 text-sm cursor-pointer ",
+    primary: "bg-accent text-accent-contrast hover:bg-accent-hover",
+    secondary: "bg-surface-elevated text-text-primary hover:text-text-primary hover:bg-surface-elevated-hover text-sm cursor-pointer ",
     outline:
-      "border-1 border-zinc-700 bg-transparent hover:bg-zinc-300 hover:text-zinc-800 text-zinc-400",
-    ghost: "bg-transparent text-zinc-500 hover:bg-zinc-100/20 ",
-    danger: "bg-red-600 text-white hover:bg-red-700",
+      "border-1 border-border bg-transparent hover:bg-surface hover:text-text-primary text-text-muted",
+    ghost: "bg-transparent text-text-muted hover:bg-surface-hover ",
+    danger: "bg-danger text-bg hover:bg-danger",
   };
   const sizes = {
     sm: "h-8 px-2 text-sm",

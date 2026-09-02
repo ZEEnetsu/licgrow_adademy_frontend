@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import dashboard_image from '../../assets/dashboard_image.png'; 
+// import dashboard_image from '../../assets/dashboard_image.png'; 
 import { EASE, stagger, fadeUp } from './motion.js';
 
 const FEATURES = [
@@ -30,7 +30,7 @@ const FEATURES = [
     body:
       'Scores, improvement curves, time-per-question, weak-topic flags — your dashboard tells you what to fix next, not what looks pretty.',
     tag: 'Data-driven preparation',
-    img: dashboard_image,
+    img: "to be placed later",
     imgAlt: 'Student dashboard preview',
   },
   {
@@ -127,7 +127,7 @@ function MockTestArena() {
   return (
     <motion.div
       variants={fadeUp}
-      className="relative mt-16 overflow-hidden rounded-card-lg border border-lic-teal/30 bg-gradient-to-br from-white via-lic-mint to-white p-8 shadow-card sm:p-12"
+      className="relative mt-16 overflow-hidden rounded-card-lg border border-lic-teal/30 bg-linear-to-br from-white via-lic-mint to-white p-8 shadow-card sm:p-12"
     >
       <div className="pointer-events-none absolute -right-20 top-10 h-56 w-56 rounded-full bg-lic-sky/20 blur-3xl" />
       <div className="pointer-events-none absolute -left-16 bottom-0 h-48 w-48 rounded-full bg-lic-teal/15 blur-3xl" />
@@ -150,9 +150,9 @@ function MockTestArena() {
         <motion.div
           animate={{ y: [0, -8, 0] }}
           transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
-          className="rounded-card-lg border border-black/[0.08] bg-white p-2 shadow-lift"
+          className="rounded-card-lg border border-black/8 bg-white p-2 shadow-lift"
         >
-          <div className="flex items-center gap-2 border-b border-black/[0.06] px-3 py-2">
+          <div className="flex items-center gap-2 border-b border-black/6 px-3 py-2">
             <span className="font-mono text-[10px] text-lic-body">IRDA mock · timed</span>
             <span className="ml-auto rounded-full bg-lic-teal px-2 py-0.5 text-[10px] font-bold text-white">
               24:18

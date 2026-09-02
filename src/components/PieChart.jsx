@@ -1,19 +1,35 @@
 import { useEffect, useRef } from "react";
 import * as Chart from "chart.js";
 
-Chart.Chart.register(Chart.ArcElement, Chart.Tooltip, Chart.Legend);
+import { useThemeTokens } from "../app/features/useThemeTokens.js";
 
-// variant color palettes
-const VARIANTS = {
-  default: ["#4ADE80", "#3AB367", "#29884D", "#227642", "#14532D", "#185C33"],
-  cool: ["#06b6d4", "#3b82f6", "#8b5cf6", "#ec4899", "#6366f1", "#0ea5e9"],
-  warm: ["#f59e0b", "#ef4444", "#f97316", "#eab308", "#dc2626", "#fb923c"],
-  mono: ["#e4e4e7", "#a1a1aa", "#71717a", "#52525b", "#3f3f46", "#27272a"],
-};
+/*
+ * Chart.js ships tree-shakeable, so every piece has to be registered by hand —
+ * including the CONTROLLER, not just the element it draws.
+ *
+ * Registering ArcElement alone renders nothing and throws "pie is not a
+ * registered controller" at construction. Both controllers are registered
+ * because this component supports `type="pie"` and `type="doughnut"`.
+ */
+Chart.Chart.register(
+  Chart.PieController,
+  Chart.DoughnutController,
+  Chart.ArcElement,
+  Chart.Tooltip,
+  Chart.Legend,
+);
+
+/**
+ * Every colour a pie needs, as token names. Resolved at runtime because a
+ * canvas cannot inherit CSS — see useThemeTokens.
+ */
+const TOKENS = [
+  "chart-1", "chart-2", "chart-3", "chart-4", "chart-5", "chart-6",
+  "chart-tick", "surface-elevated", "text-primary", "border", "surface",
+];
 
 const PieChart = ({
   data = [], // [{ label: "Math", value: 40 }, ...]
-  variant = "default", // "default" | "cool" | "warm" | "mono"
   type = "pie", // "pie" | "doughnut"
   title = "",
   showLegend = false,
@@ -21,6 +37,7 @@ const PieChart = ({
 }) => {
   const canvasRef = useRef(null);
   const chartRef = useRef(null);
+  const theme = useThemeTokens(TOKENS);
 
   useEffect(() => {
     if (!canvasRef.current || !data.length) return;
@@ -28,7 +45,7 @@ const PieChart = ({
     // destroy previous instance before re-creating
     if (chartRef.current) chartRef.current.destroy();
 
-    const colors = VARIANTS[variant] ?? VARIANTS.default;
+    const series = [1, 2, 3, 4, 5, 6].map((n) => theme[`chart-${n}`]);
 
     chartRef.current = new Chart.Chart(canvasRef.current, {
       type,
@@ -37,11 +54,11 @@ const PieChart = ({
         datasets: [
           {
             data: data.map((d) => d.value),
-            backgroundColor: data.map(
-              (_, i) => colors[i % colors.length] + "cc",
-            ), // cc = 80% opacity
-            borderColor: data.map((_, i) => colors[i % colors.length]),
-            borderWidth: 1.5,
+            backgroundColor: data.map((_, i) => series[i % series.length]),
+            // the slice outline is the surface behind it, so slices read as
+            // separated rather than as one blob with seams
+            borderColor: theme["surface"],
+            borderWidth: 2,
             hoverOffset: 8,
           },
         ],
@@ -54,7 +71,7 @@ const PieChart = ({
             display: showLegend,
             position: "bottom",
             labels: {
-              color: "#a1a1aa",
+              color: theme["chart-tick"],
               padding: 16,
               font: { size: 12 },
               usePointStyle: true,
@@ -62,6 +79,13 @@ const PieChart = ({
             },
           },
           tooltip: {
+            // Chart.js defaults to a near-black box, which is a dark card
+            // sitting on a light page
+            backgroundColor: theme["surface-elevated"],
+            titleColor: theme["text-primary"],
+            bodyColor: theme["text-primary"],
+            borderColor: theme["border"],
+            borderWidth: 1,
             callbacks: {
               label: (ctx) => {
                 const total = ctx.dataset.data.reduce((a, b) => a + b, 0);
@@ -78,20 +102,25 @@ const PieChart = ({
     });
 
     return () => chartRef.current?.destroy();
-  }, [data, variant, type, showLegend]);
+  }, [data, type, showLegend, theme]);
 
   if (!data.length) {
     return (
-      <div className="flex items-center justify-center h-40 text-zinc-500 text-sm">
+      <div className="flex items-center justify-center h-40 text-text-muted text-sm">
         No data available
       </div>
     );
   }
 
+  /*
+   * No card, no border, no padding of its own. The chart used to carry its own
+   * elevated surface, so dropping it into a Panel produced a card inside a
+   * card. Chrome belongs to whatever is placing the chart.
+   */
   return (
-    <div className="bg-surface-elevated border border-surface-elevated rounded-xl p-4">
+    <div>
       {title && (
-        <p className="text-primary font-semibold text-sm mb-3">{title}</p>
+        <p className="text-text-primary font-semibold text-sm mb-3">{title}</p>
       )}
       <div style={{ height }}>
         <canvas ref={canvasRef} />

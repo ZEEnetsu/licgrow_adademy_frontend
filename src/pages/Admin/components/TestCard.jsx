@@ -1,20 +1,20 @@
-import { useState } from "react"
+/**
+ * Compact test tile. `Id` is a UUID (conventions §1) — only the first segment
+ * is shown, which is enough to correlate with logs without dominating the card.
+ */
+const TestCard = ({ title, iconURL, meta, Id }) => {
+  const shortId = Id ? String(Id).slice(0, 8) : null;
 
-const TestCard = ({title , iconURL , timeAgo , Id}) => {
-  
-  const testId  = String(Id).slice(0,8);
-  console.log(testId);
   return (
-    <div className='flex gap-4 border border-zinc-800 p-3 rounded-md bg-zinc-900 hover:bg-zinc-800 transition-all duration-200 cursor-pointer'>
-        <img src={iconURL} alt={iconURL} className='w-12'/>
-        <div className="text-[10px] mt-2 flex flex-col justify-between">
-            <div className="flex justify-between">
-              <span className="text-green-300">{testId}</span>
-            </div>
-            <p className='text-xs text-start'>{title}</p>
-        </div>
+    <div className="flex gap-4 border border-border p-3 rounded-md bg-bg hover:bg-surface-elevated transition-all duration-200 cursor-pointer">
+      <img src={iconURL} alt="" className="w-12 shrink-0" />
+      <div className="text-[10px] mt-1 flex flex-col justify-between min-w-0">
+        {shortId && <span className="text-success font-mono">{shortId}</span>}
+        <p className="text-xs text-start line-clamp-2">{title}</p>
+        {meta && <span className="text-text-muted">{meta}</span>}
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default TestCard
+export default TestCard;

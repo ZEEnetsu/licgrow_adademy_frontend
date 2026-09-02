@@ -1,0 +1,135 @@
+/**
+ * ─────────────────────────────────────────────────────────────────────────────
+ *  THEME CONFIG — every colour in the application lives here.
+ * ─────────────────────────────────────────────────────────────────────────────
+ *
+ * Two blocks: `:root` is light, `.dark` is dark. They declare the same names,
+ * so retuning is editing a hex on the left or the right and saving. Nothing
+ * else in the codebase names a colour — no component, no chart, no page.
+ *
+ * HOW IT REACHES THE UI
+ *   index.css maps each token to a Tailwind utility once, in its `@theme
+ *   inline` block: `--accent` becomes `bg-accent`, `text-accent`,
+ *   `border-accent`. Adding a token means adding it here AND there; changing a
+ *   token's value means only here.
+ *
+ * WHAT THE LEVELS MEAN
+ *   bg                 the page itself
+ *   surface            cards, the sidebar, the header
+ *   surface-muted      recessed areas on a card — zebra rows, disabled fields
+ *   surface-hover      a surface under the pointer
+ *   surface-elevated   things that float above the page: modals, dropdowns
+ *
+ * IF YOU RETUNE
+ *   `theme.check.mjs` measures WCAG contrast from these values and fails on
+ *   anything under AA, so a pairing that became unreadable is caught here
+ *   rather than on a screen. The pairs it holds to 4.5:1 are: text on bg,
+ *   text on surface, each status on its own `-muted` fill and on a card, the
+ *   accent as text, and `accent-contrast` on `accent`.
+ *
+ *   The general rule these values follow: LIGHT mode takes the 600/700-level
+ *   for anything that is read (text, status, accent) and the 100-level for the
+ *   fills behind them; DARK mode inverts that — 300/400-level ink on 900/950
+ *   fills. Using the same 500 for both is what made the first pass unreadable
+ *   in light mode.
+ */
+
+:root {
+  color-scheme: light;
+
+  /* ── surfaces ─────────────────────────────────────────────────────────── */
+  --bg: #ffffff;
+  --surface: #f4f4f5;
+  --surface-muted: #fafafa;
+  --surface-hover: #e4e4e7;
+  --surface-elevated: #ffffff;
+  --surface-elevated-hover: #f4f4f5;
+  --surface-elevated-muted: #f4f4f5;
+
+  /* ── borders ──────────────────────────────────────────────────────────── */
+  --border: #e4e4e7;
+  --border-muted: #f4f4f5;
+
+  /* ── text ─────────────────────────────────────────────────────────────── */
+  --text-primary: #09090b;
+  --text-muted: #52525b;
+
+  /* ── status ───────────────────────────────────────────────────────────── *
+   * Each pair is ink and the tinted fill it sits on: a pill is
+   * `bg-danger-muted text-danger` in both themes.                           */
+  --success: #047857;
+  --success-muted: #d1fae5;
+  --warning: #b45309;
+  --warning-muted: #fef3c7;
+  --danger: #b91c1c;
+  --danger-muted: #fee2e2;
+
+  /* ── accent ───────────────────────────────────────────────────────────── *
+   * `--accent-contrast` is the text ON the accent. It is a separate token
+   * because it does not follow the theme: a dark accent needs a white label
+   * and a light one needs a near-black label, whichever mode you are in.     */
+  --accent: #047857;
+  --accent-hover: #065f46;
+  --accent-muted: #d1fae5;
+  --accent-contrast: #ffffff;
+
+  /* ── charts ───────────────────────────────────────────────────────────── *
+   * A canvas cannot inherit a custom property, so these are read in JS by
+   * useThemeTokens and handed to Chart.js. `--chart-1` is the accent, so the
+   * first series of every chart follows the brand colour. 2–6 are distinct
+   * hues for multi-series charts.                                            */
+  --chart-1: var(--accent);
+  --chart-2: #1d4ed8;
+  --chart-3: #6d28d9;
+  --chart-4: #b45309;
+  --chart-5: #0e7490;
+  --chart-6: #be185d;
+  --chart-grid: var(--border);
+  --chart-tick: var(--text-muted);
+}
+
+.dark {
+  color-scheme: dark;
+
+  /* ── surfaces ─────────────────────────────────────────────────────────── */
+  --bg: #09090b;
+  --surface: #18181b;
+  --surface-muted: #141415;
+  --surface-hover: #27272a;
+  --surface-elevated: #27272a;
+  --surface-elevated-hover: #3f3f46;
+  --surface-elevated-muted: #1f1f22;
+
+  /* ── borders ──────────────────────────────────────────────────────────── */
+  --border: #27272a;
+  --border-muted: #18181b;
+
+  /* ── text ─────────────────────────────────────────────────────────────── */
+  --text-primary: #fafafa;
+  --text-muted: #a1a1aa;
+
+  /* ── status ───────────────────────────────────────────────────────────── */
+  --success: #34d399;
+  --success-muted: #064e3b;
+  --warning: #fbbf24;
+  --warning-muted: #78350f;
+  /* red-900 sits higher than the other 900s against its ink; this is red-950 */
+  --danger: #f87171;
+  --danger-muted: #450a0a;
+
+  /* ── accent ───────────────────────────────────────────────────────────── */
+  --accent: #34d399;
+  --accent-hover: #6ee7b7;
+  --accent-muted: #064e3b;
+  --accent-contrast: #09090b;
+
+  /* ── charts ───────────────────────────────────────────────────────────── */
+  --chart-1: var(--accent);
+  --chart-2: #60a5fa;
+  --chart-3: #a78bfa;
+  --chart-4: #fbbf24;
+  --chart-5: #22d3ee;
+  --chart-6: #f472b6;
+  --chart-grid: var(--border);
+  --chart-tick: var(--text-muted);
+}

@@ -1,73 +1,169 @@
-import dash_logo from "../../assets/dash_logo.svg";
+import { NavLink } from "react-router-dom";
+import { useSelector } from "react-redux";
+
+import ToggleBtn from "../../components/ToggleBtn.jsx";
+import { selectTheme } from "../../app/features/theme.slice.js";
+// dark-theme icons
 import user from "../../assets/dashboardIcons/account.svg";
 import batch from "../../assets/dashboardIcons/batch.svg";
 import test from "../../assets/dashboardIcons/test.svg";
 import announcement from "../../assets/dashboardIcons/announcement.svg";
-import finance from "../../assets/dashboardIcons/finance.svg";
 import settings from "../../assets/dashboardIcons/settings.svg";
 import course from "../../assets/dashboardIcons/course.svg";
 import notification from "../../assets/notifications.svg";
-import { NavLink } from "react-router-dom";
-import close_menu from "../../assets/dashboardIcons/close_menu.svg";
-import ToggleBtn from "../../components/ToggleBtn";
+// light-theme icons
+import dashboard from "../../assets/dashboardIcons/lightTheme/dashboard.svg";
+import account from "../../assets/dashboardIcons/lightTheme/account.svg";
+import batch_light from "../../assets/dashboardIcons/lightTheme/batch.svg";
+import cource_light from "../../assets/dashboardIcons/lightTheme/course.svg";
+import test_light from "../../assets/dashboardIcons/lightTheme/test.svg";
+import announcement_light from "../../assets/dashboardIcons/lightTheme/announcement.svg";
+import notification_light from "../../assets/dashboardIcons/lightTheme/notfication.svg";
+import setting_light from "../../assets/dashboardIcons/lightTheme/setting.svg";
 
-const AdminMenu = ({ activeLink,  setActiveLink}) => {
-  const menuData = [
-    { id: 1, title: "Dashboard",     to: "/admin/overview",       iconPath: user         },
-    { id: 2, title: "User",          to: "/admin/manage-users",   iconPath: user         },
-    { id: 3, title: "Batch",         to: "/admin/manage-batch",   iconPath: batch        },
-    { id: 4, title: "Course",        to: "/admin/manage-course",  iconPath: course       },
-    { id: 5, title: "Test",          to: "/admin/manage-test",    iconPath: test         },
-    { id: 6, title: "Announcement",  to: "/manage-users",         iconPath: announcement },
-    { id: 7, title: "Finance",       to: "/manage-users",         iconPath: finance      },
-    { id: 8, title: "Notifications", to: "/manage-users",         iconPath: notification },
-    { id: 9, title: "Settings",      to: "/manage-users",         iconPath: settings     },
-  ];
+/**
+ * Admin sidebar.
+ *
+ * Two behaviours, one component:
+ *  · desktop — collapses to an icon rail, animating its own width
+ *  · mobile  — slides in over the content with a backdrop, because pushing a
+ *              240px panel on a phone leaves nothing to read
+ *
+ * Only `width` and `transform` are animated. Animating layout properties like
+ * padding or margin here would make every frame re-layout the whole grid, and
+ * the charts to the right would jitter for the duration.
+ */
+
+const MENU = [
+  { id: 1, title: "Dashboard", to: "/admin/overview", dark: user, light: dashboard },
+  { id: 2, title: "User", to: "/admin/manage-users", dark: user, light: account },
+  { id: 3, title: "Batch", to: "/admin/manage-batch", dark: batch, light: batch_light },
+  { id: 4, title: "Course", to: "/admin/manage-course", dark: course, light: cource_light },
+  { id: 5, title: "Test", to: "/admin/manage-test", dark: test, light: test_light },
+  { id: 6, title: "Enrollments", to: "/admin/enrollments", dark: announcement, light: announcement_light },
+  { id: 8, title: "Announcements", to: "/admin/announcements", dark: notification, light: notification_light },
+  { id: 9, title: "Administrators", to: "/admin/administrators", dark: settings, light: setting_light },
+];
+
+const AdminMenu = ({ collapsed, mobileOpen, onToggle, onNavigate }) => {
+  const mode = useSelector(selectTheme);
 
   return (
-    <div className="row-span-12 border-r border-surface-elevated flex justify-between flex-col">
-      <div>
-        <div className="top px-3">
-          <div className="logo py-3 flex items-center justify-between">
-            <p
-              className="text-green-400"
-              style={{ fontFamily: '"Playwrite GB J", cursive', fontWeight: "bold" }}
+    <>
+      {/* backdrop — mobile only, and only while the drawer is out */}
+      <button
+        type="button"
+        aria-hidden={!mobileOpen}
+        tabIndex={-1}
+        onClick={onNavigate}
+        className={`fixed inset-0 z-30 bg-black/50 md:hidden transition-opacity duration-300 ${
+          mobileOpen ? "opacity-100" : "opacity-0 pointer-events-none"
+        }`}
+      />
+
+      <aside
+        className={`
+          z-40 shrink-0 flex flex-col border-r border-border bg-surface
+          transition-[width,transform] duration-300 ease-in-out
+          max-md:fixed max-md:inset-y-0 max-md:left-0 max-md:w-60
+          ${mobileOpen ? "max-md:translate-x-0" : "max-md:-translate-x-full"}
+          ${collapsed ? "md:w-16" : "md:w-60"}
+        `}
+      >
+        <div className="h-16 shrink-0 flex items-center gap-2 px-3 border-b border-border">
+          <button
+            type="button"
+            onClick={onToggle}
+            aria-label={collapsed ? "Expand menu" : "Collapse menu"}
+            aria-expanded={!collapsed}
+            className="h-9 w-9 shrink-0 grid place-items-center rounded-md hover:bg-surface-hover transition-colors cursor-pointer"
+          >
+            {/* a chevron, not a hamburger: it has to say which way it goes */}
+            <span
+              aria-hidden
+              className={`block text-text-muted text-lg leading-none transition-transform duration-300 ${
+                collapsed ? "rotate-180" : ""
+              }`}
             >
-              Licgroww.
-            </p>
-            <img src={close_menu} alt="close menu" className="h-5 cursor-pointer" />
-          </div>
+              «
+            </span>
+          </button>
+
+          {/*
+            The wordmark collapses by animating width to zero rather than
+            unmounting, so the rail does not visibly reflow mid-transition.
+          */}
+          <span
+            className={`overflow-hidden whitespace-nowrap font-bold text-text-primary transition-all duration-300 ${
+              collapsed ? "md:w-0 md:opacity-0" : "w-auto opacity-100"
+            }`}
+            style={{ fontFamily: '"Playwrite GB J", cursive' }}
+          >
+            Licgroww.
+          </span>
         </div>
 
-        <div className="flex flex-col mt-10">
-          {menuData.map((item) => (
+        <nav className="flex-1 overflow-y-auto overflow-x-hidden py-3">
+          {MENU.map((item) => (
             <NavLink
               key={item.id}
               to={item.to}
-              onClick={()=>{
-                setActiveLink(item.title)
-              }}
+              onClick={onNavigate}
+              title={collapsed ? item.title : undefined}
               className={({ isActive }) =>
-                `text-xs flex items-center gap-2 p-2 transition-colors duration-200
-                 hover:bg-surface-elevated
-                 ${isActive
-                   ? "cursor-not-allowed border-t border-b border-border bg-surface-elevated"
-                   : ""
+                `group relative flex items-center gap-3 mx-2 my-0.5 px-2 h-10 rounded-md transition-colors
+                 ${
+                   isActive
+                     ? "bg-surface-hover text-text-primary"
+                     : "text-text-muted hover:bg-surface-hover hover:text-text-primary"
                  }`
               }
             >
-              <img src={item.iconPath} alt={item.title} className="p-1 h-7" />
-              <p>{item.title}</p>
+              {({ isActive }) => (
+                <>
+                  {/* active marker, so the icon rail still shows selection */}
+                  <span
+                    aria-hidden
+                    className={`absolute left-0 top-1/2 -translate-y-1/2 w-0.5 h-5 rounded-r bg-accent transition-opacity ${
+                      isActive ? "opacity-100" : "opacity-0"
+                    }`}
+                  />
+                  <img
+                    src={mode === "light" ? item.light : item.dark}
+                    alt=""
+                    className="h-5 w-5 shrink-0"
+                  />
+                  <span
+                    className={`text-sm font-medium whitespace-nowrap overflow-hidden transition-all duration-300 ${
+                      collapsed ? "md:w-0 md:opacity-0" : "w-auto opacity-100"
+                    }`}
+                  >
+                    {item.title}
+                  </span>
+                </>
+              )}
             </NavLink>
           ))}
-        </div>
-      </div>
+        </nav>
 
-      <div className="flex justify-between p-4 text-xs">
-        <p className="text-text-secondary font-medium">Dark mode</p>
-        <ToggleBtn />
-      </div>
-    </div>
+        <div
+          className={`h-14 shrink-0 flex items-center border-t border-border px-3 justify-between ${
+            collapsed ? "md:justify-center" : ""
+          }`}
+        >
+          {/* the switch itself carries the accessible name; this is decoration */}
+          <span
+            aria-hidden
+            className={`text-xs text-text-muted font-medium whitespace-nowrap overflow-hidden transition-all duration-300 ${
+              collapsed ? "md:w-0 md:opacity-0" : "w-auto opacity-100"
+            }`}
+          >
+            Dark mode
+          </span>
+          <ToggleBtn />
+        </div>
+      </aside>
+    </>
   );
 };
 

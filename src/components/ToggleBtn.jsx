@@ -1,26 +1,37 @@
-import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { toggleTheme, selectTheme } from "../app/features/theme.slice";
+import { toggleTheme, selectTheme } from "../app/features/theme.slice.js";
+
+/**
+ * Theme switch.
+ *
+ * Was a `div` with an `onClick`: no keyboard, no announced state, and a track
+ * painted in fixed `zinc-*` that stayed dark under the light theme. It is a
+ * real `role="switch"` button now, built from tokens, so it reads correctly in
+ * both themes and can be reached with Tab.
+ */
 const ToggleBtn = () => {
   const dispatch = useDispatch();
   const mode = useSelector(selectTheme);
-  console.log(mode);
+  const isDark = mode === "dark";
+
   return (
-    <div
-      className={`cursor-pointer overflow-hidden transition-all duration-300 bg-gradient-to-t from-zinc-800 via-zinc-700 to-zinc-800 w-8 h-4 rounded-xl flex items-center`}
+    <button
+      type="button"
+      role="switch"
+      aria-checked={isDark}
+      aria-label="Dark mode"
       onClick={() => dispatch(toggleTheme())}
+      className={`outline-none shrink-0 cursor-pointer w-9 h-5 rounded-full p-0.5 flex items-center
+        border border-border transition-colors duration-300
+        focus:outline-none
+        ${isDark ? "bg-accent/25" : "bg-accent/40"}`}
     >
-      <div
-        className={`
-  transition-all duration-300
-  ${
-    mode === "dark"
-      ? "border-2 border-green-400 bg-gradient-to-br from-green-400 to-green-700 translate-x-4"
-      : "border-2 border-zinc-500 bg-gradient-to-br from-zinc-600 to-zinc-800 translate-x-0"
-  }
-  h-[0.9rem] w-[0.9rem] rounded-full shadow-sm shadow-zinc-950`}
-      ></div>
-    </div>
+      <span
+        aria-hidden
+        className={`h-3.5 w-3.5 rounded-full transition-transform duration-300
+          ${isDark ? "translate-x-4 bg-accent" : "translate-x-0 bg-text-muted"}`}
+      />
+    </button>
   );
 };
 

@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 
 import { useCountUp, formatCount } from '../../hooks/useCountUp.js';
-import { EASE, stagger, fadeUp } from './motion.js';
+import { stagger, fadeUp } from './motion.js';
 
 const STATS = [
   { value: 12000, suffix: '+', label: 'Students trained' },
