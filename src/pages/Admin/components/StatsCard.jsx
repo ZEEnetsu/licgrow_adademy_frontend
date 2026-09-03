@@ -12,27 +12,27 @@ const StatsCard = ({ iconPath, title, value, caption }) => {
 
   return (
     <div
-      className="transition-colors duration-300 hover:bg-surface-hover bg-surface
-    border border-border rounded-lg p-4 min-h-32 flex flex-col justify-between gap-4 relative"
+      className="transition-colors duration-300 bg-accent
+     rounded-3xl p-4 min-h-32 flex flex-col justify-between gap-4 relative"
     >
       <div className="flex justify-between items-center">
         <img
           src={iconPath}
           alt={iconPath}
-          className="bg-bg h-8 p-2 rounded-full"
+          className="bg-bg/30 h-8 p-2 rounded-full"
         />
         <img
           src={more}
           alt=""
-          className="h-6 w-6 hover:bg-surface-hover p-1 rounded-full transition-all duration-300 cursor-pointer"
+          className="h-8 w-8 hover:bg-surface-hover/30 p-1 rounded-full transition-all duration-300 cursor-pointer"
           onClick={() => {
             setToggleMenu(!toggleMenu);
           }}
         />
         {/* anchored under its trigger — at `bottom-0` it sat on top of the figure */}
         <div
-          className={`absolute top-11 right-3 z-20 border overflow-hidden
-            rounded-lg border-border bg-bg shadow-lg text-xs flex-col
+          className={`py-1 px-1 text-surface absolute top-13 right-3 z-20 overflow-hidden
+            rounded-lg  bg-bg/10 shadow-lg text-xs flex-col
             ${toggleMenu ? "flex" : "hidden"}
             `}
         >
@@ -41,7 +41,7 @@ const StatsCard = ({ iconPath, title, value, caption }) => {
               return (
                 <div
                   key={data.id}
-                  className="px-2 py-1 hover:bg-surface cursor-pointer transition-all duration-200"
+                  className="p-1 hover:bg-surface/20 cursor-pointer transition-all duration-200 rounded-md  "
                   onClick={() => {
                     setcompare(data.title);
                     setToggleMenu(!toggleMenu);
@@ -54,10 +54,10 @@ const StatsCard = ({ iconPath, title, value, caption }) => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-1">
-        <p className="text-text-primary font-semibold">{title}</p>
-        <p className="text-3xl text-accent font-bold">{value}</p>
-        <p className="text-xs text-text-muted">{caption ?? compare}</p>
+      <div className="text-white flex flex-col gap-1">
+        <p className="font-semibold">{title}</p>
+        <p className="text-3xl font-bold">{value}</p>
+        <p className="text-xs">{caption ?? compare}</p>
       </div>
     </div>
   );

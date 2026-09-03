@@ -13,9 +13,14 @@
 import { FIGURE_TONE } from "./tokens.js";
 
 /** The standard elevated panel. */
-export const Card = ({ as: Tag = "div", className = "", children, ...props }) => (
+export const Card = ({
+  as: Tag = "div",
+  className = "",
+  children,
+  ...props
+}) => (
   <Tag
-    className={`rounded-lg border border-border bg-surface p-4 ${className}`}
+    className={`rounded-3xl bg-surface-elevated p-4 ${className}`}
     {...props}
   >
     {children}
@@ -61,7 +66,7 @@ export const StatTile = ({ label, value, caption, tone = "default" }) => {
 
 /** Section heading, used above every block on both dashboards. */
 export const SectionTitle = ({ children, action }) => (
-  <div className="flex items-baseline justify-between gap-4 mb-3">
+  <div className="flex items-baseline justify-between gap-4 mb-3 mt-3">
     <h2 className="text-sm font-semibold uppercase tracking-wide text-text-muted">
       {children}
     </h2>
@@ -94,9 +99,7 @@ export const Pill = ({ tone = "neutral", children }) => {
  */
 export const ScoreBar = ({ percentage, passed }) => {
   const value = Math.max(0, Math.min(100, percentage ?? 0));
-  const fill = passed
-    ? "bg-success"
-    : "bg-danger";
+  const fill = passed ? "bg-success" : "bg-danger";
 
   return (
     <div
@@ -104,7 +107,10 @@ export const ScoreBar = ({ percentage, passed }) => {
       role="img"
       aria-label={`${value}%`}
     >
-      <div className={`h-full rounded-full ${fill}`} style={{ width: `${value}%` }} />
+      <div
+        className={`h-full rounded-full ${fill}`}
+        style={{ width: `${value}%` }}
+      />
     </div>
   );
 };

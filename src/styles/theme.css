@@ -42,12 +42,12 @@
   --surface: #f4f4f5;
   --surface-muted: #fafafa;
   --surface-hover: #e4e4e7;
-  --surface-elevated: #ffffff;
+  --surface-elevated: #01175c25;
   --surface-elevated-hover: #f4f4f5;
   --surface-elevated-muted: #f4f4f5;
 
   /* ── borders ──────────────────────────────────────────────────────────── */
-  --border: #e4e4e7;
+  --border: #c8c8c8;
   --border-muted: #f4f4f5;
 
   /* ── text ─────────────────────────────────────────────────────────────── */
@@ -61,17 +61,17 @@
   --success-muted: #d1fae5;
   --warning: #b45309;
   --warning-muted: #fef3c7;
-  --danger: #b91c1c;
+  --danger: #ff5c5c;
   --danger-muted: #fee2e2;
 
-  /* ── accent ───────────────────────────────────────────────────────────── *
+  /* ── accent 0B43DE ───────────────────────────────────────────────────────────── *
    * `--accent-contrast` is the text ON the accent. It is a separate token
    * because it does not follow the theme: a dark accent needs a white label
    * and a light one needs a near-black label, whichever mode you are in.     */
-  --accent: #047857;
+  --accent: #112E7E ; 
   --accent-hover: #065f46;
-  --accent-muted: #d1fae5;
-  --accent-contrast: #ffffff;
+  --accent-muted: #D0DDF5;
+  --accent-contrast: #ffffff; 
 
   /* ── charts ───────────────────────────────────────────────────────────── *
    * A canvas cannot inherit a custom property, so these are read in JS by

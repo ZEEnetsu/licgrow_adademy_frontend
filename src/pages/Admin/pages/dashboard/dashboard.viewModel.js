@@ -106,7 +106,7 @@ export const toDashboardViewModel = ({
       kind: "figures",
       title: "Enrollment",
       figures: [
-        { label: "Awaiting review", value: enrollments.pending, tone: "warn" },
+        { label: "Awaiting review", value: enrollments.pending, tone: "accent" },
         { label: "Approved (30d)", value: enrollments.approvedLast30d },
       ],
       link:

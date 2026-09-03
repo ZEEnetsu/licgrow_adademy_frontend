@@ -209,7 +209,7 @@ const BatchDetail = () => {
                 title={
                   batch.enrollmentOpen ? "Close enrollment" : "Open enrollment"
                 }
-                variant="secondary"
+                variant="primary"
                 size="sm"
                 disabled={busy}
                 onClick={() => act({ enrollmentOpen: !batch.enrollmentOpen })}

@@ -37,7 +37,7 @@ const STATUS_TONE = {
 const BatchCard = ({ batch }) => (
   <NavLink
     to={batch.id}
-    className="flex flex-col gap-3 rounded-lg border border-border-muted bg-surface hover:bg-surface-hover transition-colors p-4"
+    className="flex flex-col gap-3 rounded-3xl bg-surface-elevated hover:bg-accent/20 transition-colors p-5"
   >
     <div className="flex items-start justify-between gap-2">
       <p className="font-semibold text-text-primary leading-snug">
@@ -109,7 +109,7 @@ const BatchList = () => {
           <div className="w-40">
             <Btn
               title="New batch"
-              variant="secondary"
+              variant="primary"
               size="sm"
               onClick={() => setCreating(true)}
             />

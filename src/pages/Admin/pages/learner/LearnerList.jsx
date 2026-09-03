@@ -89,7 +89,7 @@ const LearnerList = () => {
           onChange={(event) => setQuery(event.target.value)}
           placeholder="Search name or email…"
           aria-label="Search learners"
-          className="px-3 py-1.5 rounded-md bg-surface text-sm outline-none text-text-primary placeholder:text-text-muted w-64"
+          className="px-3 py-1.5 rounded-xl bg-surface-elevated text-sm outline-none text-text-secondary/50 placeholder:text-text-muted w-64"
         />
       </div>
 
@@ -108,7 +108,7 @@ const LearnerList = () => {
           {learners.map((learner) => (
             <div
               key={learner.id}
-              className="flex items-center gap-4 py-2 px-3 rounded-md bg-surface/50 hover:bg-surface transition-colors"
+              className="flex items-center gap-4 py-2 px-3 rounded-lg bg-surface-elevated hover:bg-accent/20 transition-colors"
             >
               {/* the row opens the full profile; the actions below stay outside
                   the link so a click on them cannot navigate by accident */}
@@ -117,10 +117,10 @@ const LearnerList = () => {
                 className="min-w-0 flex-1 cursor-pointer"
                 title="View full profile"
               >
-                <p className="text-sm text-text-primary truncate">
+                <p className="text-md text-text-primary truncate">
                   {learner.fullName}
                 </p>
-                <p className="text-[11px] text-text-muted truncate">
+                <p className="text-[12px] text-text-muted truncate">
                   {learner.email}
                 </p>
               </NavLink>

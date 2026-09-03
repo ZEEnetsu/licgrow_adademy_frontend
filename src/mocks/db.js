@@ -168,7 +168,7 @@ const seedTests = () => [
     durationMinutes: 60,
     totalMarks: 3,
     passingMarks: 2,
-    maxAttempts: 2,
+    maxAttempts: 4,
     cooldownMinutes: 0,
     shuffleQuestions: false,
     availableFrom: null,
