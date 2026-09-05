@@ -155,8 +155,14 @@ const render = () =>
     </Provider>,
   );
 
-// ── TEMPORARY: dev-only mock API — delete this block with src/mocks/ ───────
-if (import.meta.env.DEV && import.meta.env.VITE_USE_MOCKS === "true") {
+// ── TEMPORARY: mock API — delete this block with src/mocks/ ───────────────
+// The gate is the flag alone, not `DEV && flag`. With the DEV half in place
+// Vite folded this branch to `false` at build time and tree-shook src/mocks
+// out of the bundle, so the deployed demo had no API at all and every login
+// hit the static host and got HTML back. The flag is set in .env.local for
+// dev and in vercel.json for the demo deploy; unset, mocks stay off exactly
+// as before. Remove the flag once the real backend is reachable.
+if (import.meta.env.VITE_USE_MOCKS === "true") {
   import("./mocks/index.js").then(async ({ start }) => {
     await start();
     render();
