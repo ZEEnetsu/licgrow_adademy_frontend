@@ -2,7 +2,7 @@ export default function ShieldMark({ className = '' }) {
   return (
     <span
       className={[
-        'inline-grid h-9 w-9 place-items-center rounded-card bg-gradient-to-br from-lic-teal to-lic-sky text-white shadow-soft',
+        'inline-grid h-9 w-9 place-items-center rounded-card bg-gradient-to-br from-lic-navy to-lic-royal text-white shadow-soft',
         className,
       ].join(' ')}
       aria-hidden

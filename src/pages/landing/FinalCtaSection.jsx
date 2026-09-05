@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { stagger, fadeUp } from './motion.js';
 
 const FinalCtaSection = () => (
-  <section className="relative overflow-hidden bg-gradient-to-br from-lic-teal via-lic-teal to-lic-sky py-24 sm:py-28">
+  <section className="relative overflow-hidden mesh-navy-deep py-24 sm:py-28">
     <div className="pointer-events-none absolute -left-24 top-10 h-72 w-72 animate-drift rounded-full bg-white/10 blur-3xl" />
     <div
       className="pointer-events-none absolute -right-20 bottom-10 h-64 w-64 animate-drift rounded-full bg-white/10 blur-3xl"
@@ -35,7 +35,7 @@ const FinalCtaSection = () => (
       <motion.div variants={fadeUp} className="mt-10">
         <Link
           to="/register"
-          className="inline-flex min-h-[52px] min-w-[240px] items-center justify-center rounded-full bg-white px-10 text-base font-bold text-lic-teal shadow-xl transition-all duration-200 ease-material hover:scale-[1.03] hover:shadow-2xl"
+          className="inline-flex min-h-[52px] min-w-[240px] items-center justify-center rounded-full bg-white px-10 text-base font-bold text-lic-navy shadow-xl transition-all duration-200 ease-material hover:scale-[1.03] hover:shadow-2xl"
         >
           Create your free account now
         </Link>

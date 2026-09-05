@@ -42,7 +42,7 @@ const BecomeLICAgentSection = () => (
       </motion.h2>
 
       <div className="relative mt-14 pl-2">
-        <div className="absolute left-[22px] top-3 bottom-3 w-0.5 bg-gradient-to-b from-lic-teal via-lic-sky to-lic-teal" />
+        <div className="absolute left-[22px] top-3 bottom-3 w-0.5 bg-gradient-to-b from-lic-navy via-lic-azure to-lic-navy" />
         <ol className="space-y-10">
           {STEPS.map((s, i) => (
             <motion.li
@@ -57,7 +57,7 @@ const BecomeLICAgentSection = () => (
               }}
               className="relative flex gap-5"
             >
-              <span className="relative z-[1] grid h-11 w-11 flex-shrink-0 place-items-center rounded-full border-4 border-white bg-lic-teal text-sm font-bold text-white shadow-soft">
+              <span className="relative z-[1] grid h-11 w-11 flex-shrink-0 place-items-center rounded-full border-4 border-white bg-lic-navy text-sm font-bold text-white shadow-soft">
                 {i + 1}
               </span>
               <div className="pt-1">
@@ -71,7 +71,7 @@ const BecomeLICAgentSection = () => (
 
       <motion.div
         variants={fadeUp}
-        className="mt-12 rounded-card-lg border border-lic-teal/30 bg-lic-teal/10 p-6 text-center shadow-soft sm:p-8"
+        className="mt-12 rounded-card-lg border border-lic-navy/30 bg-lic-navy/10 p-6 text-center shadow-soft sm:p-8"
       >
         <p className="text-base font-medium leading-relaxed text-lic-charcoal sm:text-lg">
           The IRDA exam isn&apos;t hard if you&apos;re properly prepared. That&apos;s literally why this platform exists.

@@ -114,7 +114,7 @@
 //   return (
 //     <form
 //       onSubmit={handleSubmit}
-//       className="border border-border rounded-lg p-4 bg-bg"
+//       className="rounded-lg p-4 bg-surface-elevated shadow-elevate"
 //     >
 //       <div className="flex items-center justify-between mb-4">
 //         <h3 className="text-sm font-semibold text-text-primary">
@@ -411,7 +411,7 @@ const QuestionEditor = ({ testId, question, onDone, onCancel }) => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="border border-border rounded-lg p-4 bg-bg"
+      className="rounded-lg p-4 bg-surface-elevated shadow-elevate"
     >
       <div className="flex items-center justify-between mb-4">
         <h3 className="text-sm font-semibold text-text-primary">

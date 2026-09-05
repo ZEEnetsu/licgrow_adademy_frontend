@@ -109,7 +109,7 @@ const EnrollmentQueue = () => {
           {requests.map((request) => (
             <div
               key={request.id}
-              className="rounded-lg border border-border-muted bg-surface/50 p-4"
+              className="rounded-lg bg-surface-elevated shadow-elevate p-4"
             >
               <div className="flex items-start justify-between gap-4">
                 <div className="min-w-0">

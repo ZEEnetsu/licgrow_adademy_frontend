@@ -7,7 +7,7 @@ const Notification = () => {
   
   return (
     <div>
-      <button onClick={()=> setOpen(true)} className="px-4 py-2 bg-accent rounded-md text-text-primary font-semibold">open portal</button>
+      <button onClick={()=> setOpen(true)} className="px-4 py-2 bg-accent rounded-md text-accent-contrast font-semibold">open portal</button>
 
       {
         open && <ProtalLayout onClose={ ()=> setOpen(false)}>

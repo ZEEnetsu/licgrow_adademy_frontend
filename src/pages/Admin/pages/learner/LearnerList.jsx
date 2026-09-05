@@ -45,6 +45,7 @@ const LearnerList = () => {
 
   const { data, isLoading, isError, error, isFetching } =
     useGetLearnersQuery(params);
+    console.log(data);
 
   const [suspend, suspendState] = useSuspendLearnerMutation();
   const [reactivate, reactivateState] = useReactivateLearnerMutation();
@@ -108,7 +109,7 @@ const LearnerList = () => {
           {learners.map((learner) => (
             <div
               key={learner.id}
-              className="flex items-center gap-4 py-2 px-3 rounded-lg bg-surface-elevated hover:bg-accent/20 transition-colors"
+              className="flex items-center gap-4 py-2 px-3 rounded-lg bg-surface-elevated shadow-elevate hover:bg-surface-elevated-hover hover:shadow-elevate-hover transition-[background-color,box-shadow] duration-200"
             >
               {/* the row opens the full profile; the actions below stay outside
                   the link so a click on them cannot navigate by accident */}

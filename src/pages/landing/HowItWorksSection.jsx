@@ -21,7 +21,7 @@ const STEPS = [
 const HowItWorksSection = () => (
   <section
     id="how-it-works"
-    className="scroll-mt-24 bg-[#F0FBF7] py-20 sm:py-28"
+    className="scroll-mt-24 bg-[#EEF3FC] py-20 sm:py-28"
   >
     <motion.div
       className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8"
@@ -46,7 +46,7 @@ const HowItWorksSection = () => (
             <div key={s.title} className="relative flex flex-1 flex-col items-center text-center">
               {i < STEPS.length - 1 && (
                 <motion.div
-                  className="absolute left-[calc(50%+2.5rem)] top-5 h-0.5 w-[calc(100%-5rem)] origin-left bg-gradient-to-r from-lic-teal to-lic-sky"
+                  className="absolute left-[calc(50%+2.5rem)] top-5 h-0.5 w-[calc(100%-5rem)] origin-left bg-gradient-to-r from-lic-navy to-lic-azure"
                   initial={{ scaleX: 0 }}
                   whileInView={{ scaleX: 1 }}
                   viewport={{ once: true }}
@@ -55,7 +55,7 @@ const HowItWorksSection = () => (
               )}
               <motion.div
                 variants={fadeUp}
-                className="relative z-[1] grid h-10 w-10 place-items-center rounded-full bg-gradient-to-br from-lic-teal to-lic-sky text-sm font-bold text-white shadow-md"
+                className="relative z-[1] grid h-10 w-10 place-items-center rounded-full bg-gradient-to-br from-lic-navy to-lic-royal text-sm font-bold text-white shadow-md"
               >
                 {i + 1}
               </motion.div>
@@ -69,7 +69,7 @@ const HowItWorksSection = () => (
       {/* Mobile vertical */}
       <div className="relative mt-12 md:hidden">
         <div
-          className="absolute bottom-8 left-[19px] top-8 w-0.5 bg-gradient-to-b from-lic-teal to-lic-sky"
+          className="absolute bottom-8 left-[19px] top-8 w-0.5 bg-gradient-to-b from-lic-navy to-lic-azure"
           aria-hidden
         />
         <ol className="relative list-none space-y-8 pl-1">
@@ -79,7 +79,7 @@ const HowItWorksSection = () => (
             variants={fadeUp}
             className="relative flex gap-4 pl-1"
           >
-            <span className="relative z-[1] grid h-10 w-10 flex-shrink-0 place-items-center rounded-full bg-gradient-to-br from-lic-teal to-lic-sky text-sm font-bold text-white shadow-md">
+            <span className="relative z-[1] grid h-10 w-10 flex-shrink-0 place-items-center rounded-full bg-gradient-to-br from-lic-navy to-lic-royal text-sm font-bold text-white shadow-md">
               {i + 1}
             </span>
             <div>
@@ -94,7 +94,7 @@ const HowItWorksSection = () => (
       <motion.div variants={fadeUp} className="mt-14 flex justify-center">
         <Link
           to="/register"
-          className="inline-flex min-h-[48px] items-center justify-center rounded-full bg-lic-teal px-8 text-base font-semibold text-white shadow-md transition-all duration-200 ease-material hover:scale-[1.03] hover:shadow-teal-glow"
+          className="inline-flex min-h-[48px] items-center justify-center rounded-full bg-lic-navy px-8 text-base font-semibold text-white shadow-md transition-all duration-200 ease-material hover:scale-[1.03] hover:shadow-navy-glow"
         >
           Get started today — it&apos;s free
         </Link>

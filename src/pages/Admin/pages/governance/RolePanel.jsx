@@ -39,7 +39,7 @@ const RolePanel = () => {
       {(roles.data ?? []).map((role) => (
         <div
           key={role.id}
-          className="rounded-lg border border-border-muted bg-surface/40 p-4"
+          className="rounded-lg bg-surface-elevated shadow-elevate p-4"
         >
           <div className="flex items-center justify-between gap-3">
             <div>

@@ -37,7 +37,7 @@ const STATUS_TONE = {
 const BatchCard = ({ batch }) => (
   <NavLink
     to={batch.id}
-    className="flex flex-col gap-3 rounded-3xl bg-surface-elevated hover:bg-accent/20 transition-colors p-5"
+    className="flex flex-col gap-3 rounded-3xl bg-surface-elevated shadow-elevate hover:bg-surface-elevated-hover hover:shadow-elevate-hover transition-[background-color,box-shadow] duration-200 p-5"
   >
     <div className="flex items-start justify-between gap-2">
       <p className="font-semibold text-text-primary leading-snug">

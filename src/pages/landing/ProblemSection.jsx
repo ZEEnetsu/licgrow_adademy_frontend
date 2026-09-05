@@ -20,7 +20,7 @@ const PAINS = [
 const ProblemSection = () => (
   <section
     id="problem"
-    className="scroll-mt-24 bg-gradient-to-b from-[#F0FBF7] via-white to-white py-20 sm:py-24"
+    className="scroll-mt-24 bg-gradient-to-b from-[#EEF3FC] via-white to-white py-20 sm:py-24"
   >
     <motion.div
       className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8"
@@ -49,7 +49,7 @@ const ProblemSection = () => (
                 transition: { duration: 0.6, ease: EASE, delay: i * 0.12 },
               },
             }}
-            className="rounded-card-lg border border-black/[0.06] border-l-[4px] border-l-[#FF6B6B] bg-white p-6 shadow-soft transition-all duration-[250ms] ease-material hover:-translate-y-1.5 hover:shadow-teal-glow"
+            className="rounded-card-lg border border-black/[0.06] border-l-[4px] border-l-lic-royal bg-white p-6 shadow-soft transition-all duration-[250ms] ease-material hover:-translate-y-1.5 hover:shadow-navy-glow"
           >
             <span className="text-2xl" aria-hidden>
               {p.emoji}

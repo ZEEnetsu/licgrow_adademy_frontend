@@ -10,7 +10,7 @@ const FEATURES = [
     body:
       'Full-screen focus, randomized questions, strict timers — our proctored-style mocks feel like the real IRDA hall so you walk in steady, not shaky.',
     tag: 'Builds exam confidence',
-    img: 'https://placehold.co/720x400/F7FAF9/1A1A2E?font=dm-sans&text=Mock+Test+Arena+Preview',
+    img: 'https://placehold.co/720x400/F5F8FE/0A1A3C?font=dm-sans&text=Mock+Test+Arena+Preview',
     imgAlt: 'Mock test interface preview',
   },
   {
@@ -20,7 +20,7 @@ const FEATURES = [
     body:
       'Scheduled live sessions with space for your questions. Concepts in plain Hindi and English — no gatekeeping, no jargon walls.',
     tag: 'Real human guidance',
-    img: 'https://placehold.co/720x400/F0FBF7/4A4A68?font=dm-sans&text=Live+Webinar+Interface',
+    img: 'https://placehold.co/720x400/EEF3FC/465A7E?font=dm-sans&text=Live+Webinar+Interface',
     imgAlt: 'Live webinar interface preview',
   },
   {
@@ -40,7 +40,7 @@ const FEATURES = [
     body:
       'From zero to IRDA-ready in sequenced modules. No guesswork on what to study on Sunday night — the path is already mapped.',
     tag: 'Zero overwhelm',
-    img: 'https://placehold.co/720x400/F7FAF9/1A1A2E?font=dm-sans&text=Course+Roadmap',
+    img: 'https://placehold.co/720x400/F5F8FE/0A1A3C?font=dm-sans&text=Course+Roadmap',
     imgAlt: 'Course roadmap preview',
   },
 ];
@@ -81,19 +81,19 @@ const FeaturesSection = () => (
                 transition: { duration: 0.6, ease: EASE, delay: i * 0.12 },
               },
             }}
-            className="flex flex-col overflow-hidden rounded-card-lg border border-black/[0.06] bg-white shadow-soft transition-all duration-[250ms] ease-material hover:-translate-y-1.5 hover:shadow-teal-glow"
+            className="flex flex-col overflow-hidden rounded-card-lg border border-black/[0.06] bg-white shadow-soft transition-all duration-[250ms] ease-material hover:-translate-y-1.5 hover:shadow-navy-glow"
           >
-            <div className="h-1.5 w-full bg-gradient-to-r from-lic-teal to-lic-sky" />
+            <div className="h-1.5 w-full bg-gradient-to-r from-lic-navy to-lic-azure" />
             <div className="flex flex-1 flex-col p-6 sm:p-8">
               <div className="flex items-start gap-4">
                 <span
-                  className="grid h-12 w-12 flex-shrink-0 place-items-center rounded-full bg-lic-teal/15 text-2xl"
+                  className="grid h-12 w-12 flex-shrink-0 place-items-center rounded-full bg-lic-navy/15 text-2xl"
                   aria-hidden
                 >
                   {f.icon}
                 </span>
                 <div>
-                  <p className="text-xs font-bold uppercase tracking-wide text-lic-teal">{f.title}</p>
+                  <p className="text-xs font-bold uppercase tracking-wide text-lic-navy">{f.title}</p>
                   <h3 className="mt-1 text-xl font-semibold tracking-tight text-lic-charcoal">
                     {f.subtitle}
                   </h3>
@@ -102,7 +102,7 @@ const FeaturesSection = () => (
               <p className="mt-4 flex-1 text-sm leading-relaxed text-lic-body sm:text-base">
                 {f.body}
               </p>
-              <span className="mt-4 inline-flex w-fit rounded-full bg-lic-mint px-3 py-1 text-xs font-semibold text-lic-charcoal">
+              <span className="mt-4 inline-flex w-fit rounded-full bg-lic-ice px-3 py-1 text-xs font-semibold text-lic-charcoal">
                 {f.tag}
               </span>
               <div className="mt-6 overflow-hidden rounded-card border border-black/[0.06] bg-lic-offwhite shadow-inner">
@@ -127,14 +127,14 @@ function MockTestArena() {
   return (
     <motion.div
       variants={fadeUp}
-      className="relative mt-16 overflow-hidden rounded-card-lg border border-lic-teal/30 bg-linear-to-br from-white via-lic-mint to-white p-8 shadow-card sm:p-12"
+      className="relative mt-16 overflow-hidden rounded-card-lg border border-lic-navy/30 bg-linear-to-br from-white via-lic-ice to-white p-8 shadow-card sm:p-12"
     >
-      <div className="pointer-events-none absolute -right-20 top-10 h-56 w-56 rounded-full bg-lic-sky/20 blur-3xl" />
-      <div className="pointer-events-none absolute -left-16 bottom-0 h-48 w-48 rounded-full bg-lic-teal/15 blur-3xl" />
+      <div className="pointer-events-none absolute -right-20 top-10 h-56 w-56 rounded-full bg-lic-azure/20 blur-3xl" />
+      <div className="pointer-events-none absolute -left-16 bottom-0 h-48 w-48 rounded-full bg-lic-navy/15 blur-3xl" />
 
       <div className="relative grid items-center gap-10 lg:grid-cols-2">
         <div>
-          <p className="text-xs font-bold uppercase tracking-[0.2em] text-lic-teal">
+          <p className="text-xs font-bold uppercase tracking-[0.2em] text-lic-navy">
             Full-width mock test arena
           </p>
           <h3
@@ -154,12 +154,12 @@ function MockTestArena() {
         >
           <div className="flex items-center gap-2 border-b border-black/6 px-3 py-2">
             <span className="font-mono text-[10px] text-lic-body">IRDA mock · timed</span>
-            <span className="ml-auto rounded-full bg-lic-teal px-2 py-0.5 text-[10px] font-bold text-white">
+            <span className="ml-auto rounded-full bg-lic-navy px-2 py-0.5 text-[10px] font-bold text-white">
               24:18
             </span>
           </div>
           <img
-            src="https://placehold.co/640x380/FFFFFF/2EBF8A?font=dm-sans&text=Full-Screen+Mock+Arena"
+            src="https://placehold.co/640x380/FFFFFF/14306E?font=dm-sans&text=Full-Screen+Mock+Arena"
             alt="Full-screen LICPro mock test preview"
             className="w-full rounded-card"
             loading="lazy"
@@ -169,7 +169,7 @@ function MockTestArena() {
               <button
                 key={o}
                 type="button"
-                className="min-h-[44px] rounded-card border-2 border-black/[0.08] text-sm font-semibold text-lic-charcoal transition-colors duration-200 hover:border-lic-teal"
+                className="min-h-[44px] rounded-card border-2 border-black/[0.08] text-sm font-semibold text-lic-charcoal transition-colors duration-200 hover:border-lic-navy"
               >
                 {o}
               </button>

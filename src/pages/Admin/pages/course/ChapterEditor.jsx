@@ -76,7 +76,7 @@ const ChapterEditor = ({ courseId, unitId, chapter, onDone, onCancel }) => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="border border-border rounded-lg p-4 bg-bg"
+      className="rounded-lg p-4 bg-surface-elevated shadow-elevate"
     >
       <p className="text-sm font-semibold text-text-primary mb-3">
         {isEdit ? "Edit chapter" : "New chapter"}

@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { EASE, stagger, fadeUp } from './motion.js';
 
 const STAR = (
-  <span className="text-lic-teal" aria-hidden>
+  <span className="text-lic-navy" aria-hidden>
     ★★★★★
   </span>
 );
@@ -57,10 +57,10 @@ const TestimonialsSection = () => (
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, amount: 0.2 }}
             transition={{ duration: 0.65, ease: EASE, delay: i * 0.12 }}
-            className="relative overflow-hidden rounded-card-lg border border-black/[0.06] bg-white p-7 shadow-soft transition-all duration-[250ms] ease-material hover:-translate-y-1.5 hover:shadow-teal-glow"
+            className="relative overflow-hidden rounded-card-lg border border-black/[0.06] bg-white p-7 shadow-soft transition-all duration-[250ms] ease-material hover:-translate-y-1.5 hover:shadow-navy-glow"
           >
             <span
-              className="pointer-events-none absolute left-4 top-2 font-serif text-7xl font-bold leading-none text-lic-teal/20"
+              className="pointer-events-none absolute left-4 top-2 font-serif text-7xl font-bold leading-none text-lic-navy/20"
               aria-hidden
             >
               &ldquo;

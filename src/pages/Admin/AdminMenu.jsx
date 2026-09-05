@@ -116,7 +116,7 @@ const AdminMenu = ({ collapsed, mobileOpen, onToggle, onNavigate }) => {
                 `group relative flex items-center gap-3 mx-2 my-0.5 px-4 h-10 rounded-3xl transition-colors
                  ${
                    isActive
-                     ? "bg-accent text-white"
+                     ? "bg-accent-solid text-accent-solid-contrast shadow-elevate"
                      : "text-text-muted hover:bg-surface-hover hover:text-text-primary"
                  }`
               }
@@ -130,8 +130,14 @@ const AdminMenu = ({ collapsed, mobileOpen, onToggle, onNavigate }) => {
                       isActive ? "opacity-100" : "opacity-0"
                     }`}
                   />
+                  {/*
+                    These are fixed-fill SVGs behind an <img>, so CSS cannot
+                    recolour them — the variant has to match what is behind it.
+                    The pale one goes on the solid accent fill and on the dark
+                    theme's sidebar; the black one only on a light sidebar.
+                  */}
                   <img
-                    src={isActive ? item.dark : item.light}
+                    src={isActive || mode === "dark" ? item.dark : item.light}
                     alt=""
                     className="h-5 w-5 shrink-0"
                   />

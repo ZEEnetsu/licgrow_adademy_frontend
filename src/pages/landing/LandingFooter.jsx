@@ -33,7 +33,7 @@ function ShieldMark({ className = '' }) {
   return (
     <span
       className={[
-        'inline-grid h-10 w-10 place-items-center rounded-card bg-gradient-to-br from-lic-teal to-lic-sky text-white shadow-soft',
+        'inline-grid h-10 w-10 place-items-center rounded-card bg-gradient-to-br from-lic-navy to-lic-royal text-white shadow-soft',
         className,
       ].join(' ')}
       aria-hidden
@@ -71,7 +71,7 @@ const LandingFooter = () => (
               <a
                 key={s}
                 href="#"
-                className="rounded-full border border-white/20 px-3 py-2 text-xs font-medium text-white/80 transition-colors duration-200 hover:border-lic-sky hover:text-white"
+                className="rounded-full border border-white/20 px-3 py-2 text-xs font-medium text-white/80 transition-colors duration-200 hover:border-lic-azure hover:text-white"
               >
                 {s}
               </a>
@@ -82,7 +82,7 @@ const LandingFooter = () => (
         <div className="grid gap-10 sm:grid-cols-3">
           {COLS.map((col) => (
             <motion.div key={col.title} variants={fadeUp}>
-              <p className="text-xs font-bold uppercase tracking-[0.2em] text-lic-sky/90">
+              <p className="text-xs font-bold uppercase tracking-[0.2em] text-lic-azure/90">
                 {col.title}
               </p>
               <ul className="mt-4 space-y-2">

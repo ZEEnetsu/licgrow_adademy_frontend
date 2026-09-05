@@ -14,9 +14,9 @@ const TRUST_CHIPS = [
 ];
 
 const HeroSection = () => (
-  <section className="relative flex min-h-screen flex-col justify-center overflow-hidden bg-white pt-18 mesh-green">
-    <div className="pointer-events-none absolute -left-32 top-24 h-72 w-72 rounded-full bg-lic-sky/25 blur-3xl" />
-    <div className="pointer-events-none absolute -right-24 bottom-40 h-80 w-80 rounded-full bg-lic-teal/20 blur-3xl" />
+  <section className="relative flex min-h-screen flex-col justify-center overflow-hidden bg-white pt-18 mesh-navy">
+    <div className="pointer-events-none absolute -left-32 top-24 h-72 w-72 rounded-full bg-lic-azure/25 blur-3xl" />
+    <div className="pointer-events-none absolute -right-24 bottom-40 h-80 w-80 rounded-full bg-lic-navy/20 blur-3xl" />
     <div className="grain-overlay" />
 
     <div className="relative z-1 mx-auto grid max-w-7xl items-center gap-12 px-4 py-14 sm:px-6 lg:grid-cols-2 lg:gap-14 lg:px-8 lg:py-20">
@@ -51,7 +51,7 @@ const HeroSection = () => (
               </motion.span>
             ))}
           </span>
-          <span className="mt-1 block text-lic-teal">
+          <span className="mt-1 block text-lic-navy">
             {LINE_B.map((word, i) => (
               <motion.span
                 key={`b-${word}-${i}`}
@@ -104,13 +104,13 @@ const HeroSection = () => (
         >
           <Link
             to="/register"
-            className="inline-flex min-h-12 flex-1 items-center justify-center rounded-full bg-lic-teal px-7 text-base font-semibold text-white shadow-md transition-all duration-200 ease-material hover:scale-[1.03] hover:shadow-teal-glow sm:flex-none animate-pulse-soft"
+            className="inline-flex min-h-12 flex-1 items-center justify-center rounded-full bg-lic-navy px-7 text-base font-semibold text-white shadow-md transition-all duration-200 ease-material hover:scale-[1.03] hover:shadow-navy-glow sm:flex-none animate-pulse-soft"
           >
             Create free account
           </Link>
           <a
             href="#how-it-works"
-            className="inline-flex min-h-12 flex-1 items-center justify-center rounded-full border-2 border-lic-teal bg-white/80 px-7 text-base font-semibold text-lic-teal backdrop-blur-sm transition-all duration-200 ease-material hover:bg-lic-mint sm:flex-none"
+            className="inline-flex min-h-12 flex-1 items-center justify-center rounded-full border-2 border-lic-navy bg-white/80 px-7 text-base font-semibold text-lic-navy backdrop-blur-sm transition-all duration-200 ease-material hover:bg-lic-ice sm:flex-none"
           >
             See how it works
           </a>
@@ -151,7 +151,7 @@ const HeroSection = () => (
       </motion.div>
     </div>
 
-    <WaveDivider fill="#F0FBF7" />
+    <WaveDivider fill="#EEF3FC" />
   </section>
 );
 
@@ -161,7 +161,7 @@ function LaptopMock() {
       <div className="flex items-center gap-2 border-b border-black/6 px-2 pb-3">
         <span className="h-2.5 w-2.5 rounded-full bg-red-400" />
         <span className="h-2.5 w-2.5 rounded-full bg-amber-400" />
-        <span className="h-2.5 w-2.5 rounded-full bg-lic-teal" />
+        <span className="h-2.5 w-2.5 rounded-full bg-lic-navy" />
         <span className="ml-2 font-mono text-[10px] text-lic-body/70">
           app.licpro.academy
         </span>
@@ -176,7 +176,7 @@ function LaptopMock() {
               You’re ahead of 82% of this week’s cohort
             </p>
           </div>
-          <span className="rounded-full bg-lic-teal/15 px-3 py-1 text-xs font-semibold text-lic-teal">
+          <span className="rounded-full bg-lic-navy/15 px-3 py-1 text-xs font-semibold text-lic-navy">
             Score 86
           </span>
         </div>
@@ -188,17 +188,17 @@ function LaptopMock() {
             {[40, 55, 48, 70, 62, 88, 92].map((h, i) => (
               <div
                 key={i}
-                className="flex-1 rounded-t bg-linear-to-t from-lic-teal to-lic-sky"
+                className="flex-1 rounded-t bg-linear-to-t from-lic-navy to-lic-azure"
                 style={{ height: `${h}%` }}
               />
             ))}
           </div>
         </div>
         <div className="grid grid-cols-2 gap-2">
-          <div className="rounded-card border border-lic-teal/25 bg-white p-3 shadow-soft">
+          <div className="rounded-card border border-lic-navy/25 bg-white p-3 shadow-soft">
             <p className="text-xs text-lic-body">Next mock</p>
             <p className="mt-1 font-semibold text-lic-charcoal">IRDA — Timed</p>
-            <p className="text-xs text-lic-teal">In 2 days</p>
+            <p className="text-xs text-lic-navy">In 2 days</p>
           </div>
           <div className="rounded-card border border-black/6 bg-white p-3 shadow-soft">
             <p className="text-xs text-lic-body">Streak</p>

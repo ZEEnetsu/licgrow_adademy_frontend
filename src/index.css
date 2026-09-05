@@ -44,6 +44,81 @@
   --color-accent-hover: var(--accent-hover);
   --color-accent-muted: var(--accent-muted);
   --color-accent-contrast: var(--accent-contrast);
+  --color-accent-solid: var(--accent-solid);
+  --color-accent-solid-contrast: var(--accent-solid-contrast);
+
+  /*
+   * `shadow-elevate` is how a card or tile reads as raised. It has to be a
+   * token rather than a stock `shadow-md` because light and dark need
+   * different physics — see the elevation note in styles/theme.css.
+   */
+  --shadow-elevate: var(--elevate);
+  --shadow-elevate-hover: var(--elevate-hover);
+}
+
+/*
+ * ─────────────────────────────────────────────────────────────────────────────
+ *  LANDING PALETTE — white + navy blue.
+ * ─────────────────────────────────────────────────────────────────────────────
+ *
+ * The marketing pages (landing, public nav, footer) run on their own scale
+ * rather than the app tokens in styles/theme.css: they are always light, never
+ * follow the dark-mode toggle, and need a deeper ink than a dashboard does.
+ *
+ * Four blues, each with one job — swapping one recolours every section:
+ *   lic-navy      the brand. Buttons, links, eyebrows, section accents.
+ *                 12.5:1 on white, so it is safe as text at any size.
+ *   lic-royal     the mid step. Anything that carries WHITE text on top of it
+ *                 — gradient badges, gradient rules (6.1:1 on white).
+ *   lic-azure     the light step. Decorative glows and rules, and ink on the
+ *                 near-black lic-charcoal (7.8:1). Never white text on it.
+ *   lic-frost     the lightest step. Ink on the mid-navy meshes, where azure
+ *                 only reaches 3.5:1 and frost reaches 5.1:1.
+ *   lic-ice       the tint. Chips, hovers, section washes.
+ *
+ * And two neutrals: lic-charcoal is the navy-black used for headings and the
+ * footer (17.1:1 on white); lic-body is the muted navy-grey for prose (6.9:1
+ * on white, 6.0:1 on the darkest tint). Every pairing above AA.
+ */
+@theme {
+  --color-lic-navy: #14306E;
+  --color-lic-royal: #2C5CC5;
+  --color-lic-azure: #7FB0FF;
+  --color-lic-frost: #BBD4FF;
+  --color-lic-ice: #E8EFFC;
+  --color-lic-offwhite: #F5F8FE;
+  --color-lic-charcoal: #0A1A3C;
+  --color-lic-body: #465A7E;
+
+  --radius-card: 16px;
+  --radius-card-lg: 24px;
+
+  --shadow-soft: 0 4px 24px -4px rgba(10, 26, 60, 0.10);
+  --shadow-card: 0 8px 32px -8px rgba(10, 26, 60, 0.14), 0 2px 8px -2px rgba(20, 48, 110, 0.10);
+  --shadow-navy-glow: 0 20px 50px -12px rgba(20, 48, 110, 0.42), 0 8px 20px -8px rgba(44, 92, 197, 0.28);
+  --shadow-lift: 0 24px 48px -12px rgba(10, 26, 60, 0.18), 0 0 0 1px rgba(44, 92, 197, 0.14);
+
+  --ease-material: cubic-bezier(0.4, 0, 0.2, 1);
+
+  --animate-float: floaty 4s ease-in-out infinite;
+  --animate-pulse-soft: pulsenavy 2.5s ease-in-out infinite;
+  --animate-drift: drifty 18s ease-in-out infinite;
+
+  @keyframes floaty {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-12px); }
+  }
+
+  @keyframes drifty {
+    0%, 100% { transform: translate(0px, 0px); }
+    33% { transform: translate(12px, -8px); }
+    66% { transform: translate(-8px, 6px); }
+  }
+
+  @keyframes pulsenavy {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(20, 48, 110, 0.38); }
+    50% { box-shadow: 0 0 0 12px rgba(20, 48, 110, 0); }
+  }
 }
 
 html {
@@ -98,21 +173,35 @@ body {
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
-.mesh-green {
+/* Hero wash — three navy pools on white, none dense enough to touch text contrast. */
+.mesh-navy {
   background-image:
-    radial-gradient(ellipse 80% 60% at 10% 20%, rgba(46, 191, 138, 0.14), transparent 55%),
-    radial-gradient(ellipse 70% 50% at 90% 80%, rgba(86, 207, 225, 0.12), transparent 50%),
-    radial-gradient(ellipse 50% 40% at 50% 100%, rgba(46, 191, 138, 0.08), transparent 45%);
+    radial-gradient(ellipse 80% 60% at 10% 20%, rgba(20, 48, 110, 0.13), transparent 55%),
+    radial-gradient(ellipse 70% 50% at 90% 80%, rgba(44, 92, 197, 0.12), transparent 50%),
+    radial-gradient(ellipse 50% 40% at 50% 100%, rgba(20, 48, 110, 0.07), transparent 45%);
+}
+
+/*
+ * Final CTA — a deep navy mesh rather than a two-stop gradient. The lightest
+ * point lands near lic-royal, so the white headline and the 90%-white body
+ * copy stay above AA across the whole panel.
+ */
+.mesh-navy-deep {
+  background-color: #14306E;
+  background-image:
+    radial-gradient(ellipse 85% 65% at 12% 18%, rgba(44, 92, 197, 0.55), transparent 58%),
+    radial-gradient(ellipse 70% 55% at 88% 82%, rgba(127, 176, 255, 0.14), transparent 52%),
+    radial-gradient(ellipse 60% 50% at 50% 105%, rgba(10, 26, 60, 0.75), transparent 55%);
 }
 
 /* Mentor section — diagonal stripe texture + achievement strip dividers */
 .mentor-block1-stripes {
-  background-color: #f0fbf7;
+  background-color: #EEF3FC;
   background-image: repeating-linear-gradient(45deg,
       transparent,
       transparent 14px,
-      rgba(13, 158, 115, 0.04) 14px,
-      rgba(13, 158, 115, 0.04) 16px);
+      rgba(20, 48, 110, 0.05) 14px,
+      rgba(20, 48, 110, 0.05) 16px);
 }
 
 .mentor-ach-strip {
@@ -121,8 +210,8 @@ body {
 }
 
 .mentor-ach-strip>* {
-  border-right: 1px solid #0d9e73;
-  border-bottom: 1px solid #0d9e73;
+  border-right: 1px solid rgba(20, 48, 110, 0.20);
+  border-bottom: 1px solid rgba(20, 48, 110, 0.20);
 }
 
 .mentor-ach-strip>*:nth-child(2n) {
@@ -136,11 +225,11 @@ body {
 
   .mentor-ach-strip>* {
     border-bottom: none;
-    border-right: 1px solid #0d9e73;
+    border-right: 1px solid rgba(20, 48, 110, 0.20);
   }
 
   .mentor-ach-strip>*:nth-child(2n) {
-    border-right: 1px solid #0d9e73;
+    border-right: 1px solid rgba(20, 48, 110, 0.20);
   }
 
   .mentor-ach-strip>*:last-child {
@@ -149,11 +238,11 @@ body {
 }
 
 .mentor-quote-mesh {
-  background-color: #0d9e73;
+  background-color: #14306E;
   background-image:
-    radial-gradient(ellipse 90% 70% at 15% 25%, rgba(168, 240, 220, 0.22), transparent 55%),
-    radial-gradient(ellipse 65% 55% at 88% 75%, rgba(86, 207, 225, 0.14), transparent 50%),
-    radial-gradient(ellipse 50% 45% at 50% 100%, rgba(13, 122, 90, 0.35), transparent 52%);
+    radial-gradient(ellipse 90% 70% at 15% 25%, rgba(127, 176, 255, 0.20), transparent 55%),
+    radial-gradient(ellipse 65% 55% at 88% 75%, rgba(44, 92, 197, 0.32), transparent 50%),
+    radial-gradient(ellipse 50% 45% at 50% 100%, rgba(10, 26, 60, 0.55), transparent 52%);
 }
 
 .mentor-ach-hover-fill::after {
@@ -164,7 +253,7 @@ body {
   transform: scaleY(0);
   transform-origin: bottom center;
   transition: transform 0.38s cubic-bezier(0.4, 0, 0.2, 1);
-  background: linear-gradient(to top, #0d9e73, #0d9e73);
+  background: linear-gradient(to top, #0A1A3C, #14306E);
 }
 
 .mentor-ach-hover-fill:hover::after {

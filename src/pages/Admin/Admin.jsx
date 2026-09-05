@@ -83,7 +83,7 @@ const Admin = () => {
         <AdminHeader onOpenDrawer={openMobile} />
         <DashboardLayout>
           <Outlet />
-        </DashboardLayout>
+        </DashboardLayout>  
       </div>
     </AdminLayout>
   );

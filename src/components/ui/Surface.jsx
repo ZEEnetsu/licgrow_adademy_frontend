@@ -7,8 +7,11 @@
  * are redefined under `.dark`, so a component built from them follows the theme
  * automatically, while a hardcoded colour stays dark in light mode.
  *
- * The visual language follows the admin dashboard's StatsCard: elevated
- * surface, subtle border, rounded-lg, hover lift.
+ * The visual language follows the admin dashboard's StatsCard: an elevated
+ * surface, generously rounded, and lifted off the tinted page by `shadow-
+ * elevate` rather than outlined by a border. Cards and tiles carry no border
+ * anywhere in the app — separation is elevation, so the two themes can use the
+ * shadow physics each needs (see styles/theme.css).
  */
 import { FIGURE_TONE } from "./tokens.js";
 
@@ -20,7 +23,7 @@ export const Card = ({
   ...props
 }) => (
   <Tag
-    className={`rounded-3xl bg-surface-elevated p-4 ${className}`}
+    className={`rounded-3xl bg-surface-elevated shadow-elevate p-4 ${className}`}
     {...props}
   >
     {children}
@@ -35,7 +38,7 @@ export const InteractiveCard = ({
   ...props
 }) => (
   <Tag
-    className={`rounded-lg border border-border bg-surface hover:bg-surface-hover transition-colors p-4 ${className}`}
+    className={`rounded-lg bg-surface-elevated shadow-elevate hover:bg-surface-elevated-hover hover:shadow-elevate-hover transition-[background-color,box-shadow] duration-200 p-4 ${className}`}
     {...props}
   >
     {children}

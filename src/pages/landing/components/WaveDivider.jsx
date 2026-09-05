@@ -2,7 +2,7 @@
  * Soft wave divider between sections — seamless vertical rhythm.
  * `flip` mirrors vertically for alternating waves.
  */
-export function WaveDivider({ fill = '#F7FAF9', flip = false, className = '' }) {
+export function WaveDivider({ fill = '#F5F8FE', flip = false, className = '' }) {
   return (
     <div
       className={[

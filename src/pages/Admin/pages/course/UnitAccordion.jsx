@@ -131,7 +131,7 @@ const UnitAccordion = ({ courseId, unit, index, total, onMove, busy }) => {
   };
 
   return (
-    <div className="rounded-lg border border-border-muted bg-surface/40">
+    <div className="rounded-lg bg-surface-elevated shadow-elevate">
       <div className="flex items-center gap-2 px-3 py-2">
         <button
           type="button"

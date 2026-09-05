@@ -11,22 +11,22 @@ import { useEffect, useState } from "react";
  * against the CSS and fails if they diverge.
  */
 const FALLBACK = {
-  bg: "#ffffff",
-  surface: "#f4f4f5",
+  bg: "#eaf1fb",
+  surface: "#ffffff",
   "surface-elevated": "#ffffff",
-  border: "#e4e4e7",
-  "text-primary": "#09090b",
-  "text-muted": "#52525b",
+  border: "#c7d6f0",
+  "text-primary": "#0a1a3c",
+  "text-muted": "#4a5e85",
   // chart-1/grid/tick are aliases in CSS (`var(--accent)` and friends); these
   // are their resolved light-theme values
-  "chart-1": "#047857",
-  "chart-grid": "#e4e4e7",
-  "chart-tick": "#52525b",
-  "chart-2": "#1d4ed8",
-  "chart-3": "#6d28d9",
-  "chart-4": "#b45309",
-  "chart-5": "#0e7490",
-  "chart-6": "#be185d",
+  "chart-1": "#14306e",
+  "chart-grid": "#c7d6f0",
+  "chart-tick": "#4a5e85",
+  "chart-2": "#7fb0ff",
+  "chart-3": "#2c5cc5",
+  "chart-4": "#b4d0ff",
+  "chart-5": "#4c8def",
+  "chart-6": "#0a1a3c",
 };
 
 /**

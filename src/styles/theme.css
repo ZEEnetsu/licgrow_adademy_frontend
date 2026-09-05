@@ -7,6 +7,13 @@
  * so retuning is editing a hex on the left or the right and saving. Nothing
  * else in the codebase names a colour — no component, no chart, no page.
  *
+ * ONE HUE
+ *   Both themes are built from a single navy ramp, the same one the marketing
+ *   pages use (see the LANDING PALETTE block in index.css). Light mode reads as
+ *   white-on-navy-tint; dark mode as navy-on-near-black. The status trio is the
+ *   only place another hue appears, because green/amber/red carry meaning that
+ *   a shade of blue cannot.
+ *
  * HOW IT REACHES THE UI
  *   index.css maps each token to a Tailwind utility once, in its `@theme
  *   inline` block: `--accent` becomes `bg-accent`, `text-accent`,
@@ -14,122 +21,138 @@
  *   token's value means only here.
  *
  * WHAT THE LEVELS MEAN
- *   bg                 the page itself
- *   surface            cards, the sidebar, the header
+ *   bg                 the page itself — tinted, so cards can lift off it
+ *   surface            the chrome: sidebar, header
  *   surface-muted      recessed areas on a card — zebra rows, disabled fields
  *   surface-hover      a surface under the pointer
- *   surface-elevated   things that float above the page: modals, dropdowns
+ *   surface-elevated   things that float: cards, tiles, modals, dropdowns
+ *
+ *   `--elevate` is the shadow those floating things wear. It is a token rather
+ *   than a Tailwind `shadow-md` because the two themes need different physics:
+ *   light mode casts a soft navy shadow, dark mode casts a deeper black one and
+ *   adds a one-pixel inner highlight along the top edge — without it a dark
+ *   card has no edge at all once you take the border away.
  *
  * IF YOU RETUNE
- *   `theme.check.mjs` measures WCAG contrast from these values and fails on
- *   anything under AA, so a pairing that became unreadable is caught here
- *   rather than on a screen. The pairs it holds to 4.5:1 are: text on bg,
- *   text on surface, each status on its own `-muted` fill and on a card, the
- *   accent as text, and `accent-contrast` on `accent`.
+ *   The pairs held to WCAG AA (4.5:1) are: text on bg, on surface, and on
+ *   surface-elevated; each status on its own `-muted` fill, on a card, and on
+ *   the page; the accent as text on all three surfaces; `accent-contrast` on
+ *   `accent`; and `accent-solid-contrast` on `accent-solid`. That is 32 pairs
+ *   per theme and every one clears AA — the tightest are success on its own
+ *   fill at 4.72:1 in light, and warning on its own at 5.43:1 in dark.
  *
- *   The general rule these values follow: LIGHT mode takes the 600/700-level
- *   for anything that is read (text, status, accent) and the 100-level for the
- *   fills behind them; DARK mode inverts that — 300/400-level ink on 900/950
- *   fills. Using the same 500 for both is what made the first pass unreadable
- *   in light mode.
+ *   The general rule these values follow: LIGHT mode takes the 700/800-level
+ *   for anything that is read (text, status, accent) and the 50/100-level for
+ *   the fills behind them; DARK mode inverts that — 300/400-level ink on
+ *   900/950-level fills. Using the same 500 for both is what made the first
+ *   pass unreadable in light mode.
  */
-
 :root {
   color-scheme: light;
-
-  /* ── surfaces ─────────────────────────────────────────────────────────── */
-  --bg: #ffffff;
-  --surface: #f4f4f5;
-  --surface-muted: #fafafa;
-  --surface-hover: #e4e4e7;
-  --surface-elevated: #01175c25;
-  --surface-elevated-hover: #f4f4f5;
-  --surface-elevated-muted: #f4f4f5;
-
-  /* ── borders ──────────────────────────────────────────────────────────── */
-  --border: #c8c8c8;
-  --border-muted: #f4f4f5;
-
+  /* ── surfaces ─────────────────────────────────────────────────────────── *
+   * The page is the tint and the card is the white, not the other way round.
+   * That inversion is what lets a card read as raised with no border on it.  */
+  --bg: #eaf1fb;
+  --surface: #ffffff;
+  --surface-muted: #f7faff;
+  --surface-hover: #dfe8fa;
+  --surface-elevated: #ffffff;
+  --surface-elevated-hover: #f4f8ff;
+  --surface-elevated-muted: #eaf1fb;
+  /* ── elevation ────────────────────────────────────────────────────────── */
+  --elevate: 0 1px 2px -1px rgb(10 26 60 / 0.08), 0 8px 20px -6px rgb(10 26 60 / 0.16);
+  --elevate-hover: 0 2px 6px -2px rgb(10 26 60 / 0.12), 0 16px 32px -10px rgb(10 26 60 / 0.24);
+  /* ── borders ──────────────────────────────────────────────────────────── *
+   * Chrome hairlines and input outlines only. Cards and tiles are separated
+   * by elevation, never by a rule.                                          */
+  --border: #c7d6f0;
+  --border-muted: #dfe8fa;
   /* ── text ─────────────────────────────────────────────────────────────── */
-  --text-primary: #09090b;
-  --text-muted: #52525b;
-
+  --text-primary: #0a1a3c;
+  --text-muted: #4a5e85;
   /* ── status ───────────────────────────────────────────────────────────── *
    * Each pair is ink and the tinted fill it sits on: a pill is
    * `bg-danger-muted text-danger` in both themes.                           */
   --success: #047857;
-  --success-muted: #d1fae5;
-  --warning: #b45309;
-  --warning-muted: #fef3c7;
-  --danger: #ff5c5c;
-  --danger-muted: #fee2e2;
-
-  /* ── accent 0B43DE ───────────────────────────────────────────────────────────── *
+  --success-muted: #d6f5e7;
+  --warning: #a14a07;
+  --warning-muted: #fef5e3;
+  --danger: #be123c;
+  --danger-muted: #ffe1e7;
+  /* ── accent ───────────────────────────────────────────────────────────── *
    * `--accent-contrast` is the text ON the accent. It is a separate token
    * because it does not follow the theme: a dark accent needs a white label
-   * and a light one needs a near-black label, whichever mode you are in.     */
-  --accent: #112E7E ; 
-  --accent-hover: #065f46;
-  --accent-muted: #D0DDF5;
-  --accent-contrast: #ffffff; 
-
+   * and a light one needs a near-black label, whichever mode you are in.
+   *
+   * `--accent-solid` is the second accent role: the brand FILL, for the stat
+   * tiles and the active nav item. It stays dark navy in both themes, unlike
+   * `--accent`, which has to go light in dark mode to stay readable as text.
+   * The split exists because those two surfaces carry fixed-colour SVG icons
+   * loaded through <img> — CSS cannot recolour them, so the fill under them
+   * has to stay dark whichever theme is on.                                  */
+  --accent: #14306e;
+  --accent-hover: #1e4396;
+  --accent-muted: #dce7fb;
+  --accent-contrast: #ffffff;
+  --accent-solid: #14306e;
+  --accent-solid-contrast: #ffffff;
   /* ── charts ───────────────────────────────────────────────────────────── *
    * A canvas cannot inherit a custom property, so these are read in JS by
    * useThemeTokens and handed to Chart.js. `--chart-1` is the accent, so the
-   * first series of every chart follows the brand colour. 2–6 are distinct
-   * hues for multi-series charts.                                            */
+   * first series of every chart follows the brand colour. 2–6 stay inside the
+   * navy ramp and alternate light/dark, which is what keeps neighbouring pie
+   * slices apart now that they no longer differ in hue.                      */
   --chart-1: var(--accent);
-  --chart-2: #1d4ed8;
-  --chart-3: #6d28d9;
-  --chart-4: #b45309;
-  --chart-5: #0e7490;
-  --chart-6: #be185d;
+  --chart-2: #7fb0ff;
+  --chart-3: #2c5cc5;
+  --chart-4: #b4d0ff;
+  --chart-5: #4c8def;
+  --chart-6: #0a1a3c;
   --chart-grid: var(--border);
   --chart-tick: var(--text-muted);
 }
 
 .dark {
   color-scheme: dark;
-
   /* ── surfaces ─────────────────────────────────────────────────────────── */
-  --bg: #09090b;
-  --surface: #18181b;
-  --surface-muted: #141415;
-  --surface-hover: #27272a;
-  --surface-elevated: #27272a;
-  --surface-elevated-hover: #3f3f46;
-  --surface-elevated-muted: #1f1f22;
-
+  --bg: #070d1f;
+  --surface: #0e1932;
+  --surface-muted: #0a1427;
+  --surface-hover: #1b2c55;
+  --surface-elevated: #142443;
+  --surface-elevated-hover: #1c3054;
+  --surface-elevated-muted: #101d38;
+  /* ── elevation ────────────────────────────────────────────────────────── */
+  --elevate: inset 0 1px 0 rgb(255 255 255 / 0.05), 0 1px 2px -1px rgb(0 0 0 / 0.7), 0 10px 26px -8px rgb(0 0 0 / 0.75);
+  --elevate-hover: inset 0 1px 0 rgb(255 255 255 / 0.08), 0 2px 6px -2px rgb(0 0 0 / 0.75), 0 18px 38px -12px rgb(0 0 0 / 0.85);
   /* ── borders ──────────────────────────────────────────────────────────── */
-  --border: #27272a;
-  --border-muted: #18181b;
-
+  --border: #24375f;
+  --border-muted: #17243f;
   /* ── text ─────────────────────────────────────────────────────────────── */
-  --text-primary: #fafafa;
-  --text-muted: #a1a1aa;
-
+  --text-primary: #eaf0fc;
+  --text-muted: #9aacd0;
   /* ── status ───────────────────────────────────────────────────────────── */
   --success: #34d399;
-  --success-muted: #064e3b;
+  --success-muted: #073b2c;
   --warning: #fbbf24;
   --warning-muted: #78350f;
-  /* red-900 sits higher than the other 900s against its ink; this is red-950 */
-  --danger: #f87171;
-  --danger-muted: #450a0a;
-
+  --danger: #fb7185;
+  --danger-muted: #4c0a1b;
   /* ── accent ───────────────────────────────────────────────────────────── */
-  --accent: #34d399;
-  --accent-hover: #6ee7b7;
-  --accent-muted: #064e3b;
-  --accent-contrast: #09090b;
-
+  --accent: #7fb0ff;
+  --accent-hover: #a9c8ff;
+  --accent-muted: #172b52;
+  --accent-contrast: #06101f;
+  /* lighter than light mode's, so the tile still lifts off a near-black page */
+  --accent-solid: #2c5cc5;
+  --accent-solid-contrast: #ffffff;
   /* ── charts ───────────────────────────────────────────────────────────── */
   --chart-1: var(--accent);
-  --chart-2: #60a5fa;
-  --chart-3: #a78bfa;
-  --chart-4: #fbbf24;
-  --chart-5: #22d3ee;
-  --chart-6: #f472b6;
+  --chart-2: #1d3f8f;
+  --chart-3: #b4d0ff;
+  --chart-4: #2c5cc5;
+  --chart-5: #dceaff;
+  --chart-6: #4c8def;
   --chart-grid: var(--border);
   --chart-tick: var(--text-muted);
 }

@@ -34,7 +34,7 @@ const DataTable = ({
         <span className="ml-2 font-medium">{title}</span>
       </div>
 
-      <div className="w-full border border-border rounded-lg overflow-hidden bg-surface">
+      <div className="w-full rounded-lg overflow-hidden bg-surface-elevated shadow-elevate">
         <div className="overflow-x-auto">
           <div
             style={{ gridTemplateColumns: columns }}

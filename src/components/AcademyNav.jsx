@@ -49,7 +49,7 @@ const AcademyNav = () => {
           >
             <ShieldMark />
             <span className="font-semibold tracking-tight text-lic-charcoal sm:text-lg">
-              LICPro <span className="text-lic-teal">Academy</span>
+              LICPro <span className="text-lic-navy">Academy</span>
             </span>
           </Link>
 
@@ -61,20 +61,20 @@ const AcademyNav = () => {
               <a
                 key={l.href}
                 href={l.href}
-                className="rounded-full px-3 py-2 text-sm font-medium text-lic-body transition-all duration-200 ease-material hover:bg-lic-mint hover:text-lic-charcoal"
+                className="rounded-full px-3 py-2 text-sm font-medium text-lic-body transition-all duration-200 ease-material hover:bg-lic-ice hover:text-lic-charcoal"
               >
                 {l.label}
               </a>
             ))}
             <NavLink
               to="/login"
-              className="ml-2 rounded-full px-3 py-2 text-sm font-semibold text-lic-charcoal transition-all duration-200 ease-material hover:bg-lic-mint"
+              className="ml-2 rounded-full px-3 py-2 text-sm font-semibold text-lic-charcoal transition-all duration-200 ease-material hover:bg-lic-ice"
             >
               Login
             </NavLink>
             <Link
               to="/register"
-              className="ml-1 inline-flex min-h-[48px] items-center justify-center rounded-full bg-lic-teal px-5 text-sm font-semibold text-white shadow-md transition-all duration-200 ease-material hover:scale-[1.03] hover:shadow-teal-glow"
+              className="ml-1 inline-flex min-h-[48px] items-center justify-center rounded-full bg-lic-navy px-5 text-sm font-semibold text-white shadow-md transition-all duration-200 ease-material hover:scale-[1.03] hover:shadow-navy-glow"
             >
               Start for Free
             </Link>
@@ -128,7 +128,7 @@ const AcademyNav = () => {
                     initial={{ opacity: 0, x: -12 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: i * 0.05, duration: 0.3, ease: EASE }}
-                    className="min-h-[48px] rounded-card px-4 py-3 text-base font-medium text-lic-charcoal hover:bg-lic-mint"
+                    className="min-h-[48px] rounded-card px-4 py-3 text-base font-medium text-lic-charcoal hover:bg-lic-ice"
                     onClick={() => setOpen(false)}
                   >
                     {l.label}
@@ -136,14 +136,14 @@ const AcademyNav = () => {
                 ))}
                 <NavLink
                   to="/login"
-                  className="min-h-[48px] rounded-card px-4 py-3 text-base font-semibold text-lic-charcoal hover:bg-lic-mint"
+                  className="min-h-[48px] rounded-card px-4 py-3 text-base font-semibold text-lic-charcoal hover:bg-lic-ice"
                   onClick={() => setOpen(false)}
                 >
                   Login
                 </NavLink>
                 <Link
                   to="/register"
-                  className="mt-2 inline-flex min-h-[48px] items-center justify-center rounded-full bg-lic-teal px-5 text-base font-semibold text-white shadow-md"
+                  className="mt-2 inline-flex min-h-[48px] items-center justify-center rounded-full bg-lic-navy px-5 text-base font-semibold text-white shadow-md"
                   onClick={() => setOpen(false)}
                 >
                   Start for Free

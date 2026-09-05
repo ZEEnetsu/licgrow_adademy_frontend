@@ -22,8 +22,8 @@ const BENEFITS = [
 ];
 
 const BusinessOpportunitySection = () => (
-  <section className="relative overflow-hidden bg-gradient-to-b from-lic-offwhite via-white to-[#F0FBF7] py-20 sm:py-28">
-    <div className="pointer-events-none absolute right-0 top-20 h-64 w-64 rounded-full bg-lic-sky/25 blur-3xl" />
+  <section className="relative overflow-hidden bg-gradient-to-b from-lic-offwhite via-white to-[#EEF3FC] py-20 sm:py-28">
+    <div className="pointer-events-none absolute right-0 top-20 h-64 w-64 rounded-full bg-lic-azure/25 blur-3xl" />
     <motion.div
       className="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-8"
       initial="hidden"
@@ -55,7 +55,7 @@ const BusinessOpportunitySection = () => (
                 transition: { duration: 0.6, ease: EASE, delay: i * 0.12 },
               },
             }}
-            className="rounded-card-lg border border-black/[0.06] bg-white p-6 shadow-soft transition-all duration-[250ms] ease-material hover:-translate-y-1.5 hover:shadow-teal-glow sm:p-8"
+            className="rounded-card-lg border border-black/[0.06] bg-white p-6 shadow-soft transition-all duration-[250ms] ease-material hover:-translate-y-1.5 hover:shadow-navy-glow sm:p-8"
           >
             <span className="text-3xl" aria-hidden>
               {b.emoji}
@@ -68,10 +68,10 @@ const BusinessOpportunitySection = () => (
 
       <motion.figure
         variants={fadeUp}
-        className="relative mt-14 overflow-hidden rounded-card-lg border-l-[6px] border-lic-teal bg-white p-7 shadow-card"
+        className="relative mt-14 overflow-hidden rounded-card-lg border-l-[6px] border-lic-navy bg-white p-7 shadow-card"
       >
         <span
-          className="absolute right-6 top-6 font-serif text-6xl font-bold leading-none text-lic-teal/25"
+          className="absolute right-6 top-6 font-serif text-6xl font-bold leading-none text-lic-navy/25"
           aria-hidden
         >
           &ldquo;

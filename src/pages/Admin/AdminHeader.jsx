@@ -74,7 +74,7 @@ const AccountMenu = () => {
       {open && (
         <div
           role="menu"
-          className="absolute right-0 top-12 z-50 w-56 rounded-lg border border-border bg-surface-elevated shadow-lg overflow-hidden"
+          className="absolute right-0 top-12 z-50 w-56 rounded-lg bg-surface-elevated shadow-elevate-hover overflow-hidden"
         >
           <div className="px-3 py-3 border-b border-border">
             <p className="text-sm font-medium text-text-primary truncate">

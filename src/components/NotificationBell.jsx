@@ -114,7 +114,7 @@ const NotificationBell = ({ deepLink = true }) => {
       {open && (
         <div
           role="menu"
-          className="absolute right-0 top-10 z-50 w-80 max-h-96 overflow-y-auto rounded-lg border border-border bg-bg shadow-lg"
+          className="absolute right-0 top-10 z-50 w-80 max-h-96 overflow-y-auto rounded-lg bg-surface-elevated shadow-elevate-hover"
         >
           <div className="flex items-center justify-between px-3 py-2 border-b border-border sticky top-0 bg-bg">
             <p className="text-sm font-medium text-text-primary">

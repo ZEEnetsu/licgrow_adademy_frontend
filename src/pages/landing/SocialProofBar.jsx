@@ -29,7 +29,7 @@ function StatCounter({ value, suffix, label }) {
 }
 
 const SocialProofBar = () => (
-  <section className="relative border-t-[3px] border-lic-teal bg-[#F0FBF7] py-14 sm:py-16">
+  <section className="relative border-t-[3px] border-lic-navy bg-[#EEF3FC] py-14 sm:py-16">
     <motion.div
       className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"
       initial="hidden"
@@ -39,7 +39,7 @@ const SocialProofBar = () => (
     >
       <motion.p
         variants={fadeUp}
-        className="mb-10 text-center text-sm font-medium uppercase tracking-[0.18em] text-lic-teal"
+        className="mb-10 text-center text-sm font-medium uppercase tracking-[0.18em] text-lic-navy"
       >
         Real numbers. Real results. Real agents.
       </motion.p>

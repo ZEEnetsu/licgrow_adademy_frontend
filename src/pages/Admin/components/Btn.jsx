@@ -13,7 +13,7 @@ const Btn = ({
     outline:
       "border-1 border-border bg-transparent hover:bg-surface hover:text-text-primary text-text-muted",
     ghost: "bg-transparent text-text-muted hover:bg-surface-hover ",
-    danger: "bg-danger text-white hover:bg-danger/80 hover:text-white",
+    danger: "bg-danger text-bg hover:bg-danger/80",
   };
   const sizes = {
     sm: "h-8 px-4 text-sm",

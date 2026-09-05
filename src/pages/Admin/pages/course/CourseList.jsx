@@ -37,7 +37,7 @@ const STATUS_TONE = {
 const CourseCard = ({ course }) => (
   <NavLink
     to={course.id}
-    className="flex flex-col justify-between rounded-lg border border-border-muted bg-surface hover:bg-surface-hover transition-colors p-4 min-h-36"
+    className="flex flex-col justify-between rounded-lg bg-surface-elevated shadow-elevate hover:bg-surface-elevated-hover hover:shadow-elevate-hover transition-[background-color,box-shadow] duration-200 p-4 min-h-36"
   >
     <div>
       <div className="flex items-start justify-between gap-2">
