@@ -46,7 +46,7 @@ import CourseList from "./pages/Admin/pages/course/CourseList.jsx";
 import CourseDetail from "./pages/Admin/pages/course/CourseDetail.jsx";
 import { store } from "./app/store.js";
 import { ACTOR } from "./app/features/auth/permissions.js";
-
+import SmoothScrolling from "./hooks/SmoothScrolling.jsx";
 /** Both admin actors reach the dashboard; RBAC narrows what they can do there. */
 const ADMIN_ACTORS = [ACTOR.STAFF_ADMIN, ACTOR.SUPER_ADMIN];
 
@@ -58,7 +58,7 @@ const router = createBrowserRouter([
       { path: "/", element: <App /> },
       { path: "/login", element: <Login /> },
       { path: "/register", element: <Register /> },
-      { path: "/benefits", element: <Benefits /> },
+      { path: "/benefits", element: <SmoothScrolling><Benefits /></SmoothScrolling> },
 
       {
         element: <RequireAuth actor={ADMIN_ACTORS} fallback={<AuthSplash />} />,

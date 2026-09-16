@@ -357,3 +357,135 @@ body {
   text-align: center;
   padding: 1.25rem;
 }
+/*
+ * ─────────────────────────────────────────────────────────────────────────────
+ *  SCROLLBARS
+ * ─────────────────────────────────────────────────────────────────────────────
+ *
+ * The app paints three different surfaces, and the scrollbar has to match the
+ * one actually on screen rather than the stored preference:
+ *
+ *   light   the marketing pages (/, /benefits) — always white, whatever the
+ *           theme toggle says
+ *   dark    the auth pages (/login, /register) — always near-black
+ *   app     /admin and /student — these follow the theme, so they read the
+ *           same tokens as everything else and flip with `.dark` for free
+ *
+ * RootLayout stamps `data-surface` on <html> per route. That attribute also
+ * carries `color-scheme`, which is the actual fix for a pre-existing bug: the
+ * boot script in index.html sets `.dark` from `prefers-color-scheme`, so a
+ * visitor whose OS is dark got `color-scheme: dark` — and therefore a dark
+ * native scrollbar — down the side of the white landing page, before ever
+ * touching the toggle.
+ *
+ * `html[data-surface=...]` is (0,1,1) so it beats `.dark` (0,1,0) outright
+ * rather than relying on source order.
+ */
+html[data-surface='light'] {
+  color-scheme: light;
+  --sb-track: rgba(20, 48, 110, 0.05);
+  --sb-thumb: rgba(20, 48, 110, 0.28);
+  --sb-thumb-hover: rgba(20, 48, 110, 0.52);
+}
+
+html[data-surface='dark'] {
+  color-scheme: dark;
+  --sb-track: rgba(255, 255, 255, 0.04);
+  --sb-thumb: rgba(255, 255, 255, 0.18);
+  --sb-thumb-hover: rgba(255, 255, 255, 0.32);
+}
+
+/* Follows the theme: these three tokens are already redefined under `.dark`. */
+html[data-surface='app'] {
+  --sb-track: var(--surface-muted);
+  --sb-thumb: var(--border);
+  --sb-thumb-hover: var(--accent);
+}
+
+/* Fallback for the first paint, before RootLayout's effect runs. */
+:root {
+  --sb-track: rgba(20, 48, 110, 0.05);
+  --sb-thumb: rgba(20, 48, 110, 0.28);
+  --sb-thumb-hover: rgba(20, 48, 110, 0.52);
+}
+
+/*
+ * Firefox gets the two-keyword form; `thin` there is ~11px, which is close
+ * enough to the 10px WebKit bar that the two platforms feel the same.
+ */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--sb-thumb) var(--sb-track);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--sb-track);
+}
+
+/*
+ * The transparent border plus `background-clip: content-box` is what makes the
+ * thumb read as a floating pill with air around it instead of a slab filling
+ * the gutter. The border has to be restated on :hover or the clip is lost and
+ * the thumb visibly fattens on hover.
+ */
+::-webkit-scrollbar-thumb {
+  background-color: var(--sb-thumb);
+  border: 2px solid transparent;
+  background-clip: content-box;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--sb-thumb-hover);
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/*
+ * Reserving the gutter stops the ~15px horizontal lurch when routing between a
+ * page that overflows and one that does not — most visible going from the
+ * landing page to /login.
+ */
+html {
+  scrollbar-gutter: stable;
+}
+
+/*
+ * Inner panels — the docs contents rail, wide tables. A 6px trackless bar so
+ * the panel's own chrome stays quiet, and `overscroll-behavior` so reaching
+ * the end of the rail stops there instead of handing the scroll to the page
+ * behind it.
+ */
+.scroll-panel {
+  scrollbar-width: thin;
+  scrollbar-color: var(--sb-thumb) transparent;
+  overscroll-behavior: contain;
+}
+
+.scroll-panel::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.scroll-panel::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scroll-panel::-webkit-scrollbar-thumb {
+  background-color: var(--sb-thumb);
+  border: 0;
+  border-radius: 999px;
+}
+
+.scroll-panel::-webkit-scrollbar-thumb:hover {
+  background-color: var(--sb-thumb-hover);
+}

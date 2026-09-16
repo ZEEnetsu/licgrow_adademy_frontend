@@ -10,6 +10,19 @@
           (!stored &&
             window.matchMedia("(prefers-color-scheme: dark)").matches);
         document.documentElement.classList.toggle("dark", isDark);
+
+        /*
+         * Surface for the very first paint, before React mounts and
+         * RootLayout takes over. Without this the landing page briefly
+         * renders with the app scrollbar (and a dark color-scheme, for a
+         * visitor whose OS is dark) before flipping to light.
+         * Keep these two lists in sync with RootLayout.jsx.
+         */
+        var path = window.location.pathname;
+        var surface = "app";
+        if (path === "/" || path === "/benefits") surface = "light";
+        else if (path === "/login" || path === "/register") surface = "dark";
+        document.documentElement.setAttribute("data-surface", surface);
       })();
     </script>
     <link rel="icon" type="image/svg+xml" href="/vite .svg" />

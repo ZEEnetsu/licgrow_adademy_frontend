@@ -84,7 +84,7 @@ function Tree({ chapters, active, onPick }) {
 export function DesktopToc({ chapters, active }) {
   return (
     <aside className="hidden lg:block">
-      <div className="sticky top-[5.5rem] max-h-[calc(100vh-7rem)] overflow-y-auto pb-10 pr-4">
+      <div className="scroll-panel sticky top-[5.5rem] max-h-[calc(100vh-7rem)] overflow-y-auto pb-10 pr-4">
         <p className="mb-6 text-[11px] font-bold uppercase tracking-[0.2em] text-lic-body/60">
           Contents
         </p>

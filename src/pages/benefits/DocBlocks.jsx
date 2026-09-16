@@ -44,7 +44,7 @@ function DocTable({ head, rows, foot }) {
         The scroll container is the <div>, not the table, so a nine-row table
         can go sideways on a phone without the whole page doing the same.
       */}
-      <div className="overflow-x-auto rounded-card border border-black/[0.07] shadow-soft">
+      <div className="scroll-panel overflow-x-auto rounded-card border border-black/[0.07] shadow-soft">
         <table className="w-full min-w-[34rem] border-collapse text-left text-sm">
           <thead>
             <tr className="bg-lic-charcoal">
@@ -94,7 +94,7 @@ function DocTable({ head, rows, foot }) {
 function Formula({ lines, caption }) {
   return (
     <figure className="my-7">
-      <div className="overflow-x-auto rounded-card border border-lic-navy/25 bg-lic-charcoal p-5 shadow-card sm:p-6">
+      <div className="scroll-panel overflow-x-auto rounded-card border border-lic-navy/25 bg-lic-charcoal p-5 shadow-card sm:p-6">
         <pre className="font-mono text-[12.5px] leading-[1.9] text-lic-frost sm:text-[13px]">
           {lines.join('\n')}
         </pre>
