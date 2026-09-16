@@ -18,12 +18,12 @@ const Landing = () => (
     <AcademyNav/>
     <HeroSection />
     <SocialProofBar />
+    <BusinessOpportunitySection />
     <BenefitsSection />
-    <HowItWorksSection />
+    <BecomeLICAgentSection />
     <ProblemSection />
     <FeaturesSection />
-    <BecomeLICAgentSection />
-    <BusinessOpportunitySection />
+    <HowItWorksSection />
     <MentorSection />
     <TestimonialsLIC />
     <FinalCtaSection />

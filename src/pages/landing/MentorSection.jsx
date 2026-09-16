@@ -2,9 +2,24 @@ import { motion } from 'framer-motion';
 
 import { useCountUp, formatCount } from '../../hooks/useCountUp.js';
 import Icon from './components/Icon.jsx';
-import { WaveDivider } from './components/WaveDivider.jsx';
-import { fadeUp, stagger } from './motion.js';
+import { EASE, fadeUp, stagger } from './motion.js';
 
+/**
+ * The mentor section.
+ *
+ * Rebuilt to speak the same language as the rest of the page. The previous
+ * version was assembled from devices nothing else used — a full-bleed gradient
+ * spine pinned to the viewport edge, a diagonal stripe texture, a saturated
+ * royal portrait tile, a square-cornered stat strip with a slide-up fill, and
+ * two wave dividers around a full-bleed navy band that pre-empted the final
+ * CTA's own navy band. Individually defensible; together they read as a
+ * different site.
+ *
+ * Now it is the page's standard shell — centred eyebrow, h2 and lede, then
+ * content — resolving into two objects: one elevated dossier card carrying the
+ * portrait, the bio and the credentials, and one contained navy quote panel.
+ * Copy is unchanged throughout.
+ */
 const ACHIEVEMENTS = [
   { icon: 'award', target: 880, suffix: '+', label: 'Families Protected' },
   { icon: 'badgeCheck', bigText: 'Certified', label: 'LIC Expert' },
@@ -18,16 +33,10 @@ const CHIPS = [
   { icon: 'partnership', label: 'Your Success is His Reputation' },
 ];
 
-/** Avatar silhouette — outline only, reads as intentional empty state. */
+/** Portrait placeholder — outline only, reads as an intentional empty state. */
 function MentorSilhouette({ className = '' }) {
   return (
-    <svg
-      className={className}
-      viewBox="0 0 120 140"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      aria-hidden
-    >
+    <svg className={className} viewBox="0 0 120 140" fill="none" aria-hidden>
       <path
         d="M60 18c-12.5 0-22.5 10-22.5 22.2 0 9.7 6.3 18 15 21.2C38 66.8 28 79.5 28 94.5V118c0 1.7 1.3 3 3 3h58c1.7 0 3-1.3 3-3V94.5c0-15-10-27.7-24.5-33.1 8.7-3.2 15-11.5 15-21.2C82.5 28 72.5 18 60 18z"
         stroke="currentColor"
@@ -40,293 +49,184 @@ function MentorSilhouette({ className = '' }) {
   );
 }
 
-function AnimatedStatUnderline({ className = '' }) {
+/* One shell for both stat kinds — a hook cannot be called conditionally, so
+   the numeric and static variants stay separate components around it. */
+function StatShell({ icon, children, label }) {
   return (
-    <motion.span
-      className={[
-        'pointer-events-none z-10 mt-1.5 block h-0.5 w-full max-w-[5rem] rounded-full bg-lic-navy transition-colors duration-300 group-hover:bg-white',
-        className,
-      ]
-        .filter(Boolean)
-        .join(' ')}
-      initial={{ scaleX: 0 }}
-      whileInView={{ scaleX: 1 }}
-      viewport={{ once: true, amount: 0.45 }}
-      transition={{ duration: 0.85, ease: [0.22, 1, 0.36, 1], delay: 0.12 }}
-      style={{ transformOrigin: 'left center' }}
-    />
+    <div className="group flex flex-col items-center justify-center bg-white px-4 py-7 text-center transition-colors duration-250 ease-material hover:bg-lic-offwhite">
+      <span className="text-lic-navy transition-colors duration-250 ease-material group-hover:text-lic-royal">
+        <Icon name={icon} className="h-6 w-6" />
+      </span>
+      <div className="mt-3">{children}</div>
+      <p className="mt-2 text-xs font-semibold leading-snug text-lic-body">{label}</p>
+    </div>
   );
 }
 
-function AchievementCardNumeric({ item }) {
+const STAT_VALUE =
+  'block text-[2.25rem] font-semibold leading-none tracking-tight text-lic-charcoal tabular-nums sm:text-[2.5rem]';
+
+function NumericStat({ item }) {
   const [ref, n] = useCountUp(item.target, { duration: 1800, threshold: 0.2 });
-
   return (
-    <motion.article
-      variants={fadeUp}
-      className="mentor-ach-hover-fill group relative flex min-h-[188px] flex-col overflow-hidden bg-transparent transition-shadow duration-300 hover:shadow-[0_20px_40px_-16px_rgba(20,48,110,0.35)]"
-    >
-      <div
-        ref={ref}
-        className="relative z-10 flex flex-1 flex-col items-center justify-center px-4 py-8 text-center sm:px-5"
-      >
-        <span className="text-lic-navy transition-colors duration-300 group-hover:text-white">
-          <Icon name={item.icon} className="h-7 w-7" />
-        </span>
-        <div className="relative z-10 mt-2 min-h-[3.25rem]">
-          <span className="block text-[3rem] font-extrabold leading-none tracking-tight text-lic-navy transition-colors duration-300 tabular-nums group-hover:text-white">
-            {formatCount(n)}
-            {item.suffix}
-          </span>
-          <AnimatedStatUnderline className="mx-auto" />
-        </div>
-        <p className="relative z-10 mt-3 text-xs font-semibold leading-snug text-lic-charcoal transition-colors duration-300 group-hover:text-white/95 sm:text-sm">
-          {item.label}
-        </p>
-      </div>
-    </motion.article>
+    <StatShell icon={item.icon} label={item.label}>
+      <span ref={ref} className={STAT_VALUE}>
+        {formatCount(n)}
+        {item.suffix}
+      </span>
+    </StatShell>
   );
 }
 
-function AchievementCardStatic({ item }) {
+function StaticStat({ item }) {
   return (
-    <motion.article
-      variants={fadeUp}
-      className="mentor-ach-hover-fill group relative flex min-h-[188px] flex-col overflow-hidden bg-transparent transition-shadow duration-300 hover:shadow-[0_20px_40px_-16px_rgba(20,48,110,0.35)]"
-    >
-      <div className="relative z-10 flex flex-1 flex-col items-center justify-center px-4 py-8 text-center sm:px-5">
-        <span className="text-lic-navy transition-colors duration-300 group-hover:text-white">
-          <Icon name={item.icon} className="h-7 w-7" />
-        </span>
-        <div className="relative z-10 mt-2 min-h-[3.25rem]">
-          <motion.p
-            initial={{ opacity: 0, y: 10 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.35 }}
-            transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
-            className="text-[3rem] font-extrabold leading-none tracking-tight text-lic-navy transition-colors duration-300 group-hover:text-white"
-          >
-            {item.bigText}
-          </motion.p>
-          <AnimatedStatUnderline className="mx-auto" />
-        </div>
-        <p className="relative z-10 mt-3 text-xs font-semibold leading-snug text-lic-charcoal transition-colors duration-300 group-hover:text-white/95 sm:text-sm">
-          {item.label}
-        </p>
-      </div>
-    </motion.article>
-  );
-}
-
-function AchievementCard({ item }) {
-  return item.target != null ? (
-    <AchievementCardNumeric item={item} />
-  ) : (
-    <AchievementCardStatic item={item} />
+    <StatShell icon={item.icon} label={item.label}>
+      <span className={STAT_VALUE}>{item.bigText}</span>
+    </StatShell>
   );
 }
 
 const MentorSection = () => (
-  <section id="mentor" className="relative scroll-mt-24 bg-white">
-    {/* Section spine — ties Block 1 + Block 2 */}
-    <div
-      className="pointer-events-none absolute bottom-0 left-0 top-0 z-[5] w-[8px] bg-linear-to-b from-lic-navy via-lic-royal to-lic-azure"
-      aria-hidden
-    />
-
-    {/* —— Block 1 —— */}
-    <div className="mentor-block1-stripes relative">
-      <motion.div
-        className="relative mx-auto max-w-7xl px-4 pb-0 pt-20 sm:px-6 sm:pt-24 lg:px-8 lg:pt-28"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.1 }}
-        variants={stagger()}
-      >
-        <motion.p
-          variants={fadeUp}
-          className="text-center text-xs font-bold uppercase tracking-[0.2em] text-lic-navy"
-        >
+  <section
+    id="mentor"
+    className="scroll-mt-24 bg-linear-to-b from-[#EEF3FC] via-white to-lic-offwhite py-20 sm:py-28"
+  >
+    <motion.div
+      className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.08 }}
+      variants={stagger()}
+    >
+      {/* Header — identical treatment to Problem, Business and Benefits. */}
+      <motion.div variants={fadeUp} className="mx-auto max-w-3xl text-center">
+        <p className="text-xs font-bold uppercase tracking-[0.2em] text-lic-navy">
           The mentor who&apos;s been there, done that
-        </motion.p>
-
-        <motion.div
-          variants={stagger(0.06, 0.12)}
-          className="mt-9 grid items-center gap-8 lg:grid-cols-2 lg:gap-12 lg:gap-x-14"
+        </p>
+        <h2
+          className="mt-4 text-pretty font-semibold tracking-tight text-lic-charcoal"
+          style={{ fontSize: 'clamp(1.75rem, 3vw, 2.5rem)', lineHeight: 1.16 }}
         >
-          {/* Portrait + glow */}
-          <motion.div variants={fadeUp} className="relative mx-auto mb-14 w-full max-w-[340px] lg:mx-0 lg:mb-0 lg:max-w-none">
-            <div
-              className="pointer-events-none absolute left-1/2 top-[42%] z-0 aspect-square w-[min(118vw,520px)] max-w-none -translate-x-1/2 -translate-y-1/2 sm:w-[480px]"
-              style={{
-                background:
-                  'radial-gradient(closest-side, rgba(20, 48, 110, 0.08) 0%, transparent 72%)',
-              }}
-              aria-hidden
-            />
-
-            <div className="relative z-[1] mx-auto w-full max-w-[320px] lg:mx-0">
-              <div className="overflow-hidden rounded-card-lg shadow-[0_20px_50px_-12px_rgba(20,48,110,0.4),0_0_0_1px_rgba(255,255,255,0.5)] ring-1 ring-white/60">
-                <div
-                  className="flex max-h-[480px] min-h-[320px] flex-col items-center justify-center bg-linear-to-br from-lic-royal to-lic-frost px-8 py-10 sm:min-h-[360px] sm:py-12"
-                >
-                  <MentorSilhouette className="h-44 w-[10.5rem] text-lic-charcoal drop-shadow-[0_2px_8px_rgba(255,255,255,0.25)] sm:h-52 sm:w-[12rem]" />
-                  <span className="sr-only">Mentor photo — placeholder</span>
-                </div>
-              </div>
-
-              <div className="absolute bottom-0 left-1/2 z-[2] w-[max(88%,260px)] max-w-[92%] -translate-x-1/2 translate-y-1/2">
-                <div className="rounded-full border border-white/90 bg-white px-5 py-2.5 text-center shadow-[0_18px_40px_-8px_rgba(10,26,60,0.28),0_0_0_1px_rgba(20,48,110,0.12)] sm:px-6 sm:py-3">
-                  <p className="text-xs font-bold text-lic-charcoal sm:text-sm">
-                    Trusted by 880+ families
-                  </p>
-                </div>
-              </div>
-            </div>
-          </motion.div>
-
-          {/* Bio + left accent */}
-          <motion.div variants={fadeUp} className="relative pt-2 text-center lg:pt-2 lg:text-left">
-            <div className="relative flex gap-3 sm:gap-5 lg:gap-6">
-              <div
-                className="mt-1 h-[220px] w-1 shrink-0 rounded-full bg-linear-to-b from-lic-navy via-lic-royal to-lic-azure sm:mt-2 sm:h-[288px] sm:w-[4px]"
-                aria-hidden
-              />
-              <div className="min-w-0 flex-1 space-y-3 sm:space-y-2.5">
-                <h2
-                  className="font-semibold tracking-tight text-lic-charcoal"
-                  style={{
-                    fontSize: 'clamp(1.5rem, 2.4vw, 2.1rem)',
-                    lineHeight: 1.2,
-                  }}
-                >
-                  Rohit Lal didn&apos;t just study insurance. He lived it — for 15 years straight.
-                </h2>
-                <p className="text-[0.9375rem] font-medium leading-[1.55] text-lic-charcoal/90 sm:text-base">
-                  When someone has personally guided 880+ families through their most important
-                  financial decisions, you don&apos;t just learn from them — you transform under
-                  them.
-                </p>
-                <p className="text-[0.875rem] leading-[1.58] text-lic-body sm:text-[0.9375rem]">
-                  Rohit Lal is not another trainer with a certificate and a slide deck. He is a
-                  battle-tested LIC agent, senior advisor, and finance director who has spent 15+
-                  years in the field doing exactly what he is going to teach you. As The
-                  FinancialDoctor, he has helped middle-class and upper-middle-class professionals
-                  across India build real, lasting financial security — not with generic advice, but
-                  with deeply personalised plans built around real lives. He built LICPro Academy
-                  because he was tired of watching talented people fail their IRDA exams and give up
-                  on a career that could have changed their lives. Now he is here — for you.
-                </p>
-              </div>
-            </div>
-          </motion.div>
-        </motion.div>
-
-        {/* Achievement strip */}
-        <motion.div
-          variants={stagger(0.05, 0.08)}
-          className="mentor-ach-strip relative z-[1] mt-14 [grid-auto-rows:1fr] overflow-hidden rounded-t-card-lg border border-lic-navy/20 bg-linear-to-b from-lic-ice to-white shadow-[inset_0_1px_0_rgba(255,255,255,0.85)]"
-        >
-          {ACHIEVEMENTS.map((item) => (
-            <AchievementCard key={item.label} item={item} />
-          ))}
-        </motion.div>
+          Rohit Lal didn&apos;t just study insurance. He lived it — for 15 years straight.
+        </h2>
+        <p className="mt-5 text-pretty text-base leading-relaxed text-lic-body sm:text-lg">
+          When someone has personally guided 880+ families through their most important financial
+          decisions, you don&apos;t just learn from them — you transform under them.
+        </p>
       </motion.div>
-    </div>
 
-    {/* Wave into quote block */}
-    <WaveDivider fill="#14306E" />
-
-    {/* —— Block 2 —— */}
-    <div className="relative overflow-hidden mentor-quote-mesh">
-      <div className="grain-overlay opacity-[0.04]" aria-hidden />
-
-      {/* Decorative ring — top right */}
-      <svg
-        className="pointer-events-none absolute -right-24 -top-20 h-[400px] w-[400px] text-white sm:-right-16"
-        style={{ opacity: 0.06 }}
-        aria-hidden
+      {/* The dossier card. */}
+      <motion.article
+        variants={fadeUp}
+        className="mx-auto mt-14 max-w-6xl overflow-hidden rounded-card-lg border border-black/6 bg-white shadow-card"
       >
-        <circle cx="200" cy="200" r="199" fill="none" stroke="currentColor" strokeWidth="1.25" />
-      </svg>
+        <div className="h-1.5 w-full bg-linear-to-r from-lic-navy to-lic-azure" />
 
-      <motion.div
-        className="relative z-[1] mx-auto max-w-3xl px-4 py-20 sm:px-6 sm:py-24 lg:px-8"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.12 }}
-        variants={stagger()}
+        <div className="grid gap-8 p-7 sm:p-9 lg:grid-cols-[19rem_minmax(0,1fr)] lg:gap-12">
+          {/* Portrait */}
+          <div className="relative mx-auto w-full max-w-[19rem] lg:mx-0">
+            <div className="overflow-hidden rounded-card border border-black/6 bg-linear-to-br from-lic-ice via-lic-frost/50 to-lic-ice shadow-soft">
+              <div className="flex aspect-4/5 items-center justify-center">
+                <MentorSilhouette className="h-40 w-auto text-lic-navy/30 sm:h-48" />
+                <span className="sr-only">Mentor photo — placeholder</span>
+              </div>
+            </div>
+            <div className="absolute inset-x-5 -bottom-4">
+              <p className="rounded-full border border-black/6 bg-white px-4 py-2.5 text-center text-xs font-bold text-lic-charcoal shadow-card">
+                Trusted by 880+ families
+              </p>
+            </div>
+          </div>
+
+          {/* Bio */}
+          <div className="pt-7 lg:pt-0">
+            <h3 className="text-xl font-semibold tracking-tight text-lic-charcoal">Rohit Lal</h3>
+            <p className="mt-1 text-sm font-semibold text-lic-royal">
+              Founder · The FinancialDoctor
+            </p>
+
+            <p className="mt-5 max-w-[44rem] text-[15px] leading-relaxed text-lic-body sm:text-base">
+              Rohit Lal is not another trainer with a certificate and a slide deck. He is a
+              battle-tested LIC agent, senior advisor, and finance director who has spent 15+ years
+              in the field doing exactly what he is going to teach you. As The FinancialDoctor, he
+              has helped middle-class and upper-middle-class professionals across India build real,
+              lasting financial security — not with generic advice, but with deeply personalised
+              plans built around real lives. He built LICPro Academy because he was tired of
+              watching talented people fail their IRDA exams and give up on a career that could have
+              changed their lives. Now he is here — for you.
+            </p>
+
+            <ul className="mt-7 flex flex-wrap gap-2.5">
+              {CHIPS.map((c) => (
+                <li
+                  key={c.label}
+                  className="inline-flex items-center gap-2 rounded-full bg-lic-ice px-3.5 py-2 text-xs font-semibold text-lic-navy"
+                >
+                  <Icon name={c.icon} className="h-3.5 w-3.5 shrink-0" />
+                  {c.label}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+
+        {/*
+          gap-px over a tinted parent draws the hairlines, so the 2×2 phone
+          layout and the 1×4 desktop layout both get clean dividers without a
+          per-child nth-of-type border rule.
+        */}
+        <div className="grid grid-cols-2 gap-px border-t border-black/6 bg-black/6 sm:grid-cols-4">
+          {ACHIEVEMENTS.map((item) =>
+            item.target != null ? (
+              <NumericStat key={item.label} item={item} />
+            ) : (
+              <StaticStat key={item.label} item={item} />
+            ),
+          )}
+        </div>
+      </motion.article>
+
+      {/* Quote — contained, so the final CTA keeps the page's only navy band. */}
+      <motion.figure
+        variants={{
+          hidden: { opacity: 0, y: 30 },
+          visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: EASE, delay: 0.1 } },
+        }}
+        className="relative mx-auto mt-8 max-w-6xl overflow-hidden rounded-card-lg mesh-navy-deep p-8 shadow-card sm:p-12"
       >
-        <div className="relative">
-          <span
-            className="pointer-events-none absolute -left-4 top-[-0.15em] z-0 select-none font-serif text-[12rem] font-semibold leading-none text-white sm:-left-8"
-            style={{ opacity: 0.12 }}
-            aria-hidden
-          >
-            &ldquo;
-          </span>
-          <span
-            className="pointer-events-none absolute -bottom-16 -right-6 z-0 select-none font-serif text-[8rem] font-semibold leading-none text-white sm:right-0 lg:text-[10rem]"
-            style={{ opacity: 0.1 }}
-            aria-hidden
-          >
-            &rdquo;
-          </span>
+        <div className="grain-overlay" />
+        <span
+          className="pointer-events-none absolute -right-2 top-2 select-none font-serif text-[9rem] leading-none text-white/10"
+          aria-hidden
+        >
+          &rdquo;
+        </span>
 
-          <motion.blockquote
-            variants={fadeUp}
-            className="relative z-[1] pt-2 text-[1.5rem] font-medium leading-[1.8] text-white sm:text-[1.5625rem] lg:text-[1.6875rem]"
-          >
+        <div className="relative max-w-4xl">
+          <blockquote className="text-pretty text-lg font-medium leading-relaxed text-white sm:text-xl sm:leading-relaxed">
             I have sat across from hundreds of people — nervous, uncertain, not knowing where to
             begin. And every single time, I saw the same thing: someone with everything it takes,
             just waiting for the right person to show them the way. That person is me. And that
             platform is this one. If you show up, I will make sure you succeed.
-          </motion.blockquote>
+          </blockquote>
 
-          <motion.p
-            variants={fadeUp}
-            className="relative z-[1] mt-7 text-sm font-semibold text-lic-frost sm:text-base"
-          >
-            — Rohit Lal, Founder — LICPro Academy
-          </motion.p>
-
-          <motion.div
-            variants={fadeUp}
-            className="relative z-[1] mt-8 inline-flex w-full max-w-full items-center gap-4 rounded-full border border-white/20 bg-white/[0.12] px-4 py-3 shadow-[0_12px_40px_-12px_rgba(0,0,0,0.35)] backdrop-blur-[8px] sm:w-auto sm:px-6 sm:py-3.5"
-          >
+          <figcaption className="mt-8 flex items-center gap-4 border-t border-white/15 pt-6">
             <img
               src="https://placehold.co/128x128/14306E/FFFFFF?font=dm-sans&text=RL"
               alt="Rohit Lal"
-              className="h-14 w-14 shrink-0 rounded-full border border-white/30 object-cover shadow-md sm:h-16 sm:w-16"
-              width={64}
-              height={64}
+              width={56}
+              height={56}
               loading="lazy"
+              className="h-14 w-14 shrink-0 rounded-full border border-white/25 object-cover"
             />
-            <div className="min-w-0 text-left">
-              <p className="font-bold text-white">Rohit Lal</p>
-              <p className="text-sm italic text-lic-frost">The FinancialDoctor</p>
+            <div className="min-w-0">
+              <p className="font-semibold text-white">Rohit Lal</p>
+              <p className="text-sm text-lic-frost">Founder — LICPro Academy</p>
             </div>
-          </motion.div>
-
-          <motion.ul
-            variants={fadeUp}
-            className="relative z-[1] mt-9 flex flex-wrap justify-center gap-2.5 sm:justify-start lg:justify-center"
-          >
-            {CHIPS.map((c) => (
-              <li
-                key={c.label}
-                className="inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/[0.15] px-3.5 py-2 text-xs font-medium text-white shadow-[0_0_24px_-4px_rgba(255,255,255,0.15)] sm:px-4 sm:text-sm"
-              >
-                <Icon name={c.icon} className="h-4 w-4 shrink-0 text-lic-frost" />
-                {c.label}
-              </li>
-            ))}
-          </motion.ul>
+          </figcaption>
         </div>
-      </motion.div>
-    </div>
-
-    <WaveDivider fill="#F5F8FE" />
+      </motion.figure>
+    </motion.div>
   </section>
 );
 

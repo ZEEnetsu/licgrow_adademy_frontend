@@ -151,7 +151,6 @@ body,
   height: 100%;
 }
 
-
 body {
   /* background-color: #ffffff;
   color: #4a4a68; */
@@ -192,72 +191,6 @@ body {
     radial-gradient(ellipse 85% 65% at 12% 18%, rgba(44, 92, 197, 0.55), transparent 58%),
     radial-gradient(ellipse 70% 55% at 88% 82%, rgba(127, 176, 255, 0.14), transparent 52%),
     radial-gradient(ellipse 60% 50% at 50% 105%, rgba(10, 26, 60, 0.75), transparent 55%);
-}
-
-/* Mentor section — diagonal stripe texture + achievement strip dividers */
-.mentor-block1-stripes {
-  background-color: #EEF3FC;
-  background-image: repeating-linear-gradient(45deg,
-      transparent,
-      transparent 14px,
-      rgba(20, 48, 110, 0.05) 14px,
-      rgba(20, 48, 110, 0.05) 16px);
-}
-
-.mentor-ach-strip {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.mentor-ach-strip>* {
-  border-right: 1px solid rgba(20, 48, 110, 0.20);
-  border-bottom: 1px solid rgba(20, 48, 110, 0.20);
-}
-
-.mentor-ach-strip>*:nth-child(2n) {
-  border-right: none;
-}
-
-@media (min-width: 1024px) {
-  .mentor-ach-strip {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
-  .mentor-ach-strip>* {
-    border-bottom: none;
-    border-right: 1px solid rgba(20, 48, 110, 0.20);
-  }
-
-  .mentor-ach-strip>*:nth-child(2n) {
-    border-right: 1px solid rgba(20, 48, 110, 0.20);
-  }
-
-  .mentor-ach-strip>*:last-child {
-    border-right: none;
-  }
-}
-
-.mentor-quote-mesh {
-  background-color: #14306E;
-  background-image:
-    radial-gradient(ellipse 90% 70% at 15% 25%, rgba(127, 176, 255, 0.20), transparent 55%),
-    radial-gradient(ellipse 65% 55% at 88% 75%, rgba(44, 92, 197, 0.32), transparent 50%),
-    radial-gradient(ellipse 50% 45% at 50% 100%, rgba(10, 26, 60, 0.55), transparent 52%);
-}
-
-.mentor-ach-hover-fill::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-  transform: scaleY(0);
-  transform-origin: bottom center;
-  transition: transform 0.38s cubic-bezier(0.4, 0, 0.2, 1);
-  background: linear-gradient(to top, #0A1A3C, #14306E);
-}
-
-.mentor-ach-hover-fill:hover::after {
-  transform: scaleY(1);
 }
 
 /* CourseDropdown.css */
