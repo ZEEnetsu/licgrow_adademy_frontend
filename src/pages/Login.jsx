@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
-
-import LoginPageCover from "../assets/loginPageCover.png";
+import LoginPageCover1 from "../assets/loginPageCover.svg";
 import googleIcon from "../assets/googleIcon.png";
 import LoginCard from "../components/LoginCard.jsx";
 import ShieldMark from "../components/ShieldMark.jsx";
@@ -13,10 +12,10 @@ const cardData = [
 ];
 
 const Login = () => (
-  <div className="min-h-screen bg-linear-to-br from-black via-black/95 to-green-950 text-zinc-100 p-2 grid grid-cols-1 lg:grid-cols-2">
+  <div className="min-h-screen bg-linear-to-br from-black via-black/95 to-blue-950 text-zinc-100 p-2 grid grid-cols-1 lg:grid-cols-2">
     <div
       style={{
-        backgroundImage: `url('${LoginPageCover}')`,
+        backgroundImage: `url('${LoginPageCover1}')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",

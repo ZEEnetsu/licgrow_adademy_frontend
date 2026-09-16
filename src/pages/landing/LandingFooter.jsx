@@ -1,21 +1,22 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
+import Icon from './components/Icon.jsx';
 import { fadeUp, stagger } from './motion.js';
 
 const COLS = [
   {
     title: 'Platform',
     links: [
-      { label: 'Features', href: '#features' },
-      { label: 'How it works', href: '#how-it-works' },
+      { label: 'Features', href: '/#features' },
+      { label: 'How it works', href: '/#how-it-works' },
       { label: 'Dashboard', href: '/dashboard' },
     ],
   },
   {
     title: 'Company',
     links: [
-      { label: 'About', href: '#problem' },
+      { label: 'About', href: '/#problem' },
       { label: 'Contact', href: '#contact' },
       { label: 'Careers', href: '#contact' },
     ],
@@ -33,7 +34,7 @@ function ShieldMark({ className = '' }) {
   return (
     <span
       className={[
-        'inline-grid h-10 w-10 place-items-center rounded-card bg-gradient-to-br from-lic-navy to-lic-royal text-white shadow-soft',
+        'inline-grid h-10 w-10 place-items-center rounded-card bg-linear-to-br from-lic-navy to-lic-royal text-white shadow-soft',
         className,
       ].join(' ')}
       aria-hidden
@@ -116,7 +117,11 @@ const LandingFooter = () => (
         className="mt-14 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 text-center text-xs text-white/55 sm:flex-row sm:text-left"
       >
         <p>© {new Date().getFullYear()} LICPro Academy. All rights reserved.</p>
-        <p>Made with <span aria-hidden>❤️</span> for aspiring LIC agents across India</p>
+        <p className="inline-flex items-center gap-1.5">
+          Made with
+          <Icon name="heart" className="h-3.5 w-3.5 text-lic-azure" label="love" />
+          for aspiring LIC agents across India
+        </p>
       </motion.div>
     </motion.div>
   </footer>

@@ -1,20 +1,23 @@
 import { motion } from 'framer-motion';
 // import dashboard_image from '../../assets/dashboard_image.png'; 
+import Icon from './components/Icon.jsx';
 import { EASE, stagger, fadeUp } from './motion.js';
+import StudentDashboard from '../../assets/studentDashboard.png';
+import studentTestArena from '../../assets/studentTestArena.png';
 
 const FEATURES = [
   {
-    icon: '🛡️',
+    icon: 'shieldCheck',
     title: 'Cheat-free IRDA mock tests',
     subtitle: "Practice like it's the real exam",
     body:
       'Full-screen focus, randomized questions, strict timers — our proctored-style mocks feel like the real IRDA hall so you walk in steady, not shaky.',
     tag: 'Builds exam confidence',
-    img: 'https://placehold.co/720x400/F5F8FE/0A1A3C?font=dm-sans&text=Mock+Test+Arena+Preview',
+    img: studentTestArena,
     imgAlt: 'Mock test interface preview',
   },
   {
-    icon: '🎥',
+    icon: 'video',
     title: 'Live webinars & video classes',
     subtitle: 'Learn from a real LIC agent, live',
     body:
@@ -24,17 +27,17 @@ const FEATURES = [
     imgAlt: 'Live webinar interface preview',
   },
   {
-    icon: '📊',
+    icon: 'chart',
     title: 'Performance dashboard',
     subtitle: 'Know exactly where you stand',
     body:
       'Scores, improvement curves, time-per-question, weak-topic flags — your dashboard tells you what to fix next, not what looks pretty.',
     tag: 'Data-driven preparation',
-    img: "to be placed later",
+    img: StudentDashboard,
     imgAlt: 'Student dashboard preview',
   },
   {
-    icon: '🗺️',
+    icon: 'route',
     title: 'Structured course path',
     subtitle: 'A clear roadmap, not confusion',
     body:
@@ -48,7 +51,7 @@ const FEATURES = [
 const FeaturesSection = () => (
   <section
     id="features"
-    className="scroll-mt-24 bg-gradient-to-b from-white via-lic-offwhite to-white py-20 sm:py-28"
+    className="scroll-mt-24 bg-linear-to-b from-white via-lic-offwhite to-white py-20 sm:py-28"
   >
     <motion.div
       className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"
@@ -81,16 +84,13 @@ const FeaturesSection = () => (
                 transition: { duration: 0.6, ease: EASE, delay: i * 0.12 },
               },
             }}
-            className="flex flex-col overflow-hidden rounded-card-lg border border-black/[0.06] bg-white shadow-soft transition-all duration-[250ms] ease-material hover:-translate-y-1.5 hover:shadow-navy-glow"
+            className="group flex flex-col overflow-hidden rounded-card-lg border border-black/6 bg-white shadow-soft transition-all duration-250 ease-material hover:-translate-y-1.5 hover:shadow-navy-glow"
           >
-            <div className="h-1.5 w-full bg-gradient-to-r from-lic-navy to-lic-azure" />
+            <div className="h-1.5 w-full bg-linear-to-r from-lic-navy to-lic-azure" />
             <div className="flex flex-1 flex-col p-6 sm:p-8">
               <div className="flex items-start gap-4">
-                <span
-                  className="grid h-12 w-12 flex-shrink-0 place-items-center rounded-full bg-lic-navy/15 text-2xl"
-                  aria-hidden
-                >
-                  {f.icon}
+                <span className="grid h-12 w-12 shrink-0 place-items-center rounded-card border border-lic-navy/15 bg-lic-ice text-lic-navy transition-colors duration-250 ease-material group-hover:bg-lic-navy group-hover:text-white">
+                  <Icon name={f.icon} className="h-[1.4rem] w-[1.4rem]" />
                 </span>
                 <div>
                   <p className="text-xs font-bold uppercase tracking-wide text-lic-navy">{f.title}</p>
@@ -105,7 +105,7 @@ const FeaturesSection = () => (
               <span className="mt-4 inline-flex w-fit rounded-full bg-lic-ice px-3 py-1 text-xs font-semibold text-lic-charcoal">
                 {f.tag}
               </span>
-              <div className="mt-6 overflow-hidden rounded-card border border-black/[0.06] bg-lic-offwhite shadow-inner">
+              <div className="mt-6 overflow-hidden rounded-card border border-black/6 bg-lic-offwhite shadow-inner">
                 <img
                   src={f.img}
                   alt={f.imgAlt}
@@ -169,7 +169,7 @@ function MockTestArena() {
               <button
                 key={o}
                 type="button"
-                className="min-h-[44px] rounded-card border-2 border-black/[0.08] text-sm font-semibold text-lic-charcoal transition-colors duration-200 hover:border-lic-navy"
+                className="min-h-11 rounded-card border-2 border-black/8 text-sm font-semibold text-lic-charcoal transition-colors duration-200 hover:border-lic-navy"
               >
                 {o}
               </button>

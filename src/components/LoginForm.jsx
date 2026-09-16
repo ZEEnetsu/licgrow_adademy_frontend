@@ -182,7 +182,7 @@ const LoginForm = () => {
             onChange={handleChange}
             disabled={disabled}
             aria-invalid={Boolean(fieldIssues.identifier)}
-            className="px-4 py-3 bg-black/30 outline-none rounded-md text-zinc-200 focus:ring-1 focus:ring-green-600 disabled:opacity-50"
+            className="px-4 py-3 bg-black/30 outline-none rounded-md text-zinc-200 focus:ring-1 focus:ring-blue-600 disabled:opacity-50"
           />
           {fieldIssues.identifier && (
             <p className="text-red-400 text-xs">{fieldIssues.identifier}</p>
@@ -202,7 +202,7 @@ const LoginForm = () => {
             onChange={handleChange}
             disabled={disabled}
             aria-invalid={Boolean(fieldIssues.password)}
-            className="px-4 py-3 bg-black/30 outline-none rounded-md text-zinc-200 focus:ring-1 focus:ring-green-600 disabled:opacity-50"
+            className="px-4 py-3 bg-black/30 outline-none rounded-md text-zinc-200 focus:ring-1 focus:ring-blue-600 disabled:opacity-50"
           />
           {fieldIssues.password && (
             <p className="text-red-400 text-xs">{fieldIssues.password}</p>
@@ -230,7 +230,7 @@ const LoginForm = () => {
         <button
           type="submit"
           disabled={disabled}
-          className="mt-5 px-6 py-3 w-full rounded-md bg-green-900 hover:bg-green-700 text-zinc-100 font-medium cursor-pointer transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
+          className="mt-5 px-6 py-3 w-full rounded-md bg-blue-900 hover:bg-blue-700 text-zinc-100 font-medium cursor-pointer transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
         >
           {isLoading ? "Signing in…" : "Sign in"}
         </button>

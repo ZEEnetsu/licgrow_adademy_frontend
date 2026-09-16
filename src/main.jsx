@@ -10,6 +10,7 @@ import "./index.css";
 import App from "./App.jsx";
 import Login from "./pages/Login.jsx";
 import Register from "./pages/Register.jsx";
+import Benefits from "./pages/benefits/Benefits.jsx";
 import RootLayout from "./layouts/RootLayout.jsx";
 import RequireAuth from "./components/auth/RequireAuth.jsx";
 import AuthSplash from "./components/auth/AuthSplash.jsx";
@@ -57,6 +58,7 @@ const router = createBrowserRouter([
       { path: "/", element: <App /> },
       { path: "/login", element: <Login /> },
       { path: "/register", element: <Register /> },
+      { path: "/benefits", element: <Benefits /> },
 
       {
         element: <RequireAuth actor={ADMIN_ACTORS} fallback={<AuthSplash />} />,

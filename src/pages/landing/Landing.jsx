@@ -5,6 +5,7 @@ import FeaturesSection from './FeaturesSection.jsx';
 import HowItWorksSection from './HowItWorksSection.jsx';
 import BecomeLICAgentSection from './BecomeLICAgentSection.jsx';
 import BusinessOpportunitySection from './BusinessOpportunitySection.jsx';
+import BenefitsSection from './BenefitsSection.jsx';
 import MentorSection from './MentorSection.jsx';
 import TestimonialsLIC from './TestimonialsLIC.jsx';
 import FinalCtaSection from './FinalCtaSection.jsx';
@@ -17,9 +18,10 @@ const Landing = () => (
     <AcademyNav/>
     <HeroSection />
     <SocialProofBar />
+    <BenefitsSection />
+    <HowItWorksSection />
     <ProblemSection />
     <FeaturesSection />
-    <HowItWorksSection />
     <BecomeLICAgentSection />
     <BusinessOpportunitySection />
     <MentorSection />

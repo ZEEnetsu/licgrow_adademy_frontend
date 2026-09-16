@@ -1,10 +1,15 @@
 import { motion } from 'framer-motion';
 
+import Icon from './components/Icon.jsx';
 import { EASE, stagger, fadeUp } from './motion.js';
 
+/* Five marks from the shared set rather than a text star glyph, whose weight
+   and baseline shift with whatever font the page falls back to. */
 const STAR = (
-  <span className="text-lic-navy" aria-hidden>
-    ★★★★★
+  <span className="flex gap-0.5 text-lic-navy" role="img" aria-label="Rated 5 out of 5">
+    {[0, 1, 2, 3, 4].map((i) => (
+      <Icon key={i} name="star" className="h-4 w-4" filled />
+    ))}
   </span>
 );
 
@@ -57,10 +62,15 @@ const TestimonialsSection = () => (
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, amount: 0.2 }}
             transition={{ duration: 0.65, ease: EASE, delay: i * 0.12 }}
-            className="relative overflow-hidden rounded-card-lg border border-black/[0.06] bg-white p-7 shadow-soft transition-all duration-[250ms] ease-material hover:-translate-y-1.5 hover:shadow-navy-glow"
+            className="relative overflow-hidden rounded-card-lg border border-black/6 bg-white p-7 shadow-soft transition-all duration-250 ease-material hover:-translate-y-1.5 hover:shadow-navy-glow"
           >
+            {/*
+              Parked top-right, matching the pull-quote in the business
+              section. On the left it sat directly under the rating, which the
+              old text stars blurred into but crisp SVG marks collide with.
+            */}
             <span
-              className="pointer-events-none absolute left-4 top-2 font-serif text-7xl font-bold leading-none text-lic-navy/20"
+              className="pointer-events-none absolute right-5 top-2 font-serif text-7xl font-bold leading-none text-lic-navy/15"
               aria-hidden
             >
               &ldquo;

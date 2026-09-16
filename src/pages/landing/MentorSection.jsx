@@ -1,20 +1,21 @@
 import { motion } from 'framer-motion';
 
 import { useCountUp, formatCount } from '../../hooks/useCountUp.js';
+import Icon from './components/Icon.jsx';
 import { WaveDivider } from './components/WaveDivider.jsx';
 import { fadeUp, stagger } from './motion.js';
 
 const ACHIEVEMENTS = [
-  { emoji: '🏅', target: 880, suffix: '+', label: 'Families Protected' },
-  { emoji: '✅', bigText: 'Certified', label: 'LIC Expert' },
-  { emoji: '📋', target: 100, suffix: '%', label: 'Personalised Plans' },
-  { emoji: '⏳', target: 15, suffix: '+', label: 'Years on the Ground' },
+  { icon: 'award', target: 880, suffix: '+', label: 'Families Protected' },
+  { icon: 'badgeCheck', bigText: 'Certified', label: 'LIC Expert' },
+  { icon: 'clipboard', target: 100, suffix: '%', label: 'Personalised Plans' },
+  { icon: 'hourglass', target: 15, suffix: '+', label: 'Years on the Ground' },
 ];
 
 const CHIPS = [
-  '🎯 15 Years of Real Field Experience',
-  '🗣️ Explains It Like a Trusted Friend',
-  '🤝 Your Success is His Reputation',
+  { icon: 'target', label: '15 Years of Real Field Experience' },
+  { icon: 'conversation', label: 'Explains It Like a Trusted Friend' },
+  { icon: 'partnership', label: 'Your Success is His Reputation' },
 ];
 
 /** Avatar silhouette — outline only, reads as intentional empty state. */
@@ -65,9 +66,12 @@ function AchievementCardNumeric({ item }) {
       variants={fadeUp}
       className="mentor-ach-hover-fill group relative flex min-h-[188px] flex-col overflow-hidden bg-transparent transition-shadow duration-300 hover:shadow-[0_20px_40px_-16px_rgba(20,48,110,0.35)]"
     >
-        <div ref={ref} className="relative z-10 flex flex-1 flex-col justify-center px-3 py-7 text-center sm:px-5">
-        <span className="text-2xl transition-colors duration-300 group-hover:text-white" aria-hidden>
-          {item.emoji}
+      <div
+        ref={ref}
+        className="relative z-10 flex flex-1 flex-col items-center justify-center px-4 py-8 text-center sm:px-5"
+      >
+        <span className="text-lic-navy transition-colors duration-300 group-hover:text-white">
+          <Icon name={item.icon} className="h-7 w-7" />
         </span>
         <div className="relative z-10 mt-2 min-h-[3.25rem]">
           <span className="block text-[3rem] font-extrabold leading-none tracking-tight text-lic-navy transition-colors duration-300 tabular-nums group-hover:text-white">
@@ -90,9 +94,9 @@ function AchievementCardStatic({ item }) {
       variants={fadeUp}
       className="mentor-ach-hover-fill group relative flex min-h-[188px] flex-col overflow-hidden bg-transparent transition-shadow duration-300 hover:shadow-[0_20px_40px_-16px_rgba(20,48,110,0.35)]"
     >
-      <div className="relative z-10 flex flex-1 flex-col justify-center px-3 py-7 text-center sm:px-5">
-        <span className="text-2xl transition-colors duration-300 group-hover:text-white" aria-hidden>
-          {item.emoji}
+      <div className="relative z-10 flex flex-1 flex-col items-center justify-center px-4 py-8 text-center sm:px-5">
+        <span className="text-lic-navy transition-colors duration-300 group-hover:text-white">
+          <Icon name={item.icon} className="h-7 w-7" />
         </span>
         <div className="relative z-10 mt-2 min-h-[3.25rem]">
           <motion.p
@@ -126,14 +130,14 @@ const MentorSection = () => (
   <section id="mentor" className="relative scroll-mt-24 bg-white">
     {/* Section spine — ties Block 1 + Block 2 */}
     <div
-      className="pointer-events-none absolute bottom-0 left-0 top-0 z-[5] w-[8px] bg-gradient-to-b from-lic-navy via-lic-royal to-lic-azure"
+      className="pointer-events-none absolute bottom-0 left-0 top-0 z-[5] w-[8px] bg-linear-to-b from-lic-navy via-lic-royal to-lic-azure"
       aria-hidden
     />
 
     {/* —— Block 1 —— */}
     <div className="mentor-block1-stripes relative">
       <motion.div
-        className="relative mx-auto max-w-7xl px-4 pb-0 pt-14 sm:px-6 sm:pt-16 lg:px-8 lg:pt-20"
+        className="relative mx-auto max-w-7xl px-4 pb-0 pt-20 sm:px-6 sm:pt-24 lg:px-8 lg:pt-28"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.1 }}
@@ -141,7 +145,7 @@ const MentorSection = () => (
       >
         <motion.p
           variants={fadeUp}
-          className="text-center text-[11px] font-bold uppercase tracking-[0.26em] text-lic-navy sm:text-xs"
+          className="text-center text-xs font-bold uppercase tracking-[0.2em] text-lic-navy"
         >
           The mentor who&apos;s been there, done that
         </motion.p>
@@ -164,7 +168,7 @@ const MentorSection = () => (
             <div className="relative z-[1] mx-auto w-full max-w-[320px] lg:mx-0">
               <div className="overflow-hidden rounded-card-lg shadow-[0_20px_50px_-12px_rgba(20,48,110,0.4),0_0_0_1px_rgba(255,255,255,0.5)] ring-1 ring-white/60">
                 <div
-                  className="flex max-h-[480px] min-h-[320px] flex-col items-center justify-center bg-gradient-to-br from-lic-royal to-lic-frost px-8 py-10 sm:min-h-[360px] sm:py-12"
+                  className="flex max-h-[480px] min-h-[320px] flex-col items-center justify-center bg-linear-to-br from-lic-royal to-lic-frost px-8 py-10 sm:min-h-[360px] sm:py-12"
                 >
                   <MentorSilhouette className="h-44 w-[10.5rem] text-lic-charcoal drop-shadow-[0_2px_8px_rgba(255,255,255,0.25)] sm:h-52 sm:w-[12rem]" />
                   <span className="sr-only">Mentor photo — placeholder</span>
@@ -185,15 +189,15 @@ const MentorSection = () => (
           <motion.div variants={fadeUp} className="relative pt-2 text-center lg:pt-2 lg:text-left">
             <div className="relative flex gap-3 sm:gap-5 lg:gap-6">
               <div
-                className="mt-1 h-[220px] w-1 shrink-0 rounded-full bg-gradient-to-b from-lic-navy via-lic-royal to-lic-azure sm:mt-2 sm:h-[288px] sm:w-[4px]"
+                className="mt-1 h-[220px] w-1 shrink-0 rounded-full bg-linear-to-b from-lic-navy via-lic-royal to-lic-azure sm:mt-2 sm:h-[288px] sm:w-[4px]"
                 aria-hidden
               />
               <div className="min-w-0 flex-1 space-y-3 sm:space-y-2.5">
                 <h2
                   className="font-semibold tracking-tight text-lic-charcoal"
                   style={{
-                    fontSize: 'clamp(1.45rem, 2.1vw + 0.8rem, 2.25rem)',
-                    lineHeight: 1.28,
+                    fontSize: 'clamp(1.5rem, 2.4vw, 2.1rem)',
+                    lineHeight: 1.2,
                   }}
                 >
                   Rohit Lal didn&apos;t just study insurance. He lived it — for 15 years straight.
@@ -221,10 +225,10 @@ const MentorSection = () => (
         {/* Achievement strip */}
         <motion.div
           variants={stagger(0.05, 0.08)}
-          className="mentor-ach-strip relative z-[1] mt-12 [grid-auto-rows:1fr] overflow-hidden rounded-t-card-lg border border-lic-navy/20 bg-gradient-to-b from-lic-ice to-white shadow-[inset_0_1px_0_rgba(255,255,255,0.85)] sm:mt-14"
+          className="mentor-ach-strip relative z-[1] mt-14 [grid-auto-rows:1fr] overflow-hidden rounded-t-card-lg border border-lic-navy/20 bg-linear-to-b from-lic-ice to-white shadow-[inset_0_1px_0_rgba(255,255,255,0.85)]"
         >
           {ACHIEVEMENTS.map((item) => (
-            <AchievementCard key={`${item.emoji}-${item.label}`} item={item} />
+            <AchievementCard key={item.label} item={item} />
           ))}
         </motion.div>
       </motion.div>
@@ -247,7 +251,7 @@ const MentorSection = () => (
       </svg>
 
       <motion.div
-        className="relative z-[1] mx-auto max-w-3xl px-4 py-14 sm:px-6 sm:py-16 lg:px-8 lg:py-20"
+        className="relative z-[1] mx-auto max-w-3xl px-4 py-20 sm:px-6 sm:py-24 lg:px-8"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.12 }}
@@ -310,10 +314,11 @@ const MentorSection = () => (
           >
             {CHIPS.map((c) => (
               <li
-                key={c}
-                className="rounded-full border border-white/30 bg-white/[0.15] px-3.5 py-2 text-center text-xs font-medium text-white shadow-[0_0_24px_-4px_rgba(255,255,255,0.15)] sm:px-4 sm:text-sm"
+                key={c.label}
+                className="inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/[0.15] px-3.5 py-2 text-xs font-medium text-white shadow-[0_0_24px_-4px_rgba(255,255,255,0.15)] sm:px-4 sm:text-sm"
               >
-                {c}
+                <Icon name={c.icon} className="h-4 w-4 shrink-0 text-lic-frost" />
+                {c.label}
               </li>
             ))}
           </motion.ul>

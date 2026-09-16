@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
+import Icon from "./components/Icon.jsx";
 import { WaveDivider } from "./components/WaveDivider.jsx";
 import { EASE, stagger } from "./motion.js";
 
@@ -8,9 +9,9 @@ const LINE_A = "Your Journey to Becoming a Trusted LIC Agent".split(" ");
 const LINE_B = "Starts Here.".split(" ");
 
 const TRUST_CHIPS = [
-  { icon: "✅", label: "IRDA exam focused" },
-  { icon: "🔒", label: "Cheat-free tests" },
-  { icon: "📹", label: "Live expert classes" },
+  { icon: "shieldCheck", label: "IRDA exam focused" },
+  { icon: "lock", label: "Cheat-free tests" },
+  { icon: "video", label: "Live expert classes" },
 ];
 
 const HeroSection = () => (
@@ -132,7 +133,7 @@ const HeroSection = () => (
               key={c.label}
               className="inline-flex items-center gap-2 rounded-full border border-black/6 bg-white/90 px-3 py-2 text-xs font-medium text-lic-charcoal shadow-soft sm:text-sm"
             >
-              <span aria-hidden>{c.icon}</span>
+              <Icon name={c.icon} className="h-4 w-4 text-lic-navy" />
               {c.label}
             </li>
           ))}

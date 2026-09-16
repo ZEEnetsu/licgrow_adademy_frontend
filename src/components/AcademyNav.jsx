@@ -1,21 +1,31 @@
 import { useEffect, useState } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink, useLocation } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 import ShieldMark from '../components/ShieldMark.jsx';
 import { EASE } from '../pages/landing/motion.js';
 
-const LINKS = [
-  { label: 'Features', href: '#features' },
-  { label: 'How It Works', href: '#how-it-works' },
-  { label: 'Become an Agent', href: '#become-lic-agent' },
-  { label: 'Mentor', href: '#mentor' },
-  { label: 'Contact', href: '#contact' },
-];
+/*
+ * Routes only. The nav used to carry five in-page hash anchors (#features,
+ * #how-it-works, #become-lic-agent, #mentor, #contact) — those scrolled the
+ * landing page rather than navigating anywhere, and were dead weight on every
+ * other route, where the targets do not exist at all.
+ */
+const LINKS = [{ label: 'Benefits', to: '/benefits' }];
 
 
 const AcademyNav = () => {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
+  const { pathname } = useLocation();
+
+  /*
+   * The transparent bar only works over the landing hero, which is white.
+   * Any other route can open on a dark masthead — /benefits does — and the
+   * charcoal wordmark and body-grey links then sit on navy and disappear.
+   * Off the landing page the bar starts solid rather than earning it by
+   * scrolling.
+   */
+  const solid = scrolled || pathname !== '/';
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 12);
@@ -36,7 +46,7 @@ const AcademyNav = () => {
       <header
         className={[
           'fixed inset-x-0 top-0 z-50 transition-all duration-300 ease-material',
-          scrolled
+          solid
             ? 'border-b border-black/[0.06] bg-white/95 shadow-soft backdrop-blur-[12px]'
             : 'border-b border-transparent bg-transparent',
         ].join(' ')}
@@ -58,13 +68,18 @@ const AcademyNav = () => {
             aria-label="Primary navigation"
           >
             {LINKS.map((l) => (
-              <a
-                key={l.href}
-                href={l.href}
-                className="rounded-full px-3 py-2 text-sm font-medium text-lic-body transition-all duration-200 ease-material hover:bg-lic-ice hover:text-lic-charcoal"
+              <NavLink
+                key={l.to}
+                to={l.to}
+                className={({ isActive }) =>
+                  [
+                    'rounded-full px-3 py-2 text-sm font-medium transition-all duration-200 ease-material hover:bg-lic-ice hover:text-lic-charcoal',
+                    isActive ? 'bg-lic-ice text-lic-charcoal' : 'text-lic-body',
+                  ].join(' ')
+                }
               >
                 {l.label}
-              </a>
+              </NavLink>
             ))}
             <NavLink
               to="/login"
@@ -122,17 +137,20 @@ const AcademyNav = () => {
             >
               <div className="flex flex-col gap-1 px-4 py-4">
                 {LINKS.map((l, i) => (
-                  <motion.a
-                    key={l.href}
-                    href={l.href}
+                  <motion.div
+                    key={l.to}
                     initial={{ opacity: 0, x: -12 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: i * 0.05, duration: 0.3, ease: EASE }}
-                    className="min-h-[48px] rounded-card px-4 py-3 text-base font-medium text-lic-charcoal hover:bg-lic-ice"
-                    onClick={() => setOpen(false)}
                   >
-                    {l.label}
-                  </motion.a>
+                    <NavLink
+                      to={l.to}
+                      className="flex min-h-[48px] items-center rounded-card px-4 py-3 text-base font-medium text-lic-charcoal hover:bg-lic-ice"
+                      onClick={() => setOpen(false)}
+                    >
+                      {l.label}
+                    </NavLink>
+                  </motion.div>
                 ))}
                 <NavLink
                   to="/login"
