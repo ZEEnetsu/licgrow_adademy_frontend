@@ -1,0 +1,3051 @@
+{
+ "t": "section",
+ "children": [
+  {
+   "t": "header",
+   "children": [
+    {
+     "t": "p",
+     "text": {
+      "hi": "अपने बॉस ख़ुद बनिए",
+      "en": "Be Your Own Boss"
+     },
+     "cls": [
+      "eyebrow"
+     ]
+    },
+    {
+     "t": "h2",
+     "text": {
+      "hi": "क्या आप अपने BOSS ख़ुद बनना चाहते हैं?",
+      "en": "Do you want to be your BOSS?"
+     },
+     "src": "SU-01",
+     "id": "startup-h"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "BOSS = <strong>B</strong>usiness · <strong>O</strong>wnership · <strong>S</strong>elf · <strong>S</strong>ufficiency. यानी — अपना बिज़नेस, अपना मालिकाना हक़, अपने दम पर आत्मनिर्भरता। चलिए, शुरू करते हैं! आज ही मेरे साथ बीमा सलाहकार (Insurance Advisor) के रूप में जुड़िए।",
+      "en": "BOSS = <strong>B</strong>usiness · <strong>O</strong>wnership · <strong>S</strong>elf · <strong>S</strong>ufficiency. Let’s do it! Join me today as an Insurance Advisor."
+     },
+     "src": "SU-01"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "“अगर आप अपना सपना नहीं बनाएँगे, तो कोई और आपको अपना सपना बनाने के लिए नौकरी पर रख लेगा।”",
+      "en": "“If you don’t build your dream, someone else will hire you to help them build theirs.”"
+     },
+     "src": "SU-05",
+     "cls": [
+      "lede"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "मैं एक उद्यमी हूँ। मैं अपना साम्राज्य बना रहा हूँ। मैं अपनी क़िस्मत का मालिक हूँ।",
+      "en": "I am an entrepreneur. I am building my empire. I am the master of my destiny."
+     },
+     "src": "SU-08",
+     "cls": [
+      "band"
+     ]
+    },
+    {
+     "t": "a",
+     "href": "#apply",
+     "text": {
+      "hi": "आवेदन करें",
+      "en": "Apply now"
+     },
+     "cls": [
+      "cta"
+     ]
+    }
+   ],
+   "cls": [
+    "page-hero"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "रोहित का पत्र",
+      "en": "A letter from Rohit"
+     }
+    },
+    {
+     "t": "blockquote",
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "मैं आपको एक रोमांचक अवसर से मिलवाना चाहता हूँ: जीवन बीमा एजेंट के रूप में हमारी टीम से जुड़ने का।",
+          "en": "मैं आपको एक रोमांचक अवसर से मिलवाना चाहता हूँ: जीवन बीमा एजेंट के रूप में हमारी टीम से जुड़ने का।"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "आप लोगों और परिवारों को उनका आर्थिक भविष्य सुरक्षित करने और उनकी सबसे क़ीमती चीज़ों की रक्षा करने में अहम भूमिका निभाएँगे। LIC जीवन बीमा देने वाली अग्रणी संस्था है, जो सबसे ऊँचे स्तर की आर्थिक सुरक्षा के लिए प्रतिबद्ध है।",
+          "en": "आप लोगों और परिवारों को उनका आर्थिक भविष्य सुरक्षित करने और उनकी सबसे क़ीमती चीज़ों की रक्षा करने में अहम भूमिका निभाएँगे। LIC जीवन बीमा देने वाली अग्रणी संस्था है, जो सबसे ऊँचे स्तर की आर्थिक सुरक्षा के लिए प्रतिबद्ध है।"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "हमें ऐसे जोशीले, लगन वाले लोग चाहिए, जो बेहतरीन काम के लिए हमारी तरह प्रतिबद्ध हों — और ग्राहकों को उनके आर्थिक लक्ष्य पाने में मदद के लिए हर संभव कोशिश करने को तैयार हों।",
+          "en": "हमें ऐसे जोशीले, लगन वाले लोग चाहिए, जो बेहतरीन काम के लिए हमारी तरह प्रतिबद्ध हों — और ग्राहकों को उनके आर्थिक लक्ष्य पाने में मदद के लिए हर संभव कोशिश करने को तैयार हों।"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "जीवन बीमा एजेंट के रूप में आपको भरपूर ट्रेनिंग और सहयोग मिलेगा, जिसमें इंडस्ट्री की बेहतरीन तकनीक और साधन भी शामिल हैं। आप ग्राहकों से रिश्ते बनाएँगे, उनकी ख़ास आर्थिक ज़रूरतें समझेंगे और उनके लिए सही जीवन बीमा प्रोडक्ट सुझाएँगे।",
+          "en": "जीवन बीमा एजेंट के रूप में आपको भरपूर ट्रेनिंग और सहयोग मिलेगा, जिसमें इंडस्ट्री की बेहतरीन तकनीक और साधन भी शामिल हैं। आप ग्राहकों से रिश्ते बनाएँगे, उनकी ख़ास आर्थिक ज़रूरतें समझेंगे और उनके लिए सही जीवन बीमा प्रोडक्ट सुझाएँगे।"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "कमीशन पर आधारित कमाई और क्लब के फ़ायदों के साथ, आपके पास करियर में आगे बढ़ने और पेशेवर विकास के बहुत से मौक़े होंगे।",
+          "en": "कमीशन पर आधारित कमाई और क्लब के फ़ायदों के साथ, आपके पास करियर में आगे बढ़ने और पेशेवर विकास के बहुत से मौक़े होंगे।"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "हमें ऐसे लोग चाहिए जिन्हें चुनौतियाँ प्रेरित करती हैं, जिनकी बातचीत और लोगों से जुड़ने की क्षमता अच्छी है, और जो अपने लक्ष्य पाने के लिए कड़ी मेहनत करने को तैयार हैं।",
+          "en": "हमें ऐसे लोग चाहिए जिन्हें चुनौतियाँ प्रेरित करती हैं, जिनकी बातचीत और लोगों से जुड़ने की क्षमता अच्छी है, और जो अपने लक्ष्य पाने के लिए कड़ी मेहनत करने को तैयार हैं।"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "अगर आप ऐसा करियर चाहते हैं, जिसमें आप दूसरों की ज़िंदगी में सार्थक बदलाव लाएँ और साथ ही निजी व पेशेवर रूप से आगे बढ़ें — तो मैं आपको हमारी टीम से जुड़ने के लिए आमंत्रित करता हूँ।",
+          "en": "अगर आप ऐसा करियर चाहते हैं, जिसमें आप दूसरों की ज़िंदगी में सार्थक बदलाव लाएँ और साथ ही निजी व पेशेवर रूप से आगे बढ़ें — तो मैं आपको हमारी टीम से जुड़ने के लिए आमंत्रित करता हूँ।"
+         }
+        }
+       ],
+       "lang": "hi"
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "I would like to introduce you to an exciting opportunity: to join our team as a life insurance agent.",
+          "en": "I would like to introduce you to an exciting opportunity: to join our team as a life insurance agent."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "You will play a crucial role in helping individuals and families secure their financial future and protect what matters most to them. LIC is a leading provider of life insurance, committed to the highest level of financial protection and security.",
+          "en": "You will play a crucial role in helping individuals and families secure their financial future and protect what matters most to them. LIC is a leading provider of life insurance, committed to the highest level of financial protection and security."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "We are looking for driven, passionate people who share our commitment to excellence — people willing to go above and beyond to help clients achieve their financial goals.",
+          "en": "We are looking for driven, passionate people who share our commitment to excellence — people willing to go above and beyond to help clients achieve their financial goals."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "As a life insurance agent, you will receive extensive training and support, including access to industry-leading technology and resources. You will build relationships with clients, understand their unique financial needs and recommend the right life insurance products.",
+          "en": "As a life insurance agent, you will receive extensive training and support, including access to industry-leading technology and resources. You will build relationships with clients, understand their unique financial needs and recommend the right life insurance products."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "Along with commission-based earnings and club benefits, you will have many opportunities for career advancement and professional growth.",
+          "en": "Along with commission-based earnings and club benefits, you will have many opportunities for career advancement and professional growth."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "We are looking for people who are motivated by challenges, have good communication and people skills, and are willing to put in the hard work to reach their goals.",
+          "en": "We are looking for people who are motivated by challenges, have good communication and people skills, and are willing to put in the hard work to reach their goals."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "If you want a career that lets you make a meaningful difference in others’ lives while you grow personally and professionally, I encourage you to join our team.",
+          "en": "If you want a career that lets you make a meaningful difference in others’ lives while you grow personally and professionally, I encourage you to join our team."
+         }
+        }
+       ],
+       "lang": "en"
+      },
+      {
+       "t": "cite",
+       "text": {
+        "hi": "— रोहित लाल, डेवलपमेंट ऑफिसर (SBA), भारतीय जीवन बीमा निगम (LIC)",
+        "en": "— Rohit Lal, Development Officer (SBA), LIC of India"
+       }
+      }
+     ],
+     "src": "SU-02",
+     "cls": [
+      "quote-card"
+     ]
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "<strong>हमें ऐसे लोग चाहिए जो दिल से जवान हों — और दूसरी पारी के लिए तैयार हों।</strong>",
+        "en": "<strong>We’re looking for people who are young at heart — and ready for a second innings.</strong>"
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "हम भर्ती कर रहे हैं! सपनों से हक़ीक़त तक — ज़्यादा जानकारी के लिए मुझे कॉल करें, और सफलता के मेरे इस सफ़र में साथ आइए।",
+        "en": "We are hiring! From dreams to reality — call me for more details, and join my bandwagon of success."
+       }
+      },
+      {
+       "t": "a",
+       "href": "tel:+919973055291",
+       "text": {
+        "hi": "अभी कॉल करें: <span>9973055291</span>",
+        "en": "Call now: <span>9973055291</span>"
+       },
+       "src": "G-02",
+       "cls": [
+        "cta",
+        "secondary"
+       ]
+      }
+     ],
+     "src": "SU-03",
+     "cls": [
+      "goal-band"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "आपके लिए रोहित का लक्ष्य",
+      "en": "Rohit’s goal for you"
+     }
+    },
+    {
+     "t": "blockquote",
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "मेरा लक्ष्य साफ़ है — मेरे साथ जुड़ने वाला हर एजेंट तीसरे साल के अंत तक ₹1,00,000 प्रति माह कमाए। योजना, ट्रेनिंग और साथ मैं दूँगा; मेहनत — और नतीजा — आपका होगा।",
+        "en": "My goal for every agent I recruit is simple: by the end of your third year, you should be earning ₹1,00,000 a month. I’ll give you the plan, the training and the follow-up. The effort — and the result — will be yours."
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "— रोहित लाल",
+        "en": "— Rohit Lal"
+       },
+       "cls": [
+        "src"
+       ]
+      }
+     ],
+     "src": "SU-34"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "आपकी कमाई आपकी मेहनत और आपके द्वारा लाए गए बिज़नेस पर निर्भर करती है।",
+      "en": "Your earnings depend on your effort and the business you bring."
+     },
+     "src": "SU-34",
+     "cls": [
+      "effort"
+     ]
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "योजना: हर आय-स्तर पर ज़रूरी काम",
+      "en": "The plan: mandatory activities at any income level"
+     }
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "नियमित रूप से ट्रेनिंग सेशन में शामिल हों।",
+        "en": "Attend training sessions regularly."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "कम से कम 100 लोगों की संभावित ग्राहकों की सूची बनाएँ।",
+        "en": "Prepare a prospect list of at least 100 people."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "हर दिन कम से कम 4 संभावित ग्राहकों से मिलें।",
+        "en": "Meet at least 4 prospects every day."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "रोज़ की एक्टिविटी रिपोर्ट और हफ़्ते का सारांश लिखें।",
+        "en": "Write a daily activity report and a weekly summary."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "हर हफ़्ते की रिव्यू मीटिंग में शामिल हों।",
+        "en": "Attend the weekly review meetings."
+       }
+      }
+     ],
+     "src": "SU-30",
+     "cls": [
+      "checklist"
+     ]
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "h4",
+       "text": {
+        "hi": "3 साल में ₹1 लाख प्रति माह के पीछे के आँकड़े",
+        "en": "The numbers behind ₹1 lakh a month within 3 years"
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "इसे ऐसे पढ़िए: हर पंक्ति वह नया बिज़नेस है, जो आप एक साल में लाते हैं। उसका कमीशन उसी साल मिलता है, और उसके बाद हर साल रिन्यूअल आता रहता है। हर कॉलम जोड़िए, तो दिखता है कि आपकी आय साल-दर-साल कैसे बढ़ती है।",
+        "en": "How to read this: each row is the new business you bring in a year. Its commission is paid in that year, and renewal keeps coming in every year after. Add each column, and you see your income grow year by year."
+       }
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "table",
+         "caption": {
+          "hi": "3 साल में ₹1,00,000 प्रति माह की अपेक्षित आय के लिए ज़रूरी प्रीमियम (₹; इस्तेमाल की गई दरें: पहले साल 25%, रिन्यूअल 7.5%)",
+          "en": "Premium required for an expected income of ₹1,00,000 a month within 3 years (₹; rates used: 25% first year, 7.5% renewal)"
+         },
+         "head": [
+          [
+           {
+            "text": {
+             "hi": "वर्ष",
+             "en": "Year"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "हर महीने नया प्रीमियम",
+             "en": "New premium a month"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "हर साल नया प्रीमियम",
+             "en": "New premium a year"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "किस वर्ष में आय",
+             "en": "Income earned in"
+            },
+            "th": true,
+            "colspan": 5
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "वर्ष 1",
+             "en": "Year 1"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "वर्ष 2",
+             "en": "Year 2"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "वर्ष 3",
+             "en": "Year 3"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "वर्ष 4",
+             "en": "Year 4"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "वर्ष 5",
+             "en": "Year 5"
+            },
+            "th": true
+           }
+          ]
+         ],
+         "rows": [
+          [
+           {
+            "text": {
+             "hi": "वर्ष 1",
+             "en": "Year 1"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "2,00,000",
+             "en": "2,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "24,00,000",
+             "en": "24,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "6,00,000",
+             "en": "6,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "1,80,000",
+             "en": "1,80,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "1,80,000",
+             "en": "1,80,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "1,80,000",
+             "en": "1,80,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "1,80,000",
+             "en": "1,80,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "वर्ष 2",
+             "en": "Year 2"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "3,00,000",
+             "en": "3,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "36,00,000",
+             "en": "36,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "9,00,000",
+             "en": "9,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "2,70,000",
+             "en": "2,70,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "2,70,000",
+             "en": "2,70,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "2,70,000",
+             "en": "2,70,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "वर्ष 3",
+             "en": "Year 3"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "4,00,000",
+             "en": "4,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "48,00,000",
+             "en": "48,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "12,00,000",
+             "en": "12,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "3,60,000",
+             "en": "3,60,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "3,60,000",
+             "en": "3,60,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "वर्ष 4",
+             "en": "Year 4"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "5,00,000",
+             "en": "5,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "60,00,000",
+             "en": "60,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "15,00,000",
+             "en": "15,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "4,50,000",
+             "en": "4,50,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "वर्ष 5",
+             "en": "Year 5"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "6,00,000",
+             "en": "6,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "72,00,000",
+             "en": "72,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "18,00,000",
+             "en": "18,00,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "<strong>उस वर्ष की कुल आय</strong>",
+             "en": "<strong>Total income in the year</strong>"
+            },
+            "th": true,
+            "colspan": 3
+           },
+           {
+            "text": {
+             "hi": "<strong>6,00,000</strong>",
+             "en": "<strong>6,00,000</strong>"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>10,80,000</strong>",
+             "en": "<strong>10,80,000</strong>"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>16,50,000</strong>",
+             "en": "<strong>16,50,000</strong>"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>23,10,000</strong>",
+             "en": "<strong>23,10,000</strong>"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>30,60,000</strong>",
+             "en": "<strong>30,60,000</strong>"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "<strong>मासिक आय</strong>",
+             "en": "<strong>Monthly income</strong>"
+            },
+            "th": true,
+            "colspan": 3
+           },
+           {
+            "text": {
+             "hi": "<strong>50,000</strong>",
+             "en": "<strong>50,000</strong>"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>90,000</strong>",
+             "en": "<strong>90,000</strong>"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>1,37,500</strong>",
+             "en": "<strong>1,37,500</strong>"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>1,92,500</strong>",
+             "en": "<strong>1,92,500</strong>"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>2,55,000</strong>",
+             "en": "<strong>2,55,000</strong>"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "पहुँचा हुआ क्लब स्तर",
+             "en": "Club level reached"
+            },
+            "th": true,
+            "colspan": 3
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "MDRT &amp; Galaxy",
+             "en": "MDRT &amp; Galaxy"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "MDRT &amp; Galaxy",
+             "en": "MDRT &amp; Galaxy"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "MDRT &amp; Galaxy",
+             "en": "MDRT &amp; Galaxy"
+            },
+            "num": true
+           }
+          ]
+         ],
+         "src": "SU-26",
+         "cls": [
+          "data"
+         ]
+        }
+       ],
+       "cls": [
+        "table-scroll"
+       ]
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "केवल उदाहरण। वास्तविक कमीशन प्लान, अवधि, भरे गए प्रीमियम और LIC के लागू नियमों पर निर्भर करता है। आपकी कमाई आपकी मेहनत पर निर्भर है।",
+        "en": "Illustration only. Actual commission depends on the plan, the term, the premium paid and the LIC rules in force. Your earnings depend on your effort."
+       },
+       "cls": [
+        "src"
+       ]
+      }
+     ],
+     "cls": [
+      "illustrative"
+     ]
+    }
+   ],
+   "cls": [
+    "block",
+    "goal-band"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "स्टार्ट-अप क्यों — और अभी क्यों?",
+      "en": "Why a start-up — and why now?"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "क्या आप अपनी ज़िंदगी को अगले स्तर पर ले जाना चाहते हैं? अच्छा कमाना और आर्थिक आज़ादी पाना चाहते हैं? यह ख़ुद तय करना चाहते हैं कि आपको कैसी ज़िंदगी जीनी है? क्या आप मेहनती हैं और घड़ी देखकर काम नहीं करते? सपने पूरे करने के लिए जो ज़रूरी हो, करने को तैयार हैं? अगर हाँ — तो स्टार्ट-अप ही रास्ता है।",
+      "en": "Are you looking to take your life to the next level? To earn well and reach financial freedom? To decide what kind of life you want to live? Are you hard-working, without needing to watch the clock? Willing to do what it takes to achieve your dreams? If yes — a start-up is the way."
+     },
+     "src": "SU-04"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "भारत युवा है और और भी युवा हो रहा है: औसत उम्र 29 साल है, और लगभग 65% लोग कामकाजी उम्र के हैं — यह फ़ायदा लगभग 2050 तक रहेगा। लेकिन भारत को हर साल 1 से 1.5 करोड़ नई नौकरियाँ चाहिए, और बड़ी कंपनियाँ इतनी नौकरियाँ नहीं बना सकतीं। नौकरियों के लिए होड़ कड़ी होगी। इसका जवाब: अपने लिए काम कीजिए, अपना बिज़नेस शुरू कीजिए — और दूसरों को भी रोज़गार दीजिए।",
+      "en": "India is young and getting younger: the average age is 29, and about 65% of people are of working age — an advantage that lasts till about 2050. But India needs 1 to 1.5 crore new jobs every year, and big businesses cannot create that many. Competition for jobs will be fierce. The answer: work for yourself, start your own business — and create jobs for others."
+     },
+     "src": "SU-06 WHY-09 WHY-10"
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "नौकरी का बाज़ार कैसा है (अख़बार की ख़बरें, संक्षेप में)",
+      "en": "What the job market looks like (newspaper reports, in brief)"
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "उत्तर प्रदेश में चपरासी के पदों के लिए 93,000 से ज़्यादा लोगों ने आवेदन किया — जिनमें 3,700 PhD धारक थे।",
+          "en": "In Uttar Pradesh, more than 93,000 people — 3,700 of them PhD holders — applied for peon posts."
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "2 लाख से ज़्यादा युवाओं ने — जिनमें MBA और इंजीनियर भी थे — सफ़ाईकर्मी और चौकीदार बनने के लिए आवेदन किया।",
+          "en": "Over 2 lakh young people, MBAs and engineers among them, applied to be sweepers and watchmen."
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "बिहार में लगभग 5 लाख MBA, B.Tech और पोस्ट-ग्रेजुएट युवाओं ने ग्रुप D की नौकरियों के लिए आवेदन किया।",
+          "en": "In Bihar, nearly 5 lakh MBAs, B.Techs and postgraduates applied for Group D jobs."
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      }
+     ],
+     "src": "SU-07",
+     "cls": [
+      "grid"
+     ]
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "आज़माइए: तीन अमीर लोग",
+      "en": "Try this: three wealthy people"
+     }
+    },
+    {
+     "t": "form",
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "ऐसे तीन लोगों के नाम लिखिए, जिन्हें आप अमीर मानते हैं। (आपके जवाब आपकी स्क्रीन पर ही रहेंगे।)",
+        "en": "Write down the names of three people you consider wealthy. (Your answers stay on your screen.)"
+       }
+      },
+      {
+       "t": "label",
+       "text": {
+        "hi": "व्यक्ति 1",
+        "en": "Person 1"
+       },
+       "for": "su09-a"
+      },
+      {
+       "t": "input",
+       "text": null,
+       "id": "su09-a",
+       "type": "text"
+      },
+      {
+       "t": "label",
+       "text": {
+        "hi": "व्यक्ति 2",
+        "en": "Person 2"
+       },
+       "for": "su09-b"
+      },
+      {
+       "t": "input",
+       "text": null,
+       "id": "su09-b",
+       "type": "text"
+      },
+      {
+       "t": "label",
+       "text": {
+        "hi": "व्यक्ति 3",
+        "en": "Person 3"
+       },
+       "for": "su09-c"
+      },
+      {
+       "t": "input",
+       "text": null,
+       "id": "su09-c",
+       "type": "text"
+      },
+      {
+       "t": "details",
+       "summary": {
+        "hi": "अब बताइए: इनमें से कितने लोग नौकरी करते हैं?",
+        "en": "Now: how many of them work in a job?"
+       },
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "<strong>शायद एक भी नहीं। ज़्यादातर दौलत वे लोग बनाते हैं, जिनका अपना बिज़नेस होता है।</strong>",
+          "en": "<strong>Probably none. Most wealth is built by people who own a business.</strong>"
+         }
+        }
+       ]
+      }
+     ],
+     "src": "SU-09",
+     "cls": [
+      "calc"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "Times of India के एक सर्वे में दुनिया के सौ सबसे अमीर लोगों में से 27 को दौलत विरासत में मिली थी और 73 ने ख़ुद बनाई थी। बड़ी कामयाबी जन्म से नहीं मिलती — इंसान उसे ख़ुद बनाता है।",
+      "en": "A Times of India survey of the world’s hundred richest people found that 27 inherited their wealth and 73 were self-made. Super-achievers are not born — they build themselves."
+     },
+     "src": "SU-10"
+    },
+    {
+     "t": "figure",
+     "children": [
+      {
+       "t": "figcaption",
+       "text": {
+        "hi": "दुनिया के सौ सबसे अमीर लोग: विरासत वाले बनाम ख़ुद बनाने वाले। स्रोत: Times of India सर्वे, LIC फ़ील्ड ट्रेनिंग सामग्री के हवाले से।",
+        "en": "The world’s hundred richest people: heirs vs self-made. Source: Times of India survey, as quoted in LIC field training material."
+       }
+      },
+      {
+       "t": "details",
+       "summary": {
+        "hi": "आँकड़े देखें",
+        "en": "See the numbers"
+       },
+       "children": [
+        {
+         "t": "box",
+         "children": [
+          {
+           "t": "table",
+           "caption": {
+            "hi": "दुनिया के 100 सबसे अमीर लोग",
+            "en": "World’s 100 richest people"
+           },
+           "head": [
+            [
+             {
+              "text": {
+               "hi": "",
+               "en": ""
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "लोग",
+               "en": "People"
+              },
+              "th": true
+             }
+            ]
+           ],
+           "rows": [
+            [
+             {
+              "text": {
+               "hi": "विरासत में मिली दौलत",
+               "en": "Heirs"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "27",
+               "en": "27"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "ख़ुद बनाई दौलत",
+               "en": "Self-made"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "73",
+               "en": "73"
+              },
+              "num": true
+             }
+            ]
+           ],
+           "src": "SU-10",
+           "cls": [
+            "data"
+           ],
+           "id": "ch19-table"
+          }
+         ],
+         "cls": [
+          "table-scroll"
+         ]
+        }
+       ]
+      }
+     ],
+     "src": "CH-19 SU-10",
+     "chart": {
+      "id": "ch19",
+      "fallback": "ch19-table",
+      "aria": {
+       "hi": "पाई चार्ट: दुनिया के 100 सबसे अमीर लोगों में से 27 को दौलत विरासत में मिली और 73 ने ख़ुद बनाई",
+       "en": "Pie chart: of the world's 100 richest people, 27 are heirs and 73 are self-made"
+      }
+     }
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "20 की उम्र में स्टार्ट-अप शुरू करने के 4 कारण",
+      "en": "4 reasons to start up in your 20s"
+     }
+    },
+    {
+     "t": "ol",
+     "items": [
+      {
+       "t": "li",
+       "cls": [
+        "card"
+       ],
+       "text": {
+        "hi": "<strong>लंबे समय का फ़ायदा</strong> — उद्यमी के रूप में आप जितने ज़्यादा साल बिताते हैं, लंबे समय में फ़ायदा उतना ही बेहतर होता है।",
+        "en": "<strong>Long-term returns</strong> — the more years you spend as an entrepreneur, the better your long-term returns."
+       }
+      },
+      {
+       "t": "li",
+       "cls": [
+        "card"
+       ],
+       "text": {
+        "hi": "<strong>ज़्यादा समय</strong> — आपकी ज़िम्मेदारियाँ कम होती हैं।",
+        "en": "<strong>More time</strong> — you have fewer commitments."
+       }
+      },
+      {
+       "t": "li",
+       "cls": [
+        "card"
+       ],
+       "text": {
+        "hi": "<strong>ज़्यादा ऊर्जा</strong> — और ज़्यादा जोश।",
+        "en": "<strong>More energy</strong> — and more motivation."
+       }
+      },
+      {
+       "t": "li",
+       "cls": [
+        "card"
+       ],
+       "text": {
+        "hi": "<strong>ज़्यादा लचीलापन</strong> — स्टार्ट-अप में तकनीक लगातार बदलती है, और युवा नई तकनीक जल्दी अपना लेते हैं।",
+        "en": "<strong>More adaptability</strong> — start-ups face regular technology changes, and young people adopt new technology faster."
+       }
+      }
+     ],
+     "src": "SU-11",
+     "cls": [
+      "grid"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "और अगर आप 40 या 60 के हैं? इनमें से कई कारण तब भी लागू होते हैं — और आपके पास सालों का अनुभव और पहले से जान-पहचान वाले लोग होते हैं।",
+      "en": "And if you are 40 or 60? Many of these reasons still apply — and you bring your years of experience and the people you already know."
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "संक्षेप में: अच्छी नौकरियाँ कम होंगी और होड़ कड़ी होगी। दौलत बिज़नेस से बनती है। ख़ुद शुरुआत करने वालों ने विरासत पाने वालों से बेहतर किया है। 20 की उम्र में शुरू करना फ़ायदेमंद है। और आपको दूसरों के लिए रोज़गार बनाने का संतोष भी मिलता है। सोच-समझकर फ़ैसला कीजिए — और अपना स्टार्ट-अप अभी शुरू कीजिए।",
+      "en": "In short: good jobs will be scarce and competitive. Wealth comes from business. Self-starters have done better than inheritors. Starting in your 20s helps. And you get the satisfaction of creating jobs for others. Make an informed decision — and begin your start-up now."
+     },
+     "src": "SU-12"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "उद्यमी कहते हैं कि उन्हें क्या मिलता है? सबसे ऊपर है काम से संतोष — पैसे से भी ऊपर।",
+      "en": "What do entrepreneurs say they gain? Job satisfaction tops the list — even above money."
+     },
+     "src": "SU-13"
+    },
+    {
+     "t": "figure",
+     "children": [
+      {
+       "t": "figcaption",
+       "text": {
+        "hi": "उद्यमी होने के फ़ायदे (सर्वे में शामिल लोगों का %)। स्रोत: LIC फ़ील्ड ट्रेनिंग सामग्री का सर्वे ग्राफ़िक।",
+        "en": "Benefits of being an entrepreneur (% of those surveyed). Source: survey graphic in LIC field training material."
+       }
+      },
+      {
+       "t": "details",
+       "summary": {
+        "hi": "आँकड़े देखें",
+        "en": "See the numbers"
+       },
+       "children": [
+        {
+         "t": "box",
+         "children": [
+          {
+           "t": "table",
+           "caption": {
+            "hi": "उद्यमी होने के फ़ायदे",
+            "en": "Benefits of being an entrepreneur"
+           },
+           "head": [
+            [
+             {
+              "text": {
+               "hi": "फ़ायदा",
+               "en": "Benefit"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "%",
+               "en": "%"
+              },
+              "th": true,
+              "num": true
+             }
+            ]
+           ],
+           "rows": [
+            [
+             {
+              "text": {
+               "hi": "काम से संतोष",
+               "en": "Job satisfaction"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "86%",
+               "en": "86%"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "सफलता",
+               "en": "Success"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "84%",
+               "en": "84%"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "आज़ादी",
+               "en": "Freedom"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "83%",
+               "en": "83%"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "ख़ुशी",
+               "en": "Happiness"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "81%",
+               "en": "81%"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "पैसा",
+               "en": "Money"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "71%",
+               "en": "71%"
+              },
+              "num": true
+             }
+            ]
+           ],
+           "src": "SU-13",
+           "cls": [
+            "data"
+           ],
+           "id": "ch20-table"
+          }
+         ],
+         "cls": [
+          "table-scroll"
+         ]
+        }
+       ]
+      }
+     ],
+     "src": "CH-20 SU-13",
+     "chart": {
+      "id": "ch20",
+      "fallback": "ch20-table",
+      "aria": {
+       "hi": "बार चार्ट: उद्यमी होने के फ़ायदे — काम से संतोष 86%, सफलता 84%, आज़ादी 83%, ख़ुशी 81%, पैसा 71%",
+       "en": "Bar chart: benefits of being an entrepreneur — job satisfaction 86%, success 84%, freedom 83%, happiness 81%, money 71%"
+      }
+     }
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "LIC सलाहकार के रूप में स्टार्ट-अप क्यों?",
+      "en": "Why start up as an LIC advisor?"
+     }
+    },
+    {
+     "t": "ol",
+     "items": [
+      {
+       "t": "li",
+       "cls": [
+        "card"
+       ],
+       "text": {
+        "hi": "<strong>कम पूँजी की ज़रूरत</strong>",
+        "en": "<strong>Little capital needed</strong>"
+       }
+      },
+      {
+       "t": "li",
+       "cls": [
+        "card"
+       ],
+       "text": {
+        "hi": "<strong>रॉयल्टी और वंशानुगत आय</strong> — एक बार की गई बिक्री से ज़िंदगी भर की आय, जो आपके क़ानूनी वारिसों को भी मिलती है।",
+        "en": "<strong>Royalty and hereditary income</strong> — lifetime income for a sale made once, payable to your legal heirs."
+       }
+      },
+      {
+       "t": "li",
+       "cls": [
+        "card"
+       ],
+       "text": {
+        "hi": "<strong>बिज़नेस बढ़ने के साथ काम आसान होता जाता है</strong> — यह रिश्तों और सेवा का बिज़नेस है; भरोसा करने वाले ग्राहक दोबारा बिज़नेस और रेफ़रल लाते हैं। (वह आधार बनाने के लिए शुरुआती सालों में आपको बहुत मेहनत करनी होती है।)",
+        "en": "<strong>Work gets easier as you grow</strong> — it is a business of relationships and service; trusted customers bring repeat business and referrals. (You work very hard in the first years to build that base.)"
+       }
+      },
+      {
+       "t": "li",
+       "cls": [
+        "card"
+       ],
+       "text": {
+        "hi": "<strong>एक विरासत</strong> — बिज़नेस अगली पीढ़ी को सौंपिए।",
+        "en": "<strong>A legacy</strong> — pass the business on to the next generation."
+       }
+      },
+      {
+       "t": "li",
+       "cls": [
+        "card"
+       ],
+       "text": {
+        "hi": "<strong>काम करने की आज़ादी</strong>",
+        "en": "<strong>Freedom to work</strong>"
+       }
+      },
+      {
+       "t": "li",
+       "cls": [
+        "card"
+       ],
+       "text": {
+        "hi": "<strong>मेहनत के सीधे अनुपात में आय</strong>",
+        "en": "<strong>Income in direct proportion to effort</strong>"
+       }
+      },
+      {
+       "t": "li",
+       "cls": [
+        "card"
+       ],
+       "text": {
+        "hi": "<strong>मक़सद के साथ काम</strong> — परिवारों को आर्थिक सुरक्षा दीजिए और लोगों को उनके आर्थिक लक्ष्य पाने में मदद कीजिए।",
+        "en": "<strong>Work with purpose</strong> — give families financial security and help people reach their financial goals."
+       }
+      }
+     ],
+     "src": "SU-14",
+     "cls": [
+      "grid"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "हम युवा उद्यमियों की एक टीम बनाने के लिए प्रतिबद्ध हैं — और उनकी ज़िंदगी में बदलाव लाने के लिए।",
+      "en": "We are committed to creating a team of young entrepreneurs — and making a difference in their lives."
+     },
+     "src": "SU-16"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "मिशन (स्टार्ट-अप प्रस्तुति से): “सक्षम, समर्पित और ईमानदार LIC एजेंटों का ऐसा समुदाय बनाना, जिनकी अंतरराष्ट्रीय पहचान हो।”",
+      "en": "Mission (from the start-up deck): “to develop a community of competent, committed and ethical LIC agents of international repute.”"
+     },
+     "src": "SU-15"
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "आपकी शंकाएँ, जवाब के साथ",
+      "en": "Your doubts, answered"
+     }
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "“लोग मेरे बारे में क्या सोचेंगे?”",
+      "en": "“What will people think of me?”"
+     },
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "लोग आपकी क़द्र करेंगे, क्योंकि उन्हें पेशेवर सलाह चाहिए। टॉप LIC सलाहकार समाज में सम्मानित जगह रखते हैं और दुनिया भर में पहचाने जाते हैं — और टॉप प्रदर्शन करने वालों ने करोड़ों की कमाई बताई है।",
+        "en": "People will appreciate you, because they are looking for professional advice. Top LIC advisors hold respected positions in society and are recognised around the world — and top performers have reported earnings in crores."
+       }
+      }
+     ],
+     "src": "SU-17"
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "“मुझसे मार्केटिंग का काम नहीं होगा।”",
+      "en": "“I can’t do a marketing job.”"
+     },
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "मार्केटिंग, बेचने और बातचीत का हुनर कोई लेकर पैदा नहीं होता — ये समय के साथ सीखे जाते हैं। हम आपको रास्ता दिखाते हैं। बस आपमें सीखने की इच्छा होनी चाहिए। <a href=\"#genz\">सेल्स एक हुनर है →</a>",
+        "en": "Nobody is born with marketing, selling and communication skills — they are learned over time. We guide you. The only requirement is your willingness to learn. <a href=\"#genz\">Sales is a skill →</a>"
+       }
+      }
+     ],
+     "src": "SU-18"
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "“लोगों के पास पहले से बीमा है।”",
+      "en": "“People are already insured.”"
+     },
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "भारत दुनिया के सबसे कम बीमित बाज़ारों में से एक है। सुरक्षा अंतर 83% है — गुंजाइश बहुत बड़ी है।",
+        "en": "India is one of the least-insured markets in the world. The protection gap is 83% — there is tremendous scope."
+       }
+      }
+     ],
+     "src": "SU-19"
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "“एजेंट तो पहले से बहुत हैं।”",
+      "en": "“There are lots of agents already.”"
+     },
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "LIC के सिर्फ़ लगभग 14 लाख सलाहकार हैं — बीमा योग्य आबादी के लिए यह काफ़ी नहीं। उनमें से सिर्फ़ 10% पेशेवर तरीक़े से काम करते हैं, और 70% बिज़नेस वही लाते हैं। हम आपको उन्हीं टॉप 10% में पहुँचने में मदद करते हैं।",
+        "en": "There are only about 14 lakh LIC advisors — not enough for the insurable population. Only 10% work as professionals, and they bring 70% of the business. We help you become one of that top 10%."
+       }
+      }
+     ],
+     "src": "SU-20"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "पूरी एक्टिविटी योजना पर चलने वाले सलाहकारों ने साल 3 तक ₹1 लाख+ प्रति माह का लक्ष्य रखा है — और सबसे अच्छे उससे बहुत आगे जाते हैं। नतीजे पूरी तरह आप पर निर्भर हैं।",
+      "en": "Advisors who follow the full activity plan have targeted ₹1 lakh+ a month by year 3 — and the best go far beyond. Results depend entirely on you."
+     },
+     "src": "SU-21",
+     "cls": [
+      "effort"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "इसके लिए क्या चाहिए",
+      "en": "What it takes"
+     }
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "हमें ऐसे लोग चाहिए जो अपनी प्रेरणा से काम करें और जिन्हें लोगों से मिलना अच्छा लगे।",
+        "en": "We are looking for self-driven people who love meeting people."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "यह उनके लिए नहीं है जो तनख़्वाह चाहते हैं — यह कमीशन और इंसेंटिव पर आधारित है।",
+        "en": "This is not for people who want a salary — it is commission- and incentive-based."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "यह फ़ुल-टाइम आय का अवसर है, 9 से 5 की नौकरी नहीं।",
+        "en": "It is a full-time income opportunity, not a 9-to-5 job."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "बिज़नेस खड़ा करते समय लंबे दिन और कुछ छुट्टी के दिन भी काम के लिए तैयार रहिए।",
+        "en": "Expect long days and some weekends while you build."
+       }
+      }
+     ],
+     "src": "SU-22"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "कुछ सलाहकार — ख़ासकर नए ग्रेजुएट, पोस्ट-ग्रेजुएट और MBA — इसे फ़ुल-टाइम उद्यम की तरह चलाते हैं: ऊँचे मध्यम वर्ग और संपन्न (हाई-नेट-वर्थ) ग्राहकों के साथ, और कंपनियों के बिज़नेस बीमा के लिए।",
+      "en": "Some advisors — especially fresh graduates, postgraduates and MBAs — run this as a full-time enterprise: working with upper-middle-class and high-net-worth clients, and with companies for business insurance."
+     },
+     "src": "SU-23"
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "सच्ची चुनौतियाँ",
+      "en": "The honest challenges"
+     }
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "बीमा के बारे में लोगों का नज़रिया हमेशा अच्छा नहीं होता।",
+        "en": "People’s attitude towards insurance is not always positive."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "पूरी कोशिश के बाद भी आपको कई बार “ना” सुननी पड़ेगी।",
+        "en": "You will hear “no” many times, even after your best effort."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "आपको लगातार सीखते और पढ़ते रहना होगा।",
+        "en": "You must keep learning and studying."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "आप रोज़ नए लोगों से मिलेंगे — फ़ील्ड में ख़ूब काम करना ज़रूरी है।",
+        "en": "You will meet new people every day — lots of field work is a must."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "शुरुआत में कमाई कम होगी — भरोसे के रिश्ते बनने में समय लगता है।",
+        "en": "Income at the beginning will be low — relationships take time."
+       }
+      }
+     ],
+     "src": "SU-24"
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "अभी फ़ैसला कीजिए — बस तभी, अगर आप…",
+      "en": "Decide now — only if you…"
+     }
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "लोगों को उनके आर्थिक लक्ष्य पाने में मदद करना चाहते हैं",
+        "en": "want to help people reach their financial goals"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "अपनी ज़िंदगी के सपने और लक्ष्य पाना चाहते हैं",
+        "en": "want to achieve your life’s dreams and goals"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "लगातार सीखने और ट्रेनिंग के लिए तैयार हैं",
+        "en": "accept continuous learning and training"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "कड़ी मेहनत और फ़ील्ड में ख़ूब काम करने को तैयार हैं",
+        "en": "are willing to work hard, with lots of field activity"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "आपमें भरपूर धैर्य और लगन है",
+        "en": "have plenty of perseverance"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "“ना” को आगे बढ़ने की सीढ़ी मानते हैं",
+        "en": "take rejections as stepping stones"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "शुरुआत में कम आय स्वीकार कर सकते हैं",
+        "en": "accept a low income at the beginning"
+       }
+      }
+     ],
+     "src": "SU-25",
+     "cls": [
+      "checklist"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "अपने आँकड़े ख़ुद प्लान कीजिए",
+      "en": "Plan your numbers"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "₹1 लाख की योजना के लिए बुनियादी ज़रूरतें: प्रिंटर के साथ लैपटॉप, सॉफ़्टवेयर, स्मार्टफ़ोन और दोपहिया वाहन या कार।",
+      "en": "Basic requirements for the ₹1 lakh plan: a laptop with printer, software, a smartphone and a two-wheeler or car."
+     },
+     "src": "SU-27"
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "h4",
+       "text": {
+        "hi": "और ऊँचा लक्ष्य: 4 साल में ₹10 लाख प्रति माह",
+        "en": "Aiming higher: ₹10 lakh a month within 4 years"
+       }
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "table",
+         "caption": {
+          "hi": "4 साल में ₹10,00,000 प्रति माह की अपेक्षित आय के लिए ज़रूरी प्रीमियम (₹)",
+          "en": "Premium required for an expected income of ₹10,00,000 a month within 4 years (₹)"
+         },
+         "head": [
+          [
+           {
+            "text": {
+             "hi": "वर्ष",
+             "en": "Year"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "हर महीने नया प्रीमियम",
+             "en": "New premium a month"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "हर साल नया प्रीमियम",
+             "en": "New premium a year"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "किस वर्ष में आय",
+             "en": "Income earned in"
+            },
+            "th": true,
+            "colspan": 5
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "वर्ष 1",
+             "en": "Year 1"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "वर्ष 2",
+             "en": "Year 2"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "वर्ष 3",
+             "en": "Year 3"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "वर्ष 4",
+             "en": "Year 4"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "वर्ष 5",
+             "en": "Year 5"
+            },
+            "th": true
+           }
+          ]
+         ],
+         "rows": [
+          [
+           {
+            "text": {
+             "hi": "वर्ष 1",
+             "en": "Year 1"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "5,00,000",
+             "en": "5,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "60,00,000",
+             "en": "60,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "15,00,000",
+             "en": "15,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "4,50,000",
+             "en": "4,50,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "4,50,000",
+             "en": "4,50,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "4,50,000",
+             "en": "4,50,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "4,50,000",
+             "en": "4,50,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "वर्ष 2",
+             "en": "Year 2"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "10,00,000",
+             "en": "10,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "1,20,00,000",
+             "en": "1,20,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "30,00,000",
+             "en": "30,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "9,00,000",
+             "en": "9,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "9,00,000",
+             "en": "9,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "9,00,000",
+             "en": "9,00,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "वर्ष 3",
+             "en": "Year 3"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "20,00,000",
+             "en": "20,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "2,40,00,000",
+             "en": "2,40,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "60,00,000",
+             "en": "60,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "18,00,000",
+             "en": "18,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "18,00,000",
+             "en": "18,00,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "वर्ष 4",
+             "en": "Year 4"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "30,00,000",
+             "en": "30,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "3,60,00,000",
+             "en": "3,60,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "90,00,000",
+             "en": "90,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "27,00,000",
+             "en": "27,00,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "वर्ष 5",
+             "en": "Year 5"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "40,00,000",
+             "en": "40,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "4,80,00,000",
+             "en": "4,80,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "1,20,00,000",
+             "en": "1,20,00,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "<strong>उस वर्ष की कुल आय</strong>",
+             "en": "<strong>Total income in the year</strong>"
+            },
+            "th": true,
+            "colspan": 3
+           },
+           {
+            "text": {
+             "hi": "<strong>15,00,000</strong>",
+             "en": "<strong>15,00,000</strong>"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>34,50,000</strong>",
+             "en": "<strong>34,50,000</strong>"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>73,50,000</strong>",
+             "en": "<strong>73,50,000</strong>"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>1,21,50,000</strong>",
+             "en": "<strong>1,21,50,000</strong>"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>1,78,50,000</strong>",
+             "en": "<strong>1,78,50,000</strong>"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "<strong>मासिक आय</strong>",
+             "en": "<strong>Monthly income</strong>"
+            },
+            "th": true,
+            "colspan": 3
+           },
+           {
+            "text": {
+             "hi": "<strong>1,25,000</strong>",
+             "en": "<strong>1,25,000</strong>"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>2,87,500</strong>",
+             "en": "<strong>2,87,500</strong>"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>6,12,500</strong>",
+             "en": "<strong>6,12,500</strong>"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>10,12,500</strong>",
+             "en": "<strong>10,12,500</strong>"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>14,87,500</strong>",
+             "en": "<strong>14,87,500</strong>"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "क्लब स्तर",
+             "en": "Club level"
+            },
+            "th": true,
+            "colspan": 3
+           },
+           {
+            "text": {
+             "hi": "MDRT",
+             "en": "MDRT"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "MDRT और Galaxy Club",
+             "en": "MDRT and Galaxy Club"
+            }
+           },
+           {
+            "text": {
+             "hi": "MDRT और Corporate Club",
+             "en": "MDRT and Corporate Club"
+            }
+           },
+           {
+            "text": {
+             "hi": "COT और Elite Club",
+             "en": "COT &amp; Elite Club"
+            }
+           },
+           {
+            "text": {
+             "hi": "TOT और Elite Club",
+             "en": "TOT &amp; Elite Club"
+            }
+           }
+          ]
+         ],
+         "src": "SU-28",
+         "cls": [
+          "data"
+         ]
+        }
+       ],
+       "cls": [
+        "table-scroll"
+       ]
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "₹10 लाख की योजना के लिए बुनियादी ज़रूरतें: अपना ऑफिस, ऑफिस सहायक, ड्राइवर के साथ चारपहिया वाहन, प्रिंटर के साथ लैपटॉप, सॉफ़्टवेयर और स्मार्टफ़ोन।",
+        "en": "Basic requirements for the ₹10 lakh plan: your own office, office assistants, a four-wheeler with a driver, a laptop with printer, software and a smartphone."
+       },
+       "src": "SU-29"
+      },
+      {
+       "t": "figure",
+       "children": [
+        {
+         "t": "figcaption",
+         "text": {
+          "hi": "₹1 लाख वाली और ₹10 लाख वाली योजना में साल-दर-साल मासिक आय (₹, लॉग स्केल)। LIC फ़ील्ड ट्रेनिंग सामग्री (2023-24) से उदाहरण।",
+          "en": "Monthly income by year (₹, log scale) for the ₹1 lakh plan and the ₹10 lakh plan. Illustration from LIC field training material (2023-24)."
+         }
+        },
+        {
+         "t": "details",
+         "summary": {
+          "hi": "आँकड़े देखें",
+          "en": "See the numbers"
+         },
+         "children": [
+          {
+           "t": "box",
+           "children": [
+            {
+             "t": "table",
+             "caption": {
+              "hi": "साल-दर-साल मासिक आय (₹)",
+              "en": "Monthly income by year (₹)"
+             },
+             "head": [
+              [
+               {
+                "text": {
+                 "hi": "वर्ष",
+                 "en": "Year"
+                },
+                "th": true
+               },
+               {
+                "text": {
+                 "hi": "₹1 लाख की योजना",
+                 "en": "₹1 lakh plan"
+                },
+                "th": true
+               },
+               {
+                "text": {
+                 "hi": "₹10 लाख की योजना",
+                 "en": "₹10 lakh plan"
+                },
+                "th": true
+               }
+              ]
+             ],
+             "rows": [
+              [
+               {
+                "text": {
+                 "hi": "1",
+                 "en": "1"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "50,000",
+                 "en": "50,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "1,25,000",
+                 "en": "1,25,000"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "2",
+                 "en": "2"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "90,000",
+                 "en": "90,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "2,87,500",
+                 "en": "2,87,500"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "3",
+                 "en": "3"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "1,37,500",
+                 "en": "1,37,500"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "6,12,500",
+                 "en": "6,12,500"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "4",
+                 "en": "4"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "1,92,500",
+                 "en": "1,92,500"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "10,12,500",
+                 "en": "10,12,500"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "5",
+                 "en": "5"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "2,55,000",
+                 "en": "2,55,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "14,87,500",
+                 "en": "14,87,500"
+                },
+                "num": true
+               }
+              ]
+             ],
+             "src": "SU-26 SU-28",
+             "cls": [
+              "data"
+             ],
+             "id": "ch21-table"
+            }
+           ],
+           "cls": [
+            "table-scroll"
+           ]
+          }
+         ]
+        }
+       ],
+       "src": "CH-21 SU-26 SU-28",
+       "chart": {
+        "id": "ch21",
+        "fallback": "ch21-table",
+        "aria": {
+         "hi": "लॉग स्केल पर लाइन चार्ट: दो योजनाओं में 5 सालों तक साल-दर-साल मासिक आय — 1 लाख वाली योजना 50,000 से 2,55,000 रुपये तक, 10 लाख वाली योजना 1,25,000 से 14,87,500 रुपये तक",
+         "en": "Line chart on a log scale: monthly income by year for two plans — the 1 lakh plan rises from 50,000 to 2,55,000 rupees, the 10 lakh plan from 1,25,000 to 14,87,500 rupees over 5 years"
+        }
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "केवल उदाहरण। वास्तविक कमीशन प्लान, अवधि, भरे गए प्रीमियम और LIC के लागू नियमों पर निर्भर करता है। आपकी कमाई आपकी मेहनत पर निर्भर है।",
+        "en": "Illustration only. Actual commission depends on the plan, the term, the premium paid and the LIC rules in force. Your earnings depend on your effort."
+       },
+       "cls": [
+        "src"
+       ]
+      }
+     ],
+     "cls": [
+      "illustrative"
+     ]
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "h4",
+       "text": {
+        "hi": "समय और आय",
+        "en": "Time and income"
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "यह रातों-रात अमीर बनने की कोई योजना नहीं है। सफलता इस पर निर्भर है कि आप रोज़ कितना समय देते हैं। एक इंडस्ट्री ट्रेनिंग बुकलेट इसे ऐसे समझाती है: रोज़ 1 घंटा → लगभग ₹15,000 प्रति माह; 2 घंटे → ₹30,000; 3 घंटे → ₹50,000; 4 घंटे → ₹75,000; 5 घंटे → ₹1,00,000।",
+        "en": "This is not a get-rich-quick scheme. Success depends on the time you dedicate every day. An industry training booklet illustrates it like this: 1 hour a day → about ₹15,000 a month; 2 hours → ₹30,000; 3 hours → ₹50,000; 4 hours → ₹75,000; 5 hours → ₹1,00,000."
+       },
+       "src": "SU-31"
+      },
+      {
+       "t": "figure",
+       "children": [
+        {
+         "t": "figcaption",
+         "text": {
+          "hi": "रोज़ के घंटे बनाम मासिक आय (₹)। एक इंडस्ट्री ट्रेनिंग बुकलेट (2024) से उदाहरण।",
+          "en": "Hours a day vs monthly income (₹). Illustration from an industry training booklet (2024)."
+         }
+        },
+        {
+         "t": "details",
+         "summary": {
+          "hi": "आँकड़े देखें",
+          "en": "See the numbers"
+         },
+         "children": [
+          {
+           "t": "box",
+           "children": [
+            {
+             "t": "table",
+             "caption": {
+              "hi": "रोज़ के घंटे और मासिक आय",
+              "en": "Hours a day and monthly income"
+             },
+             "head": [
+              [
+               {
+                "text": {
+                 "hi": "रोज़ के घंटे",
+                 "en": "Hours a day"
+                },
+                "th": true
+               },
+               {
+                "text": {
+                 "hi": "₹ प्रति माह",
+                 "en": "₹ a month"
+                },
+                "th": true
+               }
+              ]
+             ],
+             "rows": [
+              [
+               {
+                "text": {
+                 "hi": "1",
+                 "en": "1"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "15,000",
+                 "en": "15,000"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "2",
+                 "en": "2"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "30,000",
+                 "en": "30,000"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "3",
+                 "en": "3"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "50,000",
+                 "en": "50,000"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "4",
+                 "en": "4"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "75,000",
+                 "en": "75,000"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "5",
+                 "en": "5"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "1,00,000",
+                 "en": "1,00,000"
+                },
+                "num": true
+               }
+              ]
+             ],
+             "src": "SU-31",
+             "cls": [
+              "data"
+             ],
+             "id": "ch22-table"
+            }
+           ],
+           "cls": [
+            "table-scroll"
+           ]
+          }
+         ]
+        }
+       ],
+       "src": "CH-22 SU-31",
+       "chart": {
+        "id": "ch22",
+        "fallback": "ch22-table",
+        "aria": {
+         "hi": "बार चार्ट: रोज़ के घंटे और मासिक आय — 1 घंटा 15,000 रुपये, 2 घंटे 30,000, 3 घंटे 50,000, 4 घंटे 75,000, 5 घंटे 1,00,000",
+         "en": "Bar chart: hours a day and monthly income — 1 hour 15,000 rupees, 2 hours 30,000, 3 hours 50,000, 4 hours 75,000, 5 hours 1,00,000"
+        }
+       }
+      },
+      {
+       "t": "h4",
+       "text": {
+        "hi": "नौकरी छोड़ें, या दोनों साथ करें?",
+        "en": "Should you leave your job, or do both?"
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "ऐसा कोई नियम नहीं कि आपको मौजूदा नौकरी छोड़नी ही पड़े — आधिकारिक तौर पर इससे कोई फ़र्क नहीं पड़ता कि आप नौकरी के साथ काम करें या उसके बिना। अगर नौकरी जारी रखते हैं, तो पहले दिन से ही एजेंसी के रोज़ के घंटे तय कर लीजिए। एजेंसी की आय बढ़ने के साथ दोनों को सँभालना मुश्किल होता जाता है। बहुत से लोग पार्ट-टाइम शुरू करते हैं और बाद में फ़ुल-टाइम हो जाते हैं। बुकलेट ख़ुद फ़ुल-टाइम की सलाह देती है: अच्छी आय के लिए गंभीर, सच्ची मेहनत चाहिए।",
+        "en": "There is no rule that you must leave your present job — officially, it makes no difference whether you work with or without one. If you keep your job, fix your daily agency hours from day one. As agency income grows, balancing both becomes hard. Many people start part-time and move to full-time later. The booklet itself recommends going full-time: serious income needs serious, sincere effort."
+       },
+       "src": "SU-32"
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "table",
+         "caption": {
+          "hi": "रोज़ के घंटों के अनुसार मासिक आय (₹), जैसी बुकलेट में छपी",
+          "en": "Monthly income by hours a day (₹), as printed in the booklet"
+         },
+         "head": [
+          [
+           {
+            "text": {
+             "hi": "रोज़ के घंटे",
+             "en": "Hours a day"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "1",
+             "en": "1"
+            },
+            "th": true,
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "2",
+             "en": "2"
+            },
+            "th": true,
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "3",
+             "en": "3"
+            },
+            "th": true,
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "4",
+             "en": "4"
+            },
+            "th": true,
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "8",
+             "en": "8"
+            },
+            "th": true,
+            "num": true
+           }
+          ]
+         ],
+         "rows": [
+          [
+           {
+            "text": {
+             "hi": "1 महीने बाद",
+             "en": "After 1 month"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "15,000",
+             "en": "15,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "30,000",
+             "en": "30,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "50,000",
+             "en": "50,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "75,000",
+             "en": "75,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "2,00,000",
+             "en": "2,00,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "1 वर्ष बाद",
+             "en": "After 1 year"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "25,000",
+             "en": "25,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "50,000",
+             "en": "50,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "1,00,000",
+             "en": "1,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "1,50,000",
+             "en": "1,50,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "3,00,000",
+             "en": "3,00,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "10 वर्ष बाद",
+             "en": "After 10 years"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "1,20,000",
+             "en": "1,20,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "2,50,000",
+             "en": "2,50,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "4,00,000",
+             "en": "4,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "5,00,000",
+             "en": "5,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "15,00,000",
+             "en": "15,00,000"
+            },
+            "num": true
+           }
+          ]
+         ],
+         "src": "SU-32",
+         "cls": [
+          "data"
+         ]
+        }
+       ],
+       "cls": [
+        "table-scroll"
+       ]
+      },
+      {
+       "t": "h4",
+       "text": {
+        "hi": "औसत का नियम",
+        "en": "The law of averages"
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "मान लीजिए, आप जिनसे मिलते हैं उनमें से 90% नहीं ख़रीदते। रोज़ 10 लोगों को लाइफ़स्टाइल प्रेज़ेंटेशन दिखाइए — यानी महीने में 200। अगर सिर्फ़ 10% ख़रीदें, तो 20 ग्राहक बनते हैं। बुकलेट ₹50,000 का इंडस्ट्री औसत सालाना प्रीमियम लेती है और मानती है कि वर्ष 1 में आपको उसका सिर्फ़ 40% मिलता है: प्रति ग्राहक ₹20,000, यानी हर महीने ₹4,00,000 का प्रीमियम। उसके आँकड़ों के अनुसार, इससे औसत मासिक आय लगभग ₹1,12,000 बनती है — ₹1 लाख के लक्ष्य के अनुरूप। आपके असली नतीजे आपकी अपनी एक्टिविटी पर निर्भर हैं।",
+        "en": "Say 90% of the people you meet don’t buy. Show the lifestyle presentation to 10 people a day — that is 200 a month. If only 10% buy, that is 20 customers. The booklet takes an industry-average annual premium of ₹50,000 and assumes you get just 40% of it in year 1: ₹20,000 per customer, or ₹4,00,000 of premium a month. On its figures, that works out to an average monthly income of about ₹1,12,000 — in line with the ₹1 lakh goal. Your actual results depend on your own activity."
+       },
+       "src": "SU-33"
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "केवल उदाहरण। वास्तविक कमीशन प्लान, अवधि, भरे गए प्रीमियम और LIC के लागू नियमों पर निर्भर करता है। आपकी कमाई आपकी मेहनत पर निर्भर है।",
+        "en": "Illustration only. Actual commission depends on the plan, the term, the premium paid and the LIC rules in force. Your earnings depend on your effort."
+       },
+       "cls": [
+        "src"
+       ]
+      }
+     ],
+     "cls": [
+      "illustrative"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "संक्षेप में",
+      "en": "In short"
+     }
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "src": "SU-34",
+       "text": {
+        "hi": "हर एजेंट के लिए रोहित का लक्ष्य: तीसरे साल के अंत तक ₹1,00,000 प्रति माह। आपकी कमाई आपकी मेहनत और आपके द्वारा लाए गए बिज़नेस पर निर्भर करती है।",
+        "en": "Rohit’s goal for every agent: ₹1,00,000 a month by the end of the third year. Your earnings depend on your effort and the business you bring."
+       }
+      },
+      {
+       "t": "li",
+       "src": "SU-30",
+       "text": {
+        "hi": "योजना: 100 लोगों की संभावित ग्राहक सूची, रोज़ 4 मुलाक़ातें, रोज़ की रिपोर्ट और हफ़्ते की रिव्यू मीटिंग।",
+        "en": "The plan: a prospect list of 100, 4 meetings a day, daily reports and weekly reviews."
+       }
+      },
+      {
+       "t": "li",
+       "src": "SU-14",
+       "text": {
+        "hi": "कम पूँजी, रॉयल्टी आय और ऐसा बिज़नेस, जिसे आप आगे सौंप सकें।",
+        "en": "Little capital, royalty income and a business you can pass on."
+       }
+      },
+      {
+       "t": "li",
+       "src": "SU-24",
+       "text": {
+        "hi": "सच कहें तो: शुरुआत में कमाई कम होगी — भरोसे के रिश्ते बनने में समय लगता है।",
+        "en": "Honestly: income at the beginning will be low — relationships take time."
+       }
+      }
+     ]
+    }
+   ],
+   "cls": [
+    "block",
+    "recap"
+   ]
+  },
+  {
+   "t": "aside",
+   "children": [
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>अपने बॉस ख़ुद बनने के लिए तैयार हैं?</strong>",
+      "en": "<strong>Ready to be your own boss?</strong>"
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "a",
+       "href": "#apply",
+       "text": {
+        "hi": "करियर ओरिएंटेशन बुक करें",
+        "en": "Book a career orientation"
+       },
+       "cls": [
+        "cta"
+       ]
+      },
+      {
+       "t": "a",
+       "href": "#genz",
+       "text": {
+        "hi": "20 की उम्र में हैं? Gen-Z का रास्ता →",
+        "en": "In your 20s? The Gen-Z path →"
+       },
+       "cls": [
+        "cta",
+        "secondary"
+       ]
+      }
+     ],
+     "cls": [
+      "btn-row"
+     ]
+    }
+   ],
+   "cls": [
+    "page-cta"
+   ]
+  }
+ ],
+ "id": "startup"
+}

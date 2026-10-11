@@ -10,7 +10,12 @@ import "./index.css";
 import App from "./App.jsx";
 import Login from "./pages/Login.jsx";
 import Register from "./pages/Register.jsx";
-import Benefits from "./pages/benefits/Benefits.jsx";
+import Handbook from "./pages/handbook/Handbook.jsx";
+import SitePage from "./pages/site/SitePage.jsx";
+import ApplyPage from "./pages/apply/ApplyPage.jsx";
+import ContactPage from "./pages/contact/ContactPage.jsx";
+import { PAGES, SITE_PAGES } from "./pages/site/sections.js";
+import { LangProvider } from "./i18n/index.js";
 import RootLayout from "./layouts/RootLayout.jsx";
 import RequireAuth from "./components/auth/RequireAuth.jsx";
 import AuthSplash from "./components/auth/AuthSplash.jsx";
@@ -58,7 +63,26 @@ const router = createBrowserRouter([
       { path: "/", element: <App /> },
       { path: "/login", element: <Login /> },
       { path: "/register", element: <Register /> },
-      { path: "/benefits", element: <SmoothScrolling><Benefits /></SmoothScrolling> },
+
+      // The ported site: six nav pages plus the three long-form pages the
+      // landing story links to, each just a list of section ids from the
+      // generated content. The docs-style handbook has its own route.
+      // Apply and Contact are purpose-built (forms); the rest share SitePage.
+      ...SITE_PAGES.map((page) => ({
+        path: page.path,
+        element: (
+          <SmoothScrolling>
+            {page === PAGES.apply ? (
+              <ApplyPage />
+            ) : page === PAGES.contact ? (
+              <ContactPage />
+            ) : (
+              <SitePage ids={page.ids} title={page.title} />
+            )}
+          </SmoothScrolling>
+        ),
+      })),
+      { path: "/handbook", element: <SmoothScrolling><Handbook /></SmoothScrolling> },
 
       {
         element: <RequireAuth actor={ADMIN_ACTORS} fallback={<AuthSplash />} />,
@@ -153,7 +177,9 @@ const router = createBrowserRouter([
 const render = () =>
   createRoot(document.getElementById("root")).render(
     <Provider store={store}>
-      <RouterProvider router={router} />
+      <LangProvider>
+        <RouterProvider router={router} />
+      </LangProvider>
     </Provider>,
   );
 

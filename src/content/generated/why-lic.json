@@ -1,0 +1,3830 @@
+{
+ "t": "section",
+ "children": [
+  {
+   "t": "header",
+   "children": [
+    {
+     "t": "p",
+     "text": {
+      "hi": "LIC एजेंसी क्यों?",
+      "en": "Why LIC Agency"
+     },
+     "cls": [
+      "eyebrow"
+     ]
+    },
+    {
+     "t": "h2",
+     "text": {
+      "hi": "कोई पूँजी नहीं चाहिए — बस आप",
+      "en": "No capital required — just you"
+     },
+     "src": "WHY-01",
+     "id": "why-lic-h"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "बस चाहिए एक मुस्कान, दो मीठे बोल, थोड़ी भाग-दौड़ और कमाने की सच्ची लगन।",
+      "en": "All you need is a smile, a few good words, a little physical work and a strong thirst for earning."
+     },
+     "src": "WHY-01",
+     "cls": [
+      "lede"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "बदले में LIC एजेंसी आपको एक अतिरिक्त आय दे सकती है — जो हर उस परिवार के साथ बढ़ती है, जिसकी आप सेवा करते हैं।",
+      "en": "In return, LIC agency can give you an additional income — one that grows with every family you serve."
+     },
+     "src": "WHY-03"
+    },
+    {
+     "t": "a",
+     "href": "#apply",
+     "text": {
+      "hi": "आवेदन करें",
+      "en": "Apply now"
+     },
+     "cls": [
+      "cta"
+     ]
+    }
+   ],
+   "cls": [
+    "page-hero"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "LIC एजेंसी आपके लिए क्या कर सकती है",
+      "en": "What LIC Agency can do for you"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "उन चीज़ों के बारे में सोचिए, जिन्हें आप टालते आ रहे हैं। LIC एजेंसी की अतिरिक्त आय से आप:",
+      "en": "Think of the things you keep postponing. An additional income from LIC agency can:"
+     }
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "अपना रिटायरमेंट फ़ंड बना सकते हैं",
+        "en": "create your retirement fund"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "बच्चों की बेहतरीन पढ़ाई और शादी के लिए फ़ंड बना सकते हैं",
+        "en": "build a fund for your children’s world-class education and marriage"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "अपनी मौजूदा EMI सँभाल सकते हैं",
+        "en": "take care of your existing EMIs"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "हर साल परिवार के साथ छुट्टियों पर जा सकते हैं",
+        "en": "pay for a holiday with your family every year"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "अपने सपनों के बिज़नेस के लिए पूँजी जुटा सकते हैं",
+        "en": "become the capital for your dream business"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "सपनों की कार घर ला सकते हैं और अपने लक्ष्य पूरे कर सकते हैं",
+        "en": "bring home your dream car and fulfil your goals"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "और भी कई फ़ायदे पा सकते हैं",
+        "en": "and bring many more benefits"
+       }
+      }
+     ],
+     "src": "WHY-03",
+     "cls": [
+      "checklist"
+     ]
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "आप अपने लिए काम करते हैं",
+      "en": "You work for yourself"
+     }
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "कोई रिटायरमेंट नहीं — आपको कोई रिटायर नहीं कर सकता।",
+        "en": "No retirement — nobody can retire you."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "कोई “गोल्डन हैंडशेक” नहीं — ख़र्च घटाने के नाम पर कोई आपको निकाल नहीं सकता।",
+        "en": "No “golden handshake” — nobody can let you go to cut costs."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "ज़िंदगी भर का काम, जब तक आप चाहें।",
+        "en": "Life-long work, for as long as you want it."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "संपन्न लोग हमेशा से अपना काम ख़ुद करना पसंद करते आए हैं।",
+        "en": "High-net-worth people have always liked being self-employed."
+       }
+      }
+     ],
+     "src": "WHY-02"
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "LIC से क्यों जुड़ें — LIC के अपने 8 कारण",
+      "en": "Why join LIC — LIC’s own 8 reasons"
+     }
+    },
+    {
+     "t": "ol",
+     "items": [
+      {
+       "t": "li",
+       "cls": [
+        "card"
+       ],
+       "text": {
+        "hi": "एक जाने-माने ब्रांड के साथ साझेदारी",
+        "en": "Partner with a renowned brand"
+       }
+      },
+      {
+       "t": "li",
+       "cls": [
+        "card"
+       ],
+       "text": {
+        "hi": "ऊँची आय",
+        "en": "High income"
+       }
+      },
+      {
+       "t": "li",
+       "cls": [
+        "card"
+       ],
+       "text": {
+        "hi": "इनाम और पहचान",
+        "en": "Rewards and recognition"
+       }
+      },
+      {
+       "t": "li",
+       "cls": [
+        "card"
+       ],
+       "text": {
+        "hi": "सुविधा — कोई बँधा हुआ रूटीन नहीं",
+        "en": "Convenience — no time-bound routine"
+       }
+      },
+      {
+       "t": "li",
+       "cls": [
+        "card"
+       ],
+       "text": {
+        "hi": "बेहतरीन ट्रेनिंग",
+        "en": "Best-in-class training"
+       }
+      },
+      {
+       "t": "li",
+       "cls": [
+        "card"
+       ],
+       "text": {
+        "hi": "मुख्यधारा के रोज़गार का रास्ता",
+        "en": "A path to mainstream employment"
+       }
+      },
+      {
+       "t": "li",
+       "cls": [
+        "card"
+       ],
+       "text": {
+        "hi": "उम्र की कोई सीमा नहीं",
+        "en": "No age limit"
+       }
+      },
+      {
+       "t": "li",
+       "cls": [
+        "card"
+       ],
+       "text": {
+        "hi": "ज़िंदगी भर काम",
+        "en": "Work for a lifetime"
+       }
+      }
+     ],
+     "src": "WHY-04",
+     "cls": [
+      "grid"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "स्रोत: LIC एजेंट भर्ती प्रस्तुति (LIC का आधिकारिक टेम्पलेट, 2026)।",
+      "en": "Source: LIC agent recruitment presentation (official LIC template, 2026)."
+     },
+     "cls": [
+      "src"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "बाज़ार इंतज़ार कर रहा है",
+      "en": "The market is waiting"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "हर बिज़नेस को ग्राहक चाहिए। देखिए, भारत में आज भी बहुत बड़ी संख्या में परिवारों को सलाहकार की ज़रूरत क्यों है।",
+      "en": "A business needs customers. Here is why India has millions of families who still need an advisor."
+     }
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "ज़्यादातर परिवार अब भी पूरी तरह सुरक्षित नहीं हैं",
+      "en": "Most families are still under-protected"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "जीवन बीमा के मामले में भारत दुनिया के सबसे कम बीमित देशों में है। सुरक्षा अंतर 83% है — परिवारों को जितने बीमा की ज़रूरत है, उसका ज़्यादातर हिस्सा अभी है ही नहीं।",
+      "en": "India is one of the least-insured life-insurance markets in the world. The protection gap is 83% — most of the cover families need is still missing."
+     },
+     "src": "WHY-07"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "लगभग 90% भारतीयों के पास पर्याप्त बीमा नहीं है। बीमा पैठ (पेनिट्रेशन) सिर्फ़ 4.8% है। सीधे शब्दों में: ज़्यादातर घरों के लिए एक बुरा दिन बरसों की बचत मिटा सकता है।",
+      "en": "About 90% of Indians are not adequately insured. Insurance penetration is just 4.8%. In plain words: for most homes, one bad day could undo years of saving."
+     },
+     "src": "WHY-08"
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "एक युवा देश, जिसे काम चाहिए",
+      "en": "A young country that needs work"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "भारत युवा है। औसत उम्र 29 साल है। लगभग 65% लोग कामकाजी उम्र (20–50) के हैं। यह फ़ायदा लगभग 2050 तक रहेगा — यानी क़रीब अगले 30 साल।",
+      "en": "India is young. The average age is 29 years. About 65% of people are of working age (20–50). This advantage lasts till about 2050 — roughly the next 30 years."
+     },
+     "src": "WHY-09"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "सरकारी अनुमान के मुताबिक़ भारत को अगले दशक तक हर साल 1 से 1.5 करोड़ नई नौकरियाँ चाहिए। बड़ी सरकारी और निजी कंपनियाँ इतने बड़े पैमाने पर नौकरियाँ नहीं बना सकतीं। अच्छी नौकरियों के लिए होड़ कड़ी होगी — इसीलिए अपना बिज़नेस बनाना मायने रखता है। <a href=\"#startup\">अपने बॉस ख़ुद बनिए →</a>",
+      "en": "Government estimates say India needs 1 to 1.5 crore new jobs every year for the next decade. Large public and private businesses cannot create jobs at that scale. Competition for good jobs will be fierce — which is why building your own business matters. <a href=\"#startup\">Be your own boss →</a>"
+     },
+     "src": "WHY-10"
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "भारतीय बचत करते हैं — लंबे समय के लिए",
+      "en": "Indians save — for the long term"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "वित्त वर्ष 2022-23 में भारतीयों ने GDP का 11% वित्तीय संपत्तियों में लगाया। इसमें जीवन बीमा फ़ंड का हिस्सा 18% रहा (RBI वार्षिक रिपोर्ट 2022-23)।",
+      "en": "In FY 2022-23, Indians put 11% of GDP into financial assets. Life-insurance funds took an 18% share of that (RBI Annual Report 2022-23)."
+     },
+     "src": "WHY-11"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "लोग बचत क्यों करते हैं? सबसे बड़े कारण लंबे समय की ज़रूरतें हैं — और जीवन बीमा ठीक इन्हीं के लिए बना है।",
+      "en": "Why do people save? The top reasons are long-term needs — exactly what life insurance is built for."
+     },
+     "src": "WHY-12"
+    },
+    {
+     "t": "figure",
+     "children": [
+      {
+       "t": "figcaption",
+       "text": {
+        "hi": "भारतीय बचत क्यों करते हैं (% लोग)। स्रोत: बचत के तरीक़ों पर एक रिपोर्ट, LIC फ़ील्ड ट्रेनिंग सामग्री (2023-24) के अनुसार।",
+        "en": "Why Indians save (% of people). Source: savings-pattern report, as quoted in LIC field training material (2023-24)."
+       }
+      },
+      {
+       "t": "details",
+       "summary": {
+        "hi": "आँकड़े देखें",
+        "en": "See the numbers"
+       },
+       "children": [
+        {
+         "t": "box",
+         "children": [
+          {
+           "t": "table",
+           "caption": {
+            "hi": "भारतीय बचत क्यों करते हैं",
+            "en": "Why Indians save"
+           },
+           "head": [
+            [
+             {
+              "text": {
+               "hi": "कारण",
+               "en": "Reason"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "% लोग",
+               "en": "% of people"
+              },
+              "th": true
+             }
+            ]
+           ],
+           "rows": [
+            [
+             {
+              "text": {
+               "hi": "आपात स्थिति",
+               "en": "Emergencies"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "83%",
+               "en": "83%"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "बच्चों की पढ़ाई",
+               "en": "Children’s education"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "81%",
+               "en": "81%"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "बुढ़ापा",
+               "en": "Old age"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "69%",
+               "en": "69%"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "शादी, जन्म और सामाजिक समारोह",
+               "en": "Marriages, births and social ceremonies"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "63%",
+               "en": "63%"
+              },
+              "num": true
+             }
+            ]
+           ],
+           "src": "WHY-12",
+           "cls": [
+            "data"
+           ],
+           "id": "ch01-table"
+          }
+         ],
+         "cls": [
+          "table-scroll"
+         ]
+        }
+       ]
+      }
+     ],
+     "src": "CH-01 WHY-12",
+     "chart": {
+      "id": "ch01",
+      "fallback": "ch01-table",
+      "aria": {
+       "hi": "बार चार्ट: भारतीय बचत क्यों करते हैं — आपात स्थिति 83%, बच्चों की पढ़ाई 81%, बुढ़ापा 69%, शादी और समारोह 63%",
+       "en": "Bar chart: why Indians save — emergencies 83%, children's education 81%, old age 69%, marriages and ceremonies 63%"
+      }
+     }
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "बढ़ती अर्थव्यवस्था, बढ़ता मध्यम वर्ग",
+      "en": "A growing economy and a growing middle class"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "भारत दुनिया की सबसे तेज़ी से बढ़ने वाली बड़ी अर्थव्यवस्था है — 7% की रफ़्तार से, जबकि दुनिया का औसत 2.7% है।",
+      "en": "India is the world’s fastest-growing large economy — growing at 7%, against a world average of 2.7%."
+     },
+     "src": "WHY-13"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "ज़्यादा परिवार मध्यम वर्ग (सालाना आय ₹5–30 लाख) और अमीर वर्ग (₹30 लाख से ज़्यादा) में आ रहे हैं। PwC का अनुमान है कि 2013 से 2030 के बीच भारतीयों की औसत आय चार गुना हो जाएगी। ज़्यादा आय का मतलब है — सुरक्षित करने को ज़्यादा।",
+      "en": "More families are moving into the middle class (income ₹5–30 lakh a year) and the rich class (above ₹30 lakh). PwC expects average Indian wages to quadruple between 2013 and 2030. More income means more to protect."
+     },
+     "src": "WHY-14"
+    },
+    {
+     "t": "figure",
+     "children": [
+      {
+       "t": "figcaption",
+       "text": {
+        "hi": "भारत का मध्यम और अमीर वर्ग, करोड़ लोगों में (2030-31 और 2046-47 अनुमान हैं)। स्रोत: LIC फ़ील्ड ट्रेनिंग सामग्री (2023-24)।",
+        "en": "India’s middle and rich classes, in crore people (2030-31 and 2046-47 are projections). Source: LIC field training material (2023-24)."
+       }
+      },
+      {
+       "t": "details",
+       "summary": {
+        "hi": "आँकड़े देखें",
+        "en": "See the numbers"
+       },
+       "children": [
+        {
+         "t": "box",
+         "children": [
+          {
+           "t": "table",
+           "caption": {
+            "hi": "लोगों की संख्या, करोड़ में",
+            "en": "Number of people, in crore"
+           },
+           "head": [
+            [
+             {
+              "text": {
+               "hi": "वर्ग",
+               "en": "Class"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "2020-21",
+               "en": "2020-21"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "2030-31",
+               "en": "2030-31"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "2046-47",
+               "en": "2046-47"
+              },
+              "th": true,
+              "num": true
+             }
+            ]
+           ],
+           "rows": [
+            [
+             {
+              "text": {
+               "hi": "मध्यम वर्ग (सालाना ₹5–30 लाख)",
+               "en": "Middle class (₹5–30 lakh a year)"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "43",
+               "en": "43"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "71",
+               "en": "71"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "100",
+               "en": "100"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "अमीर वर्ग (सालाना ₹30 लाख से ज़्यादा)",
+               "en": "Rich class (above ₹30 lakh a year)"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "6",
+               "en": "6"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "17",
+               "en": "17"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "44",
+               "en": "44"
+              },
+              "num": true
+             }
+            ]
+           ],
+           "src": "WHY-14",
+           "cls": [
+            "data"
+           ],
+           "id": "ch02-table"
+          }
+         ],
+         "cls": [
+          "table-scroll"
+         ]
+        }
+       ]
+      }
+     ],
+     "src": "CH-02 WHY-14",
+     "chart": {
+      "id": "ch02",
+      "fallback": "ch02-table",
+      "aria": {
+       "hi": "ग्रुप बार चार्ट: 2020-21 से 2046-47 के बीच मध्यम वर्ग 43 से 71 और फिर 100 करोड़ लोग, अमीर वर्ग 6 से 17 और फिर 44 करोड़",
+       "en": "Grouped bar chart: middle class grows from 43 to 71 to 100 crore people, rich class from 6 to 17 to 44 crore, between 2020-21 and 2046-47"
+      }
+     }
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "जागरूकता बढ़ रही है — और प्रीमियम भी",
+      "en": "Awareness is rising — and so is premium"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "संयुक्त परिवार टूट रहे हैं, सामाजिक सुरक्षा कम है, और यह क्षेत्र खुल गया है। इन सबसे जागरूकता बढ़ी है। उद्योग का पहले साल का प्रीमियम ₹9,707 करोड़ (2000-01) से बढ़कर ₹3,77,960 करोड़ (2023-24) हो गया — 23 सालों तक हर साल लगभग 17% की चक्रवृद्धि बढ़त।",
+      "en": "Joint families are splitting, there is little social security, and the sector has opened up. All of this has raised awareness. The industry’s first-year premium grew from ₹9,707 crore (2000-01) to ₹3,77,960 crore (2023-24) — about 17% growth a year, compounded, for 23 years."
+     },
+     "src": "WHY-15"
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "एक नाम, जिस पर लोग पहले से भरोसा करते हैं",
+      "en": "A name people already trust"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "LIC दुनिया की अग्रणी जीवन बीमा कंपनियों में से एक है। भारत में बहुत से लोग जीवन बीमा को ही “LIC” कहते हैं। 31/03/2024 को LIC की ब्रांड वैल्यू ₹82,546 करोड़ थी — और यही नाम आपके विज़िटिंग कार्ड पर होगा, जिससे पहली बातचीत आसान हो जाती है।",
+      "en": "LIC is one of the leading life insurers in the world. In India, many people simply say “LIC” when they mean life insurance. LIC’s brand value was ₹82,546 crore as on 31/03/2024 — and you carry that name on your visiting card, which makes the first conversation easier."
+     },
+     "src": "WHY-16"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "वित्त वर्ष 2024-25 में भारत के पूरे बीमा उद्योग ने ₹11,97,438 करोड़ प्रीमियम जुटाया। अकेले LIC ने लगभग ₹4.88 लाख करोड़ जुटाए — बाकी हर बीमा कंपनी से बहुत आगे।",
+      "en": "In FY 2024-25, India’s whole insurance industry collected ₹11,97,438 crore in premium. LIC alone collected about ₹4.88 lakh crore — far ahead of every other insurer."
+     },
+     "src": "WHY-17"
+    },
+    {
+     "t": "figure",
+     "children": [
+      {
+       "t": "figcaption",
+       "text": {
+        "hi": "वित्त वर्ष 2024-25 में जुटाया गया प्रीमियम, ₹ हज़ार करोड़ में (लगभग, जैसा छपा है)। इसमें स्रोत ग्राफ़िक में नाम सहित दिखाई गई जीवन बीमा कंपनियाँ और उसका “अन्य — 39 कंपनियाँ” हिस्सा है; जनरल और हेल्थ बीमा कंपनियाँ नहीं दिखाई गई हैं, क्योंकि उनके नाम भरोसे के साथ मिलाए नहीं जा सके। उद्योग का कुल प्रीमियम: ₹11,97,438 करोड़। स्रोत: IRDAI वार्षिक रिपोर्ट 2024-25, एक फ़ील्ड इन्फ़ोग्राफ़िक के हवाले से।",
+        "en": "Premium collected in FY 2024-25, in ₹ thousand crore (approximate, as printed). Shows the life insurers labelled in the source graphic and its “Other — 39 companies” slice; general and health insurers are not shown because their labels could not be matched reliably. Industry total: ₹11,97,438 crore. Source: IRDAI Annual Report 2024-25, as quoted in a field infographic."
+       }
+      },
+      {
+       "t": "details",
+       "summary": {
+        "hi": "आँकड़े देखें",
+        "en": "See the numbers"
+       },
+       "children": [
+        {
+         "t": "box",
+         "children": [
+          {
+           "t": "table",
+           "caption": {
+            "hi": "बीमा कंपनी के अनुसार प्रीमियम, वित्त वर्ष 2024-25 (जैसा छपा है)",
+            "en": "Premium by insurer, FY 2024-25 (as printed)"
+           },
+           "head": [
+            [
+             {
+              "text": {
+               "hi": "बीमा कंपनी",
+               "en": "Insurer"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "प्रीमियम (जैसा छपा है)",
+               "en": "Premium (as printed)"
+              },
+              "th": true
+             }
+            ]
+           ],
+           "rows": [
+            [
+             {
+              "text": {
+               "hi": "LIC",
+               "en": "LIC"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "≈ ₹4.88 लाख करोड़",
+               "en": "≈ ₹4.88 lakh crore"
+              }
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "SBI Life",
+               "en": "SBI Life"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "≈ ₹85 हज़ार करोड़",
+               "en": "≈ ₹85K crore"
+              }
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "HDFC Life",
+               "en": "HDFC Life"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "≈ ₹71 हज़ार करोड़",
+               "en": "≈ ₹71K crore"
+              }
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "ICICI Prudential Life",
+               "en": "ICICI Prudential Life"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "≈ ₹49 हज़ार करोड़",
+               "en": "≈ ₹49K crore"
+              }
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "Axis Max Life",
+               "en": "Axis Max Life"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "≈ ₹37 हज़ार करोड़",
+               "en": "≈ ₹37K crore"
+              }
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "Tata AIA Life",
+               "en": "Tata AIA Life"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "≈ ₹31 हज़ार करोड़",
+               "en": "≈ ₹31K crore"
+              }
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "Bajaj Allianz Life",
+               "en": "Bajaj Allianz Life"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "≈ ₹27 हज़ार करोड़",
+               "en": "≈ ₹27K crore"
+              }
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "Birla Sun Life",
+               "en": "Birla Sun Life"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "≈ ₹21 हज़ार करोड़",
+               "en": "≈ ₹21K crore"
+              }
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "Kotak Life",
+               "en": "Kotak Life"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "≈ ₹18 हज़ार करोड़",
+               "en": "≈ ₹18K crore"
+              }
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "अन्य — 39 कंपनियाँ",
+               "en": "Other — 39 companies"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "≈ ₹1.5 लाख करोड़",
+               "en": "≈ ₹1.5 lakh crore"
+              }
+             }
+            ]
+           ],
+           "src": "WHY-17",
+           "cls": [
+            "data"
+           ],
+           "id": "ch03-table"
+          }
+         ],
+         "cls": [
+          "table-scroll"
+         ]
+        }
+       ]
+      }
+     ],
+     "src": "CH-03 WHY-17",
+     "chart": {
+      "id": "ch03",
+      "fallback": "ch03-table",
+      "aria": {
+       "hi": "क्षैतिज बार चार्ट: वित्त वर्ष 2024-25 में जीवन बीमा कंपनियों का प्रीमियम; LIC लगभग 4.88 लाख करोड़ रुपये, अगली कंपनी लगभग 85 हज़ार करोड़ पर",
+       "en": "Horizontal bar chart: premium by life insurer in FY 2024-25; LIC about 4.88 lakh crore rupees, far ahead of the next insurer at about 85 thousand crore"
+      }
+     }
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "पेशेवर बहुत कम — आपके लिए जगह",
+      "en": "Too few professionals — room for you"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "LIC के सिर्फ़ लगभग 14 लाख सलाहकार हैं — बीमा योग्य आबादी के लिए यह काफ़ी नहीं। एजेंसी फ़ोर्स के सिर्फ़ 10% लोग पेशेवर तरीक़े से काम करते हैं, और कुल बिज़नेस का 70% वही लाते हैं। हम आपको उसी टॉप ग्रुप तक पहुँचने में मदद करते हैं।",
+      "en": "There are only about 14 lakh LIC advisors — not enough for the insurable population. Only 10% of the agency force works as professionals, and they bring 70% of the total business. That top group is where we help you aim."
+     },
+     "src": "WHY-18"
+    },
+    {
+     "t": "figure",
+     "children": [
+      {
+       "t": "figcaption",
+       "text": {
+        "hi": "पेशेवर एजेंट: एजेंसी फ़ोर्स में हिस्सा बनाम बिज़नेस में हिस्सा (%)। स्रोत: LIC फ़ील्ड ट्रेनिंग सामग्री (2023-24)।",
+        "en": "Professional agents: share of the agency force vs share of business (%). Source: LIC field training material (2023-24)."
+       }
+      },
+      {
+       "t": "details",
+       "summary": {
+        "hi": "आँकड़े देखें",
+        "en": "See the numbers"
+       },
+       "children": [
+        {
+         "t": "box",
+         "children": [
+          {
+           "t": "table",
+           "caption": {
+            "hi": "पेशेवर एजेंट (%)",
+            "en": "Professional agents (%)"
+           },
+           "head": [
+            [
+             {
+              "text": {
+               "hi": "पैमाना",
+               "en": "Measure"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "%",
+               "en": "%"
+              },
+              "th": true,
+              "num": true
+             }
+            ]
+           ],
+           "rows": [
+            [
+             {
+              "text": {
+               "hi": "एजेंसी फ़ोर्स में हिस्सा",
+               "en": "Share of the agency force"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "10%",
+               "en": "10%"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "कुल बिज़नेस में हिस्सा",
+               "en": "Share of total business"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "70%",
+               "en": "70%"
+              },
+              "num": true
+             }
+            ]
+           ],
+           "src": "WHY-18",
+           "cls": [
+            "data"
+           ],
+           "id": "ch04-table"
+          }
+         ],
+         "cls": [
+          "table-scroll"
+         ]
+        }
+       ]
+      }
+     ],
+     "src": "CH-04 WHY-18",
+     "chart": {
+      "id": "ch04",
+      "fallback": "ch04-table",
+      "aria": {
+       "hi": "बार चार्ट: पेशेवर एजेंट एजेंसी फ़ोर्स का सिर्फ़ 10% हैं, पर कुल बिज़नेस का 70% लाते हैं",
+       "en": "Bar chart: professional agents are 10% of the agency force but bring 70% of total business"
+      }
+     }
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "हर दशक, मध्यम वर्ग के और ज़्यादा परिवार",
+      "en": "More middle-class families every decade"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "सालाना ₹5–20 लाख कमाने वाले परिवार कई गुना बढ़े हैं — और 2029-30 तक इनके 33 करोड़ होने का अनुमान है। एक अनुमान के अनुसार भारत की अर्थव्यवस्था 20 सालों में पाँच गुना बढ़ेगी।",
+      "en": "Families earning ₹5–20 lakh a year have multiplied — and are projected to reach 33 crore by 2029-30. One estimate expects the Indian economy to grow fivefold in 20 years."
+     },
+     "src": "WHY-19"
+    },
+    {
+     "t": "figure",
+     "children": [
+      {
+       "t": "figcaption",
+       "text": {
+        "hi": "मध्यम वर्ग के परिवार (सालाना आय ₹5–20 लाख), करोड़ में; 2029-30 अनुमान है। स्रोत: इंडस्ट्री ट्रेनिंग बुकलेट (2024)।",
+        "en": "Middle-class families (income ₹5–20 lakh a year), in crore; 2029-30 is a projection. Source: industry training booklet (2024)."
+       }
+      },
+      {
+       "t": "details",
+       "summary": {
+        "hi": "आँकड़े देखें",
+        "en": "See the numbers"
+       },
+       "children": [
+        {
+         "t": "box",
+         "children": [
+          {
+           "t": "table",
+           "caption": {
+            "hi": "मध्यम वर्ग के परिवार (जैसा छपा है)",
+            "en": "Middle-class families (as printed)"
+           },
+           "head": [
+            [
+             {
+              "text": {
+               "hi": "वर्ष",
+               "en": "Year"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "परिवार",
+               "en": "Families"
+              },
+              "th": true
+             }
+            ]
+           ],
+           "rows": [
+            [
+             {
+              "text": {
+               "hi": "1995-96",
+               "en": "1995-96"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "46 लाख",
+               "en": "46 lakh"
+              }
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "2001-02",
+               "en": "2001-02"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "1.07 करोड़",
+               "en": "1.07 crore"
+              }
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "2009-10",
+               "en": "2009-10"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "2.9 करोड़",
+               "en": "2.9 crore"
+              }
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "2019-20",
+               "en": "2019-20"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "6.5 करोड़",
+               "en": "6.5 crore"
+              }
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "2029-30 (अनुमान)",
+               "en": "2029-30 (projected)"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "33 करोड़",
+               "en": "33 crore"
+              }
+             }
+            ]
+           ],
+           "src": "WHY-19",
+           "cls": [
+            "data"
+           ],
+           "id": "ch05-table"
+          }
+         ],
+         "cls": [
+          "table-scroll"
+         ]
+        }
+       ]
+      }
+     ],
+     "src": "CH-05 WHY-19",
+     "chart": {
+      "id": "ch05",
+      "fallback": "ch05-table",
+      "aria": {
+       "hi": "लाइन चार्ट: मध्यम वर्ग के परिवार 1995-96 में 46 लाख से बढ़कर 2029-30 तक अनुमानित 33 करोड़",
+       "en": "Line chart: middle-class families rise from 46 lakh in 1995-96 to a projected 33 crore in 2029-30"
+      }
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "h4",
+       "text": {
+        "hi": "सब कुछ एक साथ देखिए",
+        "en": "Put it all together"
+       }
+      },
+      {
+       "t": "ul",
+       "items": [
+        {
+         "t": "li",
+         "text": {
+          "hi": "दुनिया की सबसे कम बीमित आबादी में से एक",
+          "en": "One of the least-insured populations in the world"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "बहुत कम पेशेवर एजेंट",
+          "en": "Very few professional agents"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "बहुत बड़ा सुरक्षा अंतर",
+          "en": "A huge protection gap"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "युवा, कामकाजी आबादी",
+          "en": "A young, working population"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "ऊँची निजी बचत",
+          "en": "High personal savings"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "बढ़ता मध्यम और उच्च-आय वर्ग",
+          "en": "A growing middle and higher-income class"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "बढ़ती बीमा जागरूकता",
+          "en": "Rising insurance awareness"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "LIC का मज़बूत ब्रांड",
+          "en": "A strong LIC brand"
+         }
+        }
+       ]
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "<strong>ये सब मिलकर एक पेशेवर LIC सलाहकार के रूप में करियर बनाने का ज़बरदस्त मौक़ा बनाते हैं।</strong>",
+        "en": "<strong>Together, they make a tremendous opportunity to build your career as a professional LIC advisor.</strong>"
+       }
+      }
+     ],
+     "src": "WHY-20",
+     "cls": [
+      "recap"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "देश का साथ",
+      "en": "Backed by the nation"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "Sovereign Guarantee (सरकार की ज़मानत): LIC अधिनियम, 1956 की धारा 37 के तहत, निगम की सभी पॉलिसियों की बीमा राशि (सम एश्योर्ड) — घोषित बोनस सहित — के नकद भुगतान की ज़िम्मेदारी केंद्र सरकार की है। यानी जब आप LIC पॉलिसी बेचते हैं, तो उसके पीछे भारत सरकार खड़ी होती है।",
+      "en": "Sovereign guarantee: under Section 37 of the LIC Act, 1956, the sums assured by all policies issued by the Corporation, including bonuses declared, are guaranteed as to payment in cash by the Central Government. When you sell an LIC policy, the Government of India stands behind it."
+     },
+     "src": "WHY-34"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "संदर्भ: जीवन बीमा निगम अधिनियम, 1956, धारा 37।",
+      "en": "Reference: Life Insurance Corporation Act, 1956, Section 37."
+     },
+     "cls": [
+      "src"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "आप जो प्रीमियम जुटाते हैं, वह बेकार नहीं पड़ा रहता। वह सड़कों, रेलवे, बंदरगाहों, पुलों, जल आपूर्ति, बिजली और आवास में लगता है। आपकी बेची हर पॉलिसी देश के विकास में थोड़ा-सा योगदान देती है।",
+      "en": "The premium you collect does not sit idle. It goes into roads, railways, ports, bridges, water supply, electricity and housing. Every policy you sell adds a little to India’s development."
+     },
+     "src": "WHY-38"
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "यह पेशा आपको क्या देता है",
+      "en": "What this profession gives you"
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "अपना समय, अपनी मर्ज़ी",
+          "en": "Your own timings"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "अपने समय के हिसाब से काम कीजिए और ख़ाली समय का अच्छा इस्तेमाल कीजिए। कई सफल एजेंटों ने पार्ट-टाइम से शुरुआत की थी।",
+          "en": "Work according to your own timings and make good use of your free time. Many successful agents started part-time."
+         }
+        }
+       ],
+       "src": "WHY-39",
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "असीमित आय",
+          "en": "Unlimited income"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "अपनी आय आप ख़ुद तय करते हैं, और पैसा नियमित आता रहता है। कमाई के मौक़ों की कोई तय सीमा नहीं।",
+          "en": "You decide your own income, with a regular cash flow. The earning opportunities have no fixed limit."
+         }
+        }
+       ],
+       "src": "WHY-40",
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "कोई ऊपरी सीमा नहीं",
+          "en": "No ceiling"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "LIC एजेंसी उन गिने-चुने पेशों में से है, जिनमें कमाई की कोई ऊपरी सीमा नहीं।",
+          "en": "LIC agency is one of the few professions with no ceiling on earnings."
+         }
+        }
+       ],
+       "src": "WHY-41",
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "समाज में रुतबा",
+          "en": "Social status"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "समाज में अच्छी पहचान। गाड़ी या विज़िटिंग कार्ड पर “LIC” लिखा हो, तो लोग इज़्ज़त से देखते हैं।",
+          "en": "Good recognition in society. “LIC” on your vehicle or visiting card gives you standing."
+         }
+        }
+       ],
+       "src": "WHY-42",
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "कोई सरहद नहीं",
+          "en": "No boundaries"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "देश में कहीं भी बिज़नेस कीजिए — दुनिया में कहीं भी।",
+          "en": "Do business anywhere in the country — anywhere in the world."
+         }
+        }
+       ],
+       "src": "WHY-43",
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "एक सच्चा पेशेवर",
+          "en": "A true professional"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "जैसे वित्तीय, क़ानूनी, अकाउंटिंग और हेल्थ कंसल्टेंट होते हैं, वैसे ही LIC एजेंट एक इंश्योरेंस कंसल्टेंट होता है।",
+          "en": "Like financial, legal, accounting and health consultants, an LIC agent is an Insurance Consultant."
+         }
+        }
+       ],
+       "src": "WHY-44",
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "जनसंपर्क",
+          "en": "Public relations"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "आपका नेटवर्क बढ़ता है — कई एजेंट समाज के सम्मानित नेता बन जाते हैं।",
+          "en": "Your network grows — many agents become respected community leaders."
+         }
+        }
+       ],
+       "src": "WHY-45",
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "काम का सच्चा संतोष",
+          "en": "Real job satisfaction"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "जब किसी ग्राहक के परिवार को LIC से क्लेम की रक़म मिलती है — और उस वक़्त आप उनके साथ होते हैं — उस पल जैसा संतोष कम ही मिलता है।",
+          "en": "Few moments compare to seeing a customer’s family receive their claim money from LIC — because you were there."
+         }
+        }
+       ],
+       "src": "WHY-46",
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "100% व्हाइट मनी",
+          "en": "100% white money"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "सारा कमीशन टैक्स योग्य आय है। टैक्स स्रोत पर ही कटता है (TDS), और एजेंट हर साल इनकम टैक्स रिटर्न भरते हैं।",
+          "en": "All commission is taxable income. Tax is deducted at source, and agents file income-tax returns every year."
+         }
+        }
+       ],
+       "src": "WHY-47",
+       "cls": [
+        "card"
+       ]
+      }
+     ],
+     "cls": [
+      "grid"
+     ]
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "शुरू करने के लिए क्या चाहिए?",
+      "en": "What does it take to start?"
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "table",
+       "caption": {
+        "hi": "कमाई शुरू करने से पहले हर पेशे को क्या चाहिए",
+        "en": "What each profession needs before you can start earning"
+       },
+       "head": [
+        [
+         {
+          "text": {
+           "hi": "पेशा",
+           "en": "Profession"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "डिग्री?",
+           "en": "Degree?"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "निवेश?",
+           "en": "Investment?"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "समय?",
+           "en": "Time?"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "कार्यस्थल?",
+           "en": "Workplace?"
+          },
+          "th": true
+         }
+        ]
+       ],
+       "rows": [
+        [
+         {
+          "text": {
+           "hi": "डॉक्टर",
+           "en": "Doctor"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "✓",
+           "en": "✓"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "✓",
+           "en": "✓"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "✓",
+           "en": "✓"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "✓",
+           "en": "✓"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "सी.ए.",
+           "en": "C.A."
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "✓",
+           "en": "✓"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "✓",
+           "en": "✓"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "✓",
+           "en": "✓"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "✓",
+           "en": "✓"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "वकील",
+           "en": "Lawyer"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "✓",
+           "en": "✓"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "✓",
+           "en": "✓"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "✓",
+           "en": "✓"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "✓",
+           "en": "✓"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "इंजीनियर",
+           "en": "Engineer"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "✓",
+           "en": "✓"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "✓",
+           "en": "✓"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "✓",
+           "en": "✓"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "✓",
+           "en": "✓"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "<strong>LIC एजेंट</strong>",
+           "en": "<strong>LIC Agent</strong>"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "✗",
+           "en": "✗"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "✗",
+           "en": "✗"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "✗",
+           "en": "✗"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "✗",
+           "en": "✗"
+          },
+          "num": true
+         }
+        ]
+       ],
+       "src": "WHY-48",
+       "cls": [
+        "data"
+       ]
+      }
+     ],
+     "cls": [
+      "table-scroll"
+     ]
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "समय और पैसा — दोनों किसके पास?",
+      "en": "Time and money — who has both?"
+     }
+    },
+    {
+     "t": "figure",
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "समय है",
+          "en": "Have time"
+         },
+         "cls": [
+          "ax"
+         ]
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "समय नहीं",
+          "en": "No time"
+         },
+         "cls": [
+          "ax"
+         ]
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "पैसा है",
+          "en": "Have money"
+         },
+         "cls": [
+          "ax"
+         ]
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "<span>5%</span>दोनों — एजेंट",
+          "en": "<span>5%</span>Both — agents"
+         },
+         "cls": [
+          "cell",
+          "hl"
+         ]
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "<span>5%</span>पैसा है, समय नहीं — प्रोफ़ेशनल",
+          "en": "<span>5%</span>Money, no time — professionals"
+         },
+         "cls": [
+          "cell"
+         ]
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "पैसा नहीं",
+          "en": "No money"
+         },
+         "cls": [
+          "ax"
+         ]
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "<span>10%</span>समय है, पैसा नहीं — रिटायर और बेरोज़गार",
+          "en": "<span>10%</span>Time, no money — retired and unemployed"
+         },
+         "cls": [
+          "cell"
+         ]
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "<span>80%</span>दोनों नहीं — नौकरीपेशा लोग",
+          "en": "<span>80%</span>Neither — salaried people"
+         },
+         "cls": [
+          "cell"
+         ]
+        }
+       ],
+       "cls": [
+        "matrix"
+       ]
+      },
+      {
+       "t": "figcaption",
+       "text": {
+        "hi": "एजेंट समय और पैसा, दोनों बना सकते हैं। आँकड़े LIC फ़ील्ड ट्रेनिंग सामग्री के अनुसार।",
+        "en": "Agents can build both time and money. Figures as printed in LIC field training material."
+       }
+      }
+     ],
+     "src": "CH-11 WHY-49"
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "भ्रम तोड़िए: आपको ये होने की ज़रूरत नहीं…",
+      "en": "Myth-busters: you do NOT need to be…"
+     }
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "बहुत बातूनी",
+        "en": "highly talkative"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "बहुत ज़्यादा पढ़े-लिखे",
+        "en": "highly qualified"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "बहुत तेज़ दिमाग़ वाले",
+        "en": "highly intelligent"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "किसी अमीर परिवार से",
+        "en": "from a rich background"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "किसी ख़ास जाति से",
+        "en": "from any particular caste background"
+       }
+      }
+     ],
+     "src": "WHY-05",
+     "cls": [
+      "checklist"
+     ]
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "कौन जुड़ सकता है?",
+      "en": "Who can join?"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "18 साल की उम्र पूरी कर चुके सभी भारतीय LIC एजेंसी ले सकते हैं। पढ़ाई 12वीं पास होनी चाहिए — पुरुषों और महिलाओं, दोनों के लिए यही नियम है। <a href=\"#procedure\">कैसे जुड़ें →</a>",
+      "en": "Any Indian who has completed 18 years of age can take up LIC agency. The education requirement is 12th pass — the same for men and women. <a href=\"#procedure\">How to join →</a>"
+     },
+     "src": "WHY-06 PROC-02"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "ज़िंदगी के हर क्षेत्र से लोग एजेंट बने हैं: डॉक्टर, इंजीनियर, सी.ए., शेयर ब्रोकर, वकील, फ़िल्मी सितारे, CEO, कारोबारी, गृहिणियाँ और छात्र।",
+      "en": "People from all walks of life have become agents: doctors, engineers, C.A.s, share brokers, lawyers, movie stars, CEOs, businesspeople, homemakers and students."
+     },
+     "src": "WHY-50"
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "p",
+   "text": {
+    "hi": "LIC की पुरानी ट्रेनिंग प्रस्तुतियों में ज़िंदगी के कई क्षेत्रों से आए एजेंटों का ज़िक्र है — इनमें कुछ जाने-माने नाम भी हैं।",
+    "en": "LIC’s older training decks feature agents from many walks of life — including some well-known names."
+   },
+   "src": "WHY-51"
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "p",
+     "text": {
+      "hi": "बीमा बेचने को अक्सर सबसे कठिन कामों में गिना जाता है। फिर भी LIC उन एजेंटों का सम्मान करती है, जिन्होंने असली मुश्किलें पार कीं — जो आज लाखों-करोड़ों कमाते हैं और दुनिया भर में सम्मान पाते हैं। <a href=\"#career\">उनकी कहानियाँ पढ़िए →</a>",
+      "en": "Selling insurance is often called one of the hardest jobs. Yet LIC celebrates agents who overcame real barriers — people who now earn in lakhs and crores, and are respected around the world. <a href=\"#career\">Read their stories →</a>"
+     },
+     "src": "WHY-53"
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "details",
+   "summary": {
+    "hi": "पुराने आँकड़े (2001–2016 की सामग्री के अनुसार)",
+    "en": "Earlier figures (as per 2001–2016 material)"
+   },
+   "children": [
+    {
+     "t": "p",
+     "text": {
+      "hi": "ये आँकड़े LIC की पुरानी ट्रेनिंग प्रस्तुतियों से हैं। ये लंबे समय का रुझान दिखाते हैं। आज की तस्वीर के लिए ऊपर दिए मौजूदा आँकड़े देखें।",
+      "en": "These figures come from older LIC training decks. They show the long-term trend. For today’s picture, see the current data above."
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "भारत की आबादी हर साल लगभग 2 करोड़ बढ़ती है — पुरानी स्लाइड के शब्दों में, “हम हर साल एक ऑस्ट्रेलिया जितनी आबादी जोड़ते हैं”।",
+      "en": "India’s population grows by about 2 crore every year — as the old slide put it, “we produce one Australia every year”."
+     },
+     "src": "WHY-21"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "बीमित बनाम बिना बीमा, अलग-अलग प्रस्तुतियों में जैसा छपा: 24% / 76%; 22% / 78%; और “सिर्फ़ 40% कवर” (2014)।",
+      "en": "Insured vs not insured, as printed in different decks: 24% / 76%; 22% / 78%; and “only 40% covered” (2014)."
+     },
+     "src": "WHY-22"
+    },
+    {
+     "t": "figure",
+     "children": [
+      {
+       "t": "figcaption",
+       "text": {
+        "hi": "बीमित बनाम बिना बीमा (%), पुरानी LIC ट्रेनिंग सामग्री के अनुसार।",
+        "en": "Insured vs not insured (%), as per earlier LIC training material."
+       }
+      },
+      {
+       "t": "details",
+       "summary": {
+        "hi": "आँकड़े देखें",
+        "en": "See the numbers"
+       },
+       "children": [
+        {
+         "t": "box",
+         "children": [
+          {
+           "t": "table",
+           "caption": {
+            "hi": "बीमित बनाम बिना बीमा (पुरानी सामग्री)",
+            "en": "Insured vs not insured (earlier material)"
+           },
+           "head": [
+            [
+             {
+              "text": {
+               "hi": "स्थिति",
+               "en": "Status"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "%",
+               "en": "%"
+              },
+              "th": true,
+              "num": true
+             }
+            ]
+           ],
+           "rows": [
+            [
+             {
+              "text": {
+               "hi": "बीमित",
+               "en": "Insured"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "24%",
+               "en": "24%"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "बिना बीमा",
+               "en": "Not insured"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "76%",
+               "en": "76%"
+              },
+              "num": true
+             }
+            ]
+           ],
+           "src": "WHY-22",
+           "cls": [
+            "data"
+           ],
+           "id": "ch06-table"
+          }
+         ],
+         "cls": [
+          "table-scroll"
+         ]
+        }
+       ]
+      }
+     ],
+     "src": "CH-06 WHY-22",
+     "chart": {
+      "id": "ch06",
+      "fallback": "ch06-table",
+      "aria": {
+       "hi": "पाई चार्ट: पुरानी सामग्री के अनुसार 24% बीमित, 76% बिना बीमा",
+       "en": "Pie chart: 24% insured, 76% not insured, as per earlier material"
+      }
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "उस समय का अनुमान: व्यक्तिगत और कॉर्पोरेट बीमा में प्रीमियम ₹35,000 करोड़ (2002) से बढ़कर ₹1,75,000 करोड़ (2007)।",
+      "en": "Expected growth, as forecast then: premium from ₹35,000 crore (2002) to ₹1,75,000 crore (2007), across individual and corporate insurance."
+     },
+     "src": "WHY-23"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "बीमा पैठ (GDP के % के रूप में प्रीमियम), 2013-14: भारत सिर्फ़ 3.10 पर था — ताइवान का लगभग 21%, दक्षिण अफ़्रीका का 24% और हांगकांग का 26%।",
+      "en": "Insurance penetration (premium as % of GDP) in 2013-14: India stood at just 3.10 — about 21% of Taiwan, 24% of South Africa and 26% of Hong Kong."
+     },
+     "src": "WHY-24"
+    },
+    {
+     "t": "figure",
+     "children": [
+      {
+       "t": "figcaption",
+       "text": {
+        "hi": "बीमा पैठ 2013-14 (GDP के % के रूप में प्रीमियम)। स्रोत: Swiss Re Sigma 03/2014, पुरानी LIC ट्रेनिंग सामग्री के अनुसार।",
+        "en": "Insurance penetration 2013-14 (premium as % of GDP). Source: Swiss Re Sigma 03/2014, as printed in earlier LIC training material."
+       }
+      },
+      {
+       "t": "details",
+       "summary": {
+        "hi": "आँकड़े देखें",
+        "en": "See the numbers"
+       },
+       "children": [
+        {
+         "t": "box",
+         "children": [
+          {
+           "t": "table",
+           "caption": {
+            "hi": "बीमा पैठ 2013-14 (GDP का %)",
+            "en": "Insurance penetration 2013-14 (% of GDP)"
+           },
+           "head": [
+            [
+             {
+              "text": {
+               "hi": "देश",
+               "en": "Country"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "GDP का %",
+               "en": "% of GDP"
+              },
+              "th": true
+             }
+            ]
+           ],
+           "rows": [
+            [
+             {
+              "text": {
+               "hi": "ताइवान",
+               "en": "Taiwan"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "14.50",
+               "en": "14.50"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "दक्षिण अफ़्रीका",
+               "en": "South Africa"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "12.70",
+               "en": "12.70"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "हांगकांग",
+               "en": "Hong Kong"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "11.70",
+               "en": "11.70"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "जापान",
+               "en": "Japan"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "8.80",
+               "en": "8.80"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "यूनाइटेड किंगडम",
+               "en": "United Kingdom"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "8.80",
+               "en": "8.80"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "फ़िनलैंड",
+               "en": "Finland"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "8.70",
+               "en": "8.70"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "दक्षिण कोरिया",
+               "en": "South Korea"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "7.50",
+               "en": "7.50"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "डेनमार्क",
+               "en": "Denmark"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "6.90",
+               "en": "6.90"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "स्विट्ज़रलैंड",
+               "en": "Switzerland"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "5.30",
+               "en": "5.30"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "सिंगापुर",
+               "en": "Singapore"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "4.40",
+               "en": "4.40"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "<strong>भारत</strong>",
+               "en": "<strong>India</strong>"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "<strong>3.10</strong>",
+               "en": "<strong>3.10</strong>"
+              },
+              "num": true
+             }
+            ]
+           ],
+           "src": "WHY-24",
+           "cls": [
+            "data"
+           ],
+           "id": "ch07-table"
+          }
+         ],
+         "cls": [
+          "table-scroll"
+         ]
+        }
+       ]
+      }
+     ],
+     "src": "CH-07 WHY-24",
+     "chart": {
+      "id": "ch07",
+      "fallback": "ch07-table",
+      "aria": {
+       "hi": "क्षैतिज बार चार्ट: बीमा पैठ 2013-14 — ताइवान 14.50 सबसे ऊपर, ग्यारह देशों में भारत 3.10 के साथ सबसे नीचे",
+       "en": "Horizontal bar chart: insurance penetration 2013-14, Taiwan 14.50 highest, India 3.10 lowest of eleven countries"
+      }
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "बीमा घनत्व, 2013-14 (प्रति व्यक्ति प्रीमियम, अमेरिकी डॉलर में): भारत सिर्फ़ 41 पर था — विश्व औसत का 11% और हांगकांग का 0.92%।",
+      "en": "Insurance density in 2013-14 (premium per person, in US dollars): India spent just 41 — 11% of the world average and 0.92% of Hong Kong."
+     },
+     "src": "WHY-25"
+    },
+    {
+     "t": "figure",
+     "children": [
+      {
+       "t": "figcaption",
+       "text": {
+        "hi": "बीमा घनत्व 2013-14 (प्रति व्यक्ति प्रीमियम, USD; लॉग स्केल)। स्रोत: पुरानी LIC ट्रेनिंग सामग्री के अनुसार।",
+        "en": "Insurance density 2013-14 (USD premium per person; log scale). Source: as printed in earlier LIC training material."
+       }
+      },
+      {
+       "t": "details",
+       "summary": {
+        "hi": "आँकड़े देखें",
+        "en": "See the numbers"
+       },
+       "children": [
+        {
+         "t": "box",
+         "children": [
+          {
+           "t": "table",
+           "caption": {
+            "hi": "बीमा घनत्व 2013-14 (USD प्रति व्यक्ति)",
+            "en": "Insurance density 2013-14 (USD per person)"
+           },
+           "head": [
+            [
+             {
+              "text": {
+               "hi": "देश",
+               "en": "Country"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "USD",
+               "en": "USD"
+              },
+              "th": true,
+              "num": true
+             }
+            ]
+           ],
+           "rows": [
+            [
+             {
+              "text": {
+               "hi": "हांगकांग",
+               "en": "Hong Kong"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "4445",
+               "en": "4445"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "स्विट्ज़रलैंड",
+               "en": "Switzerland"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "4211",
+               "en": "4211"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "यूनाइटेड किंगडम",
+               "en": "United Kingdom"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "3474",
+               "en": "3474"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "जापान",
+               "en": "Japan"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "3346",
+               "en": "3346"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "स्वीडन",
+               "en": "Sweden"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "3215",
+               "en": "3215"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "ताइवान",
+               "en": "Taiwan"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "3204",
+               "en": "3204"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "सिंगापुर",
+               "en": "Singapore"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "2388",
+               "en": "2388"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "दक्षिण कोरिया",
+               "en": "South Korea"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "1816",
+               "en": "1816"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "अमेरिका",
+               "en": "USA"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "1684",
+               "en": "1684"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "चीन",
+               "en": "China"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "110",
+               "en": "110"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "<strong>भारत</strong>",
+               "en": "<strong>India</strong>"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "<strong>41</strong>",
+               "en": "<strong>41</strong>"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "विश्व औसत",
+               "en": "World average"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "366",
+               "en": "366"
+              },
+              "num": true
+             }
+            ]
+           ],
+           "src": "WHY-25",
+           "cls": [
+            "data"
+           ],
+           "id": "ch08-table"
+          }
+         ],
+         "cls": [
+          "table-scroll"
+         ]
+        }
+       ]
+      }
+     ],
+     "src": "CH-08 WHY-25",
+     "chart": {
+      "id": "ch08",
+      "fallback": "ch08-table",
+      "aria": {
+       "hi": "लॉग स्केल पर क्षैतिज बार चार्ट: बीमा घनत्व 2013-14, प्रति व्यक्ति डॉलर में — हांगकांग 4445 सबसे ऊपर, भारत 41, विश्व औसत 366",
+       "en": "Horizontal bar chart on a log scale: insurance density 2013-14 in US dollars per person, Hong Kong 4445 highest, India 41, world average 366"
+      }
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "table",
+       "caption": {
+        "hi": "विश्व जीवन बीमा प्रीमियम में हिस्सा, 2013-14 (रैंक जैसी छपी)",
+        "en": "Share of world life-insurance premium, 2013-14 (ranks as printed)"
+       },
+       "head": [
+        [
+         {
+          "text": {
+           "hi": "रैंक",
+           "en": "Rank"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "देश",
+           "en": "Country"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "हिस्सा",
+           "en": "Share"
+          },
+          "th": true
+         }
+        ]
+       ],
+       "rows": [
+        [
+         {
+          "text": {
+           "hi": "1",
+           "en": "1"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "अमेरिका",
+           "en": "USA"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "27.13%",
+           "en": "27.13%"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "2",
+           "en": "2"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "जापान",
+           "en": "Japan"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "11.45%",
+           "en": "11.45%"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "3",
+           "en": "3"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "यूनाइटेड किंगडम",
+           "en": "United Kingdom"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "7.10%",
+           "en": "7.10%"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "4",
+           "en": "4"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "चीन",
+           "en": "China"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "5.99%",
+           "en": "5.99%"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "5",
+           "en": "5"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "फ़्रांस",
+           "en": "France"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "5.49%",
+           "en": "5.49%"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "6",
+           "en": "6"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "जर्मनी",
+           "en": "Germany"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "5.33%",
+           "en": "5.33%"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "7",
+           "en": "7"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "इटली",
+           "en": "Italy"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "3.63%",
+           "en": "3.63%"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "8",
+           "en": "8"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "दक्षिण कोरिया",
+           "en": "South Korea"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "3.13%",
+           "en": "3.13%"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "11",
+           "en": "11"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "ताइवान",
+           "en": "Taiwan"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "1.96%",
+           "en": "1.96%"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "<strong>15</strong>",
+           "en": "<strong>15</strong>"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "<strong>भारत</strong>",
+           "en": "<strong>India</strong>"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "<strong>1.41%</strong>",
+           "en": "<strong>1.41%</strong>"
+          },
+          "num": true
+         }
+        ]
+       ],
+       "src": "WHY-26",
+       "cls": [
+        "data"
+       ]
+      }
+     ],
+     "cls": [
+      "table-scroll"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "बचत, 2011-12: घरेलू वित्तीय बचत GDP का 8% थी, और कुल घरेलू बचत में जीवन बीमा प्रीमियम का हिस्सा 19.9% था (RBI, 2012-13)।",
+      "en": "Savings in 2011-12: household financial saving was 8% of GDP, and life-insurance premium made up 19.9% of gross household savings (RBI, 2012-13)."
+     },
+     "src": "WHY-27"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "कामकाजी आबादी: लगभग 40% भारतीय 20–49 साल के थे, और 2020 तक यह 65% होने का अनुमान था। मॉर्गन स्टेनली के अनुमान के अनुसार 2020 तक भारत में कामकाजी उम्र के 136 मिलियन लोग जुड़ने थे, जबकि चीन में 23 मिलियन।",
+      "en": "Working population: about 40% of Indians were aged 20–49, expected to reach 65% by 2020. Morgan Stanley estimated India would add 136 million working-age people by 2020, against 23 million for China."
+     },
+     "src": "WHY-28"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "NCAER, 2009-10: 28.4 मिलियन परिवार सालाना ₹2–10 लाख कमाते थे (विश्व बैंक की मध्यम वर्ग की परिभाषा), जो 1995-96 में 4.5 मिलियन और 2001-02 में 10.7 मिलियन थे। 10 सालों में इनके 4 गुना होने का अनुमान था; इनमें से दो-तिहाई परिवार शहरी हैं।",
+      "en": "NCAER, 2009-10: 28.4 million families earned ₹2–10 lakh a year (the World Bank’s middle-class definition), up from 4.5 million in 1995-96 and 10.7 million in 2001-02. The number was expected to grow 4 times in 10 years; two-thirds of these families are urban."
+     },
+     "src": "WHY-29"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "जागरूकता, 2000-01 से 2012-13: 23 जीवन बीमा कंपनियाँ विज्ञापन कर रही थीं, और पहले साल का प्रीमियम ₹9,707 करोड़ से बढ़कर ₹1,07,209 करोड़ हो गया (22.16% सालाना चक्रवृद्धि बढ़त)।",
+      "en": "Awareness, 2000-01 to 2012-13: 23 life insurers were advertising, and first-year premium grew from ₹9,707 crore to ₹1,07,209 crore (22.16% compound annual growth)."
+     },
+     "src": "WHY-30"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "पुरानी प्रस्तुतियों में LIC की ब्रांड वैल्यू के आँकड़े भी दिए गए थे; इस पेज पर हमने सिर्फ़ वही आँकड़े रखे हैं, जिनका स्रोत साफ़ है।",
+      "en": "Older decks also gave figures for LIC’s brand value; on this page we keep only figures with a clear source."
+     },
+     "src": "WHY-31"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "31/03/2014 को बाज़ार में हिस्सेदारी — 14 साल की निजी प्रतिस्पर्धा के बाद भी LIC का दबदबा।",
+      "en": "Market share as on 31/03/2014 — LIC’s dominance even after 14 years of private competition."
+     },
+     "src": "WHY-32"
+    },
+    {
+     "t": "figure",
+     "children": [
+      {
+       "t": "figcaption",
+       "text": {
+        "hi": "बाएँ: पहले साल का प्रीमियम (₹ करोड़)। दाएँ: पॉलिसियों की संख्या। 31/03/2014 की स्थिति, पुरानी LIC ट्रेनिंग सामग्री के अनुसार।",
+        "en": "Left: first-year premium (₹ crore). Right: number of policies. As on 31/03/2014, as printed in earlier LIC training material."
+       }
+      },
+      {
+       "t": "details",
+       "summary": {
+        "hi": "आँकड़े देखें",
+        "en": "See the numbers"
+       },
+       "children": [
+        {
+         "t": "box",
+         "children": [
+          {
+           "t": "table",
+           "caption": {
+            "hi": "31/03/2014 को बाज़ार में हिस्सेदारी",
+            "en": "Market share as on 31/03/2014"
+           },
+           "head": [
+            [
+             {
+              "text": {
+               "hi": "",
+               "en": ""
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "पहले साल का प्रीमियम (₹ करोड़)",
+               "en": "First-year premium (₹ crore)"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "%",
+               "en": "%"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "पॉलिसियों की संख्या",
+               "en": "Number of policies"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "%",
+               "en": "%"
+              },
+              "th": true,
+              "num": true
+             }
+            ]
+           ],
+           "rows": [
+            [
+             {
+              "text": {
+               "hi": "LIC",
+               "en": "LIC"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "90,124",
+               "en": "90,124"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "75.33%",
+               "en": "75.33%"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "3,45,11,781",
+               "en": "3,45,11,781"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "84.44%",
+               "en": "84.44%"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "23 निजी कंपनियाँ",
+               "en": "23 private companies"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "29,517",
+               "en": "29,517"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "24.67%",
+               "en": "24.67%"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "63,61,536",
+               "en": "63,61,536"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "15.56%",
+               "en": "15.56%"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "कुल",
+               "en": "Total"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "1,19,641",
+               "en": "1,19,641"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "",
+               "en": ""
+              }
+             },
+             {
+              "text": {
+               "hi": "4,08,73,317",
+               "en": "4,08,73,317"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "",
+               "en": ""
+              }
+             }
+            ]
+           ],
+           "src": "WHY-32",
+           "cls": [
+            "data"
+           ],
+           "id": "ch09-table"
+          }
+         ],
+         "cls": [
+          "table-scroll"
+         ]
+        }
+       ]
+      }
+     ],
+     "src": "CH-09 WHY-32",
+     "chart": {
+      "id": "ch09a",
+      "fallback": "ch09-table",
+      "aria": {
+       "hi": "डोनट चार्ट: 2014 में पहले साल के प्रीमियम में हिस्सा — LIC 75.33%, 23 निजी कंपनियाँ 24.67%",
+       "en": "Doughnut chart: first-year premium share 2014, LIC 75.33%, 23 private companies 24.67%"
+      }
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "पुरानी प्रस्तुतियों के अनुसार एजेंसी फ़ोर्स के सिर्फ़ 20% लोग पेशेवर तरीक़े से काम करते थे और 80%+ बिज़नेस लाते थे: “पेशेवरों में से एक बनिए और अपनी क़िस्मत ख़ुद बनाइए।” (आज का आँकड़ा: 10% लोग 70% बिज़नेस लाते हैं — ऊपर देखें।)",
+      "en": "Earlier decks said only 20% of the agency force worked professionally and brought 80%+ of the business: “Be one among the professionals and earn your fortune.” (Today’s figure: 10% bring 70% — see above.)"
+     },
+     "src": "WHY-33"
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "table",
+       "caption": {
+        "hi": "LIC के कामकाजी नतीजे, ₹ करोड़ (LIC डायरी, 2009)",
+        "en": "LIC working results, ₹ crore (LIC diary, 2009)"
+       },
+       "head": [
+        [
+         {
+          "text": {
+           "hi": "मद",
+           "en": "Item"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "₹ करोड़",
+           "en": "₹ crore"
+          },
+          "th": true
+         }
+        ]
+       ],
+       "rows": [
+        [
+         {
+          "text": {
+           "hi": "प्रीमियम आय",
+           "en": "Premium income"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "1,49,706",
+           "en": "1,49,706"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "अन्य आय",
+           "en": "Other income"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "21,110",
+           "en": "21,110"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "निवेश से आय",
+           "en": "Income from investment"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "1,22,695",
+           "en": "1,22,695"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "<strong>कुल आय</strong>",
+           "en": "<strong>Total income</strong>"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "<strong>2,93,511</strong>",
+           "en": "<strong>2,93,511</strong>"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "कमीशन और प्रशासनिक ख़र्च",
+           "en": "Commission and administrative expenses"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "18,677",
+           "en": "18,677"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "क्लेम",
+           "en": "Claims"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "57,623",
+           "en": "57,623"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "कुल ख़र्च",
+           "en": "Total expenses"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "76,300",
+           "en": "76,300"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "रिज़र्व फ़ंड",
+           "en": "Reserve fund"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "6,86,616",
+           "en": "6,86,616"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "<strong>कुल संपत्ति</strong>",
+           "en": "<strong>Total assets</strong>"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "<strong>8,03,820</strong>",
+           "en": "<strong>8,03,820</strong>"
+          },
+          "num": true
+         }
+        ]
+       ],
+       "src": "WHY-35",
+       "cls": [
+        "data"
+       ]
+      }
+     ],
+     "cls": [
+      "table-scroll"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "राष्ट्र निर्माण में LIC ने कहाँ निवेश किया (₹ करोड़, एक पुरानी प्रस्तुति में जैसा छपा):",
+      "en": "Where LIC invested in nation building (₹ crore, as printed in an older deck):"
+     },
+     "src": "WHY-36"
+    },
+    {
+     "t": "figure",
+     "children": [
+      {
+       "t": "figcaption",
+       "text": {
+        "hi": "राष्ट्र निर्माण में LIC का निवेश, ₹ करोड़ (लॉग स्केल, ताकि छोटे और बड़े आँकड़े एक ही चार्ट में आ सकें)। पुरानी LIC ट्रेनिंग सामग्री के अनुसार।",
+        "en": "LIC investments in nation building, ₹ crore (log scale, so small and large items fit on one chart). As printed in earlier LIC training material."
+       }
+      },
+      {
+       "t": "details",
+       "summary": {
+        "hi": "आँकड़े देखें",
+        "en": "See the numbers"
+       },
+       "children": [
+        {
+         "t": "box",
+         "children": [
+          {
+           "t": "table",
+           "caption": {
+            "hi": "राष्ट्र निर्माण में LIC का निवेश (₹ करोड़)",
+            "en": "LIC investments in nation building (₹ crore)"
+           },
+           "head": [
+            [
+             {
+              "text": {
+               "hi": "क्षेत्र",
+               "en": "Sector"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "₹ करोड़",
+               "en": "₹ crore"
+              },
+              "th": true
+             }
+            ]
+           ],
+           "rows": [
+            [
+             {
+              "text": {
+               "hi": "केंद्र सरकार की प्रतिभूतियाँ",
+               "en": "Central Government securities"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "3,18,673",
+               "en": "3,18,673"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "राज्य सरकार की प्रतिभूतियाँ",
+               "en": "State Government securities"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "1,10,697",
+               "en": "1,10,697"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "बिजली",
+               "en": "Electricity"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "44,358",
+               "en": "44,358"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "आवास",
+               "en": "Housing"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "34,185",
+               "en": "34,185"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "जल आपूर्ति",
+               "en": "Water supply"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "6,022",
+               "en": "6,022"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "राज्य की सड़कें",
+               "en": "State roads"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "2,700",
+               "en": "2,700"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "औद्योगिक क्षेत्रों को ऋण",
+               "en": "Loans to industrial estates"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "450",
+               "en": "450"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "चीनी सहकारी मिलों को ऋण",
+               "en": "Loans to sugar co-operatives"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "370",
+               "en": "370"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "विकास प्राधिकरण",
+               "en": "Development authorities"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "113",
+               "en": "113"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "बंदरगाह, रेलवे, सड़क मार्ग",
+               "en": "Port, railway, roadway"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "6,022",
+               "en": "6,022"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "बिजली उत्पादन",
+               "en": "Power generation"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "9,797",
+               "en": "9,797"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "नगरपालिकाएँ",
+               "en": "Municipalities"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "70",
+               "en": "70"
+              },
+              "num": true
+             }
+            ]
+           ],
+           "src": "WHY-36",
+           "cls": [
+            "data"
+           ],
+           "id": "ch10-table"
+          }
+         ],
+         "cls": [
+          "table-scroll"
+         ]
+        }
+       ]
+      }
+     ],
+     "src": "CH-10 WHY-36",
+     "chart": {
+      "id": "ch10",
+      "fallback": "ch10-table",
+      "aria": {
+       "hi": "लॉग स्केल पर क्षैतिज बार चार्ट: क्षेत्र के अनुसार LIC का निवेश, करोड़ रुपये में — केंद्र सरकार की प्रतिभूतियाँ 3,18,673 से लेकर नगरपालिकाएँ 70 तक",
+       "en": "Horizontal bar chart on a log scale: LIC investments by sector in crore rupees, from Central Government securities 3,18,673 down to municipalities 70"
+      }
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "1956 से 2016 तक LIC ने राष्ट्र निर्माण में ₹14,51,000 करोड़ का निवेश किया। इसीलिए LIC एजेंसी को लंबे समय से समाज सेवा और राष्ट्र निर्माण का काम कहा जाता है।",
+      "en": "From 1956 to 2016, LIC invested ₹14,51,000 crore in nation building. That is why LIC agency has long been called social service and nation-building work."
+     },
+     "src": "WHY-37"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "पुरानी प्रस्तुतियों में पूरे भारत के उन टॉप LIC एजेंटों की सूची भी थी, जिन्होंने TOT (Top of the Table) स्तर हासिल किया।",
+      "en": "Older decks also listed top LIC agents across India who reached TOT (Top of the Table) level."
+     },
+     "src": "WHY-52"
+    }
+   ],
+   "cls": [
+    "legacy"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "संक्षेप में",
+      "en": "In short"
+     }
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "src": "WHY-01",
+       "text": {
+        "hi": "कोई पूँजी नहीं चाहिए — एक मुस्कान, मीठे बोल और कमाने की लगन काफ़ी है।",
+        "en": "No capital required — a smile, good words and a thirst for earning."
+       }
+      },
+      {
+       "t": "li",
+       "src": "WHY-07",
+       "text": {
+        "hi": "भारत का सुरक्षा अंतर 83% है।",
+        "en": "India’s protection gap is 83%."
+       }
+      },
+      {
+       "t": "li",
+       "src": "WHY-18",
+       "text": {
+        "hi": "सिर्फ़ 10% एजेंट पेशेवर तरीक़े से काम करते हैं — और 70% बिज़नेस वही लाते हैं।",
+        "en": "Only 10% of agents work as professionals — and they bring 70% of the business."
+       }
+      },
+      {
+       "t": "li",
+       "src": "WHY-34",
+       "text": {
+        "hi": "हर LIC पॉलिसी के पीछे LIC अधिनियम, 1956 की धारा 37 के तहत केंद्र सरकार की ज़मानत है।",
+        "en": "Every LIC policy carries a sovereign guarantee under Section 37 of the LIC Act, 1956."
+       }
+      },
+      {
+       "t": "li",
+       "src": "WHY-06 PROC-02",
+       "text": {
+        "hi": "18+ उम्र और 12वीं पास कोई भी भारतीय जुड़ सकता है — पुरुष हों या महिलाएँ।",
+        "en": "Any Indian aged 18+ with 12th pass can join — men and women alike."
+       }
+      }
+     ]
+    }
+   ],
+   "cls": [
+    "block",
+    "recap"
+   ]
+  },
+  {
+   "t": "aside",
+   "children": [
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>बाज़ार तैयार है। क्या आप तैयार हैं?</strong>",
+      "en": "<strong>The market is ready. Are you?</strong>"
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "a",
+       "href": "#apply",
+       "text": {
+        "hi": "करियर ओरिएंटेशन बुक करें",
+        "en": "Book a career orientation"
+       },
+       "cls": [
+        "cta"
+       ]
+      },
+      {
+       "t": "a",
+       "href": "#benefits",
+       "text": {
+        "hi": "कमाई और फ़ायदे देखें →",
+        "en": "See what you earn and get →"
+       },
+       "cls": [
+        "cta",
+        "secondary"
+       ]
+      }
+     ],
+     "cls": [
+      "btn-row"
+     ]
+    }
+   ],
+   "cls": [
+    "page-cta"
+   ]
+  }
+ ],
+ "id": "why-lic"
+}

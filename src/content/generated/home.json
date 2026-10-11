@@ -1,0 +1,1346 @@
+{
+ "t": "section",
+ "children": [
+  {
+   "t": "header",
+   "children": [
+    {
+     "t": "h2",
+     "text": {
+      "hi": "क्या आप अपने BOSS ख़ुद बनना चाहते हैं?",
+      "en": "Do you want to be your BOSS?"
+     },
+     "src": "HOME-01",
+     "id": "home-h"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "BOSS = <strong>B</strong>usiness <strong>O</strong>wnership <strong>S</strong>elf <strong>S</strong>ufficiency. यानी — अपना बिज़नेस, अपना मालिकाना हक़, अपने दम पर आत्मनिर्भरता।",
+      "en": "BOSS = <strong>B</strong>usiness <strong>O</strong>wnership <strong>S</strong>elf <strong>S</strong>ufficiency."
+     },
+     "src": "HOME-02",
+     "cls": [
+      "lede"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "भरोसेमंद नाम के साथ, अपना ख़ुद का बिज़नेस। समय आप तय करें, रफ़्तार आपकी मेहनत तय करे।",
+      "en": "Your own business, under a trusted name. You set the hours. Your effort sets the pace."
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "a",
+       "href": "#apply",
+       "text": {
+        "hi": "LIC एजेंट बनिए — सुनहरा भविष्य बनाइए",
+        "en": "Join as an LIC Agent — build a golden future"
+       },
+       "src": "HOME-03",
+       "cls": [
+        "cta"
+       ]
+      },
+      {
+       "t": "a",
+       "href": "tel:+919973055291",
+       "text": {
+        "hi": "अभी कॉल करें: <span>9973055291</span>",
+        "en": "Call now: <span>9973055291</span>"
+       },
+       "src": "G-02",
+       "cls": [
+        "cta",
+        "secondary"
+       ]
+      }
+     ],
+     "cls": [
+      "btn-row"
+     ]
+    }
+   ],
+   "cls": [
+    "page-hero"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "p",
+     "text": {
+      "hi": "लक्ष्य: साल 3 के अंत तक ₹1 लाख प्रति माह — साफ़ एक्टिविटी योजना, ट्रेनिंग और व्यक्तिगत फ़ॉलो-अप के साथ।",
+      "en": "Goal: ₹1 lakh a month by the end of year 3 — with a clear activity plan, training and personal follow-up."
+     },
+     "src": "HOME-16",
+     "cls": [
+      "eyebrow"
+     ]
+    },
+    {
+     "t": "blockquote",
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "मेरा लक्ष्य साफ़ है — मेरे साथ जुड़ने वाला हर एजेंट तीसरे साल के अंत तक ₹1,00,000 प्रति माह कमाए। योजना, ट्रेनिंग और साथ मैं दूँगा; मेहनत — और नतीजा — आपका होगा।",
+        "en": "My goal for every agent I recruit is simple: by the end of your third year, you should be earning ₹1,00,000 a month. I’ll give you the plan, the training and the follow-up. The effort — and the result — will be yours."
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "— रोहित लाल",
+        "en": "— Rohit Lal"
+       },
+       "cls": [
+        "src"
+       ]
+      }
+     ],
+     "src": "SU-34"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "आपकी कमाई आपकी मेहनत और आपके द्वारा लाए गए बिज़नेस पर निर्भर करती है।",
+      "en": "Your earnings depend on your effort and the business you bring."
+     },
+     "src": "SU-34",
+     "cls": [
+      "effort"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": {
+      "hi": "योजना — हर एजेंट क्या करता है, कमाई चाहे जितनी हो",
+      "en": "The plan — what every agent does, at any income level"
+     }
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "नियमित रूप से ट्रेनिंग सेशन में शामिल हों।",
+        "en": "Attend training sessions regularly."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "कम से कम 100 लोगों की संभावित ग्राहकों की सूची बनाएँ।",
+        "en": "Prepare a prospect list of at least 100 people."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "हर दिन कम से कम 4 संभावित ग्राहकों से मिलें।",
+        "en": "Meet at least 4 prospects every day."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "रोज़ की एक्टिविटी रिपोर्ट और हफ़्ते का सारांश लिखें।",
+        "en": "Write a daily activity report and a weekly summary."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "हर हफ़्ते की रिव्यू मीटिंग में शामिल हों।",
+        "en": "Attend the weekly review meetings."
+       }
+      }
+     ],
+     "src": "SU-30"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<a href=\"#startup\">पूरी योजना, साल-दर-साल देखें →</a>",
+      "en": "<a href=\"#startup\">See the full plan, year by year →</a>"
+     }
+    }
+   ],
+   "cls": [
+    "block",
+    "goal-band"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "अगर आपके सपने हैं…",
+      "en": "If you have dreams…"
+     },
+     "src": "HOME-01"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "एक पल के लिए आँखें बंद कीजिए। आपके और आपके परिवार के लिए अच्छी ज़िंदगी कैसी दिखती है?",
+      "en": "Close your eyes for a moment. What does a good life look like for you and your family?"
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "एक बंगला",
+          "en": "A bungalow"
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "एक कार",
+          "en": "A car"
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "आपका अपना ऑफिस",
+          "en": "Your own office"
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "परिवार के साथ विदेश यात्राएँ",
+          "en": "Foreign trips with your family"
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "रिटायरमेंट के बाद शानदार ज़िंदगी",
+          "en": "A great retired life"
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "…और हाथ में भरपूर पैसा",
+          "en": "…with plenty of money"
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      }
+     ],
+     "src": "HOME-04",
+     "cls": [
+      "grid"
+     ]
+    },
+    {
+     "t": "h3",
+     "text": {
+      "hi": "यही है असली मौक़ा — LIC एजेंसी, एक ऐसा पेशा जिसकी कोई सीमा नहीं",
+      "en": "Here is THE opportunity — LIC agency, a profession with no limits"
+     },
+     "src": "HOME-01"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "आप कितना कमा सकते हैं, इसकी कोई ऊपरी सीमा नहीं — सीमा आपकी मेहनत तय करती है।",
+      "en": "There is no upper limit on what you can earn — your effort sets the ceiling."
+     },
+     "src": "HOME-05"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "नौकरी में आपकी तरक्की कोई और तय करता है। यहाँ उसे वे परिवार तय करते हैं, जिनकी आप सेवा करते हैं।",
+      "en": "In a job, someone else decides your raise. Here, the number of families you serve decides it."
+     }
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "सपने, जिनके लिए LIC एजेंट मेहनत करते हैं",
+      "en": "Dreams LIC agents work towards"
+     }
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "असीमित आय",
+        "en": "Unlimited income"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "अंतरराष्ट्रीय पहचान",
+        "en": "International status"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "दोपहिया या चारपहिया वाहन",
+        "en": "A two-wheeler or four-wheeler"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "काम से संतोष",
+        "en": "Job satisfaction"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "सपनों का घर",
+        "en": "Your dream house"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "ऐसी पेंशन, जो अगली पीढ़ी तक पहुँचे",
+        "en": "A pension that reaches the next generation"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "सपनों का ऑफिस",
+        "en": "Your dream office"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "देश की सेवा",
+        "en": "Helping the nation"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "समाज में सम्मान",
+        "en": "Status in society"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "सुकून भरी ज़िंदगी",
+        "en": "A peaceful life"
+       }
+      }
+     ],
+     "src": "HOME-06",
+     "cls": [
+      "checklist"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "अभी क्यों? चार आँकड़ों में पूरी बात",
+      "en": "Why now? Four numbers that explain it"
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "83%",
+          "en": "83%"
+         },
+         "cls": [
+          "num"
+         ]
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "भारत में जीवन बीमा का सुरक्षा अंतर (प्रोटेक्शन गैप)। परिवारों को जितने बीमा की ज़रूरत है, उसका ज़्यादातर हिस्सा अभी है ही नहीं — यहीं सलाहकार काम आता है।",
+          "en": "India’s life-insurance protection gap. Most of the cover families need is still missing — that gap is where an advisor helps."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "स्रोत: LIC फ़ील्ड ट्रेनिंग सामग्री, 2023-24 के आँकड़े। <a href=\"#why-lic\">यह क्यों मायने रखता है →</a>",
+          "en": "Source: LIC field training material, 2023-24 data. <a href=\"#why-lic\">Why this matters →</a>"
+         },
+         "cls": [
+          "src"
+         ]
+        }
+       ],
+       "src": "HOME-07",
+       "cls": [
+        "stat"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "<span>₹11,97,438</span> करोड़",
+          "en": "<span>₹11,97,438</span> crore"
+         },
+         "cls": [
+          "num"
+         ]
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "वित्त वर्ष 2024-25 में भारत के पूरे बीमा उद्योग का कुल प्रीमियम। अकेले LIC का लगभग ₹4.88 लाख करोड़ — बाकी हर बीमा कंपनी से बहुत आगे।",
+          "en": "Combined premium of India’s insurance industry in FY 2024-25. LIC alone: about ₹4.88 lakh crore — far ahead of every other insurer."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "स्रोत: IRDAI वार्षिक रिपोर्ट 2024-25। <a href=\"#why-lic\">बाज़ार देखें →</a>",
+          "en": "Source: IRDAI Annual Report 2024-25. <a href=\"#why-lic\">See the market →</a>"
+         },
+         "cls": [
+          "src"
+         ]
+        }
+       ],
+       "src": "HOME-08",
+       "cls": [
+        "stat"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "<span>14</span> लाख",
+          "en": "<span>14</span> lakh"
+         },
+         "cls": [
+          "num"
+         ]
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "LIC के लगभग इतने ही सलाहकार हैं — 140 करोड़ लोगों के देश के लिए। यह बहुत कम है।",
+          "en": "That is about how many LIC advisors there are — for a nation of 140 crore people. Not nearly enough."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "स्रोत: LIC फ़ील्ड ट्रेनिंग सामग्री, 2023-24 के आँकड़े। <a href=\"#why-lic\">आपके लिए जगह क्यों है →</a>",
+          "en": "Source: LIC field training material, 2023-24 data. <a href=\"#why-lic\">Why there’s room for you →</a>"
+         },
+         "cls": [
+          "src"
+         ]
+        }
+       ],
+       "src": "HOME-09",
+       "cls": [
+        "stat"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "अधिकतम <span>₹7,000</span>प्रति माह",
+          "en": "Up to <span>₹7,000</span>/month"
+         },
+         "cls": [
+          "num"
+         ]
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "महिलाओं के लिए बीमा सखी स्टाइपेंड, साल 1 में — आपके कमीशन के साथ, LIC के मासिक नियमों के अनुसार।",
+          "en": "Bima Sakhi stipend for women in year 1 — paid along with your commission, as per LIC’s monthly norms."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "स्रोत: LIC सर्कुलर CO/Mktg./ZD/A/35/2024, दिनांक 28.11.2024। <a href=\"#bima-sakhi\">स्टाइपेंड कैसे मिलता है →</a>",
+          "en": "Source: LIC Circular CO/Mktg./ZD/A/35/2024 dated 28.11.2024. <a href=\"#bima-sakhi\">How the stipend works →</a>"
+         },
+         "cls": [
+          "src"
+         ]
+        }
+       ],
+       "src": "HOME-10",
+       "cls": [
+        "stat"
+       ]
+      }
+     ],
+     "cls": [
+      "grid"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "यह किसके लिए है? पुरुष और महिलाएँ — ज़िंदगी के हर पड़ाव पर",
+      "en": "Who is this for? Men and women — at every stage of life"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "फ़ायदे, क्लब, करियर का रास्ता और रोहित का लक्ष्य — पुरुषों और महिलाओं के लिए एक जैसे हैं। नीचे अपनी शुरुआत का रास्ता चुनिए।",
+      "en": "Benefits, clubs, career path and Rohit’s goal are the same for men and women. Find your starting point below."
+     }
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "<strong>छात्र और पहली नौकरी वाले:</strong> जल्दी शुरुआत कीजिए और ऐसे हुनर सीखिए, जो ज़िंदगी भर काम आएँ। <a href=\"#genz\">Gen-Z का रास्ता →</a>",
+        "en": "<strong>Students and first-jobbers:</strong> start early and build skills that stay with you for life. <a href=\"#genz\">The Gen-Z path →</a>"
+       }
+      },
+      {
+       "t": "li",
+       "src": "BS-20",
+       "text": {
+        "hi": "<strong>गृहिणियाँ:</strong> परिवार की दिनचर्या के हिसाब से काम कीजिए। महिलाएँ बीमा सखी के रूप में भी जुड़ सकती हैं — वही एजेंसी, पहले तीन साल स्टाइपेंड के साथ। <a href=\"#bima-sakhi\">बीमा सखी →</a>",
+        "en": "<strong>Homemakers:</strong> work around your family’s day. Women can also join as a Bima Sakhi — the same agency, with a stipend for the first three years. <a href=\"#bima-sakhi\">Bima Sakhi →</a>"
+       }
+      },
+      {
+       "t": "li",
+       "src": "BEN-30",
+       "text": {
+        "hi": "<strong>नौकरीपेशा लोग:</strong> यह एक समानांतर पेशा है — आप इसे अपने मौजूदा काम के साथ-साथ शुरू कर सकते हैं। <a href=\"#benefits\">कमाई और फ़ायदे देखें →</a>",
+        "en": "<strong>Working people:</strong> it is a parallel profession — you can start alongside your current work. <a href=\"#benefits\">What you earn and get →</a>"
+       }
+      },
+      {
+       "t": "li",
+       "src": "WHY-01",
+       "text": {
+        "hi": "<strong>छोटे व्यापारी:</strong> एक दूसरा बिज़नेस जोड़िए, जिसे शुरू करने के लिए पूँजी नहीं चाहिए। <a href=\"#startup\">अपने बॉस ख़ुद बनिए →</a>",
+        "en": "<strong>Small-business owners:</strong> add a second business that needs no capital to start. <a href=\"#startup\">Be your own boss →</a>"
+       }
+      },
+      {
+       "t": "li",
+       "src": "PROC-01 SU-03",
+       "text": {
+        "hi": "<strong>रिटायर लोग — दिल से जवान:</strong> नियमित एजेंसी में उम्र की कोई ऊपरी सीमा नहीं है। दूसरी पारी के लिए तैयार हैं? <a href=\"#procedure\">कैसे जुड़ें →</a>",
+        "en": "<strong>Retirees — young at heart:</strong> the regular agency has no upper age limit. Ready for a second innings? <a href=\"#procedure\">How to join →</a>"
+       }
+      }
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "LIC एजेंसी — आपके और आपके परिवार के लिए ज़िंदगी भर की आय",
+      "en": "LIC Agency — lifelong income for you and your family"
+     },
+     "src": "HOME-01"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "चार रास्ते। वह चुनिए, जो आपके सबसे क़रीब लगे।",
+      "en": "Four ways in. Pick the one that sounds most like you."
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "a",
+       "href": "#benefits",
+       "text": {
+        "hi": "LIC एजेंट बनिएन पूँजी की ज़रूरत, समय अपनी मर्ज़ी का, और ऐसी रिन्यूअल आय जो ज़िंदगी भर चल सकती है।",
+        "en": "Become an LIC AgentNo capital, flexible hours, and renewal income that can last a lifetime."
+       },
+       "src": "HOME-11",
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "a",
+       "href": "#bima-sakhi",
+       "text": {
+        "hi": "बीमा सखीनियमित LIC एजेंसी, और साथ में महिलाओं के लिए पहले तीन साल स्टाइपेंड।",
+        "en": "Bima SakhiThe regular LIC agency, plus a stipend for women in the first three years."
+       },
+       "src": "HOME-11",
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "a",
+       "href": "#genz",
+       "text": {
+        "hi": "Gen-ZYour Career. Your Clients. Your Brand. Your Business. आपका करियर। आपके ग्राहक। आपका ब्रांड। आपका बिज़नेस।",
+        "en": "Gen-ZYour Career. Your Clients. Your Brand. Your Business."
+       },
+       "src": "HOME-11",
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "a",
+       "href": "#explore",
+       "text": {
+        "hi": "कमाएँ और भारत घूमें<strong>कमाओ भी… भारत को जियो भी!</strong>",
+        "en": "Earn &amp; Explore India<strong>कमाओ भी… भारत को जियो भी!</strong> <em>Earn… and live India too!</em>"
+       },
+       "src": "HOME-11",
+       "cls": [
+        "card"
+       ]
+      }
+     ],
+     "cls": [
+      "grid"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "रोहित लाल का संदेश",
+      "en": "A message from Rohit Lal"
+     }
+    },
+    {
+     "t": "blockquote",
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "box",
+         "children": [
+          {
+           "t": "p",
+           "text": {
+            "hi": "यह नौकरी का विज्ञापन नहीं है। यह एक न्योता है — अपनी ज़िंदगी को एक नए नज़रिए से देखने का।",
+            "en": "यह नौकरी का विज्ञापन नहीं है। यह एक न्योता है — अपनी ज़िंदगी को एक नए नज़रिए से देखने का।"
+           }
+          },
+          {
+           "t": "p",
+           "text": {
+            "hi": "क्या भारत के युवा अगले दस सालों में सिर्फ़ अच्छी तनख़्वाह कमाएँगे… या एक शानदार ज़िंदगी भी जिएँगे? हम सब मेहनत करते हैं। लेकिन क्या अपने सपने जीने की योजना बनाने में भी उतनी ही मेहनत करते हैं?",
+            "en": "क्या भारत के युवा अगले दस सालों में सिर्फ़ अच्छी तनख़्वाह कमाएँगे… या एक शानदार ज़िंदगी भी जिएँगे? हम सब मेहनत करते हैं। लेकिन क्या अपने सपने जीने की योजना बनाने में भी उतनी ही मेहनत करते हैं?"
+           }
+          },
+          {
+           "t": "p",
+           "text": {
+            "hi": "क्या हमने कभी अपने माता-पिता से पूछा है — “आपकी कौन-सी यात्रा अब तक अधूरी है?”",
+            "en": "क्या हमने कभी अपने माता-पिता से पूछा है — “आपकी कौन-सी यात्रा अब तक अधूरी है?”"
+           }
+          },
+          {
+           "t": "p",
+           "text": {
+            "hi": "मैंने यह इसलिए नहीं लिखा कि किसी एक करियर को सबसे अच्छा साबित करूँ। मैंने यह इसलिए लिखा ताकि आप अपने लक्ष्य साफ़ कर सकें, सही सवाल पूछ सकें — और फिर वह रास्ता चुनें, जो आपके लिए सही हो।",
+            "en": "मैंने यह इसलिए नहीं लिखा कि किसी एक करियर को सबसे अच्छा साबित करूँ। मैंने यह इसलिए लिखा ताकि आप अपने लक्ष्य साफ़ कर सकें, सही सवाल पूछ सकें — और फिर वह रास्ता चुनें, जो आपके लिए सही हो।"
+           }
+          }
+         ],
+         "lang": "hi"
+        },
+        {
+         "t": "box",
+         "children": [
+          {
+           "t": "p",
+           "text": {
+            "hi": "This is not a job advertisement. It is an invitation — to think about your life in a new way.",
+            "en": "This is not a job advertisement. It is an invitation — to think about your life in a new way."
+           }
+          },
+          {
+           "t": "p",
+           "text": {
+            "hi": "Will India’s youth only earn a good salary in the next ten years… or also live a wonderful life? We all work hard. But do we work as hard at planning to live our dreams?",
+            "en": "Will India’s youth only earn a good salary in the next ten years… or also live a wonderful life? We all work hard. But do we work as hard at planning to live our dreams?"
+           }
+          },
+          {
+           "t": "p",
+           "text": {
+            "hi": "Have we ever asked our parents, “Which journey of yours is still unfinished?”",
+            "en": "Have we ever asked our parents, “Which journey of yours is still unfinished?”"
+           }
+          },
+          {
+           "t": "p",
+           "text": {
+            "hi": "I did not write this to prove that one career is the best. I wrote it so that you can clarify your goals, ask the right questions — and then choose the path that suits you.",
+            "en": "I did not write this to prove that one career is the best. I wrote it so that you can clarify your goals, ask the right questions — and then choose the path that suits you."
+           }
+          }
+         ],
+         "lang": "en"
+        }
+       ],
+       "src": "HOME-12"
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "box",
+         "children": [
+          {
+           "t": "p",
+           "text": {
+            "hi": "किसी भी करियर में सफलता का कोई शॉर्टकट नहीं होता। अगर आप सीखने को तैयार हैं, लोगों का भरोसा जीतने को तैयार हैं, और धैर्य व ईमानदारी से आगे बढ़ने को तैयार हैं — तो मौक़े खुलते चले जाते हैं।",
+            "en": "किसी भी करियर में सफलता का कोई शॉर्टकट नहीं होता। अगर आप सीखने को तैयार हैं, लोगों का भरोसा जीतने को तैयार हैं, और धैर्य व ईमानदारी से आगे बढ़ने को तैयार हैं — तो मौक़े खुलते चले जाते हैं।"
+           }
+          },
+          {
+           "t": "p",
+           "text": {
+            "hi": "कभी सिर्फ़ कमाई देखकर फ़ैसला न करें। ऐसा रास्ता चुनिए, जिसमें आपका व्यक्तित्व भी निखरे — और आपका योगदान भी बढ़े।",
+            "en": "कभी सिर्फ़ कमाई देखकर फ़ैसला न करें। ऐसा रास्ता चुनिए, जिसमें आपका व्यक्तित्व भी निखरे — और आपका योगदान भी बढ़े।"
+           }
+          }
+         ],
+         "lang": "hi"
+        },
+        {
+         "t": "box",
+         "children": [
+          {
+           "t": "p",
+           "text": {
+            "hi": "There is no shortcut to success in any career. If you are ready to learn, ready to earn people’s trust, and ready to move ahead with patience and honesty, opportunities keep opening up.",
+            "en": "There is no shortcut to success in any career. If you are ready to learn, ready to earn people’s trust, and ready to move ahead with patience and honesty, opportunities keep opening up."
+           }
+          },
+          {
+           "t": "p",
+           "text": {
+            "hi": "Never decide only on the basis of income. Choose a path where your personality grows — and so does your contribution.",
+            "en": "Never decide only on the basis of income. Choose a path where your personality grows — and so does your contribution."
+           }
+          }
+         ],
+         "lang": "en"
+        }
+       ],
+       "src": "HOME-13"
+      },
+      {
+       "t": "cite",
+       "text": {
+        "hi": "— रोहित लाल, डेवलपमेंट ऑफिसर, भारतीय जीवन बीमा निगम (LIC)",
+        "en": "— Rohit Lal, Development Officer, LIC of India"
+       }
+      }
+     ],
+     "cls": [
+      "quote-card"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "ब्योरों पर एक पहली नज़र",
+      "en": "A first look at the details"
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "जब-जब ग्राहक भरे, तब-तब कमाई",
+          "en": "Earn every time your customer pays"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "आपको प्रीमियम पर प्रतिशत के हिसाब से कमीशन मिलता है। यह सिर्फ़ एक बार नहीं मिलता। पॉलिसीधारक जब-जब किस्त भरता है, आपको फिर कमीशन मिलता है — पॉलिसी की पूरी अवधि तक। इसे ही रॉयल्टी आय कहते हैं।",
+          "en": "You earn commission as a percentage of the premium. It is not paid just once. Every time the policyholder pays an instalment, you earn again — for the full term. That is royalty income."
+         },
+         "src": "BEN-01"
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "<a href=\"#benefits\">कमीशन कैसे मिलता है →</a>",
+          "en": "<a href=\"#benefits\">How commission works →</a>"
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "बीमा सखी स्टाइपेंड — एक नज़र में",
+          "en": "Bima Sakhi stipend at a glance"
+         }
+        },
+        {
+         "t": "box",
+         "children": [
+          {
+           "t": "table",
+           "caption": {
+            "hi": "स्टाइपेंड वर्ष के अनुसार, प्रति माह स्टाइपेंड",
+            "en": "Stipend per month, by stipendiary year"
+           },
+           "head": [
+            [
+             {
+              "text": {
+               "hi": "स्टाइपेंड वर्ष",
+               "en": "Stipendiary year"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "प्रति माह स्टाइपेंड",
+               "en": "Stipend per month"
+              },
+              "th": true
+             }
+            ]
+           ],
+           "rows": [
+            [
+             {
+              "text": {
+               "hi": "वर्ष 1",
+               "en": "Year 1"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "₹7,000",
+               "en": "₹7,000"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "वर्ष 2",
+               "en": "Year 2"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "₹6,000",
+               "en": "₹6,000"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "वर्ष 3",
+               "en": "Year 3"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "₹5,000",
+               "en": "₹5,000"
+              },
+              "num": true
+             }
+            ]
+           ],
+           "src": "BS-29",
+           "cls": [
+            "data"
+           ]
+          }
+         ],
+         "cls": [
+          "table-scroll"
+         ]
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "स्रोत: LIC सर्कुलर CO/Mktg./ZD/A/35/2024, दिनांक 28.11.2024। हर महीने के बिज़नेस नियम पूरे होने पर मिलता है।",
+          "en": "Source: LIC Circular CO/Mktg./ZD/A/35/2024 dated 28.11.2024. Paid when monthly business norms are met."
+         },
+         "cls": [
+          "src"
+         ]
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "*शर्तें लागू",
+          "en": "*Conditions apply"
+         },
+         "src": "G-08",
+         "cls": [
+          "conditions"
+         ]
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "<a href=\"#bima-sakhi\">स्टाइपेंड के पूरे नियम →</a>",
+          "en": "<a href=\"#bima-sakhi\">Full stipend rules →</a>"
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "कैसे जुड़ें — संक्षेप में",
+          "en": "How you join — in short"
+         }
+        },
+        {
+         "t": "ol",
+         "items": [
+          {
+           "t": "li",
+           "text": {
+            "hi": "आवेदन फ़ॉर्म भरें",
+            "en": "Fill up the application form"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "व्यक्तिगत इंटरव्यू",
+            "en": "Personal interview"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "एप्टीट्यूड टेस्ट",
+            "en": "Aptitude test"
+           }
+          },
+          {
+           "t": "li",
+           "src": "PROC-21",
+           "text": {
+            "hi": "अनिवार्य प्री-लाइसेंसिंग ट्रेनिंग (IC-38) — आपके कोर्स के अनुसार, हमारे कस्टमाइज़्ड लर्निंग पोर्टल पर",
+            "en": "Mandatory pre-licensing training (IC-38) as per your course — on our customised learning portal"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "IRDAI परीक्षा पास करें",
+            "en": "Pass the IRDAI examination"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "LIC की ओर से नियुक्ति पत्र",
+            "en": "Appointment letter issued by LIC of India"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "इंडक्शन ट्रेनिंग पूरी करें",
+            "en": "Complete induction training"
+           }
+          }
+         ],
+         "src": "PROC-04",
+         "cls": [
+          "steps"
+         ]
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "<a href=\"#procedure\">हर क़दम विस्तार से →</a>",
+          "en": "<a href=\"#procedure\">Every step explained →</a>"
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "क्लब की सीढ़ी चढ़िए",
+          "en": "Climb the club ladder"
+         }
+        },
+        {
+         "t": "ol",
+         "items": [
+          {
+           "t": "li",
+           "text": {
+            "hi": "Distinguished Agents’ Club (डिस्टिंग्विश्ड एजेंट्स क्लब)",
+            "en": "Distinguished Agents’ Club"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "Branch Manager’s Club (ब्रांच मैनेजर क्लब)",
+            "en": "Branch Manager’s Club"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "Divisional Manager’s Club (डिविज़नल मैनेजर क्लब)",
+            "en": "Divisional Manager’s Club"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "Zonal Manager’s Club (ज़ोनल मैनेजर क्लब)",
+            "en": "Zonal Manager’s Club"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "Chairman’s Club (चेयरमैन क्लब)",
+            "en": "Chairman’s Club"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "Galaxy Club (गैलेक्सी क्लब)",
+            "en": "Galaxy Club"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "Corporate Club (कॉर्पोरेट क्लब)",
+            "en": "Corporate Club"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "Elite Club (एलीट क्लब)",
+            "en": "Elite Club"
+           }
+          }
+         ],
+         "src": "CLUB-02",
+         "cls": [
+          "ladder"
+         ]
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "एजेंट ट्रैक — नीचे से शुरुआत, ऊपर तक। स्रोत: LIC एजेंट भर्ती प्रस्तुति (आधिकारिक टेम्पलेट, 2026)।",
+          "en": "Agent track, from entry (bottom) to top. Source: LIC agent recruitment presentation (official template, 2026)."
+         },
+         "cls": [
+          "src"
+         ]
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "<a href=\"#club\">हर क्लब से क्या मिलता है →</a>",
+          "en": "<a href=\"#club\">What each club gives you →</a>"
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      }
+     ],
+     "cls": [
+      "grid"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "संक्षेप में",
+      "en": "In short"
+     }
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "src": "HOME-07",
+       "text": {
+        "hi": "भारत में जीवन बीमा का सुरक्षा अंतर 83% है — परिवारों को सलाहकारों की ज़रूरत है।",
+        "en": "India’s life-insurance protection gap is 83% — families need advisors."
+       }
+      },
+      {
+       "t": "li",
+       "src": "HOME-09",
+       "text": {
+        "hi": "140 करोड़ के देश के लिए LIC के सिर्फ़ लगभग 14 लाख सलाहकार हैं।",
+        "en": "Only about 14 lakh LIC advisors serve a nation of 140 crore."
+       }
+      },
+      {
+       "t": "li",
+       "src": "HOME-10",
+       "text": {
+        "hi": "महिलाएँ साल 1 में ₹7,000 प्रति माह तक का बीमा सखी स्टाइपेंड भी पा सकती हैं।",
+        "en": "Women can add a Bima Sakhi stipend of up to ₹7,000 a month in year 1."
+       }
+      },
+      {
+       "t": "li",
+       "src": "HOME-16",
+       "text": {
+        "hi": "हर एजेंट के लिए रोहित का लक्ष्य: साल 3 के अंत तक ₹1 लाख प्रति माह — ऊपर दी गई योजना के साथ। आपकी कमाई आपकी मेहनत और आपके द्वारा लाए गए बिज़नेस पर निर्भर करती है।",
+        "en": "Rohit’s goal for every agent: ₹1 lakh a month by the end of year 3 — with the plan above. Your earnings depend on your effort and the business you bring."
+       }
+      }
+     ]
+    }
+   ],
+   "cls": [
+    "block",
+    "recap"
+   ]
+  },
+  {
+   "t": "aside",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "मैं आपसे आज जुड़ने के लिए नहीं कह रहा। मैं बस इतना कह रहा हूँ — परखिए कि क्या आप इसे बना सकते हैं।",
+      "en": "I’m not asking you to join today. I’m asking you to explore whether you are capable of building this."
+     },
+     "src": "HOME-14"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "अगर आप मानते हैं कि भविष्य बनाया जाता है — उसका सिर्फ़ इंतज़ार नहीं किया जाता — तो आइए, बात करते हैं।",
+      "en": "If you believe your future should be something you build — not something you simply wait for — let’s have a conversation."
+     },
+     "src": "HOME-15"
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "a",
+       "href": "#apply",
+       "text": {
+        "hi": "करियर ओरिएंटेशन बुक करें",
+        "en": "Book a career orientation"
+       },
+       "cls": [
+        "cta"
+       ]
+      },
+      {
+       "t": "a",
+       "href": "tel:+919973055291",
+       "text": {
+        "hi": "अभी कॉल करें: <span>9973055291</span>",
+        "en": "Call now: <span>9973055291</span>"
+       },
+       "src": "G-02",
+       "cls": [
+        "cta",
+        "secondary"
+       ]
+      }
+     ],
+     "cls": [
+      "btn-row"
+     ]
+    }
+   ],
+   "cls": [
+    "page-cta"
+   ]
+  }
+ ],
+ "id": "home"
+}

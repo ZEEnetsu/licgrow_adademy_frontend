@@ -36,7 +36,3 @@ export function useCountUp(target, { duration = 2000, threshold = 0.25 } = {}) {
 
   return [ref, value];
 }
-
-export function formatCount(n) {
-  return n.toLocaleString('en-IN');
-}

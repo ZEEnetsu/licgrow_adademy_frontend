@@ -1,0 +1,956 @@
+{
+ "t": "section",
+ "children": [
+  {
+   "t": "header",
+   "children": [
+    {
+     "t": "p",
+     "text": {
+      "hi": "आवेदन / संपर्क",
+      "en": "Apply / Contact"
+     },
+     "cls": [
+      "eyebrow"
+     ]
+    },
+    {
+     "t": "h2",
+     "text": {
+      "hi": "और जानना चाहते हैं? करियर ओरिएंटेशन सेशन में जुड़िए।",
+      "en": "Interested to know more? Join a career orientation session."
+     },
+     "src": "APP-01",
+     "id": "apply-h"
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "सेशन में आप जानेंगे:",
+        "en": "In the session, you’ll find out:"
+       },
+       "cls": [
+        "lede"
+       ]
+      },
+      {
+       "t": "ul",
+       "items": [
+        {
+         "t": "li",
+         "text": {
+          "hi": "एक वित्तीय सलाहकार असल में क्या करता है",
+          "en": "what a financial advisor really does"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "सफल होने के लिए कौन-से हुनर चाहिए",
+          "en": "what skills you need to succeed"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "ट्रेनिंग कैसे होती है",
+          "en": "how the training works"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "शुरुआती चुनौतियाँ क्या हैं",
+          "en": "what the early challenges are"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "क्या यह करियर आपके लिए सही है",
+          "en": "whether this career suits you"
+         }
+        }
+       ],
+       "cls": [
+        "checklist"
+       ]
+      }
+     ],
+     "src": "APP-01"
+    }
+   ],
+   "cls": [
+    "page-hero"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "करियर ओरिएंटेशन सेशन के लिए रजिस्टर करें",
+      "en": "Register for a career orientation session"
+     }
+    },
+    {
+     "t": "form",
+     "children": [
+      {
+       "t": "label",
+       "text": {
+        "hi": "नाम *",
+        "en": "Name *"
+       },
+       "for": "reg-name"
+      },
+      {
+       "t": "input",
+       "text": null,
+       "id": "reg-name",
+       "type": "text",
+       "name": "name",
+       "placeholder": "आपका पूरा नाम",
+       "required": "",
+       "err-hi": "कृपया अपना नाम लिखें।",
+       "err-en": "Please enter your name."
+      },
+      {
+       "t": "label",
+       "text": {
+        "hi": "मोबाइल *",
+        "en": "Mobile *"
+       },
+       "for": "reg-mobile"
+      },
+      {
+       "t": "input",
+       "text": null,
+       "id": "reg-mobile",
+       "type": "tel",
+       "name": "mobile",
+       "placeholder": "10 अंकों का मोबाइल नंबर",
+       "required": "",
+       "inputmode": "numeric",
+       "err-hi": "कृपया 10 अंकों का मोबाइल नंबर लिखें।",
+       "err-en": "Please enter a 10-digit mobile number."
+      },
+      {
+       "t": "label",
+       "text": {
+        "hi": "ईमेल",
+        "en": "Email"
+       },
+       "for": "reg-email"
+      },
+      {
+       "t": "input",
+       "text": null,
+       "id": "reg-email",
+       "type": "email",
+       "name": "email",
+       "placeholder": "you@example.com",
+       "err-hi": "कृपया सही ईमेल पता लिखें।",
+       "err-en": "Please enter a valid email address."
+      },
+      {
+       "t": "label",
+       "text": {
+        "hi": "शहर",
+        "en": "City"
+       },
+       "for": "reg-city"
+      },
+      {
+       "t": "input",
+       "text": null,
+       "id": "reg-city",
+       "type": "text",
+       "name": "city",
+       "placeholder": "आपका शहर या क़स्बा"
+      },
+      {
+       "t": "label",
+       "text": {
+        "hi": "कॉलेज / बिज़नेस",
+        "en": "College / Business"
+       },
+       "for": "reg-org"
+      },
+      {
+       "t": "input",
+       "text": null,
+       "id": "reg-org",
+       "type": "text",
+       "name": "org",
+       "placeholder": "जहाँ आप पढ़ते या काम करते हैं"
+      },
+      {
+       "t": "fieldset",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "मैं किस बारे में और जानना चाहता/चाहती हूँ?",
+          "en": "What do I want to know more about?"
+         }
+        },
+        {
+         "t": "label",
+         "text": {
+          "hi": "फ़ाइनेंशियल प्लानिंग",
+          "en": "Financial planning"
+         }
+        },
+        {
+         "t": "label",
+         "text": {
+          "hi": "वित्तीय साक्षरता",
+          "en": "Financial literacy"
+         }
+        },
+        {
+         "t": "label",
+         "text": {
+          "hi": "वित्तीय सलाहकार का करियर",
+          "en": "A financial advisory career"
+         }
+        },
+        {
+         "t": "label",
+         "text": {
+          "hi": "उद्यमिता",
+          "en": "Entrepreneurship"
+         }
+        },
+        {
+         "t": "label",
+         "text": {
+          "hi": "व्यक्तित्व विकास",
+          "en": "Personal development"
+         }
+        }
+       ]
+      },
+      {
+       "t": "fieldset",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "मेरी रुचि है:",
+          "en": "I am interested in:"
+         }
+        },
+        {
+         "t": "label",
+         "text": {
+          "hi": "नियमित LIC एजेंसी",
+          "en": "Regular LIC agency"
+         }
+        },
+        {
+         "t": "label",
+         "text": {
+          "hi": "बीमा सखी (महिलाओं के लिए)",
+          "en": "Bima Sakhi (for women)"
+         }
+        },
+        {
+         "t": "label",
+         "text": {
+          "hi": "अभी तय नहीं",
+          "en": "Not sure yet"
+         }
+        }
+       ],
+       "src": "APP-02"
+      },
+      {
+       "t": "label",
+       "text": {
+        "hi": "मैं सहमति देता/देती हूँ कि रोहित लाल मुझसे फ़ोन या WhatsApp पर संपर्क करें। *",
+        "en": "I agree to be contacted by Rohit Lal on phone or WhatsApp. *"
+       },
+       "cls": [
+        "consent"
+       ]
+      },
+      {
+       "t": "button",
+       "text": {
+        "hi": "आवेदन करें",
+        "en": "Apply now"
+       },
+       "cls": [
+        "cta"
+       ],
+       "type": "submit"
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "* ज़रूरी। ड्राफ़्ट फ़ॉर्म: आपकी जानकारी अभी कहीं नहीं भेजी जाती।",
+        "en": "* Required. Draft form: your details are not sent anywhere yet."
+       },
+       "cls": [
+        "src"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "box",
+         "children": [
+          {
+           "t": "p",
+           "text": {
+            "hi": "<strong>धन्यवाद! रोहित जल्द ही आपसे संपर्क करेंगे।</strong>",
+            "en": "<strong>Thank you! Rohit will get in touch with you soon.</strong>"
+           }
+          },
+          {
+           "t": "p",
+           "text": {
+            "hi": "(ड्राफ़्ट प्रीव्यू: कुछ भी भेजा नहीं गया है।)",
+            "en": "(Draft preview: nothing has been sent.)"
+           }
+          }
+         ],
+         "cls": [
+          "form-thanks",
+          "goal-band"
+         ]
+        }
+       ]
+      }
+     ],
+     "src": "APP-02",
+     "cls": [
+      "calc",
+      "reg-form"
+     ],
+     "id": "register"
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "समय कम है? कॉल बैक का अनुरोध कीजिए",
+      "en": "Short on time? Request a call back"
+     }
+    },
+    {
+     "t": "form",
+     "children": [
+      {
+       "t": "label",
+       "text": {
+        "hi": "नाम *",
+        "en": "Name *"
+       },
+       "for": "cb-name"
+      },
+      {
+       "t": "input",
+       "text": null,
+       "id": "cb-name",
+       "type": "text",
+       "name": "name",
+       "placeholder": "आपका नाम",
+       "required": "",
+       "err-hi": "कृपया अपना नाम लिखें।",
+       "err-en": "Please enter your name."
+      },
+      {
+       "t": "label",
+       "text": {
+        "hi": "मोबाइल *",
+        "en": "Mobile *"
+       },
+       "for": "cb-mobile"
+      },
+      {
+       "t": "input",
+       "text": null,
+       "id": "cb-mobile",
+       "type": "tel",
+       "name": "mobile",
+       "placeholder": "10 अंकों का मोबाइल नंबर",
+       "required": "",
+       "inputmode": "numeric",
+       "err-hi": "कृपया 10 अंकों का मोबाइल नंबर लिखें।",
+       "err-en": "Please enter a 10-digit mobile number."
+      },
+      {
+       "t": "button",
+       "text": {
+        "hi": "मुझे कॉल बैक करें",
+        "en": "Call me back"
+       },
+       "cls": [
+        "cta",
+        "secondary"
+       ],
+       "type": "submit"
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "<strong>धन्यवाद! रोहित आपको वापस कॉल करेंगे। (ड्राफ़्ट प्रीव्यू: कुछ भी भेजा नहीं गया है।)</strong>",
+          "en": "<strong>Thank you! Rohit will call you back. (Draft preview: nothing has been sent.)</strong>"
+         },
+         "cls": [
+          "form-thanks"
+         ]
+        }
+       ]
+      }
+     ],
+     "cls": [
+      "reg-form"
+     ],
+     "id": "callback"
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "रजिस्टर करने के बाद क्या होता है",
+      "en": "What happens after you register"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "रजिस्टर करने के बाद रोहित आपसे संपर्क करेंगे और अगले करियर ओरिएंटेशन सेशन की जानकारी देंगे — बिक्री या भर्ती का कोई दबाव नहीं। आधिकारिक प्रक्रिया की जानकारी तभी, जब आपकी रुचि हो।",
+      "en": "After you register, Rohit will get in touch with details of the next career orientation session — with no sales or recruitment pressure. Details of the official process come only if you are interested."
+     },
+     "src": "APP-07"
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "हमारी व्यक्तिगत बातचीत — हम किन बातों पर बात करेंगे",
+      "en": "Our personal discussion — what we’ll talk about"
+     }
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "आपका सबसे बड़ा सपना",
+        "en": "your biggest dream"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "आप अपने परिवार के लिए क्या करना चाहते हैं",
+        "en": "what you want to do for your family"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "पिछले एक साल में आपने क्या सीखा",
+        "en": "what you learned in the last year"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "अपने मौजूदा करियर में आपको सबसे अच्छा क्या लगता है",
+        "en": "what you like most in your current career"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "आप इस क्षेत्र के बारे में क्यों जानना चाहते हैं",
+        "en": "why you want to know about this field"
+       }
+      }
+     ],
+     "src": "APP-03"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>हम ज़्यादा सुनेंगे और कम बोलेंगे।</strong>",
+      "en": "<strong>We’ll listen more and talk less.</strong>"
+     },
+     "src": "APP-03"
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "ख़ुद को रेटिंग दीजिए",
+      "en": "Rate yourself"
+     }
+    },
+    {
+     "t": "form",
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "हर गुण पर ख़ुद को 1 से 5 तक रेटिंग दीजिए। यह बातचीत का एक ज़रिया है, कोई परीक्षा नहीं — और आपके जवाब आपकी स्क्रीन पर ही रहेंगे।",
+        "en": "Rate yourself from 1 to 5 on each quality. This is a discussion tool, not an exam — and your answers stay on your screen."
+       }
+      },
+      {
+       "t": "label",
+       "text": {
+        "hi": "सीखने की इच्छा 3",
+        "en": "Willingness to learn 3"
+       },
+       "for": "r1"
+      },
+      {
+       "t": "input",
+       "text": null,
+       "id": "r1",
+       "type": "range",
+       "value": "3",
+       "min": "1",
+       "max": "5",
+       "step": "1"
+      },
+      {
+       "t": "label",
+       "text": {
+        "hi": "ईमानदारी 3",
+        "en": "Honesty 3"
+       },
+       "for": "r2"
+      },
+      {
+       "t": "input",
+       "text": null,
+       "id": "r2",
+       "type": "range",
+       "value": "3",
+       "min": "1",
+       "max": "5",
+       "step": "1"
+      },
+      {
+       "t": "label",
+       "text": {
+        "hi": "बातचीत का हुनर 3",
+        "en": "Communication skills 3"
+       },
+       "for": "r3"
+      },
+      {
+       "t": "input",
+       "text": null,
+       "id": "r3",
+       "type": "range",
+       "value": "3",
+       "min": "1",
+       "max": "5",
+       "step": "1"
+      },
+      {
+       "t": "label",
+       "text": {
+        "hi": "अनुशासन 3",
+        "en": "Discipline 3"
+       },
+       "for": "r4"
+      },
+      {
+       "t": "input",
+       "text": null,
+       "id": "r4",
+       "type": "range",
+       "value": "3",
+       "min": "1",
+       "max": "5",
+       "step": "1"
+      },
+      {
+       "t": "label",
+       "text": {
+        "hi": "धैर्य 3",
+        "en": "Patience 3"
+       },
+       "for": "r5"
+      },
+      {
+       "t": "input",
+       "text": null,
+       "id": "r5",
+       "type": "range",
+       "value": "3",
+       "min": "1",
+       "max": "5",
+       "step": "1"
+      },
+      {
+       "t": "label",
+       "text": {
+        "hi": "लोगों से जुड़ने में रुचि 3",
+        "en": "Interest in connecting with people 3"
+       },
+       "for": "r6"
+      },
+      {
+       "t": "input",
+       "text": null,
+       "id": "r6",
+       "type": "range",
+       "value": "3",
+       "min": "1",
+       "max": "5",
+       "step": "1"
+      },
+      {
+       "t": "label",
+       "text": {
+        "hi": "ज़िम्मेदारी 3",
+        "en": "Responsibility 3"
+       },
+       "for": "r7"
+      },
+      {
+       "t": "input",
+       "text": null,
+       "id": "r7",
+       "type": "range",
+       "value": "3",
+       "min": "1",
+       "max": "5",
+       "step": "1"
+      },
+      {
+       "t": "label",
+       "text": {
+        "hi": "समय का प्रबंधन 3",
+        "en": "Time management 3"
+       },
+       "for": "r8"
+      },
+      {
+       "t": "input",
+       "text": null,
+       "id": "r8",
+       "type": "range",
+       "value": "3",
+       "min": "1",
+       "max": "5",
+       "step": "1"
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "<strong>आपका कुल (40 में से): 24</strong>",
+        "en": "<strong>Your total (out of 40): 24</strong>"
+       }
+      }
+     ],
+     "src": "APP-04",
+     "cls": [
+      "calc",
+      "rate"
+     ],
+     "id": "app04"
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "हम क्या देखते हैं",
+      "en": "What we look for"
+     }
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "सीखने की जिज्ञासा",
+        "en": "Curiosity to learn"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "लंबे समय की सोच",
+        "en": "Long-term thinking"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "लोगों की मदद करने की इच्छा",
+        "en": "A wish to help people"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "ईमानदार काम में रुचि",
+        "en": "Interest in ethical work"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "धैर्य",
+        "en": "Patience"
+       }
+      }
+     ],
+     "src": "APP-05",
+     "cls": [
+      "checklist"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "अगर आप सिर्फ़ जल्दी पैसा, कम मेहनत या तुरंत सफलता ढूँढ रहे हैं, तो पहले हम वास्तविक उम्मीदों पर बात कर लें।",
+      "en": "If you’re looking only for quick money, little effort or instant success, let’s first talk about realistic expectations."
+     },
+     "src": "APP-05"
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "आपसे मेरा वादा",
+      "en": "My promise to you"
+     }
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "मैं आपको सही और संतुलित जानकारी दूँगा।",
+        "en": "I will give you correct, balanced information."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "ट्रेनिंग के लिए आपको सही दिशा दिखाऊँगा।",
+        "en": "I will show you the right direction for your training."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "आपके सवालों का ईमानदारी से जवाब दूँगा।",
+        "en": "I will answer your questions honestly."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "आपका जोश बनाए रखने में मदद करूँगा।",
+        "en": "I will help keep your enthusiasm up."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "ईमानदार काम पर ज़ोर दूँगा।",
+        "en": "I will insist on ethical work."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "हर प्रतिभागी का सम्मान करूँगा।",
+        "en": "I will respect every participant."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "कभी भ्रामक वादे या कमाई के बढ़ा-चढ़ाकर दावे नहीं करूँगा।",
+        "en": "I will never make misleading promises or unrealistic income claims."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "कभी दबाव नहीं डालूँगा, न आपके फ़ैसले में जल्दबाज़ी कराऊँगा।",
+        "en": "I will never pressure you or rush your decision."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "आपकी इजाज़त से ही संपर्क करूँगा — कम और काम के संदेशों के साथ।",
+        "en": "I will contact you only with your permission, with few and useful messages."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "अगर आपकी रुचि न हो, तो आपके फ़ैसले का सम्मान करूँगा।",
+        "en": "I will respect your decision if you’re not interested."
+       }
+      }
+     ],
+     "src": "APP-06",
+     "cls": [
+      "checklist"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "पहले रिश्ता · फिर मार्गदर्शन · फिर फ़ैसला।",
+      "en": "Relationship first · Guidance second · Decision third."
+     },
+     "src": "APP-06",
+     "cls": [
+      "band"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "— रोहित लाल",
+      "en": "— Rohit Lal"
+     },
+     "cls": [
+      "src"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "रोहित लाल से संपर्क करें",
+      "en": "Contact Rohit Lal"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>रोहित लाल</strong><br/>MBA (फ़ाइनेंस और फ़ाइनेंशियल प्लानिंग)<br/>डेवलपमेंट ऑफिसर (SBA), भारतीय जीवन बीमा निगम (LIC)",
+      "en": "<strong>Rohit Lal</strong><br/>MBA (Finance &amp; Financial Planning)<br/>Development Officer (SBA), Life Insurance Corporation of India"
+     },
+     "src": "G-01"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "फ़ोन: <span data-src=\"G-02\"><a href=\"tel:+919973055291\">9973055291</a> · <a href=\"tel:+918825361848\">8825361848</a></span>",
+      "en": "Phone: <span data-src=\"G-02\"><a href=\"tel:+919973055291\">9973055291</a> · <a href=\"tel:+918825361848\">8825361848</a></span>"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "ईमेल: <span data-src=\"G-03\"><a href=\"mailto:lic.rohitlal@gmail.com\">lic.rohitlal@gmail.com</a></span>",
+      "en": "Email: <span data-src=\"G-03\"><a href=\"mailto:lic.rohitlal@gmail.com\">lic.rohitlal@gmail.com</a></span>"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "ब्रांच क्षेत्र: लखीसराय; शेखपुरा (SO); सूरजगढ़ा (SO); बड़हिया (SO)",
+      "en": "Branch area: Lakhisarai; Sheikhpura (SO); Surajgarha (SO); Barahiya (SO)"
+     },
+     "src": "G-04"
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "a",
+       "href": "tel:+919973055291",
+       "text": {
+        "hi": "ज़्यादा जानकारी के लिए मुझे कॉल करें",
+        "en": "Call me for more details"
+       },
+       "src": "G-06",
+       "cls": [
+        "cta"
+       ]
+      },
+      {
+       "t": "a",
+       "href": "mailto:lic.rohitlal@gmail.com",
+       "text": {
+        "hi": "रोहित को ईमेल करें",
+        "en": "Email Rohit"
+       },
+       "cls": [
+        "cta",
+        "secondary"
+       ]
+      }
+     ],
+     "cls": [
+      "btn-row"
+     ]
+    }
+   ],
+   "src": "APP-08",
+   "cls": [
+    "block",
+    "recap"
+   ]
+  },
+  {
+   "t": "p",
+   "text": {
+    "hi": "सेमिनार ध्यान खींचता है। फ़ॉलो-अप भरोसा बनाता है। भरोसा मौक़े बनाता है।",
+    "en": "Seminar gets attention. Follow-up builds trust. Trust creates opportunity."
+   },
+   "src": "APP-09",
+   "cls": [
+    "band"
+   ]
+  }
+ ],
+ "id": "apply"
+}

@@ -1,116 +1,162 @@
-import { useEffect, useState } from 'react';
-import { Link, NavLink, useLocation } from 'react-router-dom';
-import { AnimatePresence, motion } from 'framer-motion';
-import ShieldMark from '../components/ShieldMark.jsx';
-import { EASE } from '../pages/landing/motion.js';
+import { useEffect, useRef, useState } from 'react';
+import { Link, NavLink } from 'react-router-dom';
+import { AnimatePresence, motion, useMotionValueEvent, useScroll } from 'framer-motion';
+import { useLenis } from 'lenis/react';
+import LangSwitch from './LangSwitch.jsx';
+import Brand from './nav/Brand.jsx';
+import { SolutionsDropdown, SolutionsList } from './nav/SolutionsMenu.jsx';
+import { useLang } from '../i18n/index.js';
+import { NAV_LINKS } from '../pages/site/sections.js';
+import { EASE } from './motion/primitives.js';
 
 /*
- * Routes only. The nav used to carry five in-page hash anchors (#features,
- * #how-it-works, #become-lic-agent, #mentor, #contact) — those scrolled the
- * landing page rather than navigating anywhere, and were dead weight on every
- * other route, where the targets do not exist at all.
+ * The public header, on every marketing page.
+ *
+ *   brand + sub-line | Solutions ▾ · Apply Now · Contact Us · FAQ | lang · Login · Start for Free
+ *
+ * The four "what you get" pages (Bima Sakhi, Benefits, Procedure, Career)
+ * sit under the Solutions dropdown — see SOLUTIONS in pages/site/sections.js,
+ * which the router and footer read too, so they cannot drift apart. Labels
+ * are {hi, en} pairs and re-resolve with the language switch.
+ *
+ * The full bar needs ~1100px, so it appears from `xl`; below that the links
+ * move into the menu and only the primary button stays in the bar.
  */
-const LINKS = [{ label: 'Benefits', to: '/benefits' }];
 
+const LABELS = {
+  login: { hi: 'लॉग इन', en: 'Login' },
+  start: { hi: 'मुफ़्त शुरू करें', en: 'Start for Free' },
+  faq: { hi: 'सवाल-जवाब', en: 'FAQ' },
+  menu: { hi: 'मेनू', en: 'Menu' },
+  open: { hi: 'मेनू खोलें', en: 'Open menu' },
+  close: { hi: 'मेनू बंद करें', en: 'Close menu' },
+};
+
+/** px of continuous travel before the bar hides (down) or returns (up). */
+const HIDE_AFTER = 24;
+const SHOW_AFTER = 48;
+
+const linkClass = ({ isActive }) =>
+  `rounded-lg px-3 py-2 text-[15px] font-medium transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-ember ${
+    isActive ? 'text-ink' : 'text-plum hover:text-ink'
+  }`;
+
+// No display utility here: each use sets its own (`inline-flex`, or
+// `hidden sm:inline-flex`), so a base `inline-flex` can't override `hidden`.
+const startClass =
+  'items-center justify-center rounded-xl bg-ink font-semibold text-cream shadow-[inset_0_1px_0_rgba(255,255,255,0.16),0_12px_26px_-12px_rgba(21,13,61,0.7)] transition-[background-color,transform] duration-300 ease-out-expo hover:bg-ink-soft active:scale-[0.98] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ember';
 
 const AcademyNav = () => {
+  const { t } = useLang();
   const [scrolled, setScrolled] = useState(false);
+  const [hidden, setHidden] = useState(false);
   const [open, setOpen] = useState(false);
-  const { pathname } = useLocation();
+  const [solutions, setSolutions] = useState(false);
+  const lenis = useLenis();
+  const { scrollY } = useScroll();
 
   /*
-   * The transparent bar only works over the landing hero, which is white.
-   * Any other route can open on a dark masthead — /benefits does — and the
-   * charcoal wordmark and body-grey links then sit on navy and disappear.
-   * Off the landing page the bar starts solid rather than earning it by
-   * scrolling.
+   * Tucked away while reading downwards, back once the reader deliberately
+   * scrolls up. The pinned chapters on the landing page get the whole screen
+   * that way.
+   *
+   * The decision is made on distance travelled in one direction, not on the
+   * per-frame delta. Lenis eases every scroll, so a single downward gesture
+   * produces runs of sub-pixel frames; judging each frame on its own flipped
+   * the bar shown/hidden dozens of times per gesture — the jitter. Only a
+   * reversal resets the run, and only a run past the threshold changes state.
    */
-  const solid = scrolled || pathname !== '/';
+  const run = useRef(0);
+  useMotionValueEvent(scrollY, 'change', (y) => {
+    const dy = y - (scrollY.getPrevious() ?? y);
+    setScrolled(y > 12);
 
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 12);
-    onScroll();
-    window.addEventListener('scroll', onScroll, { passive: true });
-    return () => window.removeEventListener('scroll', onScroll);
-  }, []);
+    if (y < 480) {
+      run.current = 0;
+      setHidden(false);
+      return;
+    }
+    if (dy === 0) return;
+    run.current = Math.sign(dy) === Math.sign(run.current) ? run.current + dy : dy;
+    if (run.current > HIDE_AFTER) setHidden(true);
+    else if (run.current < -SHOW_AFTER) setHidden(false);
+  });
 
+  // The menu stops the page behind it from scrolling — through Lenis when
+  // the page runs it (a plain overflow lock would not stop Lenis), and the
+  // body as a fallback.
   useEffect(() => {
+    if (open) lenis?.stop();
+    else lenis?.start();
     document.body.style.overflow = open ? 'hidden' : '';
     return () => {
       document.body.style.overflow = '';
+      lenis?.start();
     };
-  }, [open]);
+  }, [open, lenis]);
+
+  const close = () => setOpen(false);
 
   return (
     <>
       <header
         className={[
-          'fixed inset-x-0 top-0 z-50 transition-all duration-300 ease-material',
-          solid
-            ? 'border-b border-black/[0.06] bg-white/95 shadow-soft backdrop-blur-[12px]'
-            : 'border-b border-transparent bg-transparent',
+          // `translate`, not `transform`: Tailwind v4's translate-* utilities set
+          // the standalone CSS property, which a `transform` transition ignores.
+          'fixed inset-x-0 top-0 z-50 border-b bg-white/90 backdrop-blur-xl transition-[translate,box-shadow,border-color] duration-500 ease-out-expo will-change-[translate]',
+          hidden && !open && !solutions ? '-translate-y-full' : 'translate-y-0',
+          scrolled ? 'border-ink/[0.07] shadow-soft' : 'border-ink/[0.06]',
         ].join(' ')}
       >
-        <div className="mx-auto flex h-[4.5rem] max-w-7xl items-center justify-between gap-4 px-4 sm:px-6 lg:px-8">
-          <Link
-            to="/"
-            className="flex min-w-0 items-center gap-2.5 transition-transform duration-200 ease-material hover:scale-[1.02]"
-            onClick={() => setOpen(false)}
-          >
-            <ShieldMark />
-            <span className="font-semibold tracking-tight text-lic-charcoal sm:text-lg">
-              LICPro <span className="text-lic-navy">Academy</span>
-            </span>
-          </Link>
+        <div className="mx-auto flex h-[4.75rem] max-w-7xl items-center justify-between gap-4 px-4 sm:px-6 lg:px-8">
+          <Brand onClick={close} />
 
-          <nav
-            className="hidden items-center gap-1 md:flex"
-            aria-label="Primary navigation"
-          >
-            {LINKS.map((l) => (
-              <NavLink
-                key={l.to}
-                to={l.to}
-                className={({ isActive }) =>
-                  [
-                    'rounded-full px-3 py-2 text-sm font-medium transition-all duration-200 ease-material hover:bg-lic-ice hover:text-lic-charcoal',
-                    isActive ? 'bg-lic-ice text-lic-charcoal' : 'text-lic-body',
-                  ].join(' ')
-                }
-              >
-                {l.label}
+          <nav className="hidden flex-1 items-center justify-center gap-1 xl:flex" aria-label="Primary navigation">
+            <SolutionsDropdown open={solutions} onOpenChange={setSolutions} />
+            {NAV_LINKS.map((p) => (
+              <NavLink key={p.path} to={p.path} className={linkClass}>
+                {t(p.nav)}
               </NavLink>
             ))}
-            <NavLink
-              to="/login"
-              className="ml-2 rounded-full px-3 py-2 text-sm font-semibold text-lic-charcoal transition-all duration-200 ease-material hover:bg-lic-ice"
-            >
-              Login
-            </NavLink>
-            <Link
-              to="/register"
-              className="ml-1 inline-flex min-h-[48px] items-center justify-center rounded-full bg-lic-navy px-5 text-sm font-semibold text-white shadow-md transition-all duration-200 ease-material hover:scale-[1.03] hover:shadow-navy-glow"
-            >
-              Start for Free
+            <Link to="/#faq" className={linkClass({ isActive: false })}>
+              {t(LABELS.faq)}
             </Link>
           </nav>
 
-          <button
-            type="button"
-            className="inline-flex min-h-[48px] min-w-[48px] items-center justify-center rounded-card border border-black/[0.08] bg-white/80 text-lic-charcoal md:hidden"
-            aria-expanded={open}
-            aria-label={open ? 'Close menu' : 'Open menu'}
-            onClick={() => setOpen((o) => !o)}
-          >
-            <span className="sr-only">Menu</span>
-            <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              {open ? (
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              ) : (
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-              )}
-            </svg>
-          </button>
+          <div className="hidden items-center gap-3 xl:flex">
+            <LangSwitch />
+            <NavLink
+              to="/login"
+              className="rounded-lg px-2 py-2 text-[15px] font-medium text-ink transition-colors hover:text-ember-deep focus-visible:outline-2 focus-visible:outline-ember"
+            >
+              {t(LABELS.login)}
+            </NavLink>
+            <Link to="/register" className={`${startClass} inline-flex h-11 px-5 text-[15px]`}>
+              {t(LABELS.start)}
+            </Link>
+          </div>
+
+          <div className="flex items-center gap-2 xl:hidden">
+            <Link to="/register" className={`${startClass} hidden h-10 px-4 text-sm sm:inline-flex`} onClick={close}>
+              {t(LABELS.start)}
+            </Link>
+            <button
+              type="button"
+              className="inline-flex min-h-[44px] min-w-[44px] items-center justify-center rounded-xl bg-white text-ink ring-1 ring-ink/10"
+              aria-expanded={open}
+              aria-label={open ? t(LABELS.close) : t(LABELS.open)}
+              onClick={() => setOpen((o) => !o)}
+            >
+              <span className="sr-only">{t(LABELS.menu)}</span>
+              <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                {open ? (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                ) : (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 7h16M4 12h16M4 17h10" />
+                )}
+              </svg>
+            </button>
+          </div>
         </div>
       </header>
 
@@ -119,52 +165,57 @@ const AcademyNav = () => {
           <>
             <motion.button
               type="button"
-              aria-label="Close menu backdrop"
-              className="fixed inset-0 z-40 bg-lic-charcoal/30 backdrop-blur-[2px] md:hidden"
+              aria-label={t(LABELS.close)}
+              className="fixed inset-0 z-40 bg-ink/30 backdrop-blur-[2px] xl:hidden"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.25, ease: EASE }}
-              onClick={() => setOpen(false)}
+              onClick={close}
             />
             <motion.nav
-              className="fixed left-0 right-0 top-[4.5rem] z-40 overflow-hidden border-b border-black/[0.06] bg-white/98 shadow-card md:hidden"
+              data-lenis-prevent
+              className="fixed left-0 right-0 top-[4.75rem] z-40 max-h-[calc(100dvh-4.75rem)] overflow-y-auto overscroll-contain border-b border-ink/[0.06] bg-white shadow-card xl:hidden"
               initial={{ height: 0, opacity: 0.9 }}
               animate={{ height: 'auto', opacity: 1 }}
               exit={{ height: 0, opacity: 0.9 }}
               transition={{ duration: 0.35, ease: EASE }}
               aria-label="Mobile navigation"
             >
-              <div className="flex flex-col gap-1 px-4 py-4">
-                {LINKS.map((l, i) => (
+              <div className="mx-auto flex max-w-3xl flex-col gap-1 px-4 py-4 sm:px-6">
+                <SolutionsList onNavigate={close} />
+                <div className="my-2 h-px bg-ink/[0.07]" />
+                {NAV_LINKS.map((p, i) => (
                   <motion.div
-                    key={l.to}
+                    key={p.path}
                     initial={{ opacity: 0, x: -12 }}
                     animate={{ opacity: 1, x: 0 }}
-                    transition={{ delay: i * 0.05, duration: 0.3, ease: EASE }}
+                    transition={{ delay: 0.1 + i * 0.05, duration: 0.3, ease: EASE }}
                   >
                     <NavLink
-                      to={l.to}
-                      className="flex min-h-[48px] items-center rounded-card px-4 py-3 text-base font-medium text-lic-charcoal hover:bg-lic-ice"
-                      onClick={() => setOpen(false)}
+                      to={p.path}
+                      onClick={close}
+                      className={({ isActive }) =>
+                        `flex min-h-[48px] items-center rounded-xl px-3 py-3 font-display text-lg font-bold ${
+                          isActive ? 'text-ember-deep' : 'text-ink'
+                        } hover:bg-cream`
+                      }
                     >
-                      {l.label}
+                      {t(p.nav)}
                     </NavLink>
                   </motion.div>
                 ))}
-                <NavLink
-                  to="/login"
-                  className="min-h-[48px] rounded-card px-4 py-3 text-base font-semibold text-lic-charcoal hover:bg-lic-ice"
-                  onClick={() => setOpen(false)}
-                >
-                  Login
-                </NavLink>
-                <Link
-                  to="/register"
-                  className="mt-2 inline-flex min-h-[48px] items-center justify-center rounded-full bg-lic-navy px-5 text-base font-semibold text-white shadow-md"
-                  onClick={() => setOpen(false)}
-                >
-                  Start for Free
+                <Link to="/#faq" onClick={close} className="flex min-h-[48px] items-center rounded-xl px-3 py-3 font-display text-lg font-bold text-ink hover:bg-cream">
+                  {t(LABELS.faq)}
+                </Link>
+                <div className="mt-3 flex flex-wrap items-center justify-between gap-3 rounded-2xl bg-cream px-3 py-3">
+                  <LangSwitch />
+                  <NavLink to="/login" onClick={close} className="px-2 text-[15px] font-semibold text-ink">
+                    {t(LABELS.login)}
+                  </NavLink>
+                </div>
+                <Link to="/register" onClick={close} className={`${startClass} mt-2 flex h-12 w-full text-base`}>
+                  {t(LABELS.start)}
                 </Link>
               </div>
             </motion.nav>

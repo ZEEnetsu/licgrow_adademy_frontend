@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
+import { motion } from "framer-motion";
 
 import {
   useLoginLearnerMutation,
@@ -14,6 +15,8 @@ import {
   selectActorType,
 } from "../app/features/auth/auth.selectors.js";
 import { useIsLockedOut } from "../app/features/auth/useAuth.js";
+import AuthField, { AuthNotice, AuthSubmit } from "./auth/AuthField.jsx";
+import Icon from "./ui/Icon.jsx";
 
 /**
  * Sign in — `api-contracts/01-auth.md` §1–3.
@@ -138,102 +141,89 @@ const LoginForm = () => {
   const disabled = isLoading || locked;
 
   return (
-    <div className="px-5 lg:px-10 py-5 w-full">
-      <h1 className="text-4xl font-semibold text-zinc-200">Sign in</h1>
-      <p className="text-zinc-500 text-[15px] mt-3">
+    <div className="w-full">
+      <h1 className="h-display text-[2.25rem] font-extrabold text-ink short:text-[2rem]">Sign in</h1>
+      <p className="mt-2 text-[15px] leading-relaxed text-plum">
         Access your dashboard, track progress, take mock tests and join live
         webinars.
       </p>
 
       <div
-        className="flex gap-1 mt-5 p-1 bg-black/30 rounded-lg"
+        className="mt-6 flex gap-1 rounded-2xl bg-sand p-1 ring-1 ring-ink/[0.05] short:mt-4"
         role="tablist"
         aria-label="Account type"
       >
-        {ACTOR_TABS.map((tab) => (
-          <button
-            key={tab.type}
-            type="button"
-            role="tab"
-            aria-selected={actor === tab.type}
-            onClick={() => setActor(tab.type)}
-            className={`flex-1 text-xs py-1.5 rounded-md transition-colors ${
-              actor === tab.type
-                ? "bg-zinc-700 text-zinc-100"
-                : "text-zinc-500 hover:text-zinc-300"
-            }`}
-          >
-            {tab.label}
-          </button>
-        ))}
+        {ACTOR_TABS.map((tab) => {
+          const on = actor === tab.type;
+          return (
+            <button
+              key={tab.type}
+              type="button"
+              role="tab"
+              aria-selected={on}
+              onClick={() => setActor(tab.type)}
+              className={`relative flex-1 rounded-xl py-2.5 text-[13px] short:py-2 font-semibold transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-ember ${
+                on ? "text-cream" : "text-plum hover:text-ink"
+              }`}
+            >
+              {on && (
+                <motion.span
+                  layoutId="actor-pill"
+                  className="absolute inset-0 rounded-xl bg-ink shadow-navy-glow"
+                  transition={{ type: "spring", stiffness: 420, damping: 34 }}
+                />
+              )}
+              <span className="relative">{tab.label}</span>
+            </button>
+          );
+        })}
       </div>
 
-      <form onSubmit={handleSubmit} className="mt-5" noValidate>
-        <div className="flex flex-col gap-2">
-          <label htmlFor="identifier" className="text-zinc-300 text-sm">
-            Email or username
-          </label>
-          <input
-            id="identifier"
-            name="identifier"
-            type="text"
-            autoComplete="username"
-            value={form.identifier}
-            onChange={handleChange}
-            disabled={disabled}
-            aria-invalid={Boolean(fieldIssues.identifier)}
-            className="px-4 py-3 bg-black/30 outline-none rounded-md text-zinc-200 focus:ring-1 focus:ring-blue-600 disabled:opacity-50"
-          />
-          {fieldIssues.identifier && (
-            <p className="text-red-400 text-xs">{fieldIssues.identifier}</p>
-          )}
-        </div>
+      <form onSubmit={handleSubmit} className="mt-6 space-y-5 short:mt-5 short:space-y-4" noValidate>
+        <AuthField
+          id="identifier"
+          name="identifier"
+          label="Email or username"
+          type="text"
+          autoComplete="username"
+          value={form.identifier}
+          onChange={handleChange}
+          disabled={disabled}
+          issue={fieldIssues.identifier}
+        />
 
-        <div className="flex flex-col gap-2 mt-4">
-          <label htmlFor="password" className="text-zinc-300 text-sm">
-            Password
-          </label>
-          <input
-            id="password"
-            name="password"
-            type="password"
-            autoComplete="current-password"
-            value={form.password}
-            onChange={handleChange}
-            disabled={disabled}
-            aria-invalid={Boolean(fieldIssues.password)}
-            className="px-4 py-3 bg-black/30 outline-none rounded-md text-zinc-200 focus:ring-1 focus:ring-blue-600 disabled:opacity-50"
-          />
-          {fieldIssues.password && (
-            <p className="text-red-400 text-xs">{fieldIssues.password}</p>
-          )}
-        </div>
+        <AuthField
+          id="password"
+          name="password"
+          label="Password"
+          type="password"
+          autoComplete="current-password"
+          value={form.password}
+          onChange={handleChange}
+          disabled={disabled}
+          issue={fieldIssues.password}
+        />
 
         {localIssue && !error && (
-          <p className="text-amber-400/90 text-xs mt-3">{localIssue}</p>
-        )}
-
-        {error && (
-          <div className="mt-3 rounded-md bg-red-500/10 border border-red-500/30 px-3 py-2">
-            <p className="text-red-400 text-xs font-semibold">
-              {getUserMessage(error, "Couldn't sign you in.")}
-            </p>
-          </div>
-        )}
-
-        {locked && (
-          <p className="text-amber-400 text-xs mt-3">
-            Too many attempts. Try again in {secondsRemaining}s.
+          <p className="flex items-center gap-1.5 text-xs font-semibold text-ember-deep">
+            <Icon name="info" className="h-3.5 w-3.5 shrink-0" strokeWidth={2.2} />
+            {localIssue}
           </p>
         )}
 
-        <button
-          type="submit"
-          disabled={disabled}
-          className="mt-5 px-6 py-3 w-full rounded-md bg-blue-900 hover:bg-blue-700 text-zinc-100 font-medium cursor-pointer transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
-        >
+        {error && (
+          <AuthNotice tone="error">{getUserMessage(error, "Couldn't sign you in.")}</AuthNotice>
+        )}
+
+        {locked && (
+          <AuthNotice tone="warn" icon="clock">
+            Too many attempts. Try again in {secondsRemaining}s.
+          </AuthNotice>
+        )}
+
+        <AuthSubmit busy={isLoading} disabled={disabled}>
           {isLoading ? "Signing in…" : "Sign in"}
-        </button>
+        </AuthSubmit>
       </form>
     </div>
   );

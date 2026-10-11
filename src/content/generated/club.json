@@ -1,0 +1,5218 @@
+{
+ "t": "section",
+ "children": [
+  {
+   "t": "header",
+   "children": [
+    {
+     "t": "p",
+     "text": {
+      "hi": "क्लब के फ़ायदे",
+      "en": "Club Benefits"
+     },
+     "cls": [
+      "eyebrow"
+     ]
+    },
+    {
+     "t": "h2",
+     "text": {
+      "hi": "ज़्यादा मेहनत, ज़्यादा फ़ायदे",
+      "en": "Extra benefits for extra effort"
+     },
+     "src": "CLUB-08",
+     "id": "club-h"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "क्लब सदस्यता, बेहतरीन प्रदर्शन के लिए LIC की ओर से मिलने वाली पहचान है। इससे समाज में और निगम में आपका रुतबा बढ़ता है — और आपको कमीशन के ऊपर अतिरिक्त सुविधाएँ (फ़्रिंज बेनिफ़िट) मिलती हैं।",
+      "en": "Club membership is LIC’s recognition for outstanding performance. It raises your standing in society and in the Corporation — and gives you fringe benefits over and above your commission."
+     },
+     "src": "CLUB-01",
+     "cls": [
+      "lede"
+     ]
+    },
+    {
+     "t": "a",
+     "href": "#apply",
+     "text": {
+      "hi": "आवेदन करें",
+      "en": "Apply now"
+     },
+     "cls": [
+      "cta"
+     ]
+    }
+   ],
+   "cls": [
+    "page-hero"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "क्लब की सीढ़ी",
+      "en": "The club ladder"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "हर एजेंट नीचे से शुरू करता है। हर अगली सीढ़ी पर बड़े भत्ते, एडवांस और कवर मिलते हैं।",
+      "en": "Every agent starts at the bottom. Each step up brings bigger allowances, advances and covers."
+     }
+    },
+    {
+     "t": "ol",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "Distinguished Agents’ Club (डिस्टिंग्विश्ड एजेंट्स क्लब)",
+        "en": "Distinguished Agents’ Club"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "Branch Manager’s Club (BM) (ब्रांच मैनेजर क्लब)",
+        "en": "Branch Manager’s Club (BM)"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "Divisional Manager’s Club (DM) (डिविज़नल मैनेजर क्लब)",
+        "en": "Divisional Manager’s Club (DM)"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "Zonal Manager’s Club (ZM) (ज़ोनल मैनेजर क्लब)",
+        "en": "Zonal Manager’s Club (ZM)"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "Chairman’s Club (CM) (चेयरमैन क्लब)",
+        "en": "Chairman’s Club (CM)"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "Galaxy Club (गैलेक्सी क्लब)",
+        "en": "Galaxy Club"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "Corporate Club (कॉर्पोरेट क्लब)",
+        "en": "Corporate Club"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "Elite Club (एलीट क्लब)",
+        "en": "Elite Club"
+       }
+      }
+     ],
+     "src": "CLUB-02",
+     "cls": [
+      "ladder"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "एजेंट ट्रैक — नीचे से शुरुआत, ऊपर तक। स्रोत: LIC एजेंट भर्ती प्रस्तुति (LIC का आधिकारिक टेम्पलेट, 2026)।",
+      "en": "Agent track, from entry (bottom) to top. Source: LIC agent recruitment presentation (official LIC template, 2026)."
+     },
+     "cls": [
+      "src"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "पहचान MDRT (मिलियन डॉलर राउंड टेबल) के ज़रिए भी मिलती है — नीचे देखें।",
+      "en": "Recognition also comes through MDRT (the Million Dollar Round Table) — see below."
+     },
+     "src": "CLUB-02"
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "table",
+       "caption": {
+        "hi": "CM, ZM, DM और BM क्लब में प्रवेश की शर्तें",
+        "en": "Entry criteria for the CM, ZM, DM and BM clubs"
+       },
+       "head": [
+        [
+         {
+          "text": {
+           "hi": "शर्त",
+           "en": "Condition"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "CM",
+           "en": "CM"
+          },
+          "th": true,
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "ZM",
+           "en": "ZM"
+          },
+          "th": true,
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "DM",
+           "en": "DM"
+          },
+          "th": true,
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "BM",
+           "en": "BM"
+          },
+          "th": true,
+          "num": true
+         }
+        ]
+       ],
+       "rows": [
+        [
+         {
+          "text": {
+           "hi": "पिछले 3 सालों में हर साल लाइव्स की शुद्ध संख्या",
+           "en": "Net number of lives in each of the last 3 years"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "130",
+           "en": "130"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "100",
+           "en": "100"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "80",
+           "en": "80"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "50",
+           "en": "50"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "3 साल में कैसे क्वालिफ़ाई करें",
+           "en": "How to qualify in 3 years"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "हर महीने 12 लाइव्स",
+           "en": "12 lives a month"
+          }
+         },
+         {
+          "text": {
+           "hi": "हर महीने 9 लाइव्स",
+           "en": "9 lives a month"
+          }
+         },
+         {
+          "text": {
+           "hi": "हर महीने 7 लाइव्स",
+           "en": "7 lives a month"
+          }
+         },
+         {
+          "text": {
+           "hi": "हर महीने 5 लाइव्स",
+           "en": "5 lives a month"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "चालू (इन-फ़ोर्स) लाइव्स की कुल संख्या",
+           "en": "Total number of lives in force"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "600",
+           "en": "600"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "400",
+           "en": "400"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "250",
+           "en": "250"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "150",
+           "en": "150"
+          },
+          "num": true
+         }
+        ]
+       ],
+       "src": "CLUB-03",
+       "cls": [
+        "data"
+       ]
+      }
+     ],
+     "cls": [
+      "table-scroll"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "प्रीमियर क्लब (ज़रूरी पहले साल का कमीशन): Galaxy Club — 2 साल तक हर साल ₹10 लाख · Corporate Club — 2 साल तक हर साल ₹18 लाख · Elite Club — 2 साल तक हर साल ₹35 लाख से ₹1 करोड़।",
+      "en": "Premier clubs (first-year commission needed): Galaxy Club — ₹10 lakh each year for 2 years · Corporate Club — ₹18 lakh each year for 2 years · Elite Club — ₹35 lakh to ₹1 crore each year for 2 years."
+     },
+     "src": "CLUB-04"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "LIC ट्रेनिंग सामग्री के अनुसार; राशियाँ और शर्तें बदल सकती हैं। *शर्तें लागू।",
+      "en": "As per LIC training material; amounts and criteria may change. *Conditions apply."
+     },
+     "cls": [
+      "src"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "क्लब से क्या मिलता है",
+      "en": "What clubs give you"
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "ब्याज-मुक्त एडवांस",
+          "en": "Interest-free advances"
+         }
+        },
+        {
+         "t": "ol",
+         "items": [
+          {
+           "t": "li",
+           "text": {
+            "hi": "वाहन एडवांस",
+            "en": "Vehicle advance"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "ऑफिस उपकरण",
+            "en": "Office equipment"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "त्योहार एडवांस",
+            "en": "Festival advance"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "डायरी और कैलेंडर",
+            "en": "Diary and calendar"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "बाढ़, सूखा या चक्रवात",
+            "en": "Flood, drought or cyclone"
+           }
+          }
+         ]
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "ब्याज सहित एडवांस",
+          "en": "Interest-bearing advances"
+         }
+        },
+        {
+         "t": "ol",
+         "items": [
+          {
+           "t": "li",
+           "text": {
+            "hi": "कंप्यूटर एडवांस",
+            "en": "Computer advance"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "ट्रेनिंग एडवांस",
+            "en": "Training advance"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "पढ़ाई के लिए एडवांस",
+            "en": "Education advance"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "होम लोन",
+            "en": "Housing loan"
+           }
+          }
+         ]
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "ख़ास फ़ायदा",
+          "en": "Special benefit"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "क्वालिफ़ाई करने पर आप देश और विदेश में सम्मेलनों में शामिल होते हैं।",
+          "en": "When you qualify, you attend conferences in India and abroad."
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      }
+     ],
+     "src": "CLUB-05",
+     "cls": [
+      "grid"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "स्रोत: LIC एजेंट भर्ती प्रस्तुति (LIC का आधिकारिक टेम्पलेट, 2026)।",
+      "en": "Source: LIC agent recruitment presentation (official LIC template, 2026)."
+     },
+     "cls": [
+      "src"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "*शर्तें लागू",
+      "en": "*Conditions apply"
+     },
+     "src": "G-08",
+     "cls": [
+      "conditions"
+     ]
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "table",
+       "caption": {
+        "hi": "ज़्यादा मेहनत, ज़्यादा फ़ायदे — CM, ZM, DM और BM क्लब सदस्य (₹)",
+        "en": "Extra benefits for extra effort — CM, ZM, DM and BM club members (₹)"
+       },
+       "head": [
+        [
+         {
+          "text": {
+           "hi": "विवरण",
+           "en": "Particulars"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "CM",
+           "en": "CM"
+          },
+          "th": true,
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "ZM",
+           "en": "ZM"
+          },
+          "th": true,
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "DM",
+           "en": "DM"
+          },
+          "th": true,
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "BM",
+           "en": "BM"
+          },
+          "th": true,
+          "num": true
+         }
+        ]
+       ],
+       "rows": [
+        [
+         {
+          "text": {
+           "hi": "ऑफिस भत्ता",
+           "en": "Office allowance"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "35,000",
+           "en": "35,000"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "22,000",
+           "en": "22,000"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "12,000",
+           "en": "12,000"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "1,000",
+           "en": "1,000"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "त्योहार एडवांस",
+           "en": "Festival advance"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "20,000",
+           "en": "20,000"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "20,000",
+           "en": "20,000"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "20,000",
+           "en": "20,000"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "15,000",
+           "en": "15,000"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "यात्रा ख़र्च",
+           "en": "Travelling expenses"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "इकॉनमी हवाई किराया / II टियर AC",
+           "en": "Economy air fare / II-tier AC"
+          }
+         },
+         {
+          "text": {
+           "hi": "I क्लास AC / II टियर AC",
+           "en": "I-class AC / II-tier AC"
+          }
+         },
+         {
+          "text": {
+           "hi": "I क्लास / II क्लास",
+           "en": "I-class / II-class"
+          }
+         },
+         {
+          "text": {
+           "hi": "I क्लास / II क्लास",
+           "en": "I-class / II-class"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "ऊपरी फ़ुटकर ख़र्च / सम्मेलन",
+           "en": "Out-of-pocket expenses / conventions"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "8,000",
+           "en": "8,000"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "3,500",
+           "en": "3,500"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "600",
+           "en": "600"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "300",
+           "en": "300"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "होम लोन @5%",
+           "en": "Housing loan @5%"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "18.50 लाख",
+           "en": "18.50 lakh"
+          }
+         },
+         {
+          "text": {
+           "hi": "12.25 लाख",
+           "en": "12.25 lakh"
+          }
+         },
+         {
+          "text": {
+           "hi": "9.00 लाख",
+           "en": "9.00 lakh"
+          }
+         },
+         {
+          "text": {
+           "hi": "कुछ नहीं",
+           "en": "Nil"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "विस्तारित होम लोन @8.5%",
+           "en": "Extended housing loan @8.5%"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "21.50 लाख",
+           "en": "21.50 lakh"
+          }
+         },
+         {
+          "text": {
+           "hi": "13.75 लाख",
+           "en": "13.75 lakh"
+          }
+         },
+         {
+          "text": {
+           "hi": "11.00 लाख",
+           "en": "11.00 lakh"
+          }
+         },
+         {
+          "text": {
+           "hi": "कुछ नहीं",
+           "en": "Nil"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "ब्याज-मुक्त चारपहिया / वाहन एडवांस",
+           "en": "Interest-free four-wheeler / vehicle advance"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "9 लाख",
+           "en": "9 lakh"
+          }
+         },
+         {
+          "text": {
+           "hi": "7 लाख",
+           "en": "7 lakh"
+          }
+         },
+         {
+          "text": {
+           "hi": "5 लाख",
+           "en": "5 lakh"
+          }
+         },
+         {
+          "text": {
+           "hi": "5 लाख",
+           "en": "5 lakh"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "कंप्यूटर एडवांस (ब्याज सहित)",
+           "en": "Computer advance (interest-bearing)"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "1 लाख",
+           "en": "1 lakh"
+          }
+         },
+         {
+          "text": {
+           "hi": "—",
+           "en": "—"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "—",
+           "en": "—"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "—",
+           "en": "—"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "ऑफिस उपकरण के लिए ब्याज-मुक्त एडवांस",
+           "en": "Interest-free advance for office equipment"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "पिछले साल का रिन्यूअल कमीशन या उपकरण की क़ीमत, जो भी कम हो (सभी स्तर)",
+           "en": "Last year’s renewal commission or the equipment price, whichever is less (all levels)"
+          },
+          "colspan": 4
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "पढ़ाई के लिए एडवांस (ब्याज सहित)",
+           "en": "Educational advance (interest-bearing)"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "7 लाख",
+           "en": "7 lakh"
+          }
+         },
+         {
+          "text": {
+           "hi": "6 लाख",
+           "en": "6 lakh"
+          }
+         },
+         {
+          "text": {
+           "hi": "—",
+           "en": "—"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "—",
+           "en": "—"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "टेलीफ़ोन और मोबाइल",
+           "en": "Telephone and mobile"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "6,000",
+           "en": "6,000"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "4,000",
+           "en": "4,000"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "2,400",
+           "en": "2,400"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "1,800",
+           "en": "1,800"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "प्रिंटिंग और स्टेशनरी",
+           "en": "Printing and stationery"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "2,300",
+           "en": "2,300"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "1,800",
+           "en": "1,800"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "1,400",
+           "en": "1,400"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "1,100",
+           "en": "1,100"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "ग्रुप इंश्योरेंस (पुरानी राशियाँ — 01.09.2026 से संशोधित, नीचे देखें)",
+           "en": "Group insurance (old values — revised from 01.09.2026, see below)"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "4,00,000",
+           "en": "4,00,000"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "2,00,000",
+           "en": "2,00,000"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "1,10,000",
+           "en": "1,10,000"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "55,000",
+           "en": "55,000"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "ग्रुप मेडिकल इंश्योरेंस",
+           "en": "Group medical insurance"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "5,00,000",
+           "en": "5,00,000"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "3,50,000",
+           "en": "3,50,000"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "2,50,000",
+           "en": "2,50,000"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "2,00,000",
+           "en": "2,00,000"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "MHR (बीमा राशि)",
+           "en": "MHR (sum assured)"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "100 लाख",
+           "en": "100 lakh"
+          }
+         },
+         {
+          "text": {
+           "hi": "60 लाख",
+           "en": "60 lakh"
+          }
+         },
+         {
+          "text": {
+           "hi": "40 लाख",
+           "en": "40 lakh"
+          }
+         },
+         {
+          "text": {
+           "hi": "20 लाख",
+           "en": "20 lakh"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "ग्रुप पर्सनल एक्सीडेंट और विकलांगता",
+           "en": "Group personal accident and disability"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "2,00,000",
+           "en": "2,00,000"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "2,00,000",
+           "en": "2,00,000"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "2,00,000",
+           "en": "2,00,000"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "2,00,000",
+           "en": "2,00,000"
+          },
+          "num": true
+         }
+        ]
+       ],
+       "src": "CLUB-08",
+       "cls": [
+        "data"
+       ]
+      }
+     ],
+     "cls": [
+      "table-scroll"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "*शर्तें लागू",
+      "en": "*Conditions apply"
+     },
+     "src": "G-08",
+     "cls": [
+      "conditions"
+     ]
+    },
+    {
+     "t": "figure",
+     "children": [
+      {
+       "t": "figcaption",
+       "text": {
+        "hi": "क्लब के अनुसार भत्ते (₹): ऑफिस भत्ता, टेलीफ़ोन और मोबाइल, प्रिंटिंग और स्टेशनरी। स्रोत: बीमा सखी प्रस्तुति।",
+        "en": "Allowances by club (₹): office allowance, telephone and mobile, printing and stationery. Source: Bima Sakhi presentation."
+       }
+      },
+      {
+       "t": "details",
+       "summary": {
+        "hi": "आँकड़े देखें",
+        "en": "See the numbers"
+       },
+       "children": [
+        {
+         "t": "box",
+         "children": [
+          {
+           "t": "table",
+           "caption": {
+            "hi": "क्लब के अनुसार भत्ते (₹)",
+            "en": "Allowances by club (₹)"
+           },
+           "head": [
+            [
+             {
+              "text": {
+               "hi": "",
+               "en": ""
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "CM",
+               "en": "CM"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "ZM",
+               "en": "ZM"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "DM",
+               "en": "DM"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "BM",
+               "en": "BM"
+              },
+              "th": true,
+              "num": true
+             }
+            ]
+           ],
+           "rows": [
+            [
+             {
+              "text": {
+               "hi": "ऑफिस भत्ता",
+               "en": "Office allowance"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "35,000",
+               "en": "35,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "22,000",
+               "en": "22,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "12,000",
+               "en": "12,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "1,000",
+               "en": "1,000"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "टेलीफ़ोन और मोबाइल",
+               "en": "Telephone and mobile"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "6,000",
+               "en": "6,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "4,000",
+               "en": "4,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "2,400",
+               "en": "2,400"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "1,800",
+               "en": "1,800"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "प्रिंटिंग और स्टेशनरी",
+               "en": "Printing and stationery"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "2,300",
+               "en": "2,300"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "1,800",
+               "en": "1,800"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "1,400",
+               "en": "1,400"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "1,100",
+               "en": "1,100"
+              },
+              "num": true
+             }
+            ]
+           ],
+           "src": "CLUB-08",
+           "cls": [
+            "data"
+           ],
+           "id": "ch24-table"
+          }
+         ],
+         "cls": [
+          "table-scroll"
+         ]
+        }
+       ]
+      }
+     ],
+     "src": "CH-24 CLUB-08",
+     "chart": {
+      "id": "ch24",
+      "fallback": "ch24-table",
+      "aria": {
+       "hi": "ग्रुप बार चार्ट: क्लब के अनुसार ऑफिस भत्ता, टेलीफ़ोन और स्टेशनरी — CM में 35,000, 6,000 और 2,300 रुपये से लेकर BM में 1,000, 1,800 और 1,100 रुपये तक",
+       "en": "Grouped bar chart: office allowance, telephone and stationery by club — CM 35,000, 6,000 and 2,300 rupees down to BM 1,000, 1,800 and 1,100 rupees"
+      }
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "LIC ट्रेनिंग सामग्री के अनुसार; राशियाँ और शर्तें बदल सकती हैं। *शर्तें लागू।",
+      "en": "As per LIC training material; amounts and criteria may change. *Conditions apply."
+     },
+     "cls": [
+      "src"
+     ]
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "कमीशन के ऊपर अतिरिक्त सुविधाएँ",
+      "en": "Fringe benefits over and above commission"
+     }
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "अपना ऑफिस चलाने के लिए ऑफिस भत्ता",
+        "en": "Office allowance to run your own office"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "टेलीफ़ोन और मोबाइल बिल की भरपाई",
+        "en": "Telephone and mobile bills reimbursed"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "सेल्स प्रमोशन के उपहारों की भरपाई",
+        "en": "Sales-promotion gift items reimbursed"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "कार (₹6 लाख से ₹50 लाख) या मोटरसाइकिल के लिए ब्याज-मुक्त एडवांस",
+        "en": "Interest-free advance for a car (₹6 lakh to ₹50 lakh) or motorbike"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "ऑफिस उपकरण के लिए ब्याज-मुक्त एडवांस",
+        "en": "Interest-free advance for office equipment"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "ट्रेनिंग के लिए एडवांस",
+        "en": "Advance for training"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "ब्याज-मुक्त त्योहार एडवांस",
+        "en": "Interest-free festival advance"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "रियायती दर पर होम लोन (₹25 लाख से ₹60 लाख)",
+        "en": "Housing loan at a concessional rate (₹25 lakh to ₹60 lakh)"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "टर्म इंश्योरेंस और मेडिक्लेम",
+        "en": "Term insurance and mediclaim"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "पूरे भारत में कर्मचारी दरों पर गेस्ट-हाउस की सुविधा",
+        "en": "Guest-house facility across India at employee rates"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "विदेश में सालाना सम्मेलन",
+        "en": "Annual convention at a foreign location"
+       }
+      }
+     ],
+     "src": "CLUB-06",
+     "cls": [
+      "checklist"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "पैसों में इन फ़ायदों की क़ीमत क्या है? स्टार्ट-अप प्रस्तुति के अनुसार क्लब के फ़ायदों का मूल्य Galaxy Club के लिए ₹4,30,000, Corporate Club के लिए ₹6,20,000 और Elite Club के लिए ₹14,50,000 है।",
+      "en": "What are these benefits worth in money? The start-up deck puts the value of club benefits at ₹4,30,000 for Galaxy Club, ₹6,20,000 for Corporate Club and ₹14,50,000 for Elite Club."
+     },
+     "src": "CLUB-07"
+    },
+    {
+     "t": "figure",
+     "children": [
+      {
+       "t": "figcaption",
+       "text": {
+        "hi": "क्लब के फ़ायदों का मौद्रिक मूल्य (₹)। स्रोत: LIC फ़ील्ड ट्रेनिंग सामग्री (2023-24)।",
+        "en": "Monetary value of club benefits (₹). Source: LIC field training material (2023-24)."
+       }
+      },
+      {
+       "t": "details",
+       "summary": {
+        "hi": "आँकड़े देखें",
+        "en": "See the numbers"
+       },
+       "children": [
+        {
+         "t": "box",
+         "children": [
+          {
+           "t": "table",
+           "caption": {
+            "hi": "क्लब के फ़ायदों का मौद्रिक मूल्य",
+            "en": "Monetary value of club benefits"
+           },
+           "head": [
+            [
+             {
+              "text": {
+               "hi": "क्लब",
+               "en": "Club"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "₹",
+               "en": "₹"
+              },
+              "th": true
+             }
+            ]
+           ],
+           "rows": [
+            [
+             {
+              "text": {
+               "hi": "Galaxy Club",
+               "en": "Galaxy Club"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "4,30,000",
+               "en": "4,30,000"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "Corporate Club",
+               "en": "Corporate Club"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "6,20,000",
+               "en": "6,20,000"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "Elite Club",
+               "en": "Elite Club"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "14,50,000",
+               "en": "14,50,000"
+              },
+              "num": true
+             }
+            ]
+           ],
+           "src": "CLUB-07",
+           "cls": [
+            "data"
+           ],
+           "id": "ch23-table"
+          }
+         ],
+         "cls": [
+          "table-scroll"
+         ]
+        }
+       ]
+      }
+     ],
+     "src": "CH-23 CLUB-07",
+     "chart": {
+      "id": "ch23",
+      "fallback": "ch23-table",
+      "aria": {
+       "hi": "बार चार्ट: क्लब के फ़ायदों का मौद्रिक मूल्य — Galaxy Club 4,30,000 रुपये, Corporate Club 6,20,000, Elite Club 14,50,000",
+       "en": "Bar chart: monetary value of club benefits — Galaxy Club 4,30,000 rupees, Corporate Club 6,20,000, Elite Club 14,50,000"
+      }
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "संक्षेप में अतिरिक्त सुविधाएँ",
+          "en": "Fringe benefits in brief"
+         }
+        },
+        {
+         "t": "ul",
+         "items": [
+          {
+           "t": "li",
+           "text": {
+            "hi": "दोपहिया या चारपहिया वाहन के लिए ब्याज-मुक्त एडवांस",
+            "en": "Interest-free advance for a two- or four-wheeler"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "लैपटॉप, सॉफ़्टवेयर, फ़र्नीचर, टेलीफ़ोन वग़ैरह के लिए ब्याज-मुक्त एडवांस",
+            "en": "Interest-free advance for laptops, software, furniture, telephone and more"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "5% सालाना पर होम लोन",
+            "en": "Housing loan at 5% a year"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "ऑफिस, स्टेशनरी, सेल्स प्रमोशन और उपहारों के ख़र्च की भरपाई — और भी बहुत कुछ",
+            "en": "Office, stationery, sales-promotion and gift expenses reimbursed — and many more"
+           }
+          }
+         ]
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "“हम अपने एजेंटों का पूरा ख़याल रखते हैं।”",
+          "en": "“We take utmost care of our agents.”"
+         }
+        }
+       ],
+       "src": "CLUB-11",
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "क्लब सदस्यों को क्या मिल सकता है",
+          "en": "What club members can get"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "कार या मोटरसाइकिल · होम लोन · ऑफिस भत्ता · कंप्यूटर · फ़र्नीचर · शादी के लिए एडवांस · हवाई यात्रा — और भी कई फ़ायदे।",
+          "en": "A car or motorcycle · housing loan · office allowance · computer · furniture · marriage advance · air travel — and many more benefits."
+         }
+        }
+       ],
+       "src": "CLUB-12",
+       "cls": [
+        "card"
+       ]
+      }
+     ],
+     "cls": [
+      "grid"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "ट्रेनिंग सामग्री के अनुसार, MDRT और TOT जैसे ऊँचे स्तरों पर कार और घर के लिए बड़े एडवांस भी मिल सकते हैं (राशि और ब्याज LIC के नियमों के अनुसार)।",
+      "en": "As per training material, higher levels such as MDRT and TOT can also bring larger car and home advances (amounts and interest as per LIC rules)."
+     },
+     "src": "CLUB-13"
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "01.09.2026 से नया — क्लब सदस्यों के लिए बड़ा बीमा",
+      "en": "New from 01.09.2026 — bigger insurance for club members"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "सालाना रिन्यूअल तारीख़ 01.09.2026 से, LIC ने हर स्तर पर क्लब सदस्य एजेंटों का ग्रुप इंश्योरेंस कवर बढ़ा दिया है।",
+      "en": "From the annual renewal date 01.09.2026, LIC has raised the group insurance cover for club-member agents at every level."
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "table",
+       "caption": {
+        "hi": "क्लब सदस्य एजेंटों के लिए बढ़ा हुआ ग्रुप इंश्योरेंस (₹), 01.09.2026 से लागू",
+        "en": "Enhanced group insurance for club-member agents (₹), effective 01.09.2026"
+       },
+       "head": [
+        [
+         {
+          "text": {
+           "hi": "क्लब सदस्यता",
+           "en": "Club membership"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "मौजूदा कवर",
+           "en": "Existing cover"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "संशोधित कवर",
+           "en": "Revised cover"
+          },
+          "th": true
+         }
+        ]
+       ],
+       "rows": [
+        [
+         {
+          "text": {
+           "hi": "Elite",
+           "en": "Elite"
+          },
+          "th": true,
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "10,00,000",
+           "en": "10,00,000"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "<strong>15,00,000</strong>",
+           "en": "<strong>15,00,000</strong>"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "Corporate",
+           "en": "Corporate"
+          },
+          "th": true,
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "8,00,000",
+           "en": "8,00,000"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "<strong>12,00,000</strong>",
+           "en": "<strong>12,00,000</strong>"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "Club Galaxy",
+           "en": "Club Galaxy"
+          },
+          "th": true,
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "6,00,000",
+           "en": "6,00,000"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "<strong>9,00,000</strong>",
+           "en": "<strong>9,00,000</strong>"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "Chairman",
+           "en": "Chairman"
+          },
+          "th": true,
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "4,00,000",
+           "en": "4,00,000"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "<strong>6,00,000</strong>",
+           "en": "<strong>6,00,000</strong>"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "Zonal Manager",
+           "en": "Zonal Manager"
+          },
+          "th": true,
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "2,00,000",
+           "en": "2,00,000"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "<strong>3,00,000</strong>",
+           "en": "<strong>3,00,000</strong>"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "Divisional Manager",
+           "en": "Divisional Manager"
+          },
+          "th": true,
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "1,10,000",
+           "en": "1,10,000"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "<strong>2,00,000</strong>",
+           "en": "<strong>2,00,000</strong>"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "Branch Manager",
+           "en": "Branch Manager"
+          },
+          "th": true,
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "55,000",
+           "en": "55,000"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "<strong>1,00,000</strong>",
+           "en": "<strong>1,00,000</strong>"
+          },
+          "num": true
+         }
+        ]
+       ],
+       "src": "CLUB-09",
+       "cls": [
+        "data"
+       ]
+      }
+     ],
+     "cls": [
+      "table-scroll"
+     ]
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "दुर्घटना लाभ कवर, बढ़ी हुई बीमा राशि के बराबर है।",
+        "en": "The accident benefit cover equals the enhanced sum assured."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "प्रवेश की अधिकतम उम्र 69 से बढ़ाकर 74 साल (अगले जन्मदिन के अनुसार) कर दी गई है।",
+        "en": "The maximum age at entry is raised from 69 to 74 years (age next birthday)."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "पूरा प्रीमियम LIC भरती है। बाकी शर्तें वही हैं।",
+        "en": "The entire premium is paid by LIC. Other terms are unchanged."
+       }
+      }
+     ],
+     "src": "CLUB-09"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "स्रोत: LIC सर्कुलर संदर्भ CO/Mktg./ZD/A/28/2026, दिनांक 01.09.2026 (CO/Mktg./ZD/35/2016, दिनांक 03.09.2016 के आगे)।",
+      "en": "Source: LIC circular Ref. CO/Mktg./ZD/A/28/2026 dated 01.09.2026 (further to CO/Mktg./ZD/35/2016 dated 03.09.2016)."
+     },
+     "cls": [
+      "src"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>ज़्यादा सुरक्षा · ज़्यादा भरोसा · ज़्यादा पहचान — क्योंकि आप सबसे अच्छे के हक़दार हैं।</strong>",
+      "en": "<strong>More protection · More security · More recognition — because you deserve the best.</strong>"
+     },
+     "src": "CLUB-09"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "*शर्तें लागू",
+      "en": "*Conditions apply"
+     },
+     "src": "G-08",
+     "cls": [
+      "conditions"
+     ]
+    },
+    {
+     "t": "figure",
+     "children": [
+      {
+       "t": "figcaption",
+       "text": {
+        "hi": "ग्रुप इंश्योरेंस कवर (₹): मौजूदा बनाम 01.09.2026 से संशोधित। स्रोत: LIC सर्कुलर CO/Mktg./ZD/A/28/2026।",
+        "en": "Group insurance cover (₹): existing vs revised from 01.09.2026. Source: LIC circular CO/Mktg./ZD/A/28/2026."
+       }
+      },
+      {
+       "t": "details",
+       "summary": {
+        "hi": "आँकड़े देखें",
+        "en": "See the numbers"
+       },
+       "children": [
+        {
+         "t": "box",
+         "children": [
+          {
+           "t": "table",
+           "caption": {
+            "hi": "ग्रुप इंश्योरेंस कवर (₹)",
+            "en": "Group insurance cover (₹)"
+           },
+           "head": [
+            [
+             {
+              "text": {
+               "hi": "क्लब",
+               "en": "Club"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "मौजूदा",
+               "en": "Existing"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "संशोधित",
+               "en": "Revised"
+              },
+              "th": true
+             }
+            ]
+           ],
+           "rows": [
+            [
+             {
+              "text": {
+               "hi": "Elite",
+               "en": "Elite"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "10,00,000",
+               "en": "10,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "15,00,000",
+               "en": "15,00,000"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "Corporate",
+               "en": "Corporate"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "8,00,000",
+               "en": "8,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "12,00,000",
+               "en": "12,00,000"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "Club Galaxy",
+               "en": "Club Galaxy"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "6,00,000",
+               "en": "6,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "9,00,000",
+               "en": "9,00,000"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "Chairman",
+               "en": "Chairman"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "4,00,000",
+               "en": "4,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "6,00,000",
+               "en": "6,00,000"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "Zonal Manager",
+               "en": "Zonal Manager"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "2,00,000",
+               "en": "2,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "3,00,000",
+               "en": "3,00,000"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "Divisional Manager",
+               "en": "Divisional Manager"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "1,10,000",
+               "en": "1,10,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "2,00,000",
+               "en": "2,00,000"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "Branch Manager",
+               "en": "Branch Manager"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "55,000",
+               "en": "55,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "1,00,000",
+               "en": "1,00,000"
+              },
+              "num": true
+             }
+            ]
+           ],
+           "src": "CLUB-09",
+           "cls": [
+            "data"
+           ],
+           "id": "ch25-table"
+          }
+         ],
+         "cls": [
+          "table-scroll"
+         ]
+        }
+       ]
+      }
+     ],
+     "src": "CH-25 CLUB-09",
+     "chart": {
+      "id": "ch25",
+      "fallback": "ch25-table",
+      "aria": {
+       "hi": "ग्रुप बार चार्ट: क्लब के अनुसार ग्रुप इंश्योरेंस कवर, मौजूदा बनाम 01.09.2026 से संशोधित — Elite में 10 लाख से 15 लाख रुपये, और Branch Manager में 55,000 से 1 लाख रुपये",
+       "en": "Grouped bar chart: group insurance cover by club, existing vs revised from 01.09.2026 — Elite from 10 lakh to 15 lakh rupees down to Branch Manager from 55,000 to 1 lakh"
+      }
+     }
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "सभी ग्रुप योजनाएँ एक नज़र में",
+      "en": "All group schemes at a glance"
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "table",
+       "caption": {
+        "hi": "एजेंटों और क्लब सदस्यों के लिए ग्रुप इंश्योरेंस योजनाएँ",
+        "en": "Group insurance schemes for agents and club members"
+       },
+       "head": [
+        [
+         {
+          "text": {
+           "hi": "योजना",
+           "en": "Scheme"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "किसके लिए",
+           "en": "Who"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "उम्र सीमा",
+           "en": "Age limit"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "कवर",
+           "en": "Cover"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "प्रीमियम",
+           "en": "Premium"
+          },
+          "th": true
+         }
+        ]
+       ],
+       "rows": [
+        [
+         {
+          "text": {
+           "hi": "ग्रुप टर्म इंश्योरेंस",
+           "en": "Group term insurance"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "सभी इन-फ़ोर्स एजेंट",
+           "en": "All in-force agents"
+          }
+         },
+         {
+          "text": {
+           "hi": "69 तक",
+           "en": "Up to 69"
+          }
+         },
+         {
+          "text": {
+           "hi": "₹5,00,000 (3 एजेंसी वर्ष तक) · ₹7,50,000 (3 से ज़्यादा, 5 तक) · ₹10,00,000 (5 से ज़्यादा, 10 तक) · ₹15,00,000 (10 से ज़्यादा)",
+           "en": "₹5,00,000 (up to 3 agency years) · ₹7,50,000 (above 3 up to 5) · ₹10,00,000 (above 5 up to 10) · ₹15,00,000 (above 10)"
+          }
+         },
+         {
+          "text": {
+           "hi": "2,065 · 3,098 · 4,130 · 6,195 (जैसा छपा)",
+           "en": "2,065 · 3,098 · 4,130 · 6,195 (as printed)"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "ग्रुप पर्सनल एक्सीडेंट",
+           "en": "Group personal accident"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "सभी सक्रिय एजेंट",
+           "en": "All active agents"
+          }
+         },
+         {
+          "text": {
+           "hi": "नहीं बताई गई",
+           "en": "Not shown"
+          }
+         },
+         {
+          "text": {
+           "hi": "₹2,00,000",
+           "en": "₹2,00,000"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "पूरी सब्सिडी",
+           "en": "Fully subsidised"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "Abhikartha Bima Yojana",
+           "en": "Abhikartha Bima Yojana"
+          },
+          "th": true,
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "सभी सक्रिय एजेंट",
+           "en": "All active agents"
+          }
+         },
+         {
+          "text": {
+           "hi": "69 तक",
+           "en": "Up to 69"
+          }
+         },
+         {
+          "text": {
+           "hi": "₹2,00,000",
+           "en": "₹2,00,000"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "पूरी सब्सिडी",
+           "en": "Fully subsidised"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "ग्रुप मेडिक्लेम",
+           "en": "Group mediclaim"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "क्लब सदस्य और जीवनसाथी",
+           "en": "Club members and spouse"
+          }
+         },
+         {
+          "text": {
+           "hi": "85 तक",
+           "en": "Up to 85"
+          }
+         },
+         {
+          "text": {
+           "hi": "CM ₹5,00,000 · ZM ₹3,50,000 · DM ₹2,50,000 · BM ₹2,00,000",
+           "en": "CM ₹5,00,000 · ZM ₹3,50,000 · DM ₹2,50,000 · BM ₹2,00,000"
+          }
+         },
+         {
+          "text": {
+           "hi": "आंशिक सब्सिडी",
+           "en": "Partially subsidised"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "ग्रुप टर्म एश्योरेंस",
+           "en": "Group term assurance"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "क्लब सदस्य",
+           "en": "Club members"
+          }
+         },
+         {
+          "text": {
+           "hi": "69 तक",
+           "en": "Up to 69"
+          }
+         },
+         {
+          "text": {
+           "hi": "CM ₹4,00,000 · ZM ₹2,00,000 · DM ₹1,10,000 · BM ₹55,000",
+           "en": "CM ₹4,00,000 · ZM ₹2,00,000 · DM ₹1,10,000 · BM ₹55,000"
+          }
+         },
+         {
+          "text": {
+           "hi": "पूरी सब्सिडी — 01.09.2026 से बदल दी गई (ऊपर की टेबल देखें)",
+           "en": "Fully subsidised — superseded from 01.09.2026 (see the table above)"
+          }
+         }
+        ]
+       ],
+       "src": "CLUB-10 BEN-26 BEN-27",
+       "cls": [
+        "data"
+       ]
+      }
+     ],
+     "cls": [
+      "table-scroll"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "*शर्तें लागू",
+      "en": "*Conditions apply"
+     },
+     "src": "G-08",
+     "cls": [
+      "conditions"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "MDRT — दुनिया का पैमाना",
+      "en": "MDRT — the world standard"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "मिलियन डॉलर राउंड टेबल (MDRT), जिसकी स्थापना 1927 में हुई, वित्तीय पेशेवरों का प्रमुख संगठन है। यह दुनिया के अग्रणी जीवन बीमा और वित्तीय सेवा पेशेवरों का एक स्वतंत्र, अंतरराष्ट्रीय संगठन है। इसके सदस्य असाधारण पेशेवर ज्ञान, सख़्त नैतिक आचरण और बेहतरीन ग्राहक सेवा दिखाते हैं। MDRT सदस्यता को दुनिया भर में बिक्री की उत्कृष्टता का पैमाना माना जाता है।",
+      "en": "The Million Dollar Round Table (MDRT), founded in 1927, is the premier association of financial professionals. It is an independent, international association of the world’s leading life-insurance and financial-services professionals. Its members show exceptional professional knowledge, strict ethical conduct and outstanding client service. MDRT membership is recognised worldwide as the standard of sales excellence."
+     },
+     "src": "CLUB-14"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "क्वालिफ़ाई करने के लिए कैलेंडर वर्ष में आपको तय पहले साल का कमीशन (बोनस छोड़कर) कमाना होता है, या तय पहले साल का प्रीमियम लाना होता है।",
+      "en": "To qualify, you must earn the prescribed first-year commission (not counting bonus) OR bring the prescribed first-year premium during the calendar year."
+     },
+     "src": "CLUB-15"
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "table",
+       "caption": {
+        "hi": "MDRT 2026 की शर्तें",
+        "en": "MDRT 2026 criteria"
+       },
+       "head": [
+        [
+         {
+          "text": {
+           "hi": "स्तर",
+           "en": "Level"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "पहले साल का कमीशन (बोनस छोड़कर)",
+           "en": "First-year commission (excl. bonus)"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "या पहले साल का प्रीमियम",
+           "en": "OR first-year premium"
+          },
+          "th": true
+         }
+        ]
+       ],
+       "rows": [
+        [
+         {
+          "text": {
+           "hi": "MDRT (बुनियादी)",
+           "en": "MDRT (basic)"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "₹11,32,600",
+           "en": "₹11,32,600"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "₹45,30,400",
+           "en": "₹45,30,400"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "Court of the Table — COT (3× MDRT)",
+           "en": "Court of the Table — COT (3× MDRT)"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "₹33,97,800",
+           "en": "₹33,97,800"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "₹1,35,91,200",
+           "en": "₹1,35,91,200"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "Top of the Table — TOT (6× MDRT)",
+           "en": "Top of the Table — TOT (6× MDRT)"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "₹67,95,600",
+           "en": "₹67,95,600"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "₹2,71,82,400",
+           "en": "₹2,71,82,400"
+          },
+          "num": true
+         }
+        ]
+       ],
+       "src": "CLUB-16",
+       "cls": [
+        "data"
+       ]
+      }
+     ],
+     "cls": [
+      "table-scroll"
+     ]
+    },
+    {
+     "t": "figure",
+     "children": [
+      {
+       "t": "figcaption",
+       "text": {
+        "hi": "MDRT 2026: ज़रूरी पहले साल का कमीशन (₹, बोनस छोड़कर)। स्रोत: LIC फ़ील्ड ट्रेनिंग सामग्री।",
+        "en": "MDRT 2026: first-year commission needed (₹, excl. bonus). Source: LIC field training material."
+       }
+      },
+      {
+       "t": "details",
+       "summary": {
+        "hi": "आँकड़े देखें",
+        "en": "See the numbers"
+       },
+       "children": [
+        {
+         "t": "box",
+         "children": [
+          {
+           "t": "table",
+           "caption": {
+            "hi": "ज़रूरी पहले साल का कमीशन (₹)",
+            "en": "First-year commission needed (₹)"
+           },
+           "head": [
+            [
+             {
+              "text": {
+               "hi": "स्तर",
+               "en": "Level"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "₹",
+               "en": "₹"
+              },
+              "th": true
+             }
+            ]
+           ],
+           "rows": [
+            [
+             {
+              "text": {
+               "hi": "MDRT",
+               "en": "MDRT"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "11,32,600",
+               "en": "11,32,600"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "COT",
+               "en": "COT"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "33,97,800",
+               "en": "33,97,800"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "TOT",
+               "en": "TOT"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "67,95,600",
+               "en": "67,95,600"
+              },
+              "num": true
+             }
+            ]
+           ],
+           "src": "CLUB-16",
+           "cls": [
+            "data"
+           ],
+           "id": "ch26-table"
+          }
+         ],
+         "cls": [
+          "table-scroll"
+         ]
+        }
+       ]
+      }
+     ],
+     "src": "CH-26 CLUB-16",
+     "chart": {
+      "id": "ch26",
+      "fallback": "ch26-table",
+      "aria": {
+       "hi": "बार चार्ट: MDRT 2026 के लिए ज़रूरी पहले साल का कमीशन — MDRT 11,32,600 रुपये, COT 33,97,800, TOT 67,95,600",
+       "en": "Bar chart: MDRT 2026 first-year commission thresholds — MDRT 11,32,600 rupees, COT 33,97,800, TOT 67,95,600"
+      }
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "MDRT आपको विदेश ले जा सकता है। क्वालिफ़ाई करने पर MDRT एजेंट अमेरिका या कनाडा में MDRT Annual Convention और एशिया या ऑस्ट्रेलिया में MDRT Global Convention में जा सकते हैं। TOT एजेंट अपने जीवनसाथी के साथ अमेरिका या कनाडा में Annual Convention में जा सकते हैं। विदेश घूमने का आपका सपना सच हो सकता है।",
+      "en": "MDRT can take you abroad. On qualifying, an MDRT agent can attend the MDRT Annual Convention in the USA or Canada and the MDRT Global Convention in Asia or Australia. A TOT agent can attend the Annual Convention in the USA or Canada with their spouse. Your dream of travelling abroad can come true."
+     },
+     "src": "CLUB-18"
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "h4",
+       "text": {
+        "hi": "सामान्य एजेंसी बनाम MDRT एजेंसी",
+        "en": "A normal agency vs an MDRT agency"
+       }
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "table",
+         "caption": {
+          "hi": "सामान्य एजेंसी और MDRT एजेंसी की तुलना (जैसी एक इंडस्ट्री ट्रेनिंग बुकलेट बताती है)",
+          "en": "How a normal agency and an MDRT agency compare (as an industry training booklet describes them)"
+         },
+         "head": [
+          [
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "सामान्य एजेंसी",
+             "en": "Normal agency"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "MDRT एजेंसी",
+             "en": "MDRT agency"
+            },
+            "th": true
+           }
+          ]
+         ],
+         "rows": [
+          [
+           {
+            "text": {
+             "hi": "न्यूनतम कमाई",
+             "en": "Minimum earning"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "₹5,000",
+             "en": "₹5,000"
+            }
+           },
+           {
+            "text": {
+             "hi": "MDRT स्तर पर, आम तौर पर ₹12,00,000 प्रति वर्ष",
+             "en": "At MDRT level, typically ₹12,00,000 a year"
+            }
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "अंतरराष्ट्रीय यात्रा",
+             "en": "International travel"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "कुछ नहीं",
+             "en": "None"
+            }
+           },
+           {
+            "text": {
+             "hi": "क्वालिफ़ाई करने पर साल में एक विदेश यात्रा",
+             "en": "One tour a year, on qualifying"
+            }
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "कार लोन",
+             "en": "Car loan"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "कुछ नहीं",
+             "en": "None"
+            }
+           },
+           {
+            "text": {
+             "hi": "ब्याज-मुक्त, ₹5–30 लाख",
+             "en": "Interest-free, ₹5–30 lakh"
+            }
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "न्यूनतम रिन्यूअल",
+             "en": "Minimum renewal"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "तय नहीं",
+             "en": "Not fixed"
+            }
+           },
+           {
+            "text": {
+             "hi": "MDRT स्तर पर, आम तौर पर लगभग ₹1,80,000 प्रति वर्ष",
+             "en": "At MDRT level, typically about ₹1,80,000 a year"
+            }
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "10 साल बाद आय",
+             "en": "Income after 10 years"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "₹6,000 प्रति माह जितनी कम भी हो सकती है",
+             "en": "Can be as low as ₹6,000 a month"
+            }
+           },
+           {
+            "text": {
+             "hi": "MDRT स्तर पर, आम तौर पर ₹1,50,000+ प्रति माह",
+             "en": "At MDRT level, typically ₹1,50,000+ a month"
+            }
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "पहचान",
+             "en": "Recognition"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "कुछ नहीं",
+             "en": "None"
+            }
+           },
+           {
+            "text": {
+             "hi": "अंतरराष्ट्रीय",
+             "en": "International"
+            }
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "आप किनसे मिलते हैं",
+             "en": "Who you meet"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "सिर्फ़ जान-पहचान वालों से",
+             "en": "Only people you know"
+            }
+           },
+           {
+            "text": {
+             "hi": "नए लोगों से भी",
+             "en": "New people too"
+            }
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "पहनावा",
+             "en": "Dress code"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "कुछ नहीं",
+             "en": "None"
+            }
+           },
+           {
+            "text": {
+             "hi": "पहले दिन से सूट और टाई / स्कार्फ़",
+             "en": "Suit and tie / scarf from day one"
+            }
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "साधन",
+             "en": "Tools"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "कोई मुफ़्त साधन नहीं",
+             "en": "No free tools"
+            }
+           },
+           {
+            "text": {
+             "hi": "पहले दिन से मुफ़्त लाइफ़स्टाइल बुक",
+             "en": "Lifestyle book free from day one"
+            }
+           }
+          ]
+         ],
+         "src": "CLUB-19",
+         "cls": [
+          "data"
+         ]
+        }
+       ],
+       "cls": [
+        "table-scroll"
+       ]
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "केवल उदाहरण। वास्तविक कमीशन प्लान, अवधि, भरे गए प्रीमियम और LIC के लागू नियमों पर निर्भर करता है। आपकी कमाई आपकी मेहनत पर निर्भर है।",
+        "en": "Illustration only. Actual commission depends on the plan, the term, the premium paid and the LIC rules in force. Your earnings depend on your effort."
+       },
+       "cls": [
+        "src"
+       ]
+      }
+     ],
+     "cls": [
+      "illustrative"
+     ]
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "लंबे समय के आँकड़े देखें — 30 सालों में स्तर के अनुसार आय",
+      "en": "See the long-term numbers — income by level over 30 years"
+     },
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "एक इंडस्ट्री ट्रेनिंग बुकलेट दिखाती है कि चार स्तरों पर 30 सालों में आय कैसे बढ़ सकती है। उसके आँकड़े, जैसे छपे (₹; “cr” = करोड़):",
+          "en": "An industry training booklet shows how income can build over 30 years at four levels. Its figures, as printed (₹; “cr” = crore):"
+         }
+        },
+        {
+         "t": "figure",
+         "children": [
+          {
+           "t": "figcaption",
+           "text": {
+            "hi": "स्तर के अनुसार प्रति माह आय (₹, लॉग स्केल)। लाख या करोड़ में छपे TOT के आँकड़े चार्ट में पूरे रुपयों में दिखाए गए हैं।",
+            "en": "Income per month by level (₹, log scale). TOT values printed in lakh or crore are plotted as full rupee amounts."
+           }
+          },
+          {
+           "t": "box",
+           "children": [
+            {
+             "t": "table",
+             "caption": {
+              "hi": "स्तर के अनुसार प्रति माह आय (जैसी छपी)",
+              "en": "Income per month by level (as printed)"
+             },
+             "head": [
+              [
+               {
+                "text": {
+                 "hi": "वर्ष",
+                 "en": "Year"
+                },
+                "th": true
+               },
+               {
+                "text": {
+                 "hi": "सामान्य एजेंट",
+                 "en": "Normal agent"
+                },
+                "th": true
+               },
+               {
+                "text": {
+                 "hi": "MDRT",
+                 "en": "MDRT"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "COT",
+                 "en": "COT"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "TOT",
+                 "en": "TOT"
+                },
+                "th": true,
+                "num": true
+               }
+              ]
+             ],
+             "rows": [
+              [
+               {
+                "text": {
+                 "hi": "1",
+                 "en": "1"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "17,000",
+                 "en": "17,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "1,00,000",
+                 "en": "1,00,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "3,00,000",
+                 "en": "3,00,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "6,00,000",
+                 "en": "6,00,000"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "2",
+                 "en": "2"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "21,000",
+                 "en": "21,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "1,25,000",
+                 "en": "1,25,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "3,85,000",
+                 "en": "3,85,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "8.5 लाख",
+                 "en": "8.5 lakh"
+                }
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "5",
+                 "en": "5"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "42,000",
+                 "en": "42,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "2,52,000",
+                 "en": "2,52,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "5,20,000",
+                 "en": "5,20,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "15 लाख",
+                 "en": "15 lakh"
+                }
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "10",
+                 "en": "10"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "1,00,000",
+                 "en": "1,00,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "5,00,000",
+                 "en": "5,00,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "10,00,000",
+                 "en": "10,00,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "30 लाख",
+                 "en": "30 lakh"
+                }
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "20",
+                 "en": "20"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "2,50,000",
+                 "en": "2,50,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "20,00,000",
+                 "en": "20,00,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "40,00,000",
+                 "en": "40,00,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "1.5 करोड़",
+                 "en": "1.5 cr"
+                }
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "30",
+                 "en": "30"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "6,00,000",
+                 "en": "6,00,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "70,00,000",
+                 "en": "70,00,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "1,40,00,000",
+                 "en": "1,40,00,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "3 करोड़",
+                 "en": "3 cr"
+                }
+               }
+              ]
+             ],
+             "src": "CLUB-20",
+             "cls": [
+              "data"
+             ],
+             "id": "ch27-table"
+            }
+           ],
+           "cls": [
+            "table-scroll"
+           ]
+          }
+         ],
+         "src": "CH-27 CLUB-20",
+         "chart": {
+          "id": "ch27",
+          "fallback": "ch27-table",
+          "aria": {
+           "hi": "लॉग स्केल पर लाइन चार्ट: 30 सालों में सामान्य, MDRT, COT और TOT एजेंट की प्रति माह आय — सामान्य एजेंट के वर्ष 1 में 17,000 रुपये से TOT एजेंट के वर्ष 30 में 3 करोड़ रुपये तक",
+           "en": "Line chart on a log scale: income per month over 30 years for a normal agent, MDRT, COT and TOT agent, from 17,000 rupees for a normal agent in year 1 to 3 crore rupees for a TOT agent in year 30"
+          }
+         }
+        },
+        {
+         "t": "box",
+         "children": [
+          {
+           "t": "table",
+           "caption": {
+            "hi": "सामान्य एजेंट (₹)",
+            "en": "Normal agent (₹)"
+           },
+           "head": [
+            [
+             {
+              "text": {
+               "hi": "वर्ष",
+               "en": "Year"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "प्रीमियम",
+               "en": "Premium"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "कमीशन",
+               "en": "Commission"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "रिन्यूअल (पेंशन)",
+               "en": "Renewal (pension)"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "कुल आय",
+               "en": "Total income"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "प्रति माह",
+               "en": "Per month"
+              },
+              "th": true
+             }
+            ]
+           ],
+           "rows": [
+            [
+             {
+              "text": {
+               "hi": "1",
+               "en": "1"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "7,20,000",
+               "en": "7,20,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "2,00,000",
+               "en": "2,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "—",
+               "en": "—"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "2,00,000",
+               "en": "2,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "17,000",
+               "en": "17,000"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "2",
+               "en": "2"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "8,00,000",
+               "en": "8,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "2,30,000",
+               "en": "2,30,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "30,000",
+               "en": "30,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "2,60,000",
+               "en": "2,60,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "21,000",
+               "en": "21,000"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "5",
+               "en": "5"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "12,00,000",
+               "en": "12,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "3,50,000",
+               "en": "3,50,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "1,50,000",
+               "en": "1,50,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "5,00,000",
+               "en": "5,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "42,000",
+               "en": "42,000"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "10",
+               "en": "10"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "21,00,000",
+               "en": "21,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "6,50,000",
+               "en": "6,50,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "5,50,000",
+               "en": "5,50,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "12,00,000",
+               "en": "12,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "1,00,000",
+               "en": "1,00,000"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "20",
+               "en": "20"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "45,00,000",
+               "en": "45,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "13,50,000",
+               "en": "13,50,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "16,50,000",
+               "en": "16,50,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "30,00,000",
+               "en": "30,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "2,50,000",
+               "en": "2,50,000"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "30",
+               "en": "30"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "1,15,00,000",
+               "en": "1,15,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "30,00,000",
+               "en": "30,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "42,00,000",
+               "en": "42,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "72,00,000",
+               "en": "72,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "6,00,000",
+               "en": "6,00,000"
+              },
+              "num": true
+             }
+            ]
+           ],
+           "cls": [
+            "data"
+           ]
+          }
+         ],
+         "cls": [
+          "table-scroll"
+         ]
+        },
+        {
+         "t": "box",
+         "children": [
+          {
+           "t": "table",
+           "caption": {
+            "hi": "MDRT एजेंट (₹)",
+            "en": "MDRT agent (₹)"
+           },
+           "head": [
+            [
+             {
+              "text": {
+               "hi": "वर्ष",
+               "en": "Year"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "प्रीमियम",
+               "en": "Premium"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "कमीशन",
+               "en": "Commission"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "रिन्यूअल",
+               "en": "Renewal"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "कुल",
+               "en": "Total"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "प्रति माह",
+               "en": "Per month"
+              },
+              "th": true
+             }
+            ]
+           ],
+           "rows": [
+            [
+             {
+              "text": {
+               "hi": "1",
+               "en": "1"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "45,00,000",
+               "en": "45,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "12,00,000",
+               "en": "12,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "—",
+               "en": "—"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "12,00,000",
+               "en": "12,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "1,00,000",
+               "en": "1,00,000"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "2",
+               "en": "2"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "55,00,000",
+               "en": "55,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "13,20,000",
+               "en": "13,20,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "1,80,000",
+               "en": "1,80,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "15,00,000",
+               "en": "15,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "1,25,000",
+               "en": "1,25,000"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "5",
+               "en": "5"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "75,00,000",
+               "en": "75,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "20,00,000",
+               "en": "20,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "11,00,000",
+               "en": "11,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "31,00,000",
+               "en": "31,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "2,52,000",
+               "en": "2,52,000"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "10",
+               "en": "10"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "1.2 cr",
+               "en": "1.2 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "35,00,000",
+               "en": "35,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "25,00,000",
+               "en": "25,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "60,00,000",
+               "en": "60,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "5,00,000",
+               "en": "5,00,000"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "20",
+               "en": "20"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "3.6 cr",
+               "en": "3.6 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "1 cr",
+               "en": "1 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "1.4 cr",
+               "en": "1.4 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "2.4 cr",
+               "en": "2.4 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "20,00,000",
+               "en": "20,00,000"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "30",
+               "en": "30"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "11 cr",
+               "en": "11 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "3 cr",
+               "en": "3 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "5 cr",
+               "en": "5 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "8 cr",
+               "en": "8 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "70,00,000",
+               "en": "70,00,000"
+              },
+              "num": true
+             }
+            ]
+           ],
+           "cls": [
+            "data"
+           ]
+          }
+         ],
+         "cls": [
+          "table-scroll"
+         ]
+        },
+        {
+         "t": "box",
+         "children": [
+          {
+           "t": "table",
+           "caption": {
+            "hi": "COT एजेंट (₹)",
+            "en": "COT agent (₹)"
+           },
+           "head": [
+            [
+             {
+              "text": {
+               "hi": "वर्ष",
+               "en": "Year"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "प्रीमियम",
+               "en": "Premium"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "कमीशन",
+               "en": "Commission"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "रिन्यूअल",
+               "en": "Renewal"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "कुल",
+               "en": "Total"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "प्रति माह",
+               "en": "Per month"
+              },
+              "th": true
+             }
+            ]
+           ],
+           "rows": [
+            [
+             {
+              "text": {
+               "hi": "1",
+               "en": "1"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "1,30,00,000",
+               "en": "1,30,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "36,00,000",
+               "en": "36,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "—",
+               "en": "—"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "36,00,000",
+               "en": "36,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "3,00,000",
+               "en": "3,00,000"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "2",
+               "en": "2"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "1,50,00,000",
+               "en": "1,50,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "40,40,000",
+               "en": "40,40,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "5,04,000",
+               "en": "5,04,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "45,00,000",
+               "en": "45,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "3,85,000",
+               "en": "3,85,000"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "5",
+               "en": "5"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "2 cr",
+               "en": "2 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "48,00,000",
+               "en": "48,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "22,00,000",
+               "en": "22,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "62,00,000",
+               "en": "62,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "5,20,000",
+               "en": "5,20,000"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "10",
+               "en": "10"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "3.5 cr",
+               "en": "3.5 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "70,00,000",
+               "en": "70,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "50,00,000",
+               "en": "50,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "1,20,00,000",
+               "en": "1,20,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "10,00,000",
+               "en": "10,00,000"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "20",
+               "en": "20"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "7.5 cr",
+               "en": "7.5 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "22 cr*",
+               "en": "22 cr*"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "2.4 cr",
+               "en": "2.4 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "4.8 cr",
+               "en": "4.8 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "40,00,000",
+               "en": "40,00,000"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "30",
+               "en": "30"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "21 cr",
+               "en": "21 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "6 cr",
+               "en": "6 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "10 cr",
+               "en": "10 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "16 cr",
+               "en": "16 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "1,40,00,000",
+               "en": "1,40,00,000"
+              },
+              "num": true
+             }
+            ]
+           ],
+           "cls": [
+            "data"
+           ]
+          }
+         ],
+         "cls": [
+          "table-scroll"
+         ]
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "*जैसा छपा। कमीशन प्रीमियम से ज़्यादा नहीं हो सकता, इसलिए यह शायद छपाई की ग़लती है (शायद 2.4 करोड़)।",
+          "en": "*As printed. Commission cannot exceed the premium, so this is likely a misprint (perhaps 2.4 cr)."
+         },
+         "cls": [
+          "src"
+         ]
+        },
+        {
+         "t": "box",
+         "children": [
+          {
+           "t": "table",
+           "caption": {
+            "hi": "TOT एजेंट (₹)",
+            "en": "TOT agent (₹)"
+           },
+           "head": [
+            [
+             {
+              "text": {
+               "hi": "वर्ष",
+               "en": "Year"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "प्रीमियम",
+               "en": "Premium"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "कमीशन",
+               "en": "Commission"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "रिन्यूअल",
+               "en": "Renewal"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "कुल",
+               "en": "Total"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "प्रति माह",
+               "en": "Per month"
+              },
+              "th": true
+             }
+            ]
+           ],
+           "rows": [
+            [
+             {
+              "text": {
+               "hi": "1",
+               "en": "1"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "2.8 cr",
+               "en": "2.8 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "72 लाख",
+               "en": "72 lakh"
+              }
+             },
+             {
+              "text": {
+               "hi": "—",
+               "en": "—"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "72,00,000",
+               "en": "72,00,000"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "6,00,000",
+               "en": "6,00,000"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "2",
+               "en": "2"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "3.2 cr",
+               "en": "3.2 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "90 लाख",
+               "en": "90 lakh"
+              }
+             },
+             {
+              "text": {
+               "hi": "11 लाख",
+               "en": "11 lakh"
+              }
+             },
+             {
+              "text": {
+               "hi": "1 cr",
+               "en": "1 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "8.5 लाख",
+               "en": "8.5 lakh"
+              }
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "5",
+               "en": "5"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "5 cr",
+               "en": "5 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "1.2 cr",
+               "en": "1.2 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "60 लाख",
+               "en": "60 lakh"
+              }
+             },
+             {
+              "text": {
+               "hi": "1.8 cr",
+               "en": "1.8 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "15 लाख",
+               "en": "15 lakh"
+              }
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "10",
+               "en": "10"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "8.5 cr",
+               "en": "8.5 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "2 cr",
+               "en": "2 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "1.5 cr",
+               "en": "1.5 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "3.5 cr",
+               "en": "3.5 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "30 लाख",
+               "en": "30 lakh"
+              }
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "20",
+               "en": "20"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "25 cr",
+               "en": "25 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "7 cr",
+               "en": "7 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "9 cr",
+               "en": "9 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "16 cr",
+               "en": "16 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "1.5 cr",
+               "en": "1.5 cr"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "30",
+               "en": "30"
+              },
+              "th": true,
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "38 cr",
+               "en": "38 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "10 cr",
+               "en": "10 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "26 cr",
+               "en": "26 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "36 cr",
+               "en": "36 cr"
+              },
+              "num": true
+             },
+             {
+              "text": {
+               "hi": "3 cr",
+               "en": "3 cr"
+              },
+              "num": true
+             }
+            ]
+           ],
+           "cls": [
+            "data"
+           ]
+          }
+         ],
+         "cls": [
+          "table-scroll"
+         ]
+        },
+        {
+         "t": "ul",
+         "items": [
+          {
+           "t": "li",
+           "text": {
+            "hi": "आप पहले साल से ही COT या TOT का लक्ष्य रख सकते हैं।",
+            "en": "You can aim for COT or TOT from your first year."
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "एजेंसी लेने की प्रक्रिया वही है — आप क्या बनेंगे, यह आपकी मेहनत तय करती है।",
+            "en": "The procedure to take up agency is the same — your efforts decide what you become."
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "ज़्यादातर लोग सामान्य एजेंसी देते हैं; आप MDRT एजेंसी का लक्ष्य रखिए।",
+            "en": "Most people offer a normal agency; aim for an MDRT agency."
+           }
+          }
+         ]
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "केवल उदाहरण। वास्तविक कमीशन प्लान, अवधि, भरे गए प्रीमियम और LIC के लागू नियमों पर निर्भर करता है। आपकी कमाई आपकी मेहनत पर निर्भर है।",
+          "en": "Illustration only. Actual commission depends on the plan, the term, the premium paid and the LIC rules in force. Your earnings depend on your effort."
+         },
+         "cls": [
+          "src"
+         ]
+        }
+       ],
+       "src": "CLUB-20",
+       "cls": [
+        "illustrative"
+       ]
+      }
+     ]
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "<strong>हमारा ट्रेनिंग प्रोग्राम ऐसे बनाया गया है कि आप एजेंसी के 3 साल के भीतर MDRT और Chairman’s Club के लिए क्वालिफ़ाई कर सकें। रोहित का लक्ष्य: साल 3 के अंत तक MDRT स्तर का बिज़नेस और ₹1 लाख प्रति माह।</strong>",
+        "en": "<strong>Our training programme is designed so that you can qualify for MDRT and the Chairman’s Club within 3 years of agency. Rohit’s goal: MDRT-level business and ₹1 lakh a month by the end of year 3.</strong>"
+       },
+       "src": "CLUB-22 SU-34"
+      },
+      {
+       "t": "blockquote",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "मेरा लक्ष्य साफ़ है — मेरे साथ जुड़ने वाला हर एजेंट तीसरे साल के अंत तक ₹1,00,000 प्रति माह कमाए। योजना, ट्रेनिंग और साथ मैं दूँगा; मेहनत — और नतीजा — आपका होगा।",
+          "en": "My goal for every agent I recruit is simple: by the end of your third year, you should be earning ₹1,00,000 a month. I’ll give you the plan, the training and the follow-up. The effort — and the result — will be yours."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "— रोहित लाल",
+          "en": "— Rohit Lal"
+         },
+         "cls": [
+          "src"
+         ]
+        }
+       ],
+       "src": "SU-34"
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "आपकी कमाई आपकी मेहनत और आपके द्वारा लाए गए बिज़नेस पर निर्भर करती है।",
+        "en": "Your earnings depend on your effort and the business you bring."
+       },
+       "src": "SU-34",
+       "cls": [
+        "effort"
+       ]
+      },
+      {
+       "t": "ul",
+       "items": [
+        {
+         "t": "li",
+         "text": {
+          "hi": "नियमित रूप से ट्रेनिंग सेशन में शामिल हों।",
+          "en": "Attend training sessions regularly."
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "कम से कम 100 लोगों की संभावित ग्राहकों की सूची बनाएँ।",
+          "en": "Prepare a prospect list of at least 100 people."
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "हर दिन कम से कम 4 संभावित ग्राहकों से मिलें।",
+          "en": "Meet at least 4 prospects every day."
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "रोज़ की एक्टिविटी रिपोर्ट और हफ़्ते का सारांश लिखें।",
+          "en": "Write a daily activity report and a weekly summary."
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "हर हफ़्ते की रिव्यू मीटिंग में शामिल हों।",
+          "en": "Attend the weekly review meetings."
+         }
+        }
+       ],
+       "src": "SU-30"
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "<a href=\"#startup\">साल-दर-साल योजना देखें →</a>",
+        "en": "<a href=\"#startup\">See the year-by-year plan →</a>"
+       }
+      }
+     ],
+     "cls": [
+      "goal-band"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "details",
+   "summary": {
+    "hi": "पुराने आँकड़े (2014–2015 की सामग्री के अनुसार)",
+    "en": "Earlier figures (as per 2014–2015 material)"
+   },
+   "children": [
+    {
+     "t": "p",
+     "text": {
+      "hi": "2015 की MDRT शर्तें (पहले साल का कमीशन / पहले साल का प्रीमियम): MDRT ₹8,45,300 / ₹33,81,200 · COT ₹25,35,900 / ₹1,01,43,600 · TOT ₹50,71,800 / ₹2,02,87,200। उससे भी पुरानी प्रस्तुति: “हर साल अमेरिका उड़िए” — MDRT ₹7,59,100 · COT ₹22,77,300 · TOT ₹45,54,600 कमीशन।",
+      "en": "MDRT criteria for 2015 (first-year commission / first-year premium): MDRT ₹8,45,300 / ₹33,81,200 · COT ₹25,35,900 / ₹1,01,43,600 · TOT ₹50,71,800 / ₹2,02,87,200. An even older deck: “Fly to the USA every year” — MDRT ₹7,59,100 · COT ₹22,77,300 · TOT ₹45,54,600 commission."
+     },
+     "src": "CLUB-17"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "एक पुरानी प्रस्तुति में क्लब के फ़ायदों का मूल्य, स्तर के अनुसार, ₹5,500 से ₹5,85,000 बताया गया था।",
+      "en": "An older deck valued club benefits at ₹5,500 to ₹5,85,000, depending on the level."
+     },
+     "src": "CLUB-07"
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "table",
+       "caption": {
+        "hi": "LIC से 2014 के टॉप 10 TOT क्वालिफ़ायर (पहले साल का कमीशन, बोनस छोड़कर, ₹)",
+        "en": "Top 10 TOT qualifiers from LIC, 2014 (first-year commission excl. bonus, ₹)"
+       },
+       "head": [
+        [
+         {
+          "text": {
+           "hi": "रैंक",
+           "en": "Rank"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "नाम (शहर)",
+           "en": "Name (city)"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "₹",
+           "en": "₹"
+          },
+          "th": true
+         }
+        ]
+       ],
+       "rows": [
+        [
+         {
+          "text": {
+           "hi": "1",
+           "en": "1"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "श्री वी. वेंकटेश्वर राव (विशाखापत्तनम)",
+           "en": "Shri V. Venkateswara Rao (Vishakhapatnam)"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "2,05,09,585",
+           "en": "2,05,09,585"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "2",
+           "en": "2"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "श्रीमती संगीता माहेश्वरी (इंदौर)",
+           "en": "Smt. Sangita Maheshwari (Indore)"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "1,77,58,368",
+           "en": "1,77,58,368"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "3",
+           "en": "3"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "श्री भरत वी. पारेख (नागपुर)",
+           "en": "Shri Bharat V. Parekh (Nagpur)"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "1,09,52,152",
+           "en": "1,09,52,152"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "4",
+           "en": "4"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "श्री रविंदर जेठानी (मुंबई)",
+           "en": "Shri Ravindar Jethani (Mumbai)"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "1,01,24,090",
+           "en": "1,01,24,090"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "5",
+           "en": "5"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "डॉ. बलवंत सिंह चिराना (दिल्ली)",
+           "en": "Dr. Balwant Singh Chirana (Delhi)"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "88,11,908",
+           "en": "88,11,908"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "6",
+           "en": "6"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "श्री औटी दत्तात्रय जयराम (मुंबई)",
+           "en": "Shri Auti Dattatray Jayram (Mumbai)"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "86,46,357",
+           "en": "86,46,357"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "7",
+           "en": "7"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "श्री पुलकित खंडेलवाल (दिल्ली)",
+           "en": "Shri Pulkit Khandelwal (Delhi)"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "70,71,261",
+           "en": "70,71,261"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "8",
+           "en": "8"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "श्री भीमन दास (कोलकाता)",
+           "en": "Shri Bhiman Das (Kolkata)"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "67,92,431",
+           "en": "67,92,431"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "9",
+           "en": "9"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "श्री दीपक धबालिया (मुंबई)",
+           "en": "Shri Deepak Dhabalia (Mumbai)"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "66,31,879",
+           "en": "66,31,879"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "10",
+           "en": "10"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "श्रीमती हीना हितेश शाह (मुंबई)",
+           "en": "Smt. Heena Hitesh Shah (Mumbai)"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "66,01,442",
+           "en": "66,01,442"
+          },
+          "num": true
+         }
+        ]
+       ],
+       "src": "CLUB-21",
+       "cls": [
+        "data"
+       ]
+      }
+     ],
+     "cls": [
+      "table-scroll"
+     ]
+    }
+   ],
+   "cls": [
+    "legacy"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "संक्षेप में",
+      "en": "In short"
+     }
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "src": "CLUB-01",
+       "text": {
+        "hi": "क्लब, प्रदर्शन को कमीशन के ऊपर मिलने वाले फ़ायदों से पुरस्कृत करते हैं।",
+        "en": "Clubs reward performance with benefits over and above commission."
+       }
+      },
+      {
+       "t": "li",
+       "src": "CLUB-02",
+       "text": {
+        "hi": "आठ सीढ़ियाँ — Distinguished Agents’ Club से Elite Club तक।",
+        "en": "Eight rungs — from the Distinguished Agents’ Club to the Elite Club."
+       }
+      },
+      {
+       "t": "li",
+       "src": "CLUB-09",
+       "text": {
+        "hi": "01.09.2026 से क्लब सदस्यों का ग्रुप इंश्योरेंस ₹15,00,000 तक पहुँच जाता है, और प्रीमियम LIC भरती है।",
+        "en": "From 01.09.2026, group insurance for club members rises to as much as ₹15,00,000, with the premium paid by LIC."
+       }
+      },
+      {
+       "t": "li",
+       "src": "CLUB-16",
+       "text": {
+        "hi": "MDRT 2026 की शुरुआत ₹11,32,600 के पहले साल के कमीशन से होती है।",
+        "en": "MDRT 2026 starts at ₹11,32,600 of first-year commission."
+       }
+      },
+      {
+       "t": "li",
+       "src": "CLUB-22 SU-34",
+       "text": {
+        "hi": "रोहित का लक्ष्य: साल 3 के अंत तक MDRT स्तर का बिज़नेस और ₹1 लाख प्रति माह। आपकी कमाई आपकी मेहनत और आपके द्वारा लाए गए बिज़नेस पर निर्भर करती है।",
+        "en": "Rohit’s goal: MDRT-level business and ₹1 lakh a month by the end of year 3. Your earnings depend on your effort and the business you bring."
+       }
+      }
+     ]
+    }
+   ],
+   "cls": [
+    "block",
+    "recap"
+   ]
+  },
+  {
+   "t": "aside",
+   "children": [
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>10 या 20 साल में यह आपको कहाँ तक ले जा सकता है?</strong>",
+      "en": "<strong>Where can this take you in 10 or 20 years?</strong>"
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "a",
+       "href": "#career",
+       "text": {
+        "hi": "करियर के रास्ते देखें →",
+        "en": "See career paths →"
+       },
+       "cls": [
+        "cta",
+        "secondary"
+       ]
+      },
+      {
+       "t": "a",
+       "href": "#apply",
+       "text": {
+        "hi": "आवेदन करें",
+        "en": "Apply now"
+       },
+       "cls": [
+        "cta"
+       ]
+      }
+     ],
+     "cls": [
+      "btn-row"
+     ]
+    }
+   ],
+   "cls": [
+    "page-cta"
+   ]
+  }
+ ],
+ "id": "club"
+}

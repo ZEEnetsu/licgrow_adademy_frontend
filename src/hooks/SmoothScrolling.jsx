@@ -18,6 +18,10 @@ function SmoothScrolling({ children }) {
   // Optional but recommended for fixed elements
   orientation: 'vertical',
   gestureOrientation: 'vertical',
+
+  // In-page `#id` links (the landing chapter rail, "Earn & Explore" card)
+  // glide through Lenis instead of jump-cutting. The offset clears the fixed nav.
+  anchors: { offset: -72 },
   };
 
   return (

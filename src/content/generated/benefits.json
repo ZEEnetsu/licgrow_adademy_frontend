@@ -1,0 +1,5229 @@
+{
+ "t": "section",
+ "children": [
+  {
+   "t": "header",
+   "children": [
+    {
+     "t": "p",
+     "text": {
+      "hi": "फ़ायदे",
+      "en": "Benefits"
+     },
+     "cls": [
+      "eyebrow"
+     ]
+    },
+    {
+     "t": "h2",
+     "text": {
+      "hi": "जब-जब ग्राहक प्रीमियम भरे, तब-तब आपकी कमाई",
+      "en": "Earn every time your customer pays"
+     },
+     "src": "BEN-01",
+     "id": "benefits-h"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "आप जो भी पॉलिसी बेचते हैं, उसके प्रीमियम पर प्रतिशत के हिसाब से आपको कमीशन मिलता है। यह एक बार की कमाई नहीं है। पॉलिसीधारक जब-जब किस्त भरता है, आपको फिर से कमीशन मिलता है — पॉलिसी की पूरी अवधि तक। इसीलिए इसे रॉयल्टी आय कहते हैं।",
+      "en": "You are paid commission as a percentage of the premium on every policy you sell. It is not a one-time payment. Every time the policyholder pays an instalment, you earn again — for the full term of the policy. That is royalty income."
+     },
+     "src": "BEN-01",
+     "cls": [
+      "lede"
+     ]
+    },
+    {
+     "t": "a",
+     "href": "#apply",
+     "text": {
+      "hi": "आवेदन करें",
+      "en": "Apply now"
+     },
+     "cls": [
+      "cta"
+     ]
+    }
+   ],
+   "cls": [
+    "page-hero"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "ऐसी आय, जो आपके परिवार में बनी रहे",
+      "en": "Income that stays in your family"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "वंशानुगत (हेरेडिटरी) कमीशन: आपका रिन्यूअल कमीशन — यानी हर साल प्रीमियम भरने पर मिलने वाला कमीशन — आपके न रहने के बाद भी आपके नॉमिनी और परिवार को मिलता रहता है।",
+      "en": "Hereditary commission: your renewal commission — the commission paid each time a customer renews their premium — continues to your nominee and family even after you are gone."
+     },
+     "src": "BEN-02"
+    },
+    {
+     "t": "ol",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "आप",
+        "en": "You"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "आपके जीवनसाथी",
+        "en": "Your spouse"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "आपके बच्चे या नॉमिनी",
+        "en": "Your children or nominee"
+       }
+      }
+     ],
+     "src": "BEN-02",
+     "cls": [
+      "flow"
+     ]
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "बहुत कम पेशों में रॉयल्टी मिलती है",
+      "en": "Very few professions pay royalty"
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "संगीत",
+        "en": "Music"
+       },
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "सिनेमा",
+        "en": "Cinema"
+       },
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "लेखक",
+        "en": "Authors"
+       },
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "बीमा",
+          "en": "Insurance"
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      }
+     ],
+     "src": "BEN-03",
+     "cls": [
+      "grid"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "लेखकों और गायकों को एक बार किए काम की रॉयल्टी मिलती है। LIC सलाहकार को एक बार की गई बिक्री की रॉयल्टी मिलती है।",
+      "en": "Writers and singers earn royalty for work they did once. An LIC advisor earns royalty for a sale made once."
+     },
+     "src": "BEN-03"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "काम एक बार, कमाई बार-बार: ग्राहक सालाना प्रीमियम भरे तो हर साल, और मासिक भरे तो हर महीने आपको कमीशन मिलता है — पूरी प्रीमियम भुगतान अवधि तक।",
+      "en": "Work once, get paid again and again: if the customer pays yearly, you earn every year; if monthly, every month — for the whole premium-paying term."
+     },
+     "src": "BEN-04"
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "एजेंट बनाम कर्मचारी — आपको क्या मिलता है",
+      "en": "Agent vs employee — what you get"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "बहुत से लोग सोचते हैं कि फ़ायदे सिर्फ़ नौकरी में मिलते हैं। एक बार फिर देखिए।",
+      "en": "Many people think only a job gives you benefits. Look again."
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "table",
+       "caption": {
+        "hi": "एक कर्मचारी और एक LIC एजेंट — आमने-सामने",
+        "en": "An employee and an LIC agent, side by side"
+       },
+       "head": [
+        [
+         {
+          "text": {
+           "hi": "कर्मचारी",
+           "en": "Employee"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "LIC एजेंट",
+           "en": "LIC Agent"
+          },
+          "th": true
+         }
+        ]
+       ],
+       "rows": [
+        [
+         {
+          "text": {
+           "hi": "तनख़्वाह",
+           "en": "Salary"
+          }
+         },
+         {
+          "text": {
+           "hi": "कमीशन",
+           "en": "Commission"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "पेंशन (अंशदायी)",
+           "en": "Pension (contributory)"
+          }
+         },
+         {
+          "text": {
+           "hi": "रिन्यूअल + पेंशन",
+           "en": "Renewal + pension"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "ग्रेच्युटी",
+           "en": "Gratuity"
+          }
+         },
+         {
+          "text": {
+           "hi": "ग्रेच्युटी",
+           "en": "Gratuity"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "L.T.C.",
+           "en": "L.T.C."
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "L.T.C.",
+           "en": "L.T.C."
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "दोपहिया वाहन लोन",
+           "en": "Two-wheeler loan"
+          }
+         },
+         {
+          "text": {
+           "hi": "चारपहिया (कार) एडवांस",
+           "en": "Four-wheeler (car) advance"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "ऑफिस भत्ता ✗",
+           "en": "Office allowance ✗"
+          }
+         },
+         {
+          "text": {
+           "hi": "ऑफिस भत्ता",
+           "en": "Office allowance"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "होम लोन",
+           "en": "Housing loan"
+          }
+         },
+         {
+          "text": {
+           "hi": "होम लोन",
+           "en": "Housing loan"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "त्योहार एडवांस",
+           "en": "Festival advance"
+          }
+         },
+         {
+          "text": {
+           "hi": "त्योहार एडवांस",
+           "en": "Festival advance"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "मेडिक्लेम",
+           "en": "Mediclaim"
+          }
+         },
+         {
+          "text": {
+           "hi": "मेडिक्लेम",
+           "en": "Mediclaim"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "टेलीफ़ोन सुविधा",
+           "en": "Telephone facility"
+          }
+         },
+         {
+          "text": {
+           "hi": "टेलीफ़ोन सुविधा",
+           "en": "Telephone facility"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "सुबह 10 से शाम 6 बजे की ऑफिस नौकरी",
+           "en": "A 10 am – 6 pm office job"
+          }
+         },
+         {
+          "text": {
+           "hi": "<strong>आप ख़ुद अपने बॉस</strong>",
+           "en": "<strong>Your own boss</strong>"
+          }
+         }
+        ]
+       ],
+       "src": "BEN-18",
+       "cls": [
+        "data"
+       ]
+      }
+     ],
+     "cls": [
+      "table-scroll"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "*शर्तें लागू",
+      "en": "*Conditions apply"
+     },
+     "src": "G-08",
+     "cls": [
+      "conditions"
+     ]
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "नौकरी या एजेंसी — असली फ़र्क",
+      "en": "Job or agency — the real difference"
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "table",
+       "caption": {
+        "hi": "नौकरी आपको क्या देती है, और एजेंसी क्या दे सकती है (एक इंडस्ट्री ट्रेनिंग बुकलेट के अनुसार)",
+        "en": "What a job gives you, and what an agency can give you (as an industry training booklet puts it)"
+       },
+       "head": [
+        [
+         {
+          "text": {
+           "hi": "",
+           "en": ""
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "नौकरी",
+           "en": "Job"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "एजेंसी",
+           "en": "Agency"
+          },
+          "th": true
+         }
+        ]
+       ],
+       "rows": [
+        [
+         {
+          "text": {
+           "hi": "अपना समय",
+           "en": "Your own time"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "नहीं",
+           "en": "No"
+          }
+         },
+         {
+          "text": {
+           "hi": "हाँ",
+           "en": "Yes"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "रिन्यूअल आय",
+           "en": "Renewal income"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "नहीं",
+           "en": "No"
+          }
+         },
+         {
+          "text": {
+           "hi": "हाँ",
+           "en": "Yes"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "आज़ादी",
+           "en": "Freedom"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "नहीं",
+           "en": "No"
+          }
+         },
+         {
+          "text": {
+           "hi": "हाँ",
+           "en": "Yes"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "तरक्की",
+           "en": "Growth"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "सीमित",
+           "en": "Limited"
+          }
+         },
+         {
+          "text": {
+           "hi": "असीमित",
+           "en": "Unlimited"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "आय",
+           "en": "Income"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "सीमित",
+           "en": "Limited"
+          }
+         },
+         {
+          "text": {
+           "hi": "असीमित",
+           "en": "Unlimited"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "अपने बॉस ख़ुद होना",
+           "en": "Being your own boss"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "नहीं",
+           "en": "No"
+          }
+         },
+         {
+          "text": {
+           "hi": "हाँ",
+           "en": "Yes"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "सपनों की कार",
+           "en": "Dream car"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "नहीं",
+           "en": "No"
+          }
+         },
+         {
+          "text": {
+           "hi": "हाँ",
+           "en": "Yes"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "सपनों का घर",
+           "en": "Dream home"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "नहीं",
+           "en": "No"
+          }
+         },
+         {
+          "text": {
+           "hi": "हाँ",
+           "en": "Yes"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "विदेश यात्राएँ",
+           "en": "Foreign tours"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "नहीं",
+           "en": "No"
+          }
+         },
+         {
+          "text": {
+           "hi": "हाँ",
+           "en": "Yes"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "परिवार के लिए समय",
+           "en": "Family time"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "नहीं",
+           "en": "No"
+          }
+         },
+         {
+          "text": {
+           "hi": "हाँ",
+           "en": "Yes"
+          }
+         }
+        ]
+       ],
+       "src": "BEN-19",
+       "cls": [
+        "data"
+       ]
+      }
+     ],
+     "cls": [
+      "table-scroll"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "एक दुकानदार के बारे में सोचिए, जो दिन में 14 घंटे दुकान खोले रखता है और उसे बंद करने का जोखिम नहीं उठा सकता। जीवनसाथी, बच्चे और माता-पिता उसे मुश्किल से देख पाते हैं। बिज़नेस आपका परिवार वाला समय छीन सकता है — बीमा एजेंसी वह समय लौटा सकती है। इसीलिए बहुत से दुकानदार एजेंसी अपनाते हैं।",
+      "en": "Think of a shopkeeper who keeps the shop open 14 hours a day and cannot afford to close it. Spouse, children and parents barely see them. A business can take away your family time — an insurance agency can give it back. That is why many shopkeepers take up agency."
+     },
+     "src": "BEN-20"
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "आज का कमीशन",
+      "en": "Commission today"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "ज़्यादातर रेगुलर-प्रीमियम प्लान पर कमीशन इस तरह मिलता है — 2023-24 की ट्रेनिंग सामग्री के अनुसार।",
+      "en": "Here is how commission works on most regular-premium plans, as per 2023-24 training material."
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "table",
+       "caption": {
+        "hi": "ज़्यादातर रेगुलर-प्रीमियम प्लान पर कमीशन (2023-24 की सामग्री)",
+        "en": "Commission on most regular-premium plans (2023-24 material)"
+       },
+       "head": [
+        [
+         {
+          "text": {
+           "hi": "कमीशन",
+           "en": "Commission"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "दर",
+           "en": "Rate"
+          },
+          "th": true
+         }
+        ]
+       ],
+       "rows": [
+        [
+         {
+          "text": {
+           "hi": "पहले साल का कमीशन (FYC)",
+           "en": "First-year commission"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "प्रीमियम का 20%",
+           "en": "20% of premium"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "बोनस कमीशन",
+           "en": "Bonus commission"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "पहले साल के कमीशन का 40% (= प्रीमियम का 8%)",
+           "en": "40% of first-year commission (= 8% of premium)"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "<strong>वर्ष 1 में कुल</strong>",
+           "en": "<strong>Total in year 1</strong>"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "<strong>प्रीमियम का 28%</strong>",
+           "en": "<strong>28% of premium</strong>"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "रिन्यूअल कमीशन, वर्ष 2–5",
+           "en": "Renewal commission, years 2–5"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "प्रीमियम का 7.5%",
+           "en": "7.5% of premium"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "रिन्यूअल कमीशन, वर्ष 6 से आगे",
+           "en": "Renewal commission, year 6 onwards"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "प्रीमियम का 5%",
+           "en": "5% of premium"
+          }
+         }
+        ]
+       ],
+       "src": "BEN-05",
+       "cls": [
+        "data"
+       ]
+      }
+     ],
+     "cls": [
+      "table-scroll"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "पॉलिसी की पूरी अवधि का सारा कमीशन जोड़ें, तो कुल कमीशन 15 साल की पॉलिसी पर एक साल के प्रीमियम का 110%, 20 साल की पॉलिसी पर 135% और 25 साल की पॉलिसी पर 160% बनता है।",
+      "en": "Add it all up over the life of a policy, and the total commission comes to 110% of one year’s premium on a 15-year policy, 135% on a 20-year policy and 160% on a 25-year policy."
+     },
+     "src": "BEN-05"
+    },
+    {
+     "t": "figure",
+     "children": [
+      {
+       "t": "figcaption",
+       "text": {
+        "hi": "पूरी अवधि का कुल कमीशन, एक साल के प्रीमियम के % में। ज़्यादातर रेगुलर-प्रीमियम प्लान, 2023-24 की सामग्री।",
+        "en": "Total commission over the term, as % of one year’s premium. Most regular-premium plans, 2023-24 material."
+       }
+      },
+      {
+       "t": "details",
+       "summary": {
+        "hi": "आँकड़े देखें",
+        "en": "See the numbers"
+       },
+       "children": [
+        {
+         "t": "box",
+         "children": [
+          {
+           "t": "table",
+           "caption": {
+            "hi": "पॉलिसी अवधि के अनुसार कुल कमीशन",
+            "en": "Total commission by policy term"
+           },
+           "head": [
+            [
+             {
+              "text": {
+               "hi": "पॉलिसी अवधि",
+               "en": "Policy term"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "एक साल के प्रीमियम का %",
+               "en": "% of one year’s premium"
+              },
+              "th": true
+             }
+            ]
+           ],
+           "rows": [
+            [
+             {
+              "text": {
+               "hi": "15 वर्ष",
+               "en": "15 years"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "110%",
+               "en": "110%"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "20 वर्ष",
+               "en": "20 years"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "135%",
+               "en": "135%"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "25 वर्ष",
+               "en": "25 years"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "160%",
+               "en": "160%"
+              },
+              "num": true
+             }
+            ]
+           ],
+           "src": "BEN-05",
+           "cls": [
+            "data"
+           ],
+           "id": "ch12-table"
+          }
+         ],
+         "cls": [
+          "table-scroll"
+         ]
+        }
+       ]
+      }
+     ],
+     "src": "CH-12 BEN-05",
+     "chart": {
+      "id": "ch12",
+      "fallback": "ch12-table",
+      "aria": {
+       "hi": "बार चार्ट: पॉलिसी की पूरी अवधि का कुल कमीशन, एक साल के प्रीमियम के % में — 15 साल पर 110%, 20 साल पर 135%, 25 साल पर 160%",
+       "en": "Bar chart: total commission over the policy term as % of one year's premium — 110% for 15 years, 135% for 20 years, 160% for 25 years"
+      }
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "h4",
+       "text": {
+        "hi": "कमाई की ख़ूबसूरती — अपनी रॉयल्टी आय ख़ुद बनाइए",
+        "en": "Beauty of income — create your own royalty income"
+       }
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "table",
+         "caption": {
+          "hi": "सालाना प्रीमियम के अनुसार, एक पॉलिसी पर हर साल मिलने वाला कमीशन (₹)",
+          "en": "Commission earned each year on one policy (₹), by yearly premium"
+         },
+         "head": [
+          [
+           {
+            "text": {
+             "hi": "पॉलिसी वर्ष",
+             "en": "Policy year"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "दर",
+             "en": "Rate"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "₹24,000 प्रति वर्ष (₹2,000 प्रति माह)",
+             "en": "₹24,000 a year (₹2,000 a month)"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "₹1,00,000 प्रति वर्ष",
+             "en": "₹1,00,000 a year"
+            },
+            "th": true
+           }
+          ]
+         ],
+         "rows": [
+          [
+           {
+            "text": {
+             "hi": "वर्ष 1",
+             "en": "Year 1"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "28%",
+             "en": "28%"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "6,720",
+             "en": "6,720"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "28,000",
+             "en": "28,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "वर्ष 2",
+             "en": "Year 2"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "7.5%",
+             "en": "7.5%"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "1,800",
+             "en": "1,800"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "7,500",
+             "en": "7,500"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "वर्ष 3",
+             "en": "Year 3"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "7.5%",
+             "en": "7.5%"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "1,800",
+             "en": "1,800"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "7,500",
+             "en": "7,500"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "वर्ष 4",
+             "en": "Year 4"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "7.5%",
+             "en": "7.5%"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "1,800",
+             "en": "1,800"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "7,500",
+             "en": "7,500"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "वर्ष 5",
+             "en": "Year 5"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "7.5%",
+             "en": "7.5%"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "1,800",
+             "en": "1,800"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "7,500",
+             "en": "7,500"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "वर्ष 6",
+             "en": "Year 6"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "7%",
+             "en": "7%"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "1,680",
+             "en": "1,680"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "7,000",
+             "en": "7,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "वर्ष 7 से मैच्योरिटी तक",
+             "en": "Year 7 onwards, till maturity"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "5%",
+             "en": "5%"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "1,200",
+             "en": "1,200"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "5,000",
+             "en": "5,000"
+            },
+            "num": true
+           }
+          ]
+         ],
+         "src": "BEN-06",
+         "cls": [
+          "data"
+         ]
+        }
+       ],
+       "cls": [
+        "table-scroll"
+       ]
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "केवल उदाहरण। वास्तविक कमीशन प्लान, अवधि, भरे गए प्रीमियम और LIC के लागू नियमों पर निर्भर करता है। आपकी कमाई आपकी मेहनत पर निर्भर है।",
+        "en": "Illustration only. Actual commission depends on the plan, the term, the premium paid and the LIC rules in force. Your earnings depend on your effort."
+       },
+       "cls": [
+        "src"
+       ]
+      }
+     ],
+     "cls": [
+      "illustrative"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "कमीशन आपको कहाँ तक ले जा सकता है",
+      "en": "Where commission can take you"
+     }
+    },
+    {
+     "t": "blockquote",
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "मेरा लक्ष्य साफ़ है — मेरे साथ जुड़ने वाला हर एजेंट तीसरे साल के अंत तक ₹1,00,000 प्रति माह कमाए। योजना, ट्रेनिंग और साथ मैं दूँगा; मेहनत — और नतीजा — आपका होगा।",
+        "en": "My goal for every agent I recruit is simple: by the end of your third year, you should be earning ₹1,00,000 a month. I’ll give you the plan, the training and the follow-up. The effort — and the result — will be yours."
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "— रोहित लाल",
+        "en": "— Rohit Lal"
+       },
+       "cls": [
+        "src"
+       ]
+      }
+     ],
+     "src": "SU-34"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "आपकी कमाई आपकी मेहनत और आपके द्वारा लाए गए बिज़नेस पर निर्भर करती है।",
+      "en": "Your earnings depend on your effort and the business you bring."
+     },
+     "src": "SU-34",
+     "cls": [
+      "effort"
+     ]
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "नियमित रूप से ट्रेनिंग सेशन में शामिल हों।",
+        "en": "Attend training sessions regularly."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "कम से कम 100 लोगों की संभावित ग्राहकों की सूची बनाएँ।",
+        "en": "Prepare a prospect list of at least 100 people."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "हर दिन कम से कम 4 संभावित ग्राहकों से मिलें।",
+        "en": "Meet at least 4 prospects every day."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "रोज़ की एक्टिविटी रिपोर्ट और हफ़्ते का सारांश लिखें।",
+        "en": "Write a daily activity report and a weekly summary."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "हर हफ़्ते की रिव्यू मीटिंग में शामिल हों।",
+        "en": "Attend the weekly review meetings."
+       }
+      }
+     ],
+     "src": "SU-30"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<a href=\"#startup\">साल-दर-साल योजना देखें →</a>",
+      "en": "<a href=\"#startup\">See the year-by-year plan →</a>"
+     }
+    }
+   ],
+   "cls": [
+    "block",
+    "goal-band"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "एक पॉलिसी, कई साल",
+      "en": "One policy, many years"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>अपने सपने को दे, एक ऊँची उड़ान</strong>",
+      "en": "<strong>अपने सपने को दे, एक ऊँची उड़ान</strong> <em>Give your dream a high flight</em>"
+     },
+     "src": "BEN-10"
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "₹20,000 सालाना प्रीमियम वाली एक पॉलिसी लीजिए। बीमा सखी प्रस्तुति में छपी दरों पर, यह पूरी अवधि में आपको इतना दे सकती है:",
+        "en": "Take one policy with a ₹20,000 yearly premium. Here is what it can pay you over its full term, at the rates printed in the Bima Sakhi deck."
+       }
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "table",
+         "caption": {
+          "hi": "₹20,000 सालाना की एक पॉलिसी से कुल आय, अवधि के अनुसार (एक साल के प्रीमियम का % · ₹)",
+          "en": "Total income from one ₹20,000-a-year policy, by term (% of one year’s premium · ₹)"
+         },
+         "head": [
+          [
+           {
+            "text": {
+             "hi": "कमीशन",
+             "en": "Commission"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "15 साल की अवधि",
+             "en": "15-year term"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "20 साल की अवधि",
+             "en": "20-year term"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "25 साल की अवधि",
+             "en": "25-year term"
+            },
+            "th": true
+           }
+          ]
+         ],
+         "rows": [
+          [
+           {
+            "text": {
+             "hi": "पहला वर्ष @35%",
+             "en": "First year @35%"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "35% · ₹7,000",
+             "en": "35% · ₹7,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "35% · ₹7,000",
+             "en": "35% · ₹7,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "35% · ₹7,000",
+             "en": "35% · ₹7,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "रिन्यूअल @7.5%, वर्ष 2–5",
+             "en": "Renewal @7.5%, years 2–5"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "30% · ₹6,000",
+             "en": "30% · ₹6,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "30% · ₹6,000",
+             "en": "30% · ₹6,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "30% · ₹6,000",
+             "en": "30% · ₹6,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "रिन्यूअल @5%, वर्ष 6 से प्रीमियम अवधि के अंत तक",
+             "en": "Renewal @5%, year 6 to end of premium term"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "50% · ₹10,000",
+             "en": "50% · ₹10,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "75% · ₹15,000",
+             "en": "75% · ₹15,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "100% · ₹20,000",
+             "en": "100% · ₹20,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "<strong>एक पॉलिसी का कुल योग</strong>",
+             "en": "<strong>Gross total, one policy</strong>"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "<strong>115% · ₹23,000</strong>",
+             "en": "<strong>115% · ₹23,000</strong>"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>140% · ₹28,000</strong>",
+             "en": "<strong>140% · ₹28,000</strong>"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>165% · ₹33,000</strong>",
+             "en": "<strong>165% · ₹33,000</strong>"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "कुल रिन्यूअल (रॉयल्टी) आय",
+             "en": "Total renewal (royalty) income"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "85% · ₹16,000",
+             "en": "85% · ₹16,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "105% · ₹21,000",
+             "en": "105% · ₹21,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "130% · ₹26,000",
+             "en": "130% · ₹26,000"
+            },
+            "num": true
+           }
+          ]
+         ],
+         "src": "BEN-10",
+         "cls": [
+          "data"
+         ]
+        }
+       ],
+       "cls": [
+        "table-scroll"
+       ]
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "आख़िरी पंक्ति के प्रतिशत स्रोत में जैसे छपे हैं, वैसे ही दिए गए हैं; भरोसेमंद आँकड़े रुपये वाले हैं।",
+        "en": "Percentages in the last row are as printed in the source; the rupee amounts are the reliable figures."
+       },
+       "cls": [
+        "src"
+       ]
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "केवल उदाहरण। वास्तविक कमीशन प्लान, अवधि, भरे गए प्रीमियम और LIC के लागू नियमों पर निर्भर करता है। आपकी कमाई आपकी मेहनत पर निर्भर है।",
+        "en": "Illustration only. Actual commission depends on the plan, the term, the premium paid and the LIC rules in force. Your earnings depend on your effort."
+       },
+       "cls": [
+        "src"
+       ]
+      }
+     ],
+     "cls": [
+      "illustrative"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "LIC की फ़ील्ड सामग्री यह भी दिखाती है कि सालों तक लगातार नया बिज़नेस लाने पर, रिन्यूअल की वजह से कुल आय लंबे समय में बढ़ती जाती है।",
+      "en": "LIC field material also shows how, when you keep bringing new business year after year, renewal keeps your total income growing over the long term."
+     },
+     "src": "BEN-11"
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "रिन्यूअल — आपकी अपनी पेंशन जैसी आय",
+      "en": "Renewal — your own pension-like income"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "अगर आप 5 साल एजेंट के रूप में काम करते हैं, तो जब तक आपके पॉलिसीधारक रिन्यूअल प्रीमियम भरते रहेंगे, तब तक आपको — और आगे चलकर आपके परिवार को — रिन्यूअल कमीशन मिलता रहेगा। इन्हें एक्सटेंडेड रिन्यूअल कमीशन (ERC) और हेरेडिटरी रिन्यूअल कमीशन (HRC) कहते हैं।",
+      "en": "If you work as an agent for 5 years, then as long as your policyholders keep paying their renewal premiums, you — and later your family — keep receiving renewal commission. These are called Extended Renewal Commission (ERC) and Hereditary Renewal Commission (HRC)."
+     },
+     "src": "BEN-12"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "अपनी पेंशन आप ख़ुद बनाते हैं। साल-दर-साल रिन्यूअल कमीशन जुड़ता जाता है। यह आपको अगले 20 से 25 साल तक पेंशन जैसी आय दे सकता है — और सबसे अच्छी बात, यह वंशानुगत आय है।",
+      "en": "You create your own pension. As the years pass, renewal commission builds up. It can give you a pension-like income for the next 20 to 25 years — and the beauty of it is that it is hereditary income."
+     },
+     "src": "BEN-13"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "एजेंसी ख़त्म होने के बाद भी रिन्यूअल (ERC): कुछ साल की सेवा के बाद अगर आपकी एजेंसी ख़त्म होती है, तो LIC के पात्रता नियमों के अनुसार आपका रिन्यूअल कमीशन जारी रह सकता है।",
+      "en": "Renewal after your agency ends (ERC): if your agency ends after some years of service, your renewal commission can continue, as per LIC’s eligibility rules."
+     },
+     "src": "BEN-33"
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "h4",
+       "text": {
+        "hi": "रिन्यूअल का जादू — रॉयल्टी आय, वंशानुगत आय",
+        "en": "Magic of renewal — royalty income, hereditary income"
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "ऐसी आय, जो साल-दर-साल आती रहे। आप हर साल जितना ज़्यादा प्रीमियम लाएँगे, आपकी रिन्यूअल आय उतनी ही बढ़ेगी।",
+        "en": "Income that keeps coming, year after year. The more premium you bring in each year, the bigger your renewal income grows."
+       }
+      },
+      {
+       "t": "figure",
+       "children": [
+        {
+         "t": "figcaption",
+         "text": {
+          "hi": "हर साल लाए गए प्रीमियम और एजेंसी के सालों के अनुसार मिला रिन्यूअल कमीशन (₹)। LIC फ़ील्ड सामग्री से उदाहरण।",
+          "en": "Renewal commission earned (₹), by premium brought per year and years in agency. Illustration from LIC field material."
+         }
+        },
+        {
+         "t": "details",
+         "summary": {
+          "hi": "आँकड़े देखें",
+          "en": "See the numbers"
+         },
+         "children": [
+          {
+           "t": "box",
+           "children": [
+            {
+             "t": "table",
+             "caption": {
+              "hi": "मिला रिन्यूअल कमीशन (₹)",
+              "en": "Renewal commission earned (₹)"
+             },
+             "head": [
+              [
+               {
+                "text": {
+                 "hi": "हर साल लाया गया प्रीमियम",
+                 "en": "Premium brought per year"
+                },
+                "th": true
+               },
+               {
+                "text": {
+                 "hi": "5 वर्ष बाद",
+                 "en": "After 5 years"
+                },
+                "th": true
+               },
+               {
+                "text": {
+                 "hi": "10 वर्ष बाद",
+                 "en": "After 10 years"
+                },
+                "th": true
+               },
+               {
+                "text": {
+                 "hi": "15 वर्ष बाद",
+                 "en": "After 15 years"
+                },
+                "th": true
+               },
+               {
+                "text": {
+                 "hi": "20 वर्ष बाद",
+                 "en": "After 20 years"
+                },
+                "th": true
+               }
+              ]
+             ],
+             "rows": [
+              [
+               {
+                "text": {
+                 "hi": "₹3 लाख",
+                 "en": "₹3 lakh"
+                },
+                "th": true
+               },
+               {
+                "text": {
+                 "hi": "75,000",
+                 "en": "75,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "1,50,000",
+                 "en": "1,50,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "2,25,000",
+                 "en": "2,25,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "3,00,000",
+                 "en": "3,00,000"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "₹5 लाख",
+                 "en": "₹5 lakh"
+                },
+                "th": true
+               },
+               {
+                "text": {
+                 "hi": "1,25,000",
+                 "en": "1,25,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "2,50,000",
+                 "en": "2,50,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "3,75,000",
+                 "en": "3,75,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "5,00,000",
+                 "en": "5,00,000"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "₹10 लाख",
+                 "en": "₹10 lakh"
+                },
+                "th": true
+               },
+               {
+                "text": {
+                 "hi": "2,50,000",
+                 "en": "2,50,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "5,00,000",
+                 "en": "5,00,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "7,50,000",
+                 "en": "7,50,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "10,00,000",
+                 "en": "10,00,000"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "₹12 लाख",
+                 "en": "₹12 lakh"
+                },
+                "th": true
+               },
+               {
+                "text": {
+                 "hi": "3,00,000",
+                 "en": "3,00,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "6,00,000",
+                 "en": "6,00,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "9,00,000",
+                 "en": "9,00,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "12,00,000",
+                 "en": "12,00,000"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "₹25 लाख",
+                 "en": "₹25 lakh"
+                },
+                "th": true
+               },
+               {
+                "text": {
+                 "hi": "6,25,000",
+                 "en": "6,25,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "12,50,000",
+                 "en": "12,50,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "18,75,000",
+                 "en": "18,75,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "25,00,000",
+                 "en": "25,00,000"
+                },
+                "num": true
+               }
+              ]
+             ],
+             "src": "BEN-14",
+             "cls": [
+              "data"
+             ],
+             "id": "ch14-table"
+            }
+           ],
+           "cls": [
+            "table-scroll"
+           ]
+          }
+         ]
+        }
+       ],
+       "src": "CH-14 BEN-14",
+       "chart": {
+        "id": "ch14",
+        "fallback": "ch14-table",
+        "aria": {
+         "hi": "ग्रुप बार चार्ट: हर साल 3, 5, 10, 12 और 25 लाख रुपये का प्रीमियम लाने पर 5, 10, 15 और 20 साल बाद मिलने वाला रिन्यूअल कमीशन",
+         "en": "Grouped bar chart: renewal commission earned after 5, 10, 15 and 20 years, for premium of 3, 5, 10, 12 and 25 lakh rupees brought each year"
+        }
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "केवल उदाहरण। वास्तविक कमीशन प्लान, अवधि, भरे गए प्रीमियम और LIC के लागू नियमों पर निर्भर करता है। आपकी कमाई आपकी मेहनत पर निर्भर है।",
+        "en": "Illustration only. Actual commission depends on the plan, the term, the premium paid and the LIC rules in force. Your earnings depend on your effort."
+       },
+       "cls": [
+        "src"
+       ]
+      }
+     ],
+     "cls": [
+      "illustrative"
+     ]
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "h4",
+       "text": {
+        "hi": "ऊँचे स्तर पर रिन्यूअल कैसे बढ़ सकता है",
+        "en": "How renewal can build up at higher levels"
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "एक इंडस्ट्री ट्रेनिंग बुकलेट दिखाती है कि रिन्यूअल आय वर्ष 2 से शुरू होती है और MDRT स्तर पर हर साल लगभग ₹15,000 प्रति माह जुड़ती जाती है। उसके आँकड़े, ₹ प्रति माह में:",
+        "en": "An industry training booklet shows renewal income starting from year 2 and adding roughly ₹15,000 a month for each year at MDRT level. Here are its figures, in ₹ per month:"
+       },
+       "src": "BEN-17"
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "table",
+         "caption": {
+          "hi": "प्रति माह रिन्यूअल आय (₹), जैसी छपी",
+          "en": "Renewal income per month (₹), as printed"
+         },
+         "head": [
+          [
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "1 वर्ष बाद",
+             "en": "After 1 year"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "2 वर्ष बाद",
+             "en": "After 2 years"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "5 वर्ष बाद",
+             "en": "After 5 years"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "10 वर्ष बाद",
+             "en": "After 10 years"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "30 वर्ष बाद",
+             "en": "After 30 years"
+            },
+            "th": true
+           }
+          ]
+         ],
+         "rows": [
+          [
+           {
+            "text": {
+             "hi": "MDRT सलाहकार",
+             "en": "MDRT advisor"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "15,000",
+             "en": "15,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "30,000",
+             "en": "30,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "75,000",
+             "en": "75,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "1,50,000",
+             "en": "1,50,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "4,50,000",
+             "en": "4,50,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "TOT सलाहकार",
+             "en": "TOT advisor"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "90,000",
+             "en": "90,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "1,80,000",
+             "en": "1,80,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "4,50,000",
+             "en": "4,50,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "9,00,000",
+             "en": "9,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "30,00,000",
+             "en": "30,00,000"
+            },
+            "num": true
+           }
+          ]
+         ],
+         "src": "BEN-17",
+         "cls": [
+          "data"
+         ]
+        }
+       ],
+       "cls": [
+        "table-scroll"
+       ]
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "केवल उदाहरण। वास्तविक कमीशन प्लान, अवधि, भरे गए प्रीमियम और LIC के लागू नियमों पर निर्भर करता है। आपकी कमाई आपकी मेहनत पर निर्भर है।",
+        "en": "Illustration only. Actual commission depends on the plan, the term, the premium paid and the LIC rules in force. Your earnings depend on your effort."
+       },
+       "cls": [
+        "src"
+       ]
+      }
+     ],
+     "cls": [
+      "illustrative"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "हर एजेंट को मिलने वाले फ़ायदे",
+      "en": "Benefits every agent gets"
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "table",
+       "caption": {
+        "hi": "LIC एजेंट के रूप में फ़ायदे (आधिकारिक)",
+        "en": "Benefits as an LIC agent (official)"
+       },
+       "head": [
+        [
+         {
+          "text": {
+           "hi": "फ़ायदा",
+           "en": "Benefit"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "विवरण",
+           "en": "Detail"
+          },
+          "th": true
+         }
+        ]
+       ],
+       "rows": [
+        [
+         {
+          "text": {
+           "hi": "ग्रेच्युटी",
+           "en": "Gratuity"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "60 वर्ष की उम्र पर या उसके बाद",
+           "en": "On or after 60 years of age"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "मेडिक्लेम योजना",
+           "en": "Mediclaim scheme"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "मेडिक्लेम उपलब्ध",
+           "en": "Mediclaim available"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "बीमा योजना",
+           "en": "Insurance scheme"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "ग्रुप इंश्योरेंस (समूह बीमा) उपलब्ध",
+           "en": "Group insurance available"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "आय की सुरक्षा",
+           "en": "Surety of income"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "आपके आश्रितों के लिए वंशानुगत कमीशन",
+           "en": "Hereditary commission for your dependants"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "तरक्की",
+           "en": "Promotion"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "BM से CM क्लब तक — उनके फ़ायदों का लाभ <a href=\"#club\">(क्लब)</a>",
+           "en": "From BM to CM clubs — enjoy their benefits <a href=\"#club\">(clubs)</a>"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "अन्य फ़ायदे",
+           "en": "Other benefits"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "होम लोन, कार एडवांस, एजुकेशन लोन, लैपटॉप और भी बहुत कुछ",
+           "en": "Housing loan, car advance, education loan, laptop and more"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "पेशेवर जीवन",
+           "en": "Professional life"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "रिटायरमेंट की कोई उम्र नहीं",
+           "en": "No retirement age"
+          }
+         }
+        ]
+       ],
+       "src": "BEN-21",
+       "cls": [
+        "data"
+       ]
+      }
+     ],
+     "cls": [
+      "table-scroll"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "स्रोत: LIC एजेंट भर्ती प्रस्तुति (LIC का आधिकारिक टेम्पलेट, 2026)।",
+      "en": "Source: LIC agent recruitment presentation (official LIC template, 2026)."
+     },
+     "cls": [
+      "src"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>काम के घंटे आपकी मर्ज़ी से — फ़ुल-टाइम, पार्ट-टाइम या जब चाहें।</strong>",
+      "en": "<strong>Flexible working hours — full time, part time or any time.</strong>"
+     },
+     "src": "BEN-21"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "*शर्तें लागू",
+      "en": "*Conditions apply"
+     },
+     "src": "G-08",
+     "cls": [
+      "conditions"
+     ]
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "इनामों का आनंद लीजिए",
+      "en": "Enjoy the rewards"
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h5",
+         "text": {
+          "hi": "सेल्स इंसेंटिव",
+          "en": "Sales incentives"
+         }
+        },
+        {
+         "t": "ul",
+         "items": [
+          {
+           "t": "li",
+           "text": {
+            "hi": "पहला कमीशन",
+            "en": "First commission"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "रिन्यूअल कमीशन",
+            "en": "Renewal commission"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "बोनस कमीशन",
+            "en": "Bonus commission"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "वंशानुगत (हेरेडिटरी) कमीशन",
+            "en": "Hereditary commission"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "प्रतियोगिता इनाम",
+            "en": "Competition prizes"
+           }
+          }
+         ]
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h5",
+         "text": {
+          "hi": "ख़ास फ़ायदे",
+          "en": "Special benefits"
+         }
+        },
+        {
+         "t": "ul",
+         "items": [
+          {
+           "t": "li",
+           "text": {
+            "hi": "ग्रेच्युटी",
+            "en": "Gratuity"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "टर्म इंश्योरेंस",
+            "en": "Term insurance"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "ग्रुप इंश्योरेंस",
+            "en": "Group insurance"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "कैशलेस मेडिकल इंश्योरेंस",
+            "en": "Cashless medical insurance"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "पेंशन",
+            "en": "Pension"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "ग्रुप पर्सनल एक्सीडेंट (दुर्घटना बीमा) और विकलांगता योजना",
+            "en": "Group personal accident and disability scheme"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "राष्ट्रीय और अंतरराष्ट्रीय सम्मेलन",
+            "en": "National and international conventions"
+           }
+          }
+         ]
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h5",
+         "text": {
+          "hi": "भत्ते और एडवांस",
+          "en": "Allowances and advances"
+         }
+        },
+        {
+         "t": "ul",
+         "items": [
+          {
+           "t": "li",
+           "text": {
+            "hi": "ऑफिस भत्ता",
+            "en": "Office allowance"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "अतिरिक्त सुविधाएँ (फ़्रिंज बेनिफ़िट)",
+            "en": "Fringe benefits"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "दोपहिया या चारपहिया वाहन ख़रीदने के लिए एडवांस",
+            "en": "Advances to buy a two- or four-wheeler"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "लैपटॉप या कंप्यूटर",
+            "en": "Laptop or computer"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "त्योहार और शादी के लिए एडवांस",
+            "en": "Festival and marriage advances"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "ऑफिस उपकरण",
+            "en": "Office equipment"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "पढ़ाई के लिए एडवांस",
+            "en": "Educational advances"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "रियायती दर पर होम लोन",
+            "en": "Housing loan at concessional rates"
+           }
+          }
+         ]
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      }
+     ],
+     "src": "BEN-22",
+     "cls": [
+      "grid"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "*शर्तें लागू",
+      "en": "*Conditions apply"
+     },
+     "src": "G-08",
+     "cls": [
+      "conditions"
+     ]
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h5",
+         "text": {
+          "hi": "ब्याज-मुक्त कार और बाइक एडवांस",
+          "en": "Interest-free car and bike advance"
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "img",
+         "file": "/site-assets/28.jpg",
+         "alt": {
+          "hi": "दुर्गा माँ और होली के रंगों वाली त्योहार की तस्वीरें, साथ में ‘Festival Advance’ लिखा हुआ",
+          "en": "Festival images of Goddess Durga and Holi colours, with the words Festival Advance"
+         }
+        },
+        {
+         "t": "h5",
+         "text": {
+          "hi": "त्योहार एडवांस",
+          "en": "Festival advance"
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "img",
+         "file": "/site-assets/29.jpg",
+         "alt": {
+          "hi": "ग्रुप पर्सनल एक्सीडेंट इंश्योरेंस और कैशलेस हेल्थ इंश्योरेंस के चित्र",
+          "en": "Illustrations of group personal accident insurance and cashless health insurance"
+         }
+        },
+        {
+         "t": "h5",
+         "text": {
+          "hi": "ग्रुप पर्सनल एक्सीडेंट इंश्योरेंस · कैशलेस हेल्थ इंश्योरेंस",
+          "en": "Group personal accident insurance · Cashless health insurance"
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h5",
+         "text": {
+          "hi": "LIC हाउसिंग फ़ाइनेंस लिमिटेड के ज़रिए रियायती दर पर होम लोन",
+          "en": "Home loan at a subsidised rate through LIC Housing Finance Ltd."
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h5",
+         "text": {
+          "hi": "ऑफिस भत्ता · लैपटॉप / डेस्कटॉप एडवांस",
+          "en": "Office allowance · Laptop / desktop advance"
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      }
+     ],
+     "src": "BEN-24",
+     "cls": [
+      "grid"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "सीधे शब्दों में, LIC एजेंट एक सच्चा उद्यमी है। आप अपने बॉस ख़ुद हैं, अपने ग्राहक ख़ुद चुनते हैं, और पूँजी की ज़रूरत नहीं होती। कमाई का लक्ष्य आप ख़ुद तय करते हैं। साल भर प्रतियोगिताएँ चलती हैं, और Corporate Club व Chairman’s Club जैसे क्लब हैं। मेडिक्लेम, ग्रुप इंश्योरेंस, ग्रेच्युटी और पेंशन योजना इस पैकेज को ज़्यादातर करियर के बराबर ले आते हैं। अच्छा प्रदर्शन करने वाले एजेंट अपना ऑफिस खोल सकते हैं, और LIC ऑफिस भत्ता देती है। साथ में बेहतरीन ट्रेनिंग और आधुनिक सेल्स व मार्केटिंग टूल।",
+      "en": "Put simply, an LIC agent is a true entrepreneur. You are your own boss, you choose your clients, and you need no capital. You set your own income targets. There are competitions all year round, and clubs such as the Corporate Club and Chairman’s Club. Mediclaim, group insurance, gratuity and a pension scheme put the package close to most career options. Performing agents can open their own office, and LIC reimburses an office allowance. Add best-in-class training and modern sales and marketing tools."
+     },
+     "src": "BEN-23"
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "आपकी और आपके परिवार की सुरक्षा",
+      "en": "Protection for you and your family"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "ग्रेच्युटी: कम से कम 15 साल की सेवा के बाद 60 या 65 साल की उम्र पर मिलती है। अभी इसकी अधिकतम सीमा ₹5,00,000 है।",
+      "en": "Gratuity: paid at age 60 or 65 after a minimum of 15 years of service. The present maximum is ₹5,00,000."
+     },
+     "src": "BEN-25"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "ग्रेच्युटी और मुफ़्त टर्म इंश्योरेंस कवर LIC के एजेंट नियमों के अनुसार मिलते हैं; तय लक्ष्य पूरे करने पर बोनस कमीशन मिलता है।",
+      "en": "Gratuity and free term-insurance cover are given as per LIC’s agents’ rules; bonus commission is paid when you reach set targets."
+     },
+     "src": "BEN-34"
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "table",
+       "caption": {
+        "hi": "सभी इन-फ़ोर्स एजेंटों के लिए ग्रुप टर्म इंश्योरेंस (69 वर्ष की उम्र तक)",
+        "en": "Group term insurance for all in-force agents (up to age 69)"
+       },
+       "head": [
+        [
+         {
+          "text": {
+           "hi": "एजेंसी सेवा",
+           "en": "Agency service"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "कवर",
+           "en": "Cover"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "प्रीमियम (जैसा छपा)",
+           "en": "Premium (as printed)"
+          },
+          "th": true
+         }
+        ]
+       ],
+       "rows": [
+        [
+         {
+          "text": {
+           "hi": "3 एजेंसी वर्ष तक",
+           "en": "Up to 3 agency years"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "₹5,00,000",
+           "en": "₹5,00,000"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "2,065",
+           "en": "2,065"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "3 से ज़्यादा, 5 वर्ष तक",
+           "en": "Above 3, up to 5 years"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "₹7,50,000",
+           "en": "₹7,50,000"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "3,098",
+           "en": "3,098"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "5 से ज़्यादा, 10 वर्ष तक",
+           "en": "Above 5, up to 10 years"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "₹10,00,000",
+           "en": "₹10,00,000"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "4,130",
+           "en": "4,130"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "10 वर्ष से ज़्यादा",
+           "en": "Above 10 years"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "₹15,00,000",
+           "en": "₹15,00,000"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "6,195",
+           "en": "6,195"
+          },
+          "num": true
+         }
+        ]
+       ],
+       "src": "BEN-26",
+       "cls": [
+        "data"
+       ]
+      }
+     ],
+     "cls": [
+      "table-scroll"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "*शर्तें लागू",
+      "en": "*Conditions apply"
+     },
+     "src": "G-08",
+     "cls": [
+      "conditions"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "ग्रुप पर्सनल एक्सीडेंट कवर: सभी सक्रिय एजेंटों के लिए ₹2,00,000, पूरा प्रीमियम सब्सिडी से। अभिकर्ता बीमा योजना: 69 साल की उम्र तक के सभी सक्रिय एजेंटों के लिए ₹2,00,000, पूरा प्रीमियम सब्सिडी से।",
+      "en": "Group personal accident cover: ₹2,00,000 for all active agents, fully subsidised. Abhikartha Bima Yojana: ₹2,00,000 for all active agents up to age 69, fully subsidised."
+     },
+     "src": "BEN-27"
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "जो एजेंट अभी क्लब सदस्य नहीं हैं, उनके लिए टर्म इंश्योरेंस (03.01.2025 से)",
+      "en": "Term insurance for agents who are not yet club members (from 03.01.2025)"
+     }
+    },
+    {
+     "t": "figure",
+     "children": [
+      {
+       "t": "figcaption",
+       "text": {
+        "hi": "एजेंसी के वर्षों के अनुसार देय राशि (₹), 03.01.2025 से लागू। स्रोत: LIC ग्रुप इंश्योरेंस योजनाओं की सूचना।",
+        "en": "Amount payable (₹) by years of agency, effective 03.01.2025. Source: LIC group insurance schemes notice."
+       }
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "table",
+         "caption": {
+          "hi": "गैर-क्लब सदस्य एजेंट — टर्म इंश्योरेंस लाभ",
+          "en": "Non-club-member agents — term insurance benefits"
+         },
+         "head": [
+          [
+           {
+            "text": {
+             "hi": "एजेंसी की अवधि",
+             "en": "Duration of agency"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "दुर्घटना से मृत्यु — देय राशि",
+             "en": "Accidental death — payable"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "सामान्य मृत्यु — देय राशि",
+             "en": "Normal death — payable"
+            },
+            "th": true
+           }
+          ]
+         ],
+         "rows": [
+          [
+           {
+            "text": {
+             "hi": "3 वर्ष पूरे",
+             "en": "Completed 3 years"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "₹10,50,000",
+             "en": "₹10,50,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "₹8,50,000",
+             "en": "₹8,50,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "3 से ज़्यादा, 5 वर्ष तक",
+             "en": "Above 3, up to 5 years"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "₹12,00,000",
+             "en": "₹12,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "₹10,50,000",
+             "en": "₹10,50,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "5 से ज़्यादा, 10 वर्ष तक",
+             "en": "Above 5, up to 10 years"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "₹15,50,000",
+             "en": "₹15,50,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "₹13,50,000",
+             "en": "₹13,50,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "10 वर्ष से ज़्यादा",
+             "en": "Above 10 years"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "₹20,50,000",
+             "en": "₹20,50,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "₹18,50,000",
+             "en": "₹18,50,000"
+            },
+            "num": true
+           }
+          ]
+         ],
+         "src": "BEN-28",
+         "cls": [
+          "data"
+         ],
+         "id": "ch16-table"
+        }
+       ],
+       "cls": [
+        "table-scroll"
+       ]
+      }
+     ],
+     "src": "CH-16 BEN-28",
+     "chart": {
+      "id": "ch16",
+      "fallback": "ch16-table",
+      "aria": {
+       "hi": "ग्रुप बार चार्ट: गैर-क्लब सदस्य एजेंटों का टर्म इंश्योरेंस — एजेंसी के सालों के साथ, दुर्घटना से मृत्यु पर 10.5 से 20.5 लाख रुपये और सामान्य मृत्यु पर 8.5 से 18.5 लाख रुपये",
+       "en": "Grouped bar chart: term insurance for non-club agents, accidental death payable from 10.5 to 20.5 lakh rupees and normal death from 8.5 to 18.5 lakh rupees, rising with years of agency"
+      }
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "ग्रुप टर्म इंश्योरेंस और दुर्घटना कवर 69 साल की उम्र तक लागू हैं। अगर पिछले 3 साल का आपका औसत सालाना रिन्यूअल कमीशन ₹50,000 से ज़्यादा है, तो इन राशियों में ₹1,50,000 शामिल हैं।",
+      "en": "Group term insurance and accidental cover apply up to age 69. The amounts include ₹1,50,000 if your average annual renewal commission over the last 3 years is more than ₹50,000."
+     },
+     "src": "BEN-28"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "*शर्तें लागू",
+      "en": "*Conditions apply"
+     },
+     "src": "G-08",
+     "cls": [
+      "conditions"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "आपका समय, आपका सहारा",
+      "en": "Your time, your support"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "आपको कितना समय देना होगा? काम के घंटे आप ख़ुद तय करते हैं। आपकी आय आपकी लगन और दिए गए समय के सीधे अनुपात में बढ़ती है। लगन + दिया गया समय = नतीजे। यह एक समानांतर पेशा है — आप इसे अपनी मौजूदा नौकरी, बिज़नेस या पेशे के साथ-साथ शुरू कर सकते हैं।",
+      "en": "How much time do you need? You are free to set your own working hours. Your income grows in direct proportion to your commitment and the time you give. Commitment + time devoted = results. It is a parallel profession — you can start alongside your current job, business or profession."
+     },
+     "src": "BEN-30"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "नियमित ट्रेनिंग आपको बदलते बाज़ार के साथ अपडेट रखती है — ब्रांच स्तर पर, और LIC के सेल्स ट्रेनिंग सेंटरों में ख़ास ट्रेनिंग।",
+      "en": "Regular training keeps you up to date as the market changes — at branch level, and specialised training at LIC’s Sales Training Centres."
+     },
+     "src": "BEN-32"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "शुरू करने से पहले, हमारा कस्टमाइज़्ड लर्निंग पोर्टल आपको प्री-लाइसेंसिंग (IC-38) कोर्स और IRDAI परीक्षा की तैयारी कराता है — अपनी रफ़्तार से, फ़ोन या लैपटॉप पर। इसमें कितना समय लगेगा, यह आपके कोर्स पर निर्भर करता है।",
+      "en": "Before you start, our customised learning portal takes you through the pre-licensing (IC-38) course and IRDAI exam preparation — at your own pace, on phone or laptop. How long it takes depends on your course."
+     },
+     "src": "BEN-32 PROC-21"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "हमारा सहयोग: प्रोडक्ट की जानकारी के ज़रिए कस्टमाइज़्ड ट्रेनिंग · असरदार हुनर और मार्केटिंग के आइडिया · व्यक्तिगत काउंसलिंग · नियमित निगरानी।",
+      "en": "Our support: customised training through product knowledge · effective skills and marketing ideas · personal counselling · regular monitoring."
+     },
+     "src": "BEN-31"
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "details",
+   "summary": {
+    "hi": "पुराने आँकड़े (2001–2015 की सामग्री के अनुसार)",
+    "en": "Earlier figures (as per 2001–2015 material)"
+   },
+   "children": [
+    {
+     "t": "p",
+     "text": {
+      "hi": "पुरानी प्रस्तुतियों में कमीशन की दरें अलग थीं। ये यहाँ संदर्भ के लिए रखी गई हैं; मौजूदा ढाँचा ऊपर दिया गया है।",
+      "en": "Older decks used different commission rates. They are kept here for reference; the current structure is shown above."
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "एक पुरानी प्रस्तुति में कमीशन की सीमाएँ: पहला साल 7.5%–25%; बोनस पहले साल के कमीशन का 40%; रिन्यूअल वर्ष 2–3 में 2%–7.5% और वर्ष 4 से 2%–5%। उदाहरण — 15 साल या उससे ज़्यादा की एंडोमेंट योजनाएँ: वर्ष 1 में 25% + 10% बोनस = 35%; वर्ष 2–3 में 7.5%; वर्ष 4 से 5%।",
+      "en": "Commission ranges in an older deck: first year 7.5%–25%; bonus 40% of first-year commission; renewal 2%–7.5% in years 2–3 and 2%–5% from year 4. Example — endowment plans of 15 years or more: 25% + 10% bonus = 35% in year 1; 7.5% in years 2–3; 5% from year 4."
+     },
+     "src": "BEN-07"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "एक और पुरानी प्रस्तुति: पहले साल के प्रीमियम का 25% तक और 10% बोनस कमीशन; वर्ष 2 और वर्ष 3 के प्रीमियम का 7.5% तक; उसके बाद 5% तक, जब तक पॉलिसी चलती रहे — सभी स्टैंडर्ड पॉलिसियों पर।",
+      "en": "Another older deck: up to 25% of first-year premium plus 10% bonus commission; up to 7.5% of year-2 and year-3 premium; up to 5% after that, for as long as the policy continues — on all standard policies."
+     },
+     "src": "BEN-08"
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "₹2,000 प्रति माह (₹24,000 प्रति वर्ष) की एक पॉलिसी, 20 साल की अवधि, पुरानी दरों पर: वर्ष 1 में 35% = ₹8,400; वर्ष 2–3 में 7.5% = हर साल ₹1,800; वर्ष 4–20 में 5% = हर साल ₹1,200। एक पॉलिसी पर कुल कमीशन: ₹32,400।",
+        "en": "One policy of ₹2,000 a month (₹24,000 a year), 20-year term, at older rates: year 1 at 35% = ₹8,400; years 2–3 at 7.5% = ₹1,800 each; years 4–20 at 5% = ₹1,200 each. Total commission on one policy: ₹32,400."
+       },
+       "src": "BEN-09"
+      },
+      {
+       "t": "figure",
+       "children": [
+        {
+         "t": "figcaption",
+         "text": {
+          "hi": "₹24,000 सालाना, 20 साल की एक पॉलिसी पर हर साल का कमीशन (₹), पुरानी दरों पर।",
+          "en": "Commission each year (₹) on one ₹24,000-a-year, 20-year policy, at older rates."
+         }
+        },
+        {
+         "t": "details",
+         "summary": {
+          "hi": "आँकड़े देखें",
+          "en": "See the numbers"
+         },
+         "children": [
+          {
+           "t": "box",
+           "children": [
+            {
+             "t": "table",
+             "caption": {
+              "hi": "पॉलिसी वर्ष के अनुसार कमीशन (₹)",
+              "en": "Commission by policy year (₹)"
+             },
+             "head": [
+              [
+               {
+                "text": {
+                 "hi": "पॉलिसी वर्ष",
+                 "en": "Policy year"
+                },
+                "th": true
+               },
+               {
+                "text": {
+                 "hi": "दर",
+                 "en": "Rate"
+                },
+                "th": true
+               },
+               {
+                "text": {
+                 "hi": "₹",
+                 "en": "₹"
+                },
+                "th": true
+               }
+              ]
+             ],
+             "rows": [
+              [
+               {
+                "text": {
+                 "hi": "1",
+                 "en": "1"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "35%",
+                 "en": "35%"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "8,400",
+                 "en": "8,400"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "2",
+                 "en": "2"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "7.5%",
+                 "en": "7.5%"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "1,800",
+                 "en": "1,800"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "3",
+                 "en": "3"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "7.5%",
+                 "en": "7.5%"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "1,800",
+                 "en": "1,800"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "4",
+                 "en": "4"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "5%",
+                 "en": "5%"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "1,200",
+                 "en": "1,200"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "5",
+                 "en": "5"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "5%",
+                 "en": "5%"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "1,200",
+                 "en": "1,200"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "6",
+                 "en": "6"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "5%",
+                 "en": "5%"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "1,200",
+                 "en": "1,200"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "7",
+                 "en": "7"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "5%",
+                 "en": "5%"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "1,200",
+                 "en": "1,200"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "8",
+                 "en": "8"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "5%",
+                 "en": "5%"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "1,200",
+                 "en": "1,200"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "9",
+                 "en": "9"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "5%",
+                 "en": "5%"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "1,200",
+                 "en": "1,200"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "10",
+                 "en": "10"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "5%",
+                 "en": "5%"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "1,200",
+                 "en": "1,200"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "11",
+                 "en": "11"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "5%",
+                 "en": "5%"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "1,200",
+                 "en": "1,200"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "12",
+                 "en": "12"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "5%",
+                 "en": "5%"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "1,200",
+                 "en": "1,200"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "13",
+                 "en": "13"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "5%",
+                 "en": "5%"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "1,200",
+                 "en": "1,200"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "14",
+                 "en": "14"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "5%",
+                 "en": "5%"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "1,200",
+                 "en": "1,200"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "15",
+                 "en": "15"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "5%",
+                 "en": "5%"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "1,200",
+                 "en": "1,200"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "16",
+                 "en": "16"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "5%",
+                 "en": "5%"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "1,200",
+                 "en": "1,200"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "17",
+                 "en": "17"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "5%",
+                 "en": "5%"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "1,200",
+                 "en": "1,200"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "18",
+                 "en": "18"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "5%",
+                 "en": "5%"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "1,200",
+                 "en": "1,200"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "19",
+                 "en": "19"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "5%",
+                 "en": "5%"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "1,200",
+                 "en": "1,200"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "20",
+                 "en": "20"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "5%",
+                 "en": "5%"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "1,200",
+                 "en": "1,200"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "<strong>कुल</strong>",
+                 "en": "<strong>Total</strong>"
+                },
+                "th": true
+               },
+               {
+                "text": {
+                 "hi": "",
+                 "en": ""
+                }
+               },
+               {
+                "text": {
+                 "hi": "<strong>32,400</strong>",
+                 "en": "<strong>32,400</strong>"
+                },
+                "num": true
+               }
+              ]
+             ],
+             "src": "BEN-09",
+             "cls": [
+              "data"
+             ],
+             "id": "ch13-table"
+            }
+           ],
+           "cls": [
+            "table-scroll"
+           ]
+          }
+         ]
+        }
+       ],
+       "src": "CH-13 BEN-09",
+       "chart": {
+        "id": "ch13",
+        "fallback": "ch13-table",
+        "aria": {
+         "hi": "बार चार्ट: 24,000 रुपये सालाना की एक पॉलिसी पर हर पॉलिसी वर्ष का कमीशन — वर्ष 1 में 8,400, वर्ष 2 और 3 में 1,800, और वर्ष 4 से 20 तक हर साल 1,200",
+         "en": "Bar chart: commission by policy year on one 24,000-rupee-a-year policy — 8,400 in year 1, 1,800 in years 2 and 3, 1,200 in each of years 4 to 20"
+        }
+       }
+      },
+      {
+       "t": "h4",
+       "text": {
+        "hi": "पैसा बहता रहता है",
+        "en": "Cash just flows"
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "पुराने दो उदाहरण दिखाते हैं कि हर साल नया बिज़नेस लाते रहने पर रिन्यूअल कैसे जमा होता जाता है।",
+        "en": "Two older examples show how renewal piles up when you keep bringing new business every year."
+       }
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "table",
+         "caption": {
+          "hi": "नया प्रीमियम हर साल ₹5,00,000 बढ़ने पर कमीशन (₹) — पुरानी दरें 35% / 7.5% / 7.5% / 5%",
+          "en": "Commission (₹) when new premium grows by ₹5,00,000 every year — older rates 35% / 7.5% / 7.5% / 5%"
+         },
+         "head": [
+          [
+           {
+            "text": {
+             "hi": "किस वर्ष का बिज़नेस → किस वर्ष में कमाई",
+             "en": "Business of year → earned in year"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "1",
+             "en": "1"
+            },
+            "th": true,
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "2",
+             "en": "2"
+            },
+            "th": true,
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "3",
+             "en": "3"
+            },
+            "th": true,
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "4",
+             "en": "4"
+            },
+            "th": true,
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "5",
+             "en": "5"
+            },
+            "th": true,
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "6",
+             "en": "6"
+            },
+            "th": true,
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "7",
+             "en": "7"
+            },
+            "th": true,
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "8",
+             "en": "8"
+            },
+            "th": true,
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "9",
+             "en": "9"
+            },
+            "th": true,
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "10",
+             "en": "10"
+            },
+            "th": true,
+            "num": true
+           }
+          ]
+         ],
+         "rows": [
+          [
+           {
+            "text": {
+             "hi": "वर्ष 1 · ₹5,00,000",
+             "en": "Year 1 · ₹5,00,000"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "1,75,000",
+             "en": "1,75,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "37,500",
+             "en": "37,500"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "37,500",
+             "en": "37,500"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "25,000",
+             "en": "25,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "25,000",
+             "en": "25,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "25,000",
+             "en": "25,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "25,000",
+             "en": "25,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "25,000",
+             "en": "25,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "25,000",
+             "en": "25,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "25,000",
+             "en": "25,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "वर्ष 2 · ₹10,00,000",
+             "en": "Year 2 · ₹10,00,000"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "3,50,000",
+             "en": "3,50,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "75,000",
+             "en": "75,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "75,000",
+             "en": "75,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "50,000",
+             "en": "50,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "50,000",
+             "en": "50,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "50,000",
+             "en": "50,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "50,000",
+             "en": "50,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "50,000",
+             "en": "50,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "50,000",
+             "en": "50,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "वर्ष 3 · ₹15,00,000",
+             "en": "Year 3 · ₹15,00,000"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "5,25,000",
+             "en": "5,25,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "1,12,500",
+             "en": "1,12,500"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "1,12,500",
+             "en": "1,12,500"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "75,000",
+             "en": "75,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "75,000",
+             "en": "75,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "75,000",
+             "en": "75,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "75,000",
+             "en": "75,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "75,000",
+             "en": "75,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "वर्ष 4 · ₹20,00,000",
+             "en": "Year 4 · ₹20,00,000"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "7,00,000",
+             "en": "7,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "1,50,000",
+             "en": "1,50,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "1,50,000",
+             "en": "1,50,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "1,00,000",
+             "en": "1,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "1,00,000",
+             "en": "1,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "1,00,000",
+             "en": "1,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "1,00,000",
+             "en": "1,00,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "वर्ष 5 · ₹25,00,000",
+             "en": "Year 5 · ₹25,00,000"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "8,75,000",
+             "en": "8,75,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "1,87,500",
+             "en": "1,87,500"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "1,87,500",
+             "en": "1,87,500"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "1,25,000",
+             "en": "1,25,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "1,25,000",
+             "en": "1,25,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "1,25,000",
+             "en": "1,25,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "वर्ष 6 · ₹30,00,000",
+             "en": "Year 6 · ₹30,00,000"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "10,50,000",
+             "en": "10,50,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "2,25,000",
+             "en": "2,25,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "2,25,000",
+             "en": "2,25,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "1,50,000",
+             "en": "1,50,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "1,50,000",
+             "en": "1,50,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "वर्ष 7 · ₹35,00,000",
+             "en": "Year 7 · ₹35,00,000"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "12,25,000",
+             "en": "12,25,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "2,62,500",
+             "en": "2,62,500"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "2,62,500",
+             "en": "2,62,500"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "1,75,000",
+             "en": "1,75,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "वर्ष 8 · ₹40,00,000",
+             "en": "Year 8 · ₹40,00,000"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "14,00,000",
+             "en": "14,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "3,00,000",
+             "en": "3,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "3,00,000",
+             "en": "3,00,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "वर्ष 9 · ₹45,00,000",
+             "en": "Year 9 · ₹45,00,000"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "15,75,000",
+             "en": "15,75,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "3,37,500",
+             "en": "3,37,500"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "वर्ष 10 · ₹50,00,000",
+             "en": "Year 10 · ₹50,00,000"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "17,50,000",
+             "en": "17,50,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "<strong>उस वर्ष में मिला कमीशन</strong>",
+             "en": "<strong>Commission earned in the year</strong>"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "<strong>1,75,000</strong>",
+             "en": "<strong>1,75,000</strong>"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>3,87,500</strong>",
+             "en": "<strong>3,87,500</strong>"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>6,37,500</strong>",
+             "en": "<strong>6,37,500</strong>"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>9,12,500</strong>",
+             "en": "<strong>9,12,500</strong>"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>12,12,500</strong>",
+             "en": "<strong>12,12,500</strong>"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>15,37,500</strong>",
+             "en": "<strong>15,37,500</strong>"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>18,87,500</strong>",
+             "en": "<strong>18,87,500</strong>"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>22,62,500</strong>",
+             "en": "<strong>22,62,500</strong>"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>26,62,500</strong>",
+             "en": "<strong>26,62,500</strong>"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>30,87,500</strong>",
+             "en": "<strong>30,87,500</strong>"
+            },
+            "num": true
+           }
+          ]
+         ],
+         "src": "BEN-15",
+         "cls": [
+          "data"
+         ]
+        }
+       ],
+       "cls": [
+        "table-scroll"
+       ]
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "कुल जमा प्रीमियम: ₹2,75,00,000। @5% कुल रिन्यूअल कमीशन: ₹13,75,000 प्रति वर्ष — यानी ₹1,14,583 प्रति माह की नियमित आय। (स्लाइड पर दिया गया स्रोत: Business Standard, 24-09-2001।)",
+        "en": "Total premium collected: ₹2,75,00,000. Total renewal commission @5%: ₹13,75,000 a year — a recurring income of ₹1,14,583 a month. (Source cited on the slide: Business Standard, 24-09-2001.)"
+       },
+       "src": "BEN-15"
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "दूसरा उदाहरण: हर साल एक-सा ₹10,00,000 नया प्रीमियम लाइए। हर साल का बिज़नेस अपने पहले साल में ₹3,50,000, अगले दो सालों में हर साल ₹75,000, और उसके बाद हर साल ₹50,000 देता है। हर साल के अंत में आपका कमीशन: 3,50,000 · 4,25,000 · 5,00,000 · 5,50,000 · 6,00,000 · 6,50,000 · 7,00,000 · 7,50,000 · 8,00,000 · 8,50,000 (वर्ष 1–10)।",
+        "en": "A second example: bring in a flat ₹10,00,000 of new premium every year. Each year’s business pays ₹3,50,000 in its first year, ₹75,000 in each of the next two years, and ₹50,000 every year after that. Your commission at the end of each year: 3,50,000 · 4,25,000 · 5,00,000 · 5,50,000 · 6,00,000 · 6,50,000 · 7,00,000 · 7,50,000 · 8,00,000 · 8,50,000 (years 1–10)."
+       },
+       "src": "BEN-16"
+      },
+      {
+       "t": "figure",
+       "children": [
+        {
+         "t": "figcaption",
+         "text": {
+          "hi": "हर साल मिला कमीशन (₹), वर्ष 1–10, पुरानी दरों पर: प्रीमियम हर साल ₹5 लाख बढ़ते हुए बनाम हर साल एक-सा ₹10 लाख।",
+          "en": "Commission earned each year (₹), years 1–10, at older rates: premium growing by ₹5 lakh a year vs a flat ₹10 lakh a year."
+         }
+        },
+        {
+         "t": "details",
+         "summary": {
+          "hi": "आँकड़े देखें",
+          "en": "See the numbers"
+         },
+         "children": [
+          {
+           "t": "box",
+           "children": [
+            {
+             "t": "table",
+             "caption": {
+              "hi": "हर वर्ष मिला कमीशन (₹)",
+              "en": "Commission earned in each year (₹)"
+             },
+             "head": [
+              [
+               {
+                "text": {
+                 "hi": "वर्ष",
+                 "en": "Year"
+                },
+                "th": true
+               },
+               {
+                "text": {
+                 "hi": "प्रीमियम हर साल ₹5 लाख बढ़ते हुए",
+                 "en": "Premium growing by ₹5 lakh a year"
+                },
+                "th": true
+               },
+               {
+                "text": {
+                 "hi": "हर साल एक-सा ₹10 लाख",
+                 "en": "Flat ₹10 lakh a year"
+                },
+                "th": true
+               }
+              ]
+             ],
+             "rows": [
+              [
+               {
+                "text": {
+                 "hi": "1",
+                 "en": "1"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "1,75,000",
+                 "en": "1,75,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "3,50,000",
+                 "en": "3,50,000"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "2",
+                 "en": "2"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "3,87,500",
+                 "en": "3,87,500"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "4,25,000",
+                 "en": "4,25,000"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "3",
+                 "en": "3"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "6,37,500",
+                 "en": "6,37,500"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "5,00,000",
+                 "en": "5,00,000"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "4",
+                 "en": "4"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "9,12,500",
+                 "en": "9,12,500"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "5,50,000",
+                 "en": "5,50,000"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "5",
+                 "en": "5"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "12,12,500",
+                 "en": "12,12,500"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "6,00,000",
+                 "en": "6,00,000"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "6",
+                 "en": "6"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "15,37,500",
+                 "en": "15,37,500"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "6,50,000",
+                 "en": "6,50,000"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "7",
+                 "en": "7"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "18,87,500",
+                 "en": "18,87,500"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "7,00,000",
+                 "en": "7,00,000"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "8",
+                 "en": "8"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "22,62,500",
+                 "en": "22,62,500"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "7,50,000",
+                 "en": "7,50,000"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "9",
+                 "en": "9"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "26,62,500",
+                 "en": "26,62,500"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "8,00,000",
+                 "en": "8,00,000"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "10",
+                 "en": "10"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "30,87,500",
+                 "en": "30,87,500"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "8,50,000",
+                 "en": "8,50,000"
+                },
+                "num": true
+               }
+              ]
+             ],
+             "src": "BEN-15 BEN-16",
+             "cls": [
+              "data"
+             ],
+             "id": "ch15-table"
+            }
+           ],
+           "cls": [
+            "table-scroll"
+           ]
+          }
+         ]
+        }
+       ],
+       "src": "CH-15 BEN-15 BEN-16",
+       "chart": {
+        "id": "ch15",
+        "fallback": "ch15-table",
+        "aria": {
+         "hi": "लाइन चार्ट: 10 सालों में हर साल मिला कमीशन; बढ़ते प्रीमियम वाले उदाहरण में 1.75 लाख से 30.875 लाख रुपये तक, हर साल एक-से 10 लाख वाले उदाहरण में 3.5 लाख से 8.5 लाख रुपये तक",
+         "en": "Line chart: commission earned each year over 10 years; growing-premium example rises from 1.75 lakh to 30.875 lakh rupees, flat 10-lakh example rises from 3.5 lakh to 8.5 lakh rupees"
+        }
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "केवल उदाहरण। वास्तविक कमीशन प्लान, अवधि, भरे गए प्रीमियम और LIC के लागू नियमों पर निर्भर करता है। आपकी कमाई आपकी मेहनत पर निर्भर है।",
+        "en": "Illustration only. Actual commission depends on the plan, the term, the premium paid and the LIC rules in force. Your earnings depend on your effort."
+       },
+       "cls": [
+        "src"
+       ]
+      }
+     ],
+     "cls": [
+      "illustrative"
+     ]
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "रुपयों में फ़ायदों का मूल्य (पुरानी प्रस्तुति)",
+      "en": "Benefits, valued in rupees (older deck)"
+     }
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "ऑफिस ख़र्च: ₹30,000",
+        "en": "Office expenses: ₹30,000"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "सेल्स प्रमोशन ख़र्च: ₹1,400",
+        "en": "Sales promotional expenses: ₹1,400"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "त्योहार एडवांस: ₹7,000",
+        "en": "Festival advances: ₹7,000"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "लेटरहेड और लिफ़ाफ़े: ₹1,000",
+        "en": "Letterhead and envelopes: ₹1,000"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "होम लोन (₹3.75 लाख @5.25%): ₹18,750",
+        "en": "Housing loan (₹3.75 lakh @5.25%): ₹18,750"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "कार एडवांस (₹4 लाख): ₹42,000",
+        "en": "Car advance (₹4 lakh): ₹42,000"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "कंप्यूटर एडवांस ₹50,000: ₹5,250",
+        "en": "Computer advance ₹50,000: ₹5,250"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "कंप्यूटर रखरखाव भत्ता: ₹6,000",
+        "en": "Computer maintenance allowance: ₹6,000"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "टेलीफ़ोन: ₹12,000",
+        "en": "Telephone: ₹12,000"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "ऑफिस ख़रीदने या मरम्मत के लिए एडवांस: ₹21,000",
+        "en": "Advance to buy or repair an office: ₹21,000"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "आने-जाने का ख़र्च: ₹25,000",
+        "en": "Conveyance expenses: ₹25,000"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "ऊपरी फ़ुटकर ख़र्च: ₹2,500",
+        "en": "Out-of-pocket expenses: ₹2,500"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "<strong>कुल: ₹1,71,900</strong>",
+        "en": "<strong>Total: ₹1,71,900</strong>"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "साथ में ₹1,25,000 का मुफ़्त टर्म इंश्योरेंस और ₹2,00,000 की ग्रेच्युटी",
+        "en": "Plus free term insurance of ₹1,25,000 and gratuity of ₹2,00,000"
+       }
+      }
+     ],
+     "src": "BEN-29"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "पहले ग्रेच्युटी की अधिकतम सीमा ₹2,00,000 थी। आज यह ₹5,00,000 है।",
+      "en": "Earlier, the maximum gratuity was ₹2,00,000. Today it is ₹5,00,000."
+     },
+     "src": "BEN-25"
+    }
+   ],
+   "cls": [
+    "legacy"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "संक्षेप में",
+      "en": "In short"
+     }
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "src": "BEN-01",
+       "text": {
+        "hi": "जब-जब ग्राहक प्रीमियम भरता है, आपकी कमाई होती है — पूरी अवधि तक।",
+        "en": "You earn every time your customer pays — for the full term."
+       }
+      },
+      {
+       "t": "li",
+       "src": "BEN-02",
+       "text": {
+        "hi": "रिन्यूअल कमीशन आपके परिवार को मिलता रहता है।",
+        "en": "Renewal commission continues to your family."
+       }
+      },
+      {
+       "t": "li",
+       "src": "BEN-05",
+       "text": {
+        "hi": "ज़्यादातर प्लान पर वर्ष 1 में 28%, फिर 7.5% और 5% रिन्यूअल (2023-24 की सामग्री)।",
+        "en": "Most plans pay 28% in year 1, then 7.5% and 5% renewal (2023-24 material)."
+       }
+      },
+      {
+       "t": "li",
+       "src": "BEN-25",
+       "text": {
+        "hi": "₹5,00,000 तक की ग्रेच्युटी।",
+        "en": "Gratuity of up to ₹5,00,000."
+       }
+      },
+      {
+       "t": "li",
+       "src": "BEN-26",
+       "text": {
+        "hi": "₹5,00,000 से ₹15,00,000 तक का ग्रुप टर्म कवर, एजेंसी के सालों के साथ बढ़ता हुआ।",
+        "en": "Group term cover from ₹5,00,000 to ₹15,00,000, growing with your years of agency."
+       }
+      }
+     ]
+    }
+   ],
+   "cls": [
+    "block",
+    "recap"
+   ]
+  },
+  {
+   "t": "aside",
+   "children": [
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>और ज़्यादा चाहिए? क्लब सदस्यों को बड़े भत्ते, एडवांस और कवर मिलते हैं।</strong>",
+      "en": "<strong>Want even more? Club members get bigger allowances, advances and covers.</strong>"
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "a",
+       "href": "#club",
+       "text": {
+        "hi": "क्लब के फ़ायदे देखें →",
+        "en": "See club benefits →"
+       },
+       "cls": [
+        "cta",
+        "secondary"
+       ]
+      },
+      {
+       "t": "a",
+       "href": "#apply",
+       "text": {
+        "hi": "आवेदन करें",
+        "en": "Apply now"
+       },
+       "cls": [
+        "cta"
+       ]
+      }
+     ],
+     "cls": [
+      "btn-row"
+     ]
+    }
+   ],
+   "cls": [
+    "page-cta"
+   ]
+  }
+ ],
+ "id": "benefits"
+}

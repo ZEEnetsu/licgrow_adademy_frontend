@@ -64,7 +64,3 @@ export function withIdempotencyKey(operationId, descriptor) {
     },
   };
 }
-
-export function __reset() {
-  inFlight.clear();
-}

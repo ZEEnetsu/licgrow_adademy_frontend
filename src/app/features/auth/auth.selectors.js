@@ -14,7 +14,6 @@ import { ACTOR, checkExpanded, expandPermissions } from "./permissions.js";
 
 // ── primitives ─────────────────────────────────────────────────────────────
 
-export const selectAuthState = (state) => state.auth;
 export const selectAuthStatus = (state) => state.auth.status;
 export const selectActor = (state) => state.auth.actor;
 export const selectAuthError = (state) => state.auth.error;
@@ -60,19 +59,9 @@ export const selectCan = createSelector(
       checkExpanded(actorType, effective, required, options),
 );
 
-export const selectIsStaffAdmin = createSelector(
-  [selectActorType],
-  (type) => type === ACTOR.STAFF_ADMIN,
-);
-
 export const selectIsSuperAdmin = createSelector(
   [selectActorType],
   (type) => type === ACTOR.SUPER_ADMIN,
-);
-
-export const selectIsLearner = createSelector(
-  [selectActorType],
-  (type) => type === ACTOR.LEARNER,
 );
 
 /** Can this actor reach the admin area at all? */
@@ -80,13 +69,3 @@ export const selectCanAccessAdmin = createSelector(
   [selectActorType],
   (type) => type === ACTOR.STAFF_ADMIN || type === ACTOR.SUPER_ADMIN,
 );
-
-/**
- * Auth-strict rate-limit lockout (conventions §7).
- * Note this is derived at call time, so read it from `useIsLockedOut()` if you
- * need it to tick down live.
- */
-export const selectIsLockedOut = (state) => {
-  const until = state.auth.lockedUntil;
-  return Boolean(until && until > Date.now());
-};

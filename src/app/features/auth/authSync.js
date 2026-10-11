@@ -61,13 +61,3 @@ export function subscribeToAuthEvents(handler) {
   ch.addEventListener("message", listener);
   return () => ch.removeEventListener("message", listener);
 }
-
-/** Tear down the channel — for tests and hot-reload cleanliness. */
-export function closeAuthChannel() {
-  try {
-    channel?.close();
-  } catch {
-    // ignore
-  }
-  channel = null;
-}

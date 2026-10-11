@@ -1,0 +1,172 @@
+{
+ "t": "footer",
+ "children": [
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h2",
+         "text": {
+          "hi": "संपर्क",
+          "en": "Contact"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "<strong>रोहित लाल</strong><br/>MBA (फ़ाइनेंस और फ़ाइनेंशियल प्लानिंग)<br/>डेवलपमेंट ऑफिसर (SBA), भारतीय जीवन बीमा निगम (LIC)",
+          "en": "<strong>Rohit Lal</strong><br/>MBA (Finance &amp; Financial Planning)<br/>Development Officer (SBA), Life Insurance Corporation of India"
+         },
+         "src": "G-01"
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "फ़ोन: <span data-src=\"G-02\"><a href=\"tel:+919973055291\">9973055291</a> · <a href=\"tel:+918825361848\">8825361848</a></span>",
+          "en": "Phone: <span data-src=\"G-02\"><a href=\"tel:+919973055291\">9973055291</a> · <a href=\"tel:+918825361848\">8825361848</a></span>"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "ईमेल: <span data-src=\"G-03\"><a href=\"mailto:lic.rohitlal@gmail.com\">lic.rohitlal@gmail.com</a></span>",
+          "en": "Email: <span data-src=\"G-03\"><a href=\"mailto:lic.rohitlal@gmail.com\">lic.rohitlal@gmail.com</a></span>"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "ब्रांच क्षेत्र: लखीसराय; शेखपुरा (SO); सूरजगढ़ा (SO); बड़हिया (SO)",
+          "en": "Branch area: Lakhisarai; Sheikhpura (SO); Surajgarha (SO); Barahiya (SO)"
+         },
+         "src": "G-04"
+        }
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h2",
+         "text": {
+          "hi": "मेरे साथ जुड़िए",
+          "en": "Join me"
+         }
+        },
+        {
+         "t": "ul",
+         "items": [
+          {
+           "t": "li",
+           "text": {
+            "hi": "हम भर्ती कर रहे हैं…",
+            "en": "We are recruiting…"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "सपनों से हक़ीक़त तक।",
+            "en": "From Dreams to Reality."
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "ज़्यादा जानकारी के लिए मुझे कॉल करें।",
+            "en": "Call me for more details."
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "सफलता के मेरे इस सफ़र में साथ आइए।",
+            "en": "Join my bandwagon of success."
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "आज ही मेरे साथ बीमा सलाहकार (Insurance Advisor) के रूप में जुड़िए।",
+            "en": "Join me today as Insurance Advisor."
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "चलिए, शुरू करते हैं!",
+            "en": "Let’s do it!"
+           }
+          }
+         ],
+         "src": "G-06"
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "साथ आना शुरुआत है… साथ काम करना प्रगति है… साथ बने रहना सफलता है…",
+          "en": "Coming together is Beginning… Working together is Progress… Staying together is Success…"
+         },
+         "src": "G-07",
+         "cls": [
+          "quote-card"
+         ]
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "“हर पल आपके साथ” · “ज़िंदगी के साथ भी, ज़िंदगी के बाद भी”<br/><strong>लक्ष्य से प्रेरित, सेवा में समर्पित।</strong>",
+          "en": "“Har Pal Aapke Saath” · “Zindagi Ke Saath Bhi, Zindagi Ke Baad Bhi”<br/><strong>लक्ष्य से प्रेरित, सेवा में समर्पित।</strong> <em>Leading with Purpose, Serving with Passion.</em>"
+         },
+         "src": "G-05"
+        }
+       ]
+      }
+     ],
+     "cls": [
+      "grid"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "*शर्तें लागू",
+      "en": "*Conditions apply"
+     },
+     "src": "G-08",
+     "cls": [
+      "conditions"
+     ]
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "इस साइट पर दिए गए कमाई, कमीशन और फ़ायदों के सभी आँकड़े LIC और फ़ील्ड ट्रेनिंग सामग्री से लिए गए उदाहरण हैं। प्लान, पॉलिसी अवधि और उस समय लागू LIC / IRDAI नियमों के हिसाब से ये अलग हो सकते हैं। आपकी कमाई पूरी तरह आपकी अपनी मेहनत और आपके द्वारा लाए गए बिज़नेस पर निर्भर करती है — इसमें कोई तय या पक्की आय नहीं है। क्लब के फ़ायदे, एडवांस और बीमा कवर पात्रता और LIC के नियमों व शर्तों पर निर्भर हैं। एजेंसी की नियुक्ति का फ़ैसला भारतीय जीवन बीमा निगम (LIC) अपने विवेक से करता है। यह साइट एजेंसी भर्ती के लिए रोहित लाल, डेवलपमेंट ऑफिसर (SBA), भारतीय जीवन बीमा निगम (LIC) द्वारा चलाई जाती है।",
+        "en": "All earnings, commission and benefit figures on this site are illustrations taken from LIC and field training material, and may differ by plan, policy term and the LIC / IRDAI rules in force. Income depends entirely on your own effort and the business you procure — there is no fixed or assured income. Club benefits, advances and insurance covers are subject to eligibility and LIC terms &amp; conditions. Agency appointment is at the discretion of LIC of India. This site is maintained by Rohit Lal, Development Officer (SBA), LIC of India, for agency recruitment."
+       }
+      }
+     ],
+     "src": "G-09",
+     "cls": [
+      "disclaimer"
+     ]
+    }
+   ],
+   "cls": [
+    "wrap"
+   ]
+  }
+ ],
+ "cls": [
+  "site-footer"
+ ]
+}

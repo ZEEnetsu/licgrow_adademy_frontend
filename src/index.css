@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Kalam:wght@400;700&family=Mukta:wght@400;500;600;700;800&family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap');
 @import "tailwindcss";
 
 /*
@@ -8,6 +8,14 @@
 @import "./styles/theme.css";
 
 @custom-variant dark (&:where(.dark, .dark *));
+
+/*
+ * Height-aware layout for screens that must fit one viewport (the sign-in
+ * pages): `short:` applies on desktop-width screens up to 840px tall
+ * (most laptops), `tiny:` up to 720px tall.
+ */
+@custom-variant short (@media (min-width: 1024px) and (max-height: 840px));
+@custom-variant tiny (@media (min-width: 1024px) and (max-height: 720px));
 
 /*
  * Token → utility mapping. `inline` matters: without it Tailwind emits
@@ -58,55 +66,80 @@
 
 /*
  * ─────────────────────────────────────────────────────────────────────────────
- *  LANDING PALETTE — white + navy blue.
+ *  MARKETING PALETTE — warm cream + ink, with an ember accent.
  * ─────────────────────────────────────────────────────────────────────────────
  *
- * The marketing pages (landing, public nav, footer) run on their own scale
- * rather than the app tokens in styles/theme.css: they are always light, never
- * follow the dark-mode toggle, and need a deeper ink than a dashboard does.
+ * The public pages (landing, the ported site, nav, footer) run on their own
+ * scale rather than the app tokens in styles/theme.css: they are always light
+ * and never follow the dark-mode toggle.
  *
- * Four blues, each with one job — swapping one recolours every section:
- *   lic-navy      the brand. Buttons, links, eyebrows, section accents.
- *                 12.5:1 on white, so it is safe as text at any size.
- *   lic-royal     the mid step. Anything that carries WHITE text on top of it
- *                 — gradient badges, gradient rules (6.1:1 on white).
- *   lic-azure     the light step. Decorative glows and rules, and ink on the
- *                 near-black lic-charcoal (7.8:1). Never white text on it.
- *   lic-frost     the lightest step. Ink on the mid-navy meshes, where azure
- *                 only reaches 3.5:1 and frost reaches 5.1:1.
- *   lic-ice       the tint. Chips, hovers, section washes.
+ * Six brand colours, each with one job:
+ *   ink         #150D3D  headings, the dark bands, primary nav button
+ *   plum        #3D3660  body prose (≈10:1 on cream)
+ *   ember       #FA4F0C  the accent — CTAs, swooshes, progress. Large type or
+ *                        fills only; ember-deep carries orange *text* at AA.
+ *   peach       #F2BE9A  warm tint for cards and glows
+ *   sage        #64A893  positive marks, ticks; sage-deep for text on mint
+ *   mint        #AED5D1  eyebrow chips, cool tint for cards
+ * And two grounds: cream (page) and sand (alternate bands), from the
+ * reference screenshot.
  *
- * And two neutrals: lic-charcoal is the navy-black used for headings and the
- * footer (17.1:1 on white); lic-body is the muted navy-grey for prose (6.9:1
- * on white, 6.0:1 on the darkest tint). Every pairing above AA.
+ * The older lic-* names are kept and re-pointed at this palette, so every
+ * ported-content component (ContentNode, SiteFooter, AcademyNav) recolours
+ * from here without touching its classes.
  */
 @theme {
-  --color-lic-navy: #14306E;
-  --color-lic-royal: #2C5CC5;
-  --color-lic-azure: #7FB0FF;
-  --color-lic-frost: #BBD4FF;
-  --color-lic-ice: #E8EFFC;
-  --color-lic-offwhite: #F5F8FE;
-  --color-lic-charcoal: #0A1A3C;
-  --color-lic-body: #465A7E;
+  --color-ink: #150D3D;
+  --color-ink-soft: #231A52;
+  --color-plum: #3D3660;
+  --color-ember: #FA4F0C;
+  --color-ember-deep: #C93E06;
+  --color-peach: #F2BE9A;
+  --color-peach-soft: #FBE7D8;
+  --color-sage: #64A893;
+  --color-sage-deep: #2F6B58;
+  --color-mint: #AED5D1;
+  --color-mint-soft: #E1F0EE;
+  --color-cream: #FBF8F3;
+  --color-sand: #F3EDE3;
+
+  --color-lic-navy: #150D3D;
+  --color-lic-royal: #3D3660;
+  --color-lic-azure: #F2BE9A;
+  --color-lic-frost: #AED5D1;
+  --color-lic-ice: #F3EDE3;
+  --color-lic-offwhite: #FBF8F3;
+  --color-lic-charcoal: #150D3D;
+  --color-lic-body: #3D3660;
+
+  /* Latin first; Devanagari glyphs fall through to Mukta / Kalam per character. */
+  --font-display: "Plus Jakarta Sans", "Mukta", system-ui, sans-serif;
+  --font-sans: "DM Sans", "Mukta", system-ui, sans-serif;
+  --font-hand: "Caveat", "Kalam", cursive;
 
   --radius-card: 16px;
   --radius-card-lg: 24px;
+  --radius-panel: 28px;
 
-  --shadow-soft: 0 4px 24px -4px rgba(10, 26, 60, 0.10);
-  --shadow-card: 0 8px 32px -8px rgba(10, 26, 60, 0.14), 0 2px 8px -2px rgba(20, 48, 110, 0.10);
-  --shadow-navy-glow: 0 20px 50px -12px rgba(20, 48, 110, 0.42), 0 8px 20px -8px rgba(44, 92, 197, 0.28);
-  --shadow-lift: 0 24px 48px -12px rgba(10, 26, 60, 0.18), 0 0 0 1px rgba(44, 92, 197, 0.14);
+  --shadow-soft: 0 4px 24px -6px rgba(21, 13, 61, 0.10);
+  --shadow-card: 0 1px 2px rgba(21, 13, 61, 0.04), 0 12px 32px -12px rgba(21, 13, 61, 0.16);
+  --shadow-navy-glow: 0 18px 44px -14px rgba(21, 13, 61, 0.45);
+  --shadow-lift: 0 28px 60px -20px rgba(21, 13, 61, 0.28), 0 0 0 1px rgba(21, 13, 61, 0.06);
+  --shadow-ember: 0 1px 0 rgba(255, 255, 255, 0.35) inset, 0 12px 28px -10px rgba(250, 79, 12, 0.65);
+  --shadow-device: 0 50px 100px -30px rgba(21, 13, 61, 0.45), 0 30px 60px -30px rgba(21, 13, 61, 0.35);
 
   --ease-material: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
 
-  --animate-float: floaty 4s ease-in-out infinite;
+  --animate-float: floaty 6s ease-in-out infinite;
   --animate-pulse-soft: pulsenavy 2.5s ease-in-out infinite;
   --animate-drift: drifty 18s ease-in-out infinite;
+  --animate-marquee: marquee 38s linear infinite;
+  --animate-marquee-rev: marquee 44s linear infinite reverse;
 
   @keyframes floaty {
     0%, 100% { transform: translateY(0px); }
-    50% { transform: translateY(-12px); }
+    50% { transform: translateY(-10px); }
   }
 
   @keyframes drifty {
@@ -116,8 +149,13 @@
   }
 
   @keyframes pulsenavy {
-    0%, 100% { box-shadow: 0 0 0 0 rgba(20, 48, 110, 0.38); }
-    50% { box-shadow: 0 0 0 12px rgba(20, 48, 110, 0); }
+    0%, 100% { box-shadow: 0 0 0 0 rgba(250, 79, 12, 0.38); }
+    50% { box-shadow: 0 0 0 12px rgba(250, 79, 12, 0); }
+  }
+
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
   }
 }
 
@@ -154,7 +192,7 @@ body,
 body {
   /* background-color: #ffffff;
   color: #4a4a68; */
-  font-family: "DM Sans", "Google Sans", system-ui, sans-serif;
+  font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -172,135 +210,136 @@ body {
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
-/* Hero wash — three navy pools on white, none dense enough to touch text contrast. */
+/* Hero wash — peach and mint pools on cream, none dense enough to touch text contrast. */
 .mesh-navy {
   background-image:
-    radial-gradient(ellipse 80% 60% at 10% 20%, rgba(20, 48, 110, 0.13), transparent 55%),
-    radial-gradient(ellipse 70% 50% at 90% 80%, rgba(44, 92, 197, 0.12), transparent 50%),
-    radial-gradient(ellipse 50% 40% at 50% 100%, rgba(20, 48, 110, 0.07), transparent 45%);
+    radial-gradient(ellipse 80% 60% at 10% 20%, rgba(242, 190, 154, 0.28), transparent 55%),
+    radial-gradient(ellipse 70% 50% at 90% 80%, rgba(174, 213, 209, 0.30), transparent 50%),
+    radial-gradient(ellipse 50% 40% at 50% 100%, rgba(61, 54, 96, 0.06), transparent 45%);
 }
 
 /*
- * Final CTA — a deep navy mesh rather than a two-stop gradient. The lightest
- * point lands near lic-royal, so the white headline and the 90%-white body
- * copy stay above AA across the whole panel.
+ * Dark band — ink with a plum lift and an ember ember-glow low on one side.
+ * The lightest point stays near plum, so cream text holds AA everywhere.
  */
 .mesh-navy-deep {
-  background-color: #14306E;
+  background-color: #150D3D;
   background-image:
-    radial-gradient(ellipse 85% 65% at 12% 18%, rgba(44, 92, 197, 0.55), transparent 58%),
-    radial-gradient(ellipse 70% 55% at 88% 82%, rgba(127, 176, 255, 0.14), transparent 52%),
-    radial-gradient(ellipse 60% 50% at 50% 105%, rgba(10, 26, 60, 0.75), transparent 55%);
+    radial-gradient(ellipse 85% 65% at 12% 18%, rgba(61, 54, 96, 0.75), transparent 58%),
+    radial-gradient(ellipse 60% 50% at 92% 100%, rgba(250, 79, 12, 0.22), transparent 55%),
+    radial-gradient(ellipse 60% 50% at 50% -10%, rgba(174, 213, 209, 0.08), transparent 55%);
 }
 
-/* CourseDropdown.css */
-
-/* ── Wrapper ── */
-.course-dropdown {
-  max-width: 100rem;
-  margin-top: 25px;
+/*
+ * Display type. Tight leading suits Latin headlines but clips Devanagari
+ * matras and shirorekha, so Hindi gets its own looser line-height.
+ */
+.h-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.035em;
+  line-height: 1.02;
+  text-wrap: balance;
+}
+:lang(hi) .h-display,
+.h-display:lang(hi) {
+  letter-spacing: -0.01em;
+  line-height: 1.28;
 }
 
-.modules-list {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+/*
+ * Small-caps label (eyebrows, kickers). Letter-spacing breaks the joined
+ * headline stroke of Devanagari, so Hindi drops it.
+ */
+.caps {
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+}
+:lang(hi) .caps,
+.caps:lang(hi) {
+  letter-spacing: 0;
 }
 
-/* ── Accordion ── */
-.module-accordion {
-  margin-bottom: 0.5rem;
+/* Edge fade for marquees and horizontal tracks. */
+.mask-fade-x {
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
 }
 
-/* ── Header ── */
-.module-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0.75rem 1rem;
-  border-radius: 0.375rem;
-  cursor: pointer;
-  transition: background-color 0.2s ease;
-}
-
-.module-title {
-  display: flex;
-  gap: 0.75rem;
+/*
+ * Inline links inside generated content (RichText emits bare <a>/<Link>
+ * without classes). Buttons and cards carry their own classes and are left alone.
+ */
+.content-flow a:not([class]) {
   font-weight: 600;
+  color: var(--color-ember-deep);
+  text-decoration-line: underline;
+  text-decoration-color: var(--color-peach);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+  transition: text-decoration-color 0.2s;
+}
+.content-flow a:not([class]):hover {
+  text-decoration-color: var(--color-ember);
+}
+.tone-dark a:not([class]) {
+  color: var(--color-peach);
+  text-decoration-color: rgba(242, 190, 154, 0.45);
+}
+.content-flow strong {
+  font-weight: 700;
 }
 
-/* ── Arrow ── */
-.arrow-icon {
-  transition: transform 0.3s ease-in-out;
+/* Native <details> that open with an eased height where the browser can (Chrome 131+). */
+@supports (interpolate-size: allow-keywords) {
+  .ease-details {
+    interpolate-size: allow-keywords;
+  }
+  .ease-details::details-content {
+    height: 0;
+    overflow: clip;
+    transition: height 0.45s cubic-bezier(0.16, 1, 0.3, 1), content-visibility 0.45s allow-discrete;
+  }
+  .ease-details[open]::details-content {
+    height: auto;
+  }
+}
+.ease-details > summary::-webkit-details-marker {
+  display: none;
 }
 
-.arrow-icon.rotated {
-  transform: rotate(180deg);
+/*
+ * Charts on the public pages use the marketing palette, not the app's blues.
+ * RefChart reads these through useThemeTokens; data-surface is set before
+ * first paint (index.html) and kept in sync by RootLayout.
+ */
+html[data-surface="light"] {
+  --chart-1: #fa4f0c;
+  --chart-2: #150d3d;
+  --chart-3: #64a893;
+  --chart-4: #f2be9a;
+  --chart-5: #3d3660;
+  --chart-6: #aed5d1;
+  --chart-grid: rgba(21, 13, 61, 0.08);
+  --chart-tick: #3d3660;
 }
 
-/* ── Collapsible (grid trick) ── */
-.chapters-wrapper {
-  display: grid;
-  grid-template-rows: 0fr;
-  transition: grid-template-rows 0.3s ease;
-  /* zinc-800 */
-  border-radius: 0 0 0.375rem 0.375rem;
+/* Fine dotted ground used behind the hero device panel. */
+.dot-grid {
+  background-image: radial-gradient(rgba(21, 13, 61, 0.12) 1px, transparent 1px);
+  background-size: 18px 18px;
 }
 
-.chapters-wrapper.open {
-  grid-template-rows: 1fr;
-}
-
-.chapters-inner {
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  padding: 0 1rem;
-  /* horizontal always present */
-  /* vertical padding animates with a small delay so it doesn't clip */
-  max-height: 0;
-  transition: max-height 0.3s ease, padding 0.3s ease;
-}
-
-.chapters-wrapper.open .chapters-inner {
-  max-height: 1000px;
-  padding: 1rem;
-}
-
-/* ── Chapter Row ── */
-.chapter-row {
-  display: flex;
-  gap: 1rem;
-  padding: 0.25rem 0;
-  font-size: 0.875rem;
-  /* zinc-700 */
-}
-
-.chapter-row:last-child {
-  border-bottom: none;
-}
-
-.chapter-title {
-  font-weight: 500;
-}
-
-/* ── No data ── */
-.no-data {
-  text-align: center;
-  padding: 1.25rem;
-}
 /*
  * ─────────────────────────────────────────────────────────────────────────────
  *  SCROLLBARS
  * ─────────────────────────────────────────────────────────────────────────────
  *
- * The app paints three different surfaces, and the scrollbar has to match the
+ * The app paints two different surfaces, and the scrollbar has to match the
  * one actually on screen rather than the stored preference:
  *
- *   light   the marketing pages (/, /benefits) — always white, whatever the
- *           theme toggle says
- *   dark    the auth pages (/login, /register) — always near-black
+ *   light   the public pages and /login, /register (LIGHT_PATHS in
+ *           pages/site/sections.js) — always cream, whatever the theme
+ *           toggle says
  *   app     /admin and /student — these follow the theme, so they read the
  *           same tokens as everything else and flip with `.dark` for free
  *
@@ -319,13 +358,6 @@ html[data-surface='light'] {
   --sb-track: rgba(20, 48, 110, 0.05);
   --sb-thumb: rgba(20, 48, 110, 0.28);
   --sb-thumb-hover: rgba(20, 48, 110, 0.52);
-}
-
-html[data-surface='dark'] {
-  color-scheme: dark;
-  --sb-track: rgba(255, 255, 255, 0.04);
-  --sb-thumb: rgba(255, 255, 255, 0.18);
-  --sb-thumb-hover: rgba(255, 255, 255, 0.32);
 }
 
 /* Follows the theme: these three tokens are already redefined under `.dark`. */

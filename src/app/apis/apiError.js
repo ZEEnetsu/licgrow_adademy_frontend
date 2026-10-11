@@ -195,11 +195,6 @@ export function getUserMessage(error, fallback = GENERIC_MESSAGE) {
   return USER_MESSAGES[normalized.code] ?? normalized.message ?? fallback;
 }
 
-/** Convenience predicate used by the base query and the auth slice. */
-export function isCode(error, code) {
-  return normalizeApiError(error).code === code;
-}
-
 /**
  * Response handler for endpoints that return `204 No Content` on success.
  *

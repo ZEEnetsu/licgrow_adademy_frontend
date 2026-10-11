@@ -1,0 +1,1448 @@
+{
+ "order": [
+  "ch01",
+  "ch02",
+  "ch03",
+  "ch04",
+  "ch05",
+  "ch06",
+  "ch07",
+  "ch08",
+  "ch09a",
+  "ch09b",
+  "ch10",
+  "ch12",
+  "ch14",
+  "ch16",
+  "ch13",
+  "ch15",
+  "ch17",
+  "ch18",
+  "ch19",
+  "ch20",
+  "ch21",
+  "ch22",
+  "ch24",
+  "ch23",
+  "ch25",
+  "ch26",
+  "ch27"
+ ],
+ "charts": {
+  "ch01": {
+   "id": "ch01",
+   "type": "bar",
+   "labels": {
+    "hi": [
+     "आपात स्थिति",
+     "बच्चों की पढ़ाई",
+     "बुढ़ापा",
+     "शादी, जन्म और समारोह"
+    ],
+    "en": [
+     "Emergencies",
+     "Children's education",
+     "Old age",
+     "Marriages, births & ceremonies"
+    ]
+   },
+   "datasets": [
+    {
+     "label": {
+      "hi": "% लोग",
+      "en": "% of people"
+     },
+     "data": [
+      83,
+      81,
+      69,
+      63
+     ]
+    }
+   ],
+   "opts": {
+    "indexAxis": "y",
+    "plugins": {
+     "legend": {
+      "display": false
+     }
+    },
+    "scales": {
+     "x": {
+      "min": 0,
+      "max": 100
+     }
+    }
+   }
+  },
+  "ch02": {
+   "id": "ch02",
+   "type": "bar",
+   "labels": {
+    "hi": [
+     "2020-21",
+     "2030-31",
+     "2046-47"
+    ],
+    "en": [
+     "2020-21",
+     "2030-31",
+     "2046-47"
+    ]
+   },
+   "datasets": [
+    {
+     "label": {
+      "hi": "मध्यम वर्ग (₹5–30 लाख), करोड़ लोग",
+      "en": "Middle class (₹5–30 lakh), crore people"
+     },
+     "data": [
+      43,
+      71,
+      100
+     ]
+    },
+    {
+     "label": {
+      "hi": "अमीर वर्ग (₹30 लाख से ज़्यादा), करोड़ लोग",
+      "en": "Rich class (above ₹30 lakh), crore people"
+     },
+     "data": [
+      6,
+      17,
+      44
+     ]
+    }
+   ],
+   "opts": {}
+  },
+  "ch03": {
+   "id": "ch03",
+   "type": "bar",
+   "labels": {
+    "hi": [
+     "LIC",
+     "SBI Life",
+     "HDFC Life",
+     "ICICI Prudential Life",
+     "Axis Max Life",
+     "Tata AIA Life",
+     "Bajaj Allianz Life",
+     "Birla Sun Life",
+     "Kotak Life",
+     "अन्य — 39 कंपनियाँ"
+    ],
+    "en": [
+     "LIC",
+     "SBI Life",
+     "HDFC Life",
+     "ICICI Prudential Life",
+     "Axis Max Life",
+     "Tata AIA Life",
+     "Bajaj Allianz Life",
+     "Birla Sun Life",
+     "Kotak Life",
+     "Other — 39 companies"
+    ]
+   },
+   "datasets": [
+    {
+     "label": {
+      "hi": "प्रीमियम, ₹ हज़ार करोड़ (लगभग)",
+      "en": "Premium, ₹ thousand crore (approx.)"
+     },
+     "data": [
+      488,
+      85,
+      71,
+      49,
+      37,
+      31,
+      27,
+      21,
+      18,
+      150
+     ]
+    }
+   ],
+   "opts": {
+    "indexAxis": "y",
+    "plugins": {
+     "legend": {
+      "display": false
+     }
+    }
+   }
+  },
+  "ch04": {
+   "id": "ch04",
+   "type": "bar",
+   "labels": {
+    "hi": [
+     "एजेंसी फ़ोर्स में हिस्सा",
+     "कुल बिज़नेस में हिस्सा"
+    ],
+    "en": [
+     "Share of the agency force",
+     "Share of total business"
+    ]
+   },
+   "datasets": [
+    {
+     "label": {
+      "hi": "पेशेवर एजेंट, %",
+      "en": "Professional agents, %"
+     },
+     "data": [
+      10,
+      70
+     ]
+    }
+   ],
+   "opts": {
+    "plugins": {
+     "legend": {
+      "display": false
+     }
+    },
+    "scales": {
+     "y": {
+      "min": 0,
+      "max": 100
+     }
+    }
+   }
+  },
+  "ch05": {
+   "id": "ch05",
+   "type": "line",
+   "labels": {
+    "hi": [
+     "1995-96",
+     "2001-02",
+     "2009-10",
+     "2019-20",
+     "2029-30 (अनुमान)"
+    ],
+    "en": [
+     "1995-96",
+     "2001-02",
+     "2009-10",
+     "2019-20",
+     "2029-30 (projected)"
+    ]
+   },
+   "datasets": [
+    {
+     "label": {
+      "hi": "मध्यम वर्ग के परिवार, करोड़",
+      "en": "Middle-class families, crore"
+     },
+     "data": [
+      0.46,
+      1.07,
+      2.9,
+      6.5,
+      33
+     ]
+    }
+   ],
+   "opts": {
+    "plugins": {
+     "legend": {
+      "display": false
+     }
+    }
+   }
+  },
+  "ch06": {
+   "id": "ch06",
+   "type": "pie",
+   "labels": {
+    "hi": [
+     "बीमित",
+     "बिना बीमा"
+    ],
+    "en": [
+     "Insured",
+     "Not insured"
+    ]
+   },
+   "datasets": [
+    {
+     "label": {
+      "hi": "% (पुरानी सामग्री)",
+      "en": "% (earlier material)"
+     },
+     "data": [
+      24,
+      76
+     ]
+    }
+   ],
+   "opts": {}
+  },
+  "ch07": {
+   "id": "ch07",
+   "type": "bar",
+   "labels": {
+    "hi": [
+     "ताइवान",
+     "दक्षिण अफ़्रीका",
+     "हांगकांग",
+     "जापान",
+     "यूनाइटेड किंगडम",
+     "फ़िनलैंड",
+     "दक्षिण कोरिया",
+     "डेनमार्क",
+     "स्विट्ज़रलैंड",
+     "सिंगापुर",
+     "भारत"
+    ],
+    "en": [
+     "Taiwan",
+     "South Africa",
+     "Hong Kong",
+     "Japan",
+     "United Kingdom",
+     "Finland",
+     "South Korea",
+     "Denmark",
+     "Switzerland",
+     "Singapore",
+     "India"
+    ]
+   },
+   "datasets": [
+    {
+     "label": {
+      "hi": "GDP के % के रूप में प्रीमियम, 2013-14",
+      "en": "Premium as % of GDP, 2013-14"
+     },
+     "data": [
+      14.5,
+      12.7,
+      11.7,
+      8.8,
+      8.8,
+      8.7,
+      7.5,
+      6.9,
+      5.3,
+      4.4,
+      3.1
+     ]
+    }
+   ],
+   "opts": {
+    "indexAxis": "y",
+    "plugins": {
+     "legend": {
+      "display": false
+     }
+    }
+   }
+  },
+  "ch08": {
+   "id": "ch08",
+   "type": "bar",
+   "labels": {
+    "hi": [
+     "हांगकांग",
+     "स्विट्ज़रलैंड",
+     "यूनाइटेड किंगडम",
+     "जापान",
+     "स्वीडन",
+     "ताइवान",
+     "सिंगापुर",
+     "दक्षिण कोरिया",
+     "अमेरिका",
+     "चीन",
+     "भारत",
+     "विश्व औसत"
+    ],
+    "en": [
+     "Hong Kong",
+     "Switzerland",
+     "United Kingdom",
+     "Japan",
+     "Sweden",
+     "Taiwan",
+     "Singapore",
+     "South Korea",
+     "USA",
+     "China",
+     "India",
+     "World average"
+    ]
+   },
+   "datasets": [
+    {
+     "label": {
+      "hi": "प्रति व्यक्ति प्रीमियम (USD), 2013-14",
+      "en": "USD premium per person, 2013-14"
+     },
+     "data": [
+      4445,
+      4211,
+      3474,
+      3346,
+      3215,
+      3204,
+      2388,
+      1816,
+      1684,
+      110,
+      41,
+      366
+     ]
+    }
+   ],
+   "opts": {
+    "indexAxis": "y",
+    "plugins": {
+     "legend": {
+      "display": false
+     }
+    },
+    "scales": {
+     "x": {
+      "type": "logarithmic"
+     }
+    }
+   }
+  },
+  "ch09a": {
+   "id": "ch09a",
+   "type": "doughnut",
+   "labels": {
+    "hi": [
+     "LIC",
+     "23 निजी कंपनियाँ"
+    ],
+    "en": [
+     "LIC",
+     "23 private companies"
+    ]
+   },
+   "datasets": [
+    {
+     "label": {
+      "hi": "पहले साल का प्रीमियम, ₹ करोड़ (31/03/2014)",
+      "en": "First-year premium, ₹ crore (31/03/2014)"
+     },
+     "data": [
+      90124,
+      29517
+     ]
+    }
+   ],
+   "opts": {
+    "plugins": {
+     "title": {
+      "display": true,
+      "text": {
+       "hi": "पहले साल का प्रीमियम",
+       "en": "First-year premium"
+      }
+     }
+    }
+   }
+  },
+  "ch09b": {
+   "id": "ch09b",
+   "type": "doughnut",
+   "labels": {
+    "hi": [
+     "LIC",
+     "23 निजी कंपनियाँ"
+    ],
+    "en": [
+     "LIC",
+     "23 private companies"
+    ]
+   },
+   "datasets": [
+    {
+     "label": {
+      "hi": "पॉलिसियों की संख्या (31/03/2014)",
+      "en": "Number of policies (31/03/2014)"
+     },
+     "data": [
+      34511781,
+      6361536
+     ]
+    }
+   ],
+   "opts": {
+    "plugins": {
+     "title": {
+      "display": true,
+      "text": {
+       "hi": "पॉलिसियों की संख्या",
+       "en": "Number of policies"
+      }
+     }
+    }
+   }
+  },
+  "ch10": {
+   "id": "ch10",
+   "type": "bar",
+   "labels": {
+    "hi": [
+     "केंद्र सरकार की प्रतिभूतियाँ",
+     "राज्य सरकार की प्रतिभूतियाँ",
+     "बिजली",
+     "आवास",
+     "जल आपूर्ति",
+     "राज्य की सड़कें",
+     "औद्योगिक क्षेत्र (ऋण)",
+     "चीनी सहकारी मिलें (ऋण)",
+     "विकास प्राधिकरण",
+     "बंदरगाह, रेलवे, सड़क मार्ग",
+     "बिजली उत्पादन",
+     "नगरपालिकाएँ"
+    ],
+    "en": [
+     "Central Govt securities",
+     "State Govt securities",
+     "Electricity",
+     "Housing",
+     "Water supply",
+     "State roads",
+     "Industrial estates (loans)",
+     "Sugar co-operatives (loans)",
+     "Development authorities",
+     "Port, railway, roadway",
+     "Power generation",
+     "Municipalities"
+    ]
+   },
+   "datasets": [
+    {
+     "label": {
+      "hi": "₹ करोड़ (जैसा छपा)",
+      "en": "₹ crore (as printed)"
+     },
+     "data": [
+      318673,
+      110697,
+      44358,
+      34185,
+      6022,
+      2700,
+      450,
+      370,
+      113,
+      6022,
+      9797,
+      70
+     ]
+    }
+   ],
+   "opts": {
+    "indexAxis": "y",
+    "plugins": {
+     "legend": {
+      "display": false
+     }
+    },
+    "scales": {
+     "x": {
+      "type": "logarithmic"
+     }
+    }
+   }
+  },
+  "ch12": {
+   "id": "ch12",
+   "type": "bar",
+   "labels": {
+    "hi": [
+     "15 वर्ष की पॉलिसी",
+     "20 वर्ष की पॉलिसी",
+     "25 वर्ष की पॉलिसी"
+    ],
+    "en": [
+     "15-year policy",
+     "20-year policy",
+     "25-year policy"
+    ]
+   },
+   "datasets": [
+    {
+     "label": {
+      "hi": "कुल कमीशन, एक साल के प्रीमियम का %",
+      "en": "Total commission, % of one year's premium"
+     },
+     "data": [
+      110,
+      135,
+      160
+     ]
+    }
+   ],
+   "opts": {
+    "plugins": {
+     "legend": {
+      "display": false
+     }
+    },
+    "scales": {
+     "y": {
+      "min": 0
+     }
+    }
+   }
+  },
+  "ch14": {
+   "id": "ch14",
+   "type": "bar",
+   "labels": {
+    "hi": [
+     "₹3 लाख",
+     "₹5 लाख",
+     "₹10 लाख",
+     "₹12 लाख",
+     "₹25 लाख"
+    ],
+    "en": [
+     "₹3 lakh",
+     "₹5 lakh",
+     "₹10 lakh",
+     "₹12 lakh",
+     "₹25 lakh"
+    ]
+   },
+   "datasets": [
+    {
+     "label": {
+      "hi": "5 वर्ष बाद",
+      "en": "After 5 years"
+     },
+     "data": [
+      75000,
+      125000,
+      250000,
+      300000,
+      625000
+     ]
+    },
+    {
+     "label": {
+      "hi": "10 वर्ष बाद",
+      "en": "After 10 years"
+     },
+     "data": [
+      150000,
+      250000,
+      500000,
+      600000,
+      1250000
+     ]
+    },
+    {
+     "label": {
+      "hi": "15 वर्ष बाद",
+      "en": "After 15 years"
+     },
+     "data": [
+      225000,
+      375000,
+      750000,
+      900000,
+      1875000
+     ]
+    },
+    {
+     "label": {
+      "hi": "20 वर्ष बाद",
+      "en": "After 20 years"
+     },
+     "data": [
+      300000,
+      500000,
+      1000000,
+      1200000,
+      2500000
+     ]
+    }
+   ],
+   "opts": {
+    "scales": {
+     "x": {
+      "title": {
+       "display": true,
+       "text": {
+        "hi": "हर साल लाया गया प्रीमियम",
+        "en": "Premium brought per year"
+       }
+      }
+     }
+    }
+   }
+  },
+  "ch16": {
+   "id": "ch16",
+   "type": "bar",
+   "labels": {
+    "hi": [
+     "3 वर्ष पूरे",
+     "3–5 वर्ष",
+     "5–10 वर्ष",
+     "10 वर्ष से ज़्यादा"
+    ],
+    "en": [
+     "Completed 3 years",
+     "3–5 years",
+     "5–10 years",
+     "Above 10 years"
+    ]
+   },
+   "datasets": [
+    {
+     "label": {
+      "hi": "दुर्घटना से मृत्यु — देय राशि",
+      "en": "Accidental death — payable"
+     },
+     "data": [
+      1050000,
+      1200000,
+      1550000,
+      2050000
+     ]
+    },
+    {
+     "label": {
+      "hi": "सामान्य मृत्यु — देय राशि",
+      "en": "Normal death — payable"
+     },
+     "data": [
+      850000,
+      1050000,
+      1350000,
+      1850000
+     ]
+    }
+   ],
+   "opts": {}
+  },
+  "ch13": {
+   "id": "ch13",
+   "type": "bar",
+   "labels": {
+    "hi": [
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20"
+    ],
+    "en": [
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20"
+    ]
+   },
+   "datasets": [
+    {
+     "label": {
+      "hi": "कमीशन, ₹",
+      "en": "Commission, ₹"
+     },
+     "data": [
+      8400,
+      1800,
+      1800,
+      1200,
+      1200,
+      1200,
+      1200,
+      1200,
+      1200,
+      1200,
+      1200,
+      1200,
+      1200,
+      1200,
+      1200,
+      1200,
+      1200,
+      1200,
+      1200,
+      1200
+     ]
+    }
+   ],
+   "opts": {
+    "plugins": {
+     "legend": {
+      "display": false
+     }
+    },
+    "scales": {
+     "x": {
+      "title": {
+       "display": true,
+       "text": {
+        "hi": "पॉलिसी वर्ष",
+        "en": "Policy year"
+       }
+      }
+     }
+    }
+   }
+  },
+  "ch15": {
+   "id": "ch15",
+   "type": "line",
+   "labels": {
+    "hi": [
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10"
+    ],
+    "en": [
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10"
+    ]
+   },
+   "datasets": [
+    {
+     "label": {
+      "hi": "प्रीमियम हर साल ₹5 लाख बढ़ते हुए",
+      "en": "Premium growing by ₹5 lakh a year"
+     },
+     "data": [
+      175000,
+      387500,
+      637500,
+      912500,
+      1212500,
+      1537500,
+      1887500,
+      2262500,
+      2662500,
+      3087500
+     ]
+    },
+    {
+     "label": {
+      "hi": "हर साल एक-सा ₹10 लाख",
+      "en": "Flat ₹10 lakh a year"
+     },
+     "data": [
+      350000,
+      425000,
+      500000,
+      550000,
+      600000,
+      650000,
+      700000,
+      750000,
+      800000,
+      850000
+     ]
+    }
+   ],
+   "opts": {
+    "scales": {
+     "x": {
+      "title": {
+       "display": true,
+       "text": {
+        "hi": "वर्ष",
+        "en": "Year"
+       }
+      }
+     }
+    }
+   }
+  },
+  "ch17": {
+   "id": "ch17",
+   "type": "bar",
+   "labels": {
+    "hi": [
+     "वर्ष 1",
+     "वर्ष 2",
+     "वर्ष 3"
+    ],
+    "en": [
+     "Year 1",
+     "Year 2",
+     "Year 3"
+    ]
+   },
+   "datasets": [
+    {
+     "label": {
+      "hi": "प्रति माह स्टाइपेंड, ₹",
+      "en": "Stipend per month, ₹"
+     },
+     "data": [
+      7000,
+      6000,
+      5000
+     ]
+    }
+   ],
+   "opts": {
+    "plugins": {
+     "legend": {
+      "display": false
+     }
+    },
+    "scales": {
+     "y": {
+      "min": 0
+     }
+    }
+   }
+  },
+  "ch18": {
+   "id": "ch18",
+   "type": "bar",
+   "labels": {
+    "hi": [
+     "महीने 1–4",
+     "महीने 5–8",
+     "महीने 9–12"
+    ],
+    "en": [
+     "Months 1–4",
+     "Months 5–8",
+     "Months 9–12"
+    ]
+   },
+   "datasets": [
+    {
+     "label": {
+      "hi": "स्टाइपेंड",
+      "en": "Stipend"
+     },
+     "data": [
+      7000,
+      7000,
+      7000
+     ]
+    },
+    {
+     "label": {
+      "hi": "न्यूनतम कमीशन",
+      "en": "Minimum commission"
+     },
+     "data": [
+      2000,
+      4000,
+      6000
+     ]
+    }
+   ],
+   "opts": {
+    "scales": {
+     "x": {
+      "stacked": true
+     },
+     "y": {
+      "stacked": true,
+      "min": 0
+     }
+    }
+   }
+  },
+  "ch19": {
+   "id": "ch19",
+   "type": "pie",
+   "labels": {
+    "hi": [
+     "विरासत में मिली दौलत",
+     "ख़ुद बनाई दौलत"
+    ],
+    "en": [
+     "Heirs",
+     "Self-made"
+    ]
+   },
+   "datasets": [
+    {
+     "label": {
+      "hi": "लोग (100 में से)",
+      "en": "People (of 100)"
+     },
+     "data": [
+      27,
+      73
+     ]
+    }
+   ],
+   "opts": {}
+  },
+  "ch20": {
+   "id": "ch20",
+   "type": "bar",
+   "labels": {
+    "hi": [
+     "काम से संतोष",
+     "सफलता",
+     "आज़ादी",
+     "ख़ुशी",
+     "पैसा"
+    ],
+    "en": [
+     "Job satisfaction",
+     "Success",
+     "Freedom",
+     "Happiness",
+     "Money"
+    ]
+   },
+   "datasets": [
+    {
+     "label": {
+      "hi": "% उद्यमी",
+      "en": "% of entrepreneurs"
+     },
+     "data": [
+      86,
+      84,
+      83,
+      81,
+      71
+     ]
+    }
+   ],
+   "opts": {
+    "plugins": {
+     "legend": {
+      "display": false
+     }
+    },
+    "scales": {
+     "y": {
+      "min": 0,
+      "max": 100
+     }
+    }
+   }
+  },
+  "ch21": {
+   "id": "ch21",
+   "type": "line",
+   "labels": {
+    "hi": [
+     "वर्ष 1",
+     "वर्ष 2",
+     "वर्ष 3",
+     "वर्ष 4",
+     "वर्ष 5"
+    ],
+    "en": [
+     "Year 1",
+     "Year 2",
+     "Year 3",
+     "Year 4",
+     "Year 5"
+    ]
+   },
+   "datasets": [
+    {
+     "label": {
+      "hi": "₹1 लाख की योजना — मासिक आय",
+      "en": "₹1 lakh plan — monthly income"
+     },
+     "data": [
+      50000,
+      90000,
+      137500,
+      192500,
+      255000
+     ]
+    },
+    {
+     "label": {
+      "hi": "₹10 लाख की योजना — मासिक आय",
+      "en": "₹10 lakh plan — monthly income"
+     },
+     "data": [
+      125000,
+      287500,
+      612500,
+      1012500,
+      1487500
+     ]
+    }
+   ],
+   "opts": {
+    "scales": {
+     "y": {
+      "type": "logarithmic"
+     }
+    }
+   }
+  },
+  "ch22": {
+   "id": "ch22",
+   "type": "bar",
+   "labels": {
+    "hi": [
+     "1 घंटा",
+     "2 घंटे",
+     "3 घंटे",
+     "4 घंटे",
+     "5 घंटे"
+    ],
+    "en": [
+     "1 hour",
+     "2 hours",
+     "3 hours",
+     "4 hours",
+     "5 hours"
+    ]
+   },
+   "datasets": [
+    {
+     "label": {
+      "hi": "₹ प्रति माह",
+      "en": "₹ a month"
+     },
+     "data": [
+      15000,
+      30000,
+      50000,
+      75000,
+      100000
+     ]
+    }
+   ],
+   "opts": {
+    "plugins": {
+     "legend": {
+      "display": false
+     }
+    }
+   }
+  },
+  "ch24": {
+   "id": "ch24",
+   "type": "bar",
+   "labels": {
+    "hi": [
+     "CM",
+     "ZM",
+     "DM",
+     "BM"
+    ],
+    "en": [
+     "CM",
+     "ZM",
+     "DM",
+     "BM"
+    ]
+   },
+   "datasets": [
+    {
+     "label": {
+      "hi": "ऑफिस भत्ता",
+      "en": "Office allowance"
+     },
+     "data": [
+      35000,
+      22000,
+      12000,
+      1000
+     ]
+    },
+    {
+     "label": {
+      "hi": "टेलीफ़ोन और मोबाइल",
+      "en": "Telephone and mobile"
+     },
+     "data": [
+      6000,
+      4000,
+      2400,
+      1800
+     ]
+    },
+    {
+     "label": {
+      "hi": "प्रिंटिंग और स्टेशनरी",
+      "en": "Printing and stationery"
+     },
+     "data": [
+      2300,
+      1800,
+      1400,
+      1100
+     ]
+    }
+   ],
+   "opts": {}
+  },
+  "ch23": {
+   "id": "ch23",
+   "type": "bar",
+   "labels": {
+    "hi": [
+     "Galaxy Club",
+     "Corporate Club",
+     "Elite Club"
+    ],
+    "en": [
+     "Galaxy Club",
+     "Corporate Club",
+     "Elite Club"
+    ]
+   },
+   "datasets": [
+    {
+     "label": {
+      "hi": "फ़ायदों का मौद्रिक मूल्य, ₹",
+      "en": "Monetary value of benefits, ₹"
+     },
+     "data": [
+      430000,
+      620000,
+      1450000
+     ]
+    }
+   ],
+   "opts": {
+    "plugins": {
+     "legend": {
+      "display": false
+     }
+    }
+   }
+  },
+  "ch25": {
+   "id": "ch25",
+   "type": "bar",
+   "labels": {
+    "hi": [
+     "Elite",
+     "Corporate",
+     "Club Galaxy",
+     "Chairman",
+     "Zonal Manager",
+     "Divisional Manager",
+     "Branch Manager"
+    ],
+    "en": [
+     "Elite",
+     "Corporate",
+     "Club Galaxy",
+     "Chairman",
+     "Zonal Manager",
+     "Divisional Manager",
+     "Branch Manager"
+    ]
+   },
+   "datasets": [
+    {
+     "label": {
+      "hi": "मौजूदा कवर",
+      "en": "Existing cover"
+     },
+     "data": [
+      1000000,
+      800000,
+      600000,
+      400000,
+      200000,
+      110000,
+      55000
+     ]
+    },
+    {
+     "label": {
+      "hi": "01.09.2026 से संशोधित",
+      "en": "Revised from 01.09.2026"
+     },
+     "data": [
+      1500000,
+      1200000,
+      900000,
+      600000,
+      300000,
+      200000,
+      100000
+     ]
+    }
+   ],
+   "opts": {}
+  },
+  "ch26": {
+   "id": "ch26",
+   "type": "bar",
+   "labels": {
+    "hi": [
+     "MDRT",
+     "COT",
+     "TOT"
+    ],
+    "en": [
+     "MDRT",
+     "COT",
+     "TOT"
+    ]
+   },
+   "datasets": [
+    {
+     "label": {
+      "hi": "ज़रूरी पहले साल का कमीशन, ₹ (2026)",
+      "en": "First-year commission needed, ₹ (2026)"
+     },
+     "data": [
+      1132600,
+      3397800,
+      6795600
+     ]
+    }
+   ],
+   "opts": {
+    "plugins": {
+     "legend": {
+      "display": false
+     }
+    }
+   }
+  },
+  "ch27": {
+   "id": "ch27",
+   "type": "line",
+   "labels": {
+    "hi": [
+     "वर्ष 1",
+     "वर्ष 2",
+     "वर्ष 5",
+     "वर्ष 10",
+     "वर्ष 20",
+     "वर्ष 30"
+    ],
+    "en": [
+     "Year 1",
+     "Year 2",
+     "Year 5",
+     "Year 10",
+     "Year 20",
+     "Year 30"
+    ]
+   },
+   "datasets": [
+    {
+     "label": {
+      "hi": "सामान्य एजेंट",
+      "en": "Normal agent"
+     },
+     "data": [
+      17000,
+      21000,
+      42000,
+      100000,
+      250000,
+      600000
+     ]
+    },
+    {
+     "label": {
+      "hi": "MDRT",
+      "en": "MDRT"
+     },
+     "data": [
+      100000,
+      125000,
+      252000,
+      500000,
+      2000000,
+      7000000
+     ]
+    },
+    {
+     "label": {
+      "hi": "COT",
+      "en": "COT"
+     },
+     "data": [
+      300000,
+      385000,
+      520000,
+      1000000,
+      4000000,
+      14000000
+     ]
+    },
+    {
+     "label": {
+      "hi": "TOT",
+      "en": "TOT"
+     },
+     "data": [
+      600000,
+      850000,
+      1500000,
+      3000000,
+      15000000,
+      30000000
+     ]
+    }
+   ],
+   "opts": {
+    "scales": {
+     "y": {
+      "type": "logarithmic"
+     }
+    }
+   }
+  }
+ }
+}

@@ -16,18 +16,22 @@
          * RootLayout takes over. Without this the landing page briefly
          * renders with the app scrollbar (and a dark color-scheme, for a
          * visitor whose OS is dark) before flipping to light.
-         * Keep these two lists in sync with RootLayout.jsx.
+         * Keep this list in sync with LIGHT_PATHS in
+         * src/pages/site/sections.js.
          */
         var path = window.location.pathname;
         var surface = "app";
-        if (path === "/" || path === "/benefits") surface = "light";
-        else if (path === "/login" || path === "/register") surface = "dark";
+        var light = ["/", "/bima-sakhi", "/benefits", "/procedure", "/career", "/apply",
+          "/contact", "/why-lic", "/be-your-own-boss", "/explore-india", "/handbook",
+          "/login", "/register"];
+        if (light.indexOf(path) !== -1) surface = "light";
         document.documentElement.setAttribute("data-surface", surface);
       })();
     </script>
     <link rel="icon" type="image/svg+xml" href="/vite .svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LICPro Academy — Become a Trusted LIC Agent</title>
+    <title>Become an LIC Agent with Rohit Lal</title>
+    <meta name="theme-color" content="#FBF8F3" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <!-- DM Sans: practical web substitute for proprietary Google Sans; swap when licensed -->

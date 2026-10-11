@@ -1,0 +1,1998 @@
+{
+ "t": "section",
+ "children": [
+  {
+   "t": "header",
+   "children": [
+    {
+     "t": "p",
+     "text": {
+      "hi": "करियर",
+      "en": "Career Path"
+     },
+     "cls": [
+      "eyebrow"
+     ]
+    },
+    {
+     "t": "h2",
+     "text": {
+      "hi": "हम आम लोगों को तैयार करते हैं, ताकि वे असाधारण करियर बनाएँ — और भीड़ से अलग दिखें",
+      "en": "We groom ordinary people to build extraordinary careers — and stand out from the crowd"
+     },
+     "src": "CAR-01",
+     "id": "career-h"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "LIC एजेंट लोगों को उनके जीवन बीमा की योजना बनाने में मदद करता है, ताकि कमाने वाले सदस्य की मृत्यु, विकलांगता या रिटायरमेंट पर उनका परिवार सुरक्षित रहे। यह एक नेक पेशा है — और हर पॉलिसी देश के आर्थिक विकास में भी योगदान देती है।",
+      "en": "An LIC agent helps people plan their life insurance, so their families are protected if the breadwinner dies, becomes disabled or retires. It is a noble profession — and every policy also adds to the nation’s economic development."
+     },
+     "src": "CAR-02",
+     "cls": [
+      "lede"
+     ]
+    },
+    {
+     "t": "a",
+     "href": "#apply",
+     "text": {
+      "hi": "आवेदन करें",
+      "en": "Apply now"
+     },
+     "cls": [
+      "cta"
+     ]
+    }
+   ],
+   "cls": [
+    "page-hero"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "आगे बढ़ने के तीन रास्ते",
+      "en": "Three ways to grow"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "हर कोई किसी ट्रैक में नीचे से शुरू करता है। हर कॉलम नीचे से ऊपर पढ़िए।",
+      "en": "Everyone starts at the bottom of a track. Read each column from the bottom up."
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "एजेंट ट्रैक (क्लब सदस्यता)",
+          "en": "Agent track (club membership)"
+         }
+        },
+        {
+         "t": "ol",
+         "items": [
+          {
+           "t": "li",
+           "text": {
+            "hi": "Distinguished Agents (डिस्टिंग्विश्ड एजेंट्स)",
+            "en": "Distinguished Agents"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "Branch Managers’ (ब्रांच मैनेजर्स)",
+            "en": "Branch Managers’"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "Divisional Managers’ (डिविज़नल मैनेजर्स)",
+            "en": "Divisional Managers’"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "Zonal Managers’ (ज़ोनल मैनेजर्स)",
+            "en": "Zonal Managers’"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "Chairman’s (चेयरमैन)",
+            "en": "Chairman’s"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "Galaxy (गैलेक्सी)",
+            "en": "Galaxy"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "Corporate (कॉर्पोरेट)",
+            "en": "Corporate"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "Elite (एलीट)",
+            "en": "Elite"
+           }
+          }
+         ],
+         "cls": [
+          "ladder"
+         ]
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "कर्मचारी ट्रैक",
+          "en": "Employee track"
+         }
+        },
+        {
+         "t": "ol",
+         "items": [
+          {
+           "t": "li",
+           "text": {
+            "hi": "डेवलपमेंट ऑफिसर",
+            "en": "Development Officer"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "सीनियर बिज़नेस एसोसिएट (SBA)",
+            "en": "SBA (Senior Business Associate)"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "असिस्टेंट ब्रांच मैनेजर",
+            "en": "Assistant Branch Manager"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "ब्रांच मैनेजर",
+            "en": "Branch Manager"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "चीफ़ मैनेजर",
+            "en": "Chief Manager"
+           }
+          }
+         ],
+         "cls": [
+          "ladder"
+         ]
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "उद्यमी ट्रैक (CLIA — चीफ़ लाइफ़ इंश्योरेंस एडवाइज़र)",
+          "en": "Entrepreneur track (CLIA — Chief Life Insurance Advisor)"
+         }
+        },
+        {
+         "t": "ol",
+         "items": [
+          {
+           "t": "li",
+           "text": {
+            "hi": "Bronze",
+            "en": "Bronze"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "Silver",
+            "en": "Silver"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "Gold",
+            "en": "Gold"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "Diamond",
+            "en": "Diamond"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "Platinum",
+            "en": "Platinum"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "Super Platinum",
+            "en": "Super Platinum"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "Star Platinum",
+            "en": "Star Platinum"
+           }
+          }
+         ],
+         "cls": [
+          "ladder"
+         ]
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      }
+     ],
+     "src": "CAR-05",
+     "cls": [
+      "grid",
+      "tracks"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "स्रोत: LIC एजेंट भर्ती प्रस्तुति (LIC का आधिकारिक टेम्पलेट, 2026)।",
+      "en": "Source: LIC agent recruitment presentation (official LIC template, 2026)."
+     },
+     "cls": [
+      "src"
+     ]
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "h4",
+       "text": {
+        "hi": "युवा एजेंटों के लिए करियर के अवसर",
+        "en": "Career opportunities for young agents"
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "आप LIC में क्लास-II अधिकारी — डेवलपमेंट ऑफिसर — के रूप में जुड़ सकते हैं। एजेंटों के लिए आरक्षित कोटा है। रास्ता: एजेंट → डेवलपमेंट ऑफिसर → असिस्टेंट ब्रांच मैनेजर → ब्रांच मैनेजर → कोई सीमा नहीं।",
+        "en": "You can join LIC as a Class-II officer — a Development Officer. There is a reserved quota for agents. The path: Agent → Development Officer → Assistant Branch Manager → Branch Manager → no limit."
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "<strong>विशाल चुनौतियाँ… विशालतम अवसर</strong>",
+        "en": "<strong>Big challenges… bigger opportunities</strong>"
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "स्रोत: LIC एजेंट भर्ती प्रस्तुति (LIC का आधिकारिक टेम्पलेट, 2026)।",
+        "en": "Source: LIC agent recruitment presentation (official LIC template, 2026)."
+       },
+       "cls": [
+        "src"
+       ]
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "*शर्तें लागू",
+        "en": "*Conditions apply"
+       },
+       "src": "G-08",
+       "cls": [
+        "conditions"
+       ]
+      }
+     ],
+     "src": "CAR-06",
+     "cls": [
+      "goal-band"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "बीमा सखियों के लिए: 5 एजेंसी वर्ष पूरे करने के बाद, ग्रेजुएट या उससे ज़्यादा पढ़ी बीमा सखियाँ, पात्रता की शर्तें पूरी करने पर, अप्रेंटिस डेवलपमेंट ऑफिसर (ADO) की भर्ती प्रक्रिया में हिस्सा ले सकती हैं। <a href=\"#bima-sakhi\">बीमा सखी →</a>",
+      "en": "For Bima Sakhis: after completing 5 agency years, Bima Sakhis who are graduates or above may take part in the recruitment process for Apprentice Development Officer (ADO), if they meet the eligibility criteria. <a href=\"#bima-sakhi\">Bima Sakhi →</a>"
+     },
+     "src": "CAR-08 BS-46"
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "आपकी एजेंसी के चार चरण",
+      "en": "The four phases of your agency"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "आपकी एजेंसी चार चरणों से गुज़रेगी, और हर चरण में आपका काम बदलता है।",
+      "en": "Your agency will go through four phases, and your job changes in each one."
+     },
+     "src": "CAR-09"
+    },
+    {
+     "t": "ol",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "<strong>शिक्षा चरण</strong> — पहले 18 महीने",
+        "en": "<strong>Learning phase</strong> — the first 18 months"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "<strong>संगठन चरण</strong> — अगले 36 महीने",
+        "en": "<strong>Building phase</strong> — the next 36 months"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "<strong>नेतृत्व चरण</strong> — अगले 72 महीने",
+        "en": "<strong>Leadership phase</strong> — the next 72 months"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "<strong>समृद्धि चरण</strong> — बाकी पूरी ज़िंदगी",
+        "en": "<strong>Wealth phase</strong> — the rest of your life"
+       }
+      }
+     ],
+     "src": "CAR-09",
+     "cls": [
+      "steps"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "स्रोत: इंडस्ट्री ट्रेनिंग बुकलेट (2024), हमारे शब्दों में।",
+      "en": "Source: industry training booklet (2024), restated."
+     },
+     "cls": [
+      "src"
+     ]
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "1 · शिक्षा",
+          "en": "1 · Learning"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "रोज़ 10 लोगों से मिलिए — हफ़्ते में 50, महीने में 200, साल में 2,000। उन्हें बीमा दिखाइए और बेचिए। रजिस्ट्रेशन पूरा होते ही आपको साधन मिल जाते हैं, साथ में ट्रेनिंग भी — किसे, कैसे और कहाँ दिखाना है।",
+          "en": "Meet 10 people a day — 50 a week, 200 a month, 2,000 a year. Show them insurance and sell it. You get your tools as soon as registration is complete, with training on whom to show, how and where."
+         }
+        }
+       ],
+       "src": "CAR-10",
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "2 · संगठन",
+          "en": "2 · Building"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "रिटायरमेंट के समाधान सीखिए, उन्हें रोज़ 10 लोगों को दिखाइए, और बीमा बेचते रहिए। हम आपका मार्गदर्शन करते हैं, ताकि आप अपना बिज़नेस बढ़ाने के लिए पूरी तरह तैयार रहें।",
+          "en": "Learn retirement solutions, show them to 10 people a day, and keep selling insurance. We guide you so you are fully equipped to grow your business."
+         }
+        }
+       ],
+       "src": "CAR-11",
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "3 · नेतृत्व",
+          "en": "3 · Leadership"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "एक टीम और सहयोगी स्टाफ़ बनाइए। व्यवस्थाएँ तय कीजिए। एसेट एलोकेशन सीखते रहिए, और हर ग्राहक की इकोनॉमिक लाइफ़ वैल्यू के हिसाब से बीमा बेचिए — सही समय पर मार्गदर्शन के साथ।",
+          "en": "Build a team and support staff. Put systems in place. Keep learning asset allocation, and sell insurance according to each client’s economic life value — with guidance at the right time."
+         }
+        }
+       ],
+       "src": "CAR-12",
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "4 · समृद्धि",
+          "en": "4 · Wealth"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "अपनी व्यवस्था के लोगों का मार्गदर्शन कीजिए और प्रक्रियाओं का ध्यान रखिए। टॉप प्रदर्शन करने वालों के स्तर पर बिज़नेस सीखिए (“TOT स्कूल”)। हज़ारों परिवारों को सुरक्षा दीजिए — और सालों की मेहनत से बनी दौलत का आनंद लीजिए।",
+          "en": "Guide the people in your system and look after the processes. Learn business at the level of the top performers (the “TOT school”). Protect thousands of families — and enjoy the wealth your years of hard work have created."
+         }
+        }
+       ],
+       "src": "CAR-13",
+       "cls": [
+        "card"
+       ]
+      }
+     ],
+     "cls": [
+      "grid"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>शिक्षा का चरण सबसे ज़रूरी है। ज़्यादातर लोग यहीं लड़खड़ाते हैं, ट्रेनिंग और साधनों की कमी से — इसीलिए हम पहले दिन से आपको दोनों देते हैं।</strong>",
+      "en": "<strong>The learning phase matters most. Most people who falter do so here, for lack of training and tools — which is exactly why we give you both from day one.</strong>"
+     },
+     "src": "CAR-14"
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "आपको क्या लाना है — और आपको क्या मिलता है",
+      "en": "What you should bring — and what you get"
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "जो गुण होने चाहिए — या बनाने हैं",
+          "en": "Qualities to have — or build"
+         }
+        },
+        {
+         "t": "ul",
+         "items": [
+          {
+           "t": "li",
+           "text": {
+            "hi": "मिलनसार, और लोगों से मिलना पसंद",
+            "en": "Outgoing, and you love meeting people"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "अपना बिज़नेस शुरू करने की महत्वाकांक्षा",
+            "en": "Ambition to start your own business"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "बातचीत का अच्छा हुनर",
+            "en": "Good communication skills"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "भरपूर धैर्य और लगन",
+            "en": "Lots of perseverance"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "लगन के साथ कड़ी मेहनत को तैयार",
+            "en": "Willing to work hard, with dedication"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "“ना” को आगे बढ़ने की सीढ़ी मानने को तैयार",
+            "en": "Ready to treat rejections as stepping stones"
+           }
+          }
+         ],
+         "cls": [
+          "checklist"
+         ]
+        }
+       ],
+       "src": "CAR-04",
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "यह करियर आपको क्या देता है",
+          "en": "What the career gives you"
+         }
+        },
+        {
+         "t": "ul",
+         "items": [
+          {
+           "t": "li",
+           "text": {
+            "hi": "रॉयल्टी आय",
+            "en": "Royalty income"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "कम पूँजी में अपना बिज़नेस",
+            "en": "Your own business, with little capital"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "अपने घंटे ख़ुद तय करने की आज़ादी",
+            "en": "Freedom to set your own hours"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "आपकी क्षमता के बराबर कमाई",
+            "en": "Earnings that match your potential"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "ऐसा काम, जो बिज़नेस बढ़ने के साथ आसान होता जाए",
+            "en": "Work that gets easier as the business grows"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "ऐसा बिज़नेस, जो आप अगली पीढ़ी को सौंप सकें",
+            "en": "A business you can pass on to the next generation"
+           }
+          }
+         ],
+         "cls": [
+          "checklist"
+         ]
+        }
+       ],
+       "src": "CAR-03",
+       "cls": [
+        "card"
+       ]
+      }
+     ],
+     "cls": [
+      "grid"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "सोच बनाम सच्चाई",
+      "en": "Perception vs reality"
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "table",
+       "caption": {
+        "hi": "एजेंसी के बारे में लोग क्या सोचते हैं — और असल में यह क्या है",
+        "en": "What people think about agency — and what it really is"
+       },
+       "head": [
+        [
+         {
+          "text": {
+           "hi": "लोग क्या सोचते हैं",
+           "en": "What people think"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "सच्चाई",
+           "en": "The reality"
+          },
+          "th": true
+         }
+        ]
+       ],
+       "rows": [
+        [
+         {
+          "text": {
+           "hi": "इसमें कोई निवेश नहीं लगता",
+           "en": "It needs no investment at all"
+          }
+         },
+         {
+          "text": {
+           "hi": "कुछ निवेश ज़रूरी है",
+           "en": "Some investment is needed"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "पार्ट-टाइम, जब भी फ़ुर्सत हो",
+           "en": "Part-time, whenever you are free"
+          }
+         },
+         {
+          "text": {
+           "hi": "एक फ़ुल-टाइम करियर — रोज़ कम से कम 4 घंटे",
+           "en": "A full-time career — at least 4 hours every day"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "छोटा समझा जाने वाला काम",
+           "en": "A low-status job"
+          }
+         },
+         {
+          "text": {
+           "hi": "सबसे ज़्यादा फल देने वाले कामों में से एक",
+           "en": "One of the most rewarding kinds of work"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "जब मन करे, तब काम",
+           "en": "Work whenever you feel like it"
+          }
+         },
+         {
+          "text": {
+           "hi": "अनुशासित काम का शेड्यूल",
+           "en": "A disciplined work schedule"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "लोगों से ख़रीदने की मिन्नत करनी पड़ती है",
+           "en": "You have to plead with people to buy"
+          }
+         },
+         {
+          "text": {
+           "hi": "आप लोगों को अपने परिवार की सुरक्षा के बारे में समझाते हैं",
+           "en": "You educate people to protect their families"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "उन लोगों का काम, जिन्हें नौकरी नहीं मिली",
+           "en": "Work for people who couldn’t find a job"
+          }
+         },
+         {
+          "text": {
+           "hi": "दुनिया भर में पढ़े-लिखे पेशेवर — बहुत धनी लोग भी — यह काम करते हैं",
+           "en": "Practised by educated professionals — even millionaires — worldwide"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "एजेंटों का सम्मान नहीं होता",
+           "en": "Agents are not respected"
+          }
+         },
+         {
+          "text": {
+           "hi": "MDRT एजेंटों का दुनिया भर में सम्मान होता है",
+           "en": "MDRT agents are respected worldwide"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "बहुत मुश्किल करियर",
+           "en": "A very difficult career"
+          }
+         },
+         {
+          "text": {
+           "hi": "बहुत फल देने वाला करियर",
+           "en": "A very rewarding career"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "आप अपने बॉस हैं, किसी के प्रति जवाबदेह नहीं",
+           "en": "You are your own boss, answerable to nobody"
+          }
+         },
+         {
+          "text": {
+           "hi": "आप अपने मेंटर के प्रति जवाबदेह हैं",
+           "en": "You are accountable to your mentor"
+          }
+         }
+        ]
+       ],
+       "src": "CAR-15",
+       "cls": [
+        "data"
+       ]
+      }
+     ],
+     "cls": [
+      "table-scroll"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "स्रोत: इंडस्ट्री ट्रेनिंग बुकलेट (2024), हमारे शब्दों में।",
+      "en": "Source: industry training booklet (2024), restated."
+     },
+     "cls": [
+      "src"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "करियर भर की कमाई",
+      "en": "Earnings over a career"
+     }
+    },
+    {
+     "t": "blockquote",
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "मेरा लक्ष्य साफ़ है — मेरे साथ जुड़ने वाला हर एजेंट तीसरे साल के अंत तक ₹1,00,000 प्रति माह कमाए। योजना, ट्रेनिंग और साथ मैं दूँगा; मेहनत — और नतीजा — आपका होगा।",
+        "en": "My goal for every agent I recruit is simple: by the end of your third year, you should be earning ₹1,00,000 a month. I’ll give you the plan, the training and the follow-up. The effort — and the result — will be yours."
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "— रोहित लाल",
+        "en": "— Rohit Lal"
+       },
+       "cls": [
+        "src"
+       ]
+      }
+     ],
+     "src": "SU-34"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "आपकी कमाई आपकी मेहनत और आपके द्वारा लाए गए बिज़नेस पर निर्भर करती है।",
+      "en": "Your earnings depend on your effort and the business you bring."
+     },
+     "src": "SU-34",
+     "cls": [
+      "effort"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "ट्रेनिंग और साफ़ योजना आपको साल 3 तक रोहित के ₹1 लाख प्रति माह के लक्ष्य तक ले जा सकती है — लेकिन इसके लिए आपकी कड़ी मेहनत और फ़ील्ड में काम ज़रूरी है।",
+      "en": "Training and a clear plan can take you to Rohit’s ₹1 lakh-a-month goal by year 3 — but it needs your hard work and field effort."
+     },
+     "src": "CAR-17 SU-34"
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "नियमित रूप से ट्रेनिंग सेशन में शामिल हों।",
+        "en": "Attend training sessions regularly."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "कम से कम 100 लोगों की संभावित ग्राहकों की सूची बनाएँ।",
+        "en": "Prepare a prospect list of at least 100 people."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "हर दिन कम से कम 4 संभावित ग्राहकों से मिलें।",
+        "en": "Meet at least 4 prospects every day."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "रोज़ की एक्टिविटी रिपोर्ट और हफ़्ते का सारांश लिखें।",
+        "en": "Write a daily activity report and a weekly summary."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "हर हफ़्ते की रिव्यू मीटिंग में शामिल हों।",
+        "en": "Attend the weekly review meetings."
+       }
+      }
+     ],
+     "src": "SU-30"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<a href=\"#startup\">साल-दर-साल योजना देखें →</a>",
+      "en": "<a href=\"#startup\">See the year-by-year plan →</a>"
+     }
+    }
+   ],
+   "cls": [
+    "block",
+    "goal-band"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "ट्रेनिंग और सहयोग",
+      "en": "Training and support"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "लाइसेंस से पहले: हमारे कस्टमाइज़्ड लर्निंग पोर्टल पर प्री-लाइसेंसिंग (IC-38) कोर्स और IRDAI परीक्षा की तैयारी — अपनी रफ़्तार से, फ़ोन या लैपटॉप पर। इसमें कितना समय लगेगा, यह आपके कोर्स पर निर्भर करता है।",
+      "en": "Before your licence: the pre-licensing (IC-38) course and IRDAI exam preparation on our customised learning portal — at your own pace, on phone or laptop. How long it takes depends on your course."
+     },
+     "src": "PROC-21"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "लाइसेंस के बाद: आपके डेवलपमेंट ऑफिसर हमारी अपनी ट्रेनिंग सुविधाओं में आपको सिद्धांत और व्यवहार सिखाते हैं — जीवन बीमा, आत्म-विकास और ज़रूरत के आधार पर बिक्री। आपकी एक्टिविटी की नियमित समीक्षा होती है, और सीखने के लिए किताबों, ऑडियो और वीडियो की अच्छी लाइब्रेरी मिलती है।",
+      "en": "After your licence: your Development Officer trains you in theory and practice, at our own training facilities, on life insurance, self-development and need-based selling. Your activities are reviewed regularly, and you have a well-stocked library of books, audio and video to learn from."
+     },
+     "src": "CAR-18 PROC-07"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "LIC ख़ुद अपनी फ़ील्ड फ़ोर्स पर निवेश करती है: व्यापक ट्रेनिंग, जो एजेंटों को जीवन बीमा का विशेषज्ञ बनाती है, और आधुनिक सेल्स व मार्केटिंग टूल।",
+      "en": "LIC itself invests in its field force: wide-ranging training that turns agents into life-insurance specialists, plus modern sales and marketing tools."
+     },
+     "src": "CAR-19"
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "असली करियर",
+      "en": "Real careers"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "दस LIC एजेंट — महिलाएँ और पुरुष, छोटे शहरों से भी और बड़े शहरों से भी। सबकी शुरुआत एक आम जगह से हुई।",
+      "en": "Ten LIC agents — women and men, from small towns and big cities. Each started somewhere ordinary."
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "article",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "अंशु अग्रवाल · नई दिल्ली",
+          "en": "Anshu Agrawal · New Delhi"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "<strong>गृहिणी से Corporate Club तक</strong>",
+          "en": "<strong>From homemaker to Corporate Club</strong>"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "2004 की शुरुआत में जुड़ीं, जब घर पर छोटी बेटी थी। आज द्वारका में LIC से अधिकृत ऑफिस चलाती हैं, लगभग 1,000 ग्राहकों को सेवा देती हैं और 10 महिलाओं की टीम का नेतृत्व करती हैं। “आख़िरकार, लोग ही सबसे बड़ा निवेश हैं।”",
+          "en": "Joined in early 2004 with a small daughter at home. Now runs an LIC-authorised office in Dwarka, serves about 1,000 customers and leads a team of 10 women. “People after all are the biggest investment.”"
+         }
+        }
+       ],
+       "src": "CAR-20 BS-49",
+       "cls": [
+        "quote-card"
+       ]
+      },
+      {
+       "t": "article",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "सुधीर कुमार गोयल · देवगढ़, ओडिशा",
+          "en": "Sudhir Kumar Goel · Deogarh, Odisha"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "<strong>पहले जाँच, डॉक्टर की तरह</strong>",
+          "en": "<strong>Diagnose first, like a doctor</strong>"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "घर-घर जाकर सामान बेचने का काम छोड़कर 1997 में, 19 साल की उम्र में जुड़े, और ग्राहकों से मिलने 18 किमी तक पैदल गए। 2002 में MDRT, फिर 7 साल COT। वे 27+ देश घूम चुके हैं।",
+          "en": "Left door-to-door sales to join in 1997, aged 19, and walked up to 18 km to meet clients. MDRT in 2002, then COT for 7 years. He has travelled to 27+ countries."
+         }
+        }
+       ],
+       "src": "CAR-21",
+       "cls": [
+        "quote-card"
+       ]
+      },
+      {
+       "t": "article",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "छगनलाल जी. गढ़िया",
+          "en": "Chhaganlal G. Gadhia"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "<strong>ख़ुद को, अपने रिश्तों को और अपनी संस्था को — तीनों को साथ बढ़ाइए</strong>",
+          "en": "<strong>Grow yourself, your relationships and your organisation together</strong>"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "1977 में तबादले वाली सरकारी नौकरी छोड़ी। 1986 से Chairman’s Club में, 1997-98 में भारत में नंबर 1। 1,100 परिवारों को सेवा देते हैं — कुछ की चार पीढ़ियों तक।",
+          "en": "Left a transferable government job in 1977. Chairman’s Club since 1986, ranked No. 1 in India in 1997-98. Serves 1,100 client families — some across four generations."
+         }
+        }
+       ],
+       "src": "CAR-22",
+       "cls": [
+        "quote-card"
+       ]
+      },
+      {
+       "t": "article",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "भरत पारेख · नागपुर",
+          "en": "Bharat Parekh · Nagpur"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "<strong>पहले सेवा — बिज़नेस अपने आप आता है</strong>",
+          "en": "<strong>Serve first — business follows</strong>"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "1985 में ₹300 प्रति माह कमाने की उम्मीद से शुरुआत की। परिवारों के क्लेम सुलझाने में मदद की, उन पॉलिसियों पर भी जो उन्होंने नहीं बेची थीं। आज नागपुर और मुंबई में ऑफिस हैं और 20 पेशेवरों की टीम है।",
+          "en": "Started in 1985 hoping to earn ₹300 a month. Helped families settle claims even on policies he hadn’t sold. Now has offices in Nagpur and Mumbai and a team of 20 professionals."
+         }
+        }
+       ],
+       "src": "CAR-23",
+       "cls": [
+        "quote-card"
+       ]
+      },
+      {
+       "t": "article",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "S. Balachandran",
+          "en": "S. Balachandran"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "<strong>पॉलिसी एक बार बिकती है; सेवा ज़िंदगी भर चलती है</strong>",
+          "en": "<strong>You sell a policy once; you serve it for life</strong>"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "दिसंबर 1986 में परिवार और दोस्तों के साथ पार्ट-टाइम शुरुआत की। 1987 में एक विधवा का क्लेम जल्दी निपटवाने के लिए डटे रहे — और हमेशा का भरोसा जीता। आज लगभग 9,750 ग्राहक हैं।",
+          "en": "Began part-time in December 1986 with family and friends. In 1987 he fought to get a widow’s claim settled quickly — and won lasting trust. About 9,750 customers today."
+         }
+        }
+       ],
+       "src": "CAR-24",
+       "cls": [
+        "quote-card"
+       ]
+      },
+      {
+       "t": "article",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "आर. सी. जोबनपुत्रा · हैदराबाद",
+          "en": "R. C. Jobanputra · Hyderabad"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "<strong>तकनीकी महारत जोड़िए</strong>",
+          "en": "<strong>Add technical expertise</strong>"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "अपने पहले ही साल में MDRT बने — एक रिकॉर्ड — और 3 साल COT रहे। फ़ाइनेंशियल मैनेजमेंट में पोस्ट-ग्रेजुएट हैं, प्रेज़ेंटेशन और क्लाइंट पोर्टल का इस्तेमाल करते हैं, 6 लोगों की टीम के साथ।",
+          "en": "Made MDRT in his very first year — a record — and COT for 3 years. A postgraduate in financial management, he uses presentations and a client portal, with a team of 6."
+         }
+        }
+       ],
+       "src": "CAR-25",
+       "cls": [
+        "quote-card"
+       ]
+      },
+      {
+       "t": "article",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "निर्मल भीमसरिया · होजाई और दीफू, असम",
+          "en": "Nirmal Bhimsaria · Hojai and Diphu, Assam"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "<strong>अपने समाज में दिखते रहिए</strong>",
+          "en": "<strong>Be visible in your community</strong>"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "एक कूरियर बॉय, जिन्हें LIC के एक ब्रांच मैनेजर ने प्रेरित किया। 2005-06 से Corporate Club में, लगभग 2,000 ग्राहक, दीफू और गुवाहाटी में ऑफिस। स्कूल टॉपरों को ट्रॉफ़ी देते हैं — और सालाना ₹1 करोड़ से ज़्यादा कमाते हैं।",
+          "en": "A courier boy, encouraged by an LIC Branch Manager. Corporate Club since 2005-06, about 2,000 customers, offices in Diphu and Guwahati. He gives trophies to school toppers — and earns over ₹1 crore a year."
+         }
+        }
+       ],
+       "src": "CAR-26",
+       "cls": [
+        "quote-card"
+       ]
+      },
+      {
+       "t": "article",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "लीलाधर राठी · छत्तीसगढ़",
+          "en": "Leeladhar Rathi · Chhattisgarh"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "<strong>ईमानदारी, और सुबह जल्दी शुरुआत</strong>",
+          "en": "<strong>Honesty, and an early start</strong>"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "एक रिपोर्टर, जो 30 जनवरी 2004 को जुड़े। अपने ज़िले में Corporate Club के इकलौते सदस्य, 6 साल Chairman’s Club में, 2014 में भारत में नंबर 4 पर। सुबह 7:30 बजे तक निकल जाते हैं — अक्सर किसी ग्राहक के घर सुबह की चाय पर।",
+          "en": "A reporter who joined on 30 Jan 2004. The only Corporate Club member in his district, Chairman’s Club for 6 years, ranked 4th in India in 2014. He is out by 7:30 am — often for morning tea at a customer’s home."
+         }
+        }
+       ],
+       "src": "CAR-27",
+       "cls": [
+        "quote-card"
+       ]
+      },
+      {
+       "t": "article",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "सुरेंदर कुमार ढींगरा · कानपुर",
+          "en": "Surender Kumar Dhingra · Kanpur"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "<strong>उपलब्ध रहिए — सेवा ही सब कुछ है</strong>",
+          "en": "<strong>Be available — service is everything</strong>"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "एक अनचाहे तबादले के बाद 1992 में फ़ुल-टाइम जुड़े। पहले ही साल में ₹50,000 प्रति माह से ज़्यादा कमाने लगे। 17 साल MDRT, और 18 साल पॉलिसियों की संख्या में ज़ोनल टॉपर।",
+          "en": "Joined full-time in 1992 after an unwelcome job transfer. Earned over ₹50,000 a month within his first year. MDRT for 17 years, and zonal topper by number of policies for 18 years."
+         }
+        }
+       ],
+       "src": "CAR-28",
+       "cls": [
+        "quote-card"
+       ]
+      },
+      {
+       "t": "article",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "Venkat Vakalapudi",
+          "en": "Venkat Vakalapudi"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "<strong>पहले होमवर्क — हर प्रोडक्ट हर किसी के लिए नहीं होता</strong>",
+          "en": "<strong>Do your homework — not every product suits everyone</strong>"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "छोटे बिज़नेस चलाने के बाद 1999 में जुड़े। 6 साल TOT, 2012-13 और 2013-14 में LIC में कुल प्रीमियम में नंबर 1, और 2014 में टोरंटो की MDRT मीट में भारत के ध्वजवाहक।",
+          "en": "Joined in 1999 after running small businesses. TOT for 6 years, No. 1 total premium producer in LIC in 2012-13 and 2013-14, and India’s flag-bearer at the MDRT meet in Toronto in 2014."
+         }
+        }
+       ],
+       "src": "CAR-29",
+       "cls": [
+        "quote-card"
+       ]
+      }
+     ],
+     "cls": [
+      "grid",
+      "stories"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "“Encouraging Entrepreneurship — The LIC Way” (Outlook Business, LIC द्वारा प्रस्तुत) में प्रकाशित। कहानियाँ हमारे अपने शब्दों में।",
+      "en": "As featured in “Encouraging Entrepreneurship — The LIC Way” (Outlook Business, presented by LIC). Stories restated in our own words."
+     },
+     "cls": [
+      "src"
+     ]
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "h4",
+       "text": {
+        "hi": "इनकी कहानियों में क्या एक जैसा है",
+        "en": "What their stories have in common"
+       }
+      },
+      {
+       "t": "ul",
+       "items": [
+        {
+         "t": "li",
+         "text": {
+          "hi": "जान-पहचान वालों से शुरुआत कीजिए",
+          "en": "Start with people you know"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "सेवा से भरोसा जीतिए",
+          "en": "Service wins trust"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "“ना” सुनकर भी धैर्य रखिए",
+          "en": "Be patient through rejection"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "अपने समाज में दिखते रहिए",
+          "en": "Be visible in your community"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "सीखते रहिए",
+          "en": "Keep learning"
+         }
+        }
+       ],
+       "cls": [
+        "checklist"
+       ]
+      }
+     ],
+     "src": "CAR-30",
+     "cls": [
+      "recap"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "details",
+   "summary": {
+    "hi": "पुराने आँकड़े (2014–2015 की सामग्री के अनुसार)",
+    "en": "Earlier figures (as per 2014–2015 material)"
+   },
+   "children": [
+    {
+     "t": "p",
+     "text": {
+      "hi": "एक पुरानी प्रस्तुति दिखाती थी कि लोग एजेंट से वरिष्ठ प्रबंधन तक कैसे पहुँचे हैं: एजेंट → डेवलपमेंट ऑफिसर → ब्रांच मैनेजर → सीनियर डिविज़नल मैनेजर → ज़ोनल मैनेजर → चेयरमैन। ये संभावनाओं के उदाहरण हैं, कोई तय रास्ता नहीं।",
+      "en": "An older deck showed how people have risen from agent into senior management: Agent → Development Officer → Branch Manager → Senior Divisional Manager → Zonal Manager → Chairman. These are examples of what is possible, not a set path."
+     },
+     "src": "CAR-07"
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "table",
+         "caption": {
+          "hi": "अगले 5 सालों में आपकी अपेक्षित आय (₹), पुरानी दरों 35% / 7.5% / 5% पर",
+          "en": "Your expected income for the next 5 years (₹), at older rates of 35% / 7.5% / 5%"
+         },
+         "head": [
+          [
+           {
+            "text": {
+             "hi": "वर्ष",
+             "en": "Year"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "नया प्रीमियम",
+             "en": "New premium"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "किस वर्ष में आय",
+             "en": "Income earned in"
+            },
+            "th": true,
+            "colspan": 5
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "वर्ष 1",
+             "en": "Year 1"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "वर्ष 2",
+             "en": "Year 2"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "वर्ष 3",
+             "en": "Year 3"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "वर्ष 4",
+             "en": "Year 4"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "वर्ष 5",
+             "en": "Year 5"
+            },
+            "th": true
+           }
+          ]
+         ],
+         "rows": [
+          [
+           {
+            "text": {
+             "hi": "वर्ष 1",
+             "en": "Year 1"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "12,00,000",
+             "en": "12,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "4,20,000",
+             "en": "4,20,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "90,000",
+             "en": "90,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "90,000",
+             "en": "90,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "60,000",
+             "en": "60,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "60,000",
+             "en": "60,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "वर्ष 2",
+             "en": "Year 2"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "24,00,000",
+             "en": "24,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "8,40,000",
+             "en": "8,40,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "1,80,000",
+             "en": "1,80,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "1,80,000",
+             "en": "1,80,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "1,20,000",
+             "en": "1,20,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "वर्ष 3",
+             "en": "Year 3"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "36,00,000",
+             "en": "36,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "12,60,000",
+             "en": "12,60,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "2,70,000",
+             "en": "2,70,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "2,70,000",
+             "en": "2,70,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "वर्ष 4",
+             "en": "Year 4"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "48,00,000",
+             "en": "48,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "16,80,000",
+             "en": "16,80,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "3,60,000",
+             "en": "3,60,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "वर्ष 5",
+             "en": "Year 5"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "60,00,000",
+             "en": "60,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "",
+             "en": ""
+            }
+           },
+           {
+            "text": {
+             "hi": "21,00,000",
+             "en": "21,00,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "<strong>कुल</strong>",
+             "en": "<strong>Total</strong>"
+            },
+            "th": true,
+            "colspan": 2
+           },
+           {
+            "text": {
+             "hi": "<strong>4,20,000</strong>",
+             "en": "<strong>4,20,000</strong>"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>9,30,000</strong>",
+             "en": "<strong>9,30,000</strong>"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>15,30,000</strong>",
+             "en": "<strong>15,30,000</strong>"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>21,90,000</strong>",
+             "en": "<strong>21,90,000</strong>"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>29,10,000</strong>",
+             "en": "<strong>29,10,000</strong>"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "<strong>मासिक</strong>",
+             "en": "<strong>Monthly</strong>"
+            },
+            "th": true,
+            "colspan": 2
+           },
+           {
+            "text": {
+             "hi": "<strong>35,000</strong>",
+             "en": "<strong>35,000</strong>"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>77,500</strong>",
+             "en": "<strong>77,500</strong>"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>1,27,500</strong>",
+             "en": "<strong>1,27,500</strong>"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>1,82,500</strong>",
+             "en": "<strong>1,82,500</strong>"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>2,42,500</strong>",
+             "en": "<strong>2,42,500</strong>"
+            },
+            "num": true
+           }
+          ]
+         ],
+         "src": "CAR-16",
+         "cls": [
+          "data"
+         ]
+        }
+       ],
+       "cls": [
+        "table-scroll"
+       ]
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "साल बीतने के साथ रिन्यूअल कमीशन बढ़ता रहता है — अगले 20–25 सालों के लिए पेंशन जैसी आय बनाता हुआ, काम बंद करने के बाद भी, या आपकी मृत्यु होने पर आपके परिवार को मिलता हुआ।",
+        "en": "As the years pass, renewal commission keeps growing — building a pension-like income for the next 20–25 years even after you stop working, or paid to your family in the event of your death."
+       },
+       "src": "CAR-16"
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "केवल उदाहरण। वास्तविक कमीशन प्लान, अवधि, भरे गए प्रीमियम और LIC के लागू नियमों पर निर्भर करता है। आपकी कमाई आपकी मेहनत पर निर्भर है।",
+        "en": "Illustration only. Actual commission depends on the plan, the term, the premium paid and the LIC rules in force. Your earnings depend on your effort."
+       },
+       "cls": [
+        "src"
+       ]
+      }
+     ],
+     "cls": [
+      "illustrative"
+     ]
+    }
+   ],
+   "cls": [
+    "legacy"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "संक्षेप में",
+      "en": "In short"
+     }
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "src": "CAR-05",
+       "text": {
+        "hi": "आगे बढ़ने के तीन रास्ते: एजेंट क्लब, LIC कर्मचारी पद और CLIA उद्यमी ट्रैक।",
+        "en": "Three tracks to grow: agent clubs, LIC employee posts and the CLIA entrepreneur track."
+       }
+      },
+      {
+       "t": "li",
+       "src": "CAR-06",
+       "text": {
+        "hi": "एजेंटों के लिए डेवलपमेंट ऑफिसर पद में आरक्षित कोटा है।",
+        "en": "Agents have a reserved quota for the Development Officer post."
+       }
+      },
+      {
+       "t": "li",
+       "src": "CAR-09",
+       "text": {
+        "hi": "चार चरण: शिक्षा, संगठन, नेतृत्व, समृद्धि।",
+        "en": "Four phases: learning, building, leadership, wealth."
+       }
+      },
+      {
+       "t": "li",
+       "src": "CAR-17 SU-34",
+       "text": {
+        "hi": "रोहित का लक्ष्य: साल 3 तक ₹1 लाख प्रति माह — आपकी कमाई आपकी मेहनत और आपके द्वारा लाए गए बिज़नेस पर निर्भर करती है।",
+        "en": "Rohit’s goal: ₹1 lakh a month by year 3 — your earnings depend on your effort and the business you bring."
+       }
+      }
+     ]
+    }
+   ],
+   "cls": [
+    "block",
+    "recap"
+   ]
+  },
+  {
+   "t": "aside",
+   "children": [
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>अगली कहानी आपकी हो सकती है।</strong>",
+      "en": "<strong>Your story could be next.</strong>"
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "a",
+       "href": "#apply",
+       "text": {
+        "hi": "करियर ओरिएंटेशन बुक करें",
+        "en": "Book a career orientation"
+       },
+       "cls": [
+        "cta"
+       ]
+      },
+      {
+       "t": "a",
+       "href": "tel:+919973055291",
+       "text": {
+        "hi": "अभी कॉल करें: <span>9973055291</span>",
+        "en": "Call now: <span>9973055291</span>"
+       },
+       "src": "G-02",
+       "cls": [
+        "cta",
+        "secondary"
+       ]
+      }
+     ],
+     "cls": [
+      "btn-row"
+     ]
+    }
+   ],
+   "cls": [
+    "page-cta"
+   ]
+  }
+ ],
+ "id": "career"
+}

@@ -1,0 +1,2289 @@
+{
+ "t": "section",
+ "children": [
+  {
+   "t": "header",
+   "children": [
+    {
+     "t": "p",
+     "text": {
+      "hi": "कमाएँ और भारत घूमें",
+      "en": "Earn &amp; Explore India"
+     },
+     "cls": [
+      "eyebrow"
+     ]
+    },
+    {
+     "t": "h2",
+     "text": {
+      "hi": "<strong>कमाओ भी… भारत को जियो भी!</strong>",
+      "en": "<strong>कमाओ भी… भारत को जियो भी!</strong> <em>Earn… and live India too!</em>"
+     },
+     "src": "EXP-01",
+     "id": "explore-h"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "एक ऐसा करियर, जो सिर्फ़ आय नहीं, अनुभवों से भरी ज़िंदगी देता है।",
+      "en": "A career that gives you not just an income, but a life full of experiences."
+     },
+     "src": "EXP-01",
+     "cls": [
+      "lede"
+     ]
+    },
+    {
+     "t": "figure",
+     "children": [
+      {
+       "t": "img",
+       "file": "/site-assets/ddl-kedarnath.jpg",
+       "alt": {
+        "hi": "सूर्योदय के समय केदारनाथ मंदिर, पीछे बर्फ़ से ढकी हिमालय की चोटियाँ और सामने बहती पहाड़ी धारा",
+        "en": "Kedarnath temple at sunrise, with snow-capped Himalayan peaks and a mountain stream in front"
+       }
+      }
+     ],
+     "cls": [
+      "hero-img"
+     ]
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "Earn with Purpose. Live with Freedom. Explore India. Design Your Dream Life. मक़सद के साथ कमाइए। आज़ादी के साथ जिएँ। भारत घूमिए। अपनी सपनों की ज़िंदगी ख़ुद डिज़ाइन कीजिए।",
+        "en": "Earn with Purpose. Live with Freedom. Explore India. Design Your Dream Life."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "Earn locally. Explore nationally. Live fully. कमाइए अपने शहर में। घूमिए पूरे देश में। ज़िंदगी भरपूर जिएँ।",
+        "en": "Earn locally. Explore nationally. Live fully."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "ऐसा करियर बनाइए, जो भारत घूमते हुए भी आपको कमाई दे।",
+        "en": "Build a career that pays you while you explore India."
+       }
+      }
+     ],
+     "src": "EXP-02"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "कुछ करियर तनख़्वाह देते हैं। कुछ करियर ज़िंदगी देते हैं। सोच-समझकर चुनिए।",
+      "en": "Some careers give you a salary. Some careers give you a life. Choose wisely."
+     },
+     "src": "EXP-03",
+     "cls": [
+      "band"
+     ]
+    }
+   ],
+   "cls": [
+    "page-hero"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "पहले, एक सच्ची बात",
+      "en": "First, an honest message"
+     }
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "शुरुआत में आपको कड़ी मेहनत करनी होगी।",
+        "en": "You will have to work hard at the start."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "आपको लोगों का भरोसा जीतना होगा।",
+        "en": "You will have to win people’s trust."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "आपको सीखते रहना होगा।",
+        "en": "You will have to keep learning."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "आप रोज़ नए लोगों से मिलेंगे।",
+        "en": "You will meet new people every day."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "लेकिन समय के साथ आप ऐसा करियर बना सकते हैं, जिसमें आपकी आय, आपके रिश्ते और आपकी समय की आज़ादी — तीनों बढ़ें।",
+        "en": "But over time, you can build a career in which your income, your relationships and your time freedom all grow."
+       }
+      }
+     ],
+     "src": "EXP-18"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>मैं यह नहीं कह रहा कि कोई भी करियर आसान है। हर सफलता मेहनत माँगती है। यह आर्थिक आत्मनिर्भरता और समय की आज़ादी का रास्ता है — इसमें लगातार मेहनत लगती है, और यह बेफ़िक्र घूमने का कोई शॉर्टकट नहीं है।</strong>",
+      "en": "<strong>I’m not saying any career is easy. Every success demands hard work. This is a path to financial independence and time freedom — it takes consistent effort, and it is not a shortcut to easy travel.</strong>"
+     },
+     "src": "EXP-19"
+    }
+   ],
+   "cls": [
+    "block",
+    "goal-band"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "सपना — और उसे क्या रोकता है",
+      "en": "The dream — and what stops it"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "आज के युवा सिर्फ़ पैसा नहीं चाहते। वे चाहते हैं:",
+      "en": "Young people today don’t only want money. They want to:"
+     },
+     "src": "EXP-05"
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "हिमालय की चोटियों पर सूर्योदय देखना",
+        "en": "watch the sunrise over Himalayan peaks"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "काशी में दिव्य गंगा आरती को महसूस करना",
+        "en": "feel the divine Ganga aarti in Kashi"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "केदारनाथ की आध्यात्मिक ऊर्जा महसूस करना",
+        "en": "feel the spiritual energy of Kedarnath"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "मेघालय के झरनों के बीच सुकून पाना",
+        "en": "find peace among Meghalaya’s waterfalls"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "लद्दाख की घाटियों में ख़ुद को खोजना",
+        "en": "find themselves in the valleys of Ladakh"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "राजस्थान की रेगिस्तानी संस्कृति को जीना",
+        "en": "live Rajasthan’s desert culture"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "दक्षिण भारत के प्राचीन मंदिरों की भव्यता देखना",
+        "en": "see the grandeur of South India’s ancient temples"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "भारत की संस्कृति, परंपराओं और आध्यात्मिक विरासत को क़रीब से समझना",
+        "en": "understand India’s culture, traditions and spiritual heritage up close"
+       }
+      }
+     ],
+     "src": "EXP-05",
+     "cls": [
+      "checklist"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>लेकिन ज़्यादातर लोग ये सपने रिटायरमेंट तक टाल देते हैं। क्यों? क्योंकि उनके पास पैसा है — पर समय नहीं।</strong>",
+      "en": "<strong>But most people postpone these dreams until retirement. Why? Because they have money — but not time.</strong>"
+     },
+     "src": "EXP-05"
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "<strong>अगर आज आपको ₹5 लाख मिल जाएँ, तो आप सबसे पहले कहाँ जाएँगे? एक जगह चुनिए।</strong>",
+        "en": "<strong>If you got ₹5 lakh today, where would you go first? Pick one.</strong>"
+       }
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "button",
+         "text": {
+          "hi": "केदारनाथ",
+          "en": "Kedarnath"
+         },
+         "type": "button"
+        },
+        {
+         "t": "button",
+         "text": {
+          "hi": "लद्दाख",
+          "en": "Ladakh"
+         },
+         "type": "button"
+        },
+        {
+         "t": "button",
+         "text": {
+          "hi": "काशी",
+          "en": "Kashi"
+         },
+         "type": "button"
+        },
+        {
+         "t": "button",
+         "text": {
+          "hi": "अयोध्या",
+          "en": "Ayodhya"
+         },
+         "type": "button"
+        },
+        {
+         "t": "button",
+         "text": {
+          "hi": "मेघालय",
+          "en": "Meghalaya"
+         },
+         "type": "button"
+        },
+        {
+         "t": "button",
+         "text": {
+          "hi": "कच्छ",
+          "en": "Kutch"
+         },
+         "type": "button"
+        },
+        {
+         "t": "button",
+         "text": {
+          "hi": "गोवा",
+          "en": "Goa"
+         },
+         "type": "button"
+        },
+        {
+         "t": "button",
+         "text": {
+          "hi": "अंडमान",
+          "en": "Andaman"
+         },
+         "type": "button"
+        }
+       ],
+       "cls": [
+        "chips"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "box",
+         "children": [
+          {
+           "t": "p",
+           "text": {
+            "hi": "अब ख़ुद से पूछिए: आप अब तक गए क्यों नहीं?",
+            "en": "Now ask yourself: why haven’t you gone yet?"
+           }
+          },
+          {
+           "t": "p",
+           "text": {
+            "hi": "ज़्यादातर लोगों का जवाब होता है: समय नहीं · छुट्टी नहीं · नौकरी की मजबूरियाँ · ज़िम्मेदारियाँ।",
+            "en": "Most people answer: no time · no leave · job pressures · responsibilities."
+           }
+          },
+          {
+           "t": "p",
+           "text": {
+            "hi": "<strong>तो समझ लीजिए — समस्या सिर्फ़ पैसा नहीं है। समस्या है समय की आज़ादी।</strong>",
+            "en": "<strong>So understand this — the problem isn’t only money. It’s time freedom.</strong>"
+           }
+          }
+         ],
+         "cls": [
+          "exp06-answer"
+         ]
+        }
+       ]
+      }
+     ],
+     "src": "EXP-06",
+     "cls": [
+      "calc"
+     ],
+     "id": "exp06"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "असली समस्या पैसा नहीं — आज़ादी की कमी है। ऐसा पेशा चुनिए, जो समय के साथ आपको आय और अपने समय पर नियंत्रण, दोनों दे सके। यही एक वजह है कि बहुत से लोग उद्यमिता चुनते हैं — वित्तीय सलाह का काम भी उसी में आता है।",
+      "en": "The real problem isn’t money — it’s a lack of freedom. Choose a profession that can, over time, give you both income and control over your time. That is one reason many people choose entrepreneurship, including financial advisory."
+     },
+     "src": "EXP-07"
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "ज़िंदगी की बनी-बनाई स्क्रिप्ट",
+      "en": "The default life script"
+     }
+    },
+    {
+     "t": "ol",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "स्कूल",
+        "en": "School"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "कॉलेज",
+        "en": "College"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "नौकरी",
+        "en": "Job"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "तनख़्वाह",
+        "en": "Salary"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "EMI",
+        "en": "EMI"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "रिटायरमेंट",
+        "en": "Retirement"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "<strong>“काश…”</strong>",
+        "en": "<strong>“काश…”</strong> <em>“If only…”</em>"
+       }
+      }
+     ],
+     "src": "EXP-08",
+     "cls": [
+      "flow"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "क्या हमारी पूरी ज़िंदगी बस यही बनकर रह गई है? क्या हमने कभी अपने लिए ज़िंदगी डिज़ाइन की है?",
+      "en": "Is this what our whole life has become? Have we ever designed a life for ourselves?"
+     },
+     "src": "EXP-08"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "Don’t live by default. Live by design. ज़िंदगी यूँ ही मत बिताइए — उसे सोच-समझकर गढ़िए।",
+      "en": "Don’t live by default. Live by design."
+     },
+     "src": "EXP-09",
+     "cls": [
+      "band"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "अगर आप अपनी ज़िंदगी डिज़ाइन नहीं करेंगे, तो कोई और उसे आपके लिए डिज़ाइन कर देगा।",
+      "en": "If you don’t design your life, someone else will design it for you."
+     },
+     "src": "EXP-09"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "सफलता सिर्फ़ तनख़्वाह नहीं है। <strong>सफलता = समय + सेहत + रिश्ते + मक़सद + आज़ादी।</strong> अगर सिर्फ़ पैसा ही सफलता होता, तो हर अमीर इंसान हमेशा ख़ुश रहता।",
+      "en": "Success is not only salary. <strong>Success = Time + Health + Relationships + Purpose + Freedom.</strong> If money alone were success, every rich person would always be happy."
+     },
+     "src": "EXP-10"
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "असली सफलता के पाँच स्तंभ",
+      "en": "Five pillars of real success"
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h5",
+         "text": {
+          "hi": "सेहत",
+          "en": "Health"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "इसके बिना दौलत का आनंद नहीं लिया जा सकता।",
+          "en": "Without it, wealth can’t be enjoyed."
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h5",
+         "text": {
+          "hi": "परिवार",
+          "en": "Family"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "जिनके साथ बाँटी न जाएँ, वे उपलब्धियाँ अधूरी लगती हैं।",
+          "en": "Achievements feel incomplete without the people you share them with."
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h5",
+         "text": {
+          "hi": "मक़सद",
+          "en": "Purpose"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "ऐसा काम, जो सकारात्मक बदलाव लाए।",
+          "en": "Work that makes a positive difference."
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h5",
+         "text": {
+          "hi": "समय",
+          "en": "Time"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "अपनों के लिए, और अपने सपनों के लिए समय।",
+          "en": "Time for the people you love, and for your dreams."
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h5",
+         "text": {
+          "hi": "आर्थिक स्थिरता",
+          "en": "Financial stability"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "ज़िम्मेदारियाँ निभाने और भविष्य की योजना बनाने लायक आय।",
+          "en": "Income to meet your responsibilities and plan your future."
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      }
+     ],
+     "src": "EXP-11",
+     "cls": [
+      "grid"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "पाँचों का संतुलन ही एक समृद्ध ज़िंदगी है।",
+      "en": "A rich life is a balance of all five."
+     },
+     "src": "EXP-11"
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "दो दोस्तों की कहानी",
+      "en": "A tale of two friends"
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "एक उदाहरण के तौर पर कहानी",
+        "en": "An illustrative story"
+       },
+       "cls": [
+        "eyebrow"
+       ]
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "राहुल ₹50,000 प्रति माह की कॉर्पोरेट नौकरी करता है, जिसमें साल में सिर्फ़ 20 दिन की छुट्टी मिलती है। उसके पास पैसा है — पर समय नहीं।",
+        "en": "Rahul takes a corporate job paying ₹50,000 a month, with only 20 days’ leave a year. He has money — but no time."
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "उसका दोस्त अर्जुन एक मज़बूत बीमा-सलाह की प्रैक्टिस बनाता है। कुछ सालों बाद उसके ग्राहक रिन्यूअल प्रीमियम भरते रहते हैं और उसकी आय आती रहती है। अब वह हर महीने एक नई जगह जाता है: सोमवार को ग्राहकों से मिलता है, शुक्रवार को वाराणसी में गंगा किनारे बैठता है। अगले महीने केदारनाथ, फिर कच्छ का रण, फिर मेघालय।",
+        "en": "His friend Arjun builds a strong insurance-advisory practice. After a few years, his clients keep paying renewal premiums and his income keeps coming. Now he visits one new place every month: on Monday he meets clients, on Friday he sits beside the Ganga in Varanasi. Next month it’s Kedarnath, then the Rann of Kutch, then Meghalaya."
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "वह कमाता है… परिवारों की सेवा करता है… भारत घूमता है। कौन-सी ज़िंदगी ज़्यादा रोमांचक लगती है?",
+        "en": "He earns… he serves families… he explores India. Which life sounds more exciting?"
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "केवल उदाहरण। वास्तविक कमीशन प्लान, अवधि, भरे गए प्रीमियम और LIC के लागू नियमों पर निर्भर करता है। आपकी कमाई आपकी मेहनत पर निर्भर है।",
+        "en": "Illustration only. Actual commission depends on the plan, the term, the premium paid and the LIC rules in force. Your earnings depend on your effort."
+       },
+       "cls": [
+        "src"
+       ]
+      }
+     ],
+     "src": "EXP-12",
+     "cls": [
+      "illustrative",
+      "quote-card"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "हिंदी वाली कहानी में दोस्तों के नाम रोहन और अर्जुन हैं। रोहन को हर यात्रा के लिए छुट्टी माँगनी पड़ती थी और बार-बार सुनना पड़ता था “इस समय ऑफिस का काम बहुत है” — उसके सपने कैलेंडर पर आगे खिसकते रहे। अर्जुन की शुरुआत मुश्किल थी — उसे लोगों का भरोसा जीतना पड़ा — लेकिन समय के साथ उसने अपनी पहचान बनाई और अपने समय का मालिक बन गया।",
+      "en": "In the Hindi telling, the friends are Rohan and Arjun. Rohan had to ask for leave for every trip and kept hearing “there’s too much work at the office right now”, so his dreams kept moving on the calendar. Arjun’s start was hard — he had to win people’s trust — but over time he built his own identity and became the owner of his time."
+     },
+     "src": "EXP-13"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>“उसने सिर्फ आय नहीं बनाई… उसने समय की स्वतंत्रता बनाई।”</strong>",
+      "en": "<strong>“उसने सिर्फ आय नहीं बनाई… उसने समय की स्वतंत्रता बनाई।”</strong> <em>“He didn’t just build an income… he built time freedom.”</em>"
+     },
+     "src": "EXP-13",
+     "cls": [
+      "quote-card"
+     ]
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "table",
+       "caption": {
+        "hi": "सिर्फ़ नौकरी बनाम उद्यमिता और वित्तीय सलाह",
+        "en": "Only a job vs entrepreneurship and financial advisory"
+       },
+       "head": [
+        [
+         {
+          "text": {
+           "hi": "सिर्फ़ नौकरी",
+           "en": "Only a job"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "उद्यमिता / वित्तीय सलाह",
+           "en": "Entrepreneurship / financial advisory"
+          },
+          "th": true
+         }
+        ]
+       ],
+       "rows": [
+        [
+         {
+          "text": {
+           "hi": "तय घंटे",
+           "en": "Fixed hours"
+          }
+         },
+         {
+          "text": {
+           "hi": "अपने समय पर ज़्यादा नियंत्रण (बिज़नेस जम जाने के बाद)",
+           "en": "More control over your time (once the business is established)"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "छुट्टी के लिए इजाज़त चाहिए",
+           "en": "Leave needs permission"
+          }
+         },
+         {
+          "text": {
+           "hi": "अपनी योजना के हिसाब से काम",
+           "en": "Work to your own plan"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "आय की सीमित बढ़त",
+           "en": "Limited income growth"
+          }
+         },
+         {
+          "text": {
+           "hi": "प्रदर्शन के आधार पर आय की संभावना",
+           "en": "Possibility of performance-based income"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "एक ही कार्यस्थल",
+           "en": "One workplace"
+          }
+         },
+         {
+          "text": {
+           "hi": "लोगों से मिलने और बड़ा नेटवर्क बनाने का मौक़ा",
+           "en": "A chance to meet people and build a wide network"
+          }
+         }
+        ]
+       ],
+       "src": "EXP-14",
+       "cls": [
+        "data"
+       ]
+      }
+     ],
+     "cls": [
+      "table-scroll"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "ज़्यादातर नौकरियाँ तनख़्वाह देती हैं — पर समय, आज़ादी या चुनाव नहीं। एक सलाहकार का पेशा आपको दे सकता है:",
+      "en": "Most jobs give you a salary — but not time, freedom or choice. An advisor’s profession can give you:"
+     },
+     "src": "EXP-15"
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "लचीला समय",
+        "en": "flexible time"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "नियमित आय",
+        "en": "recurring income"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "कहीं से भी काम करने की आज़ादी",
+        "en": "the freedom to work from anywhere"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "पूरे भारत में लोगों से मिलने का मौक़ा",
+        "en": "the chance to meet people across India"
+       }
+      }
+     ],
+     "src": "EXP-15",
+     "cls": [
+      "checklist"
+     ]
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "इंडिया एक्सप्लोरर फ़ॉर्मूला: आय + आज़ादी + मक़सद = शानदार ज़िंदगी",
+      "en": "The India Explorer formula: Income + Freedom + Purpose = Extraordinary Life"
+     },
+     "src": "EXP-16"
+    },
+    {
+     "t": "ol",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "आय",
+        "en": "Income"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "आज़ादी",
+        "en": "Freedom"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "यात्रा",
+        "en": "Travel"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "सीखना",
+        "en": "Learning"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "नेटवर्किंग",
+        "en": "Networking"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "तरक्की",
+        "en": "Growth"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "आर्थिक आत्मनिर्भरता",
+        "en": "Financial independence"
+       }
+      }
+     ],
+     "src": "EXP-16",
+     "cls": [
+      "flow"
+     ]
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "तीन आज़ादियाँ",
+      "en": "The three freedoms"
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h5",
+         "text": {
+          "hi": "आर्थिक आज़ादी",
+          "en": "Financial freedom"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "ताकि पैसों की चिंता कम हो।",
+          "en": "So money worries are fewer."
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h5",
+         "text": {
+          "hi": "समय की आज़ादी",
+          "en": "Time freedom"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "ताकि आप अपनों के लिए और अपने सपनों के लिए समय निकाल सकें।",
+          "en": "So you can make time for the people you love and for your dreams."
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h5",
+         "text": {
+          "hi": "मक़सद की आज़ादी",
+          "en": "Purpose freedom"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "ताकि आपको लगे कि आपका काम किसी की ज़िंदगी में सकारात्मक बदलाव ला रहा है।",
+          "en": "So you feel your work makes a positive difference in someone’s life."
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      }
+     ],
+     "src": "EXP-17",
+     "cls": [
+      "grid"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "एजेंसी असल में कौन-सी यात्राएँ देती है",
+      "en": "Travel the agency really offers"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "आपकी अपनी यात्राओं के अलावा, एजेंसी के साथ ये यात्राएँ और पहचान मिलती हैं:",
+      "en": "Beyond your own trips, here is the travel and recognition that comes with the agency itself:"
+     }
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "src": "CLUB-05 EXP-20",
+       "text": {
+        "hi": "क्वालिफ़ाई करने पर देश और विदेश में क्लब सम्मेलन <a href=\"#club\">(क्लब)</a>",
+        "en": "Club conferences in India and abroad, on qualifying <a href=\"#club\">(clubs)</a>"
+       }
+      },
+      {
+       "t": "li",
+       "src": "CLUB-06 EXP-20",
+       "text": {
+        "hi": "विदेश में सालाना सम्मेलन",
+        "en": "An annual convention at a foreign location"
+       }
+      },
+      {
+       "t": "li",
+       "src": "CLUB-18 EXP-20",
+       "text": {
+        "hi": "क्वालिफ़ाई करने पर अमेरिका या कनाडा, और एशिया या ऑस्ट्रेलिया में MDRT सम्मेलन",
+        "en": "MDRT conventions in the USA or Canada, and in Asia or Australia, on qualifying"
+       }
+      },
+      {
+       "t": "li",
+       "src": "CLUB-06 EXP-20",
+       "text": {
+        "hi": "पूरे भारत में कर्मचारी दरों पर गेस्ट-हाउस की सुविधा",
+        "en": "Guest-house facility across India at employee rates"
+       }
+      },
+      {
+       "t": "li",
+       "src": "BEN-18 EXP-20",
+       "text": {
+        "hi": "लीव ट्रैवल कंसेशन (L.T.C.)",
+        "en": "Leave travel concession (L.T.C.)"
+       }
+      },
+      {
+       "t": "li",
+       "src": "BS-11 EXP-20",
+       "text": {
+        "hi": "बीमा सखियों के लिए: नई संस्कृतियों और धार्मिक विरासत को देखने-समझने के लिए यात्रा का अवसर",
+        "en": "For Bima Sakhis: an opportunity to tour and explore new cultures and religious heritage"
+       }
+      }
+     ],
+     "cls": [
+      "checklist"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "टॉप प्रदर्शन करने वालों के लिए प्रतियोगिता इनाम, जिनमें यात्राएँ भी शामिल हैं।",
+      "en": "Contest rewards for top performers, including trips."
+     },
+     "src": "BS-41 EXP-20"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "क्वालिफ़ाई करने वालों के लिए अंतरराष्ट्रीय सम्मेलन विदेश में अलग-अलग जगहों पर होते हैं।",
+      "en": "For those who qualify, international conventions are held at destinations abroad."
+     },
+     "src": "EXP-21"
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "भारत इंतज़ार कर रहा है",
+      "en": "India is waiting"
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "आध्यात्मिक यात्राएँ",
+          "en": "Spiritual journeys"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "केदारनाथ · बद्रीनाथ · अमरनाथ · काशी · अयोध्या · सोमनाथ · जगन्नाथ पुरी · रामेश्वरम · द्वारका · स्वर्ण मंदिर · वैष्णो देवी",
+          "en": "Kedarnath · Badrinath · Amarnath · Kashi · Ayodhya · Somnath · Jagannath Puri · Rameshwaram · Dwarka · Golden Temple · Vaishno Devi"
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "प्रकृति और संस्कृति",
+          "en": "Nature and culture"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "पूर्वोत्तर · लद्दाख · मेघालय · केरल · गोवा · राजस्थान · कच्छ · हम्पी · अंडमान",
+          "en": "The North East · Ladakh · Meghalaya · Kerala · Goa · Rajasthan · Kutch · Hampi · Andaman"
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      }
+     ],
+     "src": "EXP-22",
+     "cls": [
+      "grid"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>क्या आप इन जगहों को देखने के लिए रिटायरमेंट तक इंतज़ार करना चाहते हैं… या अभी, जब आप जवान हैं?</strong>",
+      "en": "<strong>Do you want to wait until retirement to see these places… or visit them while you’re still young?</strong>"
+     },
+     "src": "EXP-22"
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "केदारनाथ धैर्य सिखाता है।",
+        "en": "Kedarnath teaches patience."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "वाराणसी समय की निरंतरता सिखाता है।",
+        "en": "Varanasi teaches the continuity of time."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "लद्दाख ख़ामोशी की ताक़त सिखाता है।",
+        "en": "Ladakh teaches the power of silence."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "स्वर्ण मंदिर सेवा का अर्थ सिखाता है।",
+        "en": "The Golden Temple teaches the meaning of seva — service."
+       }
+      }
+     ],
+     "src": "EXP-23"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "भारत हमें विविधता में सम्मान, संस्कृति में विनम्रता और यात्रा में सीख देता है। रखने लायक एक लक्ष्य: हर साल भारत का एक नया राज्य देखना।",
+      "en": "India teaches us respect in diversity, humility in culture and learning in travel. A goal worth setting: see one new state of India every year."
+     },
+     "src": "EXP-23"
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "h4",
+       "text": {
+        "hi": "मेरे सपनों के भारत की सूची",
+        "en": "My Dream India checklist"
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "जिन जगहों को आप देखना चाहते हैं, उन पर टिक कीजिए। (आपके टिक आपकी स्क्रीन पर ही रहेंगे।)",
+        "en": "Tick the places you want to see. (Your ticks stay on your screen.)"
+       }
+      },
+      {
+       "t": "ul",
+       "items": [
+        {
+         "t": "li",
+         "text": {
+          "hi": "केदारनाथ",
+          "en": "Kedarnath"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "बद्रीनाथ",
+          "en": "Badrinath"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "काशी",
+          "en": "Kashi"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "अयोध्या",
+          "en": "Ayodhya"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "द्वारका",
+          "en": "Dwarka"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "रामेश्वरम्",
+          "en": "Rameshwaram"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "अमृतसर",
+          "en": "Amritsar"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "लद्दाख",
+          "en": "Ladakh"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "मेघालय",
+          "en": "Meghalaya"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "सिक्किम",
+          "en": "Sikkim"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "कच्छ",
+          "en": "Kutch"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "केरल",
+          "en": "Kerala"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "अंडमान",
+          "en": "Andaman"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "कोणार्क",
+          "en": "Konark"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "हम्पी",
+          "en": "Hampi"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "काज़ीरंगा",
+          "en": "Kaziranga"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "सुंदरबन",
+          "en": "Sundarbans"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "अन्य:",
+          "en": "Other:"
+         }
+        }
+       ],
+       "cls": [
+        "doc-check",
+        "checklist-cols"
+       ]
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "टिक की गई जगहें: 0",
+        "en": "Places ticked: 0"
+       }
+      }
+     ],
+     "src": "EXP-24",
+     "cls": [
+      "calc"
+     ],
+     "id": "exp24"
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "figure",
+       "children": [
+        {
+         "t": "img",
+         "file": "/site-assets/ddl-varanasi-ganga-aarti.jpg",
+         "alt": {
+          "hi": "वाराणसी के घाट पर पीतल के ऊँचे दीपों के साथ शाम की गंगा आरती करते पुजारी",
+          "en": "Priests performing the evening Ganga aarti with tall brass lamps on the ghats of Varanasi"
+         }
+        },
+        {
+         "t": "figcaption",
+         "text": {
+          "hi": "गंगा आरती, वाराणसी",
+          "en": "Ganga aarti, Varanasi"
+         }
+        }
+       ]
+      },
+      {
+       "t": "figure",
+       "children": [
+        {
+         "t": "img",
+         "file": "/site-assets/ddl-golden-temple.jpg",
+         "alt": {
+          "hi": "नीले आसमान के नीचे अमृतसर का स्वर्ण मंदिर, पवित्र सरोवर में उसकी परछाईं",
+          "en": "The Golden Temple in Amritsar reflected in its sacred pool under a blue sky"
+         }
+        },
+        {
+         "t": "figcaption",
+         "text": {
+          "hi": "स्वर्ण मंदिर, अमृतसर",
+          "en": "Golden Temple, Amritsar"
+         }
+        }
+       ]
+      },
+      {
+       "t": "figure",
+       "children": [
+        {
+         "t": "img",
+         "file": "/site-assets/ddl-jagannath-puri.jpg",
+         "alt": {
+          "hi": "पुरी का जगन्नाथ मंदिर, साफ़ आसमान में ऊँचे शिखर पर लहराता झंडा",
+          "en": "The Jagannath temple in Puri, its tall spire topped with a flag against a clear sky"
+         }
+        },
+        {
+         "t": "figcaption",
+         "text": {
+          "hi": "जगन्नाथ पुरी",
+          "en": "Jagannath Puri"
+         }
+        }
+       ]
+      },
+      {
+       "t": "figure",
+       "children": [
+        {
+         "t": "img",
+         "file": "/site-assets/ddl-rann-of-kutch.jpg",
+         "alt": {
+          "hi": "कच्छ के रण के अंतहीन सफ़ेद नमक के मैदान पर सूर्यास्त",
+          "en": "Sunset over the endless white salt desert of the Rann of Kutch"
+         }
+        },
+        {
+         "t": "figcaption",
+         "text": {
+          "hi": "कच्छ का रण",
+          "en": "Rann of Kutch"
+         }
+        }
+       ]
+      },
+      {
+       "t": "figure",
+       "children": [
+        {
+         "t": "img",
+         "file": "/site-assets/24.jpg",
+         "alt": {
+          "hi": "कोलाज: जम्मू-कश्मीर के हिल स्टेशन, गोवा का बीच, दार्जिलिंग, गंगटोक और पुरी का समुद्र तट",
+          "en": "Collage: hill stations in Jammu and Kashmir, Goa beach, Darjeeling, Gangtok and Puri beach"
+         }
+        },
+        {
+         "t": "figcaption",
+         "text": {
+          "hi": "जम्मू-कश्मीर के हिल स्टेशन · गोवा · दार्जिलिंग · गंगटोक · पुरी बीच",
+          "en": "Hill stations in Jammu &amp; Kashmir · Goa · Darjeeling · Gangtok · Puri beach"
+         }
+        }
+       ]
+      },
+      {
+       "t": "figure",
+       "children": [
+        {
+         "t": "img",
+         "file": "/site-assets/25.jpg",
+         "alt": {
+          "hi": "भारत के छह तीर्थ मंदिरों और उनके देवी-देवताओं का कोलाज",
+          "en": "Collage of six Indian pilgrimage temples and their deities"
+         }
+        },
+        {
+         "t": "figcaption",
+         "text": {
+          "hi": "भारत के तीर्थ मंदिर",
+          "en": "Pilgrimage temples of India"
+         }
+        }
+       ]
+      },
+      {
+       "t": "figure",
+       "children": [
+        {
+         "t": "img",
+         "file": "/site-assets/26.jpg",
+         "alt": {
+          "hi": "कोलाज: मुंबई का गेटवे ऑफ़ इंडिया, हैदराबाद की रामोजी फ़िल्म सिटी, ताजमहल, ऋषिकेश और स्वर्ण मंदिर",
+          "en": "Collage: Gateway of India in Mumbai, Ramoji Film City in Hyderabad, Taj Mahal, Rishikesh and the Golden Temple"
+         }
+        },
+        {
+         "t": "figcaption",
+         "text": {
+          "hi": "गेटवे ऑफ़ इंडिया, मुंबई · रामोजी फ़िल्म सिटी, हैदराबाद · ताजमहल · ऋषिकेश · स्वर्ण मंदिर",
+          "en": "Gateway of India, Mumbai · Ramoji Film City, Hyderabad · Taj Mahal · Rishikesh · Golden Temple"
+         }
+        }
+       ]
+      }
+     ],
+     "src": "EXP-25",
+     "cls": [
+      "photo-grid"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "भारत सिर्फ़ एक नक़्शा नहीं है। यह संस्कृति, आध्यात्मिकता, विविधता, प्रेरणा, सीख और ज़िंदगी का अनुभव है। ये सिर्फ़ टूरिस्ट जगहें नहीं — ये भारत की आत्मा हैं। इन्हें देखने से सिर्फ़ फ़ोटो नहीं मिलतीं; इंसान बदल जाता है।",
+      "en": "India is not just a map. It is culture, spirituality, diversity, inspiration, learning and life experience. These aren’t just tourist spots — they are India’s soul. Seeing them doesn’t just give you photos; it changes you."
+     },
+     "src": "EXP-26"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "सोचिए — एक हफ़्ते वाराणसी में सुबह… अगले हफ़्ते केदारनाथ में सूर्योदय… फिर हम्पी की सैर… मानसून में मेघालय… और इस पूरे सफ़र में एक सार्थक करियर बनाते हुए। जीना शुरू करने के लिए रिटायरमेंट का इंतज़ार मत कीजिए।",
+      "en": "Imagine waking up in Varanasi one week… watching the sunrise at Kedarnath the next… walking through Hampi after that… exploring Meghalaya in the monsoon… and building a meaningful career all along the way. Don’t wait until retirement to start living."
+     },
+     "src": "EXP-27",
+     "cls": [
+      "band"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "जीने के लिए कुछ शब्द",
+      "en": "Words to live by"
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "<strong>सबसे अमीर व्यक्ति वह नहीं होता जिसके पास सबसे अधिक पैसा हो। सबसे अमीर वह होता है जिसके पास अपने समय पर अधिकार हो।</strong>",
+        "en": "<strong>सबसे अमीर व्यक्ति वह नहीं होता जिसके पास सबसे अधिक पैसा हो। सबसे अमीर वह होता है जिसके पास अपने समय पर अधिकार हो।</strong> <em>The richest person isn’t the one with the biggest salary. It’s the one who owns time.</em>"
+       },
+       "src": "EXP-28",
+       "cls": [
+        "quote-card"
+       ]
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "<strong>सिर्फ पैसा मत कमाओ… ऐसी ज़िंदगी कमाओ जिसमें यादें भी हों।</strong>",
+        "en": "<strong>सिर्फ पैसा मत कमाओ… ऐसी ज़िंदगी कमाओ जिसमें यादें भी हों।</strong> <em>Don’t collect only money. Collect memories across India.</em>"
+       },
+       "src": "EXP-29",
+       "cls": [
+        "quote-card"
+       ]
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "<strong>नौकरी आपको वेतन देती है। उद्यमिता आपको समय की स्वतंत्रता देती है।</strong>",
+        "en": "<strong>नौकरी आपको वेतन देती है। उद्यमिता आपको समय की स्वतंत्रता देती है।</strong> <em>A job gives you a salary. Entrepreneurship gives you time freedom.</em>"
+       },
+       "src": "EXP-30",
+       "cls": [
+        "quote-card"
+       ]
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "<strong>भारत को सिर्फ सोशल मीडिया पर मत देखो। उसे अपनी आँखों से देखो, अपने कदमों से महसूस करो।</strong>",
+        "en": "<strong>भारत को सिर्फ सोशल मीडिया पर मत देखो। उसे अपनी आँखों से देखो, अपने कदमों से महसूस करो।</strong> <em>Life is too short to know India only through Instagram. Go and experience it yourself.</em>"
+       },
+       "src": "EXP-31",
+       "cls": [
+        "quote-card"
+       ]
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "<strong>कमाओ अपने शहर में… पहचान बनाओ पूरे भारत में।</strong>",
+        "en": "<strong>कमाओ अपने शहर में… पहचान बनाओ पूरे भारत में।</strong> <em>Earn in your city. Explore the entire country.</em>"
+       },
+       "src": "EXP-32",
+       "cls": [
+        "quote-card"
+       ]
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "<strong>रिटायरमेंट के बाद दुनिया घूमने का इंतज़ार मत करो। ऐसा करियर बनाओ जो युवावस्था में ही तुम्हें घूमने की आज़ादी दे।</strong>",
+        "en": "<strong>रिटायरमेंट के बाद दुनिया घूमने का इंतज़ार मत करो। ऐसा करियर बनाओ जो युवावस्था में ही तुम्हें घूमने की आज़ादी दे।</strong> <em>Some people wait for retirement to travel. Entrepreneurs travel while building their future.</em>"
+       },
+       "src": "EXP-33",
+       "cls": [
+        "quote-card"
+       ]
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "<strong>तुम्हारा ऑफिस चार दीवारें नहीं होना चाहिए। तुम्हारा ऑफिस पूरा भारत होना चाहिए।</strong>",
+        "en": "<strong>तुम्हारा ऑफिस चार दीवारें नहीं होना चाहिए। तुम्हारा ऑफिस पूरा भारत होना चाहिए।</strong> <em>Your office shouldn’t become your prison. Your profession should become your passport.</em>"
+       },
+       "src": "EXP-34",
+       "cls": [
+        "quote-card"
+       ]
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "<strong>जीवन का सबसे बड़ा लाभ बैंक बैलेंस नहीं… जीवन के अनुभव हैं।</strong>",
+        "en": "<strong>जीवन का सबसे बड़ा लाभ बैंक बैलेंस नहीं… जीवन के अनुभव हैं।</strong> <em>Life’s greatest gain isn’t a bank balance… it’s life’s experiences.</em>"
+       },
+       "src": "EXP-35",
+       "cls": [
+        "quote-card"
+       ]
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "<strong>ऐसा करियर चुनो जो तुम्हें मंज़िल भी दे और रास्ते का आनंद भी।</strong>",
+        "en": "<strong>ऐसा करियर चुनो जो तुम्हें मंज़िल भी दे और रास्ते का आनंद भी।</strong> <em>Choose a career that gives you both the destination and the joy of the journey.</em>"
+       },
+       "src": "EXP-36",
+       "cls": [
+        "quote-card"
+       ]
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "<strong>ज़िंदगी सिर्फ कमाने के लिए नहीं… ज़िंदगी जीने के लिए भी है।</strong>",
+        "en": "<strong>ज़िंदगी सिर्फ कमाने के लिए नहीं… ज़िंदगी जीने के लिए भी है।</strong> <em>Life isn’t only for earning… it’s for living, too.</em>"
+       },
+       "src": "EXP-37",
+       "cls": [
+        "quote-card"
+       ]
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "<strong>कमाई ऐसी हो… जो सपनों को मंज़िल तक पहुँचा दे।</strong>",
+        "en": "<strong>कमाई ऐसी हो… जो सपनों को मंज़िल तक पहुँचा दे।</strong> <em>Let your earnings be the kind that carry your dreams all the way home.</em>"
+       },
+       "src": "EXP-38",
+       "cls": [
+        "quote-card"
+       ]
+      },
+      {
+       "t": "blockquote",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "हिमालय आपका पद नहीं पूछता। वह पूछता है कि क्या आपने उससे मिलने का समय निकाला।",
+          "en": "The Himalayas don’t ask your designation. They ask whether you made time to visit."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "सफलता आपकी कार से नहीं मापी जाती। वह उन जगहों से मापी जाती है, जहाँ आपने ज़िंदगी जी, और उन लोगों से, जिनकी ज़िंदगी को आपने छुआ।",
+          "en": "Success isn’t measured by the car you own. It’s measured by the places you’ve lived and the lives you’ve touched."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "बुढ़ापे के लिए पैसा कमाने में अपनी जवानी मत बिताइए। ऐसा पेशा बनाइए, जो जवानी में ही जीने दे।",
+          "en": "Don’t spend your youth earning money for old age. Build a profession that lets you live while you’re young."
+         }
+        }
+       ],
+       "src": "EXP-39",
+       "cls": [
+        "quote-card"
+       ]
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "भारत सिर्फ़ रहने का देश नहीं है। यह अनुभव करने लायक एक सभ्यता है। ऐसा करियर चुनिए, जो आपको ईमानदारी से कमाने, परिवारों की सेवा करने और हमारे देश की अद्भुत विविधता को जानने दे — एक-एक सफ़र करके।",
+        "en": "India is not just a country to live in. It is a civilisation to experience. Choose a career that lets you earn with integrity, serve families, and explore the incredible diversity of our nation — one journey at a time."
+       },
+       "src": "EXP-40",
+       "cls": [
+        "quote-card"
+       ]
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "<strong>जीवन की सबसे सुंदर तस्वीरें मोबाइल की गैलरी में नहीं… दिल की यादों में बनती हैं।</strong>",
+        "en": "<strong>जीवन की सबसे सुंदर तस्वीरें मोबाइल की गैलरी में नहीं… दिल की यादों में बनती हैं।</strong> <em>Life’s most beautiful pictures aren’t made in your phone’s gallery… they’re made in the memories of your heart.</em>"
+       },
+       "src": "EXP-41",
+       "cls": [
+        "quote-card"
+       ]
+      },
+      {
+       "t": "blockquote",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "Don’t choose a career. Choose a life. सिर्फ़ करियर मत चुनिए — ज़िंदगी चुनिए।",
+          "en": "Don’t choose a career. Choose a life."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "Don’t follow the crowd. Follow your calling. भीड़ के पीछे मत चलिए — अपने दिल की पुकार सुनिए।",
+          "en": "Don’t follow the crowd. Follow your calling."
+         }
+        }
+       ],
+       "src": "EXP-42",
+       "cls": [
+        "quote-card"
+       ]
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "<strong>सफलता केवल इस बात से नहीं मापी जाती कि आपने कितना कमाया। सफलता इस बात से भी मापी जाती है कि आपने कितने लोगों के जीवन में सकारात्मक परिवर्तन लाया।</strong>",
+        "en": "<strong>सफलता केवल इस बात से नहीं मापी जाती कि आपने कितना कमाया। सफलता इस बात से भी मापी जाती है कि आपने कितने लोगों के जीवन में सकारात्मक परिवर्तन लाया।</strong> <em>Success isn’t measured only by how much you earned. It’s also measured by how many lives you changed for the better.</em>"
+       },
+       "src": "EXP-43",
+       "cls": [
+        "quote-card"
+       ]
+      },
+      {
+       "t": "blockquote",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "Dream Big. Learn Continuously. Serve Honestly. Live Meaningfully. बड़े सपने देखिए। लगातार सीखिए। ईमानदारी से सेवा कीजिए। सार्थक ज़िंदगी जिएँ।",
+          "en": "Dream Big. Learn Continuously. Serve Honestly. Live Meaningfully."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "<strong>🇮🇳 जय हिन्द 🇮🇳</strong>",
+          "en": "<strong>🇮🇳 जय हिन्द 🇮🇳</strong> <em>Jai Hind</em>"
+         }
+        }
+       ],
+       "src": "EXP-44",
+       "cls": [
+        "quote-card"
+       ]
+      }
+     ],
+     "cls": [
+      "grid",
+      "quote-wall"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "परिवारों को आपकी ज़रूरत क्यों है",
+      "en": "Why families need you"
+     }
+    },
+    {
+     "t": "ol",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "एक अच्छी सलाह",
+        "en": "One piece of good advice"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "एक सुरक्षित परिवार",
+        "en": "One secure family"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "आत्मविश्वासी बच्चे",
+        "en": "Confident children"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "एक मज़बूत समाज",
+        "en": "A stronger society"
+       }
+      }
+     ],
+     "src": "EXP-45",
+     "cls": [
+      "flow"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>आपका काम सिर्फ़ एक इंसान तक सीमित नहीं रहता।</strong>",
+      "en": "<strong>Your work doesn’t stay limited to one person.</strong>"
+     },
+     "src": "EXP-45"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "क्या हर परिवार योजना भी बनाता है? वहीं से एक वित्तीय सलाहकार की भूमिका शुरू होती है। आप एक पिता को यह भरोसा देते हैं कि अगर ज़िंदगी में अनिश्चितता आई, तो उसके परिवार की देखभाल होगी। आप अनिश्चित भविष्य में उम्मीद का दीया जलाते हैं।",
+      "en": "Does every family also make a plan? That is where a financial advisor’s role begins. You give a father the confidence that if life turns uncertain, his family will be taken care of. You light a lamp of hope in an uncertain future."
+     },
+     "src": "EXP-46"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "तनख़्वाह के लिए या मक़सद के लिए? मैं नहीं कहता कि तनख़्वाह ग़लत है — वह मायने रखती है। लेकिन अगर आपके पास ऐसा मौक़ा हो, जिसमें आय, मक़सद, सीखना और लोगों की ज़िंदगी पर अच्छा असर — सब हो… तो क्या वह सोचने लायक नहीं?",
+      "en": "Salary-driven or purpose-driven? I’m not saying salary is wrong — it matters. But if you had an opportunity with income, purpose, learning and a positive impact on people’s lives… isn’t it worth considering?"
+     },
+     "src": "EXP-47"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "जब आप 70 साल के होंगे, तो आपको किस बात का ज़्यादा अफ़सोस होगा — कि आपने थोड़ा कम पैसा कमाया, या कि आपने अपने सपने जीने के लिए कभी समय ही नहीं निकाला?",
+      "en": "When you are 70, what will you regret most — that you earned a little less money, or that you never made time to live your dreams?"
+     },
+     "src": "EXP-48",
+     "cls": [
+      "band"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "अपनी सपनों की ज़िंदगी डिज़ाइन कीजिए",
+      "en": "Design your dream life"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>Dream Life संयोग से नहीं बनती। Dream Life डिज़ाइन की जाती है।</strong>",
+      "en": "<strong>Dream Life संयोग से नहीं बनती। Dream Life डिज़ाइन की जाती है।</strong> <em>A dream life doesn’t happen by chance. A dream life is designed.</em>"
+     },
+     "src": "EXP-49"
+    },
+    {
+     "t": "form",
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "कुछ शांत पल निकालिए। आपके जवाब आपकी स्क्रीन पर ही रहेंगे — कुछ भी सेव या भेजा नहीं जाता।",
+        "en": "Take a few quiet minutes. Your answers stay on your screen — nothing is saved or sent."
+       }
+      },
+      {
+       "t": "fieldset",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "पाँच सवाल",
+          "en": "Five questions"
+         }
+        },
+        {
+         "t": "label",
+         "text": {
+          "hi": "मुझे कैसी ज़िंदगी चाहिए?",
+          "en": "What kind of life do I want?"
+         },
+         "for": "exp49-1"
+        },
+        {
+         "t": "textarea",
+         "text": null,
+         "id": "exp49-1",
+         "rows": "2"
+        },
+        {
+         "t": "label",
+         "text": {
+          "hi": "मेरे लिए सफलता का मतलब क्या है?",
+          "en": "What does success mean to me?"
+         },
+         "for": "exp49-2"
+        },
+        {
+         "t": "textarea",
+         "text": null,
+         "id": "exp49-2",
+         "rows": "2"
+        },
+        {
+         "t": "label",
+         "text": {
+          "hi": "अपने परिवार के साथ मुझे कितना समय चाहिए?",
+          "en": "How much time do I want with my family?"
+         },
+         "for": "exp49-3"
+        },
+        {
+         "t": "textarea",
+         "text": null,
+         "id": "exp49-3",
+         "rows": "2"
+        },
+        {
+         "t": "label",
+         "text": {
+          "hi": "भारत की कौन-सी जगहें मुझे देखनी हैं?",
+          "en": "Which places in India do I want to see?"
+         },
+         "for": "exp49-4"
+        },
+        {
+         "t": "textarea",
+         "text": null,
+         "id": "exp49-4",
+         "rows": "2"
+        },
+        {
+         "t": "label",
+         "text": {
+          "hi": "समाज मुझे किस रूप में याद रखे?",
+          "en": "How do I want to be remembered in society?"
+         },
+         "for": "exp49-5"
+        },
+        {
+         "t": "textarea",
+         "text": null,
+         "id": "exp49-5",
+         "rows": "2"
+        }
+       ],
+       "src": "EXP-49"
+      },
+      {
+       "t": "fieldset",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "मेरा विज़न बोर्ड — अगले 10 सालों में",
+          "en": "My vision board — in the next 10 years"
+         }
+        },
+        {
+         "t": "label",
+         "text": {
+          "hi": "मुझे क्या बनना है?",
+          "en": "What do I want to become?"
+         },
+         "for": "exp50-1"
+        },
+        {
+         "t": "textarea",
+         "text": null,
+         "id": "exp50-1",
+         "rows": "2"
+        },
+        {
+         "t": "label",
+         "text": {
+          "hi": "मुझे किसकी मदद करनी है?",
+          "en": "Whom do I want to help?"
+         },
+         "for": "exp50-2"
+        },
+        {
+         "t": "textarea",
+         "text": null,
+         "id": "exp50-2",
+         "rows": "2"
+        },
+        {
+         "t": "label",
+         "text": {
+          "hi": "मुझे कहाँ घूमना है?",
+          "en": "Where do I want to travel?"
+         },
+         "for": "exp50-3"
+        },
+        {
+         "t": "textarea",
+         "text": null,
+         "id": "exp50-3",
+         "rows": "2"
+        },
+        {
+         "t": "label",
+         "text": {
+          "hi": "मुझे अपने परिवार के लिए क्या करना है?",
+          "en": "What do I want to do for my family?"
+         },
+         "for": "exp50-4"
+        },
+        {
+         "t": "textarea",
+         "text": null,
+         "id": "exp50-4",
+         "rows": "2"
+        },
+        {
+         "t": "label",
+         "text": {
+          "hi": "लोग मुझे किस रूप में याद रखें?",
+          "en": "How do I want to be remembered?"
+         },
+         "for": "exp50-5"
+        },
+        {
+         "t": "textarea",
+         "text": null,
+         "id": "exp50-5",
+         "rows": "2"
+        }
+       ],
+       "src": "EXP-50"
+      },
+      {
+       "t": "fieldset",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "मेरे माता-पिता का सपना",
+          "en": "My parents’ dream"
+         }
+        },
+        {
+         "t": "label",
+         "text": {
+          "hi": "मेरे माता-पिता ज़िंदगी में कौन-सी यात्रा करना चाहते हैं? (शायद उन्हें चार धाम यात्रा पर ले जाना…)",
+          "en": "Which journey do my parents want to make in life? (Taking them on the Char Dham yatra, perhaps…)"
+         },
+         "for": "exp51"
+        },
+        {
+         "t": "textarea",
+         "text": null,
+         "id": "exp51",
+         "rows": "2"
+        }
+       ],
+       "src": "EXP-51"
+      }
+     ],
+     "cls": [
+      "calc",
+      "reflect"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>“सपनों को लिखिए… क्योंकि लिखे हुए सपने ही योजनाएँ बनते हैं, और योजनाएँ ही एक दिन वास्तविकता।”</strong>",
+      "en": "<strong>“सपनों को लिखिए… क्योंकि लिखे हुए सपने ही योजनाएँ बनते हैं, और योजनाएँ ही एक दिन वास्तविकता।”</strong> <em>“Write your dreams down… because written dreams become plans, and plans one day become reality.”</em>"
+     },
+     "src": "EXP-52",
+     "cls": [
+      "band"
+     ]
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "h4",
+       "text": {
+        "hi": "मेरी जीवन प्रतिज्ञा (वैकल्पिक)",
+        "en": "My life pledge (optional)"
+       }
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "मेरा काम सिर्फ़ आय के लिए नहीं होगा।",
+          "en": "मेरा काम सिर्फ़ आय के लिए नहीं होगा।"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "अपने काम के ज़रिए लोगों की ज़िंदगी में सकारात्मक योगदान देना मेरी कोशिश रहेगी।",
+          "en": "अपने काम के ज़रिए लोगों की ज़िंदगी में सकारात्मक योगदान देना मेरी कोशिश रहेगी।"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "सीखना मेरे लिए कभी नहीं रुकेगा।",
+          "en": "सीखना मेरे लिए कभी नहीं रुकेगा।"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "अपने परिवार, अपने सपनों और अपने देश के लिए मेरे पास समय होगा।",
+          "en": "अपने परिवार, अपने सपनों और अपने देश के लिए मेरे पास समय होगा।"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "मेरी ज़िंदगी ऐसी होगी, जिस पर मुझे गर्व हो।",
+          "en": "मेरी ज़िंदगी ऐसी होगी, जिस पर मुझे गर्व हो।"
+         }
+        }
+       ],
+       "lang": "hi"
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "I will not work only for income.",
+          "en": "I will not work only for income."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "Through my work, I will try to make a positive difference in people’s lives.",
+          "en": "Through my work, I will try to make a positive difference in people’s lives."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "I will never stop learning.",
+          "en": "I will never stop learning."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "I will make time for my family, my dreams and my country.",
+          "en": "I will make time for my family, my dreams and my country."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "I will build a life I can be proud of.",
+          "en": "I will build a life I can be proud of."
+         }
+        }
+       ],
+       "lang": "en"
+      }
+     ],
+     "src": "EXP-53",
+     "cls": [
+      "quote-card"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "p",
+   "text": {
+    "hi": "हमारा मिशन: हर युवा अपने करियर के ज़रिए सिर्फ़ आय ही न कमाए, बल्कि भारत की संस्कृति, आध्यात्मिक विरासत, विविधता और मानवीय मूल्यों को जाने, समझे और महसूस भी करे — और वित्तीय सलाहकार का पेशा ज़िंदगी बनाने, परिवारों की सुरक्षा करने और देश से जुड़ने का ज़रिया बने।",
+    "en": "Our mission: that every young person, through their career, not only earns an income but also gets to know, understand and experience India’s culture, spiritual heritage, diversity and human values — with the financial-advisor profession as a way to build a life, protect families and connect with the nation."
+   },
+   "src": "EXP-04"
+  },
+  {
+   "t": "aside",
+   "children": [
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>अगर आप ऐसा करियर चाहते हैं, जो सिर्फ़ नौकरी नहीं, बल्कि मक़सद, पहचान, आय और समय की आज़ादी दे — तो मुझसे मिलिए। आइए, बात करें कि आपके लिए यह सफ़र कैसा हो सकता है।</strong>",
+      "en": "<strong>If you want a career that gives you not just a job but purpose, identity, income and time freedom — meet me. Let’s talk about what this journey could look like for you.</strong>"
+     },
+     "src": "EXP-54"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "आज मैं आपको नौकरी का ऑफ़र नहीं दे रहा। मैं आपको सोचने का न्योता दे रहा हूँ। अगर आपको लोगों से मिलना और सीखना अच्छा लगता है, और आप समाज में योगदान देना और अपनी मेहनत से अपना भविष्य बनाना चाहते हैं — तो आइए, इस करियर को समझिए। सवाल पूछिए। सीखिए। फिर फ़ैसला कीजिए। फ़ैसला आपका होगा — लेकिन वह जानकारी और समझ पर टिका होना चाहिए।",
+      "en": "Today I’m not offering you a job. I’m inviting you to think. If you like meeting people, enjoy learning, want to contribute to society and build your future through your own effort — come and understand this career. Ask questions. Learn. Then decide. The decision will be yours — but it should rest on information and understanding."
+     },
+     "src": "EXP-55"
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "a",
+       "href": "#apply",
+       "text": {
+        "hi": "करियर ओरिएंटेशन बुक करें",
+        "en": "Book a career orientation"
+       },
+       "cls": [
+        "cta"
+       ]
+      },
+      {
+       "t": "a",
+       "href": "tel:+919973055291",
+       "text": {
+        "hi": "अभी कॉल करें: <span>9973055291</span>",
+        "en": "Call now: <span>9973055291</span>"
+       },
+       "src": "G-02",
+       "cls": [
+        "cta",
+        "secondary"
+       ]
+      }
+     ],
+     "cls": [
+      "btn-row"
+     ]
+    }
+   ],
+   "cls": [
+    "page-cta"
+   ]
+  }
+ ],
+ "id": "explore"
+}

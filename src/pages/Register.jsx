@@ -2,7 +2,10 @@ import { useEffect, useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 
-import ShieldMark from "../components/ShieldMark.jsx";
+import AuthShell from "../components/auth/AuthShell.jsx";
+import AuthField, { AuthNotice, AuthSubmit } from "../components/auth/AuthField.jsx";
+import LoginCard from "../components/LoginCard.jsx";
+import { PORTAL_CARDS } from "../components/auth/portalCards.js";
 import { useRegisterMutation } from "../app/apis/learner.api.js";
 import { getUserMessage } from "../app/apis/apiError.js";
 import { selectIsAuthenticated } from "../app/features/auth/auth.selectors.js";
@@ -69,42 +72,47 @@ const Register = () => {
   );
 
   return (
-    <div className="min-h-screen bg-linear-to-br from-black via-black/95 to-green-950 text-zinc-100 flex items-center justify-center p-6">
-      <div className="w-full max-w-md">
-        <div className="flex items-center justify-between mb-6">
-          <ShieldMark />
-          <NavLink to="/" className="text-sm text-zinc-400 hover:text-zinc-200">
-            <span>{"<"}</span> back home
-          </NavLink>
-        </div>
-
-        <h1 className="text-3xl font-semibold">Create your account</h1>
-        <p className="text-zinc-500 text-sm mt-2">
+    <AuthShell
+      title="Create your account · LICPro Academy"
+      headline="Get Started with Us"
+      highlight="Started"
+      sub="Free to start. You'll complete your profile next, then request a batch."
+      note="IC-38 · IRDAI exam prep"
+      wide
+      cards={PORTAL_CARDS.map((card, i) => (
+        <LoginCard key={card.id} index={i} title={card.title} des={card.des} icon={card.icon} motif={card.motif} />
+      ))}
+    >
+      <div className="rounded-[28px] bg-white p-7 shadow-lift ring-1 ring-ink/[0.06] sm:p-9 short:p-7 tiny:p-6">
+        <h1 className="h-display text-[2.25rem] font-extrabold text-ink short:text-[2rem]">Create your account</h1>
+        <p className="mt-2 text-[15px] leading-relaxed text-plum">
           Free to start. You&apos;ll complete your profile next, then request a
           batch.
         </p>
 
-        <form onSubmit={handleSubmit} className="mt-6 flex flex-col gap-4" noValidate>
-          <Field
-            id="fullName"
-            label="Full name"
-            value={form.fullName}
-            onChange={handleChange}
-            issue={issues.fullName}
-            autoComplete="name"
-            required
-          />
-          <Field
-            id="email"
-            label="Email"
-            type="email"
-            value={form.email}
-            onChange={handleChange}
-            issue={issues.email}
-            autoComplete="email"
-            required
-          />
-          <Field
+        <form onSubmit={handleSubmit} className="mt-6 flex flex-col gap-5 short:mt-5 short:gap-4" noValidate>
+          <div className="grid gap-5 sm:grid-cols-2 short:gap-4">
+            <AuthField
+              id="fullName"
+              label="Full name"
+              value={form.fullName}
+              onChange={handleChange}
+              issue={issues.fullName}
+              autoComplete="name"
+              required
+            />
+            <AuthField
+              id="email"
+              label="Email"
+              type="email"
+              value={form.email}
+              onChange={handleChange}
+              issue={issues.email}
+              autoComplete="email"
+              required
+            />
+          </div>
+          <AuthField
             id="password"
             label="Password"
             type="password"
@@ -120,69 +128,45 @@ const Register = () => {
             autoComplete="new-password"
             required
           />
-          <Field
-            id="username"
-            label="Username"
-            value={form.username}
-            onChange={handleChange}
-            issue={issues.username}
-            hint="optional — lowercase letters, digits, underscore"
-            autoComplete="username"
-          />
-          <Field
-            id="phone"
-            label="Phone"
-            value={form.phone}
-            onChange={handleChange}
-            issue={issues.phone}
-            hint="optional — e.g. +919812345678"
-            autoComplete="tel"
-          />
+          <div className="grid gap-5 sm:grid-cols-2 short:gap-4">
+            <AuthField
+              id="username"
+              label="Username"
+              value={form.username}
+              onChange={handleChange}
+              issue={issues.username}
+              hint="optional — lowercase letters, digits, underscore"
+              autoComplete="username"
+            />
+            <AuthField
+              id="phone"
+              label="Phone"
+              value={form.phone}
+              onChange={handleChange}
+              issue={issues.phone}
+              hint="optional — e.g. +919812345678"
+              autoComplete="tel"
+            />
+          </div>
 
           {error && !error.details?.length && (
-            <div className="rounded-md bg-red-500/10 border border-red-500/30 px-3 py-2">
-              <p className="text-red-400 text-xs font-semibold">
-                {getUserMessage(error, "Couldn't create your account.")}
-              </p>
-            </div>
+            <AuthNotice tone="error">{getUserMessage(error, "Couldn't create your account.")}</AuthNotice>
           )}
 
-          <button
-            type="submit"
-            disabled={isLoading || passwordWeak}
-            className="mt-2 px-6 py-3 w-full rounded-md bg-green-900 hover:bg-green-700 text-zinc-100 font-medium transition-colors disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer"
-          >
+          <AuthSubmit busy={isLoading} disabled={isLoading || passwordWeak}>
             {isLoading ? "Creating…" : "Create account"}
-          </button>
+          </AuthSubmit>
         </form>
-
-        <p className="text-zinc-500 text-sm mt-6 text-center">
-          Already have an account?{" "}
-          <NavLink to="/login" className="text-accent hover:underline">
-            Sign in
-          </NavLink>
-        </p>
       </div>
-    </div>
+
+      <p className="mt-5 text-center text-sm text-plum short:mt-4">
+        Already have an account?{" "}
+        <NavLink to="/login" className="font-semibold text-ember-deep hover:underline">
+          Sign in
+        </NavLink>
+      </p>
+    </AuthShell>
   );
 };
-
-const Field = ({ id, label, issue, hint, ...inputProps }) => (
-  <div className="flex flex-col gap-1.5">
-    <label htmlFor={id} className="text-zinc-300 text-sm">
-      {label}
-    </label>
-    <input
-      id={id}
-      className="px-4 py-2.5 bg-black/30 outline-none rounded-md text-zinc-200 focus:ring-1 focus:ring-green-600"
-      {...inputProps}
-    />
-    {issue ? (
-      <p className="text-red-400 text-xs">{issue}</p>
-    ) : (
-      hint && <p className="text-zinc-600 text-[11px]">{hint}</p>
-    )}
-  </div>
-);
 
 export default Register;

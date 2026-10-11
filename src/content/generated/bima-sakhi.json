@@ -1,0 +1,3019 @@
+{
+ "t": "section",
+ "children": [
+  {
+   "t": "header",
+   "children": [
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>समृद्ध नारी शक्ति, विकसित भारत</strong>",
+      "en": "<strong>समृद्ध नारी शक्ति, विकसित भारत</strong> <em>Prosperous women power, developed India</em>"
+     },
+     "src": "BS-01",
+     "cls": [
+      "eyebrow"
+     ]
+    },
+    {
+     "t": "h2",
+     "text": {
+      "hi": "अपने भविष्य को मज़बूत बनाइए — आज ही बीमा सखी बनिए",
+      "en": "Empower your future — become a Bima Sakhi today"
+     },
+     "src": "BS-03",
+     "id": "bima-sakhi-h"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "महिलाओं को LIC वित्तीय सलाहकार (Financial Advisor) के रूप में आगे बढ़ाने की पहल। LIC के साथ एक लचीला करियर अपनाइए — मज़बूत ट्रेनिंग सहयोग, अच्छी कमाई और आर्थिक रूप से आत्मनिर्भर बनने के मौक़े के साथ।",
+      "en": "Empowering women as LIC financial advisors. Join a flexible career with LIC — with strong training support, competitive earnings and the chance to become financially independent."
+     },
+     "src": "BS-03",
+     "cls": [
+      "lede"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>बच्चों की देखभाल के साथ परिवार का भी ख़याल रखना चाहती हैं? दोनों कीजिए, बेफ़िक्र होकर! अब बड़ा सोचो।</strong>",
+      "en": "<strong>बच्चों की देखभाल के साथ परिवार का भी ख़याल रखना चाहती हैं? दोनों कीजिए, बेफ़िक्र होकर! अब बड़ा सोचो।</strong> <em>Want to look after your children and your family too? Do both, worry-free! Now think big.</em>"
+     },
+     "src": "BS-04",
+     "cls": [
+      "banner-line"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "“मैं एक गृहिणी हूँ… इसका मतलब यह नहीं कि मेरी अपनी अच्छी अतिरिक्त आय नहीं हो सकती। अपने हुनर और अपनी पढ़ाई का इस्तेमाल कीजिए — LIC एजेंट के रूप में हमारे साथ जुड़िए और अपने सपने पूरे कीजिए।”",
+      "en": "“I am a homemaker… That doesn’t mean I can’t have a successful additional income. Use your talent and education — join us as an LIC agent and fulfil your dreams.”"
+     },
+     "src": "BS-05",
+     "cls": [
+      "quote-card"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>सशक्तिकरण · ऊर्जा संचार · निरंतर विस्तार</strong>",
+      "en": "<strong>सशक्तिकरण · ऊर्जा संचार · निरंतर विस्तार</strong> <em>EMPOWER · ENERGIZE · EXPAND</em>"
+     },
+     "src": "BS-02",
+     "cls": [
+      "band"
+     ]
+    },
+    {
+     "t": "a",
+     "href": "#apply",
+     "text": {
+      "hi": "आवेदन करें",
+      "en": "Apply now"
+     },
+     "cls": [
+      "cta"
+     ]
+    }
+   ],
+   "cls": [
+    "page-hero"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "बीमा सखी क्या है?",
+      "en": "What is Bima Sakhi?"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>बीमा सखी नियमित LIC एजेंसी ही है — साथ में महिलाओं के लिए पहले तीन साल स्टाइपेंड (मानदेय)।</strong> बाकी सब कुछ — फ़ायदे, क्लब, करियर का रास्ता और रोहित का लक्ष्य — हर LIC एजेंट के लिए एक जैसा है।",
+      "en": "<strong>Bima Sakhi is the regular LIC agency — plus a stipend for women in the first three years.</strong> Everything else — benefits, clubs, career path and Rohit’s goal — is the same as for every LIC agent."
+     },
+     "cls": [
+      "lede"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "इसका आधिकारिक नाम है “महिला करियर एजेंट — LIC की बीमा सखी”। यह सिर्फ़ महिलाओं के लिए, प्रदर्शन पर आधारित स्टाइपेंड योजना है, जो 09.12.2024 से लागू है और जिसकी स्टाइपेंड अवधि तीन साल है। इसका मक़सद: ऐसा काम, जो महिलाओं को आर्थिक आत्मनिर्भरता और लचीले काम के घंटे — दोनों का फ़ायदा दे।",
+      "en": "Its official name is “Mahila Career Agent — LIC’s Bima Sakhi”. It is a performance-oriented stipendiary scheme exclusively for women, effective from 09.12.2024, with a stipendiary period of three years. Its aim: work that gives women the double benefit of financial independence and flexible working hours."
+     },
+     "src": "BS-20"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "स्रोत: LIC केंद्रीय कार्यालय का सर्कुलर, संदर्भ CO/Mktg./ZD/A/35/2024, दिनांक 28.11.2024।",
+      "en": "Source: LIC Central Office circular Ref. CO/Mktg./ZD/A/35/2024 dated 28.11.2024."
+     },
+     "cls": [
+      "src"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "कृपया ध्यान दें: बीमा सखी बनना तनख़्वाह वाली नौकरी नहीं है — आप LIC की कर्मचारी नहीं बनतीं। स्टाइपेंड तनख़्वाह नहीं है; यह पहले तीन साल का सहारा है, जब तक आप अपना बिज़नेस खड़ा करती हैं।",
+      "en": "Please note: becoming a Bima Sakhi is not a salaried job — you do not become an employee of LIC. The stipend is not a salary; it is support for your first three years while you build your business."
+     },
+     "src": "BS-38"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "बीमा सखी पूरे देश में LIC द्वारा चलाई जाने वाली योजना है।",
+      "en": "Bima Sakhi is a nationwide scheme run by LIC."
+     },
+     "src": "BS-21"
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "आपका स्टाइपेंड (मानदेय)",
+      "en": "Your stipend"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "तीन साल तक LIC आपको कमीशन के ऊपर हर महीने स्टाइपेंड देती है — बस हर महीने के सरल बिज़नेस नियम पूरे करती रहिए।",
+      "en": "For three years, LIC pays you a monthly stipend on top of your commission — as long as you meet simple monthly business norms."
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "table",
+       "caption": {
+        "hi": "बीमा सखी स्टाइपेंड, साल-दर-साल",
+        "en": "Bima Sakhi stipend, year by year"
+       },
+       "head": [
+        [
+         {
+          "text": {
+           "hi": "स्टाइपेंड वर्ष",
+           "en": "Stipendiary year"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "प्रति माह स्टाइपेंड",
+           "en": "Stipend per month"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "शर्त",
+           "en": "Condition"
+          },
+          "th": true
+         }
+        ]
+       ],
+       "rows": [
+        [
+         {
+          "text": {
+           "hi": "वर्ष 1",
+           "en": "Year 1"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "₹7,000",
+           "en": "₹7,000"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "हर महीने के नियम पूरे करें (नीचे की टेबल देखें)",
+           "en": "Meet the monthly norms (table below)"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "वर्ष 2",
+           "en": "Year 2"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "₹6,000",
+           "en": "₹6,000"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "वर्ष 1 में पूरी की गई पॉलिसियों में से कम से कम 65%, वर्ष 2 के उसी महीने के अंत में चालू (इन-फ़ोर्स) होनी चाहिए",
+           "en": "At least 65% of the policies completed in year 1 must be in force at the end of the corresponding month of year 2"
+          }
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "वर्ष 3",
+           "en": "Year 3"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "₹5,000",
+           "en": "₹5,000"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "वर्ष 2 में पूरी की गई पॉलिसियों में से कम से कम 65%, वर्ष 3 के उसी महीने के अंत में चालू (इन-फ़ोर्स) होनी चाहिए",
+           "en": "At least 65% of the policies completed in year 2 must be in force at the end of the corresponding month of year 3"
+          }
+         }
+        ]
+       ],
+       "src": "BS-29 BS-35",
+       "cls": [
+        "data"
+       ]
+      }
+     ],
+     "cls": [
+      "table-scroll"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "पहले बकाया प्रीमियम की देय तारीख़ से छह महीने बीत जाने पर पॉलिसी लैप्स (बंद) मानी जाती है। सीधे शब्दों में: अपने ग्राहकों को प्रीमियम भरते रहने में मदद कीजिए, तो आपका स्टाइपेंड भी मिलता रहेगा।",
+      "en": "A policy counts as lapsed if six months have passed since the due date of its first unpaid premium. In plain words: help your customers keep paying, and your stipend keeps coming."
+     },
+     "src": "BS-29"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "स्रोत: LIC सर्कुलर CO/Mktg./ZD/A/35/2024, दिनांक 28.11.2024, §IV।",
+      "en": "Source: LIC Circular CO/Mktg./ZD/A/35/2024 dated 28.11.2024, §IV."
+     },
+     "cls": [
+      "src"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "*शर्तें लागू",
+      "en": "*Conditions apply"
+     },
+     "src": "G-08",
+     "cls": [
+      "conditions"
+     ]
+    },
+    {
+     "t": "figure",
+     "children": [
+      {
+       "t": "figcaption",
+       "text": {
+        "hi": "स्टाइपेंड वर्ष के अनुसार प्रति माह स्टाइपेंड (₹)। स्रोत: LIC सर्कुलर 35/2024।",
+        "en": "Stipend per month (₹) by stipendiary year. Source: LIC Circular 35/2024."
+       }
+      },
+      {
+       "t": "details",
+       "summary": {
+        "hi": "आँकड़े देखें",
+        "en": "See the numbers"
+       },
+       "children": [
+        {
+         "t": "box",
+         "children": [
+          {
+           "t": "table",
+           "caption": {
+            "hi": "प्रति माह स्टाइपेंड (₹)",
+            "en": "Stipend per month (₹)"
+           },
+           "head": [
+            [
+             {
+              "text": {
+               "hi": "स्टाइपेंड वर्ष",
+               "en": "Stipendiary year"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "₹",
+               "en": "₹"
+              },
+              "th": true
+             }
+            ]
+           ],
+           "rows": [
+            [
+             {
+              "text": {
+               "hi": "वर्ष 1",
+               "en": "Year 1"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "7,000",
+               "en": "7,000"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "वर्ष 2",
+               "en": "Year 2"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "6,000",
+               "en": "6,000"
+              },
+              "num": true
+             }
+            ],
+            [
+             {
+              "text": {
+               "hi": "वर्ष 3",
+               "en": "Year 3"
+              },
+              "th": true
+             },
+             {
+              "text": {
+               "hi": "5,000",
+               "en": "5,000"
+              },
+              "num": true
+             }
+            ]
+           ],
+           "src": "BS-29",
+           "cls": [
+            "data"
+           ],
+           "id": "ch17-table"
+          }
+         ],
+         "cls": [
+          "table-scroll"
+         ]
+        }
+       ]
+      }
+     ],
+     "src": "CH-17 BS-29",
+     "chart": {
+      "id": "ch17",
+      "fallback": "ch17-table",
+      "aria": {
+       "hi": "बार चार्ट: बीमा सखी का प्रति माह स्टाइपेंड — वर्ष 1 में 7,000 रुपये, वर्ष 2 में 6,000, वर्ष 3 में 5,000",
+       "en": "Bar chart: Bima Sakhi stipend per month — 7,000 rupees in year 1, 6,000 in year 2, 5,000 in year 3"
+      }
+     }
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "आपके बिज़नेस नियम",
+      "en": "Your business norms"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "हर स्टाइपेंड वर्ष का नियम है: 24 लाइव्स (यानी जितने लोगों का बीमा किया) और ₹48,000 का पहले साल का कमीशन, बोनस कमीशन को छोड़कर। यह धीरे-धीरे, महीने-दर-महीने बढ़ता है:",
+      "en": "In each stipendiary year, the norm is 24 lives (people insured) and ₹48,000 of first-year commission, not counting bonus commission. It builds up gently, month by month:"
+     },
+     "src": "BS-30"
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "table",
+       "caption": {
+        "hi": "स्टाइपेंड पाने के लिए हर महीने का न्यूनतम बिज़नेस",
+        "en": "Minimum monthly business to receive the stipend"
+       },
+       "head": [
+        [
+         {
+          "text": {
+           "hi": "महीना",
+           "en": "Month"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "लाइव्स की संख्या",
+           "en": "No. of lives"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "पहले साल का कमीशन (₹, बोनस छोड़कर)",
+           "en": "First-year commission (₹, excl. bonus)"
+          },
+          "th": true
+         }
+        ]
+       ],
+       "rows": [
+        [
+         {
+          "text": {
+           "hi": "1",
+           "en": "1"
+          },
+          "th": true,
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "1",
+           "en": "1"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "2,000",
+           "en": "2,000"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "2",
+           "en": "2"
+          },
+          "th": true,
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "1",
+           "en": "1"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "2,000",
+           "en": "2,000"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "3",
+           "en": "3"
+          },
+          "th": true,
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "1",
+           "en": "1"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "2,000",
+           "en": "2,000"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "4",
+           "en": "4"
+          },
+          "th": true,
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "1",
+           "en": "1"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "2,000",
+           "en": "2,000"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "5",
+           "en": "5"
+          },
+          "th": true,
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "2",
+           "en": "2"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "4,000",
+           "en": "4,000"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "6",
+           "en": "6"
+          },
+          "th": true,
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "2",
+           "en": "2"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "4,000",
+           "en": "4,000"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "7",
+           "en": "7"
+          },
+          "th": true,
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "2",
+           "en": "2"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "4,000",
+           "en": "4,000"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "8",
+           "en": "8"
+          },
+          "th": true,
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "2",
+           "en": "2"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "4,000",
+           "en": "4,000"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "9",
+           "en": "9"
+          },
+          "th": true,
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "3",
+           "en": "3"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "6,000",
+           "en": "6,000"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "10",
+           "en": "10"
+          },
+          "th": true,
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "3",
+           "en": "3"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "6,000",
+           "en": "6,000"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "11",
+           "en": "11"
+          },
+          "th": true,
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "3",
+           "en": "3"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "6,000",
+           "en": "6,000"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "12",
+           "en": "12"
+          },
+          "th": true,
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "3",
+           "en": "3"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "6,000",
+           "en": "6,000"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "<strong>कुल</strong>",
+           "en": "<strong>Total</strong>"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "<strong>24</strong>",
+           "en": "<strong>24</strong>"
+          },
+          "num": true
+         },
+         {
+          "text": {
+           "hi": "<strong>48,000</strong>",
+           "en": "<strong>48,000</strong>"
+          },
+          "num": true
+         }
+        ]
+       ],
+       "src": "BS-31",
+       "cls": [
+        "data"
+       ]
+      }
+     ],
+     "cls": [
+      "table-scroll"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "स्रोत: LIC सर्कुलर CO/Mktg./ZD/A/35/2024, §III और §V।",
+      "en": "Source: LIC Circular CO/Mktg./ZD/A/35/2024, §III and §V."
+     },
+     "cls": [
+      "src"
+     ]
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "h4",
+       "text": {
+        "hi": "वर्ष 1 में आप कितना कमा सकती हैं — स्टाइपेंड और न्यूनतम कमीशन",
+        "en": "What you can earn in year 1 — stipend plus minimum commission"
+       }
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "table",
+         "caption": {
+          "hi": "स्टाइपेंड की पात्रता और कुल आय, महीने-दर-महीने (वर्ष 1)",
+          "en": "Stipend eligibility and total income, month by month (year 1)"
+         },
+         "head": [
+          [
+           {
+            "text": {
+             "hi": "महीने (वर्ष 1)",
+             "en": "Months (year 1)"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "हर महीने न्यूनतम लाइव्स",
+             "en": "Min. lives a month"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "हर महीने न्यूनतम कमीशन",
+             "en": "Min. commission a month"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "स्टाइपेंड",
+             "en": "Stipend"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "हर महीने कुल आय",
+             "en": "Total income a month"
+            },
+            "th": true
+           }
+          ]
+         ],
+         "rows": [
+          [
+           {
+            "text": {
+             "hi": "1–4",
+             "en": "1–4"
+            },
+            "th": true,
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "1",
+             "en": "1"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "₹2,000",
+             "en": "₹2,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "₹7,000",
+             "en": "₹7,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>₹9,000</strong>",
+             "en": "<strong>₹9,000</strong>"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "5–8",
+             "en": "5–8"
+            },
+            "th": true,
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "2",
+             "en": "2"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "₹4,000",
+             "en": "₹4,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "₹7,000",
+             "en": "₹7,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>₹11,000</strong>",
+             "en": "<strong>₹11,000</strong>"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "9–12",
+             "en": "9–12"
+            },
+            "th": true,
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "3",
+             "en": "3"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "₹6,000",
+             "en": "₹6,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "₹7,000",
+             "en": "₹7,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "<strong>₹13,000</strong>",
+             "en": "<strong>₹13,000</strong>"
+            },
+            "num": true
+           }
+          ]
+         ],
+         "src": "BS-34",
+         "cls": [
+          "data"
+         ]
+        }
+       ],
+       "cls": [
+        "table-scroll"
+       ]
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "इसमें सिर्फ़ स्टाइपेंड और पहले साल का न्यूनतम कमीशन जोड़ा गया है। बोनस और रिन्यूअल कमीशन इसके ऊपर मिलते हैं।",
+        "en": "This counts only the stipend and the minimum first-year commission. Bonus and renewal commission come on top."
+       },
+       "src": "BS-34"
+      },
+      {
+       "t": "figure",
+       "children": [
+        {
+         "t": "figcaption",
+         "text": {
+          "hi": "वर्ष 1 की मासिक आय (₹): स्टाइपेंड + न्यूनतम कमीशन, महीनों के समूह के अनुसार। बीमा सखी प्रस्तुति से उदाहरण।",
+          "en": "Year-1 monthly income (₹): stipend + minimum commission, by month band. Illustration from the Bima Sakhi presentation."
+         }
+        },
+        {
+         "t": "details",
+         "summary": {
+          "hi": "आँकड़े देखें",
+          "en": "See the numbers"
+         },
+         "children": [
+          {
+           "t": "box",
+           "children": [
+            {
+             "t": "table",
+             "caption": {
+              "hi": "स्टाइपेंड और न्यूनतम कमीशन (₹ प्रति माह)",
+              "en": "Stipend and minimum commission (₹ a month)"
+             },
+             "head": [
+              [
+               {
+                "text": {
+                 "hi": "महीने",
+                 "en": "Months"
+                },
+                "th": true
+               },
+               {
+                "text": {
+                 "hi": "स्टाइपेंड",
+                 "en": "Stipend"
+                },
+                "th": true
+               },
+               {
+                "text": {
+                 "hi": "न्यूनतम कमीशन",
+                 "en": "Min. commission"
+                },
+                "th": true
+               },
+               {
+                "text": {
+                 "hi": "कुल",
+                 "en": "Total"
+                },
+                "th": true
+               }
+              ]
+             ],
+             "rows": [
+              [
+               {
+                "text": {
+                 "hi": "1–4",
+                 "en": "1–4"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "7,000",
+                 "en": "7,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "2,000",
+                 "en": "2,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "9,000",
+                 "en": "9,000"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "5–8",
+                 "en": "5–8"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "7,000",
+                 "en": "7,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "4,000",
+                 "en": "4,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "11,000",
+                 "en": "11,000"
+                },
+                "num": true
+               }
+              ],
+              [
+               {
+                "text": {
+                 "hi": "9–12",
+                 "en": "9–12"
+                },
+                "th": true,
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "7,000",
+                 "en": "7,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "6,000",
+                 "en": "6,000"
+                },
+                "num": true
+               },
+               {
+                "text": {
+                 "hi": "13,000",
+                 "en": "13,000"
+                },
+                "num": true
+               }
+              ]
+             ],
+             "src": "BS-34",
+             "cls": [
+              "data"
+             ],
+             "id": "ch18-table"
+            }
+           ],
+           "cls": [
+            "table-scroll"
+           ]
+          }
+         ]
+        }
+       ],
+       "src": "CH-18 BS-34",
+       "chart": {
+        "id": "ch18",
+        "fallback": "ch18-table",
+        "aria": {
+         "hi": "स्टैक्ड बार चार्ट: वर्ष 1 की मासिक आय — 7,000 रुपये स्टाइपेंड, और महीने 1–4, 5–8 और 9–12 में 2,000, 4,000 और 6,000 रुपये का न्यूनतम कमीशन",
+         "en": "Stacked bar chart: year-1 monthly income — stipend 7,000 rupees plus minimum commission of 2,000, 4,000 and 6,000 rupees in months 1–4, 5–8 and 9–12"
+        }
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "केवल उदाहरण। वास्तविक कमीशन प्लान, अवधि, भरे गए प्रीमियम और LIC के लागू नियमों पर निर्भर करता है। आपकी कमाई आपकी मेहनत पर निर्भर है।",
+        "en": "Illustration only. Actual commission depends on the plan, the term, the premium paid and the LIC rules in force. Your earnings depend on your effort."
+       },
+       "cls": [
+        "src"
+       ]
+      }
+     ],
+     "cls": [
+      "illustrative"
+     ]
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "स्टाइपेंड के नियम, सीधी भाषा में",
+      "en": "Stipend rules in plain words"
+     }
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "मेरा बिज़नेस कब देखा जाता है?",
+      "en": "When is my business checked?"
+     },
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "हर महीने। आप जिस अधूरे महीने में जुड़ती हैं, वह और उसके बाद का पूरा महीना — दोनों मिलकर महीना 1 गिने जाते हैं।",
+        "en": "Every month. The part-month in which you join, plus the next full month, together count as Month 1."
+       }
+      }
+     ],
+     "src": "BS-32"
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "अगर किसी महीने का न्यूनतम बिज़नेस पूरा न हो, तो?",
+      "en": "What if I miss a month’s minimum?"
+     },
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "उस महीने का स्टाइपेंड नहीं मिलेगा। लेकिन उस स्टाइपेंड वर्ष के अंत तक आप कभी भी वह कमी पूरी कर सकती हैं।",
+        "en": "You get no stipend for that month. But you can make up the shortfall any time until the end of that stipendiary year."
+       }
+      }
+     ],
+     "src": "BS-33"
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "ज़्यादा बिज़नेस कैसे गिना जाता है?",
+      "en": "How is extra business counted?"
+     },
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "बिज़नेस पहले मौजूदा महीने में गिना जाता है। जो ज़्यादा बचता है, वह पिछले कमी वाले महीनों में जाता है — सबसे हाल वाला महीना पहले — और फिर आगे के महीनों में।",
+        "en": "Business is first counted for the current month. Anything extra goes to earlier short months — the most recent one first — and then to future months."
+       }
+      }
+     ],
+     "src": "BS-33"
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "क्या छूटा हुआ स्टाइपेंड वापस मिलता है?",
+      "en": "Do I get the missed stipend back?"
+     },
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "हाँ — कमी वाले हर उस महीने का, जिसकी कमी आप पूरी कर लेती हैं, बशर्ते उस महीने में आपने कम से कम एक पॉलिसी पूरी की हो।",
+        "en": "Yes — for every short month you make good, provided you completed at least one policy in that month."
+       }
+      }
+     ],
+     "src": "BS-33"
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "अगर मैं पूरे साल का बिज़नेस पहले ही पूरा कर लूँ, तो?",
+      "en": "What if I finish the whole year’s business early?"
+     },
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "उस साल के बाकी महीनों में भी आपको स्टाइपेंड मिलता रहेगा — हर उस महीने, जिसमें आप सक्रिय हैं, यानी कम से कम एक पॉलिसी पूरी करती हैं, कमीशन चाहे जितना हो। जिन महीनों में आप सक्रिय नहीं होंगी, उनका स्टाइपेंड नहीं मिलेगा।",
+        "en": "You keep getting the stipend for the rest of that year, for every month in which you are active — that is, you complete at least one policy, whatever its commission. There is no stipend for inactive months."
+       }
+      }
+     ],
+     "src": "BS-33"
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "h4",
+       "text": {
+        "hi": "यह भी जान लीजिए",
+        "en": "Good to know"
+       }
+      },
+      {
+       "t": "ul",
+       "items": [
+        {
+         "t": "li",
+         "text": {
+          "hi": "स्टाइपेंड सिर्फ़ लगातार तीन स्टाइपेंड वर्षों तक, नियमों के अधीन मिलता है। तीन साल पूरे होने पर, या एजेंसी समाप्त होने पर, यह बंद हो जाता है।",
+          "en": "The stipend is paid only for three consecutive stipendiary years, subject to the norms. It stops when the three years end, or if the agency is terminated."
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "अगर न्यूनतम बिज़नेस पूरा न करने पर आपकी एजेंसी समाप्त हो जाए और बाद में फिर बहाल हो, तो आप बिना स्टाइपेंड के, नियमित एजेंट के रूप में काम करेंगी।",
+          "en": "If your agency is terminated for not meeting the minimum business and later reinstated, you continue as a regular agent, without the stipend."
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "स्टाइपेंड अवधि के दौरान कोई एडवांस नहीं दिया जाता।",
+          "en": "No advance is given during the stipendiary period."
+         }
+        }
+       ]
+      }
+     ],
+     "src": "BS-37",
+     "cls": [
+      "recap"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "पोस्टरों पर कभी-कभी दूसरे मासिक आँकड़े दिखते हैं; आधिकारिक स्टाइपेंड वही है, जो ऊपर की टेबल में दिया गया है।",
+      "en": "Posters sometimes show other monthly figures; the official stipend is the one in the table above."
+     },
+     "src": "BS-36"
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "कौन जुड़ सकती है",
+      "en": "Who can join"
+     }
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "हम किन्हें आमंत्रित करते हैं",
+      "en": "Who we invite"
+     }
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "गृहिणियाँ",
+        "en": "Homemakers"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "मार्केटिंग प्रोफ़ेशनल",
+        "en": "Marketing professionals"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "स्वरोज़गार करने वाली महिलाएँ",
+        "en": "Self-employed women"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "कॉलेज की छात्राएँ",
+        "en": "College students"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "अस्थायी (कैज़ुअल) स्टाफ़",
+        "en": "Casual staff"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "कामकाजी महिलाएँ",
+        "en": "Working women"
+       }
+      }
+     ],
+     "src": "BS-26",
+     "cls": [
+      "checklist"
+     ]
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "स्टाइपेंड की शर्तें (LIC सर्कुलर 35/2024)",
+      "en": "Conditions for the stipend (LIC Circular 35/2024)"
+     }
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "src": "BS-22",
+       "text": {
+        "hi": "<strong>उम्र:</strong> आवेदन की तारीख़ को 18 साल पूरे हों, और उम्र 70 साल से ज़्यादा न हो (पिछले जन्मदिन के अनुसार)।",
+        "en": "<strong>Age:</strong> completed 18 years on the date of application, and not over 70 years (age at last birthday)."
+       }
+      },
+      {
+       "t": "li",
+       "src": "BS-23",
+       "text": {
+        "hi": "<strong>पढ़ाई:</strong> 12वीं पास — वही, जो हमारे हर LIC एजेंट के लिए है। साथ ही, लागू IRDAI नियमों के अनुसार भर्ती से पहले एक परीक्षा होती है।",
+        "en": "<strong>Education:</strong> 12th pass — the same as for every LIC agent we recruit. You also take a pre-recruitment test, as per the IRDAI regulations in force."
+       }
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "स्टाइपेंड पाने के लिए आपको ऐसी महिला होना चाहिए, जो:",
+      "en": "To receive the stipend, you must be a woman who:"
+     }
+    },
+    {
+     "t": "ol",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "LIC of India (Agents) Regulations, 2017 के तहत एजेंट नियुक्त होने के योग्य हों;",
+        "en": "is eligible for appointment as an agent under the LIC of India (Agents) Regulations, 2017;"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "ऊपर दी गई उम्र और पढ़ाई की शर्तें पूरी करती हों;",
+        "en": "meets the age and education criteria above;"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "निगम की एजेंट के रूप में अपने काम को समय और ध्यान दे सकें;",
+        "en": "can give her time and attention to working as an agent of the Corporation;"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "नौकरीपेशा न हों, और किसी भी व्यापार, पेशे या काम से उनकी कोई बड़ी नियमित आय न हो (यह स्टाइपेंड योजना की शर्त है);",
+        "en": "is not a salaried employee and has no substantial regular income from any trade, profession or occupation (a condition of the stipend scheme);"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "भारत की स्थायी निवासी हों।",
+        "en": "is a permanent resident of India."
+       }
+      }
+     ],
+     "src": "BS-24"
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "कौन बीमा सखी नहीं बन सकती",
+      "en": "Who cannot join as a Bima Sakhi"
+     }
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "मौजूदा LIC एजेंट",
+        "en": "Existing LIC agents"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "मौजूदा एजेंटों, कर्मचारियों या मेडिकल एग्ज़ामिनरों के रिश्तेदार — जीवनसाथी; बच्चे (गोद लिए और सौतेले बच्चों सहित, आश्रित हों या नहीं); माता-पिता; भाई; बहन; और क़रीबी ससुराल वाले",
+        "en": "Relatives of existing agents, employees or medical examiners — spouse; children (including adopted and step-children, dependent or not); parents; brothers; sisters; and immediate in-laws"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "LIC के रिटायर कर्मचारी",
+        "en": "Retired LIC employees"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "दोबारा नियुक्ति चाहने वाले पूर्व एजेंट",
+        "en": "Former agents seeking re-appointment"
+       }
+      }
+     ],
+     "src": "BS-25"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "स्रोत: LIC सर्कुलर CO/Mktg./ZD/A/35/2024, §I, §II-A और §IX।",
+      "en": "Source: LIC Circular CO/Mktg./ZD/A/35/2024, §I, §II-A and §IX."
+     },
+     "cls": [
+      "src"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "कैसे जुड़ें",
+      "en": "How to join"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "बीमा सखी की पहचान, प्रायोजन और भर्ती रोहित लाल जैसे डेवलपमेंट ऑफिसर करते हैं (सीनियर बिज़नेस एसोसिएट या प्रोबेशनरी DO सहित), या फिर चीफ़ लाइफ़ इंश्योरेंस एडवाइज़र, LIC एसोसिएट या चीफ़ ऑर्गनाइज़र। आप “डायरेक्ट एजेंट” के रूप में भी जुड़ सकती हैं। भर्ती साल भर चलती है, और बीमा सखियों की संख्या की कोई सीमा नहीं है।",
+      "en": "A Bima Sakhi is identified, sponsored and recruited by a Development Officer such as Rohit Lal (including a Senior Business Associate or Probationary DO), or by a Chief Life Insurance Advisor, LIC Associate or Chief Organiser. You may also join as a “Direct Agent”. Recruitment happens throughout the year, and there is no ceiling on the number of Bima Sakhis."
+     },
+     "src": "BS-27"
+    },
+    {
+     "t": "ol",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "भर्ती से पहले की परीक्षा पास करें।",
+        "en": "Pass the pre-recruitment test."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "उम्र, पते और शैक्षिक योग्यता के स्व-प्रमाणित (सेल्फ़-अटेस्टेड) प्रमाण, आवेदन फ़ॉर्म (Annexure I) के साथ जमा करें।",
+        "en": "Submit self-attested proof of age, address and educational qualification, with the application form (Annexure I)."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "ब्रांच ऑफिस में, ब्रांच इन-चार्ज या किसी अधिकृत अधिकारी के साथ इंटरव्यू दें।",
+        "en": "Attend an interview at the Branch Office, with the Branch In-charge or an authorised officer."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "अपना एजेंसी कोड पाएँ — और शुरुआत कीजिए।",
+        "en": "Receive your agency code — and start."
+       }
+      }
+     ],
+     "src": "BS-28",
+     "cls": [
+      "steps"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<a href=\"#procedure\">दस्तावेज़ों की सूची और जुड़ने के पूरे क़दम →</a>",
+      "en": "<a href=\"#procedure\">Documents checklist and full joining steps →</a>"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "LIC सर्कुलर के अनुसार भर्ती साल भर चलती है और संख्या की कोई सीमा नहीं है — आप कभी भी जुड़ सकती हैं।",
+      "en": "As per the LIC circular, recruitment runs year-round with no ceiling on numbers — you can join at any time."
+     },
+     "src": "BS-19"
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "महिलाएँ बीमा सखी क्यों चुनती हैं",
+      "en": "Why women choose Bima Sakhi"
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "आर्थिक आत्मनिर्भरता",
+          "en": "Financial independence"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "आज से ही अपने आर्थिक भविष्य की बागडोर अपने हाथ में लीजिए।",
+          "en": "Take control of your financial future, starting today."
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "पेशेवर तरक्की",
+          "en": "Professional growth"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "दूसरों को आगे बढ़ने में मदद करते हुए, अपना करियर आगे बढ़ाइए।",
+          "en": "Grow your career while helping others succeed."
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "समाज पर असर",
+          "en": "Community impact"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "अपने समाज में, और उससे आगे भी, बदलाव लाइए।",
+          "en": "Make a difference in your community and beyond."
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      }
+     ],
+     "src": "BS-09",
+     "cls": [
+      "grid"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "काम और घर — दोनों में संतुलन। अपना दिन अपने हिसाब से तय कीजिए — परिवार की देखभाल भी कीजिए, अपने काम में आगे भी बढ़िए, और अपने शौक़ के लिए समय भी निकालिए।",
+      "en": "Work and home, both in balance. Plan your day your own way — look after your family, grow in your work, and still keep time for the things you love."
+     },
+     "src": "BS-10"
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "<strong>अपने घंटे ख़ुद तय कीजिए</strong> — जब चाहें, तब काम कीजिए।",
+        "en": "<strong>Set your own hours</strong> — work whenever you want."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "<strong>कहीं से भी काम कीजिए</strong> — आप जहाँ भी हों, ग्राहकों से जुड़िए।",
+        "en": "<strong>Work from anywhere</strong> — connect with clients wherever you are."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "<strong>अपने शौक़ पूरे कीजिए</strong> — करियर बनाते हुए अपनी रुचियाँ भी ज़िंदा रखिए।",
+        "en": "<strong>Pursue your passions</strong> — keep your interests alive while building your career."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "<strong>घूमने का मौक़ा</strong> — नई संस्कृतियों और धार्मिक विरासत को देखने-समझने के लिए यात्रा का अवसर। <a href=\"#explore\">कमाएँ और घूमें →</a>",
+        "en": "<strong>A chance to travel</strong> — an opportunity to tour and explore new cultures and religious heritage. <a href=\"#explore\">Earn &amp; explore →</a>"
+       }
+      }
+     ],
+     "src": "BS-11"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "अतिरिक्त आय चाहिए? आप सही जगह पर हैं। हम सिर्फ़ अतिरिक्त आय नहीं देते — हम सम्मान और पहचान के साथ रॉयल्टी आय देते हैं।",
+      "en": "Looking for an extra income? You are in the right place. We don’t just offer extra income — we offer royalty income, with dignity and recognition."
+     },
+     "src": "BS-12"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>“हम न केवल अतिरिक्त आय देते हैं, बल्कि रॉयल्टी आय के साथ सम्मान एवं पहचान भी देते हैं।” — एल आई सी महिला भर्ती अभियान</strong>",
+      "en": "<strong>“हम न केवल अतिरिक्त आय देते हैं, बल्कि रॉयल्टी आय के साथ सम्मान एवं पहचान भी देते हैं।” — एल आई सी महिला भर्ती अभियान</strong> <em>“We give not only extra income, but royalty income with respect and recognition.” — LIC women’s recruitment drive</em>"
+     },
+     "src": "BS-13"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "इस योजना में महिलाएँ बिना पूँजी के, अपनी सुविधा से समय चुनकर, स्टाइपेंड और कमीशन के साथ प्रति माह ₹25,000–₹50,000 तक कमाने का लक्ष्य रख सकती हैं।* (*प्रदर्शन पर निर्भर)",
+      "en": "In this scheme, women can — with no capital, and choosing their own time — aim to earn up to ₹25,000–₹50,000 a month through stipend and commission.* (*Depends on performance)"
+     },
+     "src": "BS-14"
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "अच्छी कमाई और तरक्की",
+          "en": "Attractive earnings and growth"
+         }
+        },
+        {
+         "t": "ul",
+         "items": [
+          {
+           "t": "li",
+           "text": {
+            "hi": "कमीशन — वित्तीय सलाहकार के रूप में अच्छा कमीशन कमाइए।",
+            "en": "Commissions — earn competitive commissions as a financial advisor."
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "इंसेंटिव — आपकी मेहनत पर, प्रदर्शन के आधार पर इनाम।",
+            "en": "Incentives — performance-based rewards for your hard work."
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "नियमित आय — रिन्यूअल आय, जो आर्थिक स्थिरता लाती है।",
+            "en": "Recurring income — renewal income that brings financial stability."
+           }
+          }
+         ]
+        }
+       ],
+       "src": "BS-15",
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "अनुभवी लोगों का साथ",
+          "en": "Expert support"
+         }
+        },
+        {
+         "t": "ul",
+         "items": [
+          {
+           "t": "li",
+           "text": {
+            "hi": "मेंटरशिप — अनुभवी मेंटरों से व्यक्तिगत मार्गदर्शन।",
+            "en": "Mentorship — personal guidance from experienced mentors."
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "लगातार सीखना — वर्कशॉप और ट्रेनिंग।",
+            "en": "Continuous learning — workshops and training."
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "मार्केटिंग सहयोग — ख़ुद को अच्छी तरह पेश करने के साधन।",
+            "en": "Marketing support — resources to promote yourself well."
+           }
+          }
+         ]
+        }
+       ],
+       "src": "BS-16",
+       "cls": [
+        "card"
+       ]
+      }
+     ],
+     "cls": [
+      "grid"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>ऐसी आय, जो साल-दर-साल आती रहे।</strong> <a href=\"#benefits\">रिन्यूअल कैसे काम करता है →</a>",
+      "en": "<strong>Income that keeps coming, year after year.</strong> <a href=\"#benefits\">How renewal works →</a>"
+     },
+     "src": "BS-17"
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "cls": [
+        "card"
+       ],
+       "text": {
+        "hi": "<strong>सम्मान और पहचान</strong>",
+        "en": "<strong>सम्मान और पहचान</strong> <em>Respect and identity</em>"
+       }
+      },
+      {
+       "t": "li",
+       "cls": [
+        "card"
+       ],
+       "text": {
+        "hi": "<strong>शानदार इनकम</strong>",
+        "en": "<strong>शानदार इनकम</strong> <em>Great income</em>"
+       }
+      },
+      {
+       "t": "li",
+       "cls": [
+        "card"
+       ],
+       "text": {
+        "hi": "<strong>अपने सपनों को करें पूरा</strong>",
+        "en": "<strong>अपने सपनों को करें पूरा</strong> <em>Fulfil your dreams</em>"
+       }
+      },
+      {
+       "t": "li",
+       "cls": [
+        "card"
+       ],
+       "text": {
+        "hi": "<strong>स्वतंत्रता और बेहतर भविष्य</strong>",
+        "en": "<strong>स्वतंत्रता और बेहतर भविष्य</strong> <em>Freedom and a better future</em>"
+       }
+      }
+     ],
+     "src": "BS-08",
+     "cls": [
+      "grid",
+      "promise-icons"
+     ]
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "<strong>स्वतंत्रता आपकी, पहचान आपकी, निर्णय आपका!</strong>",
+        "en": "<strong>स्वतंत्रता आपकी, पहचान आपकी, निर्णय आपका!</strong> <em>Your freedom, your identity, your decision!</em>"
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "<strong>सपने आपके, सहारा हमारा, भरोसा LIC का!</strong>",
+        "en": "<strong>सपने आपके, सहारा हमारा, भरोसा LIC का!</strong> <em>Your dreams, our support, LIC’s trust!</em>"
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "<strong>अब समय है सपनों को उड़ान देने का…</strong>",
+        "en": "<strong>अब समय है सपनों को उड़ान देने का…</strong> <em>Now is the time to give your dreams wings…</em>"
+       }
+      }
+     ],
+     "src": "BS-06",
+     "cls": [
+      "quote-card"
+     ]
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "<strong>महिला सशक्तिकरण की दिशा में एक और कदम</strong>",
+        "en": "<strong>महिला सशक्तिकरण की दिशा में एक और कदम</strong> <em>One more step towards women’s empowerment</em>"
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "<strong>हमारे साथ बीमा सखी के रूप में कार्य करें, और घर की वित्तीय संरचना का एक मज़बूत स्तम्भ बनें।</strong>",
+        "en": "<strong>हमारे साथ बीमा सखी के रूप में कार्य करें, और घर की वित्तीय संरचना का एक मज़बूत स्तम्भ बनें।</strong> <em>Work with us as a Bima Sakhi and become a strong pillar of your home’s finances.</em>"
+       }
+      }
+     ],
+     "src": "BS-07",
+     "cls": [
+      "quote-card"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "स्टाइपेंड से आगे की कमाई",
+      "en": "Earning beyond the stipend"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "स्टाइपेंड एक शुरुआत है। आपकी असली आय कमीशन है — और कितना चाहिए, यह आप ख़ुद तय कर सकती हैं।",
+      "en": "The stipend is a start. Your real income is commission — and you can decide how much you want."
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "h4",
+       "text": {
+        "hi": "अपनी मासिक आय आप ख़ुद तय कर सकती हैं",
+        "en": "You can decide your own monthly income"
+       }
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "table",
+         "caption": {
+          "hi": "किसी मासिक आय के लिए ज़रूरी नया प्रीमियम (बीमा सखी प्रस्तुति में जैसा छपा)",
+          "en": "Fresh premium required for a monthly income (as printed in the Bima Sakhi deck)"
+         },
+         "head": [
+          [
+           {
+            "text": {
+             "hi": "इतनी मासिक आय के लिए",
+             "en": "For a monthly income of"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "ज़रूरी नया प्रीमियम",
+             "en": "Fresh premium required"
+            },
+            "th": true
+           }
+          ]
+         ],
+         "rows": [
+          [
+           {
+            "text": {
+             "hi": "₹10,000",
+             "en": "₹10,000"
+            },
+            "th": true,
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "₹30,000",
+             "en": "₹30,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "₹25,000",
+             "en": "₹25,000"
+            },
+            "th": true,
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "₹75,000",
+             "en": "₹75,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "₹50,000",
+             "en": "₹50,000"
+            },
+            "th": true,
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "₹1,50,000",
+             "en": "₹1,50,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "₹1,00,000",
+             "en": "₹1,00,000"
+            },
+            "th": true,
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "₹3,00,000",
+             "en": "₹3,00,000"
+            },
+            "num": true
+           }
+          ]
+         ],
+         "src": "BS-40",
+         "cls": [
+          "data"
+         ]
+        }
+       ],
+       "cls": [
+        "table-scroll"
+       ]
+      },
+      {
+       "t": "form",
+       "children": [
+        {
+         "t": "label",
+         "text": {
+          "hi": "आपकी अपेक्षित मासिक आय (₹)",
+          "en": "Your expected monthly income (₹)"
+         },
+         "for": "bs40-in"
+        },
+        {
+         "t": "input",
+         "text": null,
+         "id": "bs40-in",
+         "type": "number",
+         "placeholder": "10000",
+         "min": "0",
+         "step": "1000",
+         "inputmode": "numeric"
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "टेबल के अनुसार ज़रूरी नया प्रीमियम (आय × 3): —",
+          "en": "Fresh premium required, as per the table (income × 3): —"
+         }
+        }
+       ],
+       "cls": [
+        "calc"
+       ],
+       "id": "bs40-calc"
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "केवल उदाहरण। वास्तविक कमीशन प्लान, अवधि, भरे गए प्रीमियम और LIC के लागू नियमों पर निर्भर करता है। आपकी कमाई आपकी मेहनत पर निर्भर है।",
+        "en": "Illustration only. Actual commission depends on the plan, the term, the premium paid and the LIC rules in force. Your earnings depend on your effort."
+       },
+       "cls": [
+        "src"
+       ]
+      }
+     ],
+     "cls": [
+      "illustrative"
+     ]
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "blockquote",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "मेरा लक्ष्य साफ़ है — मेरे साथ जुड़ने वाला हर एजेंट तीसरे साल के अंत तक ₹1,00,000 प्रति माह कमाए। योजना, ट्रेनिंग और साथ मैं दूँगा; मेहनत — और नतीजा — आपका होगा।",
+          "en": "My goal for every agent I recruit is simple: by the end of your third year, you should be earning ₹1,00,000 a month. I’ll give you the plan, the training and the follow-up. The effort — and the result — will be yours."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "— रोहित लाल",
+          "en": "— Rohit Lal"
+         },
+         "cls": [
+          "src"
+         ]
+        }
+       ],
+       "src": "SU-34"
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "आपकी कमाई आपकी मेहनत और आपके द्वारा लाए गए बिज़नेस पर निर्भर करती है।",
+        "en": "Your earnings depend on your effort and the business you bring."
+       },
+       "src": "SU-34",
+       "cls": [
+        "effort"
+       ]
+      },
+      {
+       "t": "ul",
+       "items": [
+        {
+         "t": "li",
+         "text": {
+          "hi": "नियमित रूप से ट्रेनिंग सेशन में शामिल हों।",
+          "en": "Attend training sessions regularly."
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "कम से कम 100 लोगों की संभावित ग्राहकों की सूची बनाएँ।",
+          "en": "Prepare a prospect list of at least 100 people."
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "हर दिन कम से कम 4 संभावित ग्राहकों से मिलें।",
+          "en": "Meet at least 4 prospects every day."
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "रोज़ की एक्टिविटी रिपोर्ट और हफ़्ते का सारांश लिखें।",
+          "en": "Write a daily activity report and a weekly summary."
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "हर हफ़्ते की रिव्यू मीटिंग में शामिल हों।",
+          "en": "Attend the weekly review meetings."
+         }
+        }
+       ],
+       "src": "SU-30"
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "लक्ष्य हर एजेंट के लिए एक जैसा है — बीमा सखी हों या नहीं। <a href=\"#benefits\">कमीशन कैसे मिलता है →</a>",
+        "en": "The goal is the same for every agent — Bima Sakhi or not. <a href=\"#benefits\">How commission works →</a>"
+       }
+      }
+     ],
+     "cls": [
+      "goal-band"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "इनाम और तरक्की",
+      "en": "Rewards and growth"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "हर महीने ब्रांच और रीजनल स्तर पर प्रतियोगिताएँ होती हैं, आकर्षक उपहारों के साथ।",
+      "en": "There are contests every month at branch and regional level, with attractive gifts."
+     },
+     "src": "BS-41"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "बेहतरीन प्रदर्शन करने वालों को ख़ास प्रतियोगिता इनाम भी मिल सकते हैं, जिनमें यात्राएँ भी शामिल हैं।",
+      "en": "Top performers can also win special contest rewards, including trips."
+     },
+     "src": "BS-41"
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "क्लब सदस्यता के ख़ास फ़ायदे",
+      "en": "Special benefits of club membership"
+     }
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "<strong>पूरे परिवार के लिए Medical सुविधा</strong>",
+        "en": "<strong>पूरे परिवार के लिए Medical सुविधा</strong> <em>Medical cover for the whole family</em>"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "<strong>Education Trip की सुविधा</strong>",
+        "en": "<strong>Education Trip की सुविधा</strong> <em>Education trips</em>"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "<strong>₹3 लाख से ₹1 करोड़ तक Life Insurance एवं Accidental Insurance</strong>",
+        "en": "<strong>₹3 लाख से ₹1 करोड़ तक Life Insurance एवं Accidental Insurance</strong> <em>Life and accident insurance from ₹3 lakh to ₹1 crore</em>"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "<strong>Stationery Expense एवं Visiting Card सुविधा</strong>",
+        "en": "<strong>Stationery Expense एवं Visiting Card सुविधा</strong> <em>Stationery expenses and visiting cards</em>"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "<strong>Expert Training समय-समय पर, जिसमें आप अपने Insurance Business को नई ऊँचाइयों तक ले जाएँ।</strong>",
+        "en": "<strong>Expert Training समय-समय पर, जिसमें आप अपने Insurance Business को नई ऊँचाइयों तक ले जाएँ।</strong> <em>Expert training from time to time, to take your insurance business to new heights</em>"
+       }
+      }
+     ],
+     "src": "BS-42"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<a href=\"#club\">क्लब के सारे फ़ायदे →</a>",
+      "en": "<a href=\"#club\">All club benefits →</a>"
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "जुड़ने के लिए कोई पूँजी नहीं — और एजेंसी के साथ बहुत-सी सुविधाएँ मिलती हैं।",
+        "en": "No joining capital — and many facilities come with the agency."
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "स्मार्ट अवसर… सुरक्षित भविष्य… जानदार आय…",
+        "en": "A smart opportunity… a secure future… a lively income…"
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "यह कोई भी करियर नहीं — यह LIC के साथ करियर है। आत्मनिर्भरता आज से संभव है।",
+        "en": "This isn’t just any career — it’s a career with LIC. Self-reliance is possible, starting today."
+       }
+      }
+     ],
+     "src": "BS-43",
+     "cls": [
+      "quote-card"
+     ]
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "एजेंसी के साथ क्या-क्या मिलता है",
+      "en": "What comes with the agency"
+     }
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "पेशेवर ट्रेनिंग",
+        "en": "Professional training"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "पात्र एजेंटों के लिए LIC अधिकारी पद (ADO/DO) तक का रास्ता",
+        "en": "A path to an LIC officer post (ADO/DO) for eligible agents"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "ग्रुप इंश्योरेंस",
+        "en": "Group insurance"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "ग्रेच्युटी",
+        "en": "Gratuity"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "कैशलेस मेडिक्लेम",
+        "en": "Cashless mediclaim"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "क्लब सदस्यता",
+        "en": "Club membership"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "दोपहिया और चारपहिया वाहन के लिए ब्याज-मुक्त एडवांस",
+        "en": "Interest-free two- and four-wheeler advance"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "स्टाइपेंड: ऊपर की टेबल देखें · योग्यता: 12वीं पास",
+        "en": "Stipend: see the table above · Qualification: 12th pass"
+       }
+      }
+     ],
+     "src": "BS-44",
+     "cls": [
+      "checklist"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>LIC के साथ आपका Future सुरक्षित! आज बनें “बीमा सखी” — आगे चलकर Development Officer बनने का रास्ता (पात्रता अनुसार) — और पाएँ उज्ज्वल करियर!</strong>",
+      "en": "<strong>LIC के साथ आपका Future सुरक्षित! आज बनें “बीमा सखी” — आगे चलकर Development Officer बनने का रास्ता (पात्रता अनुसार) — और पाएँ उज्ज्वल करियर!</strong> <em>Your future is secure with LIC! Become a Bima Sakhi today — with a path to becoming a Development Officer later (as per eligibility) — and build a bright career!</em>"
+     },
+     "src": "BS-45"
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "h4",
+       "text": {
+        "hi": "पड़ाव: 5 एजेंसी वर्ष → अधिकारी बनने का मौक़ा",
+        "en": "Milestone: 5 agency years → a chance to become an officer"
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "LIC एजेंट के रूप में 5 एजेंसी वर्ष पूरे करने के बाद, ग्रेजुएट या उससे ज़्यादा पढ़ी बीमा सखियाँ LIC में अप्रेंटिस डेवलपमेंट ऑफिसर (ADO) की भर्ती प्रक्रिया में हिस्सा ले सकती हैं — अगर वे पात्रता की शर्तें पूरी करती हों। <a href=\"#career\">करियर के रास्ते →</a>",
+        "en": "After completing 5 agency years as an LIC agent, Bima Sakhis who are graduates or above may take part in the recruitment process for Apprentice Development Officer (ADO) in LIC of India — if they meet the eligibility criteria. <a href=\"#career\">Career paths →</a>"
+       }
+      }
+     ],
+     "src": "BS-46",
+     "cls": [
+      "goal-band"
+     ]
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "h4",
+       "text": {
+        "hi": "हर एजेंट को जो मिलता है — वह आपको भी मिलता है",
+        "en": "Everything every agent gets — you get too"
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "बीमा सखी के रूप में आपको एजेंट के सभी फ़ायदे मिलते हैं। जैसे, 18 से 69 साल की उम्र के लिए ग्रुप इंश्योरेंस: 3 एजेंसी वर्ष तक ₹5,00,000; 3 से ज़्यादा और 5 तक ₹7,50,000; 5 से ज़्यादा और 10 तक ₹10,00,000; 10 वर्ष से ज़्यादा पर ₹15,00,000।",
+        "en": "As a Bima Sakhi you enjoy the full set of agent benefits. For example, group insurance for ages 18 to 69: ₹5,00,000 up to 3 agency years; ₹7,50,000 above 3 and up to 5; ₹10,00,000 above 5 and up to 10; ₹15,00,000 above 10 years."
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "<a href=\"#benefits\">एजेंट के सारे फ़ायदे →</a> · <a href=\"#club\">क्लब के फ़ायदे →</a>",
+        "en": "<a href=\"#benefits\">All agent benefits →</a> · <a href=\"#club\">Club benefits →</a>"
+       }
+      }
+     ],
+     "src": "BS-47 BEN-26",
+     "cls": [
+      "recap"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "क्या यह मेरे लिए सही है?",
+      "en": "Is it right for me?"
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "एक इंडस्ट्री ट्रेनिंग बुकलेट परिवार सँभालने वाली महिला के लिए आम विकल्पों की तुलना करती है। उसके आँकड़े, जैसे छपे:",
+        "en": "An industry training booklet compares common options for a woman who manages a family. Its figures, as printed:"
+       }
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "table",
+         "caption": {
+          "hi": "परिवार सँभालने वाली महिला के लिए करियर के विकल्प (ट्रेनिंग सामग्री से उदाहरण)",
+          "en": "Career options for a woman managing a family (illustration from training material)"
+         },
+         "head": [
+          [
+           {
+            "text": {
+             "hi": "विकल्प",
+             "en": "Option"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "निवेश",
+             "en": "Investment"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "रोज़ का समय",
+             "en": "Time daily"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "6 महीने बाद संभावित आय",
+             "en": "Possible income after 6 months"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "5 साल बाद, ज़िंदगी भर की मासिक रिन्यूअल आय",
+             "en": "Monthly renewal for life, after 5 years"
+            },
+            "th": true
+           }
+          ]
+         ],
+         "rows": [
+          [
+           {
+            "text": {
+             "hi": "ब्यूटी पार्लर",
+             "en": "Beauty parlour"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "₹30,000",
+             "en": "₹30,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "4 घंटे",
+             "en": "4 hrs"
+            }
+           },
+           {
+            "text": {
+             "hi": "₹20,000",
+             "en": "₹20,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "कुछ नहीं",
+             "en": "Nil"
+            }
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "ट्यूशन टीचर",
+             "en": "Tuition teacher"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "₹2,000",
+             "en": "₹2,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "4 घंटे",
+             "en": "4 hrs"
+            }
+           },
+           {
+            "text": {
+             "hi": "₹20,000",
+             "en": "₹20,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "कुछ नहीं",
+             "en": "Nil"
+            }
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "MLM डिस्ट्रीब्यूटर",
+             "en": "MLM distributor"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "₹8,000",
+             "en": "₹8,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "4 घंटे",
+             "en": "4 hrs"
+            }
+           },
+           {
+            "text": {
+             "hi": "₹5,000",
+             "en": "₹5,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "कुछ नहीं",
+             "en": "Nil"
+            }
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "डेटा-एंट्री ऑपरेटर",
+             "en": "Data-entry operator"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "₹40,000",
+             "en": "₹40,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "4 घंटे",
+             "en": "4 hrs"
+            }
+           },
+           {
+            "text": {
+             "hi": "₹10,000",
+             "en": "₹10,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "कुछ नहीं",
+             "en": "Nil"
+            }
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "बच्चों की देखभाल (बेबी-सिटिंग)",
+             "en": "Baby-sitting"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "₹20,000",
+             "en": "₹20,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "8 घंटे",
+             "en": "8 hrs"
+            }
+           },
+           {
+            "text": {
+             "hi": "₹20,000",
+             "en": "₹20,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "कुछ नहीं",
+             "en": "Nil"
+            }
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "दूसरों के लिए खाना बनाना",
+             "en": "Cooking for others"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "₹10,000",
+             "en": "₹10,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "4 घंटे",
+             "en": "4 hrs"
+            }
+           },
+           {
+            "text": {
+             "hi": "₹8,000",
+             "en": "₹8,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "कुछ नहीं",
+             "en": "Nil"
+            }
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "सामान्य एजेंट",
+             "en": "Normal agent"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "₹900",
+             "en": "₹900"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "3 घंटे",
+             "en": "3 hrs"
+            }
+           },
+           {
+            "text": {
+             "hi": "₹50,000",
+             "en": "₹50,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "₹20,000",
+             "en": "₹20,000"
+            },
+            "num": true
+           }
+          ],
+          [
+           {
+            "text": {
+             "hi": "MDRT एजेंट",
+             "en": "MDRT agent"
+            },
+            "th": true
+           },
+           {
+            "text": {
+             "hi": "₹25,000",
+             "en": "₹25,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "6 घंटे",
+             "en": "6 hrs"
+            }
+           },
+           {
+            "text": {
+             "hi": "₹1,00,000",
+             "en": "₹1,00,000"
+            },
+            "num": true
+           },
+           {
+            "text": {
+             "hi": "₹75,000",
+             "en": "₹75,000"
+            },
+            "num": true
+           }
+          ]
+         ],
+         "src": "BS-48",
+         "cls": [
+          "data"
+         ]
+        }
+       ],
+       "cls": [
+        "table-scroll"
+       ]
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "केवल उदाहरण। वास्तविक कमीशन प्लान, अवधि, भरे गए प्रीमियम और LIC के लागू नियमों पर निर्भर करता है। आपकी कमाई आपकी मेहनत पर निर्भर है।",
+        "en": "Illustration only. Actual commission depends on the plan, the term, the premium paid and the LIC rules in force. Your earnings depend on your effort."
+       },
+       "cls": [
+        "src"
+       ]
+      }
+     ],
+     "cls": [
+      "illustrative"
+     ]
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "h4",
+       "text": {
+        "hi": "एक सच्ची कहानी: अंशु अग्रवाल, नई दिल्ली",
+        "en": "A real story: Anshu Agrawal, New Delhi"
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "अंशु अग्रवाल 2004 की शुरुआत में जब LIC से जुड़ीं, तब वे एक गृहिणी थीं और उनकी बेटी छोटी थी। उन्हें लोगों से मिलना और बात करना अच्छा लगता था। आगे चलकर वे लगातार तीन साल LIC Corporate Club की सदस्य रहीं। आज वे नई दिल्ली के द्वारका में LIC से अधिकृत ऑफिस चलाती हैं, लगभग 1,000 ग्राहकों को सेवा देती हैं — जिनमें ज़्यादातर बड़े ग्राहक हैं — और 10 महिला साथियों की टीम का नेतृत्व करती हैं। उनकी इच्छा है कि और महिलाएँ आत्मनिर्भर बनें। उन्हीं के शब्दों में, “आख़िरकार, लोग ही सबसे बड़ा निवेश हैं।”",
+        "en": "Anshu Agrawal was a homemaker with a small daughter when she joined LIC in early 2004. She loved meeting and talking with people. She went on to become an LIC Corporate Club member three years running. Today she runs an LIC-authorised office in Dwarka, New Delhi, serves about 1,000 customers — most of them high-value — and leads a team of 10 women partners. Her wish: that more women become self-sufficient. In her words, “People after all are the biggest investment.”"
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "“Encouraging Entrepreneurship — The LIC Way” (Outlook Business, LIC द्वारा प्रस्तुत) में प्रकाशित।",
+        "en": "As featured in “Encouraging Entrepreneurship — The LIC Way” (Outlook Business, presented by LIC)."
+       },
+       "cls": [
+        "src"
+       ]
+      }
+     ],
+     "src": "BS-49 CAR-20",
+     "cls": [
+      "quote-card"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "details",
+   "summary": {
+    "hi": "पुराने आँकड़े (पिछली बीमा सखी प्रस्तुति के अनुसार)",
+    "en": "Earlier figures (as per the earlier Bima Sakhi presentation)"
+   },
+   "children": [
+    {
+     "t": "p",
+     "text": {
+      "hi": "बीमा सखी प्रस्तुति में छपा कमीशन: पहले साल के प्रीमियम का 25% तक पहला कमीशन; बोनस पहले साल के कमीशन का 40%; वर्ष 2 और 3 में 7.5% रिन्यूअल; वर्ष 4 से प्रीमियम भुगतान अवधि के अंत तक 5%।",
+      "en": "Commission as printed in the Bima Sakhi deck: first commission up to 25% of first-year premium; bonus 40% of first-year commission; renewal 7.5% in years 2 and 3; 5% from year 4 until the end of the premium-paying term."
+     },
+     "src": "BS-39"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<a href=\"#benefits\">मौजूदा कमीशन ढाँचा →</a>",
+      "en": "<a href=\"#benefits\">Current commission structure →</a>"
+     }
+    }
+   ],
+   "cls": [
+    "legacy"
+   ]
+  },
+  {
+   "t": "aside",
+   "children": [
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>आज ही जुड़ें!</strong>",
+      "en": "<strong>आज ही जुड़ें!</strong> <em>Join today!</em>"
+     },
+     "cls": [
+      "band"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>महिलाओं की प्रगति के साथ, LIC की मज़बूती!</strong>",
+      "en": "<strong>महिलाओं की प्रगति के साथ, LIC की मज़बूती!</strong> <em>With women’s progress comes LIC’s strength!</em>"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>अपनी ज़िंदगी को नई उड़ान दीजिए — LIC के साथ जुड़िए, बीमा सखी बनिए!</strong>",
+      "en": "<strong>अपनी ज़िंदगी को नई उड़ान दीजिए — LIC के साथ जुड़िए, बीमा सखी बनिए!</strong> <em>Give your life new wings — join LIC, become a Bima Sakhi!</em>"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>BIMA SAKHI — एक सफल आत्मनिर्भर करियर की शुरुआत!</strong>",
+      "en": "<strong>BIMA SAKHI — एक सफल आत्मनिर्भर करियर की शुरुआत!</strong> <em>BIMA SAKHI — the start of a successful, self-reliant career!</em>"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>आत्मनिर्भर LIC एजेंट भर्ती योजना</strong>",
+      "en": "<strong>आत्मनिर्भर LIC एजेंट भर्ती योजना</strong> <em>Self-reliant LIC agent recruitment scheme</em>"
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "a",
+       "href": "#apply",
+       "text": {
+        "hi": "करियर ओरिएंटेशन बुक करें",
+        "en": "Book a career orientation"
+       },
+       "cls": [
+        "cta"
+       ]
+      },
+      {
+       "t": "a",
+       "href": "tel:+919973055291",
+       "text": {
+        "hi": "अभी कॉल करें: <span>9973055291</span>",
+        "en": "Call now: <span>9973055291</span>"
+       },
+       "src": "G-02",
+       "cls": [
+        "cta",
+        "secondary"
+       ]
+      }
+     ],
+     "cls": [
+      "btn-row"
+     ]
+    }
+   ],
+   "src": "BS-18",
+   "cls": [
+    "page-cta"
+   ]
+  }
+ ],
+ "id": "bima-sakhi"
+}

@@ -1,0 +1,1165 @@
+{
+ "t": "section",
+ "children": [
+  {
+   "t": "header",
+   "children": [
+    {
+     "t": "p",
+     "text": {
+      "hi": "कैसे जुड़ें",
+      "en": "How to Join"
+     },
+     "cls": [
+      "eyebrow"
+     ]
+    },
+    {
+     "t": "h2",
+     "text": {
+      "hi": "आज से आपके एजेंसी कोड तक का रास्ता",
+      "en": "Your path from today to your agency code"
+     },
+     "id": "procedure-h"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "ज़िंदगी के हर क्षेत्र से लोग LIC एजेंट बनते हैं — छात्र, गृहिणियाँ, प्रोफ़ेशनल, कारोबारी और रिटायर लोग। यह एक समानांतर पेशा है: आप इसे अपने मौजूदा काम के साथ-साथ शुरू कर सकते हैं।",
+      "en": "People from all walks of life become LIC agents — students, homemakers, professionals, businesspeople and retired people. It is a parallel profession: you can start alongside your current work."
+     },
+     "src": "PROC-03",
+     "cls": [
+      "lede"
+     ]
+    },
+    {
+     "t": "a",
+     "href": "#apply",
+     "text": {
+      "hi": "आवेदन करें",
+      "en": "Apply now"
+     },
+     "cls": [
+      "cta"
+     ]
+    }
+   ],
+   "cls": [
+    "page-hero"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "क्या मैं जुड़ सकता/सकती हूँ?",
+      "en": "Can I join?"
+     }
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "src": "PROC-01",
+       "text": {
+        "hi": "उम्र: 18 साल की उम्र पूरी कर चुके सभी भारतीय। नियमित एजेंसी में उम्र की कोई ऊपरी सीमा नहीं और रिटायरमेंट की कोई उम्र नहीं। (बीमा सखी के लिए उम्र 18 से 70 साल है।)",
+        "en": "Age: any Indian who has completed 18 years. The regular agency has no upper age limit and no retirement age. (For Bima Sakhi, the age range is 18 to 70.)"
+       }
+      },
+      {
+       "t": "li",
+       "src": "PROC-02",
+       "text": {
+        "hi": "पढ़ाई: 12वीं पास — सबके लिए एक जैसी, पुरुष हों या महिलाएँ।",
+        "en": "Education: 12th pass — the same for everyone, men and women."
+       }
+      },
+      {
+       "t": "li",
+       "src": "PROC-03",
+       "text": {
+        "hi": "आप अभी जो कर रहे हैं, उसे छोड़ने की ज़रूरत नहीं। बहुत से लोग अपनी नौकरी, बिज़नेस या पढ़ाई के साथ-साथ शुरू करते हैं।",
+        "en": "You don’t have to leave what you do now. Many people start alongside their job, business or studies."
+       }
+      }
+     ],
+     "cls": [
+      "checklist"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "महिलाएँ नियमित एजेंसी में जुड़ सकती हैं — या बीमा सखी के रूप में, जिसमें पहले तीन साल स्टाइपेंड भी मिलता है। <a href=\"#bima-sakhi\">बीमा सखी के बारे में →</a>",
+      "en": "Women can join the regular agency — or as a Bima Sakhi, which adds a stipend in the first three years. <a href=\"#bima-sakhi\">About Bima Sakhi →</a>"
+     }
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "क़दम-दर-क़दम",
+      "en": "Step by step"
+     }
+    },
+    {
+     "t": "ol",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "आवेदन फ़ॉर्म भरें।",
+        "en": "Fill in the application form."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "व्यक्तिगत इंटरव्यू दें।",
+        "en": "Personal interview."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "एप्टीट्यूड टेस्ट दें।",
+        "en": "Aptitude test."
+       }
+      },
+      {
+       "t": "li",
+       "src": "PROC-21",
+       "text": {
+        "hi": "अनिवार्य प्री-लाइसेंसिंग ट्रेनिंग (IC-38) पूरी करें — कोर्स के अनुसार, हमारे कस्टमाइज़्ड लर्निंग पोर्टल पर।",
+        "en": "Mandatory pre-licensing training (IC-38) as per your course — delivered through our customised learning portal."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "IRDAI परीक्षा पास करें।",
+        "en": "Pass the IRDAI examination."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "LIC से अपना नियुक्ति पत्र पाएँ।",
+        "en": "Receive your appointment letter from LIC of India."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "इंडक्शन ट्रेनिंग पूरी करें।",
+        "en": "Complete induction training."
+       }
+      }
+     ],
+     "src": "PROC-04 PROC-05",
+     "cls": [
+      "steps"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "आप रोहित लाल की ब्रांच से जुड़ेंगे।",
+      "en": "You will be attached to Rohit Lal’s branch."
+     },
+     "src": "PROC-04"
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "h4",
+       "text": {
+        "hi": "हमारा कस्टमाइज़्ड लर्निंग पोर्टल",
+        "en": "Our customised learning portal"
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "आपका प्री-लाइसेंसिंग (IC-38) कोर्स और IRDAI परीक्षा की तैयारी, अपनी रफ़्तार से — फ़ोन या लैपटॉप पर। इसमें कितना समय लगेगा, यह आपके कोर्स पर निर्भर करता है।",
+        "en": "Your pre-licensing (IC-38) course and IRDAI exam preparation, at your own pace — on your phone or laptop. How long it takes depends on your course."
+       }
+      }
+     ],
+     "src": "PROC-21",
+     "cls": [
+      "goal-band"
+     ]
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "लाइसेंस मिलने के बाद",
+      "en": "After you get your licence"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "आपके डेवलपमेंट ऑफिसर आपको हमारी अपनी ट्रेनिंग सुविधाओं में जीवन बीमा का सिद्धांत और व्यवहार सिखाते हैं, ख़ास तौर पर ज़रूरत के आधार पर बिक्री (नीड-बेस्ड सेलिंग)। आपकी एक्टिविटी की नियमित समीक्षा होती है, ताकि आप समय पर अपने लक्ष्य तक पहुँचें। साथ ही, जीवन बीमा और आत्म-विकास पर किताबों, ऑडियो और वीडियो की एक अच्छी लाइब्रेरी भी मिलती है।",
+      "en": "Your Development Officer trains you in the theory and practice of life insurance, at our own training facilities, with a focus on need-based selling. Your activities are reviewed regularly, so you reach your targets on time. You also get a well-stocked library of books, audio and video on life insurance and self-development."
+     },
+     "src": "PROC-07 CAR-18"
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "आपके पहले क़दम",
+      "en": "Your first steps"
+     }
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "काग़ज़ी कार्रवाई के लिए अपने दस्तावेज़ जमा करें — ख़ुद आकर या WhatsApp पर।",
+        "en": "Submit your documents for the paperwork — in person or on WhatsApp."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "IRDAI परीक्षा पास करें।",
+        "en": "Clear the IRDAI exam."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "अपना प्रेज़ेंटेशन दिखाना शुरू करें — रोज़ 10 लोगों को, महीने में 200 को — और हर एक से फ़ॉलो-अप करें।",
+        "en": "Start showing your presentation — 10 people a day, 200 a month — and follow up with each of them."
+       }
+      }
+     ],
+     "src": "PROC-08"
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "फ़ीस",
+      "en": "Fees"
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "table",
+       "caption": {
+        "hi": "जुड़ने की फ़ीस (2023-24 की सामग्री)",
+        "en": "Joining fees (2023-24 material)"
+       },
+       "head": [
+        [
+         {
+          "text": {
+           "hi": "मद",
+           "en": "Item"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "फ़ीस",
+           "en": "Fee"
+          },
+          "th": true
+         }
+        ]
+       ],
+       "rows": [
+        [
+         {
+          "text": {
+           "hi": "रजिस्ट्रेशन",
+           "en": "Registration"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "₹150",
+           "en": "₹150"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "ऑनलाइन ट्रेनिंग",
+           "en": "Online training"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "₹150",
+           "en": "₹150"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "IRDAI परीक्षा",
+           "en": "IRDAI examination"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "₹500",
+           "en": "₹500"
+          },
+          "num": true
+         }
+        ],
+        [
+         {
+          "text": {
+           "hi": "<strong>कुल</strong>",
+           "en": "<strong>Total</strong>"
+          },
+          "th": true
+         },
+         {
+          "text": {
+           "hi": "<strong>₹900</strong>",
+           "en": "<strong>₹900</strong>"
+          },
+          "num": true
+         }
+        ]
+       ],
+       "src": "PROC-09",
+       "cls": [
+        "data"
+       ]
+      }
+     ],
+     "cls": [
+      "table-scroll"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "LIC ट्रेनिंग सामग्री के अनुसार; राशियाँ और शर्तें बदल सकती हैं। *शर्तें लागू।",
+      "en": "As per LIC training material; amounts and criteria may change. *Conditions apply."
+     },
+     "cls": [
+      "src"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "दस्तावेज़ों की सूची",
+      "en": "Documents checklist"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "जैसे-जैसे जुटाते जाएँ, टिक करते जाइए। (आपके टिक आपकी स्क्रीन पर ही रहेंगे।)",
+      "en": "Tick them off as you collect them. (Your ticks stay on your screen.)"
+     }
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "4 पासपोर्ट साइज़ रंगीन फ़ोटो",
+        "en": "4 passport-size colour photographs"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "पढ़ाई का प्रमाण: आपकी 12वीं की मार्कशीट",
+        "en": "Educational proof: your 12th mark sheet"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "उम्र का प्रमाण (कोई एक): S.S.C. बोर्ड सर्टिफ़िकेट, कोई भी ट्रांसफ़र सर्टिफ़िकेट (T.C.), या पासपोर्ट",
+        "en": "Age proof (any one): S.S.C. board certificate, any transfer certificate (T.C.), or passport"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "पते का प्रमाण (कोई एक): आधार कार्ड, पासपोर्ट, वोटर आईडी, राशन कार्ड, ड्राइविंग लाइसेंस या बैंक स्टेटमेंट",
+        "en": "Address proof (any one): Aadhaar card, passport, voter ID, ration card, driving licence or bank statement"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "पैन कार्ड",
+        "en": "PAN card"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "बैंक खाते का विवरण (कैंसल चेक)",
+        "en": "Bank account details (a cancelled cheque)"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "बीमा सखी के लिए: सभी प्रमाण स्व-प्रमाणित (सेल्फ़-अटेस्टेड), साथ में तय आवेदन फ़ॉर्म (Annexure I)",
+        "en": "For Bima Sakhi: all proofs self-attested, plus the prescribed application form (Annexure I)"
+       }
+      }
+     ],
+     "src": "PROC-11",
+     "cls": [
+      "doc-check"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "अच्छे काम के लिए ज़रूरी साधन: लैपटॉप, सॉफ़्टवेयर, स्मार्टफ़ोन और दोपहिया वाहन या कार।",
+      "en": "Tools you’ll need to work well: a laptop, software, a smartphone and a two-wheeler or car."
+     },
+     "src": "PROC-12 SU-27"
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "एजेंसी चालू रखने के नियम",
+      "en": "Rules that keep your agency active"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "LIC एजेंट साफ़ नियमों के तहत काम करते हैं:",
+      "en": "LIC agents work under clear rules:"
+     }
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "LIC of India (Agents) Regulations, 2017 (संशोधित)",
+        "en": "LIC of India (Agents) Regulations, 2017 (as amended)"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "IRDAI (Appointment of Insurance Agents) Regulations, 2016 (संशोधित)",
+        "en": "IRDAI (Appointment of Insurance Agents) Regulations, 2016 (as amended)"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "LIC बोर्ड द्वारा स्वीकृत एजेंसी मामलों की नीति और बीमा एजेंटों को कमीशन भुगतान की नीति (संशोधित)",
+        "en": "LIC’s Board-approved Policy on Agency Matters and Policy on Payment of Commission to Insurance Agents (as amended)"
+       }
+      }
+     ],
+     "src": "PROC-13"
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "आपका एजेंसी वर्ष",
+      "en": "Your agency year"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "आपका एजेंसी वर्ष नियुक्ति की तारीख़ से उस महीने के अंत तक चलता है, जिसमें आप एजेंट के रूप में बारह महीने पूरे करते हैं। उसके बाद हर एजेंसी वर्ष 1 जून – 31 मई तक चलता है।",
+      "en": "Your agency year runs from the date of your appointment to the end of the month in which you complete twelve months as an agent. After that, every agency year runs from 1 June to 31 May."
+     },
+     "src": "PROC-14"
+    },
+    {
+     "t": "ol",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "उदाहरण: आपकी नियुक्ति 10 मई 2026 को होती है।",
+        "en": "Example: you are appointed on 10 May 2026."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "आपका पहला एजेंसी वर्ष → 31 मई 2027 को ख़त्म होता है।",
+        "en": "Your first agency year ends on 31 May 2027."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "उसके बाद हर एजेंसी वर्ष: 1 जून – 31 मई।",
+        "en": "Every agency year after that: 1 June to 31 May."
+       }
+      }
+     ],
+     "src": "PROC-14",
+     "cls": [
+      "steps"
+     ]
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "हर एजेंसी वर्ष में न्यूनतम बिज़नेस — इनमें से कोई एक",
+      "en": "Minimum business in every agency year — any one of these"
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h5",
+         "text": {
+          "hi": "विकल्प A",
+          "en": "Option A"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "6 लाइव्स और ₹50,000 का पहले साल का प्रीमियम",
+          "en": "6 lives AND ₹50,000 first-year premium"
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h5",
+         "text": {
+          "hi": "या — विकल्प B",
+          "en": "Option B"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "12 लाइव्स",
+          "en": "12 lives"
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h5",
+         "text": {
+          "hi": "या — विकल्प C",
+          "en": "Option C"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "₹1 लाख का पहले साल का प्रीमियम",
+          "en": "₹1 lakh first-year premium"
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      }
+     ],
+     "src": "PROC-15",
+     "cls": [
+      "grid"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>अगर किसी एजेंसी वर्ष में ज़रूरी बिज़नेस नहीं आता, तो उस एजेंसी वर्ष के अंत में आपकी नियुक्ति समाप्त हो जाती है।</strong> LIC पहले और बाद के वर्षों के लिए न्यूनतम सीमा समय-समय पर बदल सकती है। हर एजेंट को IRDAI और LIC द्वारा तय काम और आचार संहिता का भी पालन करना होता है।",
+      "en": "<strong>If you do not bring the required business in an agency year, your appointment ends at the close of that agency year.</strong> LIC may revise the minimum for the first and later years from time to time. Every agent must also follow the functions and code of conduct set by IRDAI and LIC."
+     },
+     "src": "PROC-15"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "स्रोत: LIC एजेंट भर्ती प्रस्तुति (LIC का आधिकारिक टेम्पलेट, 2026)।",
+      "en": "Source: LIC agent recruitment presentation (official LIC template, 2026)."
+     },
+     "cls": [
+      "src"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "आप असल में क्या करेंगे",
+      "en": "What you’ll actually do"
+     }
+    },
+    {
+     "t": "ol",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "संभावित ग्राहक खोजना",
+        "en": "Prospecting"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "ज़रूरत का विश्लेषण",
+        "en": "Need analysis"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "प्लान की प्रस्तुति",
+        "en": "Plan presentation"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "सेल पूरी करना",
+        "en": "Closing the sale"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "बिक्री के बाद सेवा",
+        "en": "After-sales service"
+       }
+      }
+     ],
+     "src": "PROC-17",
+     "cls": [
+      "flow"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "आप ऐसे लोग खोजते हैं जिन्हें बीमा की ज़रूरत हो सकती है, और मिलने का समय तय करते हैं। उनकी ज़रूरतें समझते हैं — परिवार के लिए आय, बच्चों की पढ़ाई और शादी, रिटायरमेंट — और उन्हें यह एहसास कराते हैं कि ज़रूरत सच्ची है। सही प्लान सुझाते हैं, बताते हैं कि आपका हल क्यों ठीक बैठता है, और ऑर्डर माँगते हैं। फिर सालों तक अच्छी सेवा देते हैं, क्लेम के समय भी। अगर आपको बाहर जाना और लोगों से मिलना अच्छा लगता है, तो यह काम आपको पसंद आएगा।",
+      "en": "You find people who may need cover and fix appointments. You understand their needs — income for the family, children’s education and marriage, retirement — and help them see that the need is real. You suggest suitable plans, show why your solution fits, and ask for the order. Then you give good service for years, including at claim time. If you love going out and meeting people, you will enjoy this."
+     },
+     "src": "PROC-17"
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "आपकी भूमिकाएँ और ज़िम्मेदारियाँ (आधिकारिक)",
+      "en": "Your roles and responsibilities (official)"
+     }
+    },
+    {
+     "t": "ol",
+     "items": [
+      {
+       "t": "li",
+       "cls": [
+        "card"
+       ],
+       "text": {
+        "hi": "<strong>नया बिज़नेस लाइए</strong> — नए ग्राहक खोजिए, अपनी संभावित ग्राहकों की सूची अपडेट रखिए और हर लीड पर ईमानदारी से फ़ॉलो-अप कीजिए।",
+        "en": "<strong>Bring in new business</strong> — look for new customers, keep your prospect list up to date and follow every lead sincerely."
+       }
+      },
+      {
+       "t": "li",
+       "cls": [
+        "card"
+       ],
+       "text": {
+        "hi": "<strong>नियमों का पालन कीजिए</strong> — Agency Regulations 2017 और जीवन बीमा एजेंटों के लिए IRDAI सर्कुलरों का ध्यान से पालन कीजिए।",
+        "en": "<strong>Follow the rules</strong> — follow the Agency Regulations 2017 and IRDAI circulars for life-insurance agents carefully."
+       }
+      },
+      {
+       "t": "li",
+       "cls": [
+        "card"
+       ],
+       "text": {
+        "hi": "<strong>लक्ष्य और मेहनत की योजना बनाइए</strong> — अपने लक्ष्य पहले से तय कीजिए और उसी हिसाब से काम कीजिए; अपनी एजेंसी कभी लैप्स न होने दीजिए — न्यूनतम बिज़नेस हमेशा पूरा कीजिए।",
+        "en": "<strong>Plan targets and effort</strong> — plan your targets in advance and work to them; never let your agency lapse — always meet the minimum business."
+       }
+      },
+      {
+       "t": "li",
+       "cls": [
+        "card"
+       ],
+       "text": {
+        "hi": "<strong>अपने प्रोडक्ट जानिए</strong> — बीमा प्रोडक्ट, सर्विसिंग के नियम और दूसरी कंपनियों के प्रोडक्ट की जानकारी अपडेट रखिए, ताकि ग्राहकों को उनके विकल्प समझा सकें।",
+        "en": "<strong>Know your products</strong> — stay updated on insurance products, servicing rules and competitors’ products, so you can guide clients through their options."
+       }
+      },
+      {
+       "t": "li",
+       "cls": [
+        "card"
+       ],
+       "text": {
+        "hi": "<strong>बेचने का हुनर बढ़ाइए</strong> — हर ग्राहक की आर्थिक क्षमता और जोखिम प्रोफ़ाइल समझिए, और उनकी ज़रूरत के हिसाब से प्रोडक्ट सुझाइए।",
+        "en": "<strong>Build selling skills</strong> — assess each client’s financial capacity and risk profile, and recommend products that suit their needs."
+       }
+      },
+      {
+       "t": "li",
+       "cls": [
+        "card"
+       ],
+       "text": {
+        "hi": "<strong>अच्छा रिकॉर्ड रखिए</strong> — पॉलिसीधारकों, दस्तावेज़ों और बातचीत का सही रिकॉर्ड, ताकि रिश्ते लंबे चलें।",
+        "en": "<strong>Keep good records</strong> — accurate records of policyholders, documents and communication, for long-term relationships."
+       }
+      },
+      {
+       "t": "li",
+       "cls": [
+        "card"
+       ],
+       "text": {
+        "hi": "<strong>क्लेम और सेवा में मदद कीजिए</strong> — पॉलिसीधारकों की क्लेम, प्रीमियम भुगतान और दूसरी सेवाओं में मदद कीजिए, और इन कामों को जल्दी करवाइए।",
+        "en": "<strong>Help with claims and service</strong> — support policyholders with claims, premium payments and other servicing, and help speed them up."
+       }
+      },
+      {
+       "t": "li",
+       "cls": [
+        "card"
+       ],
+       "text": {
+        "hi": "<strong>क्लब सदस्य बनिए</strong> — लगातार बेहतर होते रहिए, और जल्द से जल्द क्लब सदस्यता पाइए। <a href=\"#club\">क्लब →</a>",
+        "en": "<strong>Become a club member</strong> — keep improving, and reach club membership at the earliest. <a href=\"#club\">Clubs →</a>"
+       }
+      }
+     ],
+     "src": "PROC-16",
+     "cls": [
+      "grid"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "स्रोत: LIC एजेंट भर्ती प्रस्तुति (LIC का आधिकारिक टेम्पलेट, 2026)।",
+      "en": "Source: LIC agent recruitment presentation (official LIC template, 2026)."
+     },
+     "cls": [
+      "src"
+     ]
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "h4",
+       "text": {
+        "hi": "आपका हफ़्ता कैसा दिखता है",
+        "en": "What your week looks like"
+       }
+      },
+      {
+       "t": "ul",
+       "items": [
+        {
+         "t": "li",
+         "text": {
+          "hi": "नियमित रूप से ट्रेनिंग सेशन में शामिल हों।",
+          "en": "Attend training sessions regularly."
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "कम से कम 100 लोगों की संभावित ग्राहकों की सूची रखें।",
+          "en": "Keep a prospect list of at least 100 people."
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "हर दिन कम से कम 4 संभावित ग्राहकों से मिलें।",
+          "en": "Meet at least 4 prospects every day."
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "रोज़ की एक्टिविटी रिपोर्ट और हफ़्ते का सारांश लिखें।",
+          "en": "Write a daily activity report and a weekly summary."
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "हर हफ़्ते की रिव्यू मीटिंग में शामिल हों।",
+          "en": "Attend the weekly review meeting."
+         }
+        }
+       ],
+       "src": "PROC-18 SU-30"
+      }
+     ],
+     "cls": [
+      "recap"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "रोहित के साथ जुड़ना कैसे होता है",
+      "en": "How joining with Rohit works"
+     }
+    },
+    {
+     "t": "ol",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "सेमिनार या पहली मुलाक़ात",
+        "en": "Seminar or first meeting"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "रजिस्ट्रेशन",
+        "en": "Registration"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "धन्यवाद संदेश",
+        "en": "Thank-you message"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "करियर ओरिएंटेशन सेशन",
+        "en": "Career orientation session"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "व्यक्तिगत बातचीत",
+        "en": "Personal discussion"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "करियर आकलन",
+        "en": "Career assessment"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "ट्रेनिंग का निमंत्रण",
+        "en": "Training invitation"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "आपकी सीखने की यात्रा",
+        "en": "Your learning journey"
+       }
+      }
+     ],
+     "src": "PROC-19",
+     "cls": [
+      "flow"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>जल्दबाज़ी न करें। भरोसे को समय चाहिए।</strong>",
+      "en": "<strong>Don’t hurry. Trust needs time.</strong>"
+     },
+     "src": "PROC-19"
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "करियर ओरिएंटेशन सेशन (60–90 मिनट)",
+      "en": "The career orientation session (60–90 minutes)"
+     }
+    },
+    {
+     "t": "ol",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "वित्तीय साक्षरता",
+        "en": "Financial literacy"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "वित्तीय सलाहकार की भूमिका",
+        "en": "The role of a financial advisor"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "करियर से अपेक्षाएँ — ज़िम्मेदारियाँ, ज़रूरी हुनर, सीखने का तरीक़ा, और असली चुनौतियाँ",
+        "en": "Career expectations — responsibilities, skills needed, how learning works, and the real challenges"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "आपके सवाल, जवाब के साथ",
+        "en": "Your questions, answered"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "अगले क़दम — सिर्फ़ उनके लिए, जिनकी रुचि है",
+        "en": "Next steps — only for those who are interested"
+       }
+      }
+     ],
+     "src": "PROC-20"
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "details",
+   "summary": {
+    "hi": "पुराने आँकड़े (पुरानी LIC प्रस्तुतियों के अनुसार)",
+    "en": "Earlier figures (as per older LIC presentations)"
+   },
+   "children": [
+    {
+     "t": "p",
+     "text": {
+      "hi": "पुरानी प्रक्रिया: कम से कम 18 साल की उम्र · प्री-लाइसेंसिंग ट्रेनिंग · Insurance Institute of India की परीक्षा पास करना · डेवलपमेंट ऑफिसर से फ़ील्ड और व्यावहारिक ट्रेनिंग · व्यक्तिगत इंटरव्यू · IRDA से लाइसेंस।",
+      "en": "The older process: minimum age 18 · pre-licensing training · pass the examination conducted by the Insurance Institute of India · field and practical training by a Development Officer · personal interview · licence issued by IRDA."
+     },
+     "src": "PROC-06"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "पुरानी फ़ीस: रजिस्ट्रेशन ₹150 · क्लासरूम ट्रेनिंग मुफ़्त · IRDA परीक्षा ₹350 · कुल ₹500, सारे ख़र्च मिलाकर।",
+      "en": "Older fees: registration ₹150 · classroom training free · IRDA exam ₹350 · total ₹500, all expenses included."
+     },
+     "src": "PROC-10"
+    }
+   ],
+   "cls": [
+    "legacy"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "संक्षेप में",
+      "en": "In short"
+     }
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "src": "PROC-01 PROC-02",
+       "text": {
+        "hi": "18+ उम्र और 12वीं पास — पुरुष और महिलाएँ, दोनों। नियमित एजेंसी में उम्र की कोई ऊपरी सीमा नहीं।",
+        "en": "18+ and 12th pass — men and women alike. No upper age limit for the regular agency."
+       }
+      },
+      {
+       "t": "li",
+       "src": "PROC-04",
+       "text": {
+        "hi": "फ़ॉर्म → इंटरव्यू → एप्टीट्यूड टेस्ट → हमारे पोर्टल पर IC-38 ट्रेनिंग → IRDAI परीक्षा → नियुक्ति → इंडक्शन।",
+        "en": "Form → interview → aptitude test → IC-38 training on our portal → IRDAI exam → appointment → induction."
+       }
+      },
+      {
+       "t": "li",
+       "src": "PROC-15",
+       "text": {
+        "hi": "एजेंसी चालू रखिए: हर एजेंसी वर्ष 6 लाइव्स और ₹50,000, या 12 लाइव्स, या ₹1 लाख पहले साल का प्रीमियम।",
+        "en": "Keep your agency active: 6 lives and ₹50,000, or 12 lives, or ₹1 lakh first-year premium every agency year."
+       }
+      },
+      {
+       "t": "li",
+       "src": "PROC-19",
+       "text": {
+        "hi": "रोहित के साथ शुरुआत एक ओरिएंटेशन सेशन से होती है — न दबाव, न जल्दबाज़ी।",
+        "en": "With Rohit, you start with an orientation session — no pressure, no hurry."
+       }
+      }
+     ]
+    }
+   ],
+   "cls": [
+    "block",
+    "recap"
+   ]
+  },
+  {
+   "t": "aside",
+   "children": [
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>आपका पहला क़दम आसान है: एक ओरिएंटेशन बुक कीजिए।</strong>",
+      "en": "<strong>Your first step is simple: book an orientation.</strong>"
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "a",
+       "href": "#apply",
+       "text": {
+        "hi": "करियर ओरिएंटेशन बुक करें",
+        "en": "Book a career orientation"
+       },
+       "cls": [
+        "cta"
+       ]
+      },
+      {
+       "t": "a",
+       "href": "tel:+919973055291",
+       "text": {
+        "hi": "अभी कॉल करें: <span>9973055291</span>",
+        "en": "Call now: <span>9973055291</span>"
+       },
+       "src": "G-02",
+       "cls": [
+        "cta",
+        "secondary"
+       ]
+      }
+     ],
+     "cls": [
+      "btn-row"
+     ]
+    }
+   ],
+   "cls": [
+    "page-cta"
+   ]
+  }
+ ],
+ "id": "procedure"
+}

@@ -1,25 +1,20 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { Outlet, useLocation } from "react-router-dom";
 
 import { useAuthBootstrap } from "../app/features/auth/useAuth.js";
 import { useThemeSync } from "../app/features/useThemeSync.js";
+import { LIGHT_PATHS } from "../pages/site/sections.js";
 
 /**
  * Which surface a route actually paints, regardless of the theme preference.
  *
- * The marketing and auth pages hardcode their own palette — the landing page
- * is white whatever the toggle says, and /login is near-black for the same
- * reason. Only the product routes follow the theme. `data-surface` carries
- * that to CSS, which uses it for `color-scheme` and the scrollbar (see the
- * SCROLLBARS block in index.css).
+ * The public and sign-in pages hardcode their own cream palette whatever the
+ * toggle says (LIGHT_PATHS); only the product routes follow the theme.
+ * `data-surface` carries that to CSS, which uses it for `color-scheme` and
+ * the scrollbar (see the SCROLLBARS block in index.css).
  */
-const LIGHT_ONLY = ["/", "/benefits"];
-const DARK_ONLY = ["/login", "/register"];
-
 function surfaceFor(pathname) {
-  if (LIGHT_ONLY.includes(pathname)) return "light";
-  if (DARK_ONLY.includes(pathname)) return "dark";
-  return "app";
+  return LIGHT_PATHS.includes(pathname) ? "light" : "app";
 }
 
 function useSurfaceSync() {
@@ -37,14 +32,42 @@ function useSurfaceSync() {
  */
 function useRouteScroll() {
   const { pathname, hash } = useLocation();
+  const lastPath = useRef(pathname);
   useEffect(() => {
+    const samePage = lastPath.current === pathname;
+    lastPath.current = pathname;
+
     if (hash) {
-      // Anchors keep the CSS `scroll-behavior: smooth` glide — that movement
-      // tells the reader where in the document they were sent.
-      const el = document.getElementById(hash.slice(1));
-      if (el) {
+      const id = hash.slice(1);
+      const el = document.getElementById(id);
+      if (el && samePage) {
+        // Same page: keep the CSS `scroll-behavior: smooth` glide — that
+        // movement tells the reader where in the document they were sent.
         el.scrollIntoView();
         return;
+      }
+      if (el) {
+        /*
+         * Arriving from another route, the new page is still settling:
+         * pinned chapters measure their scroll length after first paint and
+         * grow by thousands of pixels, pushing the target down after a
+         * single jump. Jump now, then re-align as layout settles — unless
+         * the reader starts scrolling first.
+         */
+        const align = () => document.getElementById(id)?.scrollIntoView({ behavior: "instant", block: "start" });
+        align();
+        const timers = [80, 300, 700, 1200].map((ms) => window.setTimeout(align, ms));
+        const stop = () => timers.forEach((tm) => window.clearTimeout(tm));
+        const opts = { once: true, passive: true };
+        window.addEventListener("wheel", stop, opts);
+        window.addEventListener("touchstart", stop, opts);
+        window.addEventListener("keydown", stop, opts);
+        return () => {
+          stop();
+          window.removeEventListener("wheel", stop);
+          window.removeEventListener("touchstart", stop);
+          window.removeEventListener("keydown", stop);
+        };
       }
     }
     /*

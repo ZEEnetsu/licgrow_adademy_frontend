@@ -1,0 +1,729 @@
+{
+ "t": "section",
+ "children": [
+  {
+   "t": "header",
+   "children": [
+    {
+     "t": "p",
+     "text": {
+      "hi": "सवाल-जवाब",
+      "en": "FAQ"
+     },
+     "cls": [
+      "eyebrow"
+     ]
+    },
+    {
+     "t": "h2",
+     "text": {
+      "hi": "आपके सवाल, पूरे जवाब के साथ",
+      "en": "Your questions, fully answered"
+     },
+     "id": "faq-h"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "जवाब देखने के लिए सवाल पर टैप कीजिए। हर जवाब में पूरी जानकारी वाले पेज का लिंक है।",
+      "en": "Tap a question to open the answer. Each answer links to the page with the full details."
+     },
+     "cls": [
+      "lede"
+     ]
+    }
+   ],
+   "cls": [
+    "page-hero"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "जुड़ना",
+      "en": "Joining"
+     }
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "रोहित लाल के साथ LIC एजेंट कैसे बनें?",
+      "en": "How can I become an LIC agent with Rohit Lal?"
+     },
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "शुरुआत एक बातचीत से होती है। पहले आप एक करियर ओरिएंटेशन सेशन और एक व्यक्तिगत बातचीत में शामिल होते हैं — कोई जल्दबाज़ी नहीं।",
+          "en": "Start with a conversation. You will first attend a career orientation session and a personal discussion — there is no hurry."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "फिर आधिकारिक प्रक्रिया आती है: आवेदन फ़ॉर्म, व्यक्तिगत इंटरव्यू, एप्टीट्यूड टेस्ट, हमारे लर्निंग पोर्टल पर IC-38 प्री-लाइसेंसिंग ट्रेनिंग, IRDAI परीक्षा, LIC से नियुक्ति पत्र, और इंडक्शन ट्रेनिंग।",
+          "en": "Then comes the official process: application form, personal interview, aptitude test, IC-38 pre-licensing training on our learning portal, the IRDAI exam, your appointment letter from LIC, and induction training."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "रोहित को कॉल करें: <span><a href=\"tel:+919973055291\">9973055291</a> · <a href=\"tel:+918825361848\">8825361848</a></span> · <a href=\"#apply\">या यहाँ रजिस्टर करें</a>",
+          "en": "Call Rohit: <span><a href=\"tel:+919973055291\">9973055291</a> · <a href=\"tel:+918825361848\">8825361848</a></span> · <a href=\"#apply\">or register here</a>"
+         }
+        }
+       ],
+       "src": "FAQ-01 PROC-04 PROC-19 G-02"
+      }
+     ]
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "कौन पात्र है?",
+      "en": "Who is eligible?"
+     },
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "18 साल की उम्र पूरी कर चुके सभी भारतीय — पुरुष हों या महिलाएँ — LIC एजेंट बन सकते हैं। नियमित एजेंसी में उम्र की कोई ऊपरी सीमा नहीं है। पढ़ाई 12वीं पास होनी चाहिए — सबके लिए एक जैसा नियम। बीमा सखी सिर्फ़ महिलाओं के लिए है; इसके लिए उम्र 18 से 70 साल है। <a href=\"#procedure\">कैसे जुड़ें →</a>",
+          "en": "Any Indian — man or woman — who has completed 18 years of age can become an LIC agent. There is no upper age limit for the regular agency. The education requirement is 12th pass, the same for everyone. For Bima Sakhi, which is only for women, the age range is 18 to 70 years. <a href=\"#procedure\">How to join →</a>"
+         }
+        }
+       ],
+       "src": "FAQ-02 PROC-01 PROC-02 BS-22"
+      }
+     ]
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "क्या मैं ऑनलाइन रजिस्टर कर सकता/सकती हूँ?",
+      "en": "Can I register online?"
+     },
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "हाँ। इस पेज पर रजिस्ट्रेशन फ़ॉर्म भरिए — अपना नाम, मोबाइल, ईमेल, शहर और आप किस बारे में और जानना चाहते हैं — और रोहित आपसे संपर्क करेंगे। <a href=\"#apply\">रजिस्टर करें →</a>",
+          "en": "Yes. Fill in the registration form on this page — your name, mobile, email, city and what you would like to know more about — and Rohit will get in touch. <a href=\"#apply\">Register →</a>"
+         }
+        }
+       ],
+       "src": "FAQ-03 APP-02"
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "काग़ज़ी कार्रवाई के लिए आप अपने दस्तावेज़ ख़ुद आकर या WhatsApp पर जमा कर सकते हैं।",
+        "en": "For the paperwork, you can submit your documents in person or on WhatsApp."
+       },
+       "src": "FAQ-03 PROC-08"
+      }
+     ]
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "मुझे कौन-से दस्तावेज़ चाहिए?",
+      "en": "What documents do I need?"
+     },
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "4 पासपोर्ट साइज़ रंगीन फ़ोटो; आपकी 12वीं की मार्कशीट; उम्र का एक प्रमाण; पते का एक प्रमाण; आपका पैन कार्ड; और बैंक विवरण (कैंसल चेक)। बीमा सखियाँ सभी प्रमाण स्व-प्रमाणित करती हैं और तय आवेदन फ़ॉर्म (Annexure I) जोड़ती हैं। <a href=\"#procedure\">पूरी सूची →</a>",
+          "en": "4 passport-size colour photographs; your 12th mark sheet; one age proof; one address proof; your PAN card; and bank details (a cancelled cheque). Bima Sakhis self-attest all proofs and add the prescribed application form (Annexure I). <a href=\"#procedure\">Full checklist →</a>"
+         }
+        }
+       ],
+       "src": "FAQ-04 PROC-11"
+      }
+     ]
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "कौन-सी ट्रेनिंग ज़रूरी है?",
+      "en": "What training is required?"
+     },
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "लाइसेंस से पहले, आप अनिवार्य प्री-लाइसेंसिंग ट्रेनिंग (IC-38) पूरी करते हैं — कोर्स के अनुसार, हमारे कस्टमाइज़्ड लर्निंग पोर्टल पर — अपनी रफ़्तार से, फ़ोन या लैपटॉप पर। इसमें कितना समय लगेगा, यह आपके कोर्स पर निर्भर करता है।",
+          "en": "Before your licence, you complete the mandatory pre-licensing training (IC-38) as per your course, on our customised learning portal — at your own pace, on phone or laptop. How long it takes depends on your course."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "लाइसेंस के बाद, आपके डेवलपमेंट ऑफिसर आपको जीवन बीमा और ज़रूरत के आधार पर बिक्री का सिद्धांत और व्यवहार सिखाते हैं, और आपकी एक्टिविटी की नियमित समीक्षा करते हैं।",
+          "en": "After your licence, your Development Officer trains you in the theory and practice of life insurance and need-based selling, and reviews your activities regularly."
+         }
+        }
+       ],
+       "src": "FAQ-05 PROC-21 PROC-07 CAR-18"
+      }
+     ]
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "क्या कोई परीक्षा है?",
+      "en": "Is there an exam?"
+     },
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "हाँ — LIC से नियुक्ति पत्र मिलने से पहले आपको IRDAI परीक्षा पास करनी होती है। आपके IC-38 कोर्स के साथ-साथ हमारा लर्निंग पोर्टल आपको इसकी तैयारी भी कराता है।",
+          "en": "Yes — you must pass the IRDAI examination before LIC issues your appointment letter. Our learning portal prepares you for it, alongside your IC-38 course."
+         }
+        }
+       ],
+       "src": "FAQ-06 PROC-04 PROC-21"
+      }
+     ]
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "फ़ीस कितनी है?",
+      "en": "What are the fees?"
+     },
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "रजिस्ट्रेशन ₹150, ऑनलाइन ट्रेनिंग ₹150 और IRDAI परीक्षा ₹500 — कुल ₹900 (LIC ट्रेनिंग सामग्री के अनुसार; फ़ीस बदल सकती है)।",
+        "en": "Registration ₹150, online training ₹150 and the IRDAI examination ₹500 — ₹900 in total (as per LIC training material; fees may change)."
+       },
+       "src": "FAQ-13 PROC-09"
+      }
+     ]
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "क्या कोई न्यूनतम बिज़नेस लक्ष्य है?",
+      "en": "Is there a minimum business target?"
+     },
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "हाँ। हर एजेंसी वर्ष में इनमें से कोई एक ज़रूरी है: 6 लाइव्स और ₹50,000 का पहले साल का प्रीमियम; या 12 लाइव्स; या ₹1 लाख का पहले साल का प्रीमियम।",
+          "en": "Yes. In every agency year you need any one of these: 6 lives and ₹50,000 of first-year premium; or 12 lives; or ₹1 lakh of first-year premium."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "<strong>अगर किसी एजेंसी वर्ष में ज़रूरी बिज़नेस नहीं आता, तो उस एजेंसी वर्ष के अंत में आपकी नियुक्ति समाप्त हो जाती है।</strong> <a href=\"#procedure\">नियम →</a>",
+          "en": "<strong>If you don’t bring the required business in an agency year, your appointment ends at the close of that agency year.</strong> <a href=\"#procedure\">The rules →</a>"
+         }
+        }
+       ],
+       "src": "FAQ-14 PROC-15"
+      }
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "पैसा",
+      "en": "Money"
+     }
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "एक एजेंट कितना कमीशन कमाता है?",
+      "en": "How much commission does an agent earn?"
+     },
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "आपको प्रीमियम पर प्रतिशत के हिसाब से कमीशन मिलता है — सिर्फ़ एक बार नहीं, बल्कि जब-जब ग्राहक प्रीमियम भरता है, पूरी अवधि तक। ज़्यादातर रेगुलर-प्रीमियम प्लान पर (2023-24 की सामग्री) यह वर्ष 1 में 28% (20% और बोनस कमीशन), वर्ष 2–5 में 7.5% और वर्ष 6 से 5% है।",
+          "en": "You earn commission as a percentage of the premium — not just once, but every time your customer pays, for the full term. On most regular-premium plans (2023-24 material) that is 28% in year 1 (20% plus bonus commission), 7.5% in years 2–5 and 5% from year 6."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "रिन्यूअल बढ़ता जाता है। जैसे, हर साल ₹5 लाख प्रीमियम लाइए, तो 5 साल बाद आपका रिन्यूअल कमीशन ₹1,25,000 हो सकता है — और 20 साल बाद ₹5,00,000।",
+          "en": "Renewal builds up. For example, bring ₹5 lakh of premium a year and your renewal commission after 5 years can be ₹1,25,000 — and ₹5,00,000 after 20 years."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "हर एजेंट के लिए रोहित का लक्ष्य है तीसरे साल के अंत तक ₹1,00,000 प्रति माह — साफ़ योजना के साथ: कम से कम 100 लोगों की संभावित ग्राहक सूची और रोज़ कम से कम 4 मुलाक़ातें।",
+          "en": "Rohit’s goal for every agent is ₹1,00,000 a month by the end of the third year, with a clear plan: a prospect list of at least 100 people and at least 4 meetings a day."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "आपकी कमाई आपकी मेहनत और आपके द्वारा लाए गए बिज़नेस पर निर्भर करती है।",
+          "en": "Your earnings depend on your effort and the business you bring."
+         },
+         "cls": [
+          "effort"
+         ]
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "केवल उदाहरण। वास्तविक कमीशन प्लान, अवधि, भरे गए प्रीमियम और LIC के लागू नियमों पर निर्भर करता है। आपकी कमाई आपकी मेहनत पर निर्भर है।",
+          "en": "Illustration only. Actual commission depends on the plan, the term, the premium paid and the LIC rules in force. Your earnings depend on your effort."
+         },
+         "cls": [
+          "src"
+         ]
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "<a href=\"#benefits\">कमीशन कैसे मिलता है →</a>",
+          "en": "<a href=\"#benefits\">How commission works →</a>"
+         }
+        }
+       ],
+       "src": "FAQ-07 BEN-01 BEN-05 BEN-14 SU-34 SU-30 G-09"
+      }
+     ]
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "क्या काम बंद करने पर भी रिन्यूअल आय मिलती रहती है?",
+      "en": "Does my renewal income continue if I stop working?"
+     },
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "अगर आपने 5 साल एजेंट के रूप में काम किया है, तो जब तक आपके पॉलिसीधारक रिन्यूअल प्रीमियम भरते रहेंगे, आपको — और आगे चलकर आपके परिवार को — रिन्यूअल कमीशन मिलता रहेगा (ERC और HRC)। यह वंशानुगत कमीशन आपके न रहने के बाद भी आपके नॉमिनी और परिवार को मिलता है।",
+          "en": "If you have worked as an agent for 5 years, then as long as your policyholders keep paying their renewal premiums, you — and later your family — keep receiving renewal commission (ERC and HRC). This hereditary commission passes to your nominee and family even after you are gone."
+         }
+        }
+       ],
+       "src": "FAQ-12 BEN-02 BEN-12"
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "अगर कुछ साल की सेवा के बाद आपकी एजेंसी ख़त्म होती है, तो LIC के पात्रता नियमों के अनुसार रिन्यूअल कमीशन जारी रह सकता है।",
+        "en": "If your agency ends after some years of service, renewal commission can continue, as per LIC’s eligibility rules."
+       },
+       "src": "FAQ-12 BEN-33"
+      }
+     ]
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "क्या मेरी आय तय होगी?",
+      "en": "Will my income be fixed?"
+     },
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "नहीं। कमाई का कोई पक्का आँकड़ा नहीं है। आपके नतीजे आपकी एक्टिविटी, हुनर, निरंतरता, आपके लाए बिज़नेस और लागू कमाई-नियमों पर निर्भर करते हैं — इसलिए फ़ैसला करने से पहले आधिकारिक जानकारी और ट्रेनिंग के ज़रिए आय का ढाँचा अच्छी तरह समझ लीजिए।",
+          "en": "No. There is no guaranteed income figure. Your results depend on your activity, skill, consistency, the business you bring and the remuneration rules that apply — so understand the income structure well, through official information and training, before you decide."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "इसके लिए भी तैयार रहिए: शुरुआत में कमाई कम होगी, क्योंकि भरोसे के रिश्ते बनने में समय लगता है।",
+          "en": "Be ready for this too: income at the beginning will be low, because relationships take time."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "केवल उदाहरण। वास्तविक कमीशन प्लान, अवधि, भरे गए प्रीमियम और LIC के लागू नियमों पर निर्भर करता है। आपकी कमाई आपकी मेहनत पर निर्भर है।",
+          "en": "Illustration only. Actual commission depends on the plan, the term, the premium paid and the LIC rules in force. Your earnings depend on your effort."
+         },
+         "cls": [
+          "src"
+         ]
+        }
+       ],
+       "src": "FAQ-15 GZ-13 GZ-35 SU-24 G-09"
+      }
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "फ़ायदे और तरक्की",
+      "en": "Benefits and growth"
+     }
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "कमीशन के अलावा मुझे क्या फ़ायदे मिलते हैं?",
+      "en": "What benefits do I get besides commission?"
+     },
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "हर एजेंट को ग्रेच्युटी (₹5,00,000 तक), मेडिक्लेम, एजेंसी के सालों के हिसाब से ₹5,00,000 से ₹15,00,000 तक का ग्रुप टर्म इंश्योरेंस, ₹2,00,000 का पर्सनल एक्सीडेंट कवर, वंशानुगत कमीशन, और होम लोन व कार एडवांस जैसे एडवांस मिल सकते हैं।",
+          "en": "Every agent can get gratuity (up to ₹5,00,000), mediclaim, group term insurance of ₹5,00,000 to ₹15,00,000 depending on years of agency, ₹2,00,000 personal-accident cover, hereditary commission, and advances such as a housing loan and car advance."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "क्लब सदस्यों को और ज़्यादा मिलता है: ब्याज-मुक्त एडवांस, देश और विदेश में सम्मेलन, और — 01.09.2026 से — ₹15,00,000 तक का ग्रुप इंश्योरेंस, जिसका पूरा प्रीमियम LIC भरती है। <a href=\"#benefits\">सारे फ़ायदे →</a>",
+          "en": "Club members get more: interest-free advances, conferences in India and abroad, and — from 01.09.2026 — group insurance of up to ₹15,00,000 with the whole premium paid by LIC. <a href=\"#benefits\">All benefits →</a>"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "*शर्तें लागू",
+          "en": "*Conditions apply"
+         },
+         "cls": [
+          "conditions"
+         ]
+        }
+       ],
+       "src": "FAQ-08 BEN-21 BEN-25 BEN-26 BEN-27 BEN-28 CLUB-05 CLUB-09"
+      }
+     ]
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "क्लब और MDRT क्या हैं?",
+      "en": "What are clubs and MDRT?"
+     },
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "क्लब, बेहतरीन प्रदर्शन के लिए LIC की ओर से मिलने वाली पहचान हैं, जिनमें कमीशन के ऊपर फ़ायदे मिलते हैं। इनके आठ स्तर हैं — Distinguished Agents’ Club से Elite Club तक।",
+          "en": "Clubs are LIC’s recognition for outstanding performance, with benefits over and above commission. There are eight levels, from the Distinguished Agents’ Club up to the Elite Club."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "MDRT — मिलियन डॉलर राउंड टेबल, जिसकी स्थापना 1927 में हुई — दुनिया भर में बिक्री की उत्कृष्टता का पैमाना है। 2026 के लिए MDRT में ₹11,32,600 का पहले साल का कमीशन (बोनस छोड़कर) या ₹45,30,400 का पहले साल का प्रीमियम चाहिए। <a href=\"#club\">क्लब और MDRT →</a>",
+          "en": "MDRT — the Million Dollar Round Table, founded in 1927 — is the worldwide standard of sales excellence. For 2026, MDRT needs ₹11,32,600 of first-year commission (excluding bonus) or ₹45,30,400 of first-year premium. <a href=\"#club\">Clubs and MDRT →</a>"
+         }
+        }
+       ],
+       "src": "FAQ-17 CLUB-01 CLUB-02 CLUB-14 CLUB-16"
+      }
+     ]
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "क्या मैं आगे चलकर LIC अधिकारी बन सकता/सकती हूँ?",
+      "en": "Can I become an LIC officer later?"
+     },
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "हाँ, इसका रास्ता है। एजेंटों के लिए डेवलपमेंट ऑफिसर के क्लास-II अधिकारी पद में आरक्षित कोटा है, और वहाँ से असिस्टेंट ब्रांच मैनेजर और ब्रांच मैनेजर तक बढ़ा जा सकता है। ग्रेजुएट बीमा सखियाँ, पात्रता की शर्तें पूरी करने पर, 5 एजेंसी वर्ष के बाद अप्रेंटिस डेवलपमेंट ऑफिसर के लिए आवेदन कर सकती हैं। <a href=\"#career\">करियर के रास्ते →</a>",
+          "en": "Yes, there is a path. Agents have a reserved quota for the Class-II officer post of Development Officer, and can grow from there to Assistant Branch Manager and Branch Manager. Bima Sakhis who are graduates can apply for Apprentice Development Officer after 5 agency years, if they meet the eligibility criteria. <a href=\"#career\">Career paths →</a>"
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "*शर्तें लागू",
+          "en": "*Conditions apply"
+         },
+         "cls": [
+          "conditions"
+         ]
+        }
+       ],
+       "src": "FAQ-18 CAR-06 BS-46"
+      }
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "क्या यह मेरे लिए सही है?",
+      "en": "Is it right for me?"
+     }
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "क्या मैं दूसरी नौकरी करते हुए एजेंट बन सकता/सकती हूँ?",
+      "en": "Can I become an agent while doing another job?"
+     },
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "हाँ। LIC एजेंसी एक समानांतर पेशा है — आप इसे अपनी मौजूदा नौकरी, बिज़नेस या पेशे के साथ-साथ शुरू कर सकते हैं। बहुत से लोग पार्ट-टाइम शुरू करते हैं और एजेंसी की कमाई बढ़ने पर बाद में फ़ुल-टाइम हो जाते हैं।",
+          "en": "Yes. LIC agency is a parallel profession — you can start it alongside your current job, business or profession. Many people start part-time and move to full-time later, as their agency income grows."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "बीमा सखी स्टाइपेंड के लिए एक बात ध्यान रखें: यह उन महिलाओं के लिए है, जो नौकरीपेशा नहीं हैं और जिनकी किसी दूसरे व्यापार या पेशे से कोई बड़ी नियमित आय नहीं है।",
+          "en": "One point for the Bima Sakhi stipend: it is meant for women who are not salaried employees and have no substantial regular income from another trade or profession."
+         }
+        }
+       ],
+       "src": "FAQ-09 BEN-30 SU-32 BS-24"
+      }
+     ]
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "रोहित लाल के साथ क्यों जुड़ें?",
+      "en": "Why join with Rohit Lal?"
+     },
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "रोहित इसे नौकरी का विज्ञापन नहीं, एक न्योता कहते हैं: अपने लक्ष्य साफ़ करने, सही सवाल पूछने, और फिर चुनने का। उनका मानना है कि सफलता का कोई शॉर्टकट नहीं होता — बस सीखना, भरोसा, धैर्य और ईमानदारी।",
+          "en": "Rohit calls this an invitation, not a job advertisement: to clarify your goals, ask the right questions, and then choose. He believes there is no shortcut to success — only learning, trust, patience and honesty."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "उनका वादा: सही और संतुलित जानकारी; ईमानदार जवाब; कोई दबाव नहीं; और न कोई भ्रामक वादा, न कमाई का बढ़ा-चढ़ाकर दावा। आपकी ट्रेनिंग हमारे कस्टमाइज़्ड लर्निंग पोर्टल पर होती है।",
+          "en": "His promise: correct, balanced information; honest answers; no pressure; and no misleading promises or unrealistic income claims. You train on our customised learning portal."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "हर एजेंट के लिए उनका लक्ष्य: तीसरे साल के अंत तक ₹1,00,000 प्रति माह — योजना (कम से कम 100 संभावित ग्राहक, रोज़ कम से कम 4 मुलाक़ातें), ट्रेनिंग और उनकी ओर से फ़ॉलो-अप के साथ। मेहनत आपकी होगी — और नतीजा भी आपका।",
+          "en": "His goal for every agent: ₹1,00,000 a month by the end of the third year — with the plan (at least 100 prospects, at least 4 meetings a day), the training and the follow-up from him. The effort, and the result, are yours."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "आपकी कमाई आपकी मेहनत और आपके द्वारा लाए गए बिज़नेस पर निर्भर करती है।",
+          "en": "Your earnings depend on your effort and the business you bring."
+         },
+         "cls": [
+          "effort"
+         ]
+        }
+       ],
+       "src": "FAQ-11 HOME-12 HOME-13 SU-34 SU-30 PROC-21 APP-06"
+      }
+     ]
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "बीमा सखी क्या है, और इसमें कौन जुड़ सकता है?",
+      "en": "What is Bima Sakhi, and who can join it?"
+     },
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "बीमा सखी (“महिला करियर एजेंट”) सिर्फ़ महिलाओं के लिए LIC की योजना है: नियमित LIC एजेंसी, और साथ में पहले तीन साल स्टाइपेंड — वर्ष 1 में ₹7,000 प्रति माह, वर्ष 2 में ₹6,000 और वर्ष 3 में ₹5,000, बिज़नेस के नियम पूरे होने पर।",
+          "en": "Bima Sakhi (“Mahila Career Agent”) is LIC’s scheme exclusively for women: the regular LIC agency, plus a stipend for the first three years — ₹7,000 a month in year 1, ₹6,000 in year 2 and ₹5,000 in year 3, when the business norms are met."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "हम गृहिणियों, मार्केटिंग प्रोफ़ेशनल, स्वरोज़गार करने वाली महिलाओं, कॉलेज की छात्राओं, अस्थायी स्टाफ़ और कामकाजी महिलाओं को आमंत्रित करते हैं। <a href=\"#bima-sakhi\">बीमा सखी →</a>",
+          "en": "We invite homemakers, marketing professionals, self-employed women, college students, casual staff and working women. <a href=\"#bima-sakhi\">Bima Sakhi →</a>"
+         }
+        }
+       ],
+       "src": "FAQ-16 BS-20 BS-26 BS-29"
+      }
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "समय",
+      "en": "Timing"
+     }
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "एजेंट बनने में कितना समय लगता है?",
+      "en": "How long does it take to become an agent?"
+     },
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "यह आपके कोर्स और परीक्षा की तारीख़ पर निर्भर करता है। रोहित को कॉल कीजिए — वे आपको पूरा समय-क्रम समझा देंगे। <span><a href=\"tel:+919973055291\">9973055291</a></span>",
+          "en": "It depends on your course and your exam date. Call Rohit and he will walk you through the timeline. <span><a href=\"tel:+919973055291\">9973055291</a></span>"
+         }
+        }
+       ],
+       "src": "FAQ-10"
+      }
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "aside",
+   "children": [
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>अब भी कोई सवाल है? रोहित को कॉल कीजिए।</strong>",
+      "en": "<strong>Still have a question? Call Rohit.</strong>"
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "a",
+       "href": "tel:+919973055291",
+       "text": {
+        "hi": "अभी कॉल करें: <span>9973055291</span>",
+        "en": "Call now: <span>9973055291</span>"
+       },
+       "src": "G-02",
+       "cls": [
+        "cta"
+       ]
+      },
+      {
+       "t": "a",
+       "href": "#apply",
+       "text": {
+        "hi": "करियर ओरिएंटेशन बुक करें",
+        "en": "Book a career orientation"
+       },
+       "cls": [
+        "cta",
+        "secondary"
+       ]
+      }
+     ],
+     "cls": [
+      "btn-row"
+     ]
+    }
+   ],
+   "cls": [
+    "page-cta"
+   ]
+  }
+ ],
+ "id": "faq"
+}

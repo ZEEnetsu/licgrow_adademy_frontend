@@ -34,49 +34,6 @@ export const PERMISSIONS = Object.freeze({
   ANALYTICS_VIEW: "analytics:view",
 });
 
-/** Flat list of every catalog permission — handy for validation and pickers. */
-export const PERMISSION_LIST = Object.freeze(Object.values(PERMISSIONS));
-
-const PERMISSION_SET = new Set(PERMISSION_LIST);
-
-/** Seeded system roles (05-rbac.md). These cannot be edited server-side. */
-export const SYSTEM_ROLES = Object.freeze({
-  MENTOR: "mentor",
-  CO_MENTOR: "co_mentor",
-  VIEWER: "viewer",
-});
-
-/**
- * Mirror of the seeded role → permission table.
- *
- * NOT AUTHORITATIVE. The server owns role definitions and they are editable by
- * super-admins (`PUT /admin/roles/:roleId/permissions`). Use this only for
- * optimistic UI, fixtures, and tests — read the real thing from
- * `useGetRolesQuery()` in `rbac.api.js`.
- */
-export const DEFAULT_ROLE_PERMISSIONS = Object.freeze({
-  [SYSTEM_ROLES.MENTOR]: Object.freeze([...PERMISSION_LIST]),
-  [SYSTEM_ROLES.CO_MENTOR]: Object.freeze([
-    PERMISSIONS.BATCH_READ,
-    PERMISSIONS.ENROLLMENT_REVIEW,
-    PERMISSIONS.COURSE_AUTHOR,
-    PERMISSIONS.TEST_AUTHOR,
-    PERMISSIONS.TEST_VIEW_RESULTS,
-    PERMISSIONS.ANNOUNCEMENT_MANAGE,
-    PERMISSIONS.LEARNER_READ,
-    PERMISSIONS.ANALYTICS_VIEW,
-  ]),
-  [SYSTEM_ROLES.VIEWER]: Object.freeze([
-    PERMISSIONS.BATCH_READ,
-    PERMISSIONS.COURSE_READ,
-    PERMISSIONS.TEST_READ,
-    PERMISSIONS.ANNOUNCEMENT_READ,
-    PERMISSIONS.LEARNER_READ,
-    PERMISSIONS.TEST_VIEW_RESULTS,
-    PERMISSIONS.ANALYTICS_VIEW,
-  ]),
-});
-
 /**
  * Actions that implicitly grant the matching `:read` on the same resource.
  *
@@ -110,39 +67,14 @@ export function expandPermissions(granted = []) {
 }
 
 /**
- * The authoritative client-side permission check.
+ * The client-side permission check, against an already-expanded set (see
+ * `expandPermissions`) so the memoized selectors in `auth.selectors.js` don't
+ * re-expand on every call.
  *
  * Encodes the actor semantics from 05-rbac.md:
  * - `super_admin` bypasses permission checks entirely (by actor type).
  * - `learner` has no permissions, ever.
  * - only `staff_admin` is governed by RBAC.
- *
- * @param {{ actorType: string, permissions?: string[] }} identity
- * @param {string|string[]} required one or many `resource:action` strings
- * @param {{ mode?: "all"|"any" }} [options] how to combine multiple requirements
- * @returns {boolean}
- */
-export function checkPermission(identity, required, options = {}) {
-  const { actorType, permissions = [] } = identity ?? {};
-  const { mode = "all" } = options;
-
-  if (actorType === ACTOR.SUPER_ADMIN) return true;
-  if (actorType !== ACTOR.STAFF_ADMIN) return false;
-
-  const list = Array.isArray(required) ? required : [required];
-  const wanted = list.filter(Boolean);
-  if (wanted.length === 0) return true;
-
-  const effective = expandPermissions(permissions);
-
-  return mode === "any"
-    ? wanted.some((permission) => effective.has(permission))
-    : wanted.every((permission) => effective.has(permission));
-}
-
-/**
- * Same check, but against an already-expanded set — avoids re-expanding on
- * every call. Used by the memoized selectors in `auth.selectors.js`.
  *
  * @param {string} actorType
  * @param {Set<string>} effective result of `expandPermissions`
@@ -162,9 +94,4 @@ export function checkExpanded(actorType, effective, required, options = {}) {
   return mode === "any"
     ? wanted.some((permission) => effective.has(permission))
     : wanted.every((permission) => effective.has(permission));
-}
-
-/** Is this string part of the documented catalog? */
-export function isKnownPermission(permission) {
-  return PERMISSION_SET.has(permission);
 }

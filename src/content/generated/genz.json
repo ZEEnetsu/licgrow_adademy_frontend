@@ -1,0 +1,1631 @@
+{
+ "t": "section",
+ "children": [
+  {
+   "t": "header",
+   "children": [
+    {
+     "t": "p",
+     "text": {
+      "hi": "Gen-Z",
+      "en": "Gen-Z"
+     },
+     "cls": [
+      "eyebrow"
+     ]
+    },
+    {
+     "t": "h2",
+     "text": {
+      "hi": "YOUR CAREER. YOUR CLIENTS. YOUR BRAND. YOUR BUSINESS. — POWERED BY LIC. आपका करियर। आपके क्लाइंट। आपका ब्रांड। आपका बिज़नेस। — LIC के साथ।",
+      "en": "YOUR CAREER. YOUR CLIENTS. YOUR BRAND. YOUR BUSINESS. — POWERED BY LIC."
+     },
+     "src": "GZ-01",
+     "id": "genz-h"
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "आप अपने करियर में असल में क्या ढूँढ रहे हैं?",
+        "en": "What are you actually looking for in your career?"
+       },
+       "cls": [
+        "lede"
+       ]
+      },
+      {
+       "t": "ul",
+       "items": [
+        {
+         "t": "li",
+         "text": {
+          "hi": "पक्की तनख़्वाह?",
+          "en": "A fixed salary?"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "एक सम्मानित प्रोफ़ेशनल पहचान?",
+          "en": "A respected professional identity?"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "आज़ादी और फ़्लेक्सिबिलिटी?",
+          "en": "Freedom and flexibility?"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "ग्रोथ?",
+          "en": "Growth?"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "सीखना?",
+          "en": "Learning?"
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "या फिर अपना कुछ बनाने का मौक़ा?",
+          "en": "Or the chance to build something of your own?"
+         }
+        }
+       ],
+       "cls": [
+        "chips"
+       ]
+      }
+     ],
+     "src": "GZ-02"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "आपके पास बहुत से ऑप्शन हैं — सरकारी नौकरी, प्राइवेट कंपनी, टेक्नोलॉजी, फ़्रीलांसिंग, बिज़नेस, क्रिएटर बनना। मैं यह कहने नहीं आया कि LIC एजेंसी ही आपका अकेला ऑप्शन है। मैं बस इतना कह रहा हूँ कि इसे एक नए नज़रिए से देखिए।",
+      "en": "You have many options — a government job, a private company, technology, freelancing, a business, becoming a creator. I am not here to tell you LIC agency is your only option. I am asking you to look at it from a different angle."
+     },
+     "src": "GZ-03"
+    },
+    {
+     "t": "a",
+     "href": "#apply",
+     "text": {
+      "hi": "करियर ओरिएंटेशन बुक करें",
+      "en": "Book a career orientation"
+     },
+     "cls": [
+      "cta"
+     ]
+    }
+   ],
+   "cls": [
+    "page-hero"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "“LIC एजेंट” मत सोचिए। “फ़ाइनेंशियल प्रोफ़ेशनल” सोचिए।",
+      "en": "Don’t think “LIC Agent.” Think “Financial Professional.”"
+     },
+     "src": "GZ-04"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "वह पुरानी तस्वीर भूल जाइए — हाथ में फ़ाइल लिए, घर-घर जाकर पॉलिसी ख़रीदने को कहता कोई इंसान। इसकी जगह सोचिए कि आपके नेटवर्क के लोग इन बातों पर सलाह के लिए आपके पास आते हैं:",
+      "en": "Forget the old picture of someone going house to house with a file, asking people to buy a policy. Imagine instead that people in your network come to you for advice on:"
+     },
+     "src": "GZ-04"
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "परिवार की सुरक्षा",
+        "en": "family protection"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "बच्चों की पढ़ाई",
+        "en": "children’s education"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "रिटायरमेंट प्लानिंग",
+        "en": "retirement planning"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "आय की सुरक्षा",
+        "en": "income protection"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "लंबे समय के फ़ाइनेंशियल गोल",
+        "en": "long-term financial goals"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "रिस्क मैनेजमेंट",
+        "en": "risk management"
+       }
+      }
+     ],
+     "src": "GZ-04",
+     "cls": [
+      "chips"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "आप कोई प्रोडक्ट थोप नहीं रहे। आप किसी की पैसों से जुड़ी ज़रूरत समझते हैं, और उसके सही हल समझाते हैं।",
+      "en": "You are not pushing a product. You understand a financial need, and explain the solutions that suit it."
+     },
+     "src": "GZ-04"
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "आपका फ़ोन ही आपका बिज़नेस टूल है",
+      "en": "Your phone is your business tool"
+     }
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "एक WhatsApp बातचीत, एक अपॉइंटमेंट बन सकती है।",
+        "en": "A WhatsApp conversation can become an appointment."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "एक एजुकेशनल वीडियो, जागरूकता ला सकता है।",
+        "en": "An educational video can create awareness."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "एक LinkedIn कनेक्शन, एक प्रोफ़ेशनल रिश्ता बन सकता है।",
+        "en": "A LinkedIn connection can become a professional relationship."
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "एक रेफ़रल, आपको एक नए परिवार से मिला सकता है।",
+        "en": "A referral can introduce you to a new family."
+       }
+      }
+     ],
+     "src": "GZ-05"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>टेक्नोलॉजी बातचीत शुरू कर सकती है। रिश्ता भरोसे से बनता है — और भरोसा कमाना पड़ता है।</strong>",
+      "en": "<strong>Technology can start a conversation. Trust builds the relationship — and trust is something you have to earn.</strong>"
+     },
+     "src": "GZ-05"
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "जो स्किल आप सीखेंगे — वे बीमा के बाहर भी काम आएँगी",
+      "en": "Skills you’ll build — useful even outside insurance"
+     }
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "कम्युनिकेशन",
+        "en": "Communication"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "प्रेज़ेंटेशन",
+        "en": "Presentation"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "नेगोशिएशन",
+        "en": "Negotiation"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "नेटवर्किंग",
+        "en": "Networking"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "फ़ाइनेंशियल समझ",
+        "en": "Financial awareness"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "रिलेशनशिप मैनेजमेंट",
+        "en": "Relationship management"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "डिजिटल प्रॉस्पेक्टिंग",
+        "en": "Digital prospecting"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "बिज़नेस डेवलपमेंट",
+        "en": "Business development"
+       }
+      }
+     ],
+     "src": "GZ-06",
+     "cls": [
+      "chips"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "यह प्रोफ़ेशन सीखते हुए आप कैसे इंसान बन सकते हैं — उस पर नज़र डालिए।",
+      "en": "Look at the person you can become while you learn this profession."
+     },
+     "src": "GZ-06"
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "Sales is not a personality. Sales is a skill. सेल्स कोई स्वभाव नहीं, एक हुनर है।",
+        "en": "Sales is not a personality. Sales is a skill."
+       },
+       "cls": [
+        "band"
+       ]
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "ध्यान से सुनना, सही सवाल पूछना, वैल्यू समझाना, आपत्तियों का जवाब देना, फ़ॉलो-अप करना — ये सब स्किल हैं। इन्हें सीखा जा सकता है, अभ्यास से निखारा जा सकता है।",
+        "en": "Listening, asking questions, explaining value, handling objections, following up — these are all skills. You can learn them, practise them and get better at them."
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "लेकिन एक चीज़ मैं आपको नहीं दे सकता: निरंतरता। वह आपके अंदर से आनी चाहिए।",
+        "en": "But there is one thing I cannot give you: consistency. That has to come from you."
+       }
+      }
+     ],
+     "src": "GZ-09",
+     "cls": [
+      "goal-band"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "एक प्रोफ़ेशनल प्रैक्टिस कैसे बनती है",
+      "en": "How a professional practice is built"
+     }
+    },
+    {
+     "t": "ol",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "संभावित ग्राहक खोजना",
+        "en": "Prospecting"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "बातचीत",
+        "en": "Conversation"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "ज़रूरत का विश्लेषण",
+        "en": "Need analysis"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "सही हल",
+        "en": "A suitable solution"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "एक ग्राहक",
+        "en": "A customer"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "सेवा",
+        "en": "Service"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "रेफ़रल",
+        "en": "Referral"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "और रिश्ते",
+        "en": "More relationships"
+       }
+      }
+     ],
+     "src": "GZ-07",
+     "cls": [
+      "steps"
+     ]
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "आपके नेटवर्क की सीढ़ी",
+      "en": "Your network ladder"
+     }
+    },
+    {
+     "t": "ol",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "दोस्त",
+        "en": "Friends"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "रिश्तेदार",
+        "en": "Relatives"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "कॉलेज के साथी",
+        "en": "College connections"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "प्रोफ़ेशनल संपर्क",
+        "en": "Professional contacts"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "स्थानीय समुदाय",
+        "en": "Local communities"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "रेफ़रल",
+        "en": "Referrals"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "डिजिटल कनेक्शन",
+        "en": "Digital connections"
+       }
+      }
+     ],
+     "src": "GZ-08",
+     "cls": [
+      "flow"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>नेटवर्क सिर्फ़ विरासत में नहीं मिलता। इसे आप ख़ुद बना सकते हैं।</strong>",
+      "en": "<strong>Your network is not only something you inherit. It is something you can build.</strong>"
+     },
+     "src": "GZ-08"
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "आपकी तीन पूँजी",
+      "en": "Your three assets"
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "आपकी पहली पूँजी शायद कोई ऑफिस नहीं। वह हो सकती है आपका <strong>ज्ञान</strong>।",
+          "en": "Your first asset may not be an office. It may be your <strong>knowledge</strong>."
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "आपकी दूसरी पूँजी शायद कोई बड़ा निवेश नहीं। वह हो सकता है आपका <strong>नेटवर्क</strong>।",
+          "en": "Your second may not be a big investment. It may be your <strong>network</strong>."
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "आपकी तीसरी पूँजी शायद कोई महँगा विज्ञापन नहीं। वह हो सकती है आपकी <strong>साख</strong>।",
+          "en": "Your third may not be a fancy advertisement. It may be your <strong>reputation</strong>."
+         }
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      }
+     ],
+     "src": "GZ-12",
+     "cls": [
+      "grid"
+     ]
+    },
+    {
+     "t": "ol",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "ज्ञान",
+        "en": "Knowledge"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "आत्मविश्वास",
+        "en": "Confidence"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "बातचीत",
+        "en": "Conversations"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "क्लाइंट",
+        "en": "Clients"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "रेफ़रल",
+        "en": "Referrals"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "एक टिकाऊ प्रोफ़ेशनल प्रैक्टिस",
+        "en": "A lasting professional practice"
+       }
+      }
+     ],
+     "src": "GZ-12",
+     "cls": [
+      "flow"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>यही है मौक़ा। आसान पैसा नहीं। कोई शॉर्टकट नहीं। बल्कि सीखने, बनाने, सेवा करने और आगे बढ़ने का मौक़ा।</strong>",
+      "en": "<strong>That’s the opportunity. Not easy money. Not a shortcut. But a chance to learn, build, serve and grow.</strong>"
+     },
+     "src": "GZ-12"
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "पैसे की बात, ईमानदारी से",
+      "en": "Money, honestly"
+     }
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "कमाई का कोई पक्का आँकड़ा नहीं है। आपके नतीजे आपकी एक्टिविटी, काम की रफ़्तार, हुनर और निरंतरता, आपके लाए बिज़नेस, ग्राहकों से रिश्तों और लागू कमाई-नियमों पर निर्भर करते हैं। इसलिए यह मत पूछिए कि “LIC मुझे कितना पैसा देगी?” — यह पूछिए कि “मैं कैसा बिज़नेस खड़ा कर सकता/सकती हूँ?”",
+      "en": "There is no guaranteed income figure. Your results depend on your activity, productivity, skill and consistency, the business you bring, your client relationships and the remuneration rules that apply. So don’t start with “How much money will LIC give me?” Start with “What kind of business can I build?”"
+     },
+     "src": "GZ-13"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "अपने लक्ष्य से उल्टा हिसाब लगाइए:",
+      "en": "Work backwards from your own goal:"
+     },
+     "src": "GZ-18"
+    },
+    {
+     "t": "ol",
+     "items": [
+      {
+       "t": "li",
+       "text": {
+        "hi": "आय का लक्ष्य",
+        "en": "Income goal"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "ज़रूरी बिज़नेस",
+        "en": "Business needed"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "ज़रूरी ग्राहक",
+        "en": "Clients needed"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "ज़रूरी मुलाक़ातें",
+        "en": "Meetings needed"
+       }
+      },
+      {
+       "t": "li",
+       "text": {
+        "hi": "ज़रूरी संभावित ग्राहक",
+        "en": "Prospects needed"
+       }
+      }
+     ],
+     "src": "GZ-18",
+     "cls": [
+      "flow"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<a href=\"#startup\">एक्टिविटी और आय की टेबल देखें →</a>",
+      "en": "<a href=\"#startup\">See the activity and income tables →</a>"
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "blockquote",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "मेरा लक्ष्य साफ़ है — मेरे साथ जुड़ने वाला हर एजेंट तीसरे साल के अंत तक ₹1,00,000 प्रति माह कमाए। योजना, ट्रेनिंग और साथ मैं दूँगा; मेहनत — और नतीजा — आपका होगा।",
+          "en": "My goal for every agent I recruit is simple: by the end of your third year, you should be earning ₹1,00,000 a month. I’ll give you the plan, the training and the follow-up. The effort — and the result — will be yours."
+         }
+        },
+        {
+         "t": "p",
+         "text": {
+          "hi": "— रोहित लाल",
+          "en": "— Rohit Lal"
+         },
+         "cls": [
+          "src"
+         ]
+        }
+       ],
+       "src": "SU-34"
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "आपकी कमाई आपकी मेहनत और आपके द्वारा लाए गए बिज़नेस पर निर्भर करती है।",
+        "en": "Your earnings depend on your effort and the business you bring."
+       },
+       "src": "SU-34",
+       "cls": [
+        "effort"
+       ]
+      },
+      {
+       "t": "ul",
+       "items": [
+        {
+         "t": "li",
+         "text": {
+          "hi": "नियमित रूप से ट्रेनिंग सेशन में शामिल हों।",
+          "en": "Attend training sessions regularly."
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "कम से कम 100 लोगों की संभावित ग्राहकों की सूची बनाएँ।",
+          "en": "Prepare a prospect list of at least 100 people."
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "हर दिन कम से कम 4 संभावित ग्राहकों से मिलें।",
+          "en": "Meet at least 4 prospects every day."
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "रोज़ की एक्टिविटी रिपोर्ट और हफ़्ते का सारांश लिखें।",
+          "en": "Write a daily activity report and a weekly summary."
+         }
+        },
+        {
+         "t": "li",
+         "text": {
+          "hi": "हर हफ़्ते की रिव्यू मीटिंग में शामिल हों।",
+          "en": "Attend the weekly review meetings."
+         }
+        }
+       ],
+       "src": "SU-30"
+      }
+     ],
+     "cls": [
+      "goal-band"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "आपकी आपत्तियाँ, जवाब के साथ",
+      "en": "Your objections, answered"
+     }
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "“मुझे पक्की तनख़्वाह चाहिए।”",
+      "en": "“I want a stable salary.”"
+     },
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "बिल्कुल जायज़ बात है। अगर हर महीने पक्की तनख़्वाह आपकी पहली प्राथमिकता है, तो LIC एजेंसी की तुलना तनख़्वाह वाली नौकरियों से ईमानदारी से कीजिए। लेकिन अगर आप ऐसा प्रोफ़ेशनल बिज़नेस चाहते हैं, जिसमें ग्रोथ आपकी एक्टिविटी और नतीजों पर टिकी हो, तो एजेंसी मॉडल को समझना फ़ायदेमंद है।",
+        "en": "That’s completely fair. If a fixed monthly salary is your first priority, compare LIC agency honestly with salaried jobs. But if you want a professional business where growth depends on your activity and results, the agency model is worth exploring."
+       }
+      }
+     ],
+     "src": "GZ-14"
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "“मुझे सेल्स नहीं आती।”",
+      "en": "“I don’t know sales.”"
+     },
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "पैदाइशी सेल्सपर्सन होना ज़रूरी नहीं। कम्युनिकेशन, प्रॉस्पेक्टिंग, प्रेज़ेंटेशन, नेगोशिएशन और फ़ॉलो-अप — सब सीखा जा सकता है। असली सवाल “क्या मैं बेच सकता/सकती हूँ?” नहीं, बल्कि “क्या मैं वैल्यू समझाना सीखने को तैयार हूँ?” है।",
+        "en": "You don’t need to be a born salesperson. Communication, prospecting, presentation, negotiation and follow-up can all be learned. The real question isn’t “Can I sell?” but “Am I willing to learn how to communicate value?”"
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "<em>Sales is not a personality. Sales is a skill. सेल्स कोई स्वभाव नहीं, एक हुनर है।</em>",
+        "en": "<em>Sales is not a personality. Sales is a skill.</em>"
+       }
+      }
+     ],
+     "src": "GZ-15"
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "“मेरे दोस्त SIP और शेयर में निवेश करते हैं। फिर बीमा क्यों?”",
+      "en": "“My friends invest through SIPs and stocks. Why insurance?”"
+     },
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "अच्छा सवाल है। फ़ाइनेंशियल प्लानिंग में हर ज़रूरत के लिए एक ही प्रोडक्ट नहीं होता — SIP, शेयर और बीमा अलग-अलग काम करते हैं। एक प्रोफ़ेशनल पहले ग्राहक की सुरक्षा की ज़रूरतें, लक्ष्य, जोखिम उठाने की क्षमता और समय-सीमा समझता है।",
+        "en": "Good question. Financial planning isn’t one product for every need — SIPs, stocks and insurance do different jobs. A professional first understands the client’s protection needs, goals, risk tolerance and time horizon."
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "<em>निवेश दौलत बढ़ाता है। सुरक्षा उस योजना को बचाती है।</em>",
+        "en": "<em>Investment grows wealth. Protection protects the plan.</em>"
+       }
+      }
+     ],
+     "src": "GZ-16"
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "“क्या मुझे घर-घर जाना पड़ेगा?”",
+      "en": "“Will I have to go door to door?”"
+     },
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "आज ग्राहक खोजने के रास्ते बहुत बड़े हैं: जान-पहचान, प्रोफ़ेशनल समुदाय, रेफ़रल, सेमिनार, सोशल मीडिया और डिजिटल बातचीत। लेकिन टेक्नोलॉजी भरोसे की जगह नहीं ले सकती — पैसों की गंभीर बातचीत के लिए सच्चे रिश्ते चाहिए।",
+        "en": "Prospecting today is much broader: existing contacts, professional communities, referrals, seminars, social media and digital conversations. But technology can’t replace trust — serious money conversations need genuine relationships."
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "<em>स्मार्टफ़ोन बातचीत शुरू कर सकता है। बात आपकी साख से पक्की होती है।</em>",
+        "en": "<em>Your smartphone can start the conversation. Your credibility closes it.</em>"
+       }
+      }
+     ],
+     "src": "GZ-17"
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "“मैं कितना कमा सकता/सकती हूँ?”",
+      "en": "“How much can I earn?”"
+     },
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "कोई पक्का आँकड़ा नहीं है। इसकी जगह, आइए हिसाब लगाएँ कि आपके अपने लक्ष्य के लिए कितनी एक्टिविटी चाहिए: आय का लक्ष्य → ज़रूरी बिज़नेस → ज़रूरी ग्राहक → ज़रूरी मुलाक़ातें → ज़रूरी संभावित ग्राहक। <a href=\"#startup\">टेबल देखें →</a>",
+        "en": "There is no guaranteed figure. Instead, let’s work out the activity your own goal needs: income goal → business needed → clients needed → meetings needed → prospects needed. <a href=\"#startup\">The tables →</a>"
+       }
+      }
+     ],
+     "src": "GZ-18"
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "“मुझे सरकारी नौकरी चाहिए।”",
+      "en": "“I want a government job.”"
+     },
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "हम इस लक्ष्य का सम्मान करते हैं। जहाँ आप पात्र हैं, वहाँ एजेंसी को एक समानांतर प्रोफ़ेशनल विकल्प के रूप में परखा जा सकता है। और एजेंटों के लिए LIC डेवलपमेंट ऑफिसर पद में आरक्षित कोटा भी है। <a href=\"#career\">करियर के रास्ते →</a>",
+        "en": "We respect that goal. Agency can be weighed as a parallel professional option, where you are eligible. And agents have a reserved quota for the LIC Development Officer post. <a href=\"#career\">Career paths →</a>"
+       }
+      }
+     ],
+     "src": "GZ-19 CAR-06"
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "“मेरे माता-पिता नहीं मानेंगे।”",
+      "en": "“My parents won’t allow me.”"
+     },
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "उन्हें इस काम का प्रोफ़ेशनल रूप, ट्रेनिंग, काम करने का तरीक़ा और सच्ची उम्मीदें समझाइए।",
+        "en": "Explain to them the professional nature of the work, the training, how the work is done, and what to realistically expect."
+       }
+      }
+     ],
+     "src": "GZ-20"
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "“बीमा की छवि अच्छी नहीं है।”",
+      "en": "“Insurance has a bad image.”"
+     },
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "तो आइए, उस छवि को बदलें — प्रोफ़ेशनल सलाह, पारदर्शिता और सेवा से।",
+        "en": "Then let’s change that image — through professional advice, transparency and service."
+       }
+      }
+     ],
+     "src": "GZ-21"
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "“मैं इंट्रोवर्ट हूँ।”",
+      "en": "“I am an introvert.”"
+     },
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "आपको एक्सट्रोवर्ट बनने की ज़रूरत नहीं। आपको अच्छा सुनना और अच्छा समझाना सीखना है। बहुत से सफल प्रोफ़ेशनल स्वभाव से शांत होते हैं — ध्यान से सुनना और ईमानदारी से बात करना सच में ताक़त बन सकता है।",
+        "en": "You don’t need to become an extrovert. You need to become good at listening and communicating. Many successful professionals are quiet by nature — careful listening and honest communication can be a real strength."
+       }
+      }
+     ],
+     "src": "GZ-22"
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "“मेरा कोई नेटवर्क नहीं है।”",
+      "en": "“I don’t have a network.”"
+     },
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "दिन 1 पर ही 1,000 कॉन्टैक्ट की ज़रूरत नहीं है। ज़रूरत है नए संभावित ग्राहक खोजने की एक नियमित आदत की।",
+        "en": "You don’t need 1,000 contacts on Day 1. You need a regular habit of finding new prospects."
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "Aapke paas network nahi hai — yeh problem nahi hai. Agar aap network build karna seekh sakte hain, wahi aapka first business skill ban jayega. आपके पास नेटवर्क नहीं है — यह कोई समस्या नहीं है। अगर आप नेटवर्क बनाना सीख सकते हैं, तो वही आपका पहला बिज़नेस स्किल बन जाएगा।",
+        "en": "Aapke paas network nahi hai — yeh problem nahi hai. Agar aap network build karna seekh sakte hain, wahi aapka first business skill ban jayega."
+       },
+       "cls": [
+        "band"
+       ]
+      }
+     ],
+     "src": "GZ-23"
+    },
+    {
+     "t": "h4",
+     "text": {
+      "hi": "कुछ और सच्चे जवाब",
+      "en": "More honest answers"
+     }
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "एक वित्तीय सलाहकार (Financial Advisor) असल में क्या करता है?",
+      "en": "What does a financial advisor actually do?"
+     },
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "परिवारों को फ़ाइनेंशियल प्लानिंग, रिस्क मैनेजमेंट और लंबे समय की आर्थिक सुरक्षा पर गाइड करता है: ज़रूरत समझना, सही हल समझाना, और सालों तक रिश्ता बनाए रखना।",
+        "en": "Guides families on financial planning, risk management and long-term financial security: understanding needs, explaining suitable solutions, and keeping up the relationship for years."
+       }
+      }
+     ],
+     "src": "GZ-25"
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "क्या इसमें ग्रोथ है?",
+      "en": "Is there growth?"
+     },
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "ग्रोथ मुमकिन है — लेकिन हर प्रोफ़ेशन की तरह, यह आपकी सीख, हुनर, मेहनत, अनुशासन और निरंतरता पर निर्भर है।",
+        "en": "Growth is possible — but as in any profession, it depends on your learning, skill, hard work, discipline and consistency."
+       }
+      }
+     ],
+     "src": "GZ-26"
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "अगर लोग “ना” कहें, तो?",
+      "en": "What if people say no?"
+     },
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "हर प्रोफ़ेशन में “ना” सुननी पड़ती है। ज़रूरी यह है कि आप उससे क्या सीखते हैं। “ना” अक्सर बातचीत का अंत नहीं — बेहतर होने का मौक़ा होती है।",
+        "en": "Every profession has rejection. What matters is what you learn from it. A “no” is often not the end of a conversation — it is a chance to improve."
+       }
+      }
+     ],
+     "src": "GZ-27"
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "क्या यह फ़ुल-टाइम करियर है?",
+      "en": "Is it a full-time career?"
+     },
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "यह आपकी पसंद, पात्रता और मौक़ों पर निर्भर है। कुछ लोग इसे फ़ुल-टाइम अपनाते हैं; कुछ अपने मुख्य काम के साथ थोड़े स्तर पर जुड़े रहते हैं। पहले नियम और पात्रता समझिए।",
+        "en": "That depends on your choice, eligibility and opportunities. Some take it up full-time; others stay involved at a smaller level alongside their main work. Understand the rules and eligibility first."
+       }
+      }
+     ],
+     "src": "GZ-28"
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "क्या अनुभव ज़रूरी है?",
+      "en": "Do I need experience?"
+     },
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "सबसे ज़रूरी है सीखने की इच्छा। ट्रेनिंग और मार्गदर्शन इस सफ़र का हिस्सा हैं।",
+        "en": "Willingness to learn matters most. Training and guidance are part of the journey."
+       }
+      }
+     ],
+     "src": "GZ-29"
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "क्या मेरी बोलचाल परफ़ेक्ट होनी चाहिए?",
+      "en": "Must my communication be perfect?"
+     },
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "नहीं। ईमानदारी, सुनने की क्षमता और सीखने की इच्छा ज़्यादा मायने रखती है।",
+        "en": "No. Honesty, the ability to listen and the willingness to learn matter more."
+       }
+      }
+     ],
+     "src": "GZ-30"
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "क्या इसमें कॉम्पिटिशन है?",
+      "en": "Is there competition?"
+     },
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "हर अच्छे प्रोफ़ेशन में कॉम्पिटिशन होता है।",
+        "en": "Every good profession has competition."
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "<strong>लेकिन… विश्वास का कोई competition नहीं होता।</strong>",
+        "en": "<strong>लेकिन… विश्वास का कोई competition नहीं होता।</strong> <em>But there’s no competition for trust.</em>"
+       }
+      }
+     ],
+     "src": "GZ-31"
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "क्या हर कोई सफल हो सकता है?",
+      "en": "Can everyone succeed?"
+     },
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "<strong>हर व्यक्ति नहीं। लेकिन… हर सीखने वाला व्यक्ति बेहतर बन सकता है।</strong>",
+        "en": "<strong>हर व्यक्ति नहीं। लेकिन… हर सीखने वाला व्यक्ति बेहतर बन सकता है।</strong> <em>Not everyone. But everyone who learns can become better.</em>"
+       }
+      }
+     ],
+     "src": "GZ-32"
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "अगर मैं नाकाम रहूँ, तो?",
+      "en": "What if I fail?"
+     },
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "नाकामी किसी भी सीखने की प्रक्रिया का हिस्सा हो सकती है। ज़रूरी है कि आप सीखते और सुधरते रहें।",
+        "en": "Failure can be part of any learning process. What matters is that you keep learning and improving."
+       }
+      }
+     ],
+     "src": "GZ-33"
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "क्या इसमें जोखिम है?",
+      "en": "Is there risk?"
+     },
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "हर करियर में चुनौतियाँ होती हैं। यहाँ भी सफलता मेहनत, हुनर, ट्रेनिंग और लगातार काम पर निर्भर है — इसलिए फ़ैसला करने से पहले पूरी जानकारी लीजिए।",
+        "en": "Every career has challenges. Here too, success depends on effort, skill, training and continuous work — so get complete information before you decide."
+       }
+      }
+     ],
+     "src": "GZ-34"
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "क्या आय तय होती है?",
+      "en": "Is the income fixed?"
+     },
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "आय का ढाँचा भूमिका और नियमों के हिसाब से बदलता है। फ़ैसला करने से पहले इसे अच्छी तरह समझिए — आधिकारिक जानकारी और ट्रेनिंग के ज़रिए।",
+        "en": "The income structure varies by role and by the rules. Understand it well — through official information and training — before you decide."
+       }
+      }
+     ],
+     "src": "GZ-35"
+    },
+    {
+     "t": "details",
+     "summary": {
+      "hi": "मैंने बुरे अनुभवों के बारे में सुना है।",
+      "en": "I’ve heard about negative experiences."
+     },
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "हर प्रोफ़ेशन में अच्छे और कमज़ोर, दोनों तरह के अनुभव होते हैं। इसीलिए सही ट्रेनिंग, ईमानदार काम और लगातार सीखना इतना ज़रूरी है। मैं आपसे यही कहूँगा कि पूरी जानकारी के आधार पर फ़ैसला कीजिए।",
+        "en": "Every profession has good and weak experiences. That is why proper training, ethical work and continuous learning matter so much. I encourage you to decide on the basis of full information."
+       }
+      }
+     ],
+     "src": "GZ-36"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "लोग इस क्षेत्र में लंबे समय तक क्यों टिकते हैं? क्योंकि लोगों के साथ काम करना, लगातार सीखना और परिवारों को फ़ाइनेंशियल प्लानिंग के बारे में जागरूक करना सार्थक लगता है — और यही आगे बढ़ने की प्रेरणा देता है।",
+      "en": "Why do people stay in this field for years? Because working with people, learning continuously and making families aware of financial planning feels meaningful — and that keeps them motivated."
+     },
+     "src": "GZ-37"
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "ख़ुद से चार सवाल पूछिए",
+      "en": "Ask yourself four questions"
+     }
+    },
+    {
+     "t": "form",
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "ईमानदारी से जवाब दीजिए। आपके जवाब आपकी स्क्रीन पर ही रहेंगे।",
+        "en": "Answer honestly. Your answers stay on your screen."
+       }
+      },
+      {
+       "t": "fieldset",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "1. मुझे बस एक नौकरी ढूँढनी है — या अपना कुछ बनाना है?",
+          "en": "1. Do I want to simply find a job — or build something of my own?"
+         }
+        },
+        {
+         "t": "label",
+         "text": {
+          "hi": "अपना कुछ बनाना है",
+          "en": "Build something of my own"
+         }
+        },
+        {
+         "t": "label",
+         "text": {
+          "hi": "नौकरी ढूँढनी है",
+          "en": "Find a job"
+         }
+        }
+       ]
+      },
+      {
+       "t": "fieldset",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "2. क्या मैं कम्युनिकेशन, फ़ाइनेंशियल और बिज़नेस स्किल सीखने को तैयार हूँ?",
+          "en": "2. Am I willing to develop communication, financial and business skills?"
+         }
+        },
+        {
+         "t": "label",
+         "text": {
+          "hi": "हाँ",
+          "en": "Yes"
+         }
+        },
+        {
+         "t": "label",
+         "text": {
+          "hi": "नहीं",
+          "en": "No"
+         }
+        }
+       ]
+      },
+      {
+       "t": "fieldset",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "3. क्या मैं लोगों से मिलने, उनकी ज़रूरत समझने और लगातार फ़ॉलो-अप करने को तैयार हूँ?",
+          "en": "3. Am I willing to meet people, understand their needs and follow up consistently?"
+         }
+        },
+        {
+         "t": "label",
+         "text": {
+          "hi": "हाँ",
+          "en": "Yes"
+         }
+        },
+        {
+         "t": "label",
+         "text": {
+          "hi": "नहीं",
+          "en": "No"
+         }
+        }
+       ]
+      },
+      {
+       "t": "fieldset",
+       "children": [
+        {
+         "t": "p",
+         "text": {
+          "hi": "4. क्या मुझे ज्ञान, रिश्तों और भरोसे पर बनी प्रोफ़ेशनल पहचान चाहिए?",
+          "en": "4. Do I want a professional identity built on knowledge, relationships and trust?"
+         }
+        },
+        {
+         "t": "label",
+         "text": {
+          "hi": "हाँ",
+          "en": "Yes"
+         }
+        },
+        {
+         "t": "label",
+         "text": {
+          "hi": "नहीं",
+          "en": "No"
+         }
+        }
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "box",
+         "children": [
+          {
+           "t": "p",
+           "text": {
+            "hi": "<strong>अगर चारों का जवाब हाँ है… तो शायद आपको LIC एजेंसी के मौक़े को गंभीरता से समझना चाहिए।</strong>",
+            "en": "<strong>If your answer is YES to all four… perhaps you should seriously explore the LIC agency opportunity.</strong>"
+           }
+          },
+          {
+           "t": "a",
+           "href": "#apply",
+           "text": {
+            "hi": "करियर ओरिएंटेशन बुक करें",
+            "en": "Book a career orientation"
+           },
+           "cls": [
+            "cta"
+           ]
+          }
+         ],
+         "cls": [
+          "gz-result",
+          "goal-band"
+         ]
+        }
+       ]
+      }
+     ],
+     "src": "GZ-10",
+     "cls": [
+      "calc"
+     ],
+     "id": "gz10"
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "box",
+   "children": [
+    {
+     "t": "h3",
+     "text": {
+      "hi": "पहले समझिए। फिर फ़ैसला कीजिए।",
+      "en": "Explore first. Then decide."
+     }
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "इसलिए मत जुड़िए कि…",
+          "en": "Don’t join because…"
+         }
+        },
+        {
+         "t": "ul",
+         "items": [
+          {
+           "t": "li",
+           "text": {
+            "hi": "किसी ने जोशीला भाषण दे दिया",
+            "en": "someone gave you a motivational speech"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "किसी ने भारी कमाई का वादा कर दिया",
+            "en": "someone promised you a huge income"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "आपका दोस्त जुड़ गया",
+            "en": "your friend joined"
+           }
+          }
+         ]
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      },
+      {
+       "t": "box",
+       "children": [
+        {
+         "t": "h4",
+         "text": {
+          "hi": "पहले समझिए",
+          "en": "Understand first"
+         }
+        },
+        {
+         "t": "ul",
+         "items": [
+          {
+           "t": "li",
+           "text": {
+            "hi": "पात्रता",
+            "en": "the eligibility"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "काम करने का मॉडल",
+            "en": "the working model"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "ट्रेनिंग",
+            "en": "the training"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "कमाई और नियम",
+            "en": "the remuneration and the rules"
+           }
+          },
+          {
+           "t": "li",
+           "text": {
+            "hi": "यह प्रोफ़ेशन आपसे क्या माँगता है",
+            "en": "what the profession demands"
+           }
+          }
+         ]
+        }
+       ],
+       "cls": [
+        "card"
+       ]
+      }
+     ],
+     "src": "GZ-11",
+     "cls": [
+      "grid"
+     ]
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "<strong>सवाल पूछिए। फिर फ़ैसला कीजिए। आपका करियर समझ पर टिके फ़ैसले का हक़दार है — सिर्फ़ जोश पर नहीं।</strong>",
+      "en": "<strong>Ask questions. Then decide. Your career deserves a decision based on understanding — not excitement alone.</strong>"
+     },
+     "src": "GZ-11"
+    },
+    {
+     "t": "p",
+     "text": {
+      "hi": "आपत्ति को हराइए मत। आपत्ति को सोचने का ज़रिया बनाइए।",
+      "en": "Don’t defeat the objection. Use the objection to make you think."
+     },
+     "src": "GZ-24",
+     "cls": [
+      "band"
+     ]
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "p",
+       "text": {
+        "hi": "<strong>20 की उम्र में क्यों शुरू करें?</strong> समय, ऊर्जा और नई चीज़ें अपनाने की क्षमता आपके साथ है। <a href=\"#startup\">चार कारण →</a>",
+        "en": "<strong>Why start in your 20s?</strong> Time, energy and adaptability are on your side. <a href=\"#startup\">Four reasons →</a>"
+       }
+      },
+      {
+       "t": "p",
+       "text": {
+        "hi": "20 की उम्र में नहीं हैं? ज्ञान, नेटवर्क और साख हर उम्र में काम आते हैं। <a href=\"#procedure\">कौन जुड़ सकता है →</a>",
+        "en": "Not in your 20s? Knowledge, network and reputation matter at any age. <a href=\"#procedure\">Who can join →</a>"
+       }
+      }
+     ],
+     "cls": [
+      "recap"
+     ]
+    }
+   ],
+   "cls": [
+    "block"
+   ]
+  },
+  {
+   "t": "aside",
+   "children": [
+    {
+     "t": "p",
+     "text": {
+      "hi": "YOUR CAREER. YOUR CLIENTS. YOUR BRAND. YOUR BUSINESS. — POWERED BY LIC. आपका करियर। आपके क्लाइंट। आपका ब्रांड। आपका बिज़नेस। — LIC के साथ।",
+      "en": "YOUR CAREER. YOUR CLIENTS. YOUR BRAND. YOUR BUSINESS. — POWERED BY LIC."
+     },
+     "cls": [
+      "band"
+     ]
+    },
+    {
+     "t": "box",
+     "children": [
+      {
+       "t": "a",
+       "href": "#apply",
+       "text": {
+        "hi": "करियर ओरिएंटेशन बुक करें",
+        "en": "Book a career orientation"
+       },
+       "cls": [
+        "cta"
+       ]
+      },
+      {
+       "t": "a",
+       "href": "tel:+919973055291",
+       "text": {
+        "hi": "अभी कॉल करें: <span>9973055291</span>",
+        "en": "Call now: <span>9973055291</span>"
+       },
+       "src": "G-02",
+       "cls": [
+        "cta",
+        "secondary"
+       ]
+      }
+     ],
+     "cls": [
+      "btn-row"
+     ]
+    }
+   ],
+   "src": "GZ-01",
+   "cls": [
+    "page-cta"
+   ]
+  }
+ ],
+ "id": "genz"
+}
