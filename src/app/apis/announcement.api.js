@@ -88,6 +88,55 @@ export const announcementApi = createApi({
       ],
     }),
 
+    /**
+     * §4, pin / unpin only. OPTIMISTIC (admin UI guidelines §6): the flag
+     * flips at once in every cached admin list that holds this announcement
+     * (and in its single view), and flips back if the PATCH fails. The lists
+     * still refetch afterwards — the server sorts pinned first, and the
+     * learner feeds have to follow.
+     */
+    setAnnouncementPinned: builder.mutation({
+      query: ({ id, isPinned }) => ({
+        url: `/admin/announcements/${id}`,
+        method: "PATCH",
+        body: { isPinned },
+      }),
+      transformResponse: unwrap,
+      transformErrorResponse: normalizeApiError,
+      async onQueryStarted({ id, isPinned }, { dispatch, getState, queryFulfilled }) {
+        // every cache entry tagged with this id: the lists it appears in,
+        // whatever their filters and page, plus getAnnouncement(id)
+        const entries = announcementApi.util.selectInvalidatedBy(getState(), [{ type: "Announcement", id }]);
+        const patches = entries.flatMap(({ endpointName, originalArgs }) => {
+          if (endpointName === "getAnnouncements") {
+            return dispatch(
+              announcementApi.util.updateQueryData("getAnnouncements", originalArgs, (draft) => {
+                const item = draft?.items?.find((a) => a.id === id);
+                if (item) item.isPinned = isPinned;
+              }),
+            );
+          }
+          if (endpointName === "getAnnouncement") {
+            return dispatch(
+              announcementApi.util.updateQueryData("getAnnouncement", originalArgs, (draft) => {
+                if (draft) draft.isPinned = isPinned;
+              }),
+            );
+          }
+          return [];
+        });
+        try {
+          await queryFulfilled;
+        } catch {
+          patches.forEach((patch) => patch.undo());
+        }
+      },
+      invalidatesTags: (_r, _e, { id }) => [
+        { type: "Announcement", id },
+        ...invalidateEverywhere,
+      ],
+    }),
+
     /** §5 — delete. */
     deleteAnnouncement: builder.mutation({
       query: (id) => ({
@@ -132,6 +181,7 @@ export const {
   useGetAnnouncementQuery,
   useCreateAnnouncementMutation,
   useUpdateAnnouncementMutation,
+  useSetAnnouncementPinnedMutation,
   useDeleteAnnouncementMutation,
   useGetMyAnnouncementsQuery,
   useGetBatchAnnouncementsQuery,

@@ -1,141 +1,159 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-import { useCreateBatchMutation } from "../../../../app/apis/batches.api.js";
+import {
+  Button,
+  DateInput,
+  Field,
+  FormActions,
+  FormError,
+  Input,
+  Modal,
+  Textarea,
+  fieldIssues,
+  useToast,
+} from "../../../../components/admin";
 import { getUserMessage } from "../../../../app/apis/apiError.js";
+import { useCreateBatchMutation } from "../../../../app/apis/batches.api.js";
 
 /**
- * Create a batch — `api-contracts/06-batch.md` §1.
+ * The "New batch" dialog — `api-contracts/06-batch.md` §1.
  *
  * A batch always starts `draft` with enrollment closed: §4 forbids opening
- * enrollment on anything but an active batch, and activation itself requires
- * published content. The form doesn't offer either toggle for that reason.
+ * enrollment on anything but an active batch, and activation needs published
+ * content. So the form asks only for a name, dates and a description; the
+ * rest happens on the batch's own page, where the next steps are spelled out.
+ *
+ * The dialog owns the mutation (so it can refuse to close mid-save); the
+ * fields live in a child that unmounts on close, so every opening starts
+ * clean. On success: toast, then go to the new batch — replacing the `?new=1`
+ * entry, so Back returns to the list rather than reopening the dialog.
  */
-const CreateBatchForm = ({ onClose }) => {
+export default function CreateBatchForm({ open, onClose }) {
+  const [createBatch, { isLoading, error, reset }] = useCreateBatchMutation();
+
+  const close = () => {
+    if (isLoading) return;
+    reset();
+    onClose();
+  };
+
+  return (
+    <Modal
+      open={open}
+      onClose={close}
+      busy={isLoading}
+      title="New batch"
+      description="Batches start as drafts only admins can see. You'll add content and open enrollment from its page."
+    >
+      <BatchFields createBatch={createBatch} isLoading={isLoading} error={error} clearError={reset} onCancel={close} />
+    </Modal>
+  );
+}
+
+const EMPTY = { name: "", description: "", startDate: "", endDate: "" };
+
+/** What the client can check before asking the server (§1's rules). */
+function validate(form) {
+  const issues = {};
+  const name = form.name.trim();
+  if (!name) issues.name = "Give the batch a name.";
+  else if (name.length < 3) issues.name = "Use at least 3 characters.";
+  if (!form.startDate) issues.startDate = "Pick a start date.";
+  if (!form.endDate) issues.endDate = "Pick an end date.";
+  else if (form.startDate && form.endDate < form.startDate) issues.endDate = "The end date can't be before the start date.";
+  return issues;
+}
+
+function BatchFields({ createBatch, isLoading, error, clearError, onCancel }) {
   const navigate = useNavigate();
-  const [form, setForm] = useState({
-    name: "",
-    description: "",
-    startDate: "",
-    endDate: "",
-  });
+  const toast = useToast();
+  const formRef = useRef(null);
+  const [form, setForm] = useState(EMPTY);
+  const [attempted, setAttempted] = useState(false);
 
-  const [createBatch, { isLoading, error }] = useCreateBatchMutation();
+  const clientIssues = validate(form);
+  const serverIssues = fieldIssues(error);
+  const datesInverted = Boolean(form.startDate && form.endDate && form.endDate < form.startDate);
+  // "required" messages wait for a submit; a backwards date range shows at once
+  const issueFor = (field) =>
+    (attempted || (field === "endDate" && datesInverted) ? clientIssues[field] : undefined) ?? serverIssues[field];
 
-  const handleChange = (event) =>
-    setForm((prev) => ({ ...prev, [event.target.id]: event.target.value }));
+  const update = (field) => (event) => {
+    const { value } = event.target;
+    setForm((prev) => ({ ...prev, [field]: value }));
+    // the server's verdict was about the old values
+    if (error) clearError();
+  };
 
-  const datesInverted =
-    form.startDate && form.endDate && form.endDate < form.startDate;
-
-  const handleSubmit = async (event) => {
+  const onSubmit = async (event) => {
     event.preventDefault();
-    if (datesInverted) return;
+    setAttempted(true);
+    if (Object.keys(clientIssues).length > 0) {
+      requestAnimationFrame(() => formRef.current?.querySelector("[aria-invalid='true']")?.focus());
+      return;
+    }
 
-    const payload = {
-      name: form.name.trim(),
-      startDate: form.startDate,
-      endDate: form.endDate,
-    };
+    const payload = { name: form.name.trim(), startDate: form.startDate, endDate: form.endDate };
     if (form.description.trim()) payload.description = form.description.trim();
 
     try {
       const batch = await createBatch(payload).unwrap();
-      onClose?.();
-      navigate(`/admin/manage-batch/${batch.id}`);
+      toast.success(`${batch.name} is created`, {
+        description: "It's a draft. Add published courses or tests, then activate it.",
+      });
+      navigate(`/admin/manage-batch/${batch.id}`, { replace: true });
     } catch {
-      // surfaced below
+      // shown in the form: FormError plus per-field details
     }
   };
 
-  const issues = Object.fromEntries(
-    (error?.details ?? []).map((detail) => [detail.field, detail.issue]),
-  );
-
   return (
-    <form onSubmit={handleSubmit} className="min-w-104">
-      <div className="flex flex-col gap-3">
-        <Field
-          id="name"
-          label="Name"
-          placeholder="IC-38 — Aug 2026 Cohort"
+    <form ref={formRef} onSubmit={onSubmit} noValidate className="flex flex-col gap-5">
+      <Field label="Name" required error={issueFor("name")}>
+        <Input
           value={form.name}
-          onChange={handleChange}
-          issue={issues.name}
-          required
-          minLength={3}
+          onChange={update("name")}
+          placeholder="e.g. IC-38 Aug 2026 cohort"
           maxLength={120}
+          autoComplete="off"
         />
-        <Field
-          id="startDate"
-          label="Starts"
-          type="date"
-          value={form.startDate}
-          onChange={handleChange}
-          issue={issues.startDate}
-          required
-        />
-        <Field
-          id="endDate"
-          label="Ends"
-          type="date"
-          value={form.endDate}
-          onChange={handleChange}
-          issue={issues.endDate ?? (datesInverted ? "Must be on or after the start date" : undefined)}
-          required
-        />
-        <div className="flex items-baseline gap-3">
-          <label className="text-sm text-text-primary w-28 shrink-0" htmlFor="description">
-            Description
-          </label>
-          <textarea
-            id="description"
-            rows={3}
-            maxLength={2000}
-            placeholder="Optional"
-            value={form.description}
-            onChange={handleChange}
-            className="flex-1 text-sm py-2 px-3 bg-surface-elevated text-text-primary placeholder:text-text-muted rounded-md outline-none"
-          />
-        </div>
+      </Field>
+
+      <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-4">
+        <Field label="Starts" required error={issueFor("startDate")}>
+          <DateInput value={form.startDate} onChange={update("startDate")} />
+        </Field>
+        <Field label="Ends" required error={issueFor("endDate")}>
+          <DateInput value={form.endDate} onChange={update("endDate")} min={form.startDate || undefined} />
+        </Field>
       </div>
 
-      {error && (
-        <p className="mt-3 text-danger text-xs font-semibold">
-          {getUserMessage(error, "Couldn't create the batch.")}
-        </p>
-      )}
-
-      <button
-        type="submit"
-        disabled={isLoading || datesInverted}
-        className="mt-4 w-full px-4 py-2 bg-accent text-accent-contrast rounded-md font-semibold cursor-pointer disabled:opacity-50"
+      <Field
+        label="Description"
+        optional
+        hint="Learners see this when they browse batches that are open for enrollment."
+        error={serverIssues.description}
       >
-        {isLoading ? "Creating…" : "Create batch"}
-      </button>
+        <Textarea
+          rows={3}
+          value={form.description}
+          onChange={update("description")}
+          maxLength={2000}
+          placeholder="Who it's for, the exam it prepares for, the weekly rhythm…"
+        />
+      </Field>
 
-      <p className="text-text-muted text-[11px] mt-3">
-        Starts as a draft. Publish courses or tests into it, then activate and
-        open enrollment.
-      </p>
+      <FormError>{error ? getUserMessage(error, "Couldn't create the batch. Please try again.") : null}</FormError>
+
+      <FormActions className="pt-1">
+        <Button variant="ghost" onClick={onCancel} disabled={isLoading}>
+          Cancel
+        </Button>
+        <Button type="submit" variant="primary" icon="plus" loading={isLoading}>
+          Create batch
+        </Button>
+      </FormActions>
     </form>
   );
-};
-
-const Field = ({ id, label, issue, ...inputProps }) => (
-  <div className="flex items-baseline gap-3">
-    <label className="text-sm text-text-primary w-28 shrink-0" htmlFor={id}>
-      {label}
-    </label>
-    <div className="flex-1">
-      <input
-        id={id}
-        className="w-full text-sm py-1.5 px-3 bg-surface-elevated text-text-primary placeholder:text-text-muted rounded-md outline-none [color-scheme:dark]"
-        {...inputProps}
-      />
-      {issue && <p className="text-danger text-xs mt-1">{issue}</p>}
-    </div>
-  </div>
-);
-
-export default CreateBatchForm;
+}

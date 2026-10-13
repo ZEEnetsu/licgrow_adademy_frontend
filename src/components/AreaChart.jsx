@@ -135,7 +135,7 @@ export default function AreaChart({ xAxisLabel = '', yAxisLabel = '', coordinate
   };
 
   /*
-   * No card of its own — the caller decides the chrome, the same way PieChart
+   * No card of its own — the caller decides the chrome, the same way every app chart
    * works. Carrying a surface here meant a card inside a card wherever the
    * chart was placed in a panel.
    */

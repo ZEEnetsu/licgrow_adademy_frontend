@@ -146,7 +146,7 @@ const BrowseBatches = () => {
                       <button
                         type="submit"
                         disabled={submitting}
-                        className="px-4 py-2 rounded-md text-sm font-medium bg-accent/20 text-accent hover:bg-accent/30 transition-colors disabled:opacity-50 cursor-pointer"
+                        className="px-4 py-2 rounded-md text-sm font-medium bg-accent-muted text-accent hover:bg-accent-muted-hover transition-colors disabled:opacity-50 cursor-pointer"
                       >
                         {submitting ? "Sending…" : "Send request"}
                       </button>
@@ -178,7 +178,7 @@ const BrowseBatches = () => {
                     }
                     className={`mt-4 self-start px-4 py-2 rounded-md text-sm font-medium transition-colors ${
                       cta.canSubmit && profileComplete
-                        ? "bg-accent/20 text-accent hover:bg-accent/30 cursor-pointer"
+                        ? "bg-accent-muted text-accent hover:bg-accent-muted-hover cursor-pointer"
                         : "bg-bg text-text-muted opacity-60 cursor-not-allowed"
                     }`}
                   >

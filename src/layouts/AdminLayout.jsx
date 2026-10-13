@@ -1,20 +1,39 @@
+import { MotionConfig } from "framer-motion";
+
+import { ConfirmProvider, ToastProvider } from "../components/admin";
+
 /**
- * Admin shell.
+ * Admin shell frame.
  *
- * Previously a fixed `grid-cols-8 grid-rows-12`, which caused two problems:
- * the header's height was a fraction of the viewport (tiny on a laptop, huge
- * on a monitor), and the sidebar's width was locked to one of eight columns,
- * so it could never collapse.
+ * An inset layout, like the sign-in page: the canvas fills the window and the
+ * ink rail and content column sit inside it with an 8–12px gutter, so the
+ * rail reads as a panel rather than a strip glued to the edge.
  *
- * A flex row fixes both: the sidebar owns its own animated width, and the main
- * column takes whatever is left. `min-w-0` on the main column is what stops a
- * wide table or chart from pushing the sidebar off-screen — without it a flex
- * child refuses to shrink below its content.
+ * It also owns the admin's app-wide services:
+ *   · MotionConfig reducedMotion="user" — every framer animation inside drops
+ *     its transforms when the OS asks for less motion
+ *   · ToastProvider / ConfirmProvider — `useToast()` and `useConfirm()`
+ *
+ * `h-dvh` and `overflow-hidden` keep the window itself from scrolling; only
+ * `#admin-main` scrolls. `min-w-0` on the content column (in Admin.jsx) is
+ * what stops a wide table pushing the rail off screen.
  */
 const AdminLayout = ({ children }) => (
-  <div className="bg-bg h-screen flex overflow-hidden text-text-primary">
-    {children}
-  </div>
+  <MotionConfig reducedMotion="user">
+    <ToastProvider>
+      <ConfirmProvider>
+        <div className="flex h-dvh gap-2 overflow-hidden bg-bg p-2 text-text-primary sm:gap-3 sm:p-3">
+          <a
+            href="#admin-main"
+            className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[90] focus:rounded-full focus:bg-brand focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-brand-contrast"
+          >
+            Skip to content
+          </a>
+          {children}
+        </div>
+      </ConfirmProvider>
+    </ToastProvider>
+  </MotionConfig>
 );
 
 export default AdminLayout;

@@ -44,6 +44,23 @@ const invalidateCourse = (_r, _e, arg) => [
   courseTag("LIST"),
 ];
 
+/**
+ * Put `items` (an immer draft array) into `orderedIds` order and renumber
+ * `sequence` 1..N, the way the server does. Returns null — and the caller
+ * leaves the cache alone — unless `orderedIds` is exactly the current id set;
+ * a mismatch is what the server answers with 422 REORDER_SET_MISMATCH.
+ */
+const reorderedDraft = (items, orderedIds) => {
+  if (!Array.isArray(items) || items.length !== orderedIds.length) return null;
+  const byId = new Map(items.map((item) => [item.id, item]));
+  if (byId.size !== orderedIds.length || !orderedIds.every((id) => byId.has(id))) return null;
+  return orderedIds.map((id, index) => {
+    const item = byId.get(id);
+    item.sequence = index + 1;
+    return item;
+  });
+};
+
 export const coursesApi = createApi({
   reducerPath: "coursesApi",
   baseQuery: baseQueryWithReauth,
@@ -182,7 +199,16 @@ export const coursesApi = createApi({
       },
     }),
 
-    /** §10 — full-array reorder: `{ orderedUnitIds }`, exact current set. */
+    /**
+     * §10 — full-array reorder: `{ orderedUnitIds }`, exact current set.
+     *
+     * OPTIMISTIC (docs/admin-ui-guidelines.md §6): the cached tree is put in
+     * the new order at once, and the patch is undone if the request fails.
+     * The Course tag is still invalidated for eventual consistency — RTK
+     * Query's default `invalidationBehavior: "delayed"` holds that refetch
+     * until every in-flight request settles, so quick successive moves don't
+     * flicker back to a half-applied server order.
+     */
     reorderUnits: builder.mutation({
       query: ({ courseId, orderedUnitIds }) => ({
         url: `/admin/courses/${courseId}/units/reorder`,
@@ -192,6 +218,19 @@ export const coursesApi = createApi({
       transformResponse: unwrap,
       transformErrorResponse: normalizeApiError,
       invalidatesTags: invalidateCourse,
+      async onQueryStarted({ courseId, orderedUnitIds }, { dispatch, queryFulfilled }) {
+        const patch = dispatch(
+          coursesApi.util.updateQueryData("getCourse", courseId, (draft) => {
+            const units = reorderedDraft(draft?.units, orderedUnitIds);
+            if (units) draft.units = units;
+          }),
+        );
+        try {
+          await queryFulfilled;
+        } catch {
+          patch.undo();
+        }
+      },
     }),
 
     // ── chapters ───────────────────────────────────────────────────────────
@@ -231,7 +270,7 @@ export const coursesApi = createApi({
       invalidatesTags: invalidateCourse,
     }),
 
-    /** §14 — full-array reorder within a unit. */
+    /** §14 — full-array reorder within a unit. Optimistic, like reorderUnits. */
     reorderChapters: builder.mutation({
       query: ({ courseId, unitId, orderedChapterIds }) => ({
         url: `/admin/courses/${courseId}/units/${unitId}/chapters/reorder`,
@@ -241,6 +280,20 @@ export const coursesApi = createApi({
       transformResponse: unwrap,
       transformErrorResponse: normalizeApiError,
       invalidatesTags: invalidateCourse,
+      async onQueryStarted({ courseId, unitId, orderedChapterIds }, { dispatch, queryFulfilled }) {
+        const patch = dispatch(
+          coursesApi.util.updateQueryData("getCourse", courseId, (draft) => {
+            const unit = draft?.units?.find((candidate) => candidate.id === unitId);
+            const chapters = reorderedDraft(unit?.chapters, orderedChapterIds);
+            if (chapters) unit.chapters = chapters;
+          }),
+        );
+        try {
+          await queryFulfilled;
+        } catch {
+          patch.undo();
+        }
+      },
     }),
   }),
 });

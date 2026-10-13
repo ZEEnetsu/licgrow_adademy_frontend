@@ -148,7 +148,7 @@ const CourseReader = () => {
                 </div>
                 <NavLink
                   to={`/student/tests/${unit.quiz.id}`}
-                  className="px-4 py-2 rounded-md text-sm bg-accent/20 text-accent hover:bg-accent/30 transition-colors shrink-0"
+                  className="px-4 py-2 rounded-md text-sm bg-accent-muted text-accent hover:bg-accent-muted-hover transition-colors shrink-0"
                 >
                   Start quiz
                 </NavLink>

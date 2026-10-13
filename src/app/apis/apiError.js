@@ -31,6 +31,43 @@ export const ERROR_CODES = Object.freeze({
   ROLE_NAME_TAKEN: "ROLE_NAME_TAKEN",
   UNKNOWN_PERMISSION: "UNKNOWN_PERMISSION",
   SYSTEM_ROLE_IMMUTABLE: "SYSTEM_ROLE_IMMUTABLE",
+  // 02-learner.md / 03-staff-admin.md / 04-super-admin.md
+  EMAIL_TAKEN: "EMAIL_TAKEN",
+  USERNAME_TAKEN: "USERNAME_TAKEN",
+  INVALID_CURRENT_PASSWORD: "INVALID_CURRENT_PASSWORD",
+  ROLE_NOT_FOUND: "ROLE_NOT_FOUND",
+  CANNOT_DEACTIVATE_SELF: "CANNOT_DEACTIVATE_SELF",
+  LAST_SUPER_ADMIN: "LAST_SUPER_ADMIN",
+  // 06-batch.md
+  ALREADY_PUBLISHED: "ALREADY_PUBLISHED",
+  CONTENT_NOT_PUBLISHED: "CONTENT_NOT_PUBLISHED",
+  INVALID_STATUS_TRANSITION: "INVALID_STATUS_TRANSITION",
+  // 07-enrollment.md
+  ENROLLMENT_ALREADY_ACTIVE: "ENROLLMENT_ALREADY_ACTIVE",
+  PROFILE_INCOMPLETE: "PROFILE_INCOMPLETE",
+  BATCH_NOT_OPEN: "BATCH_NOT_OPEN",
+  ENROLLMENT_ALREADY_FINALIZED: "ENROLLMENT_ALREADY_FINALIZED",
+  // 08-course.md
+  EMPTY_COURSE: "EMPTY_COURSE",
+  COURSE_ARCHIVED: "COURSE_ARCHIVED",
+  REORDER_SET_MISMATCH: "REORDER_SET_MISMATCH",
+  // 09-test.md
+  INVALID_TEST_CONFIG: "INVALID_TEST_CONFIG",
+  UNIT_QUIZ_EXISTS: "UNIT_QUIZ_EXISTS",
+  TEST_NOT_PUBLISHABLE: "TEST_NOT_PUBLISHABLE",
+  TEST_HAS_ATTEMPTS: "TEST_HAS_ATTEMPTS",
+  PASSING_EXCEEDS_TOTAL: "PASSING_EXCEEDS_TOTAL",
+  TEST_NOT_DELETABLE: "TEST_NOT_DELETABLE",
+  // 10-submission.md
+  ATTEMPT_IN_PROGRESS: "ATTEMPT_IN_PROGRESS",
+  TEST_NOT_AVAILABLE: "TEST_NOT_AVAILABLE",
+  ATTEMPT_LIMIT_REACHED: "ATTEMPT_LIMIT_REACHED",
+  COOLDOWN_ACTIVE: "COOLDOWN_ACTIVE",
+  ATTEMPT_EXPIRED: "ATTEMPT_EXPIRED",
+  ATTEMPT_NOT_ACTIVE: "ATTEMPT_NOT_ACTIVE",
+  LEADERBOARD_LOCKED: "LEADERBOARD_LOCKED",
+  // 11-announcement.md
+  INVALID_SCOPE: "INVALID_SCOPE",
   // client-side only (no HTTP response reached us)
   NETWORK_ERROR: "NETWORK_ERROR",
 });
@@ -44,6 +81,11 @@ export const ERROR_CODES = Object.freeze({
  *   avoids user enumeration.
  * - INVALID_REFRESH_TOKEN is explicitly marked NOT user-safe — it should
  *   trigger a silent re-login, never a visible message.
+ * - NOT_A_BATCH_MEMBER and NOT_YOUR_ATTEMPT are marked "no" in 06/08/10/11:
+ *   the UI shows the content as locked instead.
+ *
+ * Every other code below is marked "yes" in its module's error table (some
+ * "yes (admin UI)" — those only occur on admin endpoints anyway).
  */
 const USER_SAFE_CODES = new Set([
   ERROR_CODES.VALIDATION_ERROR,
@@ -53,6 +95,36 @@ const USER_SAFE_CODES = new Set([
   ERROR_CODES.ROLE_NAME_TAKEN,
   ERROR_CODES.UNKNOWN_PERMISSION,
   ERROR_CODES.SYSTEM_ROLE_IMMUTABLE,
+  ERROR_CODES.EMAIL_TAKEN,
+  ERROR_CODES.USERNAME_TAKEN,
+  ERROR_CODES.INVALID_CURRENT_PASSWORD,
+  ERROR_CODES.ROLE_NOT_FOUND,
+  ERROR_CODES.CANNOT_DEACTIVATE_SELF,
+  ERROR_CODES.LAST_SUPER_ADMIN,
+  ERROR_CODES.ALREADY_PUBLISHED,
+  ERROR_CODES.CONTENT_NOT_PUBLISHED,
+  ERROR_CODES.INVALID_STATUS_TRANSITION,
+  ERROR_CODES.ENROLLMENT_ALREADY_ACTIVE,
+  ERROR_CODES.PROFILE_INCOMPLETE,
+  ERROR_CODES.BATCH_NOT_OPEN,
+  ERROR_CODES.ENROLLMENT_ALREADY_FINALIZED,
+  ERROR_CODES.EMPTY_COURSE,
+  ERROR_CODES.COURSE_ARCHIVED,
+  ERROR_CODES.REORDER_SET_MISMATCH,
+  ERROR_CODES.INVALID_TEST_CONFIG,
+  ERROR_CODES.UNIT_QUIZ_EXISTS,
+  ERROR_CODES.TEST_NOT_PUBLISHABLE,
+  ERROR_CODES.TEST_HAS_ATTEMPTS,
+  ERROR_CODES.PASSING_EXCEEDS_TOTAL,
+  ERROR_CODES.TEST_NOT_DELETABLE,
+  ERROR_CODES.ATTEMPT_IN_PROGRESS,
+  ERROR_CODES.TEST_NOT_AVAILABLE,
+  ERROR_CODES.ATTEMPT_LIMIT_REACHED,
+  ERROR_CODES.COOLDOWN_ACTIVE,
+  ERROR_CODES.ATTEMPT_EXPIRED,
+  ERROR_CODES.ATTEMPT_NOT_ACTIVE,
+  ERROR_CODES.LEADERBOARD_LOCKED,
+  ERROR_CODES.INVALID_SCOPE,
   ERROR_CODES.NETWORK_ERROR,
 ]);
 
@@ -68,6 +140,47 @@ const USER_MESSAGES = Object.freeze({
     "One or more permissions are not recognised.",
   [ERROR_CODES.SYSTEM_ROLE_IMMUTABLE]:
     "Built-in roles can't be edited. Create a custom role instead.",
+  // quoted copy is the contract's own; the rest is written to match it
+  [ERROR_CODES.EMAIL_TAKEN]: "That email is already registered.",
+  [ERROR_CODES.USERNAME_TAKEN]: "That username is already taken.",
+  [ERROR_CODES.INVALID_CURRENT_PASSWORD]: "Current password is incorrect.",
+  [ERROR_CODES.ROLE_NOT_FOUND]: "That role no longer exists. Pick another one.",
+  [ERROR_CODES.CANNOT_DEACTIVATE_SELF]: "You can't deactivate your own account.",
+  [ERROR_CODES.LAST_SUPER_ADMIN]: "At least one active super-admin is required.",
+  [ERROR_CODES.ALREADY_PUBLISHED]: "That's already in this batch.",
+  [ERROR_CODES.CONTENT_NOT_PUBLISHED]:
+    "Publish the course/test before adding it to a batch.",
+  [ERROR_CODES.INVALID_STATUS_TRANSITION]:
+    "That change isn't allowed from the current status.",
+  [ERROR_CODES.ENROLLMENT_ALREADY_ACTIVE]:
+    "You already have a pending or approved request for this batch.",
+  [ERROR_CODES.PROFILE_INCOMPLETE]: "Complete your profile before applying.",
+  [ERROR_CODES.BATCH_NOT_OPEN]: "This batch isn't accepting enrollments right now.",
+  [ERROR_CODES.ENROLLMENT_ALREADY_FINALIZED]:
+    "This request has already been decided.",
+  [ERROR_CODES.EMPTY_COURSE]:
+    "Add at least one unit with a chapter before publishing.",
+  [ERROR_CODES.COURSE_ARCHIVED]: "This course is archived and can't be changed.",
+  [ERROR_CODES.REORDER_SET_MISMATCH]:
+    "The list changed while you were reordering. Refresh and try again.",
+  [ERROR_CODES.INVALID_TEST_CONFIG]: "Those test settings aren't valid.",
+  [ERROR_CODES.UNIT_QUIZ_EXISTS]: "This unit already has a quiz.",
+  [ERROR_CODES.TEST_NOT_PUBLISHABLE]: "This test isn't ready to publish yet.",
+  [ERROR_CODES.TEST_HAS_ATTEMPTS]:
+    "This test has attempts; clone it to make changes.",
+  [ERROR_CODES.PASSING_EXCEEDS_TOTAL]:
+    "Passing marks can't be more than the total marks.",
+  [ERROR_CODES.TEST_NOT_DELETABLE]:
+    "Only draft tests with no attempts can be deleted.",
+  [ERROR_CODES.ATTEMPT_IN_PROGRESS]: "You already have an attempt in progress.",
+  [ERROR_CODES.TEST_NOT_AVAILABLE]: "This test isn't open right now.",
+  [ERROR_CODES.ATTEMPT_LIMIT_REACHED]:
+    "You've used all your attempts for this test.",
+  [ERROR_CODES.COOLDOWN_ACTIVE]: "Please wait before starting another attempt.",
+  [ERROR_CODES.ATTEMPT_EXPIRED]: "Your time is up.",
+  [ERROR_CODES.ATTEMPT_NOT_ACTIVE]: "This attempt is no longer active.",
+  [ERROR_CODES.LEADERBOARD_LOCKED]: "Leaderboard opens when the test closes.",
+  [ERROR_CODES.INVALID_SCOPE]: "That audience isn't valid for this announcement.",
   [ERROR_CODES.NETWORK_ERROR]:
     "Can't reach the server. Check your connection and try again.",
 });

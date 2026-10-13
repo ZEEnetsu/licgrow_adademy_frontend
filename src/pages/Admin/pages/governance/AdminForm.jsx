@@ -1,5 +1,20 @@
-import { useState } from "react";
+import { forwardRef, useId, useRef, useState } from "react";
 
+import {
+  Button,
+  Field,
+  FormActions,
+  FormError,
+  IconButton,
+  Input,
+  Modal,
+  SegmentedTabs,
+  Select,
+  fieldIssues,
+  humanize,
+  useToast,
+} from "../../../../components/admin";
+import { plural } from "../../../../components/admin/format.js";
 import { getUserMessage } from "../../../../app/apis/apiError.js";
 import {
   useCreateStaffAdminMutation,
@@ -10,13 +25,30 @@ import { useGetRolesQuery } from "../../../../app/apis/rbac.api.js";
 /**
  * Provision an administrator — `03-staff-admin.md` §1 / `04-super-admin.md` §2.
  *
+ * One dialog for both account types: a staff admin needs a role, a super
+ * admin doesn't. It owns the Modal so the dialog stays `busy` while the
+ * account is being created.
+ *
  * Admin passwords are stricter than learners': 12–128 with a letter, a digit
- * AND a symbol. The rule is checked here so the requirement is visible while
- * typing rather than arriving as a 400 after submit.
+ * AND a symbol. The rule is checked here so the requirement is visible before
+ * submit rather than arriving as a 400.
  *
  * The password is set by the provisioner and delivered out-of-band — an
  * invite-link flow is a planned enhancement, not part of v1.
  */
+
+const KINDS = [
+  { value: "staff", label: "Staff admin", icon: "users" },
+  { value: "super", label: "Super admin", icon: "shield" },
+];
+
+const KIND_HINT = {
+  staff: "Runs batches, content and learners, limited to what their role allows.",
+  super: "Full control, including other administrators and roles. Give this sparingly.",
+};
+
+const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+const USERNAME = /^[a-z0-9_]{3,30}$/;
 
 const adminPasswordOk = (value) =>
   value.length >= 12 &&
@@ -25,36 +57,119 @@ const adminPasswordOk = (value) =>
   /\d/.test(value) &&
   /[^A-Za-z0-9]/.test(value);
 
-const AdminForm = ({ kind, onClose }) => {
-  const isStaff = kind === "staff";
+/*
+ * 03/04 mark these codes user-safe, but apiError.js doesn't list them, so
+ * getUserMessage would hide them behind the generic message. They belong to
+ * one field each, so they're shown there.
+ */
+const CODE_FIELD = {
+  EMAIL_TAKEN: ["email", "That email is already registered."],
+  USERNAME_TAKEN: ["username", "That username is already taken."],
+  ROLE_NOT_FOUND: ["roleId", "That role no longer exists. Pick another."],
+};
 
-  const [form, setForm] = useState({
-    fullName: "",
-    email: "",
-    username: "",
-    password: "",
-    roleId: "",
-  });
+const EMPTY = { fullName: "", email: "", username: "", password: "", roleId: "" };
 
-  const { data: roles } = useGetRolesQuery(undefined, { skip: !isStaff });
+function validate(form, kind) {
+  const errors = {};
+  const name = form.fullName.trim();
+  if (name.length < 2 || name.length > 120) errors.fullName = "Enter their full name (2–120 characters).";
+  if (!EMAIL.test(form.email.trim())) errors.email = "Enter a valid email address.";
+  if (!USERNAME.test(form.username.trim())) errors.username = "Use 3–30 lowercase letters, digits or underscores.";
+  if (!adminPasswordOk(form.password)) errors.password = "Use 12–128 characters, with a letter, a digit and a symbol.";
+  if (kind === "staff" && !form.roleId) errors.roleId = "Choose what they can do.";
+  return errors;
+}
+
+/**
+ * @param {object} props
+ * @param {boolean} props.open
+ * @param {'staff'|'super'} [props.defaultKind]  the type selected when it opens
+ * @param {() => void} props.onClose
+ * @param {(kind: 'staff'|'super') => void} props.onCreated  closes the dialog and shows the new account's list
+ */
+export default function AdminForm({ open, defaultKind = "staff", onClose, onCreated }) {
+  const formId = useId();
+  // null = follow `defaultKind` (the tab the dialog was opened from)
+  const [kindChoice, setKindChoice] = useState(null);
+  const kind = kindChoice ?? defaultKind;
+
   const [createStaff, staffState] = useCreateStaffAdminMutation();
   const [createSuper, superState] = useCreateSuperAdminMutation();
-  const { isLoading, error } = isStaff ? staffState : superState;
+  const busy = staffState.isLoading || superState.isLoading;
 
-  const handleChange = (event) =>
-    setForm((prev) => ({ ...prev, [event.target.id]: event.target.value }));
+  const reset = () => {
+    setKindChoice(null);
+    staffState.reset();
+    superState.reset();
+  };
+  const close = () => {
+    reset();
+    onClose();
+  };
 
-  const passwordWeak = form.password.length > 0 && !adminPasswordOk(form.password);
-  const incomplete =
-    !form.fullName ||
-    !form.email ||
-    !form.username ||
-    !adminPasswordOk(form.password) ||
-    (isStaff && !form.roleId);
+  return (
+    <Modal
+      open={open}
+      onClose={close}
+      busy={busy}
+      size="md"
+      title="Add administrator"
+      description="They sign in with this email and password. Share the password with them directly."
+      footer={
+        <FormActions>
+          <Button variant="ghost" onClick={close} disabled={busy}>
+            Cancel
+          </Button>
+          <Button type="submit" form={formId} variant="primary" icon="userPlus" loading={busy}>
+            {kind === "staff" ? "Add staff admin" : "Add super admin"}
+          </Button>
+        </FormActions>
+      }
+    >
+      <AdminFields
+        formId={formId}
+        kind={kind}
+        onKindChange={setKindChoice}
+        create={kind === "staff" ? createStaff : createSuper}
+        error={(kind === "staff" ? staffState : superState).error}
+        onCreated={() => {
+          reset();
+          onCreated(kind);
+        }}
+      />
+    </Modal>
+  );
+}
 
-  const handleSubmit = async (event) => {
+function AdminFields({ formId, kind, onKindChange, create, error, onCreated }) {
+  const toast = useToast();
+  const formRef = useRef(null);
+  const [form, setForm] = useState(EMPTY);
+  const [attempted, setAttempted] = useState(false);
+  const roles = useGetRolesQuery(undefined, { skip: kind !== "staff" });
+  const roleList = roles.data ?? [];
+  const selectedRole = roleList.find((role) => role.id === form.roleId);
+
+  const set = (key, value) => setForm((prev) => ({ ...prev, [key]: value }));
+
+  const clientErrors = attempted ? validate(form, kind) : {};
+  const serverIssues = fieldIssues(error);
+  const routed = CODE_FIELD[error?.code];
+  if (routed) serverIssues[routed[0]] = routed[1];
+  const errors = { ...serverIssues, ...clientErrors };
+  const formError =
+    error && !error.details?.length && !routed
+      ? getUserMessage(error, "Couldn't create the account. Please try again.")
+      : null;
+
+  const onSubmit = async (event) => {
     event.preventDefault();
-    if (incomplete) return;
+    setAttempted(true);
+    if (Object.keys(validate(form, kind)).length > 0) {
+      requestAnimationFrame(() => formRef.current?.querySelector("[aria-invalid='true']")?.focus());
+      return;
+    }
 
     const payload = {
       fullName: form.fullName.trim(),
@@ -62,133 +177,134 @@ const AdminForm = ({ kind, onClose }) => {
       username: form.username.trim(),
       password: form.password,
     };
-    if (isStaff) payload.roleId = form.roleId;
+    if (kind === "staff") payload.roleId = form.roleId;
 
     try {
-      if (isStaff) await createStaff(payload).unwrap();
-      else await createSuper(payload).unwrap();
-      onClose?.();
+      await create(payload).unwrap();
+      toast.success(`${payload.fullName} can now sign in`, {
+        description:
+          kind === "staff"
+            ? `Staff admin with the ${humanize(selectedRole?.name)} role. Share their password with them directly.`
+            : "Super admin. Share their password with them directly.",
+      });
+      onCreated();
     } catch {
-      // surfaced below
+      // shown in the form: per field, or as the form error
     }
   };
 
-  const issues = Object.fromEntries(
-    (error?.details ?? []).map((detail) => [detail.field, detail.issue]),
-  );
-
   return (
-    <form onSubmit={handleSubmit} className="min-w-104">
-      <div className="flex flex-col gap-3">
-        <Field
-          id="fullName"
-          label="Full name"
-          value={form.fullName}
-          onChange={handleChange}
-          issue={issues.fullName}
-          autoComplete="name"
+    <form id={formId} ref={formRef} onSubmit={onSubmit} noValidate className="flex flex-col gap-5">
+      <div className="flex flex-col gap-1.5">
+        <p className="text-sm font-semibold text-text-primary">Account type</p>
+        <SegmentedTabs
+          size="sm"
+          layoutId="admin-kind"
+          ariaLabel="Account type"
+          items={KINDS}
+          value={kind}
+          onChange={onKindChange}
+          className="self-start"
         />
-        <Field
-          id="email"
-          label="Email"
-          type="email"
-          value={form.email}
-          onChange={handleChange}
-          issue={issues.email}
-          autoComplete="email"
-        />
-        <Field
-          id="username"
-          label="Username"
-          value={form.username}
-          onChange={handleChange}
-          issue={issues.username}
-          hint="lowercase letters, digits and underscore"
-          autoComplete="off"
-        />
-        <Field
-          id="password"
-          label="Password"
-          type="password"
-          value={form.password}
-          onChange={handleChange}
-          issue={
-            issues.password ??
-            (passwordWeak
-              ? "12-128 characters, with a letter, a digit and a symbol"
-              : undefined)
-          }
-          hint="12+ characters, with a letter, a digit and a symbol"
-          autoComplete="new-password"
-        />
-
-        {isStaff && (
-          <div className="flex items-baseline gap-3">
-            <label className="text-sm text-text-primary w-24 shrink-0" htmlFor="roleId">
-              Role
-            </label>
-            <div className="flex-1">
-              <select
-                id="roleId"
-                value={form.roleId}
-                onChange={handleChange}
-                className="w-full text-sm py-1.5 px-3 bg-surface-elevated text-text-primary rounded-md outline-none"
-              >
-                <option value="">Select a role…</option>
-                {(roles ?? []).map((role) => (
-                  <option key={role.id} value={role.id}>
-                    {role.name} — {role.permissions.length} permissions
-                  </option>
-                ))}
-              </select>
-              {issues.roleId && (
-                <p className="text-danger text-xs mt-1">{issues.roleId}</p>
-              )}
-            </div>
-          </div>
-        )}
+        <p className="text-xs text-text-muted">{KIND_HINT[kind]}</p>
       </div>
 
-      {error && !error.details?.length && (
-        <p className="mt-3 text-danger text-xs font-semibold">
-          {getUserMessage(error, "Couldn't create the account.")}
-        </p>
+      <Field label="Full name" required error={errors.fullName}>
+        <Input
+          value={form.fullName}
+          onChange={(event) => set("fullName", event.target.value)}
+          maxLength={120}
+          autoComplete="off"
+          placeholder="Amit Rao"
+        />
+      </Field>
+
+      <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
+        <Field label="Email" required error={errors.email}>
+          <Input
+            type="email"
+            inputMode="email"
+            value={form.email}
+            onChange={(event) => set("email", event.target.value)}
+            maxLength={255}
+            autoComplete="off"
+            placeholder="amit@org.in"
+          />
+        </Field>
+        <Field label="Username" required error={errors.username} hint="Lowercase letters, digits and _">
+          <Input
+            value={form.username}
+            onChange={(event) => set("username", event.target.value.toLowerCase())}
+            maxLength={30}
+            autoComplete="off"
+            autoCapitalize="none"
+            spellCheck={false}
+            placeholder="amitr"
+          />
+        </Field>
+      </div>
+
+      <Field
+        label="Password"
+        required
+        error={errors.password}
+        hint="12 or more characters, with a letter, a digit and a symbol."
+      >
+        <PasswordInput value={form.password} onChange={(event) => set("password", event.target.value)} />
+      </Field>
+
+      {kind === "staff" && (
+        <Field
+          label="Role"
+          required
+          error={errors.roleId}
+          hint={selectedRole?.description ?? "What they can do. You can change it later; it applies at their next sign-in."}
+        >
+          <Select value={form.roleId} onChange={(event) => set("roleId", event.target.value)} disabled={roles.isLoading}>
+            <option value="" disabled>
+              {roles.isLoading ? "Loading roles…" : "Choose a role…"}
+            </option>
+            {roleList.map((role) => (
+              <option key={role.id} value={role.id}>
+                {humanize(role.name)} · {plural(role.permissions.length, "permission")}
+              </option>
+            ))}
+          </Select>
+        </Field>
       )}
 
-      <button
-        type="submit"
-        disabled={isLoading || incomplete}
-        className="mt-4 w-full px-4 py-2 bg-accent text-accent-contrast rounded-md font-semibold cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
-      >
-        {isLoading ? "Creating…" : "Create account"}
-      </button>
-
-      <p className="text-text-muted text-[11px] mt-3">
-        Share the password out of band. There is no invite-link flow in v1.
-        {isStaff && " A role change takes effect on their next login."}
-      </p>
+      <FormError>{formError}</FormError>
     </form>
   );
-};
+}
 
-const Field = ({ id, label, issue, hint, ...inputProps }) => (
-  <div className="flex items-baseline gap-3">
-    <label className="text-sm text-text-primary w-24 shrink-0" htmlFor={id}>
-      {label}
-    </label>
-    <div className="flex-1">
-      <input
-        id={id}
-        className="w-full text-sm py-1.5 px-3 bg-surface-elevated text-text-primary placeholder:text-text-muted rounded-md outline-none"
-        {...inputProps}
+/**
+ * A password input with a show/hide toggle. The provisioner has to read the
+ * password back to share it, so it can be revealed. `Field` wires the label
+ * and aria props onto the input itself.
+ */
+const PasswordInput = forwardRef(function PasswordInput(props, ref) {
+  const [shown, setShown] = useState(false);
+  return (
+    <div className="relative">
+      <Input
+        ref={ref}
+        {...props}
+        type={shown ? "text" : "password"}
+        autoComplete="new-password"
+        maxLength={128}
+        spellCheck={false}
+        className="pr-12"
       />
-      {issue ? (
-        <p className="text-danger text-xs mt-1">{issue}</p>
-      ) : (
-        hint && <p className="text-text-muted text-[11px] mt-1">{hint}</p>
-      )}
+      <IconButton
+        icon={shown ? "eyeOff" : "eye"}
+        label={shown ? "Hide password" : "Show password"}
+        size="sm"
+        tooltip={false}
+        active={shown}
+        onClick={() => setShown((value) => !value)}
+        className="absolute top-1/2 right-1.5 -translate-y-1/2"
+      />
     </div>
-  </div>
-);
-
-export default AdminForm;
+  );
+});

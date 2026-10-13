@@ -44,7 +44,7 @@ const linkClass = ({ isActive }) =>
 // No display utility here: each use sets its own (`inline-flex`, or
 // `hidden sm:inline-flex`), so a base `inline-flex` can't override `hidden`.
 const startClass =
-  'items-center justify-center rounded-xl bg-ink font-semibold text-cream shadow-[inset_0_1px_0_rgba(255,255,255,0.16),0_12px_26px_-12px_rgba(21,13,61,0.7)] transition-[background-color,transform] duration-300 ease-out-expo hover:bg-ink-soft active:scale-[0.98] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ember';
+  'items-center justify-center rounded-lg bg-ink font-semibold text-cream shadow-[inset_0_1px_0_rgba(255,255,255,0.16),0_12px_26px_-12px_rgba(21,13,61,0.7)] transition-[background-color,transform] duration-300 ease-out-expo hover:bg-ink-soft active:scale-[0.98] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ember';
 
 const AcademyNav = () => {
   const { t } = useLang();
@@ -111,32 +111,34 @@ const AcademyNav = () => {
         <div className="mx-auto flex h-[4.75rem] max-w-7xl items-center justify-between gap-4 px-4 sm:px-6 lg:px-8">
           <Brand onClick={close} />
 
-          <nav className="hidden flex-1 items-center justify-center gap-1 xl:flex" aria-label="Primary navigation">
+          <nav className="hidden flex-1 items-center justify-center gap-1 lg:flex text-[13px]" aria-label="Primary navigation">
             <SolutionsDropdown open={solutions} onOpenChange={setSolutions} />
             {NAV_LINKS.map((p) => (
-              <NavLink key={p.path} to={p.path} className={linkClass}>
+              <NavLink style={{
+                fontSize:'13px',
+              }} key={p.path} to={p.path} className={linkClass }>
                 {t(p.nav)}
               </NavLink>
             ))}
-            <Link to="/#faq" className={linkClass({ isActive: false })}>
+            <Link  to="/#faq" className={linkClass({ isActive: false })}>
               {t(LABELS.faq)}
             </Link>
           </nav>
 
-          <div className="hidden items-center gap-3 xl:flex">
+          <div className="hidden items-center gap-3 lg:flex">
             <LangSwitch />
             <NavLink
               to="/login"
-              className="rounded-lg px-2 py-2 text-[15px] font-medium text-ink transition-colors hover:text-ember-deep focus-visible:outline-2 focus-visible:outline-ember"
+              className="rounded-lg px-2 py-2 text-[13px] font-medium text-ink transition-colors hover:text-ember-deep focus-visible:outline-2 focus-visible:outline-ember"
             >
               {t(LABELS.login)}
             </NavLink>
-            <Link to="/register" className={`${startClass} inline-flex h-11 px-5 text-[15px]`}>
+            <Link to="/register" className={`${startClass} inline-flex h-9 px-3 text-[13px]`}>
               {t(LABELS.start)}
             </Link>
           </div>
 
-          <div className="flex items-center gap-2 xl:hidden">
+          <div className="flex items-center gap-2 lg:hidden">
             <Link to="/register" className={`${startClass} hidden h-10 px-4 text-sm sm:inline-flex`} onClick={close}>
               {t(LABELS.start)}
             </Link>

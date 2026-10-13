@@ -282,6 +282,15 @@ function listLearners(request, _params, url) {
     createdAt: a.createdAt ?? "2026-06-01T09:00:00Z",
   }));
 
+  // §5 sort whitelist: `field:dir` over createdAt / fullName
+  const [field, direction] = (searchParams.get("sort") ?? "createdAt:desc").split(":");
+  if (field === "createdAt" || field === "fullName") {
+    summaries.sort((a, b) => {
+      const cmp = String(a[field]).localeCompare(String(b[field]));
+      return direction === "asc" ? cmp : -cmp;
+    });
+  }
+
   const { slice, meta } = paginate(summaries, searchParams);
   return ok(slice, meta);
 }

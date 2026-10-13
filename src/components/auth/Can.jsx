@@ -11,7 +11,7 @@ import { selectCan } from "../../app/features/auth/auth.selectors.js";
  *
  * @example
  * <Can perm={PERMISSIONS.TEST_AUTHOR}>
- *   <Btn title="Draft test" onClick={openDraft} />
+ *   <Button onClick={openDraft}>Draft test</Button>
  * </Can>
  *
  * <Can perm={[PERMISSIONS.BATCH_MANAGE, PERMISSIONS.COURSE_AUTHOR]} mode="any">
@@ -20,7 +20,7 @@ import { selectCan } from "../../app/features/auth/auth.selectors.js";
  *
  * // render-prop form, when you want to disable rather than hide
  * <Can perm={PERMISSIONS.LEARNER_SUSPEND}>
- *   {(allowed) => <Btn title="Suspend" disabled={!allowed} />}
+ *   {(allowed) => <Button disabled={!allowed}>Suspend</Button>}
  * </Can>
  */
 const Can = ({ perm, mode = "all", fallback = null, children }) => {

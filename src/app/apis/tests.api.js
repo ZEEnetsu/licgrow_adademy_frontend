@@ -237,6 +237,13 @@ export const testSlice = createApi({
     /**
      * §13 — reorder. `orderedQuestionIds` must be the EXACT current set,
      * else 422 `REORDER_SET_MISMATCH`.
+     *
+     * Optimistic (admin-ui-guidelines §6): the cached question list (§9,
+     * keyed by `testId`) is re-sorted the moment the author clicks, and the
+     * patch is undone if the server refuses. A successful reorder doesn't
+     * refetch — the patched cache already matches the server — so quick
+     * repeated moves don't flicker back through stale intermediate orders.
+     * A failure invalidates the list so it resyncs with the server's truth.
      */
     reorderQuestions: builder.mutation({
       query: ({ testId, orderedQuestionIds }) => ({
@@ -246,7 +253,25 @@ export const testSlice = createApi({
       }),
       transformResponse: unwrap,
       transformErrorResponse: normalizeApiError,
-      invalidatesTags: (_r, _e, { testId }) => [questionListTag(testId)],
+      async onQueryStarted({ testId, orderedQuestionIds }, { dispatch, queryFulfilled }) {
+        const position = new Map(orderedQuestionIds.map((id, index) => [id, index]));
+        const patch = dispatch(
+          testSlice.util.updateQueryData("getTestQuestions", testId, (draft) => {
+            // only reorder a set we fully know; otherwise let the server decide
+            if (draft.length !== position.size || draft.some((q) => !position.has(q.id))) return;
+            draft.sort((a, b) => position.get(a.id) - position.get(b.id));
+            draft.forEach((question, index) => {
+              question.sequence = index + 1;
+            });
+          }),
+        );
+        try {
+          await queryFulfilled;
+        } catch {
+          patch.undo();
+        }
+      },
+      invalidatesTags: (_r, error, { testId }) => (error ? [questionListTag(testId)] : []),
     }),
   }),
 });

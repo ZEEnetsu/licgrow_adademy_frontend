@@ -1,189 +1,224 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 
-import Btn from "../../components/Btn.jsx";
+import Icon from "../../../../components/ui/Icon.jsx";
+import {
+  Button,
+  Field,
+  FormActions,
+  FormError,
+  Input,
+  Textarea,
+  fieldIssues,
+  useToast,
+} from "../../../../components/admin";
 import { getUserMessage } from "../../../../app/apis/apiError.js";
-import {
-  isValidYouTubeUrl,
-  parseYouTubeId,
-  youTubeThumbnail,
-} from "../../../../app/utils/youtube.js";
-import {
-  useAddChapterMutation,
-  useUpdateChapterMutation,
-} from "../../../../app/apis/courses.api.js";
+import { parseYouTubeId, youTubeThumbnail } from "../../../../app/utils/youtube.js";
+import { useAddChapterMutation, useUpdateChapterMutation } from "../../../../app/apis/courses.api.js";
 
 /**
- * Add or edit a chapter — `api-contracts/08-course.md` §11 / §12.
+ * Add or edit a chapter, inline in its unit — `api-contracts/08-course.md`
+ * §11 / §12.
  *
  * `youtubeUrl` is required and validated at the server edge (400
- * VALIDATION_ERROR on a bad link), so the same rule runs here: a live
- * thumbnail preview appears the moment the URL resolves to a video id, which
- * doubles as confirmation the author pasted the right video.
+ * VALIDATION_ERROR on a bad link), so the same rule runs here. The preview
+ * shows the video's still the moment the link resolves to an id, which
+ * doubles as confirmation the right video was pasted.
+ *
+ * Layout: fields and preview side by side from `sm`, stacked below it, so it
+ * fits a 360px screen. Escape cancels.
  */
+
+const TITLE_MIN = 3;
+
 const ChapterEditor = ({ courseId, unitId, chapter, onDone, onCancel }) => {
   const isEdit = Boolean(chapter);
+  const toast = useToast();
   const [form, setForm] = useState(() => ({
     title: chapter?.title ?? "",
     youtubeUrl: chapter?.youtubeUrl ?? "",
     description: chapter?.description ?? "",
   }));
   const [submitted, setSubmitted] = useState(false);
+  const [urlTouched, setUrlTouched] = useState(false);
+  const titleRef = useRef(null);
+  const urlRef = useRef(null);
 
   const [addChapter, addState] = useAddChapterMutation();
   const [updateChapter, updateState] = useUpdateChapterMutation();
   const { isLoading, error } = isEdit ? updateState : addState;
 
-  const handleChange = (event) =>
-    setForm((prev) => ({ ...prev, [event.target.id]: event.target.value }));
+  const set = (key) => (event) => setForm((prev) => ({ ...prev, [key]: event.target.value }));
 
-  const videoId = parseYouTubeId(form.youtubeUrl);
-  const urlLooksWrong = form.youtubeUrl.trim() !== "" && !videoId;
-  const titleTooShort = form.title.trim().length < 3;
+  const title = form.title.trim();
+  const url = form.youtubeUrl.trim();
+  const videoId = parseYouTubeId(url);
+  const issues = fieldIssues(error);
+
+  const titleError = submitted && title.length < TITLE_MIN ? "Give the chapter a title of at least 3 characters." : issues.title;
+  const urlError =
+    submitted && !url
+      ? "Paste the chapter's YouTube link."
+      : url && !videoId && (submitted || urlTouched)
+        ? "That isn't a YouTube link. Paste a watch, youtu.be, shorts or embed link, or the 11-character video id."
+        : issues.youtubeUrl;
+  const formError =
+    error && !Object.keys(issues).length
+      ? getUserMessage(error, "Couldn't save the chapter. Please try again.")
+      : null;
 
   const handleSubmit = async (event) => {
     event.preventDefault();
     setSubmitted(true);
-    if (titleTooShort || !isValidYouTubeUrl(form.youtubeUrl)) return;
+    if (title.length < TITLE_MIN) {
+      titleRef.current?.focus();
+      return;
+    }
+    if (!videoId) {
+      urlRef.current?.focus();
+      return;
+    }
 
-    const payload = {
-      title: form.title.trim(),
-      youtubeUrl: form.youtubeUrl.trim(),
-    };
-    // send null rather than "" so the field is genuinely cleared
-    payload.description = form.description.trim() || null;
-
+    const description = form.description.trim();
     try {
       if (isEdit) {
         await updateChapter({
           courseId,
           unitId,
           chapterId: chapter.id,
-          ...payload,
+          title,
+          youtubeUrl: url,
+          // null clears a description that was there; "" would store an empty one
+          description: description || null,
         }).unwrap();
+        toast.success(`“${title}” is saved`);
       } else {
-        await addChapter({ courseId, unitId, ...payload }).unwrap();
+        const payload = { courseId, unitId, title, youtubeUrl: url };
+        if (description) payload.description = description;
+        await addChapter(payload).unwrap();
+        toast.success(`Added “${title}”`, { description: "It's at the end of the unit." });
       }
       onDone?.();
     } catch {
-      // surfaced below
+      // shown inline: per-field issues and the form-level message
     }
   };
-
-  const issues = Object.fromEntries(
-    (error?.details ?? []).map((detail) => [detail.field, detail.issue]),
-  );
 
   return (
     <form
       onSubmit={handleSubmit}
-      className="rounded-lg p-4 bg-surface-elevated shadow-elevate"
+      noValidate
+      aria-label={isEdit ? `Edit chapter “${chapter.title}”` : "New chapter"}
+      onKeyDown={(event) => {
+        if (event.key === "Escape" && !isLoading) {
+          event.stopPropagation();
+          onCancel?.();
+        }
+      }}
+      className="mx-1 rounded-2xl bg-surface-muted p-4 ring-1 ring-border/60 ring-inset sm:p-5"
     >
-      <p className="text-sm font-semibold text-text-primary mb-3">
-        {isEdit ? "Edit chapter" : "New chapter"}
-      </p>
+      <p className="caps text-[11px] font-bold text-text-muted">{isEdit ? "Edit chapter" : "New chapter"}</p>
 
-      <div className="flex gap-4">
-        <div className="flex-1 flex flex-col gap-3">
-          <div>
-            <label htmlFor="title" className="text-xs text-text-muted">
-              Title
-            </label>
-            <input
-              id="title"
+      <div className="mt-4 grid grid-cols-1 gap-5 sm:grid-cols-[minmax(0,1fr)_13rem] lg:grid-cols-[minmax(0,1fr)_16rem]">
+        <div className="flex min-w-0 flex-col gap-4">
+          <Field label="Title" required error={titleError}>
+            <Input
+              ref={titleRef}
               value={form.title}
-              onChange={handleChange}
+              onChange={set("title")}
               maxLength={160}
               placeholder="What is Life Insurance"
-              className="mt-1 w-full text-sm py-2 px-3 bg-bg border border-border rounded-md outline-none text-text-primary placeholder:text-text-muted focus:border-border"
+              autoComplete="off"
+              autoFocus
             />
-            {submitted && titleTooShort && (
-              <p className="text-danger text-xs mt-1">
-                Title must be at least 3 characters.
-              </p>
-            )}
-            {issues.title && (
-              <p className="text-danger text-xs mt-1">{issues.title}</p>
-            )}
-          </div>
+          </Field>
 
-          <div>
-            <label htmlFor="youtubeUrl" className="text-xs text-text-muted">
-              YouTube link
-            </label>
-            <input
-              id="youtubeUrl"
+          <Field
+            label="YouTube link"
+            required
+            hint="A youtube.com or youtu.be link, or the 11-character video id."
+            error={urlError}
+          >
+            <Input
+              ref={urlRef}
+              type="url"
+              inputMode="url"
               value={form.youtubeUrl}
-              onChange={handleChange}
-              placeholder="https://youtu.be/… or an 11-character video id"
-              className={`mt-1 w-full text-sm py-2 px-3 bg-bg border rounded-md outline-none text-text-primary placeholder:text-text-muted focus:border-border ${
-                urlLooksWrong ? "border-danger/40" : "border-border"
-              }`}
+              onChange={set("youtubeUrl")}
+              onBlur={() => setUrlTouched(true)}
+              placeholder="https://youtu.be/…"
+              autoComplete="off"
+              spellCheck={false}
             />
-            {urlLooksWrong && (
-              <p className="text-danger text-xs mt-1">
-                That isn&apos;t a YouTube link. Paste a watch, youtu.be, shorts
-                or embed URL — or the 11-character id.
-              </p>
-            )}
-            {issues.youtubeUrl && (
-              <p className="text-danger text-xs mt-1">{issues.youtubeUrl}</p>
-            )}
-            {videoId && (
-              <p className="text-text-muted text-[11px] mt-1 font-mono">
-                video id: {videoId}
-              </p>
-            )}
-          </div>
+          </Field>
 
-          <div>
-            <label htmlFor="description" className="text-xs text-text-muted">
-              Description <span className="text-text-muted">(optional)</span>
-            </label>
-            <textarea
-              id="description"
+          <Field label="Description" optional error={issues.description}>
+            <Textarea
+              value={form.description}
+              onChange={set("description")}
               rows={2}
               maxLength={2000}
-              value={form.description}
-              onChange={handleChange}
-              className="mt-1 w-full text-sm py-2 px-3 bg-bg border border-border rounded-md outline-none text-text-primary focus:border-border"
+              placeholder="One line on what this lesson covers"
             />
-          </div>
+          </Field>
         </div>
 
-        <div className="w-44 shrink-0">
-          <p className="text-xs text-text-muted mb-1">Preview</p>
-          {videoId ? (
-            <img
-              src={youTubeThumbnail(videoId, "medium")}
-              alt=""
-              className="w-full rounded-md border border-border"
-            />
-          ) : (
-            <div className="w-full aspect-video rounded-md border border-dashed border-border flex items-center justify-center text-[11px] text-text-muted text-center px-2">
-              paste a link to preview
-            </div>
-          )}
-        </div>
+        <VideoPreview videoId={videoId} />
       </div>
 
-      {error && (
-        <p className="mt-3 text-danger text-xs font-semibold">
-          {getUserMessage(error, "Couldn't save the chapter.")}
-        </p>
-      )}
+      <FormError className="mt-4">{formError}</FormError>
 
-      <div className="flex gap-3 mt-4 max-w-xs">
-        <Btn type="button" title="Cancel" variant="ghost" size="sm" onClick={onCancel} />
-        <Btn
-          type="submit"
-          title={isLoading ? "Saving…" : isEdit ? "Save" : "Add chapter"}
-          variant="primary"
-          size="sm"
-          disabled={isLoading}
-        />
-      </div>
+      <FormActions className="mt-5">
+        <Button variant="ghost" onClick={onCancel} disabled={isLoading}>
+          Cancel
+        </Button>
+        <Button type="submit" variant="tonal" icon={isEdit ? "check" : "plus"} loading={isLoading}>
+          {isEdit ? "Save chapter" : "Add chapter"}
+        </Button>
+      </FormActions>
     </form>
   );
 };
 
 export default ChapterEditor;
+
+/** The video's still, or a play glyph on sand until the link resolves. */
+function VideoPreview({ videoId }) {
+  // remembers WHICH id failed, so pasting a different link tries again
+  const [failedId, setFailedId] = useState(null);
+  const src = videoId ? youTubeThumbnail(videoId, "medium") : null;
+  const showImage = src && failedId !== videoId;
+
+  return (
+    <div className="flex min-w-0 flex-col gap-1.5">
+      <p className="text-sm font-semibold text-text-primary" aria-hidden>
+        Preview
+      </p>
+      <div className="relative aspect-video w-full max-w-[20rem] overflow-hidden rounded-2xl bg-tint-slate text-text-muted sm:max-w-none">
+        {showImage ? (
+          <img
+            src={src}
+            alt="Thumbnail of the linked video"
+            width={320}
+            height={180}
+            decoding="async"
+            onError={() => setFailedId(videoId)}
+            className="h-full w-full object-cover"
+          />
+        ) : (
+          <div className="flex h-full flex-col items-center justify-center gap-2 px-4 text-center">
+            <span className="grid h-10 w-10 place-items-center rounded-full bg-surface-elevated text-text-primary shadow-elevate">
+              <Icon name="play" className="h-4 w-4" strokeWidth={2.25} />
+            </span>
+            <span className="text-xs">{videoId ? "No preview for this video" : "Paste a link to preview"}</span>
+          </div>
+        )}
+        <span className="pointer-events-none absolute inset-0 rounded-2xl ring-1 ring-border/60 ring-inset" aria-hidden />
+      </div>
+      {videoId && (
+        <p className="text-xs text-text-muted">
+          Video id <span className="font-mono text-text-primary">{videoId}</span>
+        </p>
+      )}
+    </div>
+  );
+}

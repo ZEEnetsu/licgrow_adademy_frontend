@@ -180,7 +180,7 @@ const StudentProfile = () => {
         <button
           type="submit"
           disabled={updateState.isLoading}
-          className="self-start px-5 py-2 rounded-md bg-accent/20 text-accent font-medium text-sm hover:bg-accent/30 transition-colors disabled:opacity-50 cursor-pointer"
+          className="self-start px-5 py-2 rounded-md bg-accent-muted text-accent font-medium text-sm hover:bg-accent-muted-hover transition-colors disabled:opacity-50 cursor-pointer"
         >
           {updateState.isLoading ? "Saving…" : "Save profile"}
         </button>
@@ -273,7 +273,7 @@ const Field = ({ id, label, issue, hint, ...inputProps }) => (
     </label>
     <input
       id={id}
-      className="px-4 py-2 bg-surface rounded-md outline-none text-text-primary focus:ring-1 focus:ring-accent [color-scheme:dark]"
+      className="px-4 py-2 bg-surface rounded-md outline-none text-text-primary focus:ring-1 focus:ring-accent"
       {...inputProps}
     />
     {issue ? (

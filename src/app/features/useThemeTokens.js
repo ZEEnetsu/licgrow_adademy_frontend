@@ -1,32 +1,36 @@
 import { useEffect, useState } from "react";
 
 /**
- * Last-resort values, mirroring the LIGHT theme in src/styles/tokens/.
+ * Last-resort values, mirroring the LIGHT theme in src/styles/theme.css.
  *
  * Only reached where there is no computed style to read — a server render, or
  * a test environment without a DOM. Without it a chart would fall back to
  * Chart.js's own greys, which is the exact problem tokens are here to fix.
  *
- * It is a mirror, so it can drift. `theme.check.mjs` compares every entry
- * against the CSS and fails if they diverge.
+ * It is a mirror, so it can drift. `scripts/theme.check.mjs` compares every
+ * entry against the CSS and fails if they diverge. (`chart-grid` is an rgba,
+ * so the checker compares it as a string.)
  */
 const FALLBACK = {
-  bg: "#eaf1fb",
+  bg: "#f4f5f9",
   surface: "#ffffff",
   "surface-elevated": "#ffffff",
-  border: "#c7d6f0",
-  "text-primary": "#0a1a3c",
-  "text-muted": "#4a5e85",
-  // chart-1/grid/tick are aliases in CSS (`var(--accent)` and friends); these
-  // are their resolved light-theme values
-  "chart-1": "#14306e",
-  "chart-grid": "#c7d6f0",
-  "chart-tick": "#4a5e85",
-  "chart-2": "#7fb0ff",
-  "chart-3": "#2c5cc5",
-  "chart-4": "#b4d0ff",
-  "chart-5": "#4c8def",
-  "chart-6": "#0a1a3c",
+  border: "#e1e4ec",
+  "text-primary": "#150d3d",
+  "text-muted": "#555a75",
+  // chart-tick and the semantic slices are aliases in CSS (`var(--text-muted)`
+  // and friends); these are their resolved light-theme values
+  "chart-1": "#3d3660",
+  "chart-2": "#64a893",
+  "chart-3": "#c9c3e8",
+  "chart-4": "#150d3d",
+  "chart-5": "#9c93d1",
+  "chart-6": "#aed5d1",
+  "chart-positive": "#2f6b58",
+  "chart-negative": "#a3364f",
+  "chart-neutral": "#cbd0dc",
+  "chart-grid": "rgb(21 13 61 / 0.08)",
+  "chart-tick": "#555a75",
 };
 
 /**

@@ -1,15 +1,15 @@
 /**
  * Shared surface primitives.
  *
- * Every colour here is a design token from src/styles/tokens/ (`bg`, `surface`,
+ * Every colour here is a design token from src/styles/theme.css (`bg`, `surface`,
  * `text-primary`, `text-muted`, `border`, `accent`, and the status trio), never
  * a literal `zinc-*`. That is what makes light and dark mode work: the tokens
  * are redefined under `.dark`, so a component built from them follows the theme
  * automatically, while a hardcoded colour stays dark in light mode.
  *
- * The visual language follows the admin dashboard's StatsCard: an elevated
- * surface, generously rounded, and lifted off the tinted page by `shadow-
- * elevate` rather than outlined by a border. Cards and tiles carry no border
+ * The visual language follows the admin kit (src/components/admin): an
+ * elevated surface, generously rounded, and lifted off the cream page by
+ * `shadow-elevate` rather than outlined by a border. Cards and tiles carry no border
  * anywhere in the app — separation is elevation, so the two themes can use the
  * shadow physics each needs (see styles/theme.css).
  */
@@ -46,7 +46,7 @@ export const InteractiveCard = ({
 );
 
 /**
- * A headline figure, matching the admin StatsCard proportions so the learner
+ * A headline figure, matching the admin StatCard proportions so the learner
  * and admin dashboards read as one product.
  */
 export const StatTile = ({ label, value, caption, tone = "default" }) => {
@@ -81,7 +81,7 @@ export const SectionTitle = ({ children, action }) => (
 export const Pill = ({ tone = "neutral", children }) => {
   const tones = {
     neutral: "bg-bg text-text-muted",
-    accent: "bg-accent/15 text-accent",
+    accent: "bg-accent-muted text-accent",
     good: "bg-success-muted text-success",
     warn: "bg-warning-muted text-warning",
     bad: "bg-danger-muted text-danger",

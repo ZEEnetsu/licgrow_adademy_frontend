@@ -17,6 +17,6 @@
 export const FIGURE_TONE = {
   default: "text-text-primary",
   accent: "text-accent",
-  warn: "text-amber-500 dark:text-amber-400",
-  danger: "text-red-500 dark:text-red-400",
+  warn: "text-warning",
+  danger: "text-danger",
 };

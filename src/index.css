@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Kalam:wght@400;700&family=Mukta:wght@400;500;600;700;800&family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap');
+/* Web fonts are loaded by a <link> in index.html, so the browser finds them on first parse. */
 @import "tailwindcss";
 
 /*
@@ -51,17 +51,101 @@
   --color-accent: var(--accent);
   --color-accent-hover: var(--accent-hover);
   --color-accent-muted: var(--accent-muted);
+  --color-accent-muted-hover: var(--accent-muted-hover);
   --color-accent-contrast: var(--accent-contrast);
   --color-accent-solid: var(--accent-solid);
+  --color-accent-solid-hover: var(--accent-solid-hover);
   --color-accent-solid-contrast: var(--accent-solid-contrast);
+  --color-accent-vivid: var(--accent-vivid);
+  --color-ring: var(--ring);
+
+  --color-brand: var(--brand);
+  --color-brand-contrast: var(--brand-contrast);
+
+  --color-border-strong: var(--border-strong);
+  --color-field: var(--field);
+  --color-field-focus: var(--field-focus);
+  --color-tint-peach: var(--tint-peach);
+  --color-tint-mint: var(--tint-mint);
+  --color-tint-sand: var(--tint-sand);
+  --color-tint-lavender: var(--tint-lavender);
+  --color-tint-slate: var(--tint-slate);
+  --color-skeleton: var(--skeleton);
+  --color-overlay: var(--overlay);
 
   /*
    * `shadow-elevate` is how a card or tile reads as raised. It has to be a
    * token rather than a stock `shadow-md` because light and dark need
    * different physics — see the elevation note in styles/theme.css.
+   * `shadow-pop` is the heavier one for things above the page: menus,
+   * modals, the command palette.
    */
   --shadow-elevate: var(--elevate);
   --shadow-elevate-hover: var(--elevate-hover);
+  --shadow-pop: var(--pop);
+  --shadow-accent: var(--accent-glow);
+}
+
+/*
+ * ─────────────────────────────────────────────────────────────────────────────
+ *  APP UTILITIES — used by the admin kit (src/components/admin) and the
+ *  student portal. See docs/admin-ui-guidelines.md.
+ * ─────────────────────────────────────────────────────────────────────────────
+ */
+
+/* The one focus treatment: a 2px ring in the theme's ring colour, keyboard only. */
+@utility focus-ring {
+  &:focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+  }
+}
+
+/* Loading placeholder: the skeleton fill with a light sweep across it. */
+@utility skeleton {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--skeleton);
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    transform: translateX(-100%);
+    background-image: linear-gradient(90deg, transparent, var(--skeleton-shine), transparent);
+    animation: skeleton-shine 1.4s linear infinite;
+  }
+}
+
+@keyframes skeleton-shine {
+  to { transform: translateX(100%); }
+}
+
+/* The 2px "something is loading" line under a toolbar. */
+@keyframes progress-indeterminate {
+  0% { transform: translateX(-100%) scaleX(0.4); }
+  50% { transform: translateX(30%) scaleX(0.6); }
+  100% { transform: translateX(100%) scaleX(0.4); }
+}
+
+/*
+ * Long lists of heavy cards (test questions): the browser skips layout and
+ * paint for cards off screen. The intrinsic size is a guess that keeps the
+ * scrollbar honest until a card has rendered once.
+ */
+@utility cv-auto {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 280px;
+}
+
+/*
+ * The theme switch animates with the View Transitions API (ThemeToggle.jsx
+ * clips the new snapshot open as a circle). The default cross-fade is turned
+ * off so only that reveal plays.
+ */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
 }
 
 /*
@@ -102,6 +186,10 @@
   --color-mint-soft: #E1F0EE;
   --color-cream: #FBF8F3;
   --color-sand: #F3EDE3;
+  /* cool companions, used on the ink rail and toasts (theme-invariant) */
+  --color-lavender: #C9C3E8;
+  --color-lavender-deep: #9C93D1;
+  --color-rose: #F49AAE;
 
   --color-lic-navy: #150D3D;
   --color-lic-royal: #3D3660;
@@ -136,6 +224,19 @@
   --animate-drift: drifty 18s ease-in-out infinite;
   --animate-marquee: marquee 38s linear infinite;
   --animate-marquee-rev: marquee 44s linear infinite reverse;
+  /* the header logo: a comet arc circling the badge, and a light sweep across it */
+  --animate-orbit: orbit 7s linear infinite;
+  --animate-glint: glint 5.5s ease-in-out infinite;
+
+  @keyframes orbit {
+    to { transform: rotate(1turn); }
+  }
+
+  /* the sweep takes the first 30%, then the badge rests until the next pass */
+  @keyframes glint {
+    0% { transform: translateX(-160%) skewX(-18deg); }
+    30%, 100% { transform: translateX(260%) skewX(-18deg); }
+  }
 
   @keyframes floaty {
     0%, 100% { transform: translateY(0px); }
@@ -200,6 +301,11 @@ body {
 ::selection {
   background-color: color-mix(in srgb, var(--accent) 25%, transparent);
   color: var(--text-primary);
+}
+/* public pages keep the landing page's ember selection */
+html[data-surface='light'] ::selection {
+  background-color: rgb(250 79 12 / 0.25);
+  color: #150d3d;
 }
 
 .grain-overlay {
@@ -355,23 +461,27 @@ html[data-surface="light"] {
  */
 html[data-surface='light'] {
   color-scheme: light;
-  --sb-track: rgba(20, 48, 110, 0.05);
-  --sb-thumb: rgba(20, 48, 110, 0.28);
-  --sb-thumb-hover: rgba(20, 48, 110, 0.52);
+  --sb-track: rgba(21, 13, 61, 0.05);
+  --sb-thumb: rgba(21, 13, 61, 0.28);
+  --sb-thumb-hover: rgba(21, 13, 61, 0.52);
 }
 
-/* Follows the theme: these three tokens are already redefined under `.dark`. */
+/*
+ * Follows the theme: `text-muted` and `surface-muted` are already redefined
+ * under `.dark`. The thumb is a mix of the muted text colour rather than the
+ * hairline `border`, which is too close to cream to see.
+ */
 html[data-surface='app'] {
   --sb-track: var(--surface-muted);
-  --sb-thumb: var(--border);
-  --sb-thumb-hover: var(--accent);
+  --sb-thumb: color-mix(in srgb, var(--text-muted) 35%, transparent);
+  --sb-thumb-hover: var(--text-muted);
 }
 
 /* Fallback for the first paint, before RootLayout's effect runs. */
 :root {
-  --sb-track: rgba(20, 48, 110, 0.05);
-  --sb-thumb: rgba(20, 48, 110, 0.28);
-  --sb-thumb-hover: rgba(20, 48, 110, 0.52);
+  --sb-track: rgba(21, 13, 61, 0.05);
+  --sb-thumb: rgba(21, 13, 61, 0.28);
+  --sb-thumb-hover: rgba(21, 13, 61, 0.52);
 }
 
 /*

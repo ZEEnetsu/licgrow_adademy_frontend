@@ -5,154 +5,221 @@
  *
  * Two blocks: `:root` is light, `.dark` is dark. They declare the same names,
  * so retuning is editing a hex on the left or the right and saving. Nothing
- * else in the codebase names a colour — no component, no chart, no page.
+ * else in the app portals names a colour — no component, no chart, no page.
  *
- * ONE HUE
- *   Both themes are built from a single navy ramp, the same one the marketing
- *   pages use (see the LANDING PALETTE block in index.css). Light mode reads as
- *   white-on-navy-tint; dark mode as navy-on-near-black. The status trio is the
- *   only place another hue appears, because green/amber/red carry meaning that
- *   a shade of blue cannot.
+ * ONE BRAND, THE COOL HALF OF IT
+ *   Both portals are built from the cool members of the landing page's palette
+ *   (the MARKETING PALETTE block in index.css): ink, plum and lavender for type
+ *   and the accent, sage and mint for highlights, and ink-tinted blue-greys for
+ *   the grounds. Light mode is ink on pale blue-grey; dark mode is off-white on
+ *   a cool ink-slate. The app is a tool people look at all day, so it stays
+ *   quiet: ember orange is reserved for attention counts (the rail's pending
+ *   badge, the notification count) and the warm glow inside the ink rail —
+ *   never for buttons, links, selection or meters. The status trio is the only
+ *   other hue, softened so a badge informs rather than shouts.
  *
  * HOW IT REACHES THE UI
  *   index.css maps each token to a Tailwind utility once, in its `@theme
  *   inline` block: `--accent` becomes `bg-accent`, `text-accent`,
- *   `border-accent`. Adding a token means adding it here AND there; changing a
+ *   `border-accent`. Adding a token means adding it here AND there (and in the
+ *   FALLBACK mirror in useThemeTokens.js if a chart reads it); changing a
  *   token's value means only here.
  *
  * WHAT THE LEVELS MEAN
- *   bg                 the page itself — tinted, so cards can lift off it
- *   surface            the chrome: sidebar, header
+ *   bg                 the page itself — pale blue-grey, so white cards lift off it
+ *   surface            chrome: headers, sticky bars
  *   surface-muted      recessed areas on a card — zebra rows, disabled fields
  *   surface-hover      a surface under the pointer
  *   surface-elevated   things that float: cards, tiles, modals, dropdowns
+ *   field              the fill of a text input
+ *   tint-*             lavender / mint / slate washes for icon chips, eyebrows
+ *                      and empty states. `tint-peach` and `tint-sand` are kept
+ *                      as aliases of lavender and slate so older classes still
+ *                      resolve; new code uses the real names.
  *
- *   `--elevate` is the shadow those floating things wear. It is a token rather
- *   than a Tailwind `shadow-md` because the two themes need different physics:
- *   light mode casts a soft navy shadow, dark mode casts a deeper black one and
- *   adds a one-pixel inner highlight along the top edge — without it a dark
- *   card has no edge at all once you take the border away.
+ * THE FOUR ACCENT ROLES
+ *   accent         the accent as TEXT (links, active labels): plum in light
+ *                  mode, lavender in dark mode.
+ *   accent-solid   the accent as a FILL — primary buttons, switches, the
+ *                  current step. Ink in light mode, lavender in dark mode, with
+ *                  `accent-solid-contrast` for whatever sits on it.
+ *   accent-vivid   meters, progress lines and bars — sage in light mode, mint
+ *                  in dark. A fill only, never text.
+ *   accent-muted   the tonal fill behind accent text (tonal buttons, pills).
+ *   `--accent-glow` is the soft shadow a primary button wears (`shadow-accent`).
+ *
+ * THEME-INVARIANT SURFACES
+ *   `--brand` is ink in both themes. It paints the admin rail and toasts — the
+ *   surfaces that stay dark whichever theme is on, like the landing page's
+ *   dark bands. Only these may use the static marketing palette (`text-cream`,
+ *   `text-mint`, `bg-peach` for counts) directly; everything else goes through
+ *   the tokens below.
+ *
+ *   `--elevate` is the shadow floating things wear: ink-tinted in light mode;
+ *   in dark mode a deeper black one plus a one-pixel inner highlight along the
+ *   top edge — without it a dark card has no edge at all.
  *
  * IF YOU RETUNE
- *   The pairs held to WCAG AA (4.5:1) are: text on bg, on surface, and on
- *   surface-elevated; each status on its own `-muted` fill, on a card, and on
- *   the page; the accent as text on all three surfaces; `accent-contrast` on
- *   `accent`; and `accent-solid-contrast` on `accent-solid`. That is 32 pairs
- *   per theme and every one clears AA — the tightest are success on its own
- *   fill at 4.72:1 in light, and warning on its own at 5.43:1 in dark.
+ *   Run `node scripts/theme.check.mjs src/styles/theme.css`. It checks, per
+ *   theme, every pair below against WCAG AA and exits non-zero on a failure:
+ *     4.5:1  text-primary, text-muted, accent and each status colour on bg,
+ *            surface, surface-muted, surface-hover, surface-elevated and
+ *            surface-elevated-hover; text-primary, text-muted and accent on
+ *            each tint; each status on its own -muted fill; accent on
+ *            accent-muted(-hover); accent-contrast on accent(-hover);
+ *            accent-solid-contrast on accent-solid(-hover); brand-contrast on
+ *            brand.
+ *     3:1    ring on bg and surface-elevated; border-strong on bg,
+ *            surface-elevated and field (input edges are UI components).
  *
  *   The general rule these values follow: LIGHT mode takes the 700/800-level
  *   for anything that is read (text, status, accent) and the 50/100-level for
- *   the fills behind them; DARK mode inverts that — 300/400-level ink on
- *   900/950-level fills. Using the same 500 for both is what made the first
- *   pass unreadable in light mode.
+ *   the fills behind them; DARK mode inverts that — 200/300-level ink on
+ *   900/950-level fills.
  */
 :root {
   color-scheme: light;
-  /* ── surfaces ─────────────────────────────────────────────────────────── *
-   * The page is the tint and the card is the white, not the other way round.
-   * That inversion is what lets a card read as raised with no border on it.  */
-  --bg: #eaf1fb;
+  /* ── surfaces ─────────────────────────────────────────────────────────── */
+  --bg: #f4f5f9;
   --surface: #ffffff;
-  --surface-muted: #f7faff;
-  --surface-hover: #dfe8fa;
+  --surface-muted: #f0f2f7;
+  --surface-hover: #e9ecf3;
   --surface-elevated: #ffffff;
-  --surface-elevated-hover: #f4f8ff;
-  --surface-elevated-muted: #eaf1fb;
+  --surface-elevated-hover: #f8f9fc;
+  --surface-elevated-muted: #eef0f6;
+  --field: #f7f8fb;
+  --field-focus: #ffffff;
+  --tint-lavender: #eceaf6;
+  --tint-mint: #e1f0ee;
+  --tint-slate: #eef0f5;
+  --tint-peach: var(--tint-lavender);
+  --tint-sand: var(--tint-slate);
+  --skeleton: #e6e9f0;
+  --skeleton-shine: rgb(255 255 255 / 0.65);
+  --overlay: rgb(21 13 61 / 0.42);
   /* ── elevation ────────────────────────────────────────────────────────── */
-  --elevate: 0 1px 2px -1px rgb(10 26 60 / 0.08), 0 8px 20px -6px rgb(10 26 60 / 0.16);
-  --elevate-hover: 0 2px 6px -2px rgb(10 26 60 / 0.12), 0 16px 32px -10px rgb(10 26 60 / 0.24);
+  --elevate: 0 1px 2px rgb(21 13 61 / 0.04), 0 12px 32px -12px rgb(21 13 61 / 0.16);
+  --elevate-hover: 0 28px 60px -20px rgb(21 13 61 / 0.28), 0 0 0 1px rgb(21 13 61 / 0.06);
+  --pop: 0 24px 48px -12px rgb(21 13 61 / 0.28), 0 0 0 1px rgb(21 13 61 / 0.08);
+  --accent-glow: inset 0 1px 0 rgb(255 255 255 / 0.18), 0 12px 28px -10px rgb(21 13 61 / 0.55);
   /* ── borders ──────────────────────────────────────────────────────────── *
-   * Chrome hairlines and input outlines only. Cards and tiles are separated
-   * by elevation, never by a rule.                                          */
-  --border: #c7d6f0;
-  --border-muted: #dfe8fa;
+   * `border` and `border-muted` are decorative hairlines. `border-strong` is
+   * the edge of an input or checkbox, which WCAG counts as a UI component and
+   * holds to 3:1.                                                          */
+  --border: #e1e4ec;
+  --border-muted: #ebedf3;
+  --border-strong: #82879f;
   /* ── text ─────────────────────────────────────────────────────────────── */
-  --text-primary: #0a1a3c;
-  --text-muted: #4a5e85;
+  --text-primary: #150d3d;
+  --text-muted: #555a75;
   /* ── status ───────────────────────────────────────────────────────────── *
    * Each pair is ink and the tinted fill it sits on: a pill is
    * `bg-danger-muted text-danger` in both themes.                           */
-  --success: #047857;
-  --success-muted: #d6f5e7;
-  --warning: #a14a07;
-  --warning-muted: #fef5e3;
-  --danger: #be123c;
-  --danger-muted: #ffe1e7;
-  /* ── accent ───────────────────────────────────────────────────────────── *
-   * `--accent-contrast` is the text ON the accent. It is a separate token
-   * because it does not follow the theme: a dark accent needs a white label
-   * and a light one needs a near-black label, whichever mode you are in.
-   *
-   * `--accent-solid` is the second accent role: the brand FILL, for the stat
-   * tiles and the active nav item. It stays dark navy in both themes, unlike
-   * `--accent`, which has to go light in dark mode to stay readable as text.
-   * The split exists because those two surfaces carry fixed-colour SVG icons
-   * loaded through <img> — CSS cannot recolour them, so the fill under them
-   * has to stay dark whichever theme is on.                                  */
-  --accent: #14306e;
-  --accent-hover: #1e4396;
-  --accent-muted: #dce7fb;
+  --success: #2f6b58;
+  --success-muted: #e1f0ee;
+  --warning: #7a5c22;
+  --warning-muted: #f6efdf;
+  --danger: #a3364f;
+  --danger-muted: #f8eaee;
+  /* ── accent ───────────────────────────────────────────────────────────── */
+  --accent: #3d3660;
+  --accent-hover: #150d3d;
+  --accent-muted: #eceaf6;
+  --accent-muted-hover: #e2dff0;
   --accent-contrast: #ffffff;
-  --accent-solid: #14306e;
+  --accent-solid: #150d3d;
+  --accent-solid-hover: #231a52;
   --accent-solid-contrast: #ffffff;
+  --accent-vivid: #64a893;
+  --ring: #6a62a8;
+  /* ── brand (theme-invariant ink) ──────────────────────────────────────── */
+  --brand: #150d3d;
+  --brand-contrast: #fbf8f3;
   /* ── charts ───────────────────────────────────────────────────────────── *
    * A canvas cannot inherit a custom property, so these are read in JS by
-   * useThemeTokens and handed to Chart.js. `--chart-1` is the accent, so the
-   * first series of every chart follows the brand colour. 2–6 stay inside the
-   * navy ramp and alternate light/dark, which is what keeps neighbouring pie
-   * slices apart now that they no longer differ in hue.                      */
-  --chart-1: var(--accent);
-  --chart-2: #7fb0ff;
-  --chart-3: #2c5cc5;
-  --chart-4: #b4d0ff;
-  --chart-5: #4c8def;
-  --chart-6: #0a1a3c;
-  --chart-grid: var(--border);
+   * useThemeTokens and handed to Chart.js. The ramp is the cool half of the
+   * landing palette, ordered (with the dataviz validator) so neighbouring
+   * series stay apart for colour-blind and full-colour readers alike. The
+   * tones are deliberately low-chroma, so a chart with several series also
+   * needs direct labels or a legend, never colour alone. The three semantic aliases are for
+   * data that carries meaning (active vs suspended), which should never
+   * borrow a brand colour.                                                   */
+  --chart-1: #3d3660;
+  --chart-2: #64a893;
+  --chart-3: #c9c3e8;
+  --chart-4: #150d3d;
+  --chart-5: #9c93d1;
+  --chart-6: #aed5d1;
+  --chart-positive: var(--success);
+  --chart-negative: var(--danger);
+  --chart-neutral: #cbd0dc;
+  --chart-grid: rgb(21 13 61 / 0.08);
   --chart-tick: var(--text-muted);
 }
 
 .dark {
   color-scheme: dark;
   /* ── surfaces ─────────────────────────────────────────────────────────── */
-  --bg: #070d1f;
-  --surface: #0e1932;
-  --surface-muted: #0a1427;
-  --surface-hover: #1b2c55;
-  --surface-elevated: #142443;
-  --surface-elevated-hover: #1c3054;
-  --surface-elevated-muted: #101d38;
+  --bg: #0d1020;
+  --surface: #131729;
+  --surface-muted: #0f1324;
+  --surface-hover: #1e2440;
+  --surface-elevated: #151a2e;
+  --surface-elevated-hover: #1c2239;
+  --surface-elevated-muted: #121628;
+  --field: #0f1326;
+  --field-focus: #151a2e;
+  --tint-lavender: #1e1e3c;
+  --tint-mint: #10292f;
+  --tint-slate: #1a1f36;
+  --tint-peach: var(--tint-lavender);
+  --tint-sand: var(--tint-slate);
+  --skeleton: #1f2540;
+  --skeleton-shine: rgb(255 255 255 / 0.06);
+  --overlay: rgb(4 6 16 / 0.66);
   /* ── elevation ────────────────────────────────────────────────────────── */
   --elevate: inset 0 1px 0 rgb(255 255 255 / 0.05), 0 1px 2px -1px rgb(0 0 0 / 0.7), 0 10px 26px -8px rgb(0 0 0 / 0.75);
   --elevate-hover: inset 0 1px 0 rgb(255 255 255 / 0.08), 0 2px 6px -2px rgb(0 0 0 / 0.75), 0 18px 38px -12px rgb(0 0 0 / 0.85);
+  --pop: inset 0 1px 0 rgb(255 255 255 / 0.06), 0 24px 48px -12px rgb(0 0 0 / 0.8), 0 0 0 1px rgb(255 255 255 / 0.06);
+  --accent-glow: inset 0 1px 0 rgb(255 255 255 / 0.35), 0 12px 28px -10px rgb(201 195 232 / 0.35);
   /* ── borders ──────────────────────────────────────────────────────────── */
-  --border: #24375f;
-  --border-muted: #17243f;
+  --border: #262c47;
+  --border-muted: #1a1f36;
+  --border-strong: #6e7499;
   /* ── text ─────────────────────────────────────────────────────────────── */
-  --text-primary: #eaf0fc;
-  --text-muted: #9aacd0;
+  --text-primary: #eef0f7;
+  --text-muted: #a9aec6;
   /* ── status ───────────────────────────────────────────────────────────── */
-  --success: #34d399;
-  --success-muted: #073b2c;
-  --warning: #fbbf24;
-  --warning-muted: #78350f;
-  --danger: #fb7185;
-  --danger-muted: #4c0a1b;
+  --success: #7fcdb3;
+  --success-muted: #0f2f2b;
+  --warning: #e3c27f;
+  --warning-muted: #2b2412;
+  --danger: #f49aae;
+  --danger-muted: #33141f;
   /* ── accent ───────────────────────────────────────────────────────────── */
-  --accent: #7fb0ff;
-  --accent-hover: #a9c8ff;
-  --accent-muted: #172b52;
-  --accent-contrast: #06101f;
-  /* lighter than light mode's, so the tile still lifts off a near-black page */
-  --accent-solid: #2c5cc5;
-  --accent-solid-contrast: #ffffff;
+  --accent: #c9c3e8;
+  --accent-hover: #e9e4f5;
+  --accent-muted: #24234a;
+  --accent-muted-hover: #2c2b57;
+  --accent-contrast: #150d3d;
+  --accent-solid: #c9c3e8;
+  --accent-solid-hover: #dad5f0;
+  --accent-solid-contrast: #150d3d;
+  --accent-vivid: #7fcdb3;
+  --ring: #a9a1db;
+  /* ── brand (theme-invariant ink) ──────────────────────────────────────── */
+  --brand: #150d3d;
+  --brand-contrast: #fbf8f3;
   /* ── charts ───────────────────────────────────────────────────────────── */
-  --chart-1: var(--accent);
-  --chart-2: #1d3f8f;
-  --chart-3: #b4d0ff;
-  --chart-4: #2c5cc5;
-  --chart-5: #dceaff;
-  --chart-6: #4c8def;
-  --chart-grid: var(--border);
+  --chart-1: #9c93d1;
+  --chart-2: #e9e4f5;
+  --chart-3: #64a893;
+  --chart-4: #c9c3e8;
+  --chart-5: #6a62a8;
+  --chart-6: #7fcdb3;
+  --chart-positive: var(--success);
+  --chart-negative: var(--danger);
+  --chart-neutral: #2e3452;
+  --chart-grid: rgb(238 240 247 / 0.08);
   --chart-tick: var(--text-muted);
 }

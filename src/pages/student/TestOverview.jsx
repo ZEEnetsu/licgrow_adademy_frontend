@@ -121,7 +121,7 @@ const TestOverview = () => {
             <button
               type="button"
               onClick={resume}
-              className="px-6 py-3 rounded-md bg-accent/20 text-accent font-medium hover:bg-accent/30 transition-colors cursor-pointer"
+              className="px-6 py-3 rounded-md bg-accent-muted text-accent font-medium hover:bg-accent-muted-hover transition-colors cursor-pointer"
             >
               Resume your attempt
             </button>

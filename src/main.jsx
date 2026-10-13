@@ -35,10 +35,7 @@ import Leaderboard from "./pages/student/Leaderboard.jsx";
 import Announcements from "./pages/student/Announcements.jsx";
 import Admin from "./pages/Admin/Admin.jsx";
 import Dashboard from "./pages/Admin/pages/Dashboard.jsx";
-import Notification from "./pages/Admin/pages/Notification.jsx";
-import Test from "./pages/Admin/pages/test/Test.jsx";
-import ViewAllTest from "./pages/Admin/pages/test/ViewAllTest.jsx";
-import TestOverview from "./pages/Admin/pages/test/TestOverview.jsx";
+import TestList from "./pages/Admin/pages/test/TestList.jsx";
 import TestDetail from "./pages/Admin/pages/test/TestDetail.jsx";
 import BatchList from "./pages/Admin/pages/batch/BatchList.jsx";
 import BatchDetail from "./pages/Admin/pages/batch/BatchDetail.jsx";
@@ -49,6 +46,7 @@ import AnnouncementManager from "./pages/Admin/pages/announcement/AnnouncementMa
 import Governance from "./pages/Admin/pages/governance/Governance.jsx";
 import CourseList from "./pages/Admin/pages/course/CourseList.jsx";
 import CourseDetail from "./pages/Admin/pages/course/CourseDetail.jsx";
+import { BatchCrumb, CourseCrumb, LearnerCrumb, TestCrumb } from "./pages/Admin/shell/crumbs.jsx";
 import { store } from "./app/store.js";
 import { ACTOR } from "./app/features/auth/permissions.js";
 import SmoothScrolling from "./hooks/SmoothScrolling.jsx";
@@ -90,47 +88,75 @@ const router = createBrowserRouter([
           {
             path: "/admin",
             element: <Admin />,
+            // `handle.crumb` feeds the header breadcrumbs (and document.title,
+            // from the last string crumb); a function crumb renders a
+            // component that reads the entity's name from the RTK cache
+            handle: { crumb: "Admin" },
             children: [
               // landing on /admin used to render an empty shell
               { index: true, element: <Navigate to="overview" replace /> },
-              { path: "overview", element: <Dashboard /> },
+              { path: "overview", element: <Dashboard />, handle: { crumb: "Dashboard" } },
               {
                 path: "manage-users",
+                handle: { crumb: "Learners" },
                 children: [
                   { index: true, element: <LearnerList /> },
-                  { path: ":learnerId", element: <LearnerDetail /> },
+                  {
+                    path: ":learnerId",
+                    element: <LearnerDetail />,
+                    handle: { crumb: (match) => <LearnerCrumb id={match.params.learnerId} /> },
+                  },
                 ],
               },
-              { path: "enrollments", element: <EnrollmentQueue /> },
-              { path: "announcements", element: <AnnouncementManager /> },
-              { path: "administrators", element: <Governance /> },
-              { path: "notifications", element: <Notification /> },
-              { path: "test-history", element: <ViewAllTest /> },
+              { path: "enrollments", element: <EnrollmentQueue />, handle: { crumb: "Enrollments" } },
+              { path: "announcements", element: <AnnouncementManager />, handle: { crumb: "Announcements" } },
+              { path: "administrators", element: <Governance />, handle: { crumb: "Administrators" } },
+              // retired routes: the old debug stub and a duplicate test list
+              { path: "notifications", element: <Navigate to="/admin/overview" replace /> },
+              { path: "test-history", element: <Navigate to="/admin/manage-test" replace /> },
               {
                 path: "manage-test",
-                element: <Test />,
+                handle: { crumb: "Tests" },
                 children: [
-                  { index: true, element: <TestOverview /> },
-                  { path: "view-all-test", element: <ViewAllTest /> },
-                  { path: "tests/:testId", element: <TestDetail /> },
+                  { index: true, element: <TestList /> },
+                  // the old "view all" page is the list itself now
+                  { path: "view-all-test", element: <Navigate to="/admin/manage-test" replace /> },
+                  {
+                    path: "tests/:testId",
+                    element: <TestDetail />,
+                    handle: { crumb: (match) => <TestCrumb id={match.params.testId} /> },
+                  },
                 ],
               },
               {
                 path: "manage-batch",
+                handle: { crumb: "Batches" },
                 children: [
                   { index: true, element: <BatchList /> },
-                  { path: ":batchId", element: <BatchDetail /> },
+                  {
+                    path: ":batchId",
+                    element: <BatchDetail />,
+                    handle: { crumb: (match) => <BatchCrumb id={match.params.batchId} /> },
+                  },
                 ],
               },
               {
                 // sibling routes, not parent/child: the old shape had the
                 // parent branch on a :courseId param it could never see
                 path: "manage-course",
+                handle: { crumb: "Courses" },
                 children: [
                   { index: true, element: <CourseList /> },
-                  { path: ":courseId", element: <CourseDetail /> },
+                  {
+                    path: ":courseId",
+                    element: <CourseDetail />,
+                    handle: { crumb: (match) => <CourseCrumb id={match.params.courseId} /> },
+                  },
                 ],
               },
+              // an unknown admin URL stays in the admin instead of falling
+              // through to the root catch-all (the landing page)
+              { path: "*", element: <Navigate to="/admin/overview" replace /> },
             ],
           },
         ],

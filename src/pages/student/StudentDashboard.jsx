@@ -68,7 +68,7 @@ const StudentDashboard = () => {
         action={
           <NavLink
             to="/student/browse"
-            className="inline-block px-4 py-2 rounded-md bg-accent/20 text-accent text-sm font-medium hover:bg-accent/30 transition-colors"
+            className="inline-block px-4 py-2 rounded-md bg-accent-muted text-accent text-sm font-medium hover:bg-accent-muted-hover transition-colors"
           >
             Browse batches →
           </NavLink>

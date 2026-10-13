@@ -1,147 +1,100 @@
 import { breakdown } from "../../../../app/utils/statusBreakdown.js";
-import { PERMISSIONS } from "../../../../app/features/auth/permissions.js";
 
 /**
  * Data layer for the admin dashboard — `api-contracts/13-analytics.md` §1.
  *
  * Turns the platform-analytics payload into the exact shape the view renders.
  * Every decision that is *about the data* lives here: which statuses roll up
- * into a caption, when a figure is a dash instead of a number, when the review
- * link is worth showing, which slices are non-zero.
+ * into a caption, when a figure is a dash instead of a number, how a total
+ * splits into bar segments.
  *
- * Deliberately free of React and of asset imports — icons are named, not
- * imported — so this can be exercised as a plain function with no DOM and no
- * bundler. When the real backend replaces the mock, this file is where a
- * payload change lands, and the view does not move.
+ * Deliberately free of React — icons and tones are named, not imported — so
+ * it can be exercised as a plain function. When the real backend replaces the
+ * mock, this file is where a payload change lands, and the view does not move.
  */
 
-/** `1 pending request` / `2 pending requests`. */
-const plural = (count, noun) => `${count} ${noun}${count === 1 ? "" : "s"}`;
+/**
+ * Segments of a whole, for a proportion bar. Anything the named parts don't
+ * cover becomes an "Other" segment so the bar always sums to the total; zero
+ * segments are dropped (a 0-width segment would still carry a legend entry).
+ */
+const segments = (total, parts, otherLabel) => {
+  const named = parts.filter((part) => part.value > 0);
+  const other = total - parts.reduce((sum, part) => sum + part.value, 0);
+  if (other > 0) named.push({ key: "other", label: otherLabel, value: other, tone: "neutral" });
+  return named.map((part) => ({ ...part, pct: total > 0 ? (part.value / total) * 100 : 0 }));
+};
 
-/** Chart.js draws a zero slice as an invisible wedge with a live legend entry. */
-const slices = (pairs) =>
-  pairs
-    .filter(([, value]) => value > 0)
-    .map(([label, value]) => ({ label, value }));
-
-export const toDashboardViewModel = ({
-  learners,
-  batches,
-  content,
-  enrollments,
-  activity,
-}) => ({
+export const toDashboardViewModel = ({ learners, batches, content, enrollments, activity }) => ({
+  // Four plain cards; only the icon chips alternate lavender and mint.
   stats: [
     {
       key: "learners",
-      icon: "learners",
-      title: "Learners",
+      label: "Learners",
+      icon: "users",
+      tone: "default",
+      chip: "lavender",
       value: learners.total,
-      caption: breakdown(
-        learners.total,
-        [
-          [learners.active, "active"],
-          [learners.suspended, "suspended"],
-        ],
-        "other",
-      ),
+      to: "/admin/manage-users",
+      caption: breakdown(learners.total, [[learners.active, "active"], [learners.suspended, "suspended"]], "other"),
     },
     {
       key: "batches",
-      icon: "batches",
-      title: "Batches",
+      label: "Batches",
+      icon: "layers",
+      tone: "default",
+      chip: "mint",
       value: batches.total,
-      caption: breakdown(
-        batches.total,
-        [
-          [batches.active, "active"],
-          [batches.archived, "archived"],
-        ],
-        "draft",
-      ),
+      to: "/admin/manage-batch",
+      caption: breakdown(batches.total, [[batches.active, "active"], [batches.archived, "archived"]], "draft"),
     },
     {
       key: "courses",
-      icon: "courses",
-      title: "Courses",
+      label: "Courses",
+      icon: "book",
+      tone: "default",
+      chip: "lavender",
       value: content.courses,
-      caption: `${content.quizzes} unit quizzes`,
+      to: "/admin/manage-course",
+      caption: content.quizzes > 0 ? `${content.quizzes} unit quizzes inside` : "No unit quizzes yet",
     },
     {
       key: "tests",
-      icon: "tests",
-      title: "Tests",
+      label: "Tests",
+      icon: "clipboardCheck",
+      tone: "default",
+      chip: "mint",
       value: content.tests,
-      caption: "full-length papers",
+      to: "/admin/manage-test",
+      caption: "Full-length papers",
     },
   ],
 
-  // Paired by row: two figure panels, then two charts. Order here is the order
-  // on screen, so rebalancing the page is a reordering rather than a rewrite.
-  panels: [
-    {
-      key: "activity",
-      kind: "figures",
-      title: "Last 30 days",
-      figures: [
-        { label: "Attempts recorded", value: activity.attemptsLast30d },
-        {
-          label: "Average score",
-          // the contract returns null, not 0, when nothing has been sat yet —
-          // and 0% would be a claim about performance rather than about data
-          value:
-            activity.avgScorePctLast30d === null
-              ? "—"
-              : `${activity.avgScorePctLast30d}%`,
-          tone: "accent",
-        },
+  activity: {
+    attempts: activity.attemptsLast30d,
+    // the contract returns null, not 0, when nothing has been sat yet — and 0%
+    // would be a claim about performance rather than about data
+    avgScore: activity.avgScorePctLast30d,
+    approved: enrollments.approvedLast30d,
+    pending: enrollments.pending,
+    empty: activity.attemptsLast30d === 0,
+  },
+
+  accounts: {
+    total: learners.total,
+    segments: segments(
+      learners.total,
+      [
+        { key: "active", label: "Active", value: learners.active, tone: "positive" },
+        { key: "suspended", label: "Suspended", value: learners.suspended, tone: "negative" },
       ],
-      note:
-        activity.attemptsLast30d === 0
-          ? "No attempts yet — figures appear once learners start sitting tests."
-          : null,
-    },
-    {
-      key: "enrollment",
-      kind: "figures",
-      title: "Enrollment",
-      figures: [
-        { label: "Awaiting review", value: enrollments.pending, tone: "accent" },
-        { label: "Approved (30d)", value: enrollments.approvedLast30d },
-      ],
-      link:
-        enrollments.pending > 0
-          ? {
-              to: "/admin/enrollments",
-              label: `Review ${plural(enrollments.pending, "pending request")}`,
-              perm: PERMISSIONS.ENROLLMENT_REVIEW,
-            }
-          : null,
-    },
-    {
-      key: "accounts",
-      kind: "chart",
-      title: "Learner accounts",
-      chart: {
-        type: "doughnut",
-        slices: slices([
-          ["Active", learners.active],
-          ["Suspended", learners.suspended],
-        ]),
-      },
-    },
-    {
-      key: "content",
-      kind: "chart",
-      title: "Content mix",
-      chart: {
-        type: "pie",
-        slices: slices([
-          ["Courses", content.courses],
-          ["Tests", content.tests],
-          ["Quizzes", content.quizzes],
-        ]),
-      },
-    },
+      "Other",
+    ),
+  },
+
+  content: [
+    { key: "courses", label: "Courses", value: content.courses, to: "/admin/manage-course" },
+    { key: "tests", label: "Tests", value: content.tests, to: "/admin/manage-test" },
+    { key: "quizzes", label: "Unit quizzes", value: content.quizzes, to: "/admin/manage-course" },
   ],
 });

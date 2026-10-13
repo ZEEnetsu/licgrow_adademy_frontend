@@ -79,7 +79,7 @@ const Leaderboard = () => {
       </div>
 
       {data.me && (
-        <div className="mt-4 flex items-center gap-4 rounded-md border border-accent/40 bg-accent/10 px-4 py-2.5">
+        <div className="mt-4 flex items-center gap-4 rounded-md border border-accent/40 bg-accent-muted px-4 py-2.5">
           <span className="w-8 text-sm font-mono text-accent">#{data.me.rank}</span>
           <span className="flex-1 text-sm text-text-primary">You</span>
           <span className="text-sm font-semibold text-accent">
