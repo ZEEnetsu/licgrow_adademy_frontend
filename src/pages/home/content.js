@@ -122,12 +122,12 @@ export const DREAMS = {
     en: 'Close your eyes for a moment. What does a good life look like for you and your family?',
   },
   items: [
-    { icon: 'house', tone: 'peach', text: { hi: 'एक बंगला', en: 'A bungalow' } },
-    { icon: 'car', tone: 'mint', text: { hi: 'एक कार', en: 'A car' } },
-    { icon: 'office', tone: 'sand', text: { hi: 'आपका अपना ऑफिस', en: 'Your own office' } },
-    { icon: 'globe', tone: 'plum', text: { hi: 'परिवार के साथ विदेश यात्राएँ', en: 'Foreign trips with your family' } },
-    { icon: 'sun', tone: 'sage', text: { hi: 'रिटायरमेंट के बाद शानदार ज़िंदगी', en: 'A great retired life' } },
-    { icon: 'coins', tone: 'ember', text: { hi: '…और हाथ में भरपूर पैसा', en: '…with plenty of money' } },
+    { icon: 'house', art: 'bungalow', tone: 'peach', text: { hi: 'एक बंगला', en: 'A bungalow' } },
+    { icon: 'car', art: 'car', tone: 'mint', text: { hi: 'एक कार', en: 'A car' } },
+    { icon: 'office', art: 'office', tone: 'sand', text: { hi: 'आपका अपना ऑफिस', en: 'Your own office' } },
+    { icon: 'globe', art: 'trips', tone: 'plum', text: { hi: 'परिवार के साथ विदेश यात्राएँ', en: 'Foreign trips with your family' } },
+    { icon: 'sun', art: 'retired', tone: 'sage', text: { hi: 'रिटायरमेंट के बाद शानदार ज़िंदगी', en: 'A great retired life' } },
+    { icon: 'coins', art: 'money', tone: 'ember', text: { hi: '…और हाथ में भरपूर पैसा', en: '…with plenty of money' } },
   ],
 };
 
@@ -304,6 +304,7 @@ export const WHO = {
   people: [
     {
       icon: 'cap',
+      art: 'student',
       tone: 'mint',
       title: { hi: 'छात्र और पहली नौकरी वाले', en: 'Students and first-jobbers' },
       body: {
@@ -314,6 +315,7 @@ export const WHO = {
     },
     {
       icon: 'users',
+      art: 'homemaker',
       tone: 'peach',
       title: { hi: 'गृहिणियाँ', en: 'Homemakers' },
       body: {
@@ -324,6 +326,7 @@ export const WHO = {
     },
     {
       icon: 'briefcase',
+      art: 'working',
       tone: 'sand',
       title: { hi: 'नौकरीपेशा लोग', en: 'Working people' },
       body: {
@@ -334,6 +337,7 @@ export const WHO = {
     },
     {
       icon: 'store',
+      art: 'business',
       tone: 'sage',
       title: { hi: 'छोटे व्यापारी', en: 'Small-business owners' },
       body: {
@@ -344,6 +348,7 @@ export const WHO = {
     },
     {
       icon: 'heart',
+      art: 'retiree',
       tone: 'plum',
       title: { hi: 'रिटायर लोग — दिल से जवान', en: 'Retirees — young at heart' },
       body: {
@@ -521,7 +526,7 @@ export const EXPLORE = {
     en: 'A career that gives you not just an income, but a life full of experiences.',
   },
   hero: {
-    src: '/site-assets/ddl-kedarnath.jpg',
+    src: '/tourism2.jpg',
     alt: {
       hi: 'सूर्योदय के समय केदारनाथ मंदिर, पीछे बर्फ़ से ढकी हिमालय की चोटियाँ और सामने बहती पहाड़ी धारा',
       en: 'Kedarnath temple at sunrise, with snow-capped Himalayan peaks and a mountain stream in front',

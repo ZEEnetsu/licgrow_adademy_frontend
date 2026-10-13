@@ -21,3 +21,13 @@ export const TONE_ICON = {
   white: 'bg-ink text-cream',
   ink: 'bg-ember text-white',
 };
+
+/* fills for the line-art illustrations: a soft wash plus one stronger accent */
+export const TONE_ART = {
+  peach: { soft: 'fill-peach/45', accent: 'fill-ember/70' },
+  mint: { soft: 'fill-mint/60', accent: 'fill-sage' },
+  sand: { soft: 'fill-white/80', accent: 'fill-peach' },
+  sage: { soft: 'fill-sage/25', accent: 'fill-sage' },
+  plum: { soft: 'fill-plum/12', accent: 'fill-plum/70' },
+  ember: { soft: 'fill-ember/12', accent: 'fill-ember/80' },
+};

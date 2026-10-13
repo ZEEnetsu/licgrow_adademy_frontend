@@ -9,10 +9,12 @@ import { useMedia, useProgress } from '../../../components/motion/primitives.js'
 import { Eyebrow } from '../../../components/ui/atoms.jsx';
 import { TONE_BG, TONE_ICON } from '../../../components/ui/tones.js';
 import Icon from '../../../components/ui/Icon.jsx';
+import LineArt from '../art/LineArt.jsx';
+import { ART } from '../art/illustrations.js';
 
 const TILT = [-5, 4, -3, 5, -4, 3];
 
-function DreamCard({ item, index, className = '', style }) {
+function DreamCard({ item, index, className = '', style, draw }) {
   const { t } = useLang();
   return (
     <motion.div
@@ -27,6 +29,7 @@ function DreamCard({ item, index, className = '', style }) {
           {String(index + 1).padStart(2, '0')}
         </span>
       </div>
+      <LineArt art={ART[item.art]} tone={item.tone} progress={draw} className="my-2 min-h-0 w-full flex-1" />
       <p className="h-display text-[clamp(1.05rem,1.5vw,1.35rem)] font-bold text-ink">{t(item.text)}</p>
     </motion.div>
   );
@@ -39,7 +42,9 @@ function PinnedCard({ item, index, progress }) {
   const rotate = useTransform(progress, seg, [TILT[index] * 2.5, TILT[index] * 0.25]);
   const opacity = useTransform(progress, [a, a + 0.05], [0, 1]);
   const scale = useTransform(progress, seg, [0.88, 1]);
-  return <DreamCard item={item} index={index} style={{ y, rotate, opacity, scale }} />;
+  // the drawing traces itself in as the card settles onto the board
+  const draw = useTransform(progress, [a + 0.06, a + 0.2], [0, 1]);
+  return <DreamCard item={item} index={index} style={{ y, rotate, opacity, scale }} draw={draw} />;
 }
 
 /**

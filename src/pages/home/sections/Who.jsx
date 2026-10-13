@@ -9,6 +9,8 @@ import { EXPO } from '../../../components/motion/primitives.js';
 import { Eyebrow, TextLink } from '../../../components/ui/atoms.jsx';
 import { TONE_BG, TONE_ICON } from '../../../components/ui/tones.js';
 import Icon from '../../../components/ui/Icon.jsx';
+import LineArt from '../art/LineArt.jsx';
+import { ART } from '../art/illustrations.js';
 
 /**
  * Chapter 6 — who it is for.
@@ -16,6 +18,9 @@ import Icon from '../../../components/ui/Icon.jsx';
  * Large screens: a horizontal accordion. The focused or hovered persona
  * widens and opens; the others stay as slim labelled spines. Each spine is a
  * real button, so it works from the keyboard. Below lg the five stack open.
+ *
+ * Each persona has a line drawing. It keeps a fixed width, so a slim spine
+ * shows only its left slice and widening the card uncovers the rest.
  */
 export default function Who() {
   const { t } = useLang();
@@ -60,6 +65,13 @@ export default function Who() {
                 >
                   <span className="sr-only">{t(p.title)}</span>
                 </button>
+
+                <div
+                  aria-hidden
+                  className={`pointer-events-none absolute top-20 left-6 w-[15rem] transition-opacity duration-500 ease-out-expo ${on ? 'opacity-100' : 'opacity-55'}`}
+                >
+                  <LineArt art={ART[p.art]} tone={p.tone} className="w-full" />
+                </div>
 
                 <div className="pointer-events-none relative flex h-full flex-col p-6">
                   <div className="flex items-start justify-between">
@@ -112,7 +124,8 @@ export default function Who() {
               <span className={`grid h-11 w-11 place-items-center rounded-2xl ${TONE_ICON[p.tone]}`}>
                 <Icon name={p.icon} className="h-5 w-5" />
               </span>
-              <h3 className="h-display mt-5 text-2xl font-bold text-ink">{t(p.title)}</h3>
+              <LineArt art={ART[p.art]} tone={p.tone} className="mt-4 h-28 w-auto max-w-full" />
+              <h3 className="h-display mt-3 text-2xl font-bold text-ink">{t(p.title)}</h3>
               <p className="mt-2 leading-relaxed text-plum">{t(p.body)}</p>
               <TextLink to={p.link.to} className="mt-4">
                 {t(p.link.label)}
