@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-import ShieldMark from '../../components/ShieldMark.jsx';
+import LogoMark from '../../components/nav/LogoMark.jsx';
 import { useLang } from '../../i18n/index.js';
 import { NAV_PAGES, PAGES } from './sections.js';
 
@@ -73,7 +73,7 @@ export default function SiteFooter() {
         <div className="mt-16 grid gap-12 border-t border-white/10 pt-12 md:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1.2fr]">
           <div>
             <Link to="/" className="inline-flex items-center gap-2.5">
-              <ShieldMark />
+              <LogoMark className="h-6 text-ember" />
               <span className="font-display text-lg font-bold">
                 lic<span className="text-peach">grow</span>
               </span>

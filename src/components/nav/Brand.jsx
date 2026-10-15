@@ -101,7 +101,7 @@ function Name({ className, children }) {
 /**
  * Logo mark, name and the "By Rohit Lal · Development Officer, LIC" line —
  * the header's brand block, also used on the sign-in panels. `dark` is for
- * ink backgrounds.
+ * ink backgrounds, and switches the mark from ink to ember.
  *
  * The link owns the motion: it runs the `hidden` → `rest` entrance and the
  * `hover` / `tap` states, and every animated piece inside (BrandMark, the

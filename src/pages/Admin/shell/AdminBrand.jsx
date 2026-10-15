@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 
 import { cx } from "../../../components/admin/cx.js";
 import { EXPO } from "../../../components/motion/primitives.js";
+import LogoMark from "../../../components/nav/LogoMark.jsx";
 
 const MotionLink = motion.create(Link);
 
@@ -15,10 +16,8 @@ const MARK = {
 };
 
 /**
- * The rail's logo: the licgrow shield in the app's cool palette (an ink shield
- * on a lavender disc, ringed in mint) and the wordmark. The landing page's
- * BrandMark keeps its ember badge; the app portals stay cool, so the rail
- * draws its own mark rather than recolouring that one.
+ * The rail's logo: the licgrow mark in ember (the rail is always ink) and the
+ * wordmark. When the rail collapses only the mark stays visible.
  */
 export default function AdminBrand({ collapsed = false }) {
   return (
@@ -31,15 +30,8 @@ export default function AdminBrand({ collapsed = false }) {
       aria-label="licgrow admin — go to dashboard"
       className="flex min-w-0 items-center gap-3 rounded-2xl focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-mint"
     >
-      <motion.span
-        variants={MARK}
-        aria-hidden
-        className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-linear-to-br from-lavender to-lavender-deep text-ink shadow-soft ring-2 ring-mint/40"
-      >
-        <svg viewBox="0 0 24 24" className="h-5 w-5">
-          <path d="M12 2 4 5v7c0 6 8 10 8 10s8-4 8-10V5l-8-3z" fill="currentColor" />
-          <path d="m9 12 2 2 4-4" fill="none" className="stroke-lavender" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
+      <motion.span variants={MARK} aria-hidden className="grid h-10 shrink-0 place-items-center">
+        <LogoMark className="h-7 text-ember" />
       </motion.span>
       <span className={cx("min-w-0 transition-opacity duration-200", collapsed && "sr-only")}>
         <span className="block truncate font-display text-[17px] leading-tight font-extrabold tracking-tight text-cream">

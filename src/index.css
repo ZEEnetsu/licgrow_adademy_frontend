@@ -224,19 +224,6 @@
   --animate-drift: drifty 18s ease-in-out infinite;
   --animate-marquee: marquee 38s linear infinite;
   --animate-marquee-rev: marquee 44s linear infinite reverse;
-  /* the header logo: a comet arc circling the badge, and a light sweep across it */
-  --animate-orbit: orbit 7s linear infinite;
-  --animate-glint: glint 5.5s ease-in-out infinite;
-
-  @keyframes orbit {
-    to { transform: rotate(1turn); }
-  }
-
-  /* the sweep takes the first 30%, then the badge rests until the next pass */
-  @keyframes glint {
-    0% { transform: translateX(-160%) skewX(-18deg); }
-    30%, 100% { transform: translateX(260%) skewX(-18deg); }
-  }
 
   @keyframes floaty {
     0%, 100% { transform: translateY(0px); }
