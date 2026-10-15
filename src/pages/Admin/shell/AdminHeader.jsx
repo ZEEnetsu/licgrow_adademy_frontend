@@ -61,7 +61,7 @@ function Breadcrumbs() {
   const title = [...crumbs].reverse().find((match) => typeof match.handle.crumb === "string")?.handle.crumb;
 
   useEffect(() => {
-    document.title = title && title !== "Admin" ? `${title} · LICPro Admin` : "LICPro Admin";
+    document.title = title && title !== "Admin" ? `${title} · licgrow Admin` : "licgrow Admin";
   }, [title]);
 
   return (

@@ -30,7 +30,7 @@ const StudentLayout = () => {
             className="text-text-primary font-bold"
             style={{ fontFamily: '"Playwrite GB J", cursive' }}
           >
-            Licgroww.
+            licgrow
           </span>
 
           <nav className="flex gap-4 flex-1 overflow-x-auto whitespace-nowrap">

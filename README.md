@@ -1,6 +1,6 @@
-# LICPro Academy
+# licgrow
 
-Recruitment site and learning portal for LICPro Academy. React · Tailwind CSS · Framer Motion · Vite.
+Recruitment site and learning portal for licgrow. React · Tailwind CSS · Framer Motion · Vite.
 
 ## Quick start
 

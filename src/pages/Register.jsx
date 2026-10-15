@@ -73,7 +73,7 @@ const Register = () => {
 
   return (
     <AuthShell
-      title="Create your account · LICPro Academy"
+      title="Create your account · licgrow"
       headline="Get Started with Us"
       highlight="Started"
       sub="Free to start. You'll complete your profile next, then request a batch."

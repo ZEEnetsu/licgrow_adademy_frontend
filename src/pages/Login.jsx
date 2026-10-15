@@ -8,7 +8,7 @@ import Icon from "../components/ui/Icon.jsx";
 
 const Login = () => (
   <AuthShell
-    title="Sign in · LICPro Academy"
+    title="Sign in · licgrow"
     headline="Get Started with Us"
     highlight="Started"
     sub="Complete the login process to get to the Dashboard"

@@ -9,8 +9,8 @@ import BrandMark from './BrandMark.jsx';
 // Module scope, so the component identity is stable across renders.
 const MotionLink = motion.create(Link);
 
-const NAME = 'LICPro Academy';
-const PRO = [3, 4, 5];
+const NAME = 'licgrow';
+const ACCENT = [3, 4, 5, 6]; // "grow"
 
 const press = { rest: { scale: 1 }, hover: { scale: 1 }, tap: { scale: 0.97 } };
 
@@ -59,7 +59,7 @@ function useTilt(off) {
 /**
  * The name, letter by letter, each in its own mask with a copy parked below
  * it. On hover the letters roll up in a quick stagger and the copy, with
- * "Pro" in the accent, takes their place. Latin only, so splitting by
+ * "grow" in the accent, takes their place. Latin only, so splitting by
  * character is safe here (it would tear Devanagari apart).
  */
 function RollText({ accentClass, reduced }) {
@@ -74,7 +74,7 @@ function RollText({ accentClass, reduced }) {
             <span key={i} className="-my-[0.15em] inline-block overflow-hidden py-[0.15em] align-bottom">
               <motion.span className="relative inline-block" variants={roll} custom={i}>
                 {ch}
-                <span className={`absolute left-0 top-[1.6em] ${PRO.includes(i) ? accentClass : ''}`}>{ch}</span>
+                <span className={`absolute left-0 top-[1.6em] ${ACCENT.includes(i) ? accentClass : ''}`}>{ch}</span>
               </motion.span>
             </span>
           );

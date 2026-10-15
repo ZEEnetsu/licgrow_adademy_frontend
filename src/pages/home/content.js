@@ -14,7 +14,7 @@
 
 export const PHONE = { display: '9973055291', tel: 'tel:+919973055291' };
 export const PHONE_2 = { display: '8825361848', tel: 'tel:+918825361848' };
-export const EMAIL = 'lic.rohitlal@gmail.com';
+export const EMAIL = 'support@licgrow.com';
 
 export const COMMON = {
   callNow: { hi: 'अभी कॉल करें', en: 'Call now' },

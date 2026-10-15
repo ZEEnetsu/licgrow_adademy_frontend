@@ -89,7 +89,7 @@ const Governance = () => {
   if (!isSuperAdmin) {
     return (
       <>
-        <PageHeader {...HEADER} description="The people who run LICPro: staff admins, super admins and their roles." />
+        <PageHeader {...HEADER} description="The people who run licgrow: staff admins, super admins and their roles." />
         <EmptyState
           icon="lock"
           title="Restricted"

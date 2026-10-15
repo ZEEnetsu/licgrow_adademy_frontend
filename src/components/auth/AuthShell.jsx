@@ -51,7 +51,7 @@ export default function AuthShell({ title, headline, highlight, sub, note, cards
 
           <div className="relative">
             <Reveal y={10}>
-              <Eyebrow tone="dark">LICPro Academy portal</Eyebrow>
+              <Eyebrow tone="dark">licgrow portal</Eyebrow>
             </Reveal>
             <SplitText
               as="h1"

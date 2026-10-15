@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "LICPro Academy — landing page (restart baseline).",
+  "description": "licgrow — landing page (restart baseline).",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

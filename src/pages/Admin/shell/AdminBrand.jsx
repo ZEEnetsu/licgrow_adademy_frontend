@@ -15,7 +15,7 @@ const MARK = {
 };
 
 /**
- * The rail's logo: the LICPro shield in the app's cool palette (an ink shield
+ * The rail's logo: the licgrow shield in the app's cool palette (an ink shield
  * on a lavender disc, ringed in mint) and the wordmark. The landing page's
  * BrandMark keeps its ember badge; the app portals stay cool, so the rail
  * draws its own mark rather than recolouring that one.
@@ -28,7 +28,7 @@ export default function AdminBrand({ collapsed = false }) {
       animate="rest"
       whileHover="hover"
       whileTap="tap"
-      aria-label="LICPro Academy admin — go to dashboard"
+      aria-label="licgrow admin — go to dashboard"
       className="flex min-w-0 items-center gap-3 rounded-2xl focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-mint"
     >
       <motion.span
@@ -43,7 +43,7 @@ export default function AdminBrand({ collapsed = false }) {
       </motion.span>
       <span className={cx("min-w-0 transition-opacity duration-200", collapsed && "sr-only")}>
         <span className="block truncate font-display text-[17px] leading-tight font-extrabold tracking-tight text-cream">
-          LICPro <span className="text-mint">Academy</span>
+          lic<span className="text-mint">grow</span>
         </span>
         <span className="caps mt-1 inline-flex rounded-full bg-white/[0.08] px-2 py-0.5 text-[9.5px] font-bold text-mint">
           Admin console

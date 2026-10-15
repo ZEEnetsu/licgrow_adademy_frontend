@@ -1,6 +1,6 @@
 # Admin UI guidelines
 
-The rules for building screens in the LICPro admin console (`/admin`). They exist so every page looks, moves and behaves like the landing page and like every other admin page — without anyone re-deciding colours, spacing or loading states.
+The rules for building screens in the licgrow admin console (`/admin`). They exist so every page looks, moves and behaves like the landing page and like every other admin page — without anyone re-deciding colours, spacing or loading states.
 
 If a rule here gets in your way, change the rule here first (in the same PR), then the code.
 

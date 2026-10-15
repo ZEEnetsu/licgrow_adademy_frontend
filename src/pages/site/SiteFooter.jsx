@@ -75,7 +75,7 @@ export default function SiteFooter() {
             <Link to="/" className="inline-flex items-center gap-2.5">
               <ShieldMark />
               <span className="font-display text-lg font-bold">
-                LICPro <span className="text-peach">Academy</span>
+                lic<span className="text-peach">grow</span>
               </span>
             </Link>
             <ul className="mt-6 space-y-1.5 text-[15px] text-cream/70">
@@ -138,8 +138,8 @@ export default function SiteFooter() {
                 </a>
               </p>
               <p>
-                <a href="mailto:lic.rohitlal@gmail.com" className="text-cream/80 hover:text-peach">
-                  lic.rohitlal@gmail.com
+                <a href="mailto:support@licgrow.com" className="text-cream/80 hover:text-peach">
+                  support@licgrow.com
                 </a>
               </p>
               <p className="text-sm text-cream/60">{t(COPY.area)}</p>
